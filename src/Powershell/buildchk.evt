@@ -1,0 +1,7 @@
+ts=656 Merging config files using BUILD_CONFIG_FILE=c:\src.obj.amd64chk\objchk\amd64\build-exe-merged.config
+ts=1046 queue prebuild command
+ts=1046 run prebuild commands build_pre_process
+ts=1484 scanning focus directory c:\gitroot\tools\src\powershell
+ts=2343 scanning focus directory c:\gitroot\tools\src\powershell
+ts=2343 Processing makefil0 at NtRoot: versions
+ts=5937 PASS_INDEPENDENT processing complete.

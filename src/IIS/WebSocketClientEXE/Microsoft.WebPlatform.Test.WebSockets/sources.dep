@@ -1,0 +1,2 @@
+BUILD_PASS1_CONSUMES= \
+    testsrc\inetsrvtest\iis\tools\microsoft.webplatform.test\microsoft.webplatform.test.logging|PASS1 \

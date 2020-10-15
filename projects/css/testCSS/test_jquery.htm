@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+#test {
+    background-color: chartreuse;
+}
+
+#para1 {
+    outline-color: blue;
+}
+#para2 {
+    outline-color: yellow;
+}
+#para3 {
+    outline-color: red;
+}
+.para {
+    outline-style:dashed;
+    outline-width: 10px;
+    border-style: dashed;
+    border-color: black;
+    border-width: 4px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.btnActive {
+    background-color: blue;
+}
+
+.header {
+    font-size: 40px;
+}
+
+</style>
+</head>
+<body>
+
+
+<div class="para" id="para1">
+    <h1 class="header">test1</h1>
+    <p>Some text for this tutorial 1</p>
+</div>
+<div class="para" id="para2">
+    <h1 class="header">test2</h1>
+    <p>Some text for this tutorial 2</p>
+</div>
+<div class="para" id="para3">
+    <h1 class="header">test3</h1>
+    <p>Some <b>test</b>text for this tutorial 3</p>
+</div>
+
+<div id="test">
+    <button>Hit button to change something</button>
+</div>
+
+<ul>
+    <li>test</li>
+    <li id="showMe" hidden>test2 </li>
+</ul>
+
+
+<script src="./jquery-3.2.0.min/index.js"></script>
+<script>
+
+$(document).ready(function () {
+
+$("#showMe").fadeIn(3000).fadeOut(6000);
+
+$('button').click(function() { 
+    // $("div:not(#test, #para2)").hide();
+    // $("#para1 p:first").hide();
+    // $("div:even").hide();
+    // $("p:contains('2')").hide();
+    // $("p:has(b)").hide();
+    // $("ul li:nth-child(1)").hide()
+    // $("div:nth-child(2)").hide()
+    // $("li:empty").hide()
+    //$("#para1").css("color", "blue");
+    // $("#para1").css("border", "solid 2px red");
+    // $("#para1").css({"border":"solid 2px red", "color":"blue"});
+    // $("p").html("<h2>Tabbey Cats</h2"); 
+    // $("p").text("Tabbey Cats"); 
+    // $("#para1").css("color", "blue").css("border", "solid 2px blue").fadeOut("20000");
+    $("p:last").toggleClass("btnActive");
+});
+
+})
+
+</script>
+</body>
+</html>

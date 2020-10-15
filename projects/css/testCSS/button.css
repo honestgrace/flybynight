@@ -1,0 +1,74 @@
+/* show reverse by horizontal row */
+#bindingForm { display: flex; flex-direction: row-reverse; }
+
+/* show reverse by vertical column */
+#bindingForm { display: flex; flex-direction: column-reverse; }
+
+.button {
+background: #e7e7e7;
+border: 1px solid;
+border-radius: 3px;
+font: 700 13px Helvetica, Arial;
+height: 30px;
+line-height: 28px;
+padding: 0 20px;
+text-align: center;
+margin-right: 10px;
+box-sizing: border-box;
+}
+
+ul {
+padding: 0;
+list-style-type: none;
+}
+
+li {
+display: inline;
+}
+
+a {
+color: #666;
+text-decoration: none;
+float: left;
+}
+
+a:hover {
+color: #000;
+background-color: #dadada
+}
+
+#theForm {
+color:white;
+display: table;
+padding: 15px;
+background-color: #2C8F77;
+border: solid 2px black;
+}
+
+.row {
+display: table-row;
+}
+
+.row label {
+display: table-cell;
+padding: 2px;
+text-align: right;
+}
+
+.row input {
+display: table-cell;
+padding: 2px;
+}
+
+/* example of accessiblity issue 
+*:focus {
+outline: none;
+}
+*/
+
+/* how to fix the accessibility issue*/
+*:focus {
+outline: 2px solid #000000;
+}
+
+

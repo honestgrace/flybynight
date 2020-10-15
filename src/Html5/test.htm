@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset=utf-8>
+<title>My title</title>
+<meta name="description" content="fdsfdjl" />
+<meta name="keywords" content="html5,particles,canvas" />
+<meta name="viewport" content="width=device-width"/>
+<style>
+		  html, body {
+			  text-align: center;
+			  margin:0;
+			  padding:0;
+			  background: #000000;
+			  color: #666666;
+			  line-height: 1.25em;
+		  }
+		  #outer {
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  width: 1px;
+			  height: 1px;
+			  overflow: visible;
+		  } 
+		  #canvasContainer {
+			  position: absolute;
+			  width: 1000px;
+			  height: 560px;
+			  top: -280px;
+			  left: -500px;
+		  } 
+		  canvas {
+			  border: 1px solid #333333;
+		  } 
+</style>
+<script type="text/javascript">
+(
+function()
+{
+    function OnMouseMove(d)
+    {
+        d = d?d:window.event;
+        tempX = d.clientX - outer.offsetLeft - canvasContainer.offsetLeft;
+        tempY = d.clientY - outer.offsetTop  - canvasContainer.offsetTop
+    }
+    function OnMouseDown()
+    {
+        //total += 1;
+        x = Math.floor(tempX);
+        y = Math.floor(tempY);
+        return 0
+    }
+    function OnMouseUp()
+    {
+        return 0
+    }
+    function Draw()
+    {
+        context.globalCompositeOperation = "source-over";
+        var colurfill = "rgba(0, 0, 0, opacity)"; 
+        context.fillStyle = colurfill.replace("opacity", "0.1");
+        context.fillRect(0,0,width,height);
+        context.globalCompositeOperation = "lighter";
+
+        for(var o = total; o--; )
+        {
+            context.fillStyle = colour;
+
+            context.beginPath();
+
+            var diff = 1;
+            if (direction == 0)
+            {
+                x += diff;
+                y += diff;
+            }
+            if (direction == 1)
+            {
+                x += diff;
+                y -= diff;
+            }
+            if (direction == 2)
+            {
+                x -= diff;
+                y -= diff;
+            }
+            if (direction == 3)
+            {
+                x -= diff;
+                y += diff;
+            }
+
+            if (y >= height || x >= width || y <= 0 || x <= 0)
+            {
+                colour = "rgb(" + 
+                      Math.floor(255*Math.random()) + "," + 
+                      Math.floor(255*Math.random()) + "," + 
+                      Math.floor(255*Math.random())+")";
+
+                if (x <= width && y >= height)  // bottom line
+                {
+                    if (x <= 0 || Math.random() < 0.5)
+                    {
+                        direction = 1;
+                    } 
+                    else
+                    {
+                        direction = 2;
+                    }
+                } 
+                else if (x >= width && y <= height)  // right line
+                {
+                    if (y <= 0 || Math.random() < 0.5)
+                    {
+                        direction = 2;
+                    } 
+                    else
+                    {
+                        direction = 3;
+                    }
+                } 
+                else if (x <= width && y <= 0)  // top line
+                {
+                    if (x <= 0 || Math.random() < 0.5)
+                    {
+                        direction = 3;
+                    } 
+                    else
+                    {
+                        direction = 0;
+                    }
+                }
+                else if (x <= 0 && y <= height)  // left line
+                {
+                    if (y <= 0 || Math.random() < 0.5)
+                    {
+                        direction = 0;
+                    } 
+                    else
+                    {
+                        direction = 1;
+                    }
+                }                
+            }
+
+            var r = 20;
+            context.arc(x, y, r, 0*Math.PI, 2*Math.PI,0);
+            context.closePath();
+            context.fill()
+        }
+    }
+
+    var colour = "rgb(" + 
+                      Math.floor(255*Math.random()) + "," + 
+                      Math.floor(255*Math.random()) + "," + 
+                      Math.floor(255*Math.random())+")";
+    var tempX = 0;
+    var tempY = 0;
+    var width =       1E3;
+    var height =      560;
+    var total =       1;
+    var direction = 0;
+    var x = 0;
+    var y = 0;
+    x = Math.floor(width * Math.random());
+    y = Math.floor(height * Math.random());
+
+    window.onload = function()
+    {
+        canvas = document.getElementById("mainCanvas");
+        if(canvas.getContext)
+        {
+            outer =           document.getElementById("outer");
+            canvasContainer = document.getElementById("canvasContainer");
+
+            context = canvas.getContext("2d");
+            document.onmousedown = OnMouseDown;
+            document.onmouseup = OnMouseUp;
+            document.onmousemove = OnMouseMove;
+            setInterval(Draw, 1);
+        }
+        else
+        { 
+            document.getElementById("output").innerHTML="Sorry, needs a recent version of Chrome, Firefox, Opera, Safari, or Internet Explorer 9."
+        }
+    }
+}
+)();
+</script>
+</head>
+<body>
+<div id="outer">
+<div id="canvasContainer">
+<canvas id="mainCanvas" width="1000" height="560">
+</canvas>
+<div id="output">
+Interact with the mouse, occasionally click or hold down the mousebutton<br>
+</div>
+</div>
+</div>
+</body>
+</html>

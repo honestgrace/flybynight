@@ -1,0 +1,4 @@
+LIBRARY   "XARMDll.dll"
+
+EXPORTS
+    GetXaSwitch

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+body {
+  margin: 0px;
+  background-color: black;
+  color: white;
+}
+
+.piano {
+background-color: white;
+width: 14.1%;
+height: 14%;
+display: block;
+position: absolute;
+outline-style: ridge;
+outline-color: gray;
+}
+
+.piano_black {
+background-color:darkslategrey;
+width: 9%;
+height: 8.2%;
+display: block;
+position: absolute;
+outline-style: ridge;
+outline-color: gray;
+}
+
+#buttonControlPannel {
+  display: block;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  width: 50%;
+  height: 8.2%;
+}
+
+#controlPannel {
+  display: block;
+  position: absolute;
+  top: 80%;
+  width: 50%;
+}
+
+.pianoEnd {
+  clear: left;
+}
+
+.btnRed {
+  outline-color: grey;
+  background-color: #FF0000;
+}
+
+.btnGreen {
+  outline-color: grey;
+  background-color: greenyellow;
+}
+
+button {
+  padding: none;
+  height: 100%;
+  width: 40%;
+  background-color: greenyellow;
+  font-size: 20px;
+}
+
+#hintButton {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.rainbowButton {
+  -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);
+}
+
+</style>
+</head>
+<body>
+
+<div>
+    <span id="pianoGame"></span>
+</div>
+
+<div id="buttonControlPannel">
+    <button onclick='beep();' hidden>Beep</button>
+    <button onclick='play_repeat();' hidden>Repeat</button>
+    <button id="gameButton" onclick='play_random();'>Guess</button>
+    <button class="rainbowButton" id="hintButton" onclick='play_hint();' hidden>Hint</button>
+</div>
+
+<div id="controlPannel">
+    frequency
+    <input type="range" id="fIn" min="40" max="6000" oninput="show()" />
+    <span id="fOut"></span><br>
+    type
+    <input type="range" id="tIn" min="0" max="3" oninput="show()" />
+    <span id="tOut"></span><br>
+    volume
+    <input type="range" id="vIn" min="0" max="100" oninput="show()" />
+    <span id="vOut"></span><br>
+    duration
+    <input type="range" id="dIn" min="1" max="5000" oninput="show()" />
+    <span id="dOut"></span><br>
+</div>
+
+<script src="./jquery-3.2.0.min/index.js"></script>
+<script>
+
+//https://html-css-js.com/css/generator/box-shadow/
+//https://github.com/rserota/wad#microphone-input
+
+audioCtx = new(window.AudioContext || window.webkitAudioContext)();
+
+show();
+
+function show() {
+  frequency = document.getElementById("fIn").value;
+  document.getElementById("fOut").innerHTML = frequency + ' Hz';
+
+  switch (document.getElementById("tIn").value * 1) {
+    case 0: type = 'sine'; break;
+    case 1: type = 'square'; break;
+    case 2: type = 'sawtooth'; break;
+    case 3: type = 'triangle'; break;
+    case 4: type = 'na'; break;
+  }
+  document.getElementById("tOut").innerHTML = type;
+
+  volume = document.getElementById("vIn").value / 100;
+  document.getElementById("vOut").innerHTML = volume;
+
+  duration = document.getElementById("dIn").value;
+  document.getElementById("dOut").innerHTML = duration + ' ms';
+}
+
+var fff = -1;
+var repeat = -22;
+var rememberMe = -1;
+
+function play_repeat() {
+  repeat++;
+
+  if ((repeat+21)%12 == 1 || (repeat+21)%12 == 3 || (repeat+21)%12 == 6 || (repeat+21)%12 == 8 || (repeat+21)%12 == 10) {
+    repeat++;
+  }
+  fff = 440 * Math.pow(2, (repeat / 12));
+  
+  beep();
+  
+  $("#fOut").text(fff);
+
+  if (repeat == 27) { repeat = -22; } 
+  fff = -1;
+}
+
+$(document).ready(function () {
+  var mouseClicked = false;
+  function getTemplate(id) {
+    if (id>=48) {
+        return '<span class="piano pianoEnd" id=p' + id + '></span>';
+    } else {
+        if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+            return '<span class="piano_black" id=p' + id + '></span>';
+        } else {
+            return '<span class="piano" id=p' + id + '></span>';
+        }
+    }
+  }
+
+  function play(el) {
+    var id = (el.id).replace("p", "");
+    fff = 440 * Math.pow(2, ((id - 21) / 12));;
+    beep();
+    fff = -1;
+    if (id == window.rememberMe + 21)  {
+      $('#hintButton').fadeOut();
+      $("#"+ el.id).addClass("btnGreen");
+    }
+    else {
+      $("#"+ el.id).addClass("btnRed");
+    }
+  }
+
+  
+  var total = 49;
+  for (id = 0; id<total; id++) {
+      if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+      } else {
+          $('#pianoGame').append(getTemplate(id));
+      }
+  }
+
+  for (id = 0; id<total; id++) {
+      if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+          $('#pianoGame').append(getTemplate(id));
+      }
+  }
+
+  for (id = 0; id<total; id++) {
+    if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+        var temp = Math.floor(id % 12 / 2);
+        $("#p"+id).css("left", 2 + (14.1 * temp) + (14.1/2) + "%");
+    } else {
+        var temp = Math.floor(id % 12 / 2);
+        if (id % 12 / 2 % 1 > 0) {
+            temp++;
+        }
+        $("#p"+id).css("left", (14.1 * temp) + "%");
+    }
+
+    var temp = 3;
+    if (id<12          ) { $("#p"+id).css("top", (0 + temp) + "%"); }
+    if (id>=12 && id<24) { $("#p"+id).css("top", (15 + temp) + "%"); }
+    if (id>=24 && id<36) { $("#p"+id).css("top", (30 + temp) + "%"); }
+    if (id>=36 && id<48) { $("#p"+id).css("top", (45 + temp) + "%"); }
+    if (id>=48         ) { $("#p"+id).css("top", (60 + temp) + "%"); }
+  }
+
+  $('.piano, .piano_black').click(function() { 
+    if (!mouseClicked) {
+        play(this);
+    }
+    mouseClicked = false;
+  });
+
+  $('.piano, .piano_black').mousedown(function() { 
+    mouseClicked = true;
+    play(this);
+  });
+  
+  $('.piano, .piano_black').mouseleave(function() { 
+    $("#"+this.id).removeClass("btnRed");
+    $("#"+this.id).removeClass("btnGreen");
+  });
+
+  $('#gameButton').click(function(){  
+    $('#hintButton').fadeIn();
+  });
+})
+
+function play_random() {
+  var min=0;
+  var max=48;
+  
+  min = Math.ceil(min);
+  max = Math.floor(max);
+  var random = Math.floor(Math.random() * (max - min + 1)) + min;
+  random -= 21; // -21 ~ 27
+  fff = 440 * Math.pow(2, (random / 12));
+  beep();
+  fff = -1;
+  rememberMe = random;
+}
+
+function play_hint() {
+  fff = 440 * Math.pow(2, (rememberMe / 12));
+  beep();
+  $("#fOut").text(rememberMe + 21 + ", " + fff);
+  fff = -1;
+}
+
+function beep() {
+  var oscillator = audioCtx.createOscillator();
+  var gainNode = audioCtx.createGain();
+
+  oscillator.connect(gainNode);
+  gainNode.connect(audioCtx.destination);
+
+  gainNode.gain.value = volume;
+  if (fff != -1) {
+    oscillator.frequency.value = fff;
+  }
+  else {
+    oscillator.frequency.value = frequency;
+  }
+  oscillator.type = type;
+
+  oscillator.start();
+
+  setTimeout(
+    function() {
+      oscillator.stop();
+    },
+    duration
+  );
+};
+
+</script>
+</body>
+<!-- 
+
+https://www.intmath.com/trigonometric-graphs/music.php
+
+frequency =440×2 ** n/12
+for n=−21,−19,…,27
+
+Note
+C
+C#
+D
+D#
+E
+F
+F#
+G
+G#
+A
+A#
+B
+ 
+Frequency
+130.82
+138.59
+146.83
+155.56
+164.81
+174.61
+185
+196
+207.65
+220
+233.08
+246.94
+ 
+Note
+C
+C#
+D
+D#
+E
+F
+F#
+G
+G#
+A
+A#
+B
+ 
+Frequency
+261.63
+277.18
+293.66
+311.13
+329.63
+349.23
+369.99
+392
+415.3
+440
+466.16
+493.88
+ 
+Note
+C
+C#
+D
+D#
+E
+F
+F#
+G
+G#
+A
+A#
+B
+ 
+Frequency
+523.25
+554.37
+587.33
+622.25
+659.26
+698.46
+739.99
+783.99
+830.61
+880
+932.33
+987.77
+ 
+Note
+C
+C#
+D
+D#
+E
+F
+F#
+G
+G#
+A
+A#
+B
+C
+ 
+Frequency
+1046.5
+1108.73
+1174.66
+1244.51
+1318.51
+1396.91
+1479.98
+1567.98
+1661.22
+1760
+1864.66
+1975.53
+2093.00
+-->
+</html>
+

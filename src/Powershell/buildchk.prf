@@ -1,0 +1,14 @@
+SYSTEM RESOURCE UTILIZATION:
+                                                     PASS 0           PASS 1           PASS 2           PASS 3             MISC          OVERALL
+                                                  ============     ============     ============     ============     ============     ============
+Runtime                                               00:00:04         00:00:00         00:00:00         00:00:00         00:00:00         00:00:06
+\Processor Information(_Total)\% Processor Time             31                0                0                0                8               27
+\Memory\Available MBytes                                  7200                0                0                0             7217             7203
+\Memory\Page Faults/sec                                  21767                0                0                0             3866            18784
+\System\Threads                                           2479                0                0                0             2465             2477
+\System\Processor Queue Length                               0                0                0                0                0                0
+\System\Context Switches/sec                             26335                0                0                0            20257            25322
+\PhysicalDisk(0 C:)\% Disk Time                             10                0                0                0                0                8
+\PhysicalDisk(1 D:)\% Disk Time                              0                0                0                0                0                0
+\PhysicalDisk(0 C:)\Avg. Disk sec/Transfer               0.000            0.000            0.000            0.000            0.000            0.000
+\PhysicalDisk(1 D:)\Avg. Disk sec/Transfer               0.000            0.000            0.000            0.000            0.000            0.000

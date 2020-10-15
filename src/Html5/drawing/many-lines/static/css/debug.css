@@ -1,0 +1,53 @@
+#maincolumn {
+	background-color: #fda0d6;
+}
+
+#navigation {
+	background-color: #b9e8ff;
+}
+
+#navigation div{
+	background-color: #ccf9a2;
+}
+
+#logo {
+	background-color: #ffff70;
+}
+
+#top {
+	background-color: #feca80;
+}
+
+body {
+	background-color: #fee6f1;
+}
+
+.columns {
+	background-color: #9eff39;
+}
+
+.gallery-left {
+	background-color: #d9abfe;
+}
+
+.gallery-right {
+	background-color: #89f5fe;
+}
+
+#navigation div.menuLevel1 { background-color: #d6b58f; }
+.menuLevel1 ul {
+	border-bottom-color: #ff0085;
+	border-right-width: 1px;
+	border-left-color: #ff0085;
+	border-left-width: 1px;
+	border-left-style: solid;
+}
+.menuLevel1 ul li {
+	border-top:1px solid #0000ff;
+}
+.menuLevel2 {
+	background-color:gray;
+}
+#navigation div.menu-content {
+	background-color: #fbff31;
+}

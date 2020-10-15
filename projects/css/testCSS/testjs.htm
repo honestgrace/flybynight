@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#test {
+    background-color: chartreuse;
+}
+
+</style>
+<!-- <script src="testjs.js"> -->
+
+</head>
+<body>
+<div id="main">
+<p class="para" id="para1"> Some text for this tutorial 1</p>
+<p class="para" id="para2"> Some text for this tutorial 2</p>
+<p class="para" id="para3"> Some text for this tutorial 3</p>
+<p onmouseover="changeBackground()" onmouseout="changeBackground()" class="para" id="para4"> Some text for this tutorial </p>
+</div>
+<button onclick="changeStyle()">Submit</button>
+<button onclick="changeStyle2()">Submit2</button>
+<button onclick="changeStyle3()">Submit3</button>
+<button onclick="changeStyle4()">Submit4</button>
+<button onclick="changeStyle5()">Submit5</button>
+<button onclick="changeStyle6()">Submit6</button>
+</body>
+<ul>
+    <li tabindex="0">Submit2</li>
+    <li tabindex="0">Submit3</li>
+    <li tabindex="0" class="selected">Submit4</li>
+</ul>
+<p tabindex="0" id="key2" value="test">NA</p>
+<input type="text" id="key">
+<br>
+<input type="text" class="allowCopy noselect">
+<script src="./jquery-3.2.0.min/index.js"></script>
+<script>
+    $(document).ready(function () {
+        $("li").click(function () {
+            $('#key').val('initial value2');
+            $('#key2').text('initial value2');
+            $(this).siblings().removeClass("selected");
+            $(this).addClass("selected");
+        });
+
+        $("li").keyup(function (event) {
+            if (event.which == 13) {
+                $(this).siblings().removeClass("selected");
+                $(this).addClass("selected");
+            }
+        });
+
+        $('.allowCopy').click(function() {
+            $('#key2').focus();
+            var range = document.createRange();
+            var selection = window.getSelection();
+            range.selectNodeContents(document.getElementById('key2'));
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+
+            confirm("The access key will be permanetly deleted!\nIt won't be able to access the API anymore.");
+        });
+
+        $('#key2').ready(function() {
+            //$('#key2').focus();
+            var range = document.createRange();
+            var selection = window.getSelection();
+            range.selectNodeContents(document.getElementById('key2'));
+            selection.removeAllRanges();
+            selection.addRange(range);
+            document.execCommand('copy');
+        });
+    });
+
+    // NOTE:
+    // JavaScript is a loosely type language
+    var ff = 1;
+    function changeStyle() {
+        // // all statements go inside curly braces
+        // var years = 35;
+        // var someText = " years old";
+        // alert (years + someText);
+        // var text = document.getElementById("para1").style.color = "blue";
+        if (ff > 0)
+            var text = document.getElementById("para1").style.backgroundColor = "red";
+        else
+            var text = document.getElementById("para1").style.backgroundColor = "blue";
+        ff = ff * -1;
+    }
+    
+    function changeStyle2() {
+        var paragraph = document.getElementsByTagName("p");
+        if (ff > 0) {
+            for (var i=0; i<paragraph.length; i++)
+                paragraph.item(i).style.backgroundColor = "red";
+        } else {
+            for (var i=0; i<paragraph.length; i++)
+                paragraph.item(i).style.backgroundColor = "blue";
+        }
+        ff = ff * -1;
+    }
+    
+    function changeStyle3() {
+        var paragraph = document.getElementsByClassName("para");
+        if (ff > 0) {
+            for (var i=0; i<paragraph.length; i++)
+                paragraph.item(i).style.backgroundColor = "red";
+        } else {
+            for (var i=0; i<paragraph.length; i++)
+                paragraph.item(i).style.backgroundColor = "blue";
+        }
+        ff = ff * -1;
+    }
+    
+    function changeStyle4() {
+        var paragraph = document.getElementsByClassName("para");
+        var firstParaText = paragraph[0].innerHTML;
+        var secondParaText = paragraph[1].innerHTML;
+        paragraph[2].innerHTML = firstParaText + secondParaText;
+        paragraph[0].innerHTML = "";
+        paragraph[1].innerHTML = "";
+        
+    }
+    
+    function changeBackground() {
+        var paragraph = document.getElementsByClassName("para");
+        if (ff > 0) {
+            for (var i=0; i<paragraph.length; i++)
+                paragraph.item(i).style.backgroundColor = "green";
+        } else {
+            for (var i=0; i<paragraph.length; i++)
+                paragraph.item(i).style.backgroundColor = "yellow";
+        }
+        ff = ff * -1;
+    }
+    
+    function changeStyle5() {
+        // This creates a heading
+        var elementH2 = document.createElement("h2");
+        var divMain = document.getElementById("main");
+        main.appendChild(elementH2);
+        var text2 = document.createTextNode("The Battle of Salamis");
+        elementH2.appendChild(text2);
+    
+        // This creates a paragraph
+        var element = document.createElement("p");
+        divMain.appendChild(element);
+        var text = document.createTextNode("my text");
+        element.appendChild(text);
+    
+        var pAttribute = document.createAttribute("id");
+        pAttribute.value = "test";
+        element.setAttributeNode(pAttribute);
+    }
+    
+    function changeStyle6() {
+        // This creates a heading
+        var h2Elements = document.getElementsByTagName("h2")
+        var elementH2 = h2Elements[h2Elements.length - 1];
+        var parent = elementH2.parentNode;
+        parent.removeChild(elementH2);
+    
+        var PElements = document.getElementsByTagName("p")
+        var elementP = PElements[PElements.length - 1];
+        parent.removeChild(elementP);
+    }
+    
+    // document.write("hello world");
+    // saySomething();
+    </script>
+</html>

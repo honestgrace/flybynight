@@ -1,0 +1,66 @@
+<script type="text/javascript">  
+  function getRandom(min, max) {
+    return Math.random() * (max - min) + min;
+  }
+
+  window.onload = function() {
+      //try and create a canvas element
+      var testCanvas  = document.createElement('canvas'); 
+       
+      //check if object supports getContext() method  
+      if (testCanvas.getContext !== undefined) {
+        var canvas = document.getElementById("effectsCanvas");
+        var context = canvas.getContext("2d");
+        canvas.style.border = "2px solid blue";
+        var destX = 0;
+        var destY = 0;
+        var imageObj = new Image();
+        imageObj.src = "..\\JeongHwanKim\\wwwroot\\images\\family.jpg";
+        imageObj.onload = function() 
+        {
+           context.drawImage(imageObj, destX, destY);
+           var imgData = context.getImageData(0, 0, canvas.width, canvas.height);
+
+           var pixels = imgData.data;
+
+           //for (var i = 0, n = pixels.length; i < n; i += 4) {   
+
+           for (var y = 0; y < 1632; y += 1) 
+           {                
+             for (var x = 0; x < 1224; x += 1) {                
+                var i = (y*1224 + x) * 4;
+ 
+                //var grayscale = pixels[i  ] * .3 + pixels[i+1] * .59 + pixels[i+2] * .11;
+                //var grayscale = pixels[i  ] * .33 + pixels[i+1] * .33 + pixels[i+2] * .33;
+                var grayscale = 0;
+ 
+		var density = 8;
+                if (y % density != 0 || x % density != 0)             
+                {  
+                //var grayscale = getRandom(1, pixels[i  ]);
+                pixels[i  ] = grayscale; 	// red
+
+                //grayscale = getRandom(1, pixels[i+1  ]);
+	        pixels[i+1] = grayscale; 	// green
+
+                //grayscale = getRandom(1, pixels[i+2  ]);
+        	pixels[i+2] = grayscale; 	// blue 
+                //pixels[i+3] = grayscale; 	// ? 
+                }
+              }
+           }
+           context.putImageData(imgData, 0, 0); 
+         }; 
+      }
+      else {
+        document.writeln('You are plum outta luck, cuz your browser does not support the canvas element.');
+      }
+  }; 
+</script> 
+<head></head>
+<body>
+<canvas id="effectsCanvas" width="1224" height="1632"></canvas>
+<h2>
+Grace
+</h2>
+</body>

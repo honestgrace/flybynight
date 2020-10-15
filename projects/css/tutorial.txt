@@ -1,0 +1,67 @@
+test machine setup:
+    install nodejs LTS
+    npm install -g @angular/cli
+
+Code:
+	shift-ctrl-p : command pallet
+
+tutorial:
+    ng new hello-world
+    ng serve -o --port 8080
+    ng generate component sidebar
+    ng g c posts
+    ng g c not-found --module app
+    ng g m mat-components 
+
+    ng generate service data
+    npm install @angular/animations@latest --save
+    ng build
+    ng build --prod
+    npm install -g typescript
+    tsc --version
+    ng generate service email
+
+    ng g d first-form-control
+
+    ng build --prod
+
+    ng lint
+    ng lint --fix
+
+    // install cli for git hub deployment and how to build and then upload
+    npm i -g angular-cli-ghpages
+    ng build --prod --base-href="https://jhkimnew.github.io/iisconfigeditor/"
+    C:\gitroot\iisconfigeditor> ngh --no-silent --dir dist\iisconfigeditor
+
+    // Or register a batch command to package.json and run below command
+        "scripts": {
+          ...
+          "deploy:gh": "ng build --prod --base-href='https://jhkimnew.github.io/iisconfigeditor/' && ngh --no-silent --dir dist/iisconfigeditor"
+    npm run deploy:gh
+
+tsc:
+    npm install -g typescript
+
+npm:
+    npm init
+    www.npmjs.com
+    npm i underscore
+    npm list
+    npm install mongoose
+    npm view mongoose
+    npm view mongoose dependencies
+    npm view mongoose versions
+    npm outdated
+    npm update
+    npm uninstall mongoose
+    npm i -g npm
+    npm -g outdated
+
+how to create package
+    npm init --yes
+
+bootstrap
+    npm install bootstrap --save
+
+firebase
+    npm install firebase angularfire2 --save

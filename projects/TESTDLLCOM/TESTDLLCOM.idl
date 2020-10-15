@@ -1,0 +1,40 @@
+// TESTDLLCOM.idl : IDL source for TESTDLLCOM
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (TESTDLLCOM.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(a07e865f-b9a0-45d4-972e-852f5500d317),
+	dual,
+	nonextensible,
+	pointer_default(unique)
+]
+interface ILogger : IDispatch
+{
+	[propget, id(1)] HRESULT TestCaseNumber([out, retval] DOUBLE* pVal);
+	[propput, id(1)] HRESULT TestCaseNumber([in] DOUBLE newVal);
+	[id(2)] HRESULT Log([in] BSTR message);
+};
+
+[
+	uuid(ea30ef73-450c-47c3-a15b-56a491a90d55),
+	version(1.0),
+]
+library TESTDLLCOMLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(c630320d-d423-472c-8eef-9129226a14cf)
+	]
+	coclass Logger
+	{
+		[default] interface ILogger;
+	};
+};
+
+import "shobjidl.idl";

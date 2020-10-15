@@ -1,0 +1,140 @@
+
+.bttn.bordered {
+    border-style: solid;
+    border-width: 2px;
+    
+}
+
+button {
+    border-style: solid;
+    border-width: 1px;
+    padding: 4px 6px;
+    cursor: pointer;
+    font-size: 110%;
+}
+
+button:focus {
+    outline-style: dashed;
+    outline-width: 2px;
+    outline-offset: 0px;
+    outline-color: #000;
+    text-decoration: underline;
+}
+
+.flags checkbox2 {
+    display: block;
+    margin-top: 4px;
+}
+
+.bttn i.fa,
+button i.fa {
+    font-size: 120%;
+    padding: 3px;
+}
+
+.bttn i,
+button i {
+    border: none;
+}
+
+button i + span {
+    margin-left: 5px;
+    margin-top: -8px;
+}
+
+button span {
+    margin-top: -8px;
+}
+
+button:active, 
+.bttn:active,
+button.active {
+    outline: thin dotted;
+}
+
+button::before,
+button::after,
+.bttn:before {
+    font-family: FontAwesome;
+    font-size: 120%;
+    line-height: 22px;
+    vertical-align: middle;
+}
+
+button:not(:empty)::before,
+.bttn:not(:empty)::before {
+    width: 22px;
+    text-align:left;
+    display: inline-block;
+}
+
+button:not(:empty)::after {
+    width: 22px;
+    text-align:right;
+    display: inline-block;
+}
+
+
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+
+.checkbox label {
+    position: relative;
+    display: inline-block;
+    
+    /*16px width of fake checkbox + 6px distance between fake checkbox and text*/
+    padding-left: 22px;
+}
+
+.checkbox label::before,
+.checkbox label::after {
+    position: absolute;
+    content: "";
+    
+    /*Needed for the line-height to take effect*/
+    display: inline-block;
+}
+
+/*Outer box of the fake checkbox*/
+.checkbox label::before{
+    height: 16px;
+    width: 16px;
+    
+    border: 1px solid;
+    left: 0px;
+    
+    /*(24px line-height - 16px height of fake checkbox) / 2 - 1px for the border
+     *to vertically center it.
+     */
+    top: 3px;
+}
+
+/*Checkmark of the fake checkbox*/
+.checkbox label::after {
+    height: 5px;
+    width: 9px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    
+    transform: rotate(-45deg);
+    
+    left: 4px;
+    top: 7px;
+}
+
+/*Hide the checkmark by default*/
+.checkbox input[type="checkbox"] + label::after {
+    content: none;
+}
+
+/*Unhide on the checked state*/
+.checkbox input[type="checkbox"]:checked + label::after {
+    content: "";
+}
+
+/*Adding focus styles on the outer-box of the fake checkbox*/
+.checkbox input[type="checkbox"]:focus + label::before {
+    outline: rgb(59, 153, 252) auto 5px;
+    text-decoration: underline;
+}

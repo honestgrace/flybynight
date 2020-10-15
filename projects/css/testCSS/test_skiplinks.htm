@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+<style>
+.tabs,
+.header,
+.main {
+    padding: 10%;
+}
+
+.header {
+    background-color: yellow;
+}
+
+.content {
+    display: flex;
+}
+
+.tabs {
+    display: inline-block;
+    background-color: green;
+    width:50%;
+}
+
+.content-container {
+    display: inline-block;
+    background-color: blue;
+    width:50%;
+}
+
+.vertical-line:focus {
+    outline: dashed;
+    outline-width: 2px;
+    outline-color: black;
+}
+
+</style>
+</head>
+<body>
+    <ul>
+        <li><a href="#tabs">Skip to navigation</a></li>
+        <li><a href="#main">Skip to main</a></li>
+    </ul>
+    <div class="header" id="header">
+        Hello Header world!!!<br>
+        <input aria-label="enter data for header" type="text"><br>
+        <button aria-label="click header button" title="header">header label</button>
+    </div>    
+    <div class="content">
+        <div class="tabs" id="tabs">
+            <ul>
+                <li><a href="#seperator">Menu1</a></li>
+                <li><a href="#seperator">Menu2</a></li>
+                <li><a href="#seperator">Menu3</a></li>
+                <li><a href="#seperator">Menu4</a></li>
+            </ul>
+        </div>
+        <div class="content-container">
+            <div id="seperator" class="seperator"></div>
+            <div class="main" id="main">
+                Hello main world!!!<br>
+                <input aria-label="enter data for main" type="text"><br>
+                <button aria-label="click main button" title="main">main label</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

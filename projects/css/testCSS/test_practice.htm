@@ -1,0 +1,114 @@
+<!doctype html>
+<html>
+<head>
+<style>
+
+
+.piano {
+background-color: white;
+width: 14.1%;
+height: 100px;
+display: block;
+position: absolute;
+outline-style:ridge;
+outline-color: gray;
+}
+
+.piano_black {
+background-color: black;
+width: 9%;
+height: 60px;
+display: block;
+position: absolute;
+outline-style:ridge;
+outline-color: gray;
+}
+
+.pianoEnd {
+clear: left;
+}
+
+.btnActive {
+outline-color: grey;
+background-color: green;
+}
+
+</style>
+</head>
+<body>
+<div>
+<p>Header</p>
+</div>
+<div>
+<span id="pianoGame"></span>
+</div>
+<div>
+<p>Footer</p>
+</div>
+
+
+<script src="./jquery-3.2.0.min/index.js"></script>
+<script>
+     
+function getTemplate(id) {
+    if (id>=36) {
+        return '<span class="piano pianoEnd" id=p' + id + '></span>';
+    } else {
+        if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+            return '<span class="piano_black" id=p' + id + '></span>';
+        } else {
+            return '<span class="piano" id=p' + id + '></span>';
+        }
+    }
+}
+
+$(document).ready(function () {
+
+//var total = 37;
+var total = 37;
+for (id = 0; id<total; id++) {
+     if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+     } else {
+         $('#pianoGame').append(getTemplate(id));
+     }
+}
+
+for (id = 0; id<total; id++) {
+     if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+         $('#pianoGame').append(getTemplate(id));
+     }
+}
+
+for (id = 0; id<total; id++) {
+    if (id % 12 == 1 || id % 12 == 3 || id % 12 == 6 || id % 12 == 8 || id % 12 == 10) {
+        var temp = Math.floor(id % 12 / 2);
+        $("#p"+id).css("left", 2 + (14.1 * temp) + (14.1/2) + "%");
+    } else {
+        var temp = Math.floor(id % 12 / 2);
+        if (id % 12 / 2 % 1 > 0) {
+            temp++;
+        }
+        $("#p"+id).css("left", (14.1 * temp) + "%");
+    }
+
+    if (id>=12 && id<24) { $("#p"+id).css("top", "200px"); }
+    if (id>=24 && id<36) { $("#p"+id).css("top", "400px"); }
+    if (id>=36) { $("#p"+id).css("top", "600px"); }
+}
+
+$('.piano, .piano_black').mousedown(function() { 
+    $("#"+this.id).addClass("btnActive");
+});
+
+$('.piano, .piano_black').mouseup(function() { 
+    $("#"+this.id).removeClass("btnActive");
+});
+
+$('.piano, .piano_black').mouseleave(function() { 
+    $("#"+this.id).removeClass("btnActive");
+});
+
+})
+</script>
+</body>
+</html>

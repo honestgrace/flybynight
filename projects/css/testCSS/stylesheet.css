@@ -1,0 +1,117 @@
+body {
+    color: green;    
+    font-family: Verdana, Arial, Geneva, Arial Black;
+    background-color: #ffcf79;
+    font-size: 25px;
+}
+
+h1 {
+    color: green;
+    text-decoration: underline;
+    font-size: 150%;
+    text-align: center;
+}
+
+h2 {
+    color: green;
+    text-decoration: underline;
+    font-size: 1.2em;
+    text-align: center;
+}
+h3 {
+    color: green;
+    text-decoration: underline;
+}
+
+#para1homepage {
+    color: blue;
+}
+
+p.paragraph {
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px 20px 20px 20px;
+    border: black 2px solid;
+    background-image: url(cloud.jpg);
+    border-radius: 10px;
+}
+
+#para4homepage {
+    color: black;
+    font-size: 15px;
+    line-height: 1.5em;
+    background-color: #e5e4d7;
+    padding: 20px;
+    border-color: #296A64;
+    border-width: thick;
+    border-style: ridge;
+    margin: 20px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+#divmain {
+color: black;
+}
+
+.divcontent {
+color: black;
+}
+
+#divbass {
+color: black;
+}
+
+img.image {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+    background-color: rgb(247, 6, 46);
+    border-style: silver;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+a:link {
+color: blue;
+}
+
+a:visited {
+color:#8c8c9D;
+}
+
+a:hover {
+color:#F15A51;
+}
+
+/*
+#para1            The ID Selector
+.para             The Class Selector
+h2, h3, #para1    Combine selectors
+div p             The Descendant Selector
+blockquote.test>b The Child Selector
+
+h2+p              Including next sibling
+h2~p              Including all sibling
+
+p[lang]           Attribute selector    <p lang="en-us">
+p[lang="en-us"]   Attribute selector with specific value
+p[lang^="en"]     Attribute selector with specific value starting with
+p[lang$="us"]     Attribute selector with specific value ending with
+p[lang*="-"]      Attribute selector with specific value anywhere
+
+#right p:nth-child(even)   select all even'th    -> pseudo selector
+#right p:nth-child(odd)    select all odd'th
+#right p:nth-child(3)      only 3rd
+#right p:nth-child(3n)     every 3rd
+
+:not(p)           Except p
+
+p::first-letter   Only first letter of p   (NOTE: double colon ::)
+p:first-line     Only first line of p
+*/

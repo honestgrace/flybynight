@@ -1,0 +1,40 @@
+.comon {
+	font-size:30px;
+	color:white;
+}
+
+.first {
+	background-color:green;
+}
+
+.second {
+	background-color:red;
+	/* 
+	position: relative; 
+	height: 50px; 
+	top:15px; 
+	left: 10px; 
+	right: 10px; 
+	*/
+
+	/*
+	position: absolute;
+	top: 5px;
+	*/
+
+	position: fixed;  /* absolute to body element */
+	top: 0px;
+	font-weight: normal
+}
+
+.third {
+	background-color: rgb(104, 104, 167);
+}
+
+.parent {
+	position: relative;
+}
+
+.uncle {
+	background-color: gray;
+}
