@@ -878,6 +878,27 @@ public:
         OutputDebugStringA(__FUNCTION__);
         OutputDebugStringA("\n");
 
+        IHttpUser* pHttpUser = nullptr;
+        pHttpUser = pHttpContext->GetUser();
+        if (pHttpUser != NULL)
+        {
+            PCWSTR pwszUserName = nullptr;
+            pwszUserName = pHttpUser->GetUserName();
+            OutputDebugStringA("UserName:");
+            OutputDebugString(pwszUserName);
+            OutputDebugStringA("\n");
+
+            PCWSTR pwszPassword = nullptr;
+            pwszPassword = pHttpUser->GetPassword();
+            OutputDebugStringA("Password:");
+            OutputDebugString(pwszPassword);
+            OutputDebugStringA("\n");
+        }
+        else
+        {
+            OutputDebugStringA("pHttpUser is null\n");
+        }
+        
 
         // DebugBreak();
 
