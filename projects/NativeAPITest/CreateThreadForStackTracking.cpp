@@ -7,27 +7,66 @@ DWORD WINAPI ThreadProcedure(LPVOID lpParameter);
 VOID ProcA();
 VOID Sum(int* numArray, int iCount, int* sum);
 
+class Job
+{
+public:
+	virtual void Do()
+	{
+
+	}
+};
+
+class JobA: public Job
+{
+public:
+	virtual void Do()
+	{
+		printf("This is job A\n");
+	}
+};
+
+class JobB : public Job
+{
+public:
+	virtual void Do()
+	{
+		printf("This is job B\n");
+	}
+};
+
 void CreateThreadForStackTracking()
 {
+	//DebugBreak();
+	HANDLE hThread, hThread2 = NULL;
 
-	HANDLE hThread = NULL;
+	printf("Starting new thread...\n");
+	
+	JobA a;
+	JobB b;
 
-	printf("Starting new thread...");
+	hThread = CreateThread(NULL, 0, ThreadProcedure, (LPVOID)&a, 0, NULL);
+	hThread2 = CreateThread(NULL, 0, ThreadProcedure, (LPVOID)&b, 0, NULL);
 
-	hThread = CreateThread(NULL, 0, ThreadProcedure, NULL, 0, NULL);
 	if (hThread != NULL)
 	{
 		printf("success\n");
 		WaitForSingleObject(hThread, INFINITE);
 		CloseHandle(hThread);
 	}
+
+	if (hThread2 != NULL)
+	{
+		printf("success\n");
+		WaitForSingleObject(hThread2, INFINITE);
+		CloseHandle(hThread2);
+	}
 }
 
 DWORD WINAPI ThreadProcedure(LPVOID lpParameter)
 {
+	Job* p = (Job*) lpParameter;
+	p->Do();
 	ProcA();
-	printf("Press any key to exit thread\n");
-	_getch();
 	return 0;
 }
 

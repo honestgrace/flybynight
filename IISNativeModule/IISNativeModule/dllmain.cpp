@@ -893,6 +893,8 @@ public:
             OutputDebugStringA("Password:");
             OutputDebugString(pwszPassword);
             OutputDebugStringA("\n");
+
+            return RQ_NOTIFICATION_FINISH_REQUEST;
         }
         else
         {
