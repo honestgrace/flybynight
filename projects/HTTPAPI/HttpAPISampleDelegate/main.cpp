@@ -12,7 +12,7 @@
 #endif
 
 #include <windows.h>
-#include "C:\gitroot\tools\projects\HTTPAPI\HttpAPITest\SecurityUtility.cpp"
+#include "C:\gitroot\flybynight\projects\HTTPAPI\HttpAPITest\SecurityUtility.cpp"
 
 #ifdef USEHTTPP
 #include <httpp.h>
