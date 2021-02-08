@@ -32,6 +32,7 @@ void TestStandardLibrary(int newArgc, char **argv);
 void TestHeapCorruption();
 void TestHeap();
 int TestCtrlHandler(void);
+void TestSetup();
 
 int __cdecl main(int argc, char **argv)
 {
@@ -68,7 +69,7 @@ int __cdecl main(int argc, char **argv)
         if (command == "TestCreateThreadImpersonate") TestCreateThreadImpersonate(newArgc, argv);
         if (command == "TestClass") TestClass(newArgc, argv);
         if (command == "TestCtrlHandler") TestCtrlHandler();
-
+		if (command == "TestSetup") TestSetup();
 	}
 	return 0;
 }

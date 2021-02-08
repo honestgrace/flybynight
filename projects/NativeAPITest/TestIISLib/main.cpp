@@ -16,6 +16,10 @@ HRESULT TestUnicodeStringAPI();
 
 int __cdecl main(int argc, char **argv)
 {
+	STRU* m_pData;
+	m_pData = new STRU(nullptr, 255);
+	auto result = wcscmp(m_pData->QueryStr(), L"test");
+
 	string command;
 	command = string(argv[argc - 1]);
 	int newArgc = argc - 1;
