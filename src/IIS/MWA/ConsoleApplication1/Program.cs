@@ -22,7 +22,7 @@ namespace ConsoleApplication1
                 Console.WriteLine(appPool2.Count);
             }
 
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
     }
