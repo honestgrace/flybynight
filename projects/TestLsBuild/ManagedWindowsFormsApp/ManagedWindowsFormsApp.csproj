@@ -57,6 +57,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Resources\LocalizedResources.de-DE.resx" />
     <EmbeddedResource Include="Resources\LocalizedResources.ko-KR.resx" />
     <EmbeddedResource Include="Resources\LocalizedResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -81,5 +82,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

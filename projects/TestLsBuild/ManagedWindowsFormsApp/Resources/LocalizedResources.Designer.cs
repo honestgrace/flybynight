@@ -61,7 +61,7 @@ namespace ManagedWindowsFormsApp.Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to label1Text.
+        ///   Looks up a localized string similar to Click me.
         /// </summary>
         internal static string label1Text {
             get {
