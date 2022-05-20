@@ -1,0 +1,791 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Buttons_AbortRetryIgnore_FriendlyName" xml:space="preserve">
+    <value>Abort - Retry - Ignore</value>
+  </data>
+  <data name="Buttons_OK_FriendlyName" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="Buttons_OKCancel_FriendlyName" xml:space="preserve">
+    <value>OK - Cancel</value>
+  </data>
+  <data name="Buttons_RetryCancel_FriendlyName" xml:space="preserve">
+    <value>Retry - Cancel</value>
+  </data>
+  <data name="Buttons_YesNo_FriendlyName" xml:space="preserve">
+    <value>Yes - No</value>
+  </data>
+  <data name="Buttons_YesNoCancel_FriendlyName" xml:space="preserve">
+    <value>Yes - No - Cancel</value>
+  </data>
+  <data name="DateDialogFormat_DateAndTime_FriendlyName" xml:space="preserve">
+    <value>Date and time</value>
+  </data>
+  <data name="DateDialogFormat_DateOnly_FriendlyName" xml:space="preserve">
+    <value>Date only</value>
+  </data>
+  <data name="DateDialogType_DateRange_FriendlyName" xml:space="preserve">
+    <value>Date range (2 Dates)</value>
+  </data>
+  <data name="DateDialogType_SingleDate_FriendlyName" xml:space="preserve">
+    <value>Single date</value>
+  </data>
+  <data name="DefaultButton_Button1_FriendlyName" xml:space="preserve">
+    <value>First button</value>
+  </data>
+  <data name="DefaultButton_Button2_FriendlyName" xml:space="preserve">
+    <value>Second button</value>
+  </data>
+  <data name="DefaultButton_Button3_FriendlyName" xml:space="preserve">
+    <value>Third button</value>
+  </data>
+  <data name="Display_Description" xml:space="preserve">
+    <value>Interact with users and request input through message boxes</value>
+  </data>
+  <data name="Display_FriendlyName" xml:space="preserve">
+    <value>Message boxes</value>
+  </data>
+  <data name="Error_DisplayInputDialogError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the input dialog</value>
+  </data>
+  <data name="Error_DisplayInputDialogError_FriendlyName" xml:space="preserve">
+    <value>Failed to display input dialog</value>
+  </data>
+  <data name="Error_DisplayInputDialogInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the input dialog in non-interactive mode</value>
+  </data>
+  <data name="Error_DisplayInputDialogInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't display input dialog in non interactive mode</value>
+  </data>
+  <data name="Error_SelectDateDialogError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the select date dialog</value>
+  </data>
+  <data name="Error_SelectDateDialogError_FriendlyName" xml:space="preserve">
+    <value>Failed to display select date dialog</value>
+  </data>
+  <data name="Error_SelectDateDialogInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the input dialog in non-interactive mode</value>
+  </data>
+  <data name="Error_SelectDateDialogInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't display select date dialog in non interactive mode</value>
+  </data>
+  <data name="Error_SelectDialogError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the select dialog</value>
+  </data>
+  <data name="Error_SelectDialogError_FriendlyName" xml:space="preserve">
+    <value>Failed to display select dialog</value>
+  </data>
+  <data name="Error_SelectDialogInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the input dialog in non-interactive mode</value>
+  </data>
+  <data name="Error_SelectDialogInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't display select dialog in non interactive mode</value>
+  </data>
+  <data name="Error_SelectFileDialogError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the select file dialog</value>
+  </data>
+  <data name="Error_SelectFileDialogError_FriendlyName" xml:space="preserve">
+    <value>Failed to display select file dialog</value>
+  </data>
+  <data name="Error_SelectFileDialogInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the input dialog in non-interactive mode</value>
+  </data>
+  <data name="Error_SelectFileDialogInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't display select file dialog in non interactive mode</value>
+  </data>
+  <data name="Error_SelectFolderDialogError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the select folder dialog</value>
+  </data>
+  <data name="Error_SelectFolderDialogError_FriendlyName" xml:space="preserve">
+    <value>Failed to display select folder dialog</value>
+  </data>
+  <data name="Error_SelectFolderDialogInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the input dialog in non-interactive mode</value>
+  </data>
+  <data name="Error_SelectFolderDialogInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't display select folder dialog in non interactive mode</value>
+  </data>
+  <data name="Error_ShowMessageDialogError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the message dialog</value>
+  </data>
+  <data name="Error_ShowMessageDialogError_FriendlyName" xml:space="preserve">
+    <value>Failed to display message box</value>
+  </data>
+  <data name="Error_ShowMessageDialogInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem displaying the message dialog in non-interactive mode</value>
+  </data>
+  <data name="Error_ShowMessageDialogInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't display message box in non interactive mode</value>
+  </data>
+  <data name="Icon_ErrorIcon_FriendlyName" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Icon_Information_FriendlyName" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Icon_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Icon_Question_FriendlyName" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="Icon_Warning_FriendlyName" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="InputDialog_ButtonPressed_Description" xml:space="preserve">
+    <value>The text of the button pressed. The user will automatically be given the choice of OK or Cancel</value>
+  </data>
+  <data name="InputDialog_ButtonPressed_FriendlyName" xml:space="preserve">
+    <value>Store button pressed into</value>
+  </data>
+  <data name="InputDialog_DefaultValue_Description" xml:space="preserve">
+    <value>Specify the text to display by default. If the user wishes to change this, they can type over it. Otherwise the default text will be used</value>
+  </data>
+  <data name="InputDialog_DefaultValue_FriendlyName" xml:space="preserve">
+    <value>Default value</value>
+  </data>
+  <data name="InputDialog_Description" xml:space="preserve">
+    <value>Displays a dialog box that prompts the user to enter text</value>
+  </data>
+  <data name="InputDialog_FriendlyName" xml:space="preserve">
+    <value>Display input dialog</value>
+  </data>
+  <data name="InputDialog_InputType_Description" xml:space="preserve">
+    <value>The format for the input text. Choose Single line - password to hide the text or multiline so that a larger display box makes visible more than one line of text</value>
+  </data>
+  <data name="InputDialog_InputType_FriendlyName" xml:space="preserve">
+    <value>Input type</value>
+  </data>
+  <data name="InputDialog_IsTopMost_Description" xml:space="preserve">
+    <value>Specify whether the input dialog should always remain on top of all other windows</value>
+  </data>
+  <data name="InputDialog_IsTopMost_FriendlyName" xml:space="preserve">
+    <value>Keep input dialog always on top</value>
+  </data>
+  <data name="InputDialog_Message_Description" xml:space="preserve">
+    <value>The dialog message</value>
+  </data>
+  <data name="InputDialog_Message_FriendlyName" xml:space="preserve">
+    <value>Input dialog message</value>
+  </data>
+  <data name="InputDialog_Summary" xml:space="preserve">
+    <value>&lt;if(USERINPUT)&gt;Display input dialog with message &lt;MESSAGE&gt; and store the user's input into &lt;USERINPUT&gt;&lt;else&gt;Display input dialog with message &lt;MESSAGE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;if(USERINPUT)&gt;"}{Locked="&lt;USERINPUT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="InputDialog_Title_Description" xml:space="preserve">
+    <value>The dialog title</value>
+  </data>
+  <data name="InputDialog_Title_FriendlyName" xml:space="preserve">
+    <value>Input dialog title</value>
+  </data>
+  <data name="InputDialog_UserInput_Description" xml:space="preserve">
+    <value>The text entered by the user, or the default text</value>
+  </data>
+  <data name="InputDialog_UserInput_FriendlyName" xml:space="preserve">
+    <value>User input</value>
+  </data>
+  <data name="InputType_Multiline_FriendlyName" xml:space="preserve">
+    <value>Multiline</value>
+  </data>
+  <data name="InputType_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="InputType_SingleLine_FriendlyName" xml:space="preserve">
+    <value>Single line</value>
+  </data>
+  <data name="MessageBoxIcons_Error_FriendlyName" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="SelectDate_Description" xml:space="preserve">
+    <value>Displays a dialog box that prompts the user to enter a date</value>
+  </data>
+  <data name="SelectDate_Summary" xml:space="preserve">
+    <value>&lt;if(SELECTEDDATE)&gt;Display select date dialog with message &lt;MESSAGE&gt; and store the user's input into &lt;SELECTEDDATE&gt;&lt;else&gt;Display select date dialog with message &lt;MESSAGE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;if(SELECTEDDATE)&gt;"}{Locked="&lt;SELECTEDDATE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="SelectDateDialog_ButtonPressed_Description" xml:space="preserve">
+    <value>The text of the button pressed by the user. The user will automatically be given the choice of OK or Cancel</value>
+  </data>
+  <data name="SelectDateDialog_ButtonPressed_FriendlyName" xml:space="preserve">
+    <value>Button pressed</value>
+  </data>
+  <data name="SelectDateDialog_DateDialogFormat_Description" xml:space="preserve">
+    <value>Specify whether the user will enter the date only or the date and time</value>
+  </data>
+  <data name="SelectDateDialog_DateDialogFormat_FriendlyName" xml:space="preserve">
+    <value>Prompt for</value>
+  </data>
+  <data name="SelectDateDialog_DateDialogType_Description" xml:space="preserve">
+    <value>Whether the user will enter a single date or two dates as the endpoints of a range of dates</value>
+  </data>
+  <data name="SelectDateDialog_DateDialogType_FriendlyName" xml:space="preserve">
+    <value>Dialog type</value>
+  </data>
+  <data name="SelectDateDialog_DefaultValue_Description" xml:space="preserve">
+    <value>The default value for the date</value>
+  </data>
+  <data name="SelectDateDialog_DefaultValue_FriendlyName" xml:space="preserve">
+    <value>Default value</value>
+  </data>
+  <data name="SelectDateDialog_DefaultValueForSecondDate_Description" xml:space="preserve">
+    <value>The default value for the end date in a range</value>
+  </data>
+  <data name="SelectDateDialog_DefaultValueForSecondDate_FriendlyName" xml:space="preserve">
+    <value>Default value for second date</value>
+  </data>
+  <data name="SelectDateDialog_Description" xml:space="preserve">
+    <value>Displays a dialog box that prompts the user to enter a date or date range</value>
+  </data>
+  <data name="SelectDateDialog_FriendlyName" xml:space="preserve">
+    <value>Display select date dialog</value>
+  </data>
+  <data name="SelectDateDialog_IsTopMost_Description" xml:space="preserve">
+    <value>Specify whether the date selection dialog should always remain on top of all other windows</value>
+  </data>
+  <data name="SelectDateDialog_IsTopMost_FriendlyName" xml:space="preserve">
+    <value>Keep date selection dialog always on top</value>
+  </data>
+  <data name="SelectDateDialog_Message_Description" xml:space="preserve">
+    <value>The dialog message</value>
+  </data>
+  <data name="SelectDateDialog_Message_FriendlyName" xml:space="preserve">
+    <value>Dialog message</value>
+  </data>
+  <data name="SelectDateDialog_SecondSelectedDate_Description" xml:space="preserve">
+    <value>The second date entered by the user or that default date</value>
+  </data>
+  <data name="SelectDateDialog_SecondSelectedDate_FriendlyName" xml:space="preserve">
+    <value>Second selected date</value>
+  </data>
+  <data name="SelectDateDialog_SelectedDate_Description" xml:space="preserve">
+    <value>The date entered by the user or the default date</value>
+  </data>
+  <data name="SelectDateDialog_SelectedDate_FriendlyName" xml:space="preserve">
+    <value>Selected date</value>
+  </data>
+  <data name="SelectDateDialog_Title_Description" xml:space="preserve">
+    <value>The dialog title</value>
+  </data>
+  <data name="SelectDateDialog_Title_FriendlyName" xml:space="preserve">
+    <value>Dialog title</value>
+  </data>
+  <data name="SelectDateRange_Description" xml:space="preserve">
+    <value>Displays a dialog box that prompts the user to enter a date range</value>
+  </data>
+  <data name="SelectDateRange_Summary" xml:space="preserve">
+    <value>&lt;if(SELECTEDDATE&amp;&amp;SECONDSELECTEDDATE&amp;&amp;MESSAGE)&gt;Display select date dialog with message &lt;MESSAGE&gt; and store the user's input into &lt;SELECTEDDATE&gt; and &lt;SECONDSELECTEDDATE&gt;&lt;elseif(SELECTEDDATE&amp;&amp;MESSAGE)&gt;
+Display select date dialog with message &lt;MESSAGE&gt; and store the user's input into &lt;SELECTEDDATE&gt;&lt;elseif(SECONDSELECTEDDATE&amp;&amp;MESSAGE)&gt;
+Display select date dialog with message &lt;MESSAGE&gt; and store the user's input into &lt;SECONDSELECTEDDATE&gt;&lt;elseif(MESSAGE)&gt;
+Display select date dialog with message &lt;MESSAGE&gt;&lt;elseif(SELECTEDDATE&amp;&amp;SECONDSELECTEDDATE)&gt;
+Display select date dialog and store the user's input into &lt;SELECTEDDATE&gt; and &lt;SECONDSELECTEDDATE&gt;&lt;elseif(SELECTEDDATE)&gt;
+Display select date dialog and store the user's input into &lt;SELECTEDDATE&gt;&lt;elseif(SECONDSELECTEDDATE)&gt;
+Display select date dialog and store the user's input into &lt;SECONDSELECTEDDATE&gt;&lt;else&gt;
+Display select date dialog&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;if(SELECTEDDATE&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;SELECTEDDATE&gt;"}{Locked="&lt;elseif(SELECTEDDATE&amp;&amp;SECONDSELECTEDDATE&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;SECONDSELECTEDDATE&gt;"}{Locked="&lt;elseif(SECONDSELECTEDDATE&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SELECTEDDATE)&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SELECTEDDATE&amp;&amp;SECONDSELECTEDDATE&gt;"}{Locked="&lt;elseif(SECONDSELECTEDDATE&gt;"}</comment>
+  </data>
+  <data name="SelectFile_Description" xml:space="preserve">
+    <value>Displays the select file dialog and prompts the user to select a file</value>
+  </data>
+  <data name="SelectFile_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE)&gt;Display the select file dialog with title &lt;TITLE&gt; and store the selected file into &lt;SELECTEDFILE&gt;&lt;else&gt;
+Display the select file dialog and store the selected file into &lt;SELECTEDFILE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(TITLE)&gt;"}{Locked="&lt;TITLE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;SELECTEDFILE&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="SelectFileDialog_AllowMultiple_Description" xml:space="preserve">
+    <value>Whether the user will be able to select more than one file or not</value>
+  </data>
+  <data name="SelectFileDialog_AllowMultiple_FriendlyName" xml:space="preserve">
+    <value>Allow multiple selection</value>
+  </data>
+  <data name="SelectFileDialog_ButtonPressed_Description" xml:space="preserve">
+    <value>The text of the button pressed. The user will automatically be given the choice of Open or Cancel</value>
+  </data>
+  <data name="SelectFileDialog_ButtonPressed_FriendlyName" xml:space="preserve">
+    <value>Button pressed</value>
+  </data>
+  <data name="SelectFileDialog_CheckIfFileExists_Description" xml:space="preserve">
+    <value>Whether only files that already exist will be accepted</value>
+  </data>
+  <data name="SelectFileDialog_CheckIfFileExists_FriendlyName" xml:space="preserve">
+    <value>Check if file exists</value>
+  </data>
+  <data name="SelectFileDialog_Description" xml:space="preserve">
+    <value>Displays the select file dialog and prompts the user to select one or more files</value>
+  </data>
+  <data name="SelectFileDialog_FileFilter_Description" xml:space="preserve">
+    <value>A filter to limit the files retrieved. This allows wild cards, for example "*.txt" or "document?.doc" (without the quotes). To allow the user to choose from multiple file filters, separate the choices with a semi-colon, for example "*.txt;*.exe"</value>
+  </data>
+  <data name="SelectFileDialog_FileFilter_FriendlyName" xml:space="preserve">
+    <value>File filter</value>
+  </data>
+  <data name="SelectFileDialog_FriendlyName" xml:space="preserve">
+    <value>Display select file dialog</value>
+  </data>
+  <data name="SelectFileDialog_InitialDirectory_Description" xml:space="preserve">
+    <value>The initial folder to open when browsing for a file. This is where the select file dialog action will start the user looking for the file(s)</value>
+  </data>
+  <data name="SelectFileDialog_InitialDirectory_FriendlyName" xml:space="preserve">
+    <value>Initial folder</value>
+  </data>
+  <data name="SelectFileDialog_IsTopMost_Description" xml:space="preserve">
+    <value>Whether the file selection dialog should always remain on top of all other windows</value>
+  </data>
+  <data name="SelectFileDialog_IsTopMost_FriendlyName" xml:space="preserve">
+    <value>Keep file selection dialog always on top</value>
+  </data>
+  <data name="SelectFileDialog_SelectedFile_Description" xml:space="preserve">
+    <value>The file that will be selected through the dialog</value>
+  </data>
+  <data name="SelectFileDialog_SelectedFile_FriendlyName" xml:space="preserve">
+    <value>Selected file</value>
+  </data>
+  <data name="SelectFileDialog_SelectedFiles_Description" xml:space="preserve">
+    <value>The file(s) selected</value>
+  </data>
+  <data name="SelectFileDialog_SelectedFiles_FriendlyName" xml:space="preserve">
+    <value>Selected file(s)</value>
+  </data>
+  <data name="SelectFileDialog_Title_Description" xml:space="preserve">
+    <value>The dialog title</value>
+  </data>
+  <data name="SelectFileDialog_Title_FriendlyName" xml:space="preserve">
+    <value>Dialog title</value>
+  </data>
+  <data name="SelectFiles_Description" xml:space="preserve">
+    <value>Displays the select file dialog and prompts the user to select files</value>
+  </data>
+  <data name="SelectFiles_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE)&gt;Display the select file dialog with title &lt;TITLE&gt; and store the selected files into &lt;SELECTEDFILES&gt;&lt;else&gt;
+Display the select file dialog and store the selected files into &lt;SELECTEDFILES&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(TITLE)&gt;"}{Locked="&lt;TITLE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;SELECTEDFILES&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="SelectFolder_ButtonPressed_Description" xml:space="preserve">
+    <value>The text of the button pressed. The user will automatically be given the choice of OK or Cancel</value>
+  </data>
+  <data name="SelectFolder_ButtonPressed_FriendlyName" xml:space="preserve">
+    <value>Button pressed</value>
+  </data>
+  <data name="SelectFolder_Description" xml:space="preserve">
+    <value>Displays the select folder dialog and prompts the user to select a folder</value>
+  </data>
+  <data name="SelectFolder_Description_Description" xml:space="preserve">
+    <value>The description of the select folder dialog For example, "Please select the folder into which you wish to copy the files"</value>
+  </data>
+  <data name="SelectFolder_Description_FriendlyName" xml:space="preserve">
+    <value>Dialog description</value>
+  </data>
+  <data name="SelectFolder_FriendlyName" xml:space="preserve">
+    <value>Display select folder dialog</value>
+  </data>
+  <data name="SelectFolder_InitialDirectory_Description" xml:space="preserve">
+    <value>The initial folder to open. This will be the default folder unless the user picks a new one</value>
+  </data>
+  <data name="SelectFolder_InitialDirectory_FriendlyName" xml:space="preserve">
+    <value>Initial folder</value>
+  </data>
+  <data name="SelectFolder_InitialFolder_Description" xml:space="preserve">
+    <value>The initial folder to open when browsing for a folder</value>
+  </data>
+  <data name="SelectFolder_InitialFolder_FriendlyName" xml:space="preserve">
+    <value>Initial folder</value>
+  </data>
+  <data name="SelectFolder_IsTopMost_Description" xml:space="preserve">
+    <value>Whether the folder selection dialog should always remain on top of all other windows</value>
+  </data>
+  <data name="SelectFolder_IsTopMost_FriendlyName" xml:space="preserve">
+    <value>Keep folder selection dialog always on top</value>
+  </data>
+  <data name="SelectFolder_SelectedFolder_Description" xml:space="preserve">
+    <value>The selected folder</value>
+  </data>
+  <data name="SelectFolder_SelectedFolder_FriendlyName" xml:space="preserve">
+    <value>Selected folder</value>
+  </data>
+  <data name="SelectFolder_Summary" xml:space="preserve">
+    <value>&lt;if(DESCRIPTION)&gt;Display the select folder dialog with description &lt;DESCRIPTION&gt; and store the selected folder into &lt;SELECTEDFOLDER&gt;&lt;else&gt;
+Display the select folder dialog and store the selected folder into &lt;SELECTEDFOLDER&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;SELECTEDFOLDER&gt;"}{Locked="&lt;if(DESCRIPTION)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="SelectFromList_Description" xml:space="preserve">
+    <value>Displays a dialog box with options that lets the user select from a list</value>
+  </data>
+  <data name="SelectFromList_FriendlyName" xml:space="preserve">
+    <value>Display select from list dialog</value>
+  </data>
+  <data name="SelectFromList_Summary" xml:space="preserve">
+    <value>&lt;if(SELECTEDITEM&amp;&amp;SELECTEDINDEX&amp;&amp;MESSAGE)&gt;Display select dialog with message &lt;MESSAGE&gt;. Store the user's selection into &lt;SELECTEDITEM&gt;. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(SELECTEDINDEX&amp;&amp;MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(SELECTEDITEM&amp;&amp;MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;. Store the user's selection into &lt;SELECTEDITEM&gt;&lt;elseif(MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;.&lt;elseif(SELECTEDITEM&amp;&amp;SELECTEDINDEX)&gt;
+Display select dialog. Store the user's selection into &lt;SELECTEDITEM&gt;. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(SELECTEDINDEX)&gt;
+Display select dialog. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(SELECTEDITEM)&gt;
+Display select dialog. Store the user's selection into &lt;SELECTEDITEM&gt;&lt;SELECTEDINDEX&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;elseif(SELECTEDITEM)&gt;"}{Locked="&lt;SELECTEDITEM&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SELECTEDINDEX)&gt;"}{Locked="&lt;SELECTEDINDEX&gt;"}{Locked="&lt;elseif(SELECTEDINDEX)&gt;"}{Locked="&lt;if(SELECTEDITEM&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;elseif(SELECTEDINDEX&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;(SELECTEDITEM&amp;&amp;SELECTEDINDEX&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;elseif(MESSAGE)&gt;"}{Locked="&lt;(SELECTEDITEM&amp;&amp;SELECTEDINDEX)&gt;"}</comment>
+  </data>
+  <data name="SelectFromListDialog_AllowEmpty_Description" xml:space="preserve">
+    <value>Allow the user to not select anything, creating an empty selected item output</value>
+  </data>
+  <data name="SelectFromListDialog_AllowEmpty_FriendlyName" xml:space="preserve">
+    <value>Allow empty selection</value>
+  </data>
+  <data name="SelectFromListDialog_AllowMultiple_Description" xml:space="preserve">
+    <value>Allow the user to select more than one choice. This means that the selected item and selected index variables will hold a list of items</value>
+  </data>
+  <data name="SelectFromListDialog_AllowMultiple_FriendlyName" xml:space="preserve">
+    <value>Allow multiple selection</value>
+  </data>
+  <data name="SelectFromListDialog_ButtonPressed_Description" xml:space="preserve">
+    <value>The name of the button pressed by the user (OK or Cancel)</value>
+  </data>
+  <data name="SelectFromListDialog_ButtonPressed_FriendlyName" xml:space="preserve">
+    <value>Button pressed</value>
+  </data>
+  <data name="SelectFromListDialog_Description" xml:space="preserve">
+    <value>Displays a dialog box with options that lets the user select from a list</value>
+  </data>
+  <data name="SelectFromListDialog_FriendlyName" xml:space="preserve">
+    <value>Display select from list dialog</value>
+  </data>
+  <data name="SelectFromListDialog_IsTopMost_Description" xml:space="preserve">
+    <value>Specify whether the select dialog should always remain on top of all other windows</value>
+  </data>
+  <data name="SelectFromListDialog_IsTopMost_FriendlyName" xml:space="preserve">
+    <value>Keep select dialog always on top</value>
+  </data>
+  <data name="SelectFromListDialog_LimitToList_Description" xml:space="preserve">
+    <value>Specify whether to allow the user to enter their own answer outside of the list being displayed</value>
+  </data>
+  <data name="SelectFromListDialog_LimitToList_FriendlyName" xml:space="preserve">
+    <value>Limit to list</value>
+  </data>
+  <data name="SelectFromListDialog_List_Description" xml:space="preserve">
+    <value>The list to display as a drop-down menu for the user to choose from</value>
+  </data>
+  <data name="SelectFromListDialog_List_FriendlyName" xml:space="preserve">
+    <value>List to choose from</value>
+  </data>
+  <data name="SelectFromListDialog_Message_Description" xml:space="preserve">
+    <value>The dialog message</value>
+  </data>
+  <data name="SelectFromListDialog_Message_FriendlyName" xml:space="preserve">
+    <value>Dialog message</value>
+  </data>
+  <data name="SelectFromListDialog_PreSelectItemsWithPlus_Description" xml:space="preserve">
+    <value>Specify whether the items with a prepended '+' sign will appear automatically preselected</value>
+  </data>
+  <data name="SelectFromListDialog_PreSelectItemsWithPlus_FriendlyName" xml:space="preserve">
+    <value>Preselect items starting with a + sign</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedIndex_Description" xml:space="preserve">
+    <value>The index number of the item selected from the list. This allows the user to use the item index instead of the full text of the user's choice</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedIndex_FriendlyName" xml:space="preserve">
+    <value>Selected index</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedIndexes_Description" xml:space="preserve">
+    <value>The index number of the items selected from the list. This allows the user to use the item index instead of the full text of the user's choice</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedIndexes_FriendlyName" xml:space="preserve">
+    <value>Selected indexes</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedItem_Description" xml:space="preserve">
+    <value>The item selected from the list as text</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedItem_FriendlyName" xml:space="preserve">
+    <value>Selected item</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedItems_Description" xml:space="preserve">
+    <value>The items selected from the list as a list of text</value>
+  </data>
+  <data name="SelectFromListDialog_SelectedItems_FriendlyName" xml:space="preserve">
+    <value>Selected items</value>
+  </data>
+  <data name="SelectFromListDialog_Title_Description" xml:space="preserve">
+    <value>The dialog title</value>
+  </data>
+  <data name="SelectFromListDialog_Title_FriendlyName" xml:space="preserve">
+    <value>Dialog title</value>
+  </data>
+  <data name="SelectFromListOrInsertValue_Description" xml:space="preserve">
+    <value>Displays a dialog box with options that lets the user select from a list</value>
+  </data>
+  <data name="SelectFromListOrInsertValue_Summary" xml:space="preserve">
+    <value>&lt;if(SELECTEDITEM&amp;&amp;MESSAGE)&gt;Display select dialog with message &lt;MESSAGE&gt;. Store the user's selection into &lt;SELECTEDITEM&gt;.&lt;elseif(SELECTEDINDEX&amp;&amp;MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(SELECTEDITEM&amp;&amp;SELECTEDINDEX&amp;&amp;MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;. Store the user's selection into &lt;SELECTEDITEM&gt;. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;.&lt;elseif(SELECTEDITEM)&gt;
+Display select dialog. Store the user's selection into &lt;SELECTEDITEM&gt;.&lt;elseif(SELECTEDINDEX)&gt;
+Display select dialog. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;elseif(SELECTEDITEM&amp;&amp;SELECTEDINDEX)&gt;
+Display select dialog. Store the user's selection into &lt;SELECTEDITEM&gt;. Store the selection's index into &lt;SELECTEDINDEX&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;elseif(SELECTEDITEM)&gt;"}{Locked="&lt;SELECTEDITEM&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SELECTEDINDEX)&gt;"}{Locked="&lt;SELECTEDINDEX&gt;"}{Locked="&lt;elseif(SELECTEDINDEX)&gt;"}{Locked="&lt;if(SELECTEDITEM&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;elseif(SELECTEDINDEX&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;(SELECTEDITEM&amp;&amp;SELECTEDINDEX&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;elseif(MESSAGE)&gt;"}{Locked="&lt;(SELECTEDITEM&amp;&amp;SELECTEDINDEX)&gt;"}</comment>
+  </data>
+  <data name="SelectItemsFromList_Description" xml:space="preserve">
+    <value>Displays a dialog box with options that lets the user select from a list</value>
+  </data>
+  <data name="SelectItemsFromList_Summary" xml:space="preserve">
+    <value>&lt;if(SELECTEDITEMS&amp;&amp;SELECTEDINDEXES&amp;&amp;MESSAGE)&gt;Display select dialog with message &lt;MESSAGE&gt;. Store the user's selections into &lt;SELECTEDITEMS&gt;. Store the selection's indexes into &lt;SELECTEDINDEXES&gt;&lt;elseif(SELECTEDINDEXES&amp;&amp;MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;. Store the selection's indexes into &lt;SELECTEDINDEXES&gt;&lt;elseif(SELECTEDITEMS&amp;&amp;MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;. Store the user's selections into &lt;SELECTEDITEMS&gt;&lt;elseif(MESSAGE)&gt;
+Display select dialog with message &lt;MESSAGE&gt;&lt;elseif(SELECTEDITEMS&amp;&amp;SELECTEDINDEXES)&gt;
+Display select dialog. Store the user's selections into &lt;SELECTEDITEMS&gt;. Store the selection's indexes into &lt;SELECTEDINDEXES&gt;&lt;elseif(SELECTEDINDEXES)&gt;
+Display select dialog. Store the selection's indexes into &lt;SELECTEDINDEXES&gt;&lt;elseif(SELECTEDITEMS)&gt;
+Display select dialog. Store the user's selections into &lt;SELECTEDITEMS&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;elseif(SELECTEDITEMS)&gt;"}{Locked="&lt;SELECTEDITEMS&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SELECTEDINDEXES)&gt;"}{Locked="&lt;SELECTEDINDEXES&gt;"}{Locked="&lt;elseif(SELECTEDINDEXES)&gt;"}{Locked="&lt;if(SELECTEDITEMS&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;elseif(SELECTEDINDEXES&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;(SELECTEDITEMS&amp;&amp;SELECTEDINDEXES&amp;&amp;MESSAGE)&gt;"}{Locked="&lt;elseif(MESSAGE)&gt;"}{Locked="&lt;(SELECTEDITEMS&amp;&amp;SELECTEDINDEXES)&gt;"}</comment>
+  </data>
+  <data name="ShowMessage_Description" xml:space="preserve">
+    <value>Displays a message box</value>
+  </data>
+  <data name="ShowMessage_Summary" xml:space="preserve">
+    <value>&lt;if(MESSAGE&amp;&amp;TITLE)&gt;Display message &lt;MESSAGE&gt; in the notification popup window with title &lt;TITLE&gt;.&lt;elseif(MESSAGE)&gt;
+Display message &lt;MESSAGE&gt; in the notification popup window.&lt;elseif(TITLE)&gt;
+Display notification popup window with title &lt;TITLE&gt;.&lt;else&gt;
+Display notification popup window.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;if(MESSAGE&amp;&amp;TITLE)&gt;"}{Locked="&lt;elseif(MESSAGE)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TITLE&gt;"}</comment>
+  </data>
+  <data name="ShowMessageDialog_ButtonPressed_Description" xml:space="preserve">
+    <value>The text of the button pressed</value>
+  </data>
+  <data name="ShowMessageDialog_ButtonPressed_FriendlyName" xml:space="preserve">
+    <value>Button pressed</value>
+  </data>
+  <data name="ShowMessageDialog_Buttons_Description" xml:space="preserve">
+    <value>The buttons to display on the message box</value>
+  </data>
+  <data name="ShowMessageDialog_Buttons_FriendlyName" xml:space="preserve">
+    <value>Message box buttons</value>
+  </data>
+  <data name="ShowMessageDialog_CloseAutomatically_Description" xml:space="preserve">
+    <value>Specify whether the message box closes automatically after a preset time, as if the default button was pressed. Otherwise, the flow will wait until a button is pressed by the user</value>
+  </data>
+  <data name="ShowMessageDialog_CloseAutomatically_FriendlyName" xml:space="preserve">
+    <value>Close message box automatically</value>
+  </data>
+  <data name="ShowMessageDialog_DefaultButton_Description" xml:space="preserve">
+    <value>The button to highlight by default. If the user presses &lt;Enter&gt;, this button will be pressed</value>
+    <comment>{Locked="&lt;Enter&gt;"}</comment>
+  </data>
+  <data name="ShowMessageDialog_DefaultButton_FriendlyName" xml:space="preserve">
+    <value>Default button</value>
+  </data>
+  <data name="ShowMessageDialog_Description" xml:space="preserve">
+    <value>Displays a message box</value>
+  </data>
+  <data name="ShowMessageDialog_FriendlyName" xml:space="preserve">
+    <value>Display message</value>
+  </data>
+  <data name="ShowMessageDialog_Icon_Description" xml:space="preserve">
+    <value>The icon to display with the message box</value>
+  </data>
+  <data name="ShowMessageDialog_Icon_FriendlyName" xml:space="preserve">
+    <value>Message box icon</value>
+  </data>
+  <data name="ShowMessageDialog_IsTopMost_Description" xml:space="preserve">
+    <value>Specify whether the message box should always remain on top of all other windows</value>
+  </data>
+  <data name="ShowMessageDialog_IsTopMost_FriendlyName" xml:space="preserve">
+    <value>Keep message box always on top</value>
+  </data>
+  <data name="ShowMessageDialog_Message_Description" xml:space="preserve">
+    <value>Specify the text to display as the message</value>
+  </data>
+  <data name="ShowMessageDialog_Message_FriendlyName" xml:space="preserve">
+    <value>Message to display</value>
+  </data>
+  <data name="ShowMessageDialog_Timeout_Description" xml:space="preserve">
+    <value>Specify the time in seconds to pause the flow while waiting for input, until continuing automatically</value>
+  </data>
+  <data name="ShowMessageDialog_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="ShowMessageDialog_Title_Description" xml:space="preserve">
+    <value>The text to use as the message box title</value>
+  </data>
+  <data name="ShowMessageDialog_Title_FriendlyName" xml:space="preserve">
+    <value>Message box title</value>
+  </data>
+  <data name="ShowMessageWithTimeout_Description" xml:space="preserve">
+    <value>Displays a message box that will close after a specified amount of time</value>
+  </data>
+  <data name="ShowMessageWithTimeout_Summary" xml:space="preserve">
+    <value>&lt;if(MESSAGE&amp;&amp;TIMEOUT&amp;&amp;TITLE)&gt;Display message box with title &lt;TITLE&gt; and message &lt;MESSAGE&gt; and wait for &lt;TIMEOUT&gt; sec for a response&lt;elseif(MESSAGE&amp;&amp;TIMEOUT)&gt;
+Display message box with message &lt;MESSAGE&gt; and wait for &lt;TIMEOUT&gt; sec for a response&lt;elseif(TITLE&amp;&amp;TIMEOUT)&gt;
+Display message box with title &lt;TITLE&gt; and wait for &lt;TIMEOUT&gt; sec for a response&lt;elseif(MESSAGE&amp;&amp;TITLE)&gt;
+Display message box with title &lt;TITLE&gt; and message &lt;MESSAGE&gt;&lt;elseif(MESSAGE)&gt;
+Display message box with message &lt;MESSAGE&gt;&lt;elseif(TITLE)&gt;
+Display message box with title &lt;TITLE&gt;&lt;elseif(TIMEOUT)&gt;
+Display message box and wait for &lt;TIMEOUT&gt; sec for a response&lt;else&gt;
+Display message box&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MESSAGE&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(MESSAGE&amp;&amp;TIMEOUT&amp;&amp;TITLE)&gt;"}{Locked="&lt;TITLE&gt;"}{locked="&lt;elseif(MESSAGE&amp;&amp;TIMEOUT)&gt;"}{Locked="&lt;elseif(TITLE&amp;&amp;TIMEOUT)&gt;"}{Locked="&lt;elseif(MESSAGE&amp;&amp;TITLE)&gt;"}{Locked="&lt;elseif(MESSAGE)&gt;"}{locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(TIMEOUT)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_EmptyListToSelectFrom" xml:space="preserve">
+    <value>The list to select from is empty.</value>
+  </data>
+  <data name="ErrorMessage_InputDialogFailed" xml:space="preserve">
+    <value>Failed to display input dialog.</value>
+  </data>
+  <data name="ErrorMessage_MessageBoxFailed" xml:space="preserve">
+    <value>Failed to display message box.</value>
+  </data>
+  <data name="ErrorMessage_MessageBoxInNonInteractiveMode" xml:space="preserve">
+    <value>Can't display message box in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_MultipleCalls" xml:space="preserve">
+    <value>Multiple calls aren't supported.</value>
+  </data>
+  <data name="ErrorMessage_SelectDateDialogInNonInteractiveMode" xml:space="preserve">
+    <value>Can't display select date dialog in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_SelectDialogDateFailed" xml:space="preserve">
+    <value>Failed to display select date dialog.</value>
+  </data>
+  <data name="ErrorMessage_SelectDialogFailed" xml:space="preserve">
+    <value>Failed to display select dialog.</value>
+  </data>
+  <data name="ErrorMessage_SelectDialogInNonInteractiveMode" xml:space="preserve">
+    <value>Can't display select dialog in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_SelectFileDialogFailed" xml:space="preserve">
+    <value>Failed to display select file dialog.</value>
+  </data>
+  <data name="ErrorMessage_SelectFileDialogInNonInteractiveMode" xml:space="preserve">
+    <value>Can't display select file dialog in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_SelectFolderDialogFailed" xml:space="preserve">
+    <value>Failed to display select folder dialog.</value>
+  </data>
+  <data name="ErrorMessage_SelectFolderDialogInNonInteractiveMode" xml:space="preserve">
+    <value>Can't display select folder dialog in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_SelectInputDialogInNonInteractiveMode" xml:space="preserve">
+    <value>Can't display input dialog in non interactive mode.</value>
+  </data>
+  <data name="Message_BrowseForFolder" xml:space="preserve">
+    <value>Browse for folder</value>
+  </data>
+  <data name="Message_Open" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="InputDialog_UserInput_TextBox_AccessibleName" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="FormDialogFocus_AccessibleName" xml:space="preserve">
+    <value>Dialog</value>
+  </data>
+</root>

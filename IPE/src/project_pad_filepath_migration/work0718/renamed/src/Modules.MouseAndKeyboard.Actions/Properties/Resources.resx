@@ -1,0 +1,1671 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BlockInput_BlockIt_Description" xml:space="preserve">
+    <value>Specify whether to block or unblock mouse and keyboard input</value>
+  </data>
+  <data name="BlockInput_BlockIt_FriendlyName" xml:space="preserve">
+    <value>Block it</value>
+  </data>
+  <data name="BlockInput_Description" xml:space="preserve">
+    <value>Blocks user mouse and keyboard input, so that the flow can perform mouse and keyboard actions without interference from the user</value>
+  </data>
+  <data name="BlockInput_FriendlyName" xml:space="preserve">
+    <value>Block Input</value>
+  </data>
+  <data name="BlockInput_Summary" xml:space="preserve">
+    <value>&lt;if(BLOCKIT)&gt;Block input from keyboard and mouse&lt;else&gt;Unblock input from keyboard and mouse&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(BLOCKIT)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Click_Description" xml:space="preserve">
+    <value>Sends a mouse click event at the current mouse position</value>
+  </data>
+  <data name="Click_Summary" xml:space="preserve">
+    <value>Send a &lt;CLICKTYPE&gt; event</value>
+    <comment>{Locked="&lt;CLICKTYPE&gt;"}</comment>
+  </data>
+  <data name="ClickAt_Description" xml:space="preserve">
+    <value>Sends a mouse click event at a specified position</value>
+  </data>
+  <data name="ClickAt_Summary" xml:space="preserve">
+    <value>Send a &lt;CLICKTYPE&gt; event at &lt;X&gt;, &lt;Y&gt; (&lt;RELATIVETO&gt;)</value>
+    <comment>{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;X&gt;"}{Locked="&lt;Y&gt;"}{Locked="&lt;RELATIVETO&gt;"}</comment>
+  </data>
+  <data name="ClickImage_Description" xml:space="preserve">
+    <value>Clicks on an image found on screen or on the foreground window</value>
+  </data>
+  <data name="ClickImage_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;MOUSEPOSITIONONIMAGE&gt; of the image found on the &lt;SEARCHFORIMAGEON&gt; and send a &lt;CLICKTYPE&gt; on it</value>
+    <comment>{Locked="&lt;MOUSEPOSITIONONIMAGE&gt;"}{Locked="&lt;SEARCHFORIMAGEON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}</comment>
+  </data>
+  <data name="ClickImageOfSubregion_Description" xml:space="preserve">
+    <value>Clicks on an image found on screen or on the foreground window by searching a specific subregion</value>
+  </data>
+  <data name="ClickImageOfSubregion_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;MOUSEPOSITIONONIMAGE&gt; of the image found on the &lt;SEARCHFORIMAGEON&gt; and send a &lt;CLICKTYPE&gt; on it</value>
+    <comment>{Locked="&lt;MOUSEPOSITIONONIMAGE&gt;"}{Locked="&lt;SEARCHFORIMAGEON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}</comment>
+  </data>
+  <data name="ClickTextOnScreenWithOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window and clicks on it</value>
+  </data>
+  <data name="ClickTextOnScreenWithOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}</comment>
+  </data>
+  <data name="ClickTextOnSubregionOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window and clicks on it</value>
+  </data>
+  <data name="ClickTextOnSubregionOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}</comment>
+  </data>
+  <data name="ClickTextOnSubregionRelativeToImageOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window relative to an image and clicks on it</value>
+  </data>
+  <data name="ClickTextOnSubregionRelativeToImageOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}</comment>
+  </data>
+  <data name="Error_BlockInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem blocking/unblocking input in non-interactive mode</value>
+  </data>
+  <data name="Error_BlockInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't block/unblock user input in non interactive mode</value>
+  </data>
+  <data name="Error_BlockInputError_Description" xml:space="preserve">
+    <value>Indicates a problem blocking/unblocking input</value>
+  </data>
+  <data name="Error_BlockInputError_FriendlyName" xml:space="preserve">
+    <value>Failed to block/unblock input</value>
+  </data>
+  <data name="Error_ClickOutOfScreenBoundsError_Description" xml:space="preserve">
+    <value>Indicates that the mouse click was out of the screen bounds</value>
+  </data>
+  <data name="Error_ClickOutOfScreenBoundsError_FriendlyName" xml:space="preserve">
+    <value>Mouse click out of screen bounds</value>
+  </data>
+  <data name="Error_ImageNotFoundOnScreenError_Description" xml:space="preserve">
+    <value>Indicates that the specified image wasn't found on the screen</value>
+  </data>
+  <data name="Error_ImageNotFoundOnScreenError_FriendlyName" xml:space="preserve">
+    <value>Image not found on screen</value>
+  </data>
+  <data name="Error_InvalidKeystrokesError_Description" xml:space="preserve">
+    <value>Indicates that the text given doesn't represent valid keystrokes</value>
+  </data>
+  <data name="Error_InvalidKeystrokesError_FriendlyName" xml:space="preserve">
+    <value>Text to send doesn't represent valid keystrokes</value>
+  </data>
+  <data name="Error_InvalidSubregionCoordinatesError_Description" xml:space="preserve">
+    <value>Indicates that the coordinates of the given subregion were invalid</value>
+  </data>
+  <data name="Error_InvalidSubregionCoordinatesError_FriendlyName" xml:space="preserve">
+    <value>Invalid subregion coordinates</value>
+  </data>
+  <data name="Error_MoveMouseError_Description" xml:space="preserve">
+    <value>Indicates a problem moving the mouse</value>
+  </data>
+  <data name="Error_MoveMouseError_FriendlyName" xml:space="preserve">
+    <value>Failed to move mouse</value>
+  </data>
+  <data name="Error_MoveMouseInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem moving the mouse in non-interactive mode</value>
+  </data>
+  <data name="Error_MoveMouseInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't move mouse in non interactive mode</value>
+  </data>
+  <data name="Error_NoActiveApplicationError_Description" xml:space="preserve">
+    <value>Indicates that there isn't an active application to send keystrokes to</value>
+  </data>
+  <data name="Error_NoActiveApplicationError_FriendlyName" xml:space="preserve">
+    <value>There isn't an active application to send keystrokes to</value>
+  </data>
+  <data name="Error_NotEnoughImageOccurencesError_Description" xml:space="preserve">
+    <value>Indicates that not enough occurrences of the specified Image were found on the screen</value>
+  </data>
+  <data name="Error_NotEnoughImageOccurencesError_FriendlyName" xml:space="preserve">
+    <value>Not enough Image occurrences found on screen</value>
+  </data>
+  <data name="Error_OCREngineNotAliveError_Description" xml:space="preserve">
+    <value>Indicates that the OCR engine specified isn't alive</value>
+  </data>
+  <data name="Error_OCREngineNotAliveError_FriendlyName" xml:space="preserve">
+    <value>OCR engine isn't alive</value>
+  </data>
+  <data name="Error_PressReleaseKeyInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem pressing or releasing the key in non-interactive mode</value>
+  </data>
+  <data name="Error_PressReleaseKeyInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't press or release key in non interactive mode</value>
+  </data>
+  <data name="Error_RetrieveMousePositionInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the mouse cursor position in non-interactive mode</value>
+  </data>
+  <data name="Error_RetrieveMousePositionInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't retrieve the mouse position in non interactive mode</value>
+  </data>
+  <data name="Error_SendClickError_Description" xml:space="preserve">
+    <value>Indicates a problem sending a mouse click</value>
+  </data>
+  <data name="Error_SendClickError_FriendlyName" xml:space="preserve">
+    <value>Failed to send mouse click</value>
+  </data>
+  <data name="Error_SendClickInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem sending a mouse click in non-interactive mode</value>
+  </data>
+  <data name="Error_SendClickInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't send mouse click in non interactive mode</value>
+  </data>
+  <data name="Error_SendKeystrokesError_Description" xml:space="preserve">
+    <value>Indicates a problem sending keystrokes</value>
+  </data>
+  <data name="Error_SendKeystrokesError_FriendlyName" xml:space="preserve">
+    <value>Failed to send keystrokes</value>
+  </data>
+  <data name="Error_SendKeystrokesInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem sending keystrokes in non-interactive mode</value>
+  </data>
+  <data name="Error_SendKeystrokesInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't send keystrokes in non interactive mode</value>
+  </data>
+  <data name="Error_SetKeyStateInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the key state in non interactive mode</value>
+  </data>
+  <data name="Error_SetKeyStateInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't set key state in non interactive mode</value>
+  </data>
+  <data name="Error_TextNotFoundOnScreenError_Description" xml:space="preserve">
+    <value>Indicates that the specified text couldn't be found on the screen</value>
+  </data>
+  <data name="Error_TextNotFoundOnScreenError_FriendlyName" xml:space="preserve">
+    <value>Text not found on screen</value>
+  </data>
+  <data name="GetMousePosition_Description" xml:space="preserve">
+    <value>Retrieves the current position of the mouse cursor on the screen in pixel coordinates</value>
+  </data>
+  <data name="GetMousePosition_FriendlyName" xml:space="preserve">
+    <value>Get mouse position</value>
+  </data>
+  <data name="GetMousePosition_RelativeTo_Description" xml:space="preserve">
+    <value>Specify whether to retrieve the mouse position in screen coordinates or relative to the top left corner of the active window</value>
+  </data>
+  <data name="GetMousePosition_RelativeTo_FriendlyName" xml:space="preserve">
+    <value>Relative to</value>
+  </data>
+  <data name="GetMousePosition_Summary" xml:space="preserve">
+    <value>Retrieve the mouse pointer coordinates relative to the &lt;RELATIVETO&gt;</value>
+    <comment>{Locked="&lt;RELATIVETO&gt;"}</comment>
+  </data>
+  <data name="GetMousePosition_X_Description" xml:space="preserve">
+    <value>The horizontal (X) value of the mouse position</value>
+  </data>
+  <data name="GetMousePosition_X_FriendlyName" xml:space="preserve">
+    <value>Position X</value>
+  </data>
+  <data name="GetMousePosition_Y_Description" xml:space="preserve">
+    <value>The vertical (Y) value of the mouse position</value>
+  </data>
+  <data name="GetMousePosition_Y_FriendlyName" xml:space="preserve">
+    <value>Position Y</value>
+  </data>
+  <data name="ClickType_LeftClick_FriendlyName" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="ClickType_MiddleClick_FriendlyName" xml:space="preserve">
+    <value>Middle click</value>
+  </data>
+  <data name="ClickType_RightClick_FriendlyName" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="KeyEventType_Press_FriendlyName" xml:space="preserve">
+    <value>Press</value>
+  </data>
+  <data name="KeyEventType_Release_FriendlyName" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="KeyState_ModeOff_FriendlyName" xml:space="preserve">
+    <value>Off</value>
+  </data>
+  <data name="KeyState_ModeOn_FriendlyName" xml:space="preserve">
+    <value>On</value>
+  </data>
+  <data name="MouseAndKeyboard_Description" xml:space="preserve">
+    <value>Take control of the mouse and keyboard</value>
+  </data>
+  <data name="MouseAndKeyboard_FriendlyName" xml:space="preserve">
+    <value>Mouse and keyboard</value>
+  </data>
+  <data name="MouseClickType_DoubleClick_FriendlyName" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="MouseClickType_LeftButtonDown_FriendlyName" xml:space="preserve">
+    <value>Left button down</value>
+  </data>
+  <data name="MouseClickType_LeftButtonUp_FriendlyName" xml:space="preserve">
+    <value>Left button up</value>
+  </data>
+  <data name="MouseClickType_LeftClick_FriendlyName" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="MouseClickType_RightButtonDown_FriendlyName" xml:space="preserve">
+    <value>Right button down</value>
+  </data>
+  <data name="MouseClickType_RightButtonUp_FriendlyName" xml:space="preserve">
+    <value>Right button up</value>
+  </data>
+  <data name="MouseClickType_RightClick_FriendlyName" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="MousePositionRelativeTo_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window</value>
+  </data>
+  <data name="MousePositionRelativeTo_Screen_FriendlyName" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="MovementStyle_AnimateFast_FriendlyName" xml:space="preserve">
+    <value>With animation (high speed)</value>
+  </data>
+  <data name="MovementStyle_AnimateNormal_FriendlyName" xml:space="preserve">
+    <value>With animation (normal speed)</value>
+  </data>
+  <data name="MovementStyle_AnimateSlow_FriendlyName" xml:space="preserve">
+    <value>With animation (low speed)</value>
+  </data>
+  <data name="MovementStyle_Instant_FriendlyName" xml:space="preserve">
+    <value>Instant</value>
+  </data>
+  <data name="MoveMouse_Description" xml:space="preserve">
+    <value>Moves the mouse to a specific position</value>
+  </data>
+  <data name="MoveMouse_FriendlyName" xml:space="preserve">
+    <value>Move mouse</value>
+  </data>
+  <data name="MoveMouse_MovementStyle_Description" xml:space="preserve">
+    <value>Specify how to move the mouse</value>
+  </data>
+  <data name="MoveMouse_MovementStyle_FriendlyName" xml:space="preserve">
+    <value>Move mouse from previous position</value>
+  </data>
+  <data name="MoveMouse_RelativeTo_Description" xml:space="preserve">
+    <value>Specify whether the new mouse position will be relative to the top left corner of the screen, the foremost window, or the current mouse position</value>
+  </data>
+  <data name="MoveMouse_RelativeTo_FriendlyName" xml:space="preserve">
+    <value>Relative to</value>
+  </data>
+  <data name="MoveMouse_Summary" xml:space="preserve">
+    <value>Move mouse to &lt;X&gt;, &lt;Y&gt; (relative to &lt;RELATIVETO&gt;)</value>
+    <comment>{Locked="&lt;X&gt;"}{Locked="&lt;Y&gt;"}{Locked="&lt;RELATIVETO&gt;"}</comment>
+  </data>
+  <data name="MoveMouse_X_Description" xml:space="preserve">
+    <value>The horizontal (X) value of the position to send the mouse to</value>
+  </data>
+  <data name="MoveMouse_X_FriendlyName" xml:space="preserve">
+    <value>Position X</value>
+  </data>
+  <data name="MoveMouse_Y_Description" xml:space="preserve">
+    <value>The vertical (Y) value of the position to send the mouse to</value>
+  </data>
+  <data name="MoveMouse_Y_FriendlyName" xml:space="preserve">
+    <value>Position Y</value>
+  </data>
+  <data name="MoveMouseToImage_Description" xml:space="preserve">
+    <value>Moves the mouse over an image found on screen or on the foreground window</value>
+  </data>
+  <data name="MoveMouseToImage_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;MOUSEPOSITIONONIMAGE&gt; of the image found on the &lt;SEARCHFORIMAGEON&gt;</value>
+    <comment>{Locked="&lt;MOUSEPOSITIONONIMAGE&gt;"}{Locked="&lt;SEARCHFORIMAGEON&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToImageBase_ClickOnImage_Description" xml:space="preserve">
+    <value>Specify whether to send a click after the mouse is positioned over the image</value>
+  </data>
+  <data name="MoveMouseToImageBase_ClickOnImage_FriendlyName" xml:space="preserve">
+    <value>Send a click after moving mouse</value>
+  </data>
+  <data name="MoveMouseToImageBase_ClickType_Description" xml:space="preserve">
+    <value>The mouse click to send to the image</value>
+  </data>
+  <data name="MoveMouseToImageBase_ClickType_FriendlyName" xml:space="preserve">
+    <value>Click type</value>
+  </data>
+  <data name="MoveMouseToImageBase_Description" xml:space="preserve">
+    <value>Moves the mouse over an image found on screen or on the foreground window</value>
+  </data>
+  <data name="MoveMouseToImageBase_FriendlyName" xml:space="preserve">
+    <value>Move mouse to image</value>
+  </data>
+  <data name="MoveMouseToImageBase_Images_Description" xml:space="preserve">
+    <value>The list of Images to move the mouse to</value>
+  </data>
+  <data name="MoveMouseToImageBase_Images_FriendlyName" xml:space="preserve">
+    <value>Image to move mouse to</value>
+  </data>
+  <data name="MoveMouseToImageBase_MousePositionOnImage_Description" xml:space="preserve">
+    <value>The section of the image the mouse will be moved to</value>
+  </data>
+  <data name="MoveMouseToImageBase_MousePositionOnImage_FriendlyName" xml:space="preserve">
+    <value>Mouse position relative to image</value>
+  </data>
+  <data name="MoveMouseToImageBase_MovementStyle_Description" xml:space="preserve">
+    <value>Specify the style of movement in which the mouse will move from its previous position to the beginning of the recorded route (or to its final position)</value>
+  </data>
+  <data name="MoveMouseToImageBase_MovementStyle_FriendlyName" xml:space="preserve">
+    <value>Mouse movement style</value>
+  </data>
+  <data name="MoveMouseToImageBase_Occurence_Description" xml:space="preserve">
+    <value>The occurrence of the image found to move the mouse to</value>
+  </data>
+  <data name="MoveMouseToImageBase_Occurence_FriendlyName" xml:space="preserve">
+    <value>Occurrence</value>
+  </data>
+  <data name="MoveMouseToImageBase_OffsetX_Description" xml:space="preserve">
+    <value>The pixels to offset the mouse from the position to the right</value>
+  </data>
+  <data name="MoveMouseToImageBase_OffsetX_FriendlyName" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="MoveMouseToImageBase_OffsetY_Description" xml:space="preserve">
+    <value>The pixels to offset the mouse from the position down</value>
+  </data>
+  <data name="MoveMouseToImageBase_OffsetY_FriendlyName" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="MoveMouseToImageBase_SearchForImageOn_Description" xml:space="preserve">
+    <value>Specify whether to search for the specified Image in the foremost window only, or the entire visible screen. Neither choice will find the image if it isn't clearly visible on the screen</value>
+  </data>
+  <data name="MoveMouseToImageBase_SearchForImageOn_FriendlyName" xml:space="preserve">
+    <value>Search for image on</value>
+  </data>
+  <data name="MoveMouseToImageBase_SearchMode_Description" xml:space="preserve">
+    <value>Specify whether to scan the entire screen (or window) to find the supplied image or only a subregion of it</value>
+  </data>
+  <data name="MoveMouseToImageBase_SearchMode_FriendlyName" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="MoveMouseToImageBase_SecondsBeforeClick_Description" xml:space="preserve">
+    <value>The number of seconds to wait before sending the click</value>
+  </data>
+  <data name="MoveMouseToImageBase_SecondsBeforeClick_FriendlyName" xml:space="preserve">
+    <value>Seconds before click</value>
+  </data>
+  <data name="MoveMouseToImageBase_Timeout_Description" xml:space="preserve">
+    <value>The fail timeout in seconds</value>
+  </data>
+  <data name="MoveMouseToImageBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Fail timeout</value>
+  </data>
+  <data name="MoveMouseToImageBase_Tolerance_Description" xml:space="preserve">
+    <value>Specify how much the specified image can differ from the originally chosen image</value>
+  </data>
+  <data name="MoveMouseToImageBase_Tolerance_FriendlyName" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="MoveMouseToImageBase_X_Description" xml:space="preserve">
+    <value>The X coordinate of the point where the image is found on the screen. If the image is being searched for on the foreground window, the coordinate returned is relative to the top left corner of the window</value>
+  </data>
+  <data name="MoveMouseToImageBase_X_FriendlyName" xml:space="preserve">
+    <value>Location of image found - X coordinate</value>
+  </data>
+  <data name="MoveMouseToImageBase_X1_Description" xml:space="preserve">
+    <value>The starting X of the subregion to search in</value>
+  </data>
+  <data name="MoveMouseToImageBase_X1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="MoveMouseToImageBase_X2_Description" xml:space="preserve">
+    <value>The ending X of the subregion to search in</value>
+  </data>
+  <data name="MoveMouseToImageBase_X2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="MoveMouseToImageBase_Y_Description" xml:space="preserve">
+    <value>The Y coordinate of the point where the image is found on the screen. If the image is being searched for on the foreground window, the coordinate returned is relative to the top left corner of the window</value>
+  </data>
+  <data name="MoveMouseToImageBase_Y_FriendlyName" xml:space="preserve">
+    <value>Location of image found - Y coordinate</value>
+  </data>
+  <data name="MoveMouseToImageBase_Y1_Description" xml:space="preserve">
+    <value>The starting Y of the subregion to search in</value>
+  </data>
+  <data name="MoveMouseToImageBase_Y1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="MoveMouseToImageBase_Y2_Description" xml:space="preserve">
+    <value>The ending Y of the subregion to search in</value>
+  </data>
+  <data name="MoveMouseToImageBase_Y2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="MoveMouseToImageOfSubregion_Description" xml:space="preserve">
+    <value>Moves the mouse over an image found on screen or on the foreground window by searching a specific subregion</value>
+  </data>
+  <data name="MoveMouseToImageOfSubregion_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;MOUSEPOSITIONONIMAGE&gt; of the image found on the &lt;SEARCHFORIMAGEON&gt;</value>
+    <comment>{Locked="&lt;MOUSEPOSITIONONIMAGE&gt;"}{Locked="&lt;SEARCHFORIMAGEON&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window using OCR</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window using OCR</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_FriendlyName" xml:space="preserve">
+    <value>Move mouse to text on screen (OCR)</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Height_Description" xml:space="preserve">
+    <value>The width of the area the text was found on</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Height_FriendlyName" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Images_Description" xml:space="preserve">
+    <value>The image(s) specifying the subregion (relative to the top left corner of the image) to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Images_FriendlyName" xml:space="preserve">
+    <value>Image(s)</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageX1_Description" xml:space="preserve">
+    <value>The start X coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageX1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageX2_Description" xml:space="preserve">
+    <value>The end X coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageX2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageY1_Description" xml:space="preserve">
+    <value>The start Y coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageY1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageY2_Description" xml:space="preserve">
+    <value>The end Y coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ImageY2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_IsRegEx_Description" xml:space="preserve">
+    <value>Whether to use a regular expression to look for the text on screen</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_IsRegEx_FriendlyName" xml:space="preserve">
+    <value>Is regular expression</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_MovementStyle_Description" xml:space="preserve">
+    <value>The style of movement in which the mouse will move from its previous position to its final position</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_MovementStyle_FriendlyName" xml:space="preserve">
+    <value>Move mouse from previous position</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Occurence_Description" xml:space="preserve">
+    <value>A positive number that will be used as the occurrence of the input text on screen</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Occurence_FriendlyName" xml:space="preserve">
+    <value>Occurrence</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_OCREngine_Description" xml:space="preserve">
+    <value>The OCR engine to use for the OCR operation</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_OCREngine_FriendlyName" xml:space="preserve">
+    <value>OCR engine</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_OffsetX_Description" xml:space="preserve">
+    <value>Offset the mouse from the position by this many pixels to the right</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_OffsetX_FriendlyName" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_OffsetY_Description" xml:space="preserve">
+    <value>Offset the mouse from the position by this many pixels down</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_OffsetY_FriendlyName" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_PositionRelativeToText_Description" xml:space="preserve">
+    <value>Specify which section of the text the mouse will be moved to</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_PositionRelativeToText_FriendlyName" xml:space="preserve">
+    <value>Mouse position relative to text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SearchForTextOn_Description" xml:space="preserve">
+    <value>Whether to look for the specified text in the foremost window only or the entire visible screen. Neither choice will find the text if it isn't clearly visible on the screen</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SearchForTextOn_FriendlyName" xml:space="preserve">
+    <value>Search for text on</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SearchMode_Description" xml:space="preserve">
+    <value>Whether to scan the entire screen (or window) to find the supplied text or only a narrows down subregion of it</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SearchMode_FriendlyName" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SecondsBeforeClicking_Description" xml:space="preserve">
+    <value>The number of seconds to wait before clicking</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SecondsBeforeClicking_FriendlyName" xml:space="preserve">
+    <value>Wait before clicking for</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SendMouseClick_Description" xml:space="preserve">
+    <value>Specify whether to send a click after the mouse is positioned over the text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SendMouseClick_FriendlyName" xml:space="preserve">
+    <value>Send a click after moving mouse</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_TextToFind_Description" xml:space="preserve">
+    <value>The text to move the mouse over</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_TextToFind_FriendlyName" xml:space="preserve">
+    <value>Text to find</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Timeout_Description" xml:space="preserve">
+    <value>The number of seconds to wait for the supplied text to appear</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Timeout_FriendlyName" xml:space="preserve">
+    <value>Fail if text doesn't appear within</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Tolerance_Description" xml:space="preserve">
+    <value>Specify how much the image(s) searched for can differ from the originally chosen image</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Tolerance_FriendlyName" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_WaitForTextToAppear_Description" xml:space="preserve">
+    <value>Specify whether to wait if the text isn't found on the screen or foreground window</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_WaitForTextToAppear_FriendlyName" xml:space="preserve">
+    <value>Wait for text to appear</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Width_Description" xml:space="preserve">
+    <value>The width of the area the text was found on</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Width_FriendlyName" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_X_Description" xml:space="preserve">
+    <value>The X coordinate of the point where the text is found on the screen. If the text is searched for in the foreground window, this is relative to the top left corner of the window</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_X_FriendlyName" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_X1_Description" xml:space="preserve">
+    <value>The start X coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_X1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_X2_Description" xml:space="preserve">
+    <value>The end X coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_X2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Y_Description" xml:space="preserve">
+    <value>The Y coordinate of the point where the text is found on the screen. If the text is searched for in the foreground window this is relative to the top left corner of the window</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Y_FriendlyName" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Y1_Description" xml:space="preserve">
+    <value>The start Y coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Y1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Y2_Description" xml:space="preserve">
+    <value>The end Y coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_Y2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="MoveMouseToTextOnSubregionOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window using OCR</value>
+  </data>
+  <data name="MoveMouseToTextOnSubregionOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionRelativeToImageOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window relative to an image using OCR</value>
+  </data>
+  <data name="MoveMouseToTextOnSubregionRelativeToImageOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="MultiStateKey_CapsLock_FriendlyName" xml:space="preserve">
+    <value>Caps Lock</value>
+  </data>
+  <data name="MultiStateKey_NumLock_FriendlyName" xml:space="preserve">
+    <value>Num Lock</value>
+  </data>
+  <data name="MultiStateKey_ScrollLock_FriendlyName" xml:space="preserve">
+    <value>Scroll Lock</value>
+  </data>
+  <data name="PositionOnImage_BottomCenter_FriendlyName" xml:space="preserve">
+    <value>bottom center</value>
+  </data>
+  <data name="PositionOnImage_BottomLeft_FriendlyName" xml:space="preserve">
+    <value>bottom left corner</value>
+  </data>
+  <data name="PositionOnImage_BottomRight_FriendlyName" xml:space="preserve">
+    <value>bottom right corner</value>
+  </data>
+  <data name="PositionOnImage_MiddleCenter_FriendlyName" xml:space="preserve">
+    <value>center</value>
+  </data>
+  <data name="PositionOnImage_MiddleLeft_FriendlyName" xml:space="preserve">
+    <value>middle left part</value>
+  </data>
+  <data name="PositionOnImage_MiddleRight_FriendlyName" xml:space="preserve">
+    <value>middle right part</value>
+  </data>
+  <data name="PositionOnImage_TopCenter_FriendlyName" xml:space="preserve">
+    <value>top center</value>
+  </data>
+  <data name="PositionOnImage_TopLeft_FriendlyName" xml:space="preserve">
+    <value>top left corner</value>
+  </data>
+  <data name="PositionOnImage_TopRight_FriendlyName" xml:space="preserve">
+    <value>top right corner</value>
+  </data>
+  <data name="PositionRelativeTo_ActiveWindow_FriendlyName" xml:space="preserve">
+    <value>Active window</value>
+  </data>
+  <data name="PositionRelativeTo_CurrentMousePosition_FriendlyName" xml:space="preserve">
+    <value>Current mouse position</value>
+  </data>
+  <data name="PositionRelativeTo_Screen_FriendlyName" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="PressReleaseKey_Alt_Description" xml:space="preserve">
+    <value>Specify whether the Alt key will be pressed/released or not</value>
+  </data>
+  <data name="PressReleaseKey_Alt_FriendlyName" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="PressReleaseKey_Control_Description" xml:space="preserve">
+    <value>Specify whether the Ctrl key will be pressed/released or not</value>
+  </data>
+  <data name="PressReleaseKey_Control_FriendlyName" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="PressReleaseKey_Description" xml:space="preserve">
+    <value>Presses (and holds) or releases one or more modifier keys (Alt, Control, or Shift)</value>
+  </data>
+  <data name="PressReleaseKey_FriendlyName" xml:space="preserve">
+    <value>Press/release key</value>
+  </data>
+  <data name="PressKey_Description" xml:space="preserve">
+    <value>Presses (and holds) one or more modifier keys (Alt, Control, or Shift)</value>
+  </data>
+  <data name="PressKey_FriendlyName" xml:space="preserve">
+    <value>Press key</value>
+  </data>
+  <data name="PressKey_Summary" xml:space="preserve">
+    <value>&lt;if(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;
+Press the Control, Alt, Shift, Win keys&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT)&gt;
+Press the Control, Alt, Shift keys&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;WIN)&gt;
+Press the Control, Alt, Win keys&lt;elseif(CONTROL&amp;&amp;ALT)&gt;
+Press the Control, Alt keys&lt;elseif(CONTROL&amp;&amp;SHIFT&amp;&amp;WIN)&gt;
+Press the Control, Shift, Win keys&lt;elseif(CONTROL&amp;&amp;SHIFT)&gt;
+Press the Control, Shift keys&lt;elseif(CONTROL&amp;&amp;WIN)&gt;
+Press the Control, Win keys&lt;elseif(CONTROL)&gt;
+Press the Control key&lt;elseif(ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;
+Press the Alt, Shift, Win keys&lt;elseif(ALT&amp;&amp;SHIFT)&gt;
+Press the Alt, Shift keys&lt;elseif(ALT&amp;&amp;WIN)&gt;
+Press the Alt, Win keys&lt;elseif(ALT)&gt;
+Press the Alt key&lt;elseif(SHIFT&amp;&amp;WIN)&gt;
+Press the Shift, Win keys&lt;elseif(SHIFT)&gt;
+Press the Shift key&lt;elseif(WIN)&gt;
+Press the Win key&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;ALT)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;SHIFT)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL)&gt;"}{Locked="&lt;elseif(ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(ALT&amp;&amp;SHIFT)&gt;"}{Locked="&lt;elseif(ALT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(ALT)&gt;"}{Locked="&lt;elseif(SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(SHIFT)&gt;"}{Locked="&lt;elseif(WIN)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="PressReleaseKey_Event_Description" xml:space="preserve">
+    <value>Specify whether to press or release keys with this action</value>
+  </data>
+  <data name="PressReleaseKey_Event_FriendlyName" xml:space="preserve">
+    <value>Action to perform</value>
+  </data>
+  <data name="PressReleaseKey_Shift_Description" xml:space="preserve">
+    <value>Specify whether the Shift key will be pressed/released or not</value>
+  </data>
+  <data name="PressReleaseKey_Shift_FriendlyName" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="PressReleaseKey_Win_Description" xml:space="preserve">
+    <value>Specify whether the Windows key will be pressed/released or not</value>
+  </data>
+  <data name="PressReleaseKey_Win_FriendlyName" xml:space="preserve">
+    <value>Win</value>
+    <comment>{Locked="Win"}</comment>
+  </data>
+  <data name="ReleaseKey_Description" xml:space="preserve">
+    <value>Releases one or more modifier keys (Alt, Control, or Shift)</value>
+  </data>
+  <data name="ReleaseKey_FriendlyName" xml:space="preserve">
+    <value>Release key</value>
+  </data>
+  <data name="ReleaseKey_Summary" xml:space="preserve">
+    <value>&lt;if(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;
+Release the Control, Alt, Shift, Win keys&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT)&gt;
+Release the Control, Alt, Shift keys&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;WIN)&gt;
+Release the Control, Alt, Win keys&lt;elseif(CONTROL&amp;&amp;ALT)&gt;
+Release the Control, Alt keys&lt;elseif(CONTROL&amp;&amp;SHIFT&amp;&amp;WIN)&gt;
+Release the Control, Shift, Win keys&lt;elseif(CONTROL&amp;&amp;SHIFT)&gt;
+Release the Control, Shift keys&lt;elseif(CONTROL&amp;&amp;WIN)&gt;
+Release the Control, Win keys&lt;elseif(CONTROL)&gt;
+Release the Control key&lt;elseif(ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;
+Release the Alt, Shift, Win keys&lt;elseif(ALT&amp;&amp;SHIFT)&gt;
+Release the Alt, Shift keys&lt;elseif(ALT&amp;&amp;WIN)&gt;
+Release the Alt, Win keys&lt;elseif(ALT)&gt;
+Release the Alt key&lt;elseif(SHIFT&amp;&amp;WIN)&gt;
+Release the Shift, Win keys&lt;elseif(SHIFT)&gt;
+Release the Shift key&lt;elseif(WIN)&gt;
+Release the Win key&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;SHIFT)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;ALT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;ALT)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;SHIFT)&gt;"}{Locked="&lt;elseif(CONTROL&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(CONTROL)&gt;"}{Locked="&lt;elseif(ALT&amp;&amp;SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(ALT&amp;&amp;SHIFT)&gt;"}{Locked="&lt;elseif(ALT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(ALT)&gt;"}{Locked="&lt;elseif(SHIFT&amp;&amp;WIN)&gt;"}{Locked="&lt;elseif(SHIFT)&gt;"}{Locked="&lt;elseif(WIN)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="SearchMode_Subregion_FriendlyName" xml:space="preserve">
+    <value>Search on specified subregion of screen or foreground window</value>
+  </data>
+  <data name="SearchMode_Whole_FriendlyName" xml:space="preserve">
+    <value>Search whole screen or foreground window</value>
+  </data>
+  <data name="SearchTarget_EntireScreen_FriendlyName" xml:space="preserve">
+    <value>Entire screen</value>
+  </data>
+  <data name="SearchTarget_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window only</value>
+  </data>
+  <data name="SendKeys_DelayBetweenKeystrokes_Description" xml:space="preserve">
+    <value>Specify the delay in milliseconds between sending keystrokes to avoid input errors</value>
+  </data>
+  <data name="SendKeys_DelayBetweenKeystrokes_FriendlyName" xml:space="preserve">
+    <value>Delay between keystrokes</value>
+  </data>
+  <data name="SendKeys_Description" xml:space="preserve">
+    <value>Sends keys to the application that is currently active</value>
+  </data>
+  <data name="SendKeys_FriendlyName" xml:space="preserve">
+    <value>Send keys</value>
+  </data>
+  <data name="SendKeys_SendTextAsHardwareKeys_Description" xml:space="preserve">
+    <value>Emulate the actual keystrokes on keyboard when sending whole Text</value>
+  </data>
+  <data name="SendKeys_SendTextAsHardwareKeys_FriendlyName" xml:space="preserve">
+    <value>Send Text as hardware keys</value>
+  </data>
+  <data name="SendKeys_Summary" xml:space="preserve">
+    <value>Send the following keystrokes: &lt;TEXTTOSEND&gt; to the active window</value>
+    <comment>{Locked="&lt;TEXTTOSEND&gt;"}</comment>
+  </data>
+  <data name="SendKeys_TextToSend_Description" xml:space="preserve">
+    <value>The text to send to the application. To simulate a physical key being pressed, use the curly brackets {} notation (e.g. to press Enter, use {Enter} ). To use a key as a modifier, use the curly brackets {} notation to both keys (e.g. to press Ctrl + A use {Control}({A}) ).</value>
+  </data>
+  <data name="SendKeys_TextToSend_FriendlyName" xml:space="preserve">
+    <value>Text to send</value>
+  </data>
+  <data name="SendMouseClick_ClickType_Description" xml:space="preserve">
+    <value>Specify what form of mouse event to send</value>
+  </data>
+  <data name="SendMouseClick_ClickType_FriendlyName" xml:space="preserve">
+    <value>Mouse event to send</value>
+  </data>
+  <data name="SendMouseClick_Description" xml:space="preserve">
+    <value>Sends a mouse click event</value>
+  </data>
+  <data name="SendMouseClick_FriendlyName" xml:space="preserve">
+    <value>Send mouse click</value>
+  </data>
+  <data name="SendMouseClick_MillisecondsDelay_Description" xml:space="preserve">
+    <value>The time to delay before sending the mouse event in 1/1000 of a second</value>
+  </data>
+  <data name="SendMouseClick_MillisecondsDelay_FriendlyName" xml:space="preserve">
+    <value>Wait</value>
+  </data>
+  <data name="SendMouseClick_MovementStyle_Description" xml:space="preserve">
+    <value>The style of movement in which the mouse will move from its previous position to the beginning of the recorded route (or to its final position)</value>
+  </data>
+  <data name="SendMouseClick_MovementStyle_FriendlyName" xml:space="preserve">
+    <value>Mouse movement style</value>
+  </data>
+  <data name="SendMouseClick_MoveMouse_Description" xml:space="preserve">
+    <value>Move mouse</value>
+  </data>
+  <data name="SendMouseClick_MoveMouse_FriendlyName" xml:space="preserve">
+    <value>Move mouse</value>
+  </data>
+  <data name="SendMouseClick_RelativeTo_Description" xml:space="preserve">
+    <value>Specify whether the new mouse position will be relative to the top left corner of the screen, the foremost window, or the current mouse position</value>
+  </data>
+  <data name="SendMouseClick_RelativeTo_FriendlyName" xml:space="preserve">
+    <value>Relative to</value>
+  </data>
+  <data name="SendMouseClick_X_Description" xml:space="preserve">
+    <value>The horizontal (X) position of the mouse in pixel coordinates</value>
+  </data>
+  <data name="SendMouseClick_X_FriendlyName" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="SendMouseClick_Y_Description" xml:space="preserve">
+    <value>The vertical (Y) position of the mouse in pixel coordinates</value>
+  </data>
+  <data name="SendMouseClick_Y_FriendlyName" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="SetKeyState_Description" xml:space="preserve">
+    <value>Sets the state (on or off) for the keys Caps Lock, Num Lock or Scroll Lock</value>
+  </data>
+  <data name="SetKeyState_FriendlyName" xml:space="preserve">
+    <value>Set key state</value>
+  </data>
+  <data name="SetKeyState_Key_Description" xml:space="preserve">
+    <value>Specify the key to set</value>
+  </data>
+  <data name="SetKeyState_Key_FriendlyName" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="SetKeyState_State_Description" xml:space="preserve">
+    <value>Whether to set the key state to on or off</value>
+  </data>
+  <data name="SetKeyState_State_FriendlyName" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="SetKeyState_Summary" xml:space="preserve">
+    <value>Set key: &lt;KEY&gt; to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;KEY&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SourceScanMode_RegionRelativeToImage_FriendlyName" xml:space="preserve">
+    <value>Subregion relative to image</value>
+  </data>
+  <data name="SourceScanMode_SpecificSubregion_FriendlyName" xml:space="preserve">
+    <value>Specific subregion only</value>
+  </data>
+  <data name="SourceScanMode_Whole_FriendlyName" xml:space="preserve">
+    <value>Whole of specified source</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnScreenWithOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on the screen or on the foreground window and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnScreenWithOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}{Locked="&lt;TIMEOUT&gt;"}</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionRelativeToImageOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window relative to an image and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionRelativeToImageOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}{Locked="&lt;TIMEOUT&gt;"}</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnScreenWithOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on the screen or on the foreground window and moves the mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnScreenWithOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window and moves the mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionRelativeToImageOfScreenWithOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window relative to an image and moves the mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionRelativeToImageOfScreenWithOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ClickType_Description" xml:space="preserve">
+    <value>The mouse click type to send to the text</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_ClickType_FriendlyName" xml:space="preserve">
+    <value>Click type</value>
+  </data>
+  <data name="ErrorMessage_CannotBlockInput" xml:space="preserve">
+    <value>Can't block/unblock user input in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_CannotMoveMouseNotInteractive" xml:space="preserve">
+    <value>Can't move mouse in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_CannotMoveMouse" xml:space="preserve">
+    <value>Can't move mouse.</value>
+  </data>
+  <data name="ErrorMessage_ImageNotFound" xml:space="preserve">
+    <value>Image not found on {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessageHelper_Screen" xml:space="preserve">
+    <value>screen</value>
+  </data>
+  <data name="ErrorMessageHelper_ForegroundWindow" xml:space="preserve">
+    <value>foreground window</value>
+  </data>
+  <data name="ErrorMessage_NotEnoughImageOccurencesFound" xml:space="preserve">
+    <value>Not enough image occurrences {0} found on {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToMoveMouse" xml:space="preserve">
+    <value>Failed to move mouse.</value>
+  </data>
+  <data name="ErrorMessage_InvalidOccurenceEntry" xml:space="preserve">
+    <value>Occurrence should be equals or greater than one (1).</value>
+  </data>
+  <data name="ErrorMessage_EngineIsNotAlive" xml:space="preserve">
+    <value>{0} Engine isn't alive.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TextNotFoundOnScreen" xml:space="preserve">
+    <value>Text not found on screen.</value>
+  </data>
+  <data name="ErrorMessage_CannotPressReleaseKeyNonInteractive" xml:space="preserve">
+    <value>Can't press or release key in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_CannotSendKeyStrokeNotInteractive" xml:space="preserve">
+    <value>Can't send keystrokes in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_CannotSendKeystrokeNonInteractive" xml:space="preserve">
+    <value>Can't send keystrokes in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_InvalidKeystrokes" xml:space="preserve">
+    <value>Text to send doesn't represent valid keystrokes.</value>
+  </data>
+  <data name="ErrorMessage_NoValidAppToSendKeystrokes" xml:space="preserve">
+    <value>There isn't an active application to send keystrokes to.</value>
+  </data>
+  <data name="ErrorMessage_FailedToSendKeystrokes" xml:space="preserve">
+    <value>Failed to send keystrokes.</value>
+  </data>
+  <data name="ErrorMessage_CannotSendMouseClickNonInteractive" xml:space="preserve">
+    <value>Can't send mouse click in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_FailedToSendMouseClick" xml:space="preserve">
+    <value>Failed to send mouse click.</value>
+  </data>
+  <data name="ErrorMessage_CannotSetKeyStateNonInteractive" xml:space="preserve">
+    <value>Can't set key state in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_MouseClickOutOfBounds" xml:space="preserve">
+    <value>Mouse click out of screen bounds.</value>
+  </data>
+  <data name="ErrorMessage_CannotFindTextTimeout" xml:space="preserve">
+    <value>Couldn't find the requested text within {0} seconds.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CouldNotFindText" xml:space="preserve">
+    <value>Couldn't find the text.</value>
+  </data>
+  <data name="ErrorMessage_FailedToBlockInput" xml:space="preserve">
+    <value>Failed to {0} input.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessageHelper_Block" xml:space="preserve">
+    <value>block</value>
+  </data>
+  <data name="ErrorMessageHelper_Unblock" xml:space="preserve">
+    <value>unblock</value>
+  </data>
+  <data name="ErrorMessage_SubregionX1Invalid" xml:space="preserve">
+    <value>Subregion coordinate X1 can't be negative (was set to {0}).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionY1Invalid" xml:space="preserve">
+    <value>Subregion coordinate Y1 can't be negative (was set to {0}).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionX2Invalid" xml:space="preserve">
+    <value>Subregion coordinate X2 can't be negative (was set to {0}).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionY2Invalid" xml:space="preserve">
+    <value>Subregion coordinate Y2 can't be negative (was set to {0}).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Wait_WaitForMouseToBecomeDifferentThan_Summary" xml:space="preserve">
+    <value>Wait for mouse pointer to become different than &lt;MOUSEPOINTERSTATE&gt;</value>
+    <comment>{Locked="&lt;MOUSEPOINTERSTATE&gt;"}</comment>
+  </data>
+  <data name="WaitForMouseToBecomeDifferentThan_Description" xml:space="preserve">
+    <value>Check whether the mouse cursor is different than a specified cursor</value>
+  </data>
+  <data name="Wait_WaitForMouseToBecome_Summary" xml:space="preserve">
+    <value>Wait for mouse pointer to become &lt;MOUSEPOINTERSTATE&gt;</value>
+    <comment>{Locked="&lt;MOUSEPOINTERSTATE&gt;"}</comment>
+  </data>
+  <data name="WaitForMouseToBecome_Description" xml:space="preserve">
+    <value>Check whether the mouse cursor is a specific value</value>
+  </data>
+  <data name="Wait_WaitForMouseAction_Description" xml:space="preserve">
+    <value>Suspends the execution of the flow until the mouse pointer changes, usually to or from the 'wait cursor' or hourglass</value>
+  </data>
+  <data name="Wait_WaitForMouseAction_FriendlyName" xml:space="preserve">
+    <value>Wait for mouse</value>
+  </data>
+  <data name="WaitForMouseAction_MouseEvent_Description" xml:space="preserve">
+    <value>Choose what action of the mouse cursor to wait for.</value>
+  </data>
+  <data name="WaitForMouseAction_MouseEvent_FriendlyName" xml:space="preserve">
+    <value>Wait for mouse pointer to</value>
+  </data>
+  <data name="WaitForMouseAction_MousePointerState_Description" xml:space="preserve">
+    <value>Specify the mouse pointer state.</value>
+  </data>
+  <data name="WaitForMouseAction_MousePointerState_FriendlyName" xml:space="preserve">
+    <value>Mouse pointer</value>
+  </data>
+  <data name="WaitForShortcutKey_Description" xml:space="preserve">
+    <value>Pause the flow run until a specific shortcut key is pressed. Shortcut keys must contain at least one key or a key and one of (ctrl, alt, shift)</value>
+  </data>
+  <data name="WaitForShortcutKey_Summary" xml:space="preserve">
+    <value>Wait for the user to press &lt;INPUTKEYS&gt;</value>
+    <comment>{Locked="&lt;INPUTKEYS&gt;"}</comment>
+  </data>
+  <data name="WaitForShortcutKeyAndProceedOnTimeout_Description" xml:space="preserve">
+    <value>Wait for shortcut key and continue run on timeout</value>
+  </data>
+  <data name="WaitForShortcutKeyAndProceedOnTimeout_Summary" xml:space="preserve">
+    <value>Wait &lt;CONTINUEAFTER&gt; seconds for the user to press &lt;INPUTKEYS&gt;</value>
+    <comment>{Locked="&lt;CONTINUEAFTER&gt;"}{Locked="&lt;INPUTKEYS&gt;"}</comment>
+  </data>
+  <data name="WaitForShortcutKeyAction_InputKeys_Description" xml:space="preserve">
+    <value>Specify the shortcut keys to wait for.  Shortcut keys must contain exactly one key or a key and a combination of (ctrl, alt, shift). In order to wait for one of multiple shortcut keys they must be in a list.</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_InputKeys_FriendlyName" xml:space="preserve">
+    <value>Shortcut key</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_ProceedOnTimeout_Description" xml:space="preserve">
+    <value>Specify whether the flow run will continue anyway when the set period of time waiting for the shortcut key expires</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_ProceedOnTimeout_FriendlyName" xml:space="preserve">
+    <value>Continue flow run on timeout</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_ContinueAfter_Description" xml:space="preserve">
+    <value>The time in seconds before continuing the flow run</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_ContinueAfter_FriendlyName" xml:space="preserve">
+    <value>Continue after</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_IndexOfShortcutKeyPressed_Description" xml:space="preserve">
+    <value>The index of the shortcut key if the shortcut keys are in a list format.</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_IndexOfShortcutKeyPressed_FriendlyName" xml:space="preserve">
+    <value>Index of shortcut key</value>
+  </data>
+  <data name="Error_FailedToRegisterShortcutkeyError_Description" xml:space="preserve">
+    <value>Indicates that a shortcut key failed to register.</value>
+  </data>
+  <data name="Error_FailedToRegisterShortcutkeyError_FriendlyName" xml:space="preserve">
+    <value>Shortcut key failed to register</value>
+  </data>
+  <data name="MousePointerState_AppStarting_FriendlyName" xml:space="preserve">
+    <value>App starting</value>
+  </data>
+  <data name="MousePointerState_Arrow_FriendlyName" xml:space="preserve">
+    <value>Arrow</value>
+  </data>
+  <data name="MousePointerState_Cross_FriendlyName" xml:space="preserve">
+    <value>Cross</value>
+  </data>
+  <data name="MousePointerState_Hand_FriendlyName" xml:space="preserve">
+    <value>Hand</value>
+  </data>
+  <data name="MousePointerState_Help_FriendlyName" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="MousePointerState_IBeam_FriendlyName" xml:space="preserve">
+    <value>IBeam</value>
+  </data>
+  <data name="MousePointerState_WaitCursor_FriendlyName" xml:space="preserve">
+    <value>Wait cursor</value>
+  </data>
+  <data name="WaitForMouseEvent_Become_FriendlyName" xml:space="preserve">
+    <value>Become</value>
+  </data>
+  <data name="WaitForMouseEvent_BecomeNot_FriendlyName" xml:space="preserve">
+    <value>Become not</value>
+  </data>
+  <data name="WaitForMouseEvent_Change_FriendlyName" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="ErrorMessage_DuplicateShortcutKey" xml:space="preserve">
+    <value>A shortcut key can't be specified more than once.</value>
+  </data>
+  <data name="ErrorMessage_KeyCannotBeUsed" xml:space="preserve">
+    <value>The key: {0} can't be used as a shortcut key.</value>
+  </data>
+  <data name="ErrorMessage_KeyMightBeMissing" xml:space="preserve">
+    <value>The key is missing or is in the wrong position. The key must be placed last.</value>
+  </data>
+  <data name="ErrorMessage_MaximumNumberOfShortcutKeysExceeded" xml:space="preserve">
+    <value>Shortcut key lists can't include more than 5 shortcut keys.</value>
+  </data>
+  <data name="ErrorMessage_SameKeysUsed" xml:space="preserve">
+    <value>A key can't be used more than once.</value>
+  </data>
+  <data name="ErrorMessage_WrongInput" xml:space="preserve">
+    <value>Shortcut keys must contain exactly one key or a key and a combination of (ctrl, alt, shift).</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_Description" xml:space="preserve">
+    <value>Pause the flow run until a specific shortcut key is pressed. Shortcut keys must contain at least one key or a key and one of (ctrl, alt, shift). To define multiple shortcut keys seperate them by comma.</value>
+  </data>
+  <data name="WaitForShortcutKeyAction_FriendlyName" xml:space="preserve">
+    <value>Wait for shortcut key</value>
+  </data>
+  <data name="ErrorMessage_NoShortcutKeysProvided" xml:space="preserve">
+    <value>There aren't any shortcut keys provided. Enter at least one shortcut key.</value>
+  </data>
+  <data name="ErrorMessage_MissingShortcutKey" xml:space="preserve">
+    <value>The provided shortcut key is empty. Enter a valid shortcut key. Shortcut keys must contain at least one key or a key and one of (ctrl, alt, shift).</value>
+  </data>
+  <data name="GetKeyboardLayout_Description" xml:space="preserve">
+    <value>Retrieves the active keyboard identifier from the machine's registry</value>
+  </data>
+  <data name="GetKeyboardLayout_FriendlyName" xml:space="preserve">
+    <value>Get keyboard identifier</value>
+  </data>
+  <data name="GetKeyboardLayout_KeyboardLayoutId_Description" xml:space="preserve">
+    <value>The registry key of the active keyboard identifier</value>
+  </data>
+  <data name="GetKeyboardLayout_KeyboardLayoutId_FriendlyName" xml:space="preserve">
+    <value>Keyboard identifier key</value>
+  </data>
+  <data name="GetKeyboardLayout_Summary" xml:space="preserve">
+    <value>Get the active keyboard identifier</value>
+  </data>
+  <data name="Error_GetCurrentKeyboardLayoutError_Description" xml:space="preserve">
+    <value>Indicates an error while retrieving the keyboard identifier</value>
+  </data>
+  <data name="Error_GetCurrentKeyboardLayoutError_FriendlyName" xml:space="preserve">
+    <value>Keyboard identifier wasn’t found</value>
+  </data>
+  <data name="MoveMouseToImageBase_SearchAlgorithm_Description" xml:space="preserve">
+    <value>Select which search algorithm to use when searching for the image.</value>
+  </data>
+  <data name="MoveMouseToImageBase_SearchAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Image matching algorithm</value>
+  </data>
+  <data name="ImageFinderAlgorithm_Legacy_FriendlyName" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="ImageFinderAlgorithm_Template_FriendlyName" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SearchAlgorithm_Description" xml:space="preserve">
+    <value>Select which search algorithm to use when searching for the image.</value>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithOCRAction_SearchAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Image matching algorithm</value>
+  </data>
+  <data name="ClickTextOnScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window and clicks on it</value>
+  </data>
+  <data name="ClickTextOnScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.
+		</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}
+		</comment>
+  </data>
+  <data name="ClickTextOnScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window and clicks on it</value>
+  </data>
+  <data name="ClickTextOnScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.
+		</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}
+		</comment>
+  </data>
+  <data name="ClickTextOnSubregionOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window and clicks on it
+		</value>
+  </data>
+  <data name="ClickTextOnSubregionOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.
+		</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}
+		</comment>
+  </data>
+  <data name="ClickTextOnSubregionOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window and clicks on it
+		</value>
+  </data>
+  <data name="ClickTextOnSubregionOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.
+		</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}
+		</comment>
+  </data>
+  <data name="ClickTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window relative to an image
+			and clicks on it</value>
+  </data>
+  <data name="ClickTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.
+		</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}
+		</comment>
+  </data>
+  <data name="ClickTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window relative to an image
+			and clicks on it</value>
+  </data>
+  <data name="ClickTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. Send a &lt;CLICKTYPE&gt; after moving the mouse on the text.
+		</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;CLICKTYPE&gt;"}
+		</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}
+		</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on the screen or on the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}
+		</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window using Tesseract
+			engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}
+		</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window using Tesseract
+			engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}
+		</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window relative to an image
+			using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}
+		</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Moves the mouse over a text found on a subregion of the screen or the foreground window relative to an image
+			using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="MoveMouseToTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on the screen or on the foreground window and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on the screen or on the foreground window and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window and clicks on
+			it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}{Locked="&lt;TIMEOUT&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window and clicks on
+			it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}{Locked="&lt;TIMEOUT&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window relative to an
+			image and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}{Locked="&lt;TIMEOUT&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window relative to an
+			image and clicks on it</value>
+  </data>
+  <data name="WaitForTextToAppearAndClickTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}{Locked="&lt;TIMEOUT&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on the screen or on the foreground window and moves the mouse over it
+		</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on the screen or on the foreground window and moves the mouse over it
+		</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found, wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found, wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window and moves the
+			mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window and moves the
+			mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window relative to an
+			image and moves the mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionRelativeToImageOfScreenWithCustomTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Description" xml:space="preserve">
+    <value>Waits for the specified text to appear on a subregion of the screen or the foreground window relative to an
+			image and moves the mouse over it</value>
+  </data>
+  <data name="WaitForTextToAppearAndMoveMouseToTextOnSubregionRelativeToImageOfScreenWithTesseractOCR_Summary" xml:space="preserve">
+    <value>&lt;if(TIMEOUT&gt;0)&gt;Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no
+			&lt;OCCURENCE&gt; of text &lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait
+			for &lt;TIMEOUT&gt; seconds. Send a &lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;else&gt;
+			Move the mouse pointer on the &lt;POSITIONRELATIVETOTEXT&gt; of the occurrence no &lt;OCCURENCE&gt; of text
+			&lt;TEXTTOFIND&gt; on the &lt;SEARCHFORTEXTON&gt;. If the text can't be found wait until it appears. Send a
+			&lt;CLICKTYPE&gt; click after moving the mouse on the text.&lt;endif&gt;</value>
+    <comment>
+			{Locked="&lt;POSITIONRELATIVETOTEXT&gt;"}{Locked="&lt;OCCURENCE&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;TIMEOUT&gt;"}{Locked="&lt;if(TIMEOUT&gt;0)&gt;"}
+		</comment>
+  </data>
+  <data name="ClickType_DoubleClick_FriendlyName" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="ClickType_LeftButtonDown_FriendlyName" xml:space="preserve">
+    <value>Left button down</value>
+  </data>
+  <data name="ClickType_LeftButtonUp_FriendlyName" xml:space="preserve">
+    <value>Left button up</value>
+  </data>
+  <data name="ClickType_RightButtonDown_FriendlyName" xml:space="preserve">
+    <value>Right button down</value>
+  </data>
+  <data name="ClickType_RightButtonUp_FriendlyName" xml:space="preserve">
+    <value>Right button up</value>
+  </data>
+  <data name="MouseClickType_MiddleClick_FriendlyName" xml:space="preserve">
+    <value>Middle click</value>
+  </data>
+</root>

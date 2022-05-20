@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CertificateLocation_File_FriendlyName" xml:space="preserve">
+    <value>Load certificate from file</value>
+  </data>
+  <data name="CertificateLocation_None_FriendlyName" xml:space="preserve">
+    <value>Don't use certificate</value>
+  </data>
+  <data name="CertificateLocation_Store_FriendlyName" xml:space="preserve">
+    <value>Load certificate from Windows Store</value>
+  </data>
+  <data name="CyberArk_Description" xml:space="preserve">
+    <value>Connect to CyberArk and retrieve passwords</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="CyberArk_FriendlyName" xml:space="preserve">
+    <value>CyberArk</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="Error_ResponseFromWebRequestError_Description" xml:space="preserve">
+    <value>Indicates that the web request returned an error response</value>
+  </data>
+  <data name="Error_ResponseFromWebRequestError_FriendlyName" xml:space="preserve">
+    <value>Error response from web request</value>
+  </data>
+  <data name="Error_SendWebRequestError_Description" xml:space="preserve">
+    <value>Indicates a problem sending the web request</value>
+  </data>
+  <data name="Error_SendWebRequestError_FriendlyName" xml:space="preserve">
+    <value>Failed to send web request</value>
+  </data>
+  <data name="Error_TimeoutExpiredError_Description" xml:space="preserve">
+    <value>Indicates that the request timed out</value>
+  </data>
+  <data name="Error_TimeoutExpiredError_FriendlyName" xml:space="preserve">
+    <value>Timeout expired</value>
+  </data>
+  <data name="GetPassword_Description" xml:space="preserve">
+    <value>Get a password from CyberArk without a certificate</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPassword_Summary" xml:space="preserve">
+    <value>&lt;if(RESPONSE)&gt;
+Send a web request for application id &lt;APPLICATIONID&gt; and store the results into &lt;RESPONSE&gt; and password into &lt;PASSWORD&gt;&lt;else&gt;Send a web request for application id &lt;APPLICATIONID&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;APPLICATIONID&gt;"}{Locked="&lt;if(RESPONSE)&gt;"}{Locked="&lt;RESPONSE&gt;"}{Locked="&lt;PASSWORD&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="GetPasswordBase_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specifies whether to accept untrusted certificates</value>
+  </data>
+  <data name="GetPasswordBase_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept untrusted certificates</value>
+  </data>
+  <data name="GetPasswordBase_ApplicationId_Description" xml:space="preserve">
+    <value>The application ID to use for the web request</value>
+  </data>
+  <data name="GetPasswordBase_ApplicationId_FriendlyName" xml:space="preserve">
+    <value>Application ID</value>
+  </data>
+  <data name="GetPasswordBase_CertificateFilePassword_Description" xml:space="preserve">
+    <value>The password for the certificate file</value>
+  </data>
+  <data name="GetPasswordBase_CertificateFilePassword_FriendlyName" xml:space="preserve">
+    <value>Certificate password</value>
+  </data>
+  <data name="GetPasswordBase_CertificateFilePath_Description" xml:space="preserve">
+    <value>The path of the certificate selected from the store</value>
+  </data>
+  <data name="GetPasswordBase_CertificateFilePath_FriendlyName" xml:space="preserve">
+    <value>Certificates path</value>
+  </data>
+  <data name="GetPasswordBase_Description" xml:space="preserve">
+    <value>Retrieves a password for a specific application from CyberArk</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordBase_ExtraData_Description" xml:space="preserve">
+    <value>The extra data (if any) for the web request's query</value>
+  </data>
+  <data name="GetPasswordBase_ExtraData_FriendlyName" xml:space="preserve">
+    <value>Extra data</value>
+  </data>
+  <data name="GetPasswordBase_Folder_Description" xml:space="preserve">
+    <value>The folder necessary for the web request query</value>
+  </data>
+  <data name="GetPasswordBase_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="GetPasswordBase_FriendlyName" xml:space="preserve">
+    <value>Get password from CyberArk</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordBase_LoadCertificationFrom_Description" xml:space="preserve">
+    <value>Specifies how to load (if needed) the certificate for the request</value>
+  </data>
+  <data name="GetPasswordBase_LoadCertificationFrom_FriendlyName" xml:space="preserve">
+    <value>Certificate location</value>
+  </data>
+  <data name="GetPasswordBase_Object_Description" xml:space="preserve">
+    <value>The object necessary for the web request query</value>
+  </data>
+  <data name="GetPasswordBase_Object_FriendlyName" xml:space="preserve">
+    <value>Object</value>
+  </data>
+  <data name="GetPasswordBase_Password_Description" xml:space="preserve">
+    <value>The password retrieved from CyberArk</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordBase_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="GetPasswordBase_Response_Description" xml:space="preserve">
+    <value>The API response result</value>
+  </data>
+  <data name="GetPasswordBase_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="GetPasswordBase_Safe_Description" xml:space="preserve">
+    <value>The safe on CyberArk in which the application belongs</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordBase_Safe_FriendlyName" xml:space="preserve">
+    <value>Safe</value>
+  </data>
+  <data name="GetPasswordBase_ServerAddress_Description" xml:space="preserve">
+    <value>The base URI for the web request</value>
+  </data>
+  <data name="GetPasswordBase_ServerAddress_FriendlyName" xml:space="preserve">
+    <value>Server address</value>
+  </data>
+  <data name="GetPasswordBase_StoreCertificatesPaths_Description" xml:space="preserve">
+    <value>The path of the certificate in the certificate store</value>
+  </data>
+  <data name="GetPasswordBase_StoreCertificatesPaths_FriendlyName" xml:space="preserve">
+    <value>Store certificate path</value>
+  </data>
+  <data name="GetPasswordBase_Timeout_Description" xml:space="preserve">
+    <value>The waiting time (in seconds) to get results from CyberArk</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="GetPasswordBase_UseOnlyValidCertificate_Description" xml:space="preserve">
+    <value>Specifies whether to load only valid certificates from the store</value>
+  </data>
+  <data name="GetPasswordBase_UseOnlyValidCertificate_FriendlyName" xml:space="preserve">
+    <value>Use only valid certificates</value>
+  </data>
+  <data name="GetPasswordWithFileCertificate_Description" xml:space="preserve">
+    <value>Get a password from CyberArk using a certificate loaded from file</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordWithFileCertificate_Summary" xml:space="preserve">
+    <value>&lt;if(RESPONSE)&gt;
+Send a web request for application id &lt;APPLICATIONID&gt; and store the results into &lt;RESPONSE&gt; and password into &lt;PASSWORD&gt;&lt;else&gt;Send a web request for application id &lt;APPLICATIONID&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;APPLICATIONID&gt;"}{Locked="&lt;if(RESPONSE)&gt;"}{Locked="&lt;RESPONSE&gt;"}{Locked="&lt;PASSWORD&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="GetPasswordWithStoreCertificate_Description" xml:space="preserve">
+    <value>Get a password from CyberArk using a certificate loaded from the store</value>
+    <comment>{Locked="CyberArk"}</comment>
+  </data>
+  <data name="GetPasswordWithStoreCertificate_Summary" xml:space="preserve">
+    <value>&lt;if(RESPONSE)&gt;
+Send a web request for application id &lt;APPLICATIONID&gt; and store the results into &lt;RESPONSE&gt; and password into &lt;PASSWORD&gt;&lt;else&gt;Send a web request for application id &lt;APPLICATIONID&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;APPLICATIONID&gt;"}{Locked="&lt;if(RESPONSE)&gt;"}{Locked="&lt;RESPONSE&gt;"}{Locked="&lt;PASSWORD&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_ErrorRespose" xml:space="preserve">
+    <value>Error response from web request {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToGetResults" xml:space="preserve">
+    <value>Failed to get results from the web request {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RequestTimedOut" xml:space="preserve">
+    <value>Request timeout</value>
+  </data>
+  <data name="ErrorMessage_WrongCertificatePath" xml:space="preserve">
+    <value>Certificate path is invalid</value>
+  </data>
+</root>

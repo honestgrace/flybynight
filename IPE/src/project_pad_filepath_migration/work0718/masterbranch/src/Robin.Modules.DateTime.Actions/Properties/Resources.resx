@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add_DateTime_Description" xml:space="preserve">
+    <value>The datetime value to alter</value>
+  </data>
+  <data name="Add_DateTime_FriendlyName" xml:space="preserve">
+    <value>Datetime</value>
+  </data>
+  <data name="Add_Description" xml:space="preserve">
+    <value>Adds (or subtracts) a specific number of seconds, minutes, hours or days to a datetime value</value>
+  </data>
+  <data name="Add_FriendlyName" xml:space="preserve">
+    <value>Add to datetime</value>
+  </data>
+  <data name="Add_ResultedDate_Description" xml:space="preserve">
+    <value>The new, altered datetime value</value>
+  </data>
+  <data name="Add_ResultedDate_FriendlyName" xml:space="preserve">
+    <value>Resulted date</value>
+  </data>
+  <data name="Add_Summary" xml:space="preserve">
+    <value>Add &lt;TIMETOADD&gt; &lt;TIMEUNIT&gt;(s) to &lt;DATETIME&gt;</value>
+    <comment>{Locked="&lt;TIMETOADD&gt;"}{Locked="&lt;TIMEUNIT&gt;"}{Locked="&lt;DATETIME&gt;"}</comment>
+  </data>
+  <data name="Add_TimeToAdd_Description" xml:space="preserve">
+    <value>The numeric value to add. To subtract a time, this value would be negative. For example, add -7 days here to go back one week</value>
+  </data>
+  <data name="Add_TimeToAdd_FriendlyName" xml:space="preserve">
+    <value>Add</value>
+  </data>
+  <data name="Add_TimeUnit_Description" xml:space="preserve">
+    <value>The time unit of the time to add</value>
+  </data>
+  <data name="Add_TimeUnit_FriendlyName" xml:space="preserve">
+    <value>Time unit</value>
+  </data>
+  <data name="Current_Description" xml:space="preserve">
+    <value>Retrieves the current date or the current date and time</value>
+  </data>
+  <data name="Current_Summary" xml:space="preserve">
+    <value>Retrieve the current datetime of time zone &lt;OFFSET&gt; and store it into &lt;CURRENTDATETIME&gt;</value>
+    <comment>{Locked="&lt;OFFSET&gt;"}{Locked="&lt;CURRENTDATETIME&gt;"}</comment>
+  </data>
+  <data name="DateTime_Description" xml:space="preserve">
+    <value>Get the date and time and perform time related operations</value>
+  </data>
+  <data name="DateTime_FriendlyName" xml:space="preserve">
+    <value>Datetime</value>
+  </data>
+  <data name="DateTimeFormat_DateAndTime_FriendlyName" xml:space="preserve">
+    <value>Current date and time</value>
+  </data>
+  <data name="DateTimeFormat_DateOnly_FriendlyName" xml:space="preserve">
+    <value>Current date only</value>
+  </data>
+  <data name="DifferenceTimeUnit_Days_FriendlyName" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="DifferenceTimeUnit_Hours_FriendlyName" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="DifferenceTimeUnit_Minutes_FriendlyName" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="DifferenceTimeUnit_Seconds_FriendlyName" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="Error_CountryOrRegionNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified country or region wasn't found</value>
+  </data>
+  <data name="Error_CountryOrRegionNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Specified country/region not found</value>
+  </data>
+  <data name="Error_GetCurrentDateTimeError_Description" xml:space="preserve">
+    <value>Indicates that there was a problem retrieving the current date and time</value>
+  </data>
+  <data name="Error_GetCurrentDateTimeError_FriendlyName" xml:space="preserve">
+    <value>Failed to get current date and time</value>
+  </data>
+  <data name="GetCurrentDateTime_CurrentDateTime_Description" xml:space="preserve">
+    <value>The current datetime value</value>
+  </data>
+  <data name="GetCurrentDateTime_CurrentDateTime_FriendlyName" xml:space="preserve">
+    <value>Current datetime</value>
+  </data>
+  <data name="GetCurrentDateTime_DateTimeFormat_Description" xml:space="preserve">
+    <value>Specify whether to get the date and time, or just the date. If the latter is chosen, the time value will be stored as midnight (0:00:00)</value>
+  </data>
+  <data name="GetCurrentDateTime_DateTimeFormat_FriendlyName" xml:space="preserve">
+    <value>Retrieve</value>
+  </data>
+  <data name="GetCurrentDateTime_Description" xml:space="preserve">
+    <value>Retrieves the current date or the current date and time</value>
+  </data>
+  <data name="GetCurrentDateTime_FriendlyName" xml:space="preserve">
+    <value>Get current date and time</value>
+  </data>
+  <data name="GetCurrentDateTime_Offset_Description" xml:space="preserve">
+    <value>Specify the country/region to obtain the time zone from, or specify the number of hours that will be added to UTC time</value>
+  </data>
+  <data name="GetCurrentDateTime_Offset_FriendlyName" xml:space="preserve">
+    <value>Country/region</value>
+  </data>
+  <data name="GetCurrentDateTime_TimeZoneMode_Description" xml:space="preserve">
+    <value>Whether to use the system's time zone or a custom one</value>
+  </data>
+  <data name="GetCurrentDateTime_TimeZoneMode_FriendlyName" xml:space="preserve">
+    <value>Time zone</value>
+  </data>
+  <data name="Local_Description" xml:space="preserve">
+    <value>Retrieves the current date or the current date and time</value>
+  </data>
+  <data name="Local_Summary" xml:space="preserve">
+    <value>Retrieve the current datetime and store it into &lt;CURRENTDATETIME&gt;</value>
+    <comment>{Locked="&lt;CURRENTDATETIME&gt;"}</comment>
+  </data>
+  <data name="Subtract_Description" xml:space="preserve">
+    <value>Finds the time difference between two given dates in days, hours, minutes, or seconds</value>
+  </data>
+  <data name="Subtract_FriendlyName" xml:space="preserve">
+    <value>Subtract dates</value>
+  </data>
+  <data name="Subtract_FromDate_Description" xml:space="preserve">
+    <value>The datetime to subtract the first datetime from. This will be the base datetime, so generally put the later date/time in this attribute</value>
+  </data>
+  <data name="Subtract_FromDate_FriendlyName" xml:space="preserve">
+    <value>From date</value>
+  </data>
+  <data name="Subtract_SubstractDate_Description" xml:space="preserve">
+    <value>The datetime to subtract</value>
+  </data>
+  <data name="Subtract_SubstractDate_FriendlyName" xml:space="preserve">
+    <value>Subtract date</value>
+  </data>
+  <data name="Subtract_Summary" xml:space="preserve">
+    <value>Calculate &lt;TIMEUNIT&gt;(s) between &lt;FROMDATE&gt; and &lt;SUBSTRACTDATE&gt; and store the result into &lt;TIMEDIFFERENCE&gt;</value>
+    <comment>{Locked="&lt;TIMEUNIT&gt;"}{Locked="&lt;FROMDATE&gt;"}{Locked="&lt;SUBSTRACTDATE&gt;"}{Locked="&lt;TIMEDIFFERENCE&gt;"}</comment>
+  </data>
+  <data name="Subtract_TimeDifference_Description" xml:space="preserve">
+    <value>The difference in time as a numeric value</value>
+  </data>
+  <data name="Subtract_TimeDifference_FriendlyName" xml:space="preserve">
+    <value>Time difference</value>
+  </data>
+  <data name="Subtract_TimeUnit_Description" xml:space="preserve">
+    <value>The unit of time to express the difference in</value>
+  </data>
+  <data name="Subtract_TimeUnit_FriendlyName" xml:space="preserve">
+    <value>Get difference in</value>
+  </data>
+  <data name="TimeUnit_Days_FriendlyName" xml:space="preserve">
+    <value>Days</value>
+  </data>
+  <data name="TimeUnit_Hours_FriendlyName" xml:space="preserve">
+    <value>Hours</value>
+  </data>
+  <data name="TimeUnit_Minutes_FriendlyName" xml:space="preserve">
+    <value>Minutes</value>
+  </data>
+  <data name="TimeUnit_Months_FriendlyName" xml:space="preserve">
+    <value>Months</value>
+  </data>
+  <data name="TimeUnit_Seconds_FriendlyName" xml:space="preserve">
+    <value>Seconds</value>
+  </data>
+  <data name="TimeUnit_Years_FriendlyName" xml:space="preserve">
+    <value>Years</value>
+  </data>
+  <data name="TimeZoneMode_Specific_FriendlyName" xml:space="preserve">
+    <value>Specific time zone</value>
+  </data>
+  <data name="TimeZoneMode_System_FriendlyName" xml:space="preserve">
+    <value>System time zone</value>
+  </data>
+  <data name="ErrorMessage_AddInvalidMonths" xml:space="preserve">
+    <value>{0} months are too many (in absolute terms) to add to the given date.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_AddInvalidYears" xml:space="preserve">
+    <value>{0} years are too many (in absolute terms) to add to the given date.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToGetDateTime" xml:space="preserve">
+    <value>Failed to get current date and time.</value>
+  </data>
+  <data name="ErrorMessage_SubstractInvalidMonths" xml:space="preserve">
+    <value>{0} months are too many (in absolute terms) to subtract from the given date.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubstractInvalidYears" xml:space="preserve">
+    <value>{0} years are too many (in absolute terms) to subtract from the given date.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeUnitOutOfRange" xml:space="preserve">
+    <value>Internal error: time unit = {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+</root>

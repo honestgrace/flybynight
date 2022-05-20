@@ -1,0 +1,2474 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\consentService.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.CountryOrRegionName.AD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Andorra]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Andorra]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[United Arab Emirates]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[United Arab Emirates]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Afghanistan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Afghanistan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Antigua and Barbuda]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Antigua and Barbuda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Anguilla]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Anguilla]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Albania]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Albania]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Armenia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Armenia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Angola]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Angola]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AQ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Antarctica]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Antarctica]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Argentina]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Argentina]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[American Samoa]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[American Samoa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Austria]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Austria]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Australia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Australia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Aruba]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Aruba]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AX" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Åland Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Åland Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.AZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Azerbaijan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Azerbaijan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bosnia and Herzegovina]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bosnia and Herzegovina]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BB" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Barbados]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Barbados]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bangladesh]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bangladesh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Belgium]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Belgium]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Burkina Faso]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Burkina Faso]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bulgaria]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bulgaria]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bahrain]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bahrain]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Burundi]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Burundi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BJ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Benin]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Benin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saint Barthélemy]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saint Barthélemy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bermuda]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bermuda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Brunei]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Brunei]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bolivia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bolivia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BQ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bonaire]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bonaire]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Brazil]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Brazil]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bahamas]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bahamas]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bhutan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bhutan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BV" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bouvet Island]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bouvet Island]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Botswana]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Botswana]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Belarus]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Belarus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.BZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Belize]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Belize]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Canada]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Canada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cocos (Keeling) Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cocos (Keeling) Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Congo (DRC)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Congo (DRC)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Central African Republic]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Central African Republic]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Congo]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Congo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switzerland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switzerland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Côte d’Ivoire]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Côte d’Ivoire]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cook Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cook Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chile]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Chile]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cameroon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cameroon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[China]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[China]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Colombia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Colombia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Costa Rica]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Costa Rica]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cuba]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cuba]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CV" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cabo Verde]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cabo Verde]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Curaçao]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Curaçao]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CX" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Christmas Island]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Christmas Island]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cyprus]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cyprus]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.CZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Czechia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Czechia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.DE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Germany]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Germany]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.DJ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Djibouti]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Djibouti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.DK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Denmark]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Denmark]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.DM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dominica]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Dominica]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.DO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dominican Republic]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Dominican Republic]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.DZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Algeria]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Algeria]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.EC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ecuador]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ecuador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.EE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Estonia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Estonia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.EG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Egypt]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Egypt]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ER" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Eritrea]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Eritrea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ES" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Spain]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Spain]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ET" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ethiopia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ethiopia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.FI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Finland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Finland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.FJ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Fiji]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Fiji]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.FK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Falkland Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Falkland Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.FM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Micronesia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Micronesia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.FO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Faroe Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Faroe Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.FR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[France]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[France]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Gabon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Gabon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GB" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[United Kingdom]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[United Kingdom]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Grenada]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Grenada]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Georgia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Georgia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[French Guiana]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[French Guiana]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guernsey]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guernsey]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ghana]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ghana]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Gibraltar]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Gibraltar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Greenland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Greenland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Gambia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Gambia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guinea]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guinea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GP" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guadeloupe]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guadeloupe]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GQ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Equatorial Guinea]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Equatorial Guinea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Greece]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Greece]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[South Georgia and South Sandwich Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[South Georgia and South Sandwich Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guatemala]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guatemala]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guam]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guam]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guinea-Bissau]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guinea-Bissau]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.GY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Guyana]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Guyana]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.HK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hong Kong SAR]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Hong Kong SAR]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.HM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Heard Island and McDonald Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Heard Island and McDonald Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.HN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Honduras]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Honduras]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.HR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Croatia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Croatia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.HT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Haiti]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Haiti]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.HU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Hungary]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Hungary]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ID" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Indonesia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Indonesia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ireland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ireland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Israel]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Israel]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Isle of Man]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Isle of Man]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[India]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[India]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[British Indian Ocean Territory]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[British Indian Ocean Territory]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IQ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Iraq]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Iraq]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Iran]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Iran]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Iceland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Iceland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.IT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Italy]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Italy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.JE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Jersey]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Jersey]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.JM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Jamaica]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Jamaica]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.JO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Jordan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Jordan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.JP" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Japan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Japan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kenya]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Kenya]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kyrgyzstan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Kyrgyzstan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cambodia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cambodia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kiribati]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Kiribati]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Comoros]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Comoros]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saint Kitts and Nevis]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saint Kitts and Nevis]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KP" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[North Korea]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[North Korea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Korea]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Korea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kuwait]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Kuwait]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cayman Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cayman Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.KZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kazakhstan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Kazakhstan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Laos]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Laos]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LB" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lebanon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Lebanon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saint Lucia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saint Lucia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Liechtenstein]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Liechtenstein]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sri Lanka]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sri Lanka]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Liberia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Liberia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lesotho]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Lesotho]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Lithuania]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Lithuania]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Luxembourg]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Luxembourg]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LV" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Latvia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Latvia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.LY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Libya]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Libya]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Morocco]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Morocco]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Monaco]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Monaco]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Moldova]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Moldova]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ME" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Montenegro]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Montenegro]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saint Martin]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saint Martin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Madagascar]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Madagascar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Marshall Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Marshall Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[North Macedonia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[North Macedonia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ML" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mali]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mali]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Myanmar]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Myanmar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mongolia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mongolia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Macao SAR]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Macao SAR]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MP" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Northern Mariana Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Northern Mariana Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MQ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Martinique]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Martinique]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mauritania]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mauritania]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Montserrat]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Montserrat]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Malta]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Malta]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mauritius]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mauritius]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MV" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Maldives]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Maldives]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Malawi]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Malawi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MX" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mexico]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mexico]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Malaysia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Malaysia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.MZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mozambique]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mozambique]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Namibia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Namibia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New Caledonia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[New Caledonia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Niger]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Niger]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Norfolk Island]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Norfolk Island]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Nigeria]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Nigeria]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Nicaragua]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Nicaragua]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Netherlands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Netherlands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Norway]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Norway]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NP" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Nepal]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Nepal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Nauru]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Nauru]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Niue]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Niue]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.NZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New Zealand]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[New Zealand]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.OM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Oman]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Oman]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.Other" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Other]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Other]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Panama]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Panama]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Peru]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Peru]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[French Polynesia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[French Polynesia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Papua New Guinea]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Papua New Guinea]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Philippines]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Philippines]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pakistan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Pakistan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Poland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Poland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saint Pierre and Miquelon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saint Pierre and Miquelon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pitcairn Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Pitcairn Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Puerto Rico]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Puerto Rico]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Palestinian Authority]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Palestinian Authority]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Portugal]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Portugal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Palau]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Palau]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.PY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Paraguay]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Paraguay]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.QA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Qatar]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Qatar]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.RE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Réunion]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Réunion]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.RO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Romania]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Romania]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.RS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Serbia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Serbia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.RU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Russia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Russia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.RW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Rwanda]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Rwanda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saudi Arabia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saudi Arabia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SB" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Solomon Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Solomon Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Seychelles]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Seychelles]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sudan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sudan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sweden]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sweden]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Singapore]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Singapore]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[St Helena, Ascension, Tristan da Cunha]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[St Helena, Ascension, Tristan da Cunha]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Slovenia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Slovenia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SJ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Svalbard]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Svalbard]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Slovakia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Slovakia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sierra Leone]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sierra Leone]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[San Marino]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[San Marino]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Senegal]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Senegal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Somalia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Somalia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suriname]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Suriname]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[South Sudan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[South Sudan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ST" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[São Tomé and Príncipe]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[São Tomé and Príncipe]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SV" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[El Salvador]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[El Salvador]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SX" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sint Maarten]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sint Maarten]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Syria]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Syria]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.SZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Swaziland]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Swaziland]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Turks and Caicos Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Turks and Caicos Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Chad]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Chad]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[French Southern Territories]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[French Southern Territories]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Togo]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Togo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TH" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Thailand]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Thailand]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TJ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tajikistan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tajikistan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tokelau]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tokelau]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TL" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Timor-Leste]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Timor-Leste]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Turkmenistan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Turkmenistan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tunisia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tunisia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TO" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tonga]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tonga]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TR" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Turkey]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Turkey]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trinidad and Tobago]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Trinidad and Tobago]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TV" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tuvalu]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tuvalu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Taiwan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Taiwan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.TZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tanzania]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tanzania]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.UA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ukraine]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ukraine]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.UG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Uganda]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Uganda]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.UM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[U.S. Outlying Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[U.S. Outlying Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.US" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[United States]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[United States]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.UY" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Uruguay]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Uruguay]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.UZ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Uzbekistan]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Uzbekistan]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Vatican City]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Vatican City]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VC" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saint Vincent and the Grenadines]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saint Vincent and the Grenadines]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Venezuela]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Venezuela]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VG" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[British Virgin Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[British Virgin Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[U.S. Virgin Islands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[U.S. Virgin Islands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VN" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Vietnam]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Vietnam]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.VU" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Vanuatu]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Vanuatu]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.WF" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Wallis and Futuna]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Wallis and Futuna]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.WS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Samoa]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Samoa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.XE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sint Eustatius]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sint Eustatius]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.XJ" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Jan Mayen]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Jan Mayen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.XK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Kosovo]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Kosovo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.XS" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saba]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saba]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.YE" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Yemen]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Yemen]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.YT" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Mayotte]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Mayotte]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ZA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[South Africa]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[South Africa]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ZM" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Zambia]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Zambia]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CountryOrRegionName.ZW" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Zimbabwe]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Zimbabwe]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.Button.Accept" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get started]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Get started]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.Consenting" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Consenting...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Consenting...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.Continue" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Continue]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Button text in runtime widget when selecting connections when running shared flow.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.CountryOrRegionLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose your country/region]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose your country/region]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.ErrorMessage" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It looks like there was a problem. Try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[It looks like there was a problem. Try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.Greeting" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Welcome to {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is brand name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.MicrosoftPrivacyLink" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Privacy Statement]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Microsoft Privacy Statement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.PoweredByFormat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Powered by {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Powered by {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Shown in embedded flow context as an advertisement for flow. {0} corresponds to Common_MicrosoftFlow]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.PromotionalEmailLabelConsentRequired" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It's OK to send me occasional promotional emails]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[It's OK to send me occasional promotional emails]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Shown with a checkbox on consent for countries which require consent to send promotional email.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.PromotionalEmailLabelNoConsentRequired" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft will send you promotions and offers. You can unsubscribe at any time.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Microsoft will send you promotions and offers. You can unsubscribe at any time.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Shown on consent for users whose countries do not require explicit consent to send promotional emails.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.Request" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Before you start, please choose your country/region and accept the terms.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Before you start, please choose your country/region and accept the terms.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.RequestPreenvironments" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Before you start, is it okay to get your user details?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Before you start, is it okay to get your user details?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.TakingLong" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This is taking a little longer than usual]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This is taking a little longer than usual]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Shown when consent is in progress and taking longer than expected.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.TermsAndConditions.Link" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms and conditions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[terms and conditions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.TermsAndConditions.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By clicking "{0}", you agree to these {1} and allow {2} to get your user and tenant details.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[By clicking "{0}", you agree to these {1} and allow {2} to get your user and tenant details.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Terms and conditions text on consent dialog. {0} is the consent button label (corresponds to UserConsent_Button_Accept) and {1} is a link to the terms and conditions (text is UserConsent_TermsAndConditions_Link). {2} is brand name.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UserConsent.TermsOfUse.Link" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Terms of use]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Terms of use]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.UnexpectedForConsentToPortal" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot consent to portal.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cannot consent to portal.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.UnexpectedUnauthenticatedConsent" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot consent while you haven't signed in.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cannot consent while you haven't signed in.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

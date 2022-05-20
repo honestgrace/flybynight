@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"><?define JHKIMTest_TargetDir=$(var.JHKIMTest.TargetDir)?>
+	<Product Id="*" Name="!(loc.ProductGroupNameInAddRemoveProgram)" Language="!(loc.LCID)" Version="1.0.0.0" Manufacturer="JhkimApp" UpgradeCode="a4f9bbbd-5d6c-4fba-a440-5464e10ccb68">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="!(loc.ProductGroupNameInAddRemoveProgram)" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="!(loc.ProductGroupNameInAddRemoveProgram)" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+			<Component Id="JHKIMTest.exe" Guid="f89aff33-cc42-4978-abf3-235ff905943f">
+			  <File Id="JHKIMTest.exe" Name="JHKIMTest.exe" Source="$(var.JHKIMTest_TargetDir)JHKIMTest.exe" />
+			</Component>
+			<Component Id="JHKIMTest.exe.config" Guid="6c42e656-8d0d-43bf-8dbb-49142a15ce95">
+			  <File Id="JHKIMTest.exe.config" Name="JHKIMTest.exe.config" Source="$(var.JHKIMTest_TargetDir)JHKIMTest.exe.config" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+</Wix>

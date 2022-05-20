@@ -1,0 +1,3286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Category_DataExtraction_Description" xml:space="preserve">
+    <value>Extract data from desktop applications, from a single value up to tables or custom multiple pieces of data</value>
+  </data>
+  <data name="Category_DataExtraction_FriendlyName" xml:space="preserve">
+    <value>Data extraction</value>
+  </data>
+  <data name="Category_FormFilling_Description" xml:space="preserve">
+    <value>Fill-in forms on desktop applications</value>
+  </data>
+  <data name="Category_FormFilling_FriendlyName" xml:space="preserve">
+    <value>Form filling</value>
+  </data>
+  <data name="Category_Images_Description" xml:space="preserve">
+    <value>Interact with images on the entire desktop or part of it</value>
+  </data>
+  <data name="Category_Images_FriendlyName" xml:space="preserve">
+    <value>Images</value>
+  </data>
+  <data name="Category_Windows_Description" xml:space="preserve">
+    <value>Windows manipulation regarding size, state visibility, focus</value>
+  </data>
+  <data name="Category_Windows_FriendlyName" xml:space="preserve">
+    <value>Windows</value>
+  </data>
+  <data name="CheckboxesScanMode_GetSelectedCheckboxesInGroup_FriendlyName" xml:space="preserve">
+    <value>Get names of selected checkboxes in group</value>
+  </data>
+  <data name="CheckboxesScanMode_GetStateOfCheckbox_FriendlyName" xml:space="preserve">
+    <value>Get state of checkbox</value>
+  </data>
+  <data name="CheckboxState_Checked_FriendlyName" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="CheckboxState_Unchecked_FriendlyName" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="CheckImageActionBase_Images_Description" xml:space="preserve">
+    <value>The image(s) that the action will check if it/they exist</value>
+  </data>
+  <data name="CheckImageActionBase_SearchForImageOn_Description" xml:space="preserve">
+    <value>Whether to look for the specified image in the foremost window only or the entire visible screen. Neither choice will find the image if it isn't clearly visible on the screen</value>
+  </data>
+  <data name="CheckImageActionBase_SearchForImageOn_FriendlyName" xml:space="preserve">
+    <value>Search for image on</value>
+  </data>
+  <data name="CheckImageActionBase_SearchMode_Description" xml:space="preserve">
+    <value>Whether to scan the entire screen (or window) to find the supplied text or only a narrowed down subregion of it</value>
+  </data>
+  <data name="CheckImageActionBase_SearchMode_FriendlyName" xml:space="preserve">
+    <value>Search Mode</value>
+  </data>
+  <data name="CheckImageActionBase_Tolerance_Description" xml:space="preserve">
+    <value>Specify how much the image(s) searched for can differ from the originally chosen image</value>
+  </data>
+  <data name="CheckImageActionBase_Tolerance_FriendlyName" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="CheckImageActionBase_X1_Description" xml:space="preserve">
+    <value>The start X coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="CheckImageActionBase_X1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="CheckImageActionBase_X2_Description" xml:space="preserve">
+    <value>The end X coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="CheckImageActionBase_X2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="CheckImageActionBase_Y1_Description" xml:space="preserve">
+    <value>The start Y coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="CheckImageActionBase_Y1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="CheckImageActionBase_Y2_Description" xml:space="preserve">
+    <value>The end Y coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="CheckImageActionBase_Y2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="ClearDropDownListValue_Description" xml:space="preserve">
+    <value>Clears the selected option(s) for a drop-down list in a window form</value>
+  </data>
+  <data name="ClearDropDownListValue_Summary" xml:space="preserve">
+    <value>Clear all selected options in &lt;DROPDOWNLIST&gt;</value>
+    <comment>{Locked="&lt;DROPDOWNLIST&gt;"}</comment>
+  </data>
+  <data name="ClickDescription_DoubleClick_FriendlyName" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="ClickDescription_LeftButtonDown_FriendlyName" xml:space="preserve">
+    <value>Left button down</value>
+  </data>
+  <data name="ClickDescription_LeftButtonRelease_FriendlyName" xml:space="preserve">
+    <value>Releasing left button</value>
+  </data>
+  <data name="ClickDescription_LeftClick_FriendlyName" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="ClickDescription_RightButtonDown_FriendlyName" xml:space="preserve">
+    <value>Right button down</value>
+  </data>
+  <data name="ClickDescription_RightButtonRelease_FriendlyName" xml:space="preserve">
+    <value>Releasing right button</value>
+  </data>
+  <data name="ClickDescription_RightClick_FriendlyName" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="ClickType_DoubleClick_FriendlyName" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="ClickType_LeftButtonDown_FriendlyName" xml:space="preserve">
+    <value>Left button down</value>
+  </data>
+  <data name="ClickType_LeftButtonUp_FriendlyName" xml:space="preserve">
+    <value>Left button up</value>
+  </data>
+  <data name="ClickType_LeftClick_FriendlyName" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="ClickType_RightButtonDown_FriendlyName" xml:space="preserve">
+    <value>Right button down</value>
+  </data>
+  <data name="ClickType_RightButtonUp_FriendlyName" xml:space="preserve">
+    <value>Right button up</value>
+  </data>
+  <data name="ClickType_RightClick_FriendlyName" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="Click_ClickType_Description" xml:space="preserve">
+    <value>The kind of click to perform</value>
+  </data>
+  <data name="Click_ClickType_FriendlyName" xml:space="preserve">
+    <value>Click type</value>
+  </data>
+  <data name="Click_Description" xml:space="preserve">
+    <value>Clicks on any UI element of a window</value>
+  </data>
+  <data name="Click_Element_Description" xml:space="preserve">
+    <value>The UI element to click on</value>
+  </data>
+  <data name="Click_Element_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="Click_FriendlyName" xml:space="preserve">
+    <value>Click UI element in window</value>
+  </data>
+  <data name="Click_MousePositionRelativeToElement_Description" xml:space="preserve">
+    <value>Specify which section of the UI element the mouse will be moved to prior to clicking</value>
+  </data>
+  <data name="Click_MousePositionRelativeToElement_FriendlyName" xml:space="preserve">
+    <value>Mouse position relative to UI element</value>
+  </data>
+  <data name="Click_OffsetX_Description" xml:space="preserve">
+    <value>Offset the mouse from the position by this many pixels to the right</value>
+  </data>
+  <data name="Click_OffsetX_FriendlyName" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="Click_OffsetY_Description" xml:space="preserve">
+    <value>Offset the mouse from the position by this many pixels down</value>
+  </data>
+  <data name="Click_OffsetY_FriendlyName" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="Click_Summary" xml:space="preserve">
+    <value>Click on UI element &lt;ELEMENT&gt;</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}</comment>
+  </data>
+  <data name="CloseByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Closes a specific window by its window instance or handle </value>
+  </data>
+  <data name="CloseByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Close window &lt;WINDOWINSTANCE&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="CloseByTitleClass_Description" xml:space="preserve">
+    <value>Closes a specific window by its title and/or class</value>
+  </data>
+  <data name="CloseByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Close window with title &lt;TITLE&gt; and class &lt;CLASS&gt;&lt;elseif(CLASS)&gt;
+Close window with class &lt;CLASS&gt;&lt;elseif(TITLE)&gt;
+Close window with title &lt;TITLE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="CloseWindowBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="CloseWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="CloseWindowBase_Description" xml:space="preserve">
+    <value>Closes a specific window</value>
+  </data>
+  <data name="CloseWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the Window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="CloseWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="CloseWindowBase_FriendlyName" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="CloseWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="CloseWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="CloseWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to close</value>
+  </data>
+  <data name="CloseWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="CloseWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="CloseWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Close_Description" xml:space="preserve">
+    <value>Closes a specific window by UI element</value>
+  </data>
+  <data name="Close_Summary" xml:space="preserve">
+    <value>Close window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_DoesNotExistOnForeground_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list don't exist on the foreground window&lt;else&gt;If an image of the list doesn't exist on the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_DoesNotExistOnScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list don't exist on the screen&lt;else&gt;If an image of the list doesn't exist on the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_DoesNotExistOnSubregionOfForeground_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list don't exist on a subregion of the foreground window&lt;else&gt;If an image of the list doesn't exist on a subregion of the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_DoesNotExistOnSubregionOfScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list don't exist on a subregion of the screen&lt;else&gt;If an image of the list doesn't exist on a subregion of the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_ExistsOnForeground_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list exist on the foreground window&lt;else&gt;If an image of the list exists on the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_ExistsOnScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list exist on the screen&lt;else&gt;If an image of the list exists on the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_ExistsOnSubregionOfForeground_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list exist on a subregion of the foreground window&lt;else&gt;If an image of the list exists on a subregion of the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_ExistsOnSubregionOfScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;If all images of the list exist on a subregion of the screen&lt;else&gt;If an image of the list exists on a subregion of the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IfImageAction_Description" xml:space="preserve">
+    <value>This action marks the beginning of a conditional block of actions depending on whether a selected image is found on the screen or not</value>
+  </data>
+  <data name="Conditionals_IfImageAction_FriendlyName" xml:space="preserve">
+    <value>If image</value>
+  </data>
+  <data name="Conditionals_IfWindowAction_Description" xml:space="preserve">
+    <value>This action marks the beginning of a conditional block of actions depending on whether a window is open or not or whether a window is the focused (foreground) window</value>
+  </data>
+  <data name="Conditionals_IfWindowAction_FriendlyName" xml:space="preserve">
+    <value>If window</value>
+  </data>
+  <data name="Conditionals_IfWindowContainsAction_Description" xml:space="preserve">
+    <value>Marks the beginning of a conditional block of actions depending on whether a specific piece of text or UI element exists in a window</value>
+  </data>
+  <data name="Conditionals_IfWindowContainsAction_FriendlyName" xml:space="preserve">
+    <value>If window contains</value>
+  </data>
+  <data name="Conditionals_IsFocusedByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>If window instance &lt;WINDOWINSTANCE&gt; is focused</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsFocusedByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;If window with title &lt;TITLE&gt; and class &lt;CLASS&gt; is focused&lt;elseif(CLASS)&gt;
+If window with class &lt;CLASS&gt; is focused&lt;elseif(TITLE)&gt;
+If window with title &lt;TITLE&gt; is focused&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsFocused_Summary" xml:space="preserve">
+    <value>If window &lt;WINDOW&gt; is focused</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsNotFocusedByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>If window instance &lt;WINDOWINSTANCE&gt; isn't focused</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsNotFocusedByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;If window with title &lt;TITLE&gt; and class &lt;CLASS&gt; isn't focused&lt;elseif(CLASS)&gt;
+If window with class &lt;CLASS&gt; isn't focused&lt;elseif(TITLE)&gt;
+If window with title &lt;TITLE&gt; isn't focused&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsNotFocused_Summary" xml:space="preserve">
+    <value>If window &lt;WINDOW&gt; isn't focused</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsNotOpenByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>If window instance &lt;WINDOWINSTANCE&gt; isn't open</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsNotOpenByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;If window with title &lt;TITLE&gt; and class &lt;CLASS&gt; isn't open&lt;elseif(CLASS)&gt;
+If window with class &lt;CLASS&gt; isn't open&lt;elseif(TITLE)&gt;
+If window with title &lt;TITLE&gt; isn't open&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsNotOpen_Summary" xml:space="preserve">
+    <value>If window &lt;WINDOW&gt; isn't open</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsOpenByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>If window instance &lt;WINDOWINSTANCE&gt; is open</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsOpenByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;If window with title &lt;TITLE&gt; and class &lt;CLASS&gt; is open&lt;elseif(CLASS)&gt;
+If window with class &lt;CLASS&gt; is open&lt;elseif(TITLE)&gt;
+If window with title &lt;TITLE&gt; is open&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IsOpen_Summary" xml:space="preserve">
+    <value>If window &lt;WINDOW&gt; is open</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WindowContainsElementInState_Summary" xml:space="preserve">
+    <value>If UI element &lt;ELEMENT&gt; exists in window &lt;WINDOW&gt; and is in &lt;STATE&gt; state</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;WINDOW&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WindowContainsElement_Summary" xml:space="preserve">
+    <value>If UI element &lt;ELEMENT&gt; exists in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WindowContainsText_Summary" xml:space="preserve">
+    <value>If text &lt;TEXT&gt; exists in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WindowDoesNotContainElement_Summary" xml:space="preserve">
+    <value>If UI element &lt;ELEMENT&gt; doesn't exist in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WindowDoesNotContainText_Summary" xml:space="preserve">
+    <value>If text &lt;TEXT&gt; doesn't exist in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="ContainsMode_ContainsElement_FriendlyName" xml:space="preserve">
+    <value>Contains UI element</value>
+  </data>
+  <data name="ContainsMode_ContainsText_FriendlyName" xml:space="preserve">
+    <value>Contains text</value>
+  </data>
+  <data name="ContainsMode_DoesNotContainElement_FriendlyName" xml:space="preserve">
+    <value>Doesn't contain UI element</value>
+  </data>
+  <data name="ContainsMode_DoesNotContainText_FriendlyName" xml:space="preserve">
+    <value>Doesn't contain text</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_Control_Description" xml:space="preserve">
+    <value>The window to extract data from</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_Control_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_Description" xml:space="preserve">
+    <value>Extracts data from specific parts of a window in the form of single values, lists, or tables</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_ExcelInstance_Description" xml:space="preserve">
+    <value>The Excel instance with the extracted data. Use this instance to manipulate the spreadsheet (or save and close it) by using the dedicated Excel actions.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_ExcelInstance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_ExtractedData_Description" xml:space="preserve">
+    <value>The extracted data in the form of a datatable</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_ExtractedData_FriendlyName" xml:space="preserve">
+    <value>Extracted data</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_FriendlyName" xml:space="preserve">
+    <value>Extract data from window</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_StoreExtractedDataIn_Description" xml:space="preserve">
+    <value>Specify where to store the extracted data</value>
+  </data>
+  <data name="DataExtraction_ExtractDataFromWindow_StoreExtractedDataIn_FriendlyName" xml:space="preserve">
+    <value>Store extracted data in</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_AttributeName_Description" xml:space="preserve">
+    <value>The attribute whose value will be retrieved</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_AttributeValue_Description" xml:space="preserve">
+    <value>The value of the UI element's text</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_AttributeValue_FriendlyName" xml:space="preserve">
+    <value>UI element text</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_Description" xml:space="preserve">
+    <value>Gets the value of a UI element's attribute in a window</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_Element_Description" xml:space="preserve">
+    <value>The UI element to get details from</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_Element_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_FriendlyName" xml:space="preserve">
+    <value>Get details of a UI element in window</value>
+  </data>
+  <data name="DataExtraction_GetElementDetails_Summary" xml:space="preserve">
+    <value>Get attribute &lt;ATTRIBUTENAME&gt; of a UI element &lt;ELEMENT&gt;</value>
+    <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;ELEMENT&gt;"}</comment>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_CheckboxState_Description" xml:space="preserve">
+    <value>The state of the selected checkbox</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_CheckboxState_FriendlyName" xml:space="preserve">
+    <value>Checkbox state</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_Control_Description" xml:space="preserve">
+    <value>The checkbox or checkbox group</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_Description" xml:space="preserve">
+    <value>Retrieves the names of the selected checkboxes in a checkbox group or the state of a specific checkbox</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_FriendlyName" xml:space="preserve">
+    <value>Get selected checkboxes in window</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_Operation_Description" xml:space="preserve">
+    <value>Specify whether to retrieve the state of multiple selected checkboxes or just one</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_SelectedCheckboxes_Description" xml:space="preserve">
+    <value>The names of selected checkboxes inside the specified checkbox group</value>
+  </data>
+  <data name="DataExtraction_GetSelectedCheckboxesInWindow_SelectedCheckboxes_FriendlyName" xml:space="preserve">
+    <value>Selected checkboxes names</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_Control_Description" xml:space="preserve">
+    <value>The radio button or radio button group</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_Description" xml:space="preserve">
+    <value>Retrieves the names of the selected radio button in a radio button group or the state of a specific radio button</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_FriendlyName" xml:space="preserve">
+    <value>Get selected radio button in window</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_Operation_Description" xml:space="preserve">
+    <value>Specify whether to retrieve the name of the radio button that's selected inside a group of radio buttons or just the state of a single radio button</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_RadiobuttonState_Description" xml:space="preserve">
+    <value>The state of the selected radio button</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_RadiobuttonState_FriendlyName" xml:space="preserve">
+    <value>Radio button state</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_SelectedRadiobutton_Description" xml:space="preserve">
+    <value>The selected radio button inside the specified radio group</value>
+  </data>
+  <data name="DataExtraction_GetSelectedRadiobuttonInWindow_SelectedRadiobutton_FriendlyName" xml:space="preserve">
+    <value>Selected radio button names</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_Description" xml:space="preserve">
+    <value>Gets a property of a window such as its title or its source text</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_ExtractionOperation_Description" xml:space="preserve">
+    <value>Choose which property of the window to extract</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_ExtractionOperation_FriendlyName" xml:space="preserve">
+    <value>Window property</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_FriendlyName" xml:space="preserve">
+    <value>Get details of window</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_Property_Description" xml:space="preserve">
+    <value>The retrieved information of the window</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_Property_FriendlyName" xml:space="preserve">
+    <value>Window property</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_Summary" xml:space="preserve">
+    <value>&lt;EXTRACTIONOPERATION&gt; and store it into &lt;PROPERTY&gt;</value>
+    <comment>{Locked="&lt;EXTRACTIONOPERATION&gt;"}{Locked="&lt;PROPERTY&gt;"}</comment>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_Window_Description" xml:space="preserve">
+    <value>The window to get details from</value>
+  </data>
+  <data name="DataExtraction_GetWindowDetails_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="DesktopClickType_DoubleClick_FriendlyName" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="DesktopClickType_LeftClick_FriendlyName" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="DesktopClickType_RightClick_FriendlyName" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="DoesNotExistOnForeground_Description" xml:space="preserve">
+    <value>Checks whether an image doesn't exists on foreground window</value>
+  </data>
+  <data name="DoesNotExistOnScreen_Description" xml:space="preserve">
+    <value>Checks whether an image doesn't exist on entire Screen</value>
+  </data>
+  <data name="DoesNotExistOnSubregionOfForeground_Description" xml:space="preserve">
+    <value>Checks whether an image doesn't exist on a subregion of the foreground window</value>
+  </data>
+  <data name="DoesNotExistOnSubregionOfScreen_Description" xml:space="preserve">
+    <value>Checks whether an image doesn't exist on subregion Screen</value>
+  </data>
+  <data name="DragAndDropClickType_LeftClick_FriendlyName" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="DragAndDropClickType_RightClick_FriendlyName" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="DragAndDropElement_ClickType_Description" xml:space="preserve">
+    <value>Specify which mouse button to use for clicking and holding down, while dragging the UI element over to its destination</value>
+  </data>
+  <data name="DragAndDropElement_ClickType_FriendlyName" xml:space="preserve">
+    <value>Click type</value>
+  </data>
+  <data name="DragAndDropElement_ControlToDrag_Description" xml:space="preserve">
+    <value>The UI element to drag</value>
+  </data>
+  <data name="DragAndDropElement_ControlToDrag_FriendlyName" xml:space="preserve">
+    <value>UI element to drag</value>
+  </data>
+  <data name="DragAndDropElement_ControlToDropOver_Description" xml:space="preserve">
+    <value>The UI element to drop over</value>
+  </data>
+  <data name="DragAndDropElement_ControlToDropOver_FriendlyName" xml:space="preserve">
+    <value>UI element to drop over</value>
+  </data>
+  <data name="DragAndDropElement_Description" xml:space="preserve">
+    <value>Drags and drops a UI element of a window</value>
+  </data>
+  <data name="DragAndDropElement_FriendlyName" xml:space="preserve">
+    <value>Drag and drop UI element in window</value>
+  </data>
+  <data name="DragAndDropElement_MouseUpOffsetX_Description" xml:space="preserve">
+    <value>Offset the mouse-up click, that will be used to grab the UI element to drag, by this many pixels to the right</value>
+  </data>
+  <data name="DragAndDropElement_MouseUpOffsetX_FriendlyName" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="DragAndDropElement_MouseDownOffsetY_Description" xml:space="preserve">
+    <value>Offset the mouse-down click, that will be used to grab the UI element to drag, by this many pixels downwards</value>
+  </data>
+  <data name="DragAndDropElement_MouseDownOffsetY_FriendlyName" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="DragAndDropElement_MouseDownOffsetX_Description" xml:space="preserve">
+    <value>Offset the mouse-down click, that will be used to grab the UI element drag, by this many pixels to the right</value>
+  </data>
+  <data name="DragAndDropElement_MouseDownOffsetX_FriendlyName" xml:space="preserve">
+    <value>Offset X</value>
+  </data>
+  <data name="DragAndDropElement_MouseUpOffsetY_Description" xml:space="preserve">
+    <value>Offset the mouse-up click, that will be used to grab the UI element to drag, by this many pixels downwards</value>
+  </data>
+  <data name="DragAndDropElement_MouseUpOffsetY_FriendlyName" xml:space="preserve">
+    <value>Offset Y</value>
+  </data>
+  <data name="DragAndDropElement_RectangleEdgePointForMouseDown_Description" xml:space="preserve">
+    <value>Specify which section of the drop-target UI element the mouse will be moved to prior to clicking</value>
+  </data>
+  <data name="DragAndDropElement_RectangleEdgePointForMouseDown_FriendlyName" xml:space="preserve">
+    <value>Mouse down position relative to UI element to drag</value>
+  </data>
+  <data name="DragAndDropElement_RectangleEdgePointForMouseUp_Description" xml:space="preserve">
+    <value>Specify which section of the drop-target UI element the mouse will be moved to after clicking</value>
+  </data>
+  <data name="DragAndDropElement_RectangleEdgePointForMouseUp_FriendlyName" xml:space="preserve">
+    <value>Mouse up position relative to UI element to drag</value>
+  </data>
+  <data name="DragAndDropElement_Summary" xml:space="preserve">
+    <value>Drag &lt;CONTROLTODRAG&gt; and Drop it over to &lt;CONTROLTODROPOVER&gt;</value>
+    <comment>{Locked="&lt;CONTROLTODRAG&gt;"}{Locked="&lt;CONTROLTODROPOVER&gt;"}</comment>
+  </data>
+  <data name="DropDownListOperation_ClearAllOptions_FriendlyName" xml:space="preserve">
+    <value>Clear selected options</value>
+  </data>
+  <data name="DropDownListOperation_SelectOptionsByIndex_FriendlyName" xml:space="preserve">
+    <value>Select option(s) by index</value>
+  </data>
+  <data name="DropDownListOperation_SelectOptionsByName_FriendlyName" xml:space="preserve">
+    <value>Select option(s) by name</value>
+  </data>
+  <data name="ErrorMessage_CannotUseInNonInteractiveModeError" xml:space="preserve">
+    <value>Can't use this action in non interactive mode</value>
+  </data>
+  <data name="ErrorMessage_CheckImageNonInteractive" xml:space="preserve">
+    <value>Can't check for image in non interactive mode</value>
+  </data>
+  <data name="ErrorMessage_ClickFailedError" xml:space="preserve">
+    <value>{0} failed (error while clicking)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ClickFailedToGetControlError" xml:space="preserve">
+    <value>{0} failed (failed to get UI element)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ClickFailedToGetWindowError" xml:space="preserve">
+    <value>{0} failed (failed to get window)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CloseWindowError" xml:space="preserve">
+    <value>Can't close window</value>
+  </data>
+  <data name="ErrorMessage_CollapseTreeNodeFailedToGetWindowError" xml:space="preserve">
+    <value>Collapsing tree node failed (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_CollapseTreeNodeNotFoundError" xml:space="preserve">
+    <value>Collapsing tree node failed (tree node wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_DragAndDropError" xml:space="preserve">
+    <value>Drag and drop failed (error while moving the UI element)</value>
+  </data>
+  <data name="ErrorMessage_DragElementFailedToGetWindowError" xml:space="preserve">
+    <value>Drag failed (failed to get window of drag UI element)</value>
+  </data>
+  <data name="ErrorMessage_DragElementNotFoundError" xml:space="preserve">
+    <value>UI element to drag wasn't found</value>
+  </data>
+  <data name="ErrorMessage_DropDownOptionsError" xml:space="preserve">
+    <value>The specified options variable must be either text variant or a numeric variant or a list of such variants or a data row variant</value>
+  </data>
+  <data name="ErrorMessage_DropElementFailedToGetWindowError" xml:space="preserve">
+    <value>Drop failed (failed to get window of drop-target UI element)</value>
+  </data>
+  <data name="ErrorMessage_DropTargetNotFoundError" xml:space="preserve">
+    <value>Drop-target UI element wasn't found</value>
+  </data>
+  <data name="ErrorMessage_ElementNotAValidTarget" xml:space="preserve">
+    <value>UI element found isn't a valid target</value>
+  </data>
+  <data name="ErrorMessage_ElementNotFound" xml:space="preserve">
+    <value>UI element wasn't found</value>
+  </data>
+  <data name="ErrorMessage_ElementNotFoundError" xml:space="preserve">
+    <value>UI element wasn't found</value>
+  </data>
+  <data name="ErrorMessage_ElementOnDesktopNotFoundError" xml:space="preserve">
+    <value>{0} failed (element wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ErrorWhileWaiting" xml:space="preserve">
+    <value>Error while waiting for window</value>
+  </data>
+  <data name="ErrorMessage_ErrorWhileWaitingForWindowContent" xml:space="preserve">
+    <value>Error occured when trying to wait for window content</value>
+  </data>
+  <data name="ErrorMessage_ErrorWhileWaitingForImage" xml:space="preserve">
+    <value>Error occured when trying to wait for image</value>
+  </data>
+  <data name="ErrorMessage_ExpandTreeNodeFailedToGetWindowError" xml:space="preserve">
+    <value>Expanding tree node failed (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_ExpandTreeNodeNotFoundError" xml:space="preserve">
+    <value>Expanding tree node failed (tree node wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_ExtractFailedToGetWindowError" xml:space="preserve">
+    <value>Extraction failed (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_ExtractValueAttrFailedToGetWindowError" xml:space="preserve">
+    <value>Extracting value of attribute '{0}' failed (failed to get window)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ExtractWindowDataError" xml:space="preserve">
+    <value>Extraction failed (failed to extract)</value>
+  </data>
+  <data name="ErrorMessage_ExtractWindowDataFailedToGetControlError" xml:space="preserve">
+    <value>Extraction failed (failed to get UI element)</value>
+  </data>
+  <data name="ErrorMessage_FailedToAccessSuppliedWindowError" xml:space="preserve">
+    <value>Failed to access the supplied window instance using window handle '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToAccessWindowInstanceError" xml:space="preserve">
+    <value>Failed to access the supplied window instance. If this problem persists please contact {0} for a solution.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRunSAPAccessDenied" xml:space="preserve">
+    <value>Failed to run SAP automation actions (access denied for application/file: {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRunSAPCannotExecuteApplication" xml:space="preserve">
+    <value>Failed to run SAP automation actions (can't execute application/open file: {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRunSAPFileNotFound" xml:space="preserve">
+    <value>Failed to run SAP automation actions (file or application: {0} wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToUseHandle" xml:space="preserve">
+    <value>Failed to access the supplied window instance using window handle</value>
+  </data>
+  <data name="ErrorMessage_FocusTextFieldError" xml:space="preserve">
+    <value>Focusing text field failed</value>
+  </data>
+  <data name="ErrorMessage_FocusTextFieldFailedToGetControl" xml:space="preserve">
+    <value>Focusing text field failed (failed to get UI element)</value>
+  </data>
+  <data name="ErrorMessage_FocusTextFieldFailedToGetWindowError" xml:space="preserve">
+    <value>Focusing text field (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_FocusWindowError" xml:space="preserve">
+    <value>Can't focus window</value>
+  </data>
+  <data name="ErrorMessage_GetForegroungWindowError" xml:space="preserve">
+    <value>Failed to get foreground window after trying for {0} second(s)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_GetWindowError" xml:space="preserve">
+    <value>Failed to get window</value>
+  </data>
+  <data name="ErrorMessage_GetWindowNotFoundError" xml:space="preserve">
+    <value>Failed to get window (window wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_ListDoesNotContainOptionError" xml:space="preserve">
+    <value>Select list doesn't contain option '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_MoveWindowError" xml:space="preserve">
+    <value>Can't move window</value>
+  </data>
+  <data name="ErrorMessage_OpenStartMenuError" xml:space="preserve">
+    <value>{0} failed (failed to open the start menu)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PathComponentContainsInvalidRegex" xml:space="preserve">
+    <value>Path component {0} contains an invalid regular expression</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PathContainsInvalidNode" xml:space="preserve">
+    <value>Path component {0} contains an invalid node index</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldError" xml:space="preserve">
+    <value>Failed to write in textbox (error while writing)</value>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to write in textbox (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldFaileToGetControlError" xml:space="preserve">
+    <value>Failed to write in textbox (textbox wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_PressButtonError" xml:space="preserve">
+    <value>Failed to press button (error on pressing button)</value>
+  </data>
+  <data name="ErrorMessage_PressButtonFailedToGetControlError" xml:space="preserve">
+    <value>Failed to press button (button wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_PressButtonFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to press button (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_QuickLaunchButtonError" xml:space="preserve">
+    <value>{0} failed (quick launch button wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ResizeWindowError" xml:space="preserve">
+    <value>Can't resize window</value>
+  </data>
+  <data name="ErrorMessage_RetrieveCheckboxStateError" xml:space="preserve">
+    <value>Failed to retrieve checkbox state (error while retrieving state)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveCheckboxStateFailedToGetControlError" xml:space="preserve">
+    <value>Failed to retrieve checkbox state (checkbox wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveCheckboxStateFailedToGetStatesError" xml:space="preserve">
+    <value>Failed to retrieve checkbox state(s) (checkbox group wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveCheckBoxStateFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to retrieve checkbox state (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveElementAttributeError" xml:space="preserve">
+    <value>Extracting value of attribute '{0}' failed (error while retrieving value of attribute)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RetrieveElementAttributeFailedToGetControlError" xml:space="preserve">
+    <value>Extracting value of attribute '{0}' (UI element wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RetrieveRadioButtonStateError" xml:space="preserve">
+    <value>Failed to retrieve radio button state (error while retrieving state)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveRadioButtonStateFailedToGetControlError" xml:space="preserve">
+    <value>Failed to retrieve radio button state (radio button wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveRadioButtonStateFailedTogetWindowError" xml:space="preserve">
+    <value>Failed to retrieve radio button state (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveRadioButtonStateFailedToRetrieveStatesError" xml:space="preserve">
+    <value>Failed to retrieve radio button state(s) (radionbutton group waasn't found)</value>
+  </data>
+  <data name="ErrorMessage_RetrieveWindowPropertyError" xml:space="preserve">
+    <value>Extracting value of window property '{0}' failed (error while retrieving value of window property)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RetrieveWindowPropertyFailedToGetWindowChildError" xml:space="preserve">
+    <value>Extracting value of window property '{0}' failed (failed to get window - child UI element)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RetrieveWindowPropertyFailedToGetWindowParentError" xml:space="preserve">
+    <value>Extracting value of window property '{0}' failed (failed to get window - parent UI element)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RunningAppButtonError" xml:space="preserve">
+    <value>{0} failed (running application button wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SelectMenuNotSupportedError" xml:space="preserve">
+    <value>Select menu option in window action isn't supported in {0} runtime</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SelectMenuOptionError" xml:space="preserve">
+    <value>Failed to select option (error while accessing menu)</value>
+  </data>
+  <data name="ErrorMessage_SelectMenuOptionFailedToGetControlError" xml:space="preserve">
+    <value>Failed to select option (failed to get menu option)</value>
+  </data>
+  <data name="ErrorMessage_SelectMenuOptionFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to select option (Failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_SelectMenuOptionNotFoundError" xml:space="preserve">
+    <value>Failed to select option (option wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_SelectOptionInDropDownError" xml:space="preserve">
+    <value>Failed to perform the requested operation on the drop down list (error while accessing the drop down list)</value>
+  </data>
+  <data name="ErrorMessage_SelectRadioButtonError" xml:space="preserve">
+    <value>Failed to click on radio button (error while clicking)</value>
+  </data>
+  <data name="ErrorMessage_SelectRadioButtonFailedToGetControlError" xml:space="preserve">
+    <value>Failed to click radio button (radio button wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_SelectRadioButtonFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to click on radio button (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_SelectTabError" xml:space="preserve">
+    <value>Tab selection failed (error while clicking)</value>
+  </data>
+  <data name="ErrorMessage_SelectTabFailedToGetControlError" xml:space="preserve">
+    <value>Tab selection failed (tab UI element wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_SelectTabFailedToGetWindowError" xml:space="preserve">
+    <value>Tab selection failed (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_SetCheckboxStateError" xml:space="preserve">
+    <value>Failed to set checkbox state (error while clicking)</value>
+  </data>
+  <data name="ErrorMessage_SetCheckboxStateFailedToGetControlError" xml:space="preserve">
+    <value>Failed to set checkbox state (checkbox wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_SetCheckboxStateFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to set checkbox state (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_SetDropDownListValueInWindowFailedToGetControlError" xml:space="preserve">
+    <value>Failed to perform the requested operation on the drop down list (drop down list wasn't found)</value>
+  </data>
+  <data name="ErrorMessage_SetDropDownListValueInWindowFailedToGetWindowError" xml:space="preserve">
+    <value>Failed to perform the requested operation on the drop down list (failed to get window)</value>
+  </data>
+  <data name="ErrorMessage_SetTreeNodeStateCollapseError" xml:space="preserve">
+    <value>Collapsing tree node failed (error while clicking)</value>
+  </data>
+  <data name="ErrorMessage_SetTreeNodeStateExpandError" xml:space="preserve">
+    <value>Expanding tree node failed (error while clicking)</value>
+  </data>
+  <data name="ErrorMessage_SetWindowStateMaximizeError" xml:space="preserve">
+    <value>Can't maximize window</value>
+  </data>
+  <data name="ErrorMessage_SetWindowStateMinimizeError" xml:space="preserve">
+    <value>Can't minimize window</value>
+  </data>
+  <data name="ErrorMessage_SetWindowStateRestoreError" xml:space="preserve">
+    <value>Can't restore window</value>
+  </data>
+  <data name="ErrorMessage_SetWindowVisibilityHideError" xml:space="preserve">
+    <value>Can't hide window</value>
+  </data>
+  <data name="ErrorMessage_SetWindowVisibilityShowError" xml:space="preserve">
+    <value>Can't show window</value>
+  </data>
+  <data name="ErrorMessage_StartMenuNotFoundError" xml:space="preserve">
+    <value>{0} failed (Start menu entry wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionX1Invalid" xml:space="preserve">
+    <value>Subregion coordinate X1 can't be negative (was set to {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionX2Invalid" xml:space="preserve">
+    <value>Subregion coordinate X2 can't be negative (was set to {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionY1Invalid" xml:space="preserve">
+    <value>Subregion coordinate Y1 can't be negative (was set to {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SubregionY2Invalid" xml:space="preserve">
+    <value>Subregion coordinate Y2 can't be negative (was set to {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SystemTrayIconNotFoundError" xml:space="preserve">
+    <value>{0} failed (system tray Icon wasn't found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutErrorWaitForWindow" xml:space="preserve">
+    <value>Window didn't open within {0} seconds</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutErrorWhileWaiting" xml:space="preserve">
+    <value>Timeout occurred while waiting for {0} to {1}</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutErrorWindowClose" xml:space="preserve">
+    <value>Window didn't close within {0} seconds</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutErrorWindowFocus" xml:space="preserve">
+    <value>Window didn't receive focus within {0} seconds</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutErrorWindowLoseFocus" xml:space="preserve">
+    <value>Window didn't lose focus within {0} seconds</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_UIAutomationWindowIsUnavailable" xml:space="preserve">
+    <value>The targeted UI automation window is unavailable</value>
+  </data>
+  <data name="ErrorMessage_UIAutomationWindowIsUniniatialized" xml:space="preserve">
+    <value>The UI automation window is uninitialized. Please doublecheck that you've specified the correct window and that you are using it after attaching to window and not after the window has been closed.</value>
+  </data>
+  <data name="ErrorMessage_UIServicesInnaccessibleError" xml:space="preserve">
+    <value>Basic UI Automation services are innaccessible</value>
+  </data>
+  <data name="ErrorMessage_UseDesktopNotSupportedError" xml:space="preserve">
+    <value>Use desktop action isn't supported in {0} runtime</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_WindowNotFoundError" xml:space="preserve">
+    <value>Window wasn't found</value>
+  </data>
+  <data name="ErrorMessage_WindowOperationInNonInteractiveModeError" xml:space="preserve">
+    <value>Can't perform window-related action in non interactive mode</value>
+  </data>
+  <data name="ErrorMessage_WindowTitleAndClassEmptyError" xml:space="preserve">
+    <value>Both the window title and the window class specified are empty</value>
+  </data>
+  <data name="ErrorMessage_WrongValuePassedAsWindowError" xml:space="preserve">
+    <value>Wrong value passed into &lt;{0}&gt; property. It isn't a window instance of any kind.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_WrongWindowSelectorError" xml:space="preserve">
+    <value>Wrong value passed into Window Selector property</value>
+  </data>
+  <data name="Error_CheckImageNonInteractiveError_Description" xml:space="preserve">
+    <value>Indicates that an image can't be identified in non-interactive mode</value>
+  </data>
+  <data name="Error_CheckImageNonInteractiveError_FriendlyName" xml:space="preserve">
+    <value>Can't check image in non interactive mode</value>
+  </data>
+  <data name="Error_ClickFailedError_Description" xml:space="preserve">
+    <value>Indicates that the click failed</value>
+  </data>
+  <data name="Error_ClickFailedError_FriendlyName" xml:space="preserve">
+    <value>Click failed</value>
+  </data>
+  <data name="Error_CloseWindowError_Description" xml:space="preserve">
+    <value>Indicates a problem closing the specified window</value>
+  </data>
+  <data name="Error_CloseWindowError_FriendlyName" xml:space="preserve">
+    <value>Can't close window</value>
+  </data>
+  <data name="Error_DragAndDropError_Description" xml:space="preserve">
+    <value>Indicates a problem during drag and drop of the speficied UI element</value>
+  </data>
+  <data name="Error_DragAndDropError_FriendlyName" xml:space="preserve">
+    <value>Drag and drop failed</value>
+  </data>
+  <data name="Error_DragElementNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the UI element to drag wasn't found</value>
+  </data>
+  <data name="Error_DragElementNotFoundError_FriendlyName" xml:space="preserve">
+    <value>UI element to drag wasn't found</value>
+  </data>
+  <data name="Error_DropTargetNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the drop target UI element wasn't found</value>
+  </data>
+  <data name="Error_DropTargetNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Drop target UI element wasn't found</value>
+  </data>
+  <data name="Error_ExtractWindowDataError_Description" xml:space="preserve">
+    <value>Indicates a problem extracting data from the specified window</value>
+  </data>
+  <data name="Error_ExtractWindowDataError_FriendlyName" xml:space="preserve">
+    <value>Extraction failed</value>
+  </data>
+  <data name="Error_FocusTextFieldError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the focus on the specified web page text field</value>
+  </data>
+  <data name="Error_FocusTextFieldError_FriendlyName" xml:space="preserve">
+    <value>Failed to set input focus in window text box</value>
+  </data>
+  <data name="Error_FocusWindowError_Description" xml:space="preserve">
+    <value>Indicates a problem focusing the specified window</value>
+  </data>
+  <data name="Error_FocusWindowError_FriendlyName" xml:space="preserve">
+    <value>Can't focus window</value>
+  </data>
+  <data name="Error_GetWindowError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the window</value>
+  </data>
+  <data name="Error_GetWindowError_FriendlyName" xml:space="preserve">
+    <value>Failed to get window</value>
+  </data>
+  <data name="Error_InvalidSubregionCoordinatesError_Description" xml:space="preserve">
+    <value>Indicates that the coordinates of the given subregion were invalid</value>
+  </data>
+  <data name="Error_InvalidSubregionCoordinatesError_FriendlyName" xml:space="preserve">
+    <value>Invalid subregion coordinates</value>
+  </data>
+  <data name="Error_MoveWindowError_Description" xml:space="preserve">
+    <value>Indicates a problem moving the specified window</value>
+  </data>
+  <data name="Error_MoveWindowError_FriendlyName" xml:space="preserve">
+    <value>Can't move window</value>
+  </data>
+  <data name="Error_PopulateTextFieldError_Description" xml:space="preserve">
+    <value>Indicates a problem populating the specified text field</value>
+  </data>
+  <data name="Error_PopulateTextFieldError_FriendlyName" xml:space="preserve">
+    <value>Failed to write in textbox</value>
+  </data>
+  <data name="Error_PressButtonError_Description" xml:space="preserve">
+    <value>Indicates a problem pressing the specified button</value>
+  </data>
+  <data name="Error_PressButtonError_FriendlyName" xml:space="preserve">
+    <value>Failed to press button</value>
+  </data>
+  <data name="Error_ResizeWindowError_Description" xml:space="preserve">
+    <value>Indicates a problem resizing the specified window</value>
+  </data>
+  <data name="Error_ResizeWindowError_FriendlyName" xml:space="preserve">
+    <value>Can't resize window</value>
+  </data>
+  <data name="Error_RetrieveCheckboxStateError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the specified checkbox state(s)</value>
+  </data>
+  <data name="Error_RetrieveCheckboxStateError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve checkbox state(s)</value>
+  </data>
+  <data name="Error_RetrieveElementAttributeError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the UI element's attribute</value>
+  </data>
+  <data name="Error_RetrieveElementAttributeError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve attribute of UI element</value>
+  </data>
+  <data name="Error_RetrieveRadioButtonStateError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the specified radio button state</value>
+  </data>
+  <data name="Error_RetrieveRadioButtonStateError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve radio button state</value>
+  </data>
+  <data name="Error_RetrieveWindowPropertyError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the window property</value>
+  </data>
+  <data name="Error_RetrieveWindowPropertyError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve property of window</value>
+  </data>
+  <data name="Error_SelectMenuOptionError_Description" xml:space="preserve">
+    <value>Indicates a problem selecting the specified menu option</value>
+  </data>
+  <data name="Error_SelectMenuOptionError_FriendlyName" xml:space="preserve">
+    <value>Failed to select option</value>
+  </data>
+  <data name="Error_SelectOptionInDropDownError_Description" xml:space="preserve">
+    <value>Indicates a problem selecting the specified options in the drop down list</value>
+  </data>
+  <data name="Error_SelectOptionInDropDownError_FriendlyName" xml:space="preserve">
+    <value>Failed to select the specified options in the drop down list</value>
+  </data>
+  <data name="Error_SelectRadioButtonError_Description" xml:space="preserve">
+    <value>Indicates a problem selecting the specified radio button UI element</value>
+  </data>
+  <data name="Error_SelectRadioButtonError_FriendlyName" xml:space="preserve">
+    <value>Failed to select radio button UI element</value>
+  </data>
+  <data name="Error_SelectTabError_Description" xml:space="preserve">
+    <value>Indicates a problem selecting the specified tab</value>
+  </data>
+  <data name="Error_SelectTabError_FriendlyName" xml:space="preserve">
+    <value>Selecting tab failed</value>
+  </data>
+  <data name="Error_SetCheckboxStateError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the specified checkbox state</value>
+  </data>
+  <data name="Error_SetCheckboxStateError_FriendlyName" xml:space="preserve">
+    <value>Failed to set checkbox state</value>
+  </data>
+  <data name="Error_SetTreeNodeStateError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the tree node to the specified state</value>
+  </data>
+  <data name="Error_SetTreeNodeStateError_FriendlyName" xml:space="preserve">
+    <value>Failed to set tree node to the specified state</value>
+  </data>
+  <data name="Error_SetWindowStateError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the window state of the specified window</value>
+  </data>
+  <data name="Error_SetWindowStateError_FriendlyName" xml:space="preserve">
+    <value>Can't set window state</value>
+  </data>
+  <data name="Error_SetWindowVisibilityError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the visibility of the specified window</value>
+  </data>
+  <data name="Error_SetWindowVisibilityError_FriendlyName" xml:space="preserve">
+    <value>Can't set window visibility</value>
+  </data>
+  <data name="Error_TaskbarOperationFailed_Description" xml:space="preserve">
+    <value>Indicates that the taskbar operation failed</value>
+  </data>
+  <data name="Error_TaskbarOperationFailed_FriendlyName" xml:space="preserve">
+    <value>Taskbar operation failed</value>
+  </data>
+  <data name="Error_WaitForWindowError_Description" xml:space="preserve">
+    <value>Indicates that the wait operation failed</value>
+  </data>
+  <data name="Error_WaitForWindowError_FriendlyName" xml:space="preserve">
+    <value>Wait for window failed</value>
+  </data>
+  <data name="Error_WaitForImageError_Description" xml:space="preserve">
+    <value>Indicates that the wait operation failed</value>
+  </data>
+  <data name="Error_WaitForImageError_FriendlyName" xml:space="preserve">
+    <value>Wait for image failed</value>
+  </data>
+  <data name="Error_WaitForWindowContentError_Description" xml:space="preserve">
+    <value>Indicates that the wait operation failed</value>
+  </data>
+  <data name="Error_WaitForWindowContentError_FriendlyName" xml:space="preserve">
+    <value>Wait for window content failed</value>
+  </data>
+  <data name="Error_WindowNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified window wasn't found</value>
+  </data>
+  <data name="Error_WindowNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Window wasn't found</value>
+  </data>
+  <data name="Error_WindowOperationInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem performing window-related action in non-interactive mode</value>
+  </data>
+  <data name="Error_WindowOperationInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't perform window-related action in non interactive mode</value>
+  </data>
+  <data name="ExistsOnForeground_Description" xml:space="preserve">
+    <value>Checks whether an image exists on foreground window</value>
+  </data>
+  <data name="ExistsOnScreen_Description" xml:space="preserve">
+    <value>Checks whether an image exists on the entire screen</value>
+  </data>
+  <data name="ExistsOnSubregionOfForeground_Description" xml:space="preserve">
+    <value>Checks whether an image exists on a subregion of the foreground window</value>
+  </data>
+  <data name="ExistsOnSubregionOfScreen_Description" xml:space="preserve">
+    <value>Checks whether an image exists on subregion screen</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_Control_Description" xml:space="preserve">
+    <value>The tree node to expand/collapse</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_Description" xml:space="preserve">
+    <value>Expands or collapses a node of a tree view residing in a window</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_FoldersPath_Description" xml:space="preserve">
+    <value>A forward slash separated path made out of folder names leading to the tree node to expand or collapse</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_FoldersPath_FriendlyName" xml:space="preserve">
+    <value>Folders path</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_FriendlyName" xml:space="preserve">
+    <value>Expand/collapse tree node in window</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_Operation_Description" xml:space="preserve">
+    <value>Specify whether to expand or collapse the tree node</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_Summary" xml:space="preserve">
+    <value>&lt;TREENODEOPERATION&gt; node &lt;FOLDERSPATH&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;TREENODEOPERATION&gt;"}{Locked="&lt;FOLDERSPATH&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ExpandCollapseTreeNode_UseRegex_Description" xml:space="preserve">
+    <value>Specify whether each folder name in the path to interpret as a regular expression</value>
+  </data>
+  <data name="ExpandCollapseTreeNode_UseRegex_FriendlyName" xml:space="preserve">
+    <value>Use regular expressions</value>
+  </data>
+  <data name="ExtractDataFromWindow_Control_Description" xml:space="preserve">
+    <value>The window to extract data from</value>
+  </data>
+  <data name="ExtractDataFromWindow_Control_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="ExtractDataFromWindow_Description" xml:space="preserve">
+    <value>Extracts data from specific parts of a window in the form of single values, lists, or tables</value>
+  </data>
+  <data name="ExtractDataFromWindow_ExcelInstance_Description" xml:space="preserve">
+    <value>The Excel instance with the extracted data. Use this instance to manipulate the spreadsheet (or save and close it) by using the dedicated Excel actions.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractDataFromWindow_ExcelInstance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractDataFromWindow_ExtractedData_Description" xml:space="preserve">
+    <value>The extracted data in the form of a datatable</value>
+  </data>
+  <data name="ExtractDataFromWindow_ExtractedData_FriendlyName" xml:space="preserve">
+    <value>Extracted data</value>
+  </data>
+  <data name="ExtractDataFromWindow_FriendlyName" xml:space="preserve">
+    <value>Extract data from window</value>
+  </data>
+  <data name="ExtractDataFromWindow_StoreExtractedDataIn_Description" xml:space="preserve">
+    <value>Specify where to store the extracted data</value>
+  </data>
+  <data name="ExtractDataFromWindow_StoreExtractedDataIn_FriendlyName" xml:space="preserve">
+    <value>Store extracted data in</value>
+  </data>
+  <data name="ExtractDataInExcelSpreadsheet_Description" xml:space="preserve">
+    <value>Extracts data from specific parts of a window in an Excel spreadsheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractDataInExcelSpreadsheet_Summary" xml:space="preserve">
+    <value>Extract all records from the UI element &lt;CONTROL&gt; and store the result(s) into an Excel spreadsheet</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractData_Description" xml:space="preserve">
+    <value>Extracts data from specific parts of a window in the form of a single value or datatable</value>
+  </data>
+  <data name="ExtractData_Summary" xml:space="preserve">
+    <value>Extract all records from control &lt;CONTROL&gt; and store the result(s) into variable &lt;EXTRACTEDDATE&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="&lt;EXTRACTEDDATE&gt;"}</comment>
+  </data>
+  <data name="FindWindowBy_Control_FriendlyName" xml:space="preserve">
+    <value>By window UI element</value>
+  </data>
+  <data name="FindWindowBy_InstanceOrHandle_FriendlyName" xml:space="preserve">
+    <value>By window instance/handle</value>
+  </data>
+  <data name="FindWindowBy_TitleAndClass_FriendlyName" xml:space="preserve">
+    <value>By title and/or class</value>
+  </data>
+  <data name="FocusByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Activates and brings to the foreground a specific window by its window instance or handle</value>
+  </data>
+  <data name="FocusByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Focus window &lt;WINDOWINSTANCE&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="FocusByTitleClass_Description" xml:space="preserve">
+    <value>Activates and brings to the foreground a specific window by its title and/or class</value>
+  </data>
+  <data name="FocusByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Focus window with title &lt;TITLE&gt; and class &lt;CLASS&gt;&lt;elseif(CLASS)&gt;
+Focus window with class &lt;CLASS&gt;&lt;elseif(TITLE)&gt;
+Focus window with title &lt;TITLE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="FocusTextField_Description" xml:space="preserve">
+    <value>Sets the focus on a text box of a window and scrolls it into view</value>
+  </data>
+  <data name="FocusTextField_FriendlyName" xml:space="preserve">
+    <value>Focus text field in window</value>
+  </data>
+  <data name="FocusTextField_Summary" xml:space="preserve">
+    <value>Focus text box &lt;TEXTFIELD&gt;</value>
+    <comment>{Locked="&lt;TEXTFIELD&gt;"}</comment>
+  </data>
+  <data name="FocusTextField_TextField_Description" xml:space="preserve">
+    <value>The text box to focus</value>
+  </data>
+  <data name="FocusTextField_TextField_FriendlyName" xml:space="preserve">
+    <value>Text field</value>
+  </data>
+  <data name="FocusWindowBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="FocusWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="FocusWindowBase_Description" xml:space="preserve">
+    <value>Activates and brings to the foreground a specific window</value>
+  </data>
+  <data name="FocusWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="FocusWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="FocusWindowBase_FriendlyName" xml:space="preserve">
+    <value>Focus window</value>
+  </data>
+  <data name="FocusWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="FocusWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="FocusWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to focus</value>
+  </data>
+  <data name="FocusWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="FocusWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="FocusWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Focus_Description" xml:space="preserve">
+    <value>Activates and brings to the foreground a specific window by UI element</value>
+  </data>
+  <data name="Focus_Summary" xml:space="preserve">
+    <value>Focus window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="FormFilling_FocusTextField_Description" xml:space="preserve">
+    <value>Sets the focus on a text box of a window and scrolls it into view</value>
+  </data>
+  <data name="FormFilling_FocusTextField_FriendlyName" xml:space="preserve">
+    <value>Focus text field in window</value>
+  </data>
+  <data name="FormFilling_FocusTextField_Summary" xml:space="preserve">
+    <value>Focus text box &lt;TEXTFIELD&gt;</value>
+    <comment>{Locked="&lt;TEXTFIELD&gt;"}</comment>
+  </data>
+  <data name="FormFilling_FocusTextField_TextField_Description" xml:space="preserve">
+    <value>The text box to focus</value>
+  </data>
+  <data name="FormFilling_FocusTextField_TextField_FriendlyName" xml:space="preserve">
+    <value>Text field</value>
+  </data>
+  <data name="FormFilling_PopulateTextField_Description" xml:space="preserve">
+    <value>Fills a text box in a window with the specified text</value>
+  </data>
+  <data name="FormFilling_PopulateTextField_FriendlyName" xml:space="preserve">
+    <value>Populate text field in window</value>
+  </data>
+  <data name="FormFilling_PopulateTextField_Summary" xml:space="preserve">
+    <value>Populate text box &lt;TEXTFIELD&gt; with &lt;TEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTFIELD&gt;"}{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="FormFilling_PopulateTextField_TextField_Description" xml:space="preserve">
+    <value>The text box to populate</value>
+  </data>
+  <data name="FormFilling_PopulateTextField_TextField_FriendlyName" xml:space="preserve">
+    <value>Text box</value>
+  </data>
+  <data name="FormFilling_PopulateTextField_Text_Description" xml:space="preserve">
+    <value>The text to fill in the text field</value>
+  </data>
+  <data name="FormFilling_PopulateTextField_Text_FriendlyName" xml:space="preserve">
+    <value>Text to fill-in</value>
+  </data>
+  <data name="FormFilling_PressButton_Button_Description" xml:space="preserve">
+    <value>The button to press</value>
+  </data>
+  <data name="FormFilling_PressButton_Button_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_PressButton_Description" xml:space="preserve">
+    <value>Presses a window button</value>
+  </data>
+  <data name="FormFilling_PressButton_FriendlyName" xml:space="preserve">
+    <value>Press button in window</value>
+  </data>
+  <data name="FormFilling_PressButton_Summary" xml:space="preserve">
+    <value>Press button &lt;BUTTON&gt;</value>
+    <comment>{Locked="&lt;BUTTON&gt;"}</comment>
+  </data>
+  <data name="FormFilling_SelectRadioButton_Description" xml:space="preserve">
+    <value>Selects a radio button on a window</value>
+  </data>
+  <data name="FormFilling_SelectRadioButton_FriendlyName" xml:space="preserve">
+    <value>Select radio button in window</value>
+  </data>
+  <data name="FormFilling_SelectRadioButton_RadioButton_Description" xml:space="preserve">
+    <value>The radio button to select</value>
+  </data>
+  <data name="FormFilling_SelectRadioButton_RadioButton_FriendlyName" xml:space="preserve">
+    <value>Radio button</value>
+  </data>
+  <data name="FormFilling_SelectRadioButton_Summary" xml:space="preserve">
+    <value>Select radio button &lt;RADIOBUTTON&gt;</value>
+    <comment>{Locked="&lt;RADIOBUTTON&gt;"}</comment>
+  </data>
+  <data name="FormFilling_SetCheckboxState_CheckboxState_Description" xml:space="preserve">
+    <value>Specify whether the checkbox will become checked or unckeched</value>
+  </data>
+  <data name="FormFilling_SetCheckboxState_CheckboxState_FriendlyName" xml:space="preserve">
+    <value>Set checkbox state to</value>
+  </data>
+  <data name="FormFilling_SetCheckboxState_Checkbox_Description" xml:space="preserve">
+    <value>The checkbox to set the state of</value>
+  </data>
+  <data name="FormFilling_SetCheckboxState_Checkbox_FriendlyName" xml:space="preserve">
+    <value>Checkbox</value>
+  </data>
+  <data name="FormFilling_SetCheckboxState_Description" xml:space="preserve">
+    <value>Checks or unchecks a checkbox in a window form</value>
+  </data>
+  <data name="FormFilling_SetCheckboxState_FriendlyName" xml:space="preserve">
+    <value>Set checkbox state in window</value>
+  </data>
+  <data name="FormFilling_SetCheckboxState_Summary" xml:space="preserve">
+    <value>Set checkbox &lt;CHECKBOX&gt; state to &lt;CHECKBOXSTATE&gt;</value>
+    <comment>{Locked="&lt;CHECKBOX&gt;"}{Locked="&lt;CHECKBOXSTATE&gt;"}</comment>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_Description" xml:space="preserve">
+    <value>Sets or clears the selected option(s) for a drop-down list in a window form</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_DropDownList_Description" xml:space="preserve">
+    <value>The drop-down list whose value to set</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_DropDownList_FriendlyName" xml:space="preserve">
+    <value>Drop-down list</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_FriendlyName" xml:space="preserve">
+    <value>Set drop-down list value in window</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_Operation_Description" xml:space="preserve">
+    <value>Specify whether you want to select a value by name or by ordinal position (1 2 3 ...) or clear the selected value of the drop-down list</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_OptionsIndeces_Description" xml:space="preserve">
+    <value>A space-separated list of 1-based indices (e.g. 1 3 4)</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_OptionsIndeces_FriendlyName" xml:space="preserve">
+    <value>Options indices</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_OptionsNames_Description" xml:space="preserve">
+    <value>One or more options (one per line if more than one) to select in the drop down list. Multiple options make sense only when working with multi-select lists. If the list is single-selection, then only the first option specified will be used.</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueInWindow_OptionsNames_FriendlyName" xml:space="preserve">
+    <value>Options names</value>
+  </data>
+  <data name="GetCheckboxState_Description" xml:space="preserve">
+    <value>Retrieves the state of a specific checkbox</value>
+  </data>
+  <data name="GetCheckboxState_Summary" xml:space="preserve">
+    <value>Get checked state of &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="GetElementDetails_AttributeName_Description" xml:space="preserve">
+    <value>The attribute whose value will be retrieved</value>
+  </data>
+  <data name="GetElementDetails_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="GetElementDetails_AttributeValue_Description" xml:space="preserve">
+    <value>The value of the UI element's text</value>
+  </data>
+  <data name="GetElementDetails_AttributeValue_FriendlyName" xml:space="preserve">
+    <value>UI element text</value>
+  </data>
+  <data name="GetElementDetails_Description" xml:space="preserve">
+    <value>Gets the value of a UI element's attribute in a window</value>
+  </data>
+  <data name="GetElementDetails_Element_Description" xml:space="preserve">
+    <value>The UI element to get details from</value>
+  </data>
+  <data name="GetElementDetails_Element_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="GetElementDetails_FriendlyName" xml:space="preserve">
+    <value>Get details of the UI element in window</value>
+  </data>
+  <data name="GetElementDetails_Summary" xml:space="preserve">
+    <value>Get attribute &lt;ATTRIBUTENAME&gt; of element &lt;ELEMENT&gt;</value>
+    <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;ELEMENT&gt;"}</comment>
+  </data>
+  <data name="GetForegroundWindow_Description" xml:space="preserve">
+    <value>Gets the foreground window, for automating desktop applications</value>
+  </data>
+  <data name="GetForegroundWindow_Summary" xml:space="preserve">
+    <value>Get the foreground window</value>
+  </data>
+  <data name="GetRadioButtonState_Description" xml:space="preserve">
+    <value>Retrieves the selected state of a radio button</value>
+  </data>
+  <data name="GetRadioButtonState_Summary" xml:space="preserve">
+    <value>Get selected state of &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_CheckboxState_Description" xml:space="preserve">
+    <value>The state of the selected checkbox</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_CheckboxState_FriendlyName" xml:space="preserve">
+    <value>Checkbox state</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_Control_Description" xml:space="preserve">
+    <value>The checkbox or checkbox group</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_Description" xml:space="preserve">
+    <value>Retrieves the names of the selected checkboxes in a checkbox group or the state of a specific checkbox</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_FriendlyName" xml:space="preserve">
+    <value>Get selected checkboxes in window</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_Operation_Description" xml:space="preserve">
+    <value>Specify whether to retrieve the state of multiple selected checkboxes or just one</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_SelectedCheckboxes_Description" xml:space="preserve">
+    <value>The names of selected checkboxes inside the specified checkbox group</value>
+  </data>
+  <data name="GetSelectedCheckboxesInWindow_SelectedCheckboxes_FriendlyName" xml:space="preserve">
+    <value>Selected checkboxes names</value>
+  </data>
+  <data name="GetSelectedCheckboxes_Description" xml:space="preserve">
+    <value>Retrieves the names of the selected checkboxes in a checkbox group</value>
+  </data>
+  <data name="GetSelectedCheckboxes_Summary" xml:space="preserve">
+    <value>Get names of selected checkboxes in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_Control_Description" xml:space="preserve">
+    <value>The radio button or radio button group</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_Description" xml:space="preserve">
+    <value>Retrieves the names of the selected radio button in a radio button group or the state of a specific radio button</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_FriendlyName" xml:space="preserve">
+    <value>Get selected radio button in window</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_Operation_Description" xml:space="preserve">
+    <value>Specify whether to retrieve the name of the radio button that's selected inside a group of radio buttons or just the state of a single radio button</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_RadiobuttonState_Description" xml:space="preserve">
+    <value>The state of the selected radio button</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_RadiobuttonState_FriendlyName" xml:space="preserve">
+    <value>Radio button state</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_SelectedRadiobutton_Description" xml:space="preserve">
+    <value>The selected radio button inside the specified radio group</value>
+  </data>
+  <data name="GetSelectedRadiobuttonInWindow_SelectedRadiobutton_FriendlyName" xml:space="preserve">
+    <value>Selected radio buttons names</value>
+  </data>
+  <data name="GetSelectedRadiobutton_Description" xml:space="preserve">
+    <value>Retrieves the name of selected radio button in a radio button group</value>
+  </data>
+  <data name="GetSelectedRadiobutton_Summary" xml:space="preserve">
+    <value>Get name of selected radio button in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="GetUseTimeout_Description" xml:space="preserve">
+    <value>Gets a running window, for automating desktop applications, and fails if window isn't found after a specified time</value>
+  </data>
+  <data name="GetUseTimeout_Summary" xml:space="preserve">
+    <value>Get window and store the instance into &lt;WINDOWINSTANCE&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="GetWindowBase_BringWindowToFront_Description" xml:space="preserve">
+    <value>Specify whether to bring the window to the foreground automatically upon acquiring it</value>
+  </data>
+  <data name="GetWindowBase_BringWindowToFront_FriendlyName" xml:space="preserve">
+    <value>Bring window to front</value>
+  </data>
+  <data name="GetWindowBase_Control_Description" xml:space="preserve">
+    <value>The selector of the window to get</value>
+  </data>
+  <data name="GetWindowBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="GetWindowBase_Description" xml:space="preserve">
+    <value>Gets a running window, for automating desktop applications</value>
+  </data>
+  <data name="GetWindowBase_FriendlyName" xml:space="preserve">
+    <value>Get window</value>
+  </data>
+  <data name="GetWindowBase_GetWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look using a selector or the foreground window</value>
+  </data>
+  <data name="GetWindowBase_GetWindowMode_FriendlyName" xml:space="preserve">
+    <value>Get window</value>
+  </data>
+  <data name="GetWindowBase_Timeout_Description" xml:space="preserve">
+    <value>The timeout to wait in seconds</value>
+  </data>
+  <data name="GetWindowBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="GetWindowBase_UseTimeout_Description" xml:space="preserve">
+    <value>Specify whether to wait indefinitely for the window to appear or to fail if the window doesn't show up within a set time period</value>
+  </data>
+  <data name="GetWindowBase_UseTimeout_FriendlyName" xml:space="preserve">
+    <value>Fail if window isn't found</value>
+  </data>
+  <data name="GetWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The specific window instance for use with later UI Automation actions</value>
+  </data>
+  <data name="GetWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="GetWindowBase_WindowTitle_Description" xml:space="preserve">
+    <value>The title of the foreground window</value>
+  </data>
+  <data name="GetWindowBase_WindowTitle_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="GetWindowDetails_Description" xml:space="preserve">
+    <value>Gets a property of a window such as its title or its source text</value>
+  </data>
+  <data name="GetWindowDetails_ExtractionOperation_Description" xml:space="preserve">
+    <value>Choose which property of the window to extract</value>
+  </data>
+  <data name="GetWindowDetails_ExtractionOperation_FriendlyName" xml:space="preserve">
+    <value>Window property</value>
+  </data>
+  <data name="GetWindowDetails_FriendlyName" xml:space="preserve">
+    <value>Get details of window</value>
+  </data>
+  <data name="GetWindowDetails_Property_Description" xml:space="preserve">
+    <value>The retrieved information of the window</value>
+  </data>
+  <data name="GetWindowDetails_Property_FriendlyName" xml:space="preserve">
+    <value>Window property</value>
+  </data>
+  <data name="GetWindowDetails_Summary" xml:space="preserve">
+    <value>&lt;EXTRACTIONOPERATION&gt; and store it into &lt;PROPERTY&gt;</value>
+    <comment>{Locked="&lt;EXTRACTIONOPERATION&gt;"}{Locked="&lt;PROPERTY&gt;"}</comment>
+  </data>
+  <data name="GetWindowDetails_Window_Description" xml:space="preserve">
+    <value>The window to get details from</value>
+  </data>
+  <data name="GetWindowDetails_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="GetWindowMode_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window</value>
+  </data>
+  <data name="GetWindowMode_SpecificWindow_FriendlyName" xml:space="preserve">
+    <value>Specific window</value>
+  </data>
+  <data name="Get_Description" xml:space="preserve">
+    <value>Gets a running window, for automating desktop applications</value>
+  </data>
+  <data name="Get_Summary" xml:space="preserve">
+    <value>Get window and store the instance into &lt;WINDOWINSTANCE&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="IfImageAction_CheckMode_Description" xml:space="preserve">
+    <value>Whether to check for the existance or absense of the selected image</value>
+  </data>
+  <data name="IfImageAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>If image</value>
+  </data>
+  <data name="IfImageAction_FindAllImages_Description" xml:space="preserve">
+    <value>Check whether all images on the list exist or don't exist</value>
+  </data>
+  <data name="IfImageAction_FindAllImages_FriendlyName" xml:space="preserve">
+    <value>Find all images in the list</value>
+  </data>
+  <data name="IfImageAction_Images_FriendlyName" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="IfImageExists_DoesNotExist_FriendlyName" xml:space="preserve">
+    <value>doesn't exist</value>
+  </data>
+  <data name="IfImageExists_Exists_FriendlyName" xml:space="preserve">
+    <value>exists</value>
+  </data>
+  <data name="IfWindowAction_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to be used.</value>
+  </data>
+  <data name="IfWindowAction_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="IfWindowAction_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the Window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="IfWindowAction_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Get window</value>
+  </data>
+  <data name="IfWindowAction_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="IfWindowAction_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="IfWindowAction_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to check</value>
+  </data>
+  <data name="IfWindowAction_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="IfWindowAction_WindowMode_Description" xml:space="preserve">
+    <value>The state of the window to be checked</value>
+  </data>
+  <data name="IfWindowAction_WindowMode_FriendlyName" xml:space="preserve">
+    <value>Check if window</value>
+  </data>
+  <data name="IfWindowAction_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="IfWindowAction_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="IfWindowContainsAction_ContainsMode_Description" xml:space="preserve">
+    <value>Check whether a specific text or UI element exists in a window</value>
+  </data>
+  <data name="IfWindowContainsAction_ContainsMode_FriendlyName" xml:space="preserve">
+    <value>Check if window</value>
+  </data>
+  <data name="IfWindow_IsFocused_FriendlyName" xml:space="preserve">
+    <value>Is focused</value>
+  </data>
+  <data name="IfWindow_IsNotFocused_FriendlyName" xml:space="preserve">
+    <value>Isn't focused</value>
+  </data>
+  <data name="IfWindow_IsNotOpen_FriendlyName" xml:space="preserve">
+    <value>Isn't open</value>
+  </data>
+  <data name="IfWindow_IsOpen_FriendlyName" xml:space="preserve">
+    <value>Is open</value>
+  </data>
+  <data name="IsFocusedByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window is focused by using the window instance or handle</value>
+  </data>
+  <data name="IsFocusedByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window is focused by using the window title/class</value>
+  </data>
+  <data name="IsFocused_Description" xml:space="preserve">
+    <value>Checks whether a specific window is focused by using the window UI element</value>
+  </data>
+  <data name="IsNotFocusedByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window isn't focused by using the window instance or handle</value>
+  </data>
+  <data name="IsNotFocusedByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window isn't focused by using the window title/class</value>
+  </data>
+  <data name="IsNotFocused_Description" xml:space="preserve">
+    <value>Checks whether a specific window isn't focused by using the window UI element</value>
+  </data>
+  <data name="IsNotOpenByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window isn't open by using the window instance or handle</value>
+  </data>
+  <data name="IsNotOpenByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window isn't open by using the window title/class</value>
+  </data>
+  <data name="IsNotOpen_Description" xml:space="preserve">
+    <value>Checks whether a specific window isn't open by using the window UI element</value>
+  </data>
+  <data name="IsOpenByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window is open by using the window instance or handle</value>
+  </data>
+  <data name="IsOpenByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window is open by using the window title/class</value>
+  </data>
+  <data name="IsOpen_Description" xml:space="preserve">
+    <value>Checks whether a specific window is open by using the window UI element</value>
+  </data>
+  <data name="MoveByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Moves a specific window by its window instance or handle</value>
+  </data>
+  <data name="MoveByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Move window &lt;WINDOWINSTANCE&gt; to &lt;X&gt;,&lt;Y&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}{Locked="&lt;X&gt;"}{Locked="&lt;Y&gt;"}</comment>
+  </data>
+  <data name="MoveByTitleClass_Description" xml:space="preserve">
+    <value>Moves a specific window by its title and/or class</value>
+  </data>
+  <data name="MoveByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Move window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to &lt;X&gt;,&lt;Y&gt;&lt;elseif(CLASS)&gt;
+Move window with class &lt;CLASS&gt; to &lt;X&gt;,&lt;Y&gt;&lt;elseif(TITLE)&gt;
+Move window with title &lt;TITLE&gt; to &lt;X&gt;,&lt;Y&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;X&gt;"}{Locked="&lt;Y&gt;"}{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="MoveWindowBase_Class_Description" xml:space="preserve">
+    <value>If you have two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="MoveWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="MoveWindowBase_Description" xml:space="preserve">
+    <value>Sets the position of a specific window</value>
+  </data>
+  <data name="MoveWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="MoveWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="MoveWindowBase_FriendlyName" xml:space="preserve">
+    <value>Move window</value>
+  </data>
+  <data name="MoveWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="MoveWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="MoveWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to move</value>
+  </data>
+  <data name="MoveWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="MoveWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="MoveWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="MoveWindowBase_X_Description" xml:space="preserve">
+    <value>The X position of the window</value>
+  </data>
+  <data name="MoveWindowBase_X_FriendlyName" xml:space="preserve">
+    <value>Position X</value>
+  </data>
+  <data name="MoveWindowBase_Y_Description" xml:space="preserve">
+    <value>The Y position of the window</value>
+  </data>
+  <data name="MoveWindowBase_Y_FriendlyName" xml:space="preserve">
+    <value>Position Y</value>
+  </data>
+  <data name="Move_Description" xml:space="preserve">
+    <value>Moves specific window by UI element</value>
+  </data>
+  <data name="Move_Summary" xml:space="preserve">
+    <value>Move window &lt;WINDOW&gt; to &lt;X&gt;,&lt;Y&gt;</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}{Locked="&lt;X&gt;"}{Locked="&lt;Y&gt;"}</comment>
+  </data>
+  <data name="PopulateTextField_Description" xml:space="preserve">
+    <value>Fills a text box in a window with the specified text</value>
+  </data>
+  <data name="PopulateTextField_FriendlyName" xml:space="preserve">
+    <value>Populate text field in window</value>
+  </data>
+  <data name="PopulateTextField_Summary" xml:space="preserve">
+    <value>Populate text box &lt;TEXTFIELD&gt; with &lt;TEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTFIELD&gt;"}{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="PopulateTextField_TextField_Description" xml:space="preserve">
+    <value>The text box to populate</value>
+  </data>
+  <data name="PopulateTextField_TextField_FriendlyName" xml:space="preserve">
+    <value>Text box</value>
+  </data>
+  <data name="PopulateTextField_Text_Description" xml:space="preserve">
+    <value>The text to fill in the text field</value>
+  </data>
+  <data name="PopulateTextField_Text_FriendlyName" xml:space="preserve">
+    <value>Text To fill-in</value>
+  </data>
+  <data name="PressButton_Button_Description" xml:space="preserve">
+    <value>The button to press</value>
+  </data>
+  <data name="PressButton_Button_FriendlyName" xml:space="preserve">
+    <value>UI Element</value>
+  </data>
+  <data name="PressButton_Description" xml:space="preserve">
+    <value>Presses a window button</value>
+  </data>
+  <data name="PressButton_FriendlyName" xml:space="preserve">
+    <value>Press button in window</value>
+  </data>
+  <data name="PressButton_Summary" xml:space="preserve">
+    <value>Press button &lt;BUTTON&gt;</value>
+    <comment>{Locked="&lt;BUTTON&gt;"}</comment>
+  </data>
+  <data name="RadiobuttonScanMode_GetRadiobuttonState_FriendlyName" xml:space="preserve">
+    <value>Get state of radio button</value>
+  </data>
+  <data name="RadiobuttonScanMode_GetSelectedRadiobuttonInGroup_FriendlyName" xml:space="preserve">
+    <value>Get selected radio button name in group</value>
+  </data>
+  <data name="RectangleEdgePoint_BottomCenter_FriendlyName" xml:space="preserve">
+    <value>Bottom center</value>
+  </data>
+  <data name="RectangleEdgePoint_BottomLeft_FriendlyName" xml:space="preserve">
+    <value>Bottom left</value>
+  </data>
+  <data name="RectangleEdgePoint_BottomRight_FriendlyName" xml:space="preserve">
+    <value>Bottom right</value>
+  </data>
+  <data name="RectangleEdgePoint_MiddleCenter_FriendlyName" xml:space="preserve">
+    <value>Middle center</value>
+  </data>
+  <data name="RectangleEdgePoint_MiddleLeft_FriendlyName" xml:space="preserve">
+    <value>Middle left</value>
+  </data>
+  <data name="RectangleEdgePoint_MiddleRight_FriendlyName" xml:space="preserve">
+    <value>Middle right</value>
+  </data>
+  <data name="RectangleEdgePoint_TopCenter_FriendlyName" xml:space="preserve">
+    <value>Top center</value>
+  </data>
+  <data name="RectangleEdgePoint_TopLeft_FriendlyName" xml:space="preserve">
+    <value>Top left</value>
+  </data>
+  <data name="RectangleEdgePoint_TopRight_FriendlyName" xml:space="preserve">
+    <value>Top right</value>
+  </data>
+  <data name="ResizeByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Resizes a specific window by its window instance or handle</value>
+  </data>
+  <data name="ResizeByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Resize window &lt;WINDOWINSTANCE&gt; to Width: &lt;WIDTH&gt;, Height: &lt;HEIGHT&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}{Locked="&lt;WIDTH&gt;"}{Locked="&lt;HEIGHT&gt;"}</comment>
+  </data>
+  <data name="ResizeByTitleClass_Description" xml:space="preserve">
+    <value>Resizes a specific window by its title and/or class</value>
+  </data>
+  <data name="ResizeByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Resize window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to Width: &lt;WIDTH&gt;, Height: &lt;HEIGHT&gt;&lt;elseif(CLASS)&gt;
+Resize window with class &lt;CLASS&gt; to Width: &lt;WIDTH&gt;, Height: &lt;HEIGHT&gt;&lt;elseif(TITLE)&gt;
+Resize window with title &lt;TITLE&gt; to Width: &lt;WIDTH&gt;, Height: &lt;HEIGHT&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;WIDTH&gt;"}{Locked="&lt;HEIGHT&gt;"}{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ResizeWindowBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="ResizeWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="ResizeWindowBase_Description" xml:space="preserve">
+    <value>Sets the size of a specific window</value>
+  </data>
+  <data name="ResizeWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="ResizeWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="ResizeWindowBase_FriendlyName" xml:space="preserve">
+    <value>Resize window</value>
+  </data>
+  <data name="ResizeWindowBase_Height_Description" xml:space="preserve">
+    <value>The new height, in pixels</value>
+  </data>
+  <data name="ResizeWindowBase_Height_FriendlyName" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="ResizeWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="ResizeWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="ResizeWindowBase_Width_Description" xml:space="preserve">
+    <value>The new width, in pixels</value>
+  </data>
+  <data name="ResizeWindowBase_Width_FriendlyName" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="ResizeWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to resize</value>
+  </data>
+  <data name="ResizeWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="ResizeWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="ResizeWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Resize_Description" xml:space="preserve">
+    <value>Resizes a specific window by UI element</value>
+  </data>
+  <data name="Resize_Summary" xml:space="preserve">
+    <value>Resize window &lt;WINDOW&gt; to Width: &lt;WIDTH&gt;, Height: &lt;HEIGHT&gt;</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}{Locked="&lt;WIDTH&gt;"}{Locked="&lt;HEIGHT&gt;"}</comment>
+  </data>
+  <data name="SearchMode_Subregion_FriendlyName" xml:space="preserve">
+    <value>Search on specified subregion of screen or foreground window</value>
+  </data>
+  <data name="SearchMode_Whole_FriendlyName" xml:space="preserve">
+    <value>Search whole screen or foreground window</value>
+  </data>
+  <data name="SearchTarget_EntireScreen_FriendlyName" xml:space="preserve">
+    <value>Entire screen</value>
+  </data>
+  <data name="SearchTarget_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window only</value>
+  </data>
+  <data name="SelectMenuOption_Control_Description" xml:space="preserve">
+    <value>The menu option to select</value>
+  </data>
+  <data name="SelectMenuOption_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="SelectMenuOption_Description" xml:space="preserve">
+    <value>Selects an option in a menu of a window</value>
+  </data>
+  <data name="SelectMenuOption_FriendlyName" xml:space="preserve">
+    <value>Select menu option in window</value>
+  </data>
+  <data name="SelectMenuOption_Summary" xml:space="preserve">
+    <value>Select option &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SelectRadioButton_Description" xml:space="preserve">
+    <value>Selects a radio button on a window</value>
+  </data>
+  <data name="SelectRadioButton_FriendlyName" xml:space="preserve">
+    <value>Select radio button in window</value>
+  </data>
+  <data name="SelectRadioButton_RadioButton_Description" xml:space="preserve">
+    <value>The radio button to select</value>
+  </data>
+  <data name="SelectRadioButton_RadioButton_FriendlyName" xml:space="preserve">
+    <value>Radio button</value>
+  </data>
+  <data name="SelectRadioButton_Summary" xml:space="preserve">
+    <value>Select radio button &lt;RADIOBUTTON&gt;</value>
+    <comment>{Locked="&lt;RADIOBUTTON&gt;"}</comment>
+  </data>
+  <data name="SelectTab_Description" xml:space="preserve">
+    <value>Selects a tab from a group of tabs</value>
+  </data>
+  <data name="SelectTab_FriendlyName" xml:space="preserve">
+    <value>Select tab in window</value>
+  </data>
+  <data name="SelectTab_Summary" xml:space="preserve">
+    <value>Select tab &lt;TAB&gt;</value>
+    <comment>{Locked="&lt;TAB&gt;"}</comment>
+  </data>
+  <data name="SelectTab_Tab_Description" xml:space="preserve">
+    <value>The tab to select</value>
+  </data>
+  <data name="SelectTab_Tab_FriendlyName" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="SetCheckboxState_CheckboxState_Description" xml:space="preserve">
+    <value>Specify whether the checkbox will become checked or unckeched</value>
+  </data>
+  <data name="SetCheckboxState_CheckboxState_FriendlyName" xml:space="preserve">
+    <value>Set checkbox state to</value>
+  </data>
+  <data name="SetCheckboxState_Checkbox_Description" xml:space="preserve">
+    <value>The checkbox to set the state of</value>
+  </data>
+  <data name="SetCheckboxState_Checkbox_FriendlyName" xml:space="preserve">
+    <value>Checkbox</value>
+  </data>
+  <data name="SetCheckboxState_Description" xml:space="preserve">
+    <value>Checks or unchecks a checkbox in a window form</value>
+  </data>
+  <data name="SetCheckboxState_FriendlyName" xml:space="preserve">
+    <value>Set checkbox state in window</value>
+  </data>
+  <data name="SetCheckboxState_Summary" xml:space="preserve">
+    <value>Set checkbox &lt;CHECKBOX&gt; state to &lt;CHECKBOXSTATE&gt;</value>
+    <comment>{Locked="&lt;CHECKBOX&gt;"}{Locked="&lt;CHECKBOXSTATE&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByIndex_Description" xml:space="preserve">
+    <value>Sets the selected option(s) for a drop-down list in a window form by their indexes</value>
+  </data>
+  <data name="SetDropDownListValueByIndex_Summary" xml:space="preserve">
+    <value>Select option(s) &lt;OPTIONSINDECES&gt; in &lt;DROPDOWNLIST&gt;</value>
+    <comment>{Locked="&lt;OPTIONSINDECES&gt;"}{Locked="&lt;DROPDOWNLIST&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByName_Description" xml:space="preserve">
+    <value>Sets the selected option(s) for a drop-down list in a window form by their names</value>
+  </data>
+  <data name="SetDropDownListValueByName_Summary" xml:space="preserve">
+    <value>Select option(s) &lt;OPTIONSNAMES&gt; in &lt;DROPDOWNLIST&gt;</value>
+    <comment>{Locked="&lt;OPTIONSNAMES&gt;"}{Locked="&lt;DROPDOWNLIST&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueInWindow_Description" xml:space="preserve">
+    <value>Sets or clears the selected option(s) for a drop-down list in a window form</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_DropDownList_Description" xml:space="preserve">
+    <value>The drop-down list whose value to set</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_DropDownList_FriendlyName" xml:space="preserve">
+    <value>Drop-down list</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_FriendlyName" xml:space="preserve">
+    <value>Set drop-down list value in window</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_Operation_Description" xml:space="preserve">
+    <value>Specify whether you want to select a value by name or by ordinal position (1 2 3 ...) or clear the selected value of the dropdown list</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_OptionsIndeces_Description" xml:space="preserve">
+    <value>A space-separated list of 1-based indices (e.g. 1 3 4)</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_OptionsIndeces_FriendlyName" xml:space="preserve">
+    <value>Options indices</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_OptionsNames_Description" xml:space="preserve">
+    <value>One or more options (one per line if more than one) to select in the drop-down list. Multiple options make sense only when working with multi-select lists. If the list is single-selection, then only the first option specified will be used.</value>
+  </data>
+  <data name="SetDropDownListValueInWindow_OptionsNames_FriendlyName" xml:space="preserve">
+    <value>Options names</value>
+  </data>
+  <data name="SetStateByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Restores, maximizes or minimizes a specific window by its window instance or handle</value>
+  </data>
+  <data name="SetStateByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Set window &lt;WINDOWINSTANCE&gt; state to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SetStateByTitleClass_Description" xml:space="preserve">
+    <value>Restores, maximizes or minimizes a specific window by its title and/or class</value>
+  </data>
+  <data name="SetStateByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Set the state of window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to &lt;STATE&gt;&lt;elseif(CLASS)&gt;
+Set the state of window with class &lt;CLASS&gt; to &lt;STATE&gt;&lt;elseif(TITLE)&gt;
+Set the state of window with title &lt;TITLE&gt; to &lt;STATE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;STATE&gt;"}{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="SetState_Description" xml:space="preserve">
+    <value>Restores, maximizes or minimizes a specific window by UI element</value>
+  </data>
+  <data name="SetState_Summary" xml:space="preserve">
+    <value>Set window &lt;WINDOW&gt; state to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SetVisibilityByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Sets window visibility by its window instance or handle</value>
+  </data>
+  <data name="SetVisibilityByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Set window &lt;WINDOWINSTANCE&gt; visibility to &lt;VISIBILITY&gt;</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}{Locked="&lt;VISIBILITY&gt;"}</comment>
+  </data>
+  <data name="SetVisibilityByTitleClass_Description" xml:space="preserve">
+    <value>Sets window visibility by its title and/or class</value>
+  </data>
+  <data name="SetVisibilityByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Set the visibility of window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to &lt;VISIBILITY&gt;&lt;elseif(CLASS)&gt;
+Set the visibility of window with class &lt;CLASS&gt; to &lt;VISIBILITY&gt;&lt;elseif(TITLE)&gt;
+Set the visibility of window with title &lt;TITLE&gt; to &lt;VISIBILITY&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;VISIBILITY&gt;"}{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="SetVisibility_Description" xml:space="preserve">
+    <value>Sets window visibility by UI element</value>
+  </data>
+  <data name="SetVisibility_Summary" xml:space="preserve">
+    <value>Set window &lt;WINDOW&gt; visibilty to &lt;VISIBILITY&gt;</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}{Locked="&lt;VISIBILITY&gt;"}</comment>
+  </data>
+  <data name="SetWindowStateBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use</value>
+  </data>
+  <data name="SetWindowStateBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="SetWindowStateBase_Description" xml:space="preserve">
+    <value>Restores, maximizes or minimizes a specific window</value>
+  </data>
+  <data name="SetWindowStateBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="SetWindowStateBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="SetWindowStateBase_FriendlyName" xml:space="preserve">
+    <value>Set window state</value>
+  </data>
+  <data name="SetWindowStateBase_State_Description" xml:space="preserve">
+    <value>Choose in which state to display the window</value>
+  </data>
+  <data name="SetWindowStateBase_State_FriendlyName" xml:space="preserve">
+    <value>Window state</value>
+  </data>
+  <data name="SetWindowStateBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="SetWindowStateBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="SetWindowStateBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to set the state of</value>
+  </data>
+  <data name="SetWindowStateBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="SetWindowStateBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="SetWindowStateBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Description" xml:space="preserve">
+    <value>Shows a hidden window or hides a visible window</value>
+  </data>
+  <data name="SetWindowVisibilityBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the Window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="SetWindowVisibilityBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="SetWindowVisibilityBase_FriendlyName" xml:space="preserve">
+    <value>Set window visibility</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Visibility_Description" xml:space="preserve">
+    <value>Choose in which state to set the window visibility to</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Visibility_FriendlyName" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="SetWindowVisibilityBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to set the visibility of</value>
+  </data>
+  <data name="SetWindowVisibilityBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="SetWindowVisibilityBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="State_Disabled_FriendlyName" xml:space="preserve">
+    <value>Disabled</value>
+  </data>
+  <data name="State_Enabled_FriendlyName" xml:space="preserve">
+    <value>Enabled</value>
+  </data>
+  <data name="StoreExtractedDataIn_ExcelSpreadsheet_FriendlyName" xml:space="preserve">
+    <value>an Excel spreadsheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="StoreExtractedDataIn_Variable_FriendlyName" xml:space="preserve">
+    <value>A variable</value>
+  </data>
+  <data name="ToAppearOnForegroundWindow_Description" xml:space="preserve">
+    <value>Checks whether an image has appeared on the foreground window</value>
+  </data>
+  <data name="ToAppearOnScreen_Description" xml:space="preserve">
+    <value>Checks whether an image has appeared on entire screen</value>
+  </data>
+  <data name="ToAppearOnSubregionOfForegroundWindow_Description" xml:space="preserve">
+    <value>Checks whether an image has appeared on a subregion of the foreground window</value>
+  </data>
+  <data name="ToAppearOnSubregionOfScreen_Description" xml:space="preserve">
+    <value>Checks whether an image has appeared on a subregion of screen</value>
+  </data>
+  <data name="ToBecomeFocusedByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window has been focused by using window instance or handle</value>
+  </data>
+  <data name="ToBecomeFocusedByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window has been focused by using window title/class</value>
+  </data>
+  <data name="ToBecomeFocused_Description" xml:space="preserve">
+    <value>Checks whether a specific window has been focused by using window UI element</value>
+  </data>
+  <data name="ToCloseByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window has closed by using window instance or handle</value>
+  </data>
+  <data name="ToCloseByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window has closed by using window title/class</value>
+  </data>
+  <data name="ToClose_Description" xml:space="preserve">
+    <value>Checks whether a specific window has closed by using window UI element</value>
+  </data>
+  <data name="ToDisappearFromForegroundWindow_Description" xml:space="preserve">
+    <value>Checks whether an image has disappeared from the foreground window</value>
+  </data>
+  <data name="ToDisappearFromScreen_Description" xml:space="preserve">
+    <value>Checks whether an image has disappeared from entire screen</value>
+  </data>
+  <data name="ToDisappearFromSubregionOfForegroundWindow_Description" xml:space="preserve">
+    <value>Checks whether an image has disappeared from a subregion of the foreground window</value>
+  </data>
+  <data name="ToDisappearFromSubregionOfScreen_Description" xml:space="preserve">
+    <value>Checks whether an image has disappeared from a subregion of screen</value>
+  </data>
+  <data name="ToLoseFocusByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window has lost focus by using window instance or handle</value>
+  </data>
+  <data name="ToLoseFocusByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window has lost focus by using window title/class</value>
+  </data>
+  <data name="ToLoseFocus_Description" xml:space="preserve">
+    <value>Checks whether a specific window has lost focus by using window UI element</value>
+  </data>
+  <data name="ToOpenByInstanceOrHandle_Description" xml:space="preserve">
+    <value>Checks whether a specific window is open by using window instance or handle</value>
+  </data>
+  <data name="ToOpenByTitleClass_Description" xml:space="preserve">
+    <value>Checks whether a specific window is open by using window title/class</value>
+  </data>
+  <data name="ToOpen_Description" xml:space="preserve">
+    <value>Checks whether a specific window is open by using window UI element</value>
+  </data>
+  <data name="TreeNodeOperation_Collapse_FriendlyName" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="TreeNodeOperation_Expand_FriendlyName" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="UIAutomation_Description" xml:space="preserve">
+    <value>Interact with desktop/windows applications</value>
+  </data>
+  <data name="UIAutomation_FriendlyName" xml:space="preserve">
+    <value>UI automation</value>
+  </data>
+  <data name="UseDesktop_ClickType_Description" xml:space="preserve">
+    <value>The kind of click to perform</value>
+  </data>
+  <data name="UseDesktop_ClickType_FriendlyName" xml:space="preserve">
+    <value>Click type</value>
+  </data>
+  <data name="UseDesktop_Control_Description" xml:space="preserve">
+    <value>The UI element to perform a click on</value>
+  </data>
+  <data name="UseDesktop_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="UseDesktop_Description" xml:space="preserve">
+    <value>Performs desktop and taskbar related operations</value>
+  </data>
+  <data name="UseDesktop_FriendlyName" xml:space="preserve">
+    <value>Use desktop</value>
+  </data>
+  <data name="UseDesktop_LaunchNewApplication_Description" xml:space="preserve">
+    <value>When this parameter is set to 'true', it ensures that a new window of an application will be created when left-clicking on its icon in the 'quick launch' bar, aka the taskbar of Windows 7 or above. Uncheck this option to bring an already running instance of the application to the foreground.</value>
+  </data>
+  <data name="UseDesktop_LaunchNewApplication_FriendlyName" xml:space="preserve">
+    <value>Launch new application when left-clicking on the taskbar</value>
+  </data>
+  <data name="UseDesktop_Summary" xml:space="preserve">
+    <value>&lt;CLICKTYPE&gt; on &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CLICKTYPE&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="Visibility_Hidden_FriendlyName" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="Visibility_Visible_FriendlyName" xml:space="preserve">
+    <value>Visible</value>
+  </data>
+  <data name="WaitForImageAction_CheckMode_Description" xml:space="preserve">
+    <value>Check whether to wait for the image(s) to appear or disappear</value>
+  </data>
+  <data name="WaitForImageAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>Wait for image to</value>
+  </data>
+  <data name="WaitForImageAction_FindAllImages_Description" xml:space="preserve">
+    <value>Whether to wait for all the images on the list to appear(disappear), or just one of them</value>
+  </data>
+  <data name="WaitForImageAction_FindAllImages_FriendlyName" xml:space="preserve">
+    <value>Wait for all images</value>
+  </data>
+  <data name="WaitForImageAction_Images_FriendlyName" xml:space="preserve">
+    <value>Image to wait for</value>
+  </data>
+  <data name="WaitForImageAction_X_Description" xml:space="preserve">
+    <value>The X coordinate of the point where the text was found on the screen. If the text has been search in the foreground window this is relative to the top left corner of the window.</value>
+  </data>
+  <data name="WaitForImageAction_X_FriendlyName" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="WaitForImageAction_Y_Description" xml:space="preserve">
+    <value>The Y coordinate of the point where the text was found on the screen. If the text has been search in the foreground window this is relative to the top left corner of the window.</value>
+  </data>
+  <data name="WaitForImageAction_Y_FriendlyName" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="WaitForImage_Appear_FriendlyName" xml:space="preserve">
+    <value>Appear</value>
+  </data>
+  <data name="WaitForImage_Disappear_FriendlyName" xml:space="preserve">
+    <value>Disappear</value>
+  </data>
+  <data name="WaitForWindowAction_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to be used</value>
+  </data>
+  <data name="WaitForWindowAction_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="WaitForWindowAction_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element  or a combination of window title/class</value>
+  </data>
+  <data name="WaitForWindowAction_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window</value>
+  </data>
+  <data name="WaitForWindowAction_FocusWindow_Description" xml:space="preserve">
+    <value>Bring the window to the front after it opens, so later actions are directed at this window</value>
+  </data>
+  <data name="WaitForWindowAction_FocusWindow_FriendlyName" xml:space="preserve">
+    <value>Focus window after it opens</value>
+  </data>
+  <data name="WaitForWindowAction_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="WaitForWindowAction_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="WaitForWindowAction_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to check</value>
+  </data>
+  <data name="WaitForWindowAction_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="WaitForWindowAction_WindowMode_Description" xml:space="preserve">
+    <value>Whether to wait for a specific window to open, close, become focused (i.e become the foreground window), or lose focus (i.e stop being the foreground window).</value>
+  </data>
+  <data name="WaitForWindowAction_WindowMode_FriendlyName" xml:space="preserve">
+    <value>Wait for window to</value>
+  </data>
+  <data name="WaitForWindowAction_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="WaitForWindowAction_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="WaitForWindowContentAction_ContainsMode_Description" xml:space="preserve">
+    <value>Whether to wait for a specific text or UI element to appear in a window</value>
+  </data>
+  <data name="WaitForWindowContentAction_ContainsMode_FriendlyName" xml:space="preserve">
+    <value>Wait until window</value>
+  </data>
+  <data name="WaitForWindow_BecomeFocused_FriendlyName" xml:space="preserve">
+    <value>Become focused</value>
+  </data>
+  <data name="WaitForWindow_Close_FriendlyName" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="WaitForWindow_LoseFocus_FriendlyName" xml:space="preserve">
+    <value>Lose focus</value>
+  </data>
+  <data name="WaitForWindow_Open_FriendlyName" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="Wait_ToAppearOnForegroundWindow_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to appear on the foreground window&lt;else&gt;Wait for an image on the list to appear on the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToAppearOnScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to appear on the screen&lt;else&gt;Wait for an image on the list to appear on the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToAppearOnSubregionOfForegroundWindow_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to appear on a subregion of the foreground window&lt;else&gt;Wait for an image on the list to appear on a subregion of the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToAppearOnSubregionOfScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to appear on a subregion of the screen&lt;else&gt;Wait for an image on the list to appear on a subregion of the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToBecomeFocusedByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Wait for window instance &lt;WINDOWINSTANCE&gt; to become focused</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Wait_ToBecomeFocusedByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Wait for window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to become focused&lt;elseif(CLASS)&gt;
+Wait for window with class &lt;CLASS&gt; to become focused&lt;elseif(TITLE)&gt;
+Wait for window with title &lt;TITLE&gt; to become focused&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"} </comment>
+  </data>
+  <data name="Wait_ToBecomeFocused_Summary" xml:space="preserve">
+    <value>Wait for window &lt;WINDOW&gt; to become focused</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_ToCloseByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Wait for window instance &lt;WINDOWINSTANCE&gt; to close</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Wait_ToCloseByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Wait for window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to close&lt;elseif(CLASS)&gt;
+Wait for window with class &lt;CLASS&gt; to close&lt;elseif(TITLE)&gt;
+Wait for window with title &lt;TITLE&gt; to close&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToClose_Summary" xml:space="preserve">
+    <value>Wait for window &lt;WINDOW&gt; to close</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_ToDisappearFromForegroundWindow_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to disappear from the foreground window&lt;else&gt;Wait for an image on the list to disappear from the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToDisappearFromScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to disappear from the screen&lt;else&gt;Wait for an image on the list to disappear from the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToDisappearFromSubregionOfForegroundWindow_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to disappear from a subregion of the foreground window&lt;else&gt;Wait for an image on the list to disappear from a subregion of the foreground window&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToDisappearFromSubregionOfScreen_Summary" xml:space="preserve">
+    <value>&lt;if(FINDALLIMAGES)&gt;Wait for all images on the list to disappear from a subregion of the screen&lt;else&gt;Wait for an image on the list to disappear from a subregion of the screen&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FINDALLIMAGES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Wait_ToLoseFocusByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Wait for window instance &lt;WINDOWINSTANCE&gt; to lose focus</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Wait_ToLoseFocusByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Wait for window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to lose focus&lt;elseif(CLASS)&gt;
+Wait for window with class &lt;CLASS&gt; to lose focus&lt;elseif(TITLE)&gt;
+Wait for window with title &lt;TITLE&gt; to lose focus&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"} </comment>
+  </data>
+  <data name="Wait_ToLoseFocus_Summary" xml:space="preserve">
+    <value>Wait for window &lt;WINDOW&gt; to lose focus</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_ToOpenByInstanceOrHandle_Summary" xml:space="preserve">
+    <value>Wait for window instance &lt;WINDOWINSTANCE&gt; to open</value>
+    <comment>{Locked="&lt;WINDOWINSTANCE&gt;"}</comment>
+  </data>
+  <data name="Wait_ToOpenByTitleClass_Summary" xml:space="preserve">
+    <value>&lt;if(TITLE&amp;&amp;CLASS)&gt;Wait for window with title &lt;TITLE&gt; and class &lt;CLASS&gt; to open&lt;elseif(CLASS)&gt;
+Wait for window with class &lt;CLASS&gt; to open&lt;elseif(TITLE)&gt;
+Wait for window with title &lt;TITLE&gt; to open&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TITLE&gt;"}{Locked="&lt;CLASS&gt;"}{Locked="&lt;if(TITLE&amp;&amp;CLASS)&gt;"}{Locked="&lt;elseif(TITLE)&gt;"}{Locked="&lt;elseif(CLASS)&gt;"}{Locked="&lt;endif&gt;"} </comment>
+  </data>
+  <data name="Wait_ToOpen_Summary" xml:space="preserve">
+    <value>Wait for window &lt;WINDOW&gt; to open</value>
+    <comment>{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_WaitForImageAction_Description" xml:space="preserve">
+    <value>This action waits until a specific image appears on the screen or on the foreground window</value>
+  </data>
+  <data name="Wait_WaitForImageAction_FriendlyName" xml:space="preserve">
+    <value>Wait for image</value>
+  </data>
+  <data name="Wait_WaitForWindowAction_Description" xml:space="preserve">
+    <value>Suspends the execution or the process until a specific window opens, closes, get or loses the focus</value>
+  </data>
+  <data name="Wait_WaitForWindowAction_FriendlyName" xml:space="preserve">
+    <value>Wait for window</value>
+  </data>
+  <data name="Wait_WaitForWindowContentAction_Description" xml:space="preserve">
+    <value>Suspends the execution of the automation until a specific piece of text or UI element appears or disappears from a Window</value>
+  </data>
+  <data name="Wait_WaitForWindowContentAction_FriendlyName" xml:space="preserve">
+    <value>Wait for window content</value>
+  </data>
+  <data name="Wait_WindowToContainElementInState_Summary" xml:space="preserve">
+    <value>Wait for UI element &lt;ELEMENT&gt; to appear in window &lt;WINDOW&gt; in &lt;STATE&gt; state</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;WINDOW&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="Wait_WindowToContainElement_Summary" xml:space="preserve">
+    <value>Wait for UI element &lt;ELEMENT&gt; to appear in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_WindowToContainText_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; to appear in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_WindowToNotContainElement_Summary" xml:space="preserve">
+    <value>Wait for UI element &lt;ELEMENT&gt; to disappear in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="Wait_WindowToNotContainText_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; to disappear from window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="WindowContainsActionBase_CheckElementState_Description" xml:space="preserve">
+    <value>Check whether a specific UI element is enabled or disabled</value>
+  </data>
+  <data name="WindowContainsActionBase_CheckElementState_FriendlyName" xml:space="preserve">
+    <value>Check UI element state</value>
+  </data>
+  <data name="WindowContainsActionBase_Element_Description" xml:space="preserve">
+    <value>The UI element to check for</value>
+  </data>
+  <data name="WindowContainsActionBase_Element_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="WindowContainsActionBase_State_Description" xml:space="preserve">
+    <value>The UI element state to check for</value>
+  </data>
+  <data name="WindowContainsActionBase_State_FriendlyName" xml:space="preserve">
+    <value>State</value>
+  </data>
+  <data name="WindowContainsActionBase_Text_Description" xml:space="preserve">
+    <value>The text to check for</value>
+  </data>
+  <data name="WindowContainsActionBase_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="WindowContainsActionBase_Window_Description" xml:space="preserve">
+    <value>The window to check if the text exists on</value>
+  </data>
+  <data name="WindowContainsActionBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="WindowContainsElementInState_Description" xml:space="preserve">
+    <value>Checks whether a specific UI element exists in a window and is in a specific state</value>
+  </data>
+  <data name="WindowContainsElementInState_Summary" xml:space="preserve">
+    <value>UI element &lt;ELEMENT&gt; exists and is in &lt;STATE&gt; state</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="WindowContainsElement_Description" xml:space="preserve">
+    <value>Checks whether a specific UI element exists in a window</value>
+  </data>
+  <data name="WindowContainsElement_Summary" xml:space="preserve">
+    <value>UI element &lt;ELEMENT&gt; exists</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}</comment>
+  </data>
+  <data name="WindowContainsText_Description" xml:space="preserve">
+    <value>Checks whether a specific text exists in a window</value>
+  </data>
+  <data name="WindowContainsText_Summary" xml:space="preserve">
+    <value>Text &lt;TEXT&gt; exists in window &lt;WINDOW&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WINDOW&gt;"}</comment>
+  </data>
+  <data name="WindowDoesNotContainElement_Description" xml:space="preserve">
+    <value>Checks whether a specific UI element doesn't exist in a window</value>
+  </data>
+  <data name="WindowDoesNotContainText_Description" xml:space="preserve">
+    <value>Checks whether a specific text doesn't exist in a window</value>
+  </data>
+  <data name="WindowInstanceHandle_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="WindowInstanceHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>Window instances</value>
+  </data>
+  <data name="WindowInstanceHandle_ToString" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="WindowProperties_Bounds_FriendlyName" xml:space="preserve">
+    <value>Get window location and size</value>
+  </data>
+  <data name="WindowProperties_ProcessName_FriendlyName" xml:space="preserve">
+    <value>Get process name</value>
+  </data>
+  <data name="WindowProperties_Text_FriendlyName" xml:space="preserve">
+    <value>Get window text</value>
+  </data>
+  <data name="WindowProperties_Title_FriendlyName" xml:space="preserve">
+    <value>Get window title</value>
+  </data>
+  <data name="WindowState_Maximized_FriendlyName" xml:space="preserve">
+    <value>Maximized</value>
+  </data>
+  <data name="WindowState_Minimized_FriendlyName" xml:space="preserve">
+    <value>Minimized</value>
+  </data>
+  <data name="WindowState_Restored_FriendlyName" xml:space="preserve">
+    <value>Restored</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Description" xml:space="preserve">
+    <value>Closes a specific window</value>
+  </data>
+  <data name="Windows_CloseWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="Windows_CloseWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="Windows_CloseWindowBase_FriendlyName" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_CloseWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to close</value>
+  </data>
+  <data name="Windows_CloseWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="Windows_CloseWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Description" xml:space="preserve">
+    <value>Activates and brings to the foreground a specific window</value>
+  </data>
+  <data name="Windows_FocusWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="Windows_FocusWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="Windows_FocusWindowBase_FriendlyName" xml:space="preserve">
+    <value>Focus window</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_FocusWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to focus</value>
+  </data>
+  <data name="Windows_FocusWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="Windows_FocusWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Windows_GetWindowBase_BringWindowToFront_Description" xml:space="preserve">
+    <value>Specify whether to bring the window to the foreground automatically upon acquiring it</value>
+  </data>
+  <data name="Windows_GetWindowBase_BringWindowToFront_FriendlyName" xml:space="preserve">
+    <value>Bring window to front</value>
+  </data>
+  <data name="Windows_GetWindowBase_Control_Description" xml:space="preserve">
+    <value>The selector of the window to get</value>
+  </data>
+  <data name="Windows_GetWindowBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="Windows_GetWindowBase_Description" xml:space="preserve">
+    <value>Gets a running window, for automating desktop applications</value>
+  </data>
+  <data name="Windows_GetWindowBase_FriendlyName" xml:space="preserve">
+    <value>Get window</value>
+  </data>
+  <data name="Windows_GetWindowBase_GetWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look using a selector or the foreground window</value>
+  </data>
+  <data name="Windows_GetWindowBase_GetWindowMode_FriendlyName" xml:space="preserve">
+    <value>Get window</value>
+  </data>
+  <data name="Windows_GetWindowBase_Timeout_Description" xml:space="preserve">
+    <value>The timeout to wait in seconds</value>
+  </data>
+  <data name="Windows_GetWindowBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Windows_GetWindowBase_UseTimeout_Description" xml:space="preserve">
+    <value>Specify whether to wait indefinitely for the window to appear or to fail if the window doesn't show up within a set time period</value>
+  </data>
+  <data name="Windows_GetWindowBase_UseTimeout_FriendlyName" xml:space="preserve">
+    <value>Fail if window isn't found</value>
+  </data>
+  <data name="Windows_GetWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The specific window instance for use with later UI Automation actions</value>
+  </data>
+  <data name="Windows_GetWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_GetWindowBase_WindowTitle_Description" xml:space="preserve">
+    <value>The title of the foreground window</value>
+  </data>
+  <data name="Windows_GetWindowBase_WindowTitle_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Class_Description" xml:space="preserve">
+    <value>If you have two windows with the same title, Window Class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Description" xml:space="preserve">
+    <value>Sets the position of a specific window</value>
+  </data>
+  <data name="Windows_MoveWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the Window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="Windows_MoveWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="Windows_MoveWindowBase_FriendlyName" xml:space="preserve">
+    <value>Move window</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_MoveWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to move</value>
+  </data>
+  <data name="Windows_MoveWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Windows_MoveWindowBase_X_Description" xml:space="preserve">
+    <value>The X position of the window</value>
+  </data>
+  <data name="Windows_MoveWindowBase_X_FriendlyName" xml:space="preserve">
+    <value>Position X</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Y_Description" xml:space="preserve">
+    <value>The Y position of the window</value>
+  </data>
+  <data name="Windows_MoveWindowBase_Y_FriendlyName" xml:space="preserve">
+    <value>Position Y</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Description" xml:space="preserve">
+    <value>Sets the size of a specific window</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_FriendlyName" xml:space="preserve">
+    <value>Resize window</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Height_Description" xml:space="preserve">
+    <value>The new height, in pixels</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Height_FriendlyName" xml:space="preserve">
+    <value>Height</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Width_Description" xml:space="preserve">
+    <value>The new width, in pixels</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Width_FriendlyName" xml:space="preserve">
+    <value>Width</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to resize</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="Windows_ResizeWindowBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Description" xml:space="preserve">
+    <value>Restores, maximizes or minimizes a specific window</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_FriendlyName" xml:space="preserve">
+    <value>Set window state</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_State_Description" xml:space="preserve">
+    <value>Choose in which state to display the window</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_State_FriendlyName" xml:space="preserve">
+    <value>Window state</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to set the state of</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="Windows_SetWindowStateBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Class_Description" xml:space="preserve">
+    <value>If there are two windows with the same title, window class may help differentiate between them. In this case, enter the class of the window to use.</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Class_FriendlyName" xml:space="preserve">
+    <value>Window class</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Description" xml:space="preserve">
+    <value>Shows a hidden window or hides a visible window</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_FindWindowMode_Description" xml:space="preserve">
+    <value>Specify whether to look for the window using a UI element or a combination of window title/class</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_FindWindowMode_FriendlyName" xml:space="preserve">
+    <value>Find window mode</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_FriendlyName" xml:space="preserve">
+    <value>Set window visibility</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Title_Description" xml:space="preserve">
+    <value>The window title. Wildcards can be used, like '?' or '*'.</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Title_FriendlyName" xml:space="preserve">
+    <value>Window title</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Visibility_Description" xml:space="preserve">
+    <value>Choose in which state to set the window visibility to</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Visibility_FriendlyName" xml:space="preserve">
+    <value>Visibility</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_WindowInstance_Description" xml:space="preserve">
+    <value>The instance or handle of the window to set the visibility of</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_WindowInstance_FriendlyName" xml:space="preserve">
+    <value>Window instance</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Window_Description" xml:space="preserve">
+    <value>The window UI element</value>
+  </data>
+  <data name="Windows_SetWindowVisibilityBase_Window_FriendlyName" xml:space="preserve">
+    <value>Window</value>
+  </data>
+  <data name="WindowToContainElementInState_Description" xml:space="preserve">
+    <value>Checks whether a specific UI element exists in a window and is in a specific state</value>
+  </data>
+  <data name="WindowToContainElement_Description" xml:space="preserve">
+    <value>Checks whether a specific UI element exists in a window</value>
+  </data>
+  <data name="WindowToContainText_Description" xml:space="preserve">
+    <value>Checks whether a specific text exists in a window</value>
+  </data>
+  <data name="WindowToNotContainElement_Description" xml:space="preserve">
+    <value>Checks whether a specific UI element doesn't exist in a window</value>
+  </data>
+  <data name="WindowToNotContainText_Description" xml:space="preserve">
+    <value>Checks whether a specific text doesn't exist in a window</value>
+  </data>
+  <data name="CheckImageActionBase_SearchAlgorithm_Description" xml:space="preserve">
+    <value>Which image algoritm to use when searching for images</value>
+  </data>
+  <data name="CheckImageActionBase_SearchAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Image matching algorithm</value>
+  </data>
+  <data name="ImageFinderAlgorithm_Legacy_FriendlyName" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="ImageFinderAlgorithm_Template_FriendlyName" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="ClickDescription_MiddleClick_FriendlyName" xml:space="preserve">
+    <value>Middle Click</value>
+  </data>
+  <data name="ClickType_MiddleClick_FriendlyName" xml:space="preserve">
+    <value>Middle click</value>
+  </data>
+  <data name="PopulateMouseClickType_DoubleClick_FriendlyName" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="PopulateMouseClickType_None_FriendlyName" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="PopulateMouseClickType_SingleClick_FriendlyName" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="PopulateTextField_Mode_Description" xml:space="preserve">
+    <value>Specify whether to replace the existing content, or to append.</value>
+  </data>
+  <data name="PopulateTextField_Mode_FriendlyName" xml:space="preserve">
+    <value>If field isn't empty</value>
+  </data>
+  <data name="PopulateTextField_ClickType_Description" xml:space="preserve">
+    <value>Specify whether a left mouse click is performed before populating the text field or not.</value>
+  </data>
+  <data name="PopulateTextField_ClickType_FriendlyName" xml:space="preserve">
+    <value>Click before populating</value>
+  </data>
+  <data name="PopulateTextMode_Append_FriendlyName" xml:space="preserve">
+    <value>Append text</value>
+  </data>
+  <data name="PopulateTextMode_Replace_FriendlyName" xml:space="preserve">
+    <value>Replace text</value>
+  </data>
+  <data name="ErrorMessage_RetractElementWithSelectorNotFound" xml:space="preserve">
+    <value>Failed to find element with selector {}</value>
+  </data>
+  <data name="ErrorMessage_TakeScreenshotOfUIElementError" xml:space="preserve">
+    <value>Failed to take screenshot of UI element</value>
+  </data>
+  <data name="Error_SaveImageError_Description" xml:space="preserve">
+    <value>Indicates that the specified image can't be saved into a file</value>
+  </data>
+  <data name="Error_SaveImageError_FriendlyName" xml:space="preserve">
+    <value>Failed to save image</value>
+  </data>
+  <data name="Error_TakeScreenshotError_Description" xml:space="preserve">
+    <value>Indicates a problem while capturing a screenshot of an element</value>
+  </data>
+  <data name="Error_TakeScreenshotError_FriendlyName" xml:space="preserve">
+    <value>Failed to take screenshot of UI element</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_Description" xml:space="preserve">
+    <value>Takes a screenshot of a UI element in window</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_FriendlyName" xml:space="preserve">
+    <value>Take screenshot of UI element</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_Control_Description" xml:space="preserve">
+    <value>The UI element in the window to capture as screenshot</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_ImageFilePath_Description" xml:space="preserve">
+    <value>Set the full path for the file to be saved</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_ImageFilePath_FriendlyName" xml:space="preserve">
+    <value>Image file path</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_SaveMode_Description" xml:space="preserve">
+    <value>Specify whether to save the image into a file or store it into the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_SaveMode_FriendlyName" xml:space="preserve">
+    <value>Save mode</value>
+  </data>
+  <data name="TakeScreenshotOfUIElementAndSaveToFile_Description" xml:space="preserve">
+    <value>Takes a screenshot of a UI element</value>
+  </data>
+  <data name="TakeScreenshotOfUIElementAndSaveToFile_FriendlyName" xml:space="preserve">
+    <value>Takes a screenshot of a UI element in window and save to file</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_ImageFile_Description" xml:space="preserve">
+    <value>The file path of the generated screenshot image file</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_ImageFormat_Description" xml:space="preserve">
+    <value>The file format of the image file</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_ImageFormat_FriendlyName" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="ImageFormat_Bmp_FriendlyName" xml:space="preserve">
+    <value>BMP</value>
+  </data>
+  <data name="ImageFormat_Emf_FriendlyName" xml:space="preserve">
+    <value>EMF</value>
+  </data>
+  <data name="ImageFormat_Exif_FriendlyName" xml:space="preserve">
+    <value>EXIF</value>
+  </data>
+  <data name="ImageFormat_Gif_FriendlyName" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="ImageFormat_Jpeg_FriendlyName" xml:space="preserve">
+    <value>JPG</value>
+  </data>
+  <data name="ImageFormat_Png_FriendlyName" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ImageFormat_Tiff_FriendlyName" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="ImageFormat_Wmf_FriendlyName" xml:space="preserve">
+    <value>WMF</value>
+  </data>
+  <data name="TakeScreenshotOfUIElementAndSaveToFile_Summary" xml:space="preserve">
+    <value>Take a screenshot of a UI element and save it to a file</value>
+  </data>
+  <data name="TakeScreenshotOfUIElement_Summary" xml:space="preserve">
+    <value>Take a screenshot of a UI element and save it to the clipboard</value>
+  </data>
+  <data name="Error_UIElementNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified element wasn't found</value>
+  </data>
+  <data name="Error_UIElementNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve UI element</value>
+  </data>
+  <data name="SaveMode_Clipboard_FriendlyName" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="SaveMode_File_FriendlyName" xml:space="preserve">
+    <value>File</value>
+  </data>
+</root>

@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\flow.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.Diagnostic.Errors.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's a problem that needs to be fixed to trigger this flow. To see more details, open {Flow checker}.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's a problem that needs to be fixed to trigger this flow. To see more details, open {Flow checker}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {Flow checker}  - will make the interpolated "Flow checker" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Diagnostic.Errors.Multiple.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There are {0} problems that need to be fixed to trigger this flow. To see more details, open {Flow checker}.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There are {0} problems that need to be fixed to trigger this flow. To see more details, open {Flow checker}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {Flow checker}  - will make the interpolated "Flow checker" bold]A;{0}: is a number for the problems]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Diagnostic.LogoHeaderIconDescription" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Diagnostic Logo Header Icon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Diagnostic Logo Header Icon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Diagnostic.PaneDetailsHeader" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Diagnostic.PaneFixHeader" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[How to fix it]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[How to fix it]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Diagnostic.Warning.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's a potential problem with this flow. To see more details, open {Flow checker}.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's a potential problem with this flow. To see more details, open {Flow checker}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {Flow checker}  - will make the interpolated "Flow checker" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Diagnostic.Warning.Multiple.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There are {0} potential problems with this flow. To see more details, open {Flow checker}.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There are {0} potential problems with this flow. To see more details, open {Flow checker}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {Flow checker}  - will make the interpolated "Flow checker" bold]A;{0}: is a number for the problems]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.EnvironmentDisabled.FlowSuspensionBanner" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow is suspended because the environment has been disabled. Please contact your admin to enable this environment and avoid deletion.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow is suspended because the environment has been disabled. Please contact your admin to enable this environment and avoid deletion.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.ConnectionAuthorizationWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You do not have access to this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You do not have access to this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.Activate.ViolatesGooglePolicy" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow could not be enabled because it contains connectors to applications which are not compatible with the Gmail connector used in this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow could not be enabled because it contains connectors to applications which are not compatible with the Gmail connector used in this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.CannotStartFlow.FlowMissingConnection" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to start flow due to missing connections. Authenticate the flow connections and re-save before starting.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to start flow due to missing connections. Authenticate the flow connections and re-save before starting.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.CannotStartFlow.InsufficientCdsPrivileges" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to start flow due to insufficient privileges. Required privilege: 'WriteAccess'.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to start flow due to insufficient privileges. Required privilege: 'WriteAccess'.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA["WriteAccess" shouldn't be localized.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Error.CannotStartFlow.XrmConnectionReferenceMissingConnection" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to start flow due to connection references missing connections. Set the connections on the connection references before starting.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to start flow due to connection references missing connections. Set the connections on the connection references before starting.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.CannotStopFlow.InsufficientCdsPrivileges" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to stop flow due to insufficient privileges. Required privilege: 'WriteAccess'.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to stop flow due to insufficient privileges. Required privilege: 'WriteAccess'.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA["WriteAccess" shouldn't be localized.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Error.DLPViolation.PolicyAdminContactFixInstruction" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contact your admin: {0}.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contact your admin: {0}.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.DLPViolation.PolicyWikiUrlFixInstruction" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Click {0} if you wish to know more about your company's DLP policies.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Click {0} if you wish to know more about your company's DLP policies.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.GoogleViolation.LearnMore" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.HereLinkText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[here]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[here]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.Or.PlaceHolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Or]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Or]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.FlowDeletedWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow has been deleted.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow has been deleted.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.FlowDisplayNameLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.FlowNoPermissionWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have permission to view this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You don't have permission to view this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.LimitedAccessWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have limited permissions to this flow. Some features may not work with your current access. Please contact the flow owner for additional permissions.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You have limited permissions to this flow. Some features may not work with your current access. Please contact the flow owner for additional permissions.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Warning.Saved.ViolatesGooglePolicy" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow was saved, but could not be enabled because it contains connectors to applications which are not compatible with the Gmail connector used in this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow was saved, but could not be enabled because it contains connectors to applications which are not compatible with the Gmail connector used in this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowChecker.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow checker]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow checker]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowProperties.FixConnections" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please fix connections.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please fix connections.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertiesPage.DLPViolation.FlowSuspensionBanner" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow is suspended because of a data loss prevention policy violation.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow is suspended because of a data loss prevention policy violation.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertiesPage.FlowTriggerSurface.PrimaryButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Got it]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Got it]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertiesPage.Trigger.Message.Default.TriggerHint" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It's turned on and will run when it's triggered.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[It's turned on and will run when it's triggered.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertiesPage.Trigger.Message.SubText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[It's turned on and will trigger when you {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[It's turned on and will trigger when you {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the instruction on how to trigger the flow that the customer created.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertiesPage.Trigger.Message.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow is ready to go]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow is ready to go]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.MissingPremiumLicense.ErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow is turned off because the owner doesn't have a premium license. Use the {flow checker} to get it running again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow is turned off because the owner doesn't have a premium license. Use the {flow checker} to get it running again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {flow checker}  - will make the interpolated "flow checker" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.MissingPremiumLicense.SuspensionTimeInThePast.WarningMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow will be turned off at anytime because the owner doesn't have a premium license. Use the {flow checker} to keep it up and running.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow will be turned off at anytime because the owner doesn't have a premium license. Use the {flow checker} to keep it up and running.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {flow checker}  - will make the interpolated "flow checker" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.MissingPremiumLicense.WarningMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow will be turned off in {0} days because the owner doesn't have a premium license. Use the {flow checker} to keep it up and running.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow will be turned off in {0} days because the owner doesn't have a premium license. Use the {flow checker} to keep it up and running.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0}: number of days the flow will be turned off. {NoLocRule} {flow checker}  - will make the interpolated "flow checker" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.RpaScriptApplicationsTile.TitleApp" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Applications]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Applications]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.RpaScriptApplicationsTile.TitleWeb" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Website]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Website]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.RpaScriptApplicationsTile.ZeroApplication" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There aren't any applications for this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There aren't any applications for this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.SlowperformanceBanner.CompletedContent.ErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow was turned off on {0} ({1}) because it was consuming more data than expected.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow was turned off on {0} ({1}) because it was consuming more data than expected.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0}: Throttling start time, {1}: x days ago]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.SlowperformanceBanner.CompletedContent.WarningMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow's performance may be slow because it's been consuming more data than expected since {0} ({1}).]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow's performance may be slow because it's been consuming more data than expected since {0} ({1}).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0}: Throttling start time, {1}: x days ago]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.SlowperformanceBanner.ErrorMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow was turned off on {0} ({1}) because it was running more actions than expected.{2}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow was turned off on {0} ({1}) because it was running more actions than expected.{2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0}: Throttling start time, {1}: x days ago, {2}: hyperlink for the PowerAutomateRateLimits page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.SlowperformanceBanner.Fallback" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow's performance may be slow because it's been using more actions or data than expected.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow's performance may be slow because it's been using more actions or data than expected.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.SlowperformanceBanner.WarningMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow's performance may be slow because it's been running more actions than expected since {0} ({1}). Your flow will be turned off if it doesn't use fewer actions.{2}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow's performance may be slow because it's been running more actions than expected since {0} ({1}). Your flow will be turned off if it doesn't use fewer actions.{2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0}: Throttling start time, {1}: x days ago, {2}: hyperlink for the PowerAutomateRateLimits page.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowRuns.RunsFilter.SuspendedFlows" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Suspended]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Suspended]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Show suspended flow runs.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowsRuns.PowerAutomateRateLimits.Link" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://aka.ms/power-automate-rate-limits]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://aka.ms/power-automate-rate-limits]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{Locked}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Header.Flows" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.Icon" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Icon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Icon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.Status" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Status]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Status]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Flows.Messages.FlowOffWithActiveParents" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow is turned off. There are active parent flows referencing this flow that could fail.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow is turned off. There are active parent flows referencing this flow that could fail.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Flows.Messages.FlowOffWithTroubleGettingParents" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow is turned off. If there are active parent flows referencing this flow they could fail.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow is turned off. If there are active parent flows referencing this flow they could fail.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Flows.Tabs.RPAScriptsGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Flows.Tabs.RPAScriptsPreview" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flows (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Test.Dialog.CheckBox" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Don't show me this again]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Don't show me this again]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.SlowPerformance.Ended.WarningMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow's performance was slow between {0} and {1}.  It is currently performing normally.  Please verify that your flow is optimized and is not using more actions or data than necessary.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow's performance was slow between {0} and {1}.  It is currently performing normally.  Please verify that your flow is optimized and is not using more actions or data than necessary.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} start date {1} end date]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.TriggerDialog.FlowCreatedAlt" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow is created]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow is created]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.XrmFlow.LimitedAccessWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have limited permissions to this flow. Some features may not work with your current access.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You have limited permissions to this flow. Some features may not work with your current access.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.XrmFlow.NoAccessWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have permissions to this solution flow. Contact the flow owner or an admin to get access.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You don't have permissions to this solution flow. Contact the flow owner or an admin to get access.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.XrmFlow.NoDataverseRoleAssignedError.CloudFlow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are currently not assigned any role. You can run the flow, but in order to edit the flow please ask your admin to assign you the Environment Maker role.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You are currently not assigned any role. You can run the flow, but in order to edit the flow please ask your admin to assign you the Environment Maker role.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

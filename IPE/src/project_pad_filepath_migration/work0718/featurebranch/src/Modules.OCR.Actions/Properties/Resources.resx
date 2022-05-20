@@ -1,0 +1,1207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CreateCustomTesseractEngine_Description" xml:space="preserve">
+    <value>Create a custom Tesseract OCR engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateCustomTesseractEngine_Summary" xml:space="preserve">
+    <value>Create a custom Tesseract OCR engine and assign it to &lt;TESSERACTENGINE&gt;</value>
+    <comment>{Locked="&lt;TESSERACTENGINE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateMODIEngine_Description" xml:space="preserve">
+    <value>Create a MODI OCR engine</value>
+    <comment>{Locked="MODI"}</comment>
+  </data>
+  <data name="CreateMODIEngine_FriendlyName" xml:space="preserve">
+    <value>Create MODI OCR engine</value>
+    <comment>{Locked="MODI"}</comment>
+  </data>
+  <data name="CreateMODIEngine_ImageHeightMultiplier_Description" xml:space="preserve">
+    <value>The height multiplier of the image</value>
+  </data>
+  <data name="CreateMODIEngine_ImageHeightMultiplier_FriendlyName" xml:space="preserve">
+    <value>Image height multiplier</value>
+  </data>
+  <data name="CreateMODIEngine_ImageWidthMultiplier_Description" xml:space="preserve">
+    <value>The width multiplier of the image</value>
+  </data>
+  <data name="CreateMODIEngine_ImageWidthMultiplier_FriendlyName" xml:space="preserve">
+    <value>Image width multiplier</value>
+  </data>
+  <data name="CreateMODIEngine_Language_Description" xml:space="preserve">
+    <value>The language of the text that the MODI engine detects</value>
+    <comment>{Locked="MODI"}</comment>
+  </data>
+  <data name="CreateMODIEngine_Language_FriendlyName" xml:space="preserve">
+    <value>MODI language</value>
+    <comment>{Locked="MODI"}</comment>
+  </data>
+  <data name="CreateMODIEngine_MODIEngine_Description" xml:space="preserve">
+    <value>The OCR engine to use with following OCR actions</value>
+  </data>
+  <data name="CreateMODIEngine_MODIEngine_FriendlyName" xml:space="preserve">
+    <value>OCR engine</value>
+  </data>
+  <data name="CreateMODIEngine_Summary" xml:space="preserve">
+    <value>Create a MODI OCR engine and assign it to &lt;MODIENGINE&gt;</value>
+    <comment>{Locked="&lt;MODIENGINE&gt;"}{Locked="MODI"}</comment>
+  </data>
+  <data name="CreateTesseractEngine_Description" xml:space="preserve">
+    <value>Create a Tesseract OCR engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractEngine_Summary" xml:space="preserve">
+    <value>Create a Tesseract OCR engine and assign it to &lt;TESSERACTENGINE&gt;</value>
+    <comment>{Locked="&lt;TESSERACTENGINE&gt;"}{Locked="tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_Description" xml:space="preserve">
+    <value>Create a Tesseract OCR engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_FriendlyName" xml:space="preserve">
+    <value>Create Tesseract OCR engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_ImageHeightMultiplier_Description" xml:space="preserve">
+    <value>The height multiplier of the image</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_ImageHeightMultiplier_FriendlyName" xml:space="preserve">
+    <value>Image height multiplier</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_ImageWidthMultiplier_Description" xml:space="preserve">
+    <value>The width multiplier of the image</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_ImageWidthMultiplier_FriendlyName" xml:space="preserve">
+    <value>Image width multiplier</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_Language_Description" xml:space="preserve">
+    <value>The language of the text that the Tesseract engine detects</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_Language_FriendlyName" xml:space="preserve">
+    <value>Tesseract language</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_LanguageAbbreviation_Description" xml:space="preserve">
+    <value>The Tesseract abbreviation of the language to use. For example, if the data is 'eng.traineddata', enter 'eng' in the field</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_LanguageAbbreviation_FriendlyName" xml:space="preserve">
+    <value>Language abbreviation</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_LanguageDataPath_Description" xml:space="preserve">
+    <value>The path of the folder that holds the specified language's Tesseract data</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_LanguageDataPath_FriendlyName" xml:space="preserve">
+    <value>Language data path </value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_TesseractEngine_Description" xml:space="preserve">
+    <value>The OCR engine to use with following OCR actions</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_TesseractEngine_FriendlyName" xml:space="preserve">
+    <value>OCR engine</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_UseOtherLanguage_Description" xml:space="preserve">
+    <value>Specifies whether to use a language not given in the 'Tesseract language' field</value>
+  </data>
+  <data name="CreateTesseractOCREngineBase_UseOtherLanguage_FriendlyName" xml:space="preserve">
+    <value>Use other language</value>
+  </data>
+  <data name="Error_CannotCheckIfTextExistsInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates that it isn't possible to check for the text on the screen when in non-interactive mode</value>
+  </data>
+  <data name="Error_ExtractTextWithOCRError_Description" xml:space="preserve">
+    <value>Indicates an error occurred while trying to extract text with OCR from the given source</value>
+  </data>
+  <data name="Error_ExtractTextWithOCRError_FriendlyName" xml:space="preserve">
+    <value>Failed to extract text with OCR</value>
+  </data>
+  <data name="Error_FailedToAnalyzeTextWithOCRError_Description" xml:space="preserve">
+    <value>Indicates an error occurred while trying to analyze the text using OCR</value>
+  </data>
+  <data name="Error_FailedToAnalyzeTextWithOCRError_FriendlyName" xml:space="preserve">
+    <value>Failed to analyze text with OCR</value>
+  </data>
+  <data name="Error_GetTextFromScreenInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates that it isn't possible to get text from screen when in non-interactive mode</value>
+  </data>
+  <data name="Error_GetTextFromScreenInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't get text from screen in non-interactive mode</value>
+  </data>
+  <data name="Error_ImageFileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the file doesn't exist on the given path</value>
+  </data>
+  <data name="Error_ImageFileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Image file not found</value>
+  </data>
+  <data name="Error_InvalidSubregionCoordinatesError_Description" xml:space="preserve">
+    <value>Indicates that the specified subregion coordinates are invalid</value>
+  </data>
+  <data name="Error_InvalidSubregionCoordinatesError_FriendlyName" xml:space="preserve">
+    <value>Invalid subregion coordinates</value>
+  </data>
+  <data name="Error_LandmarkImageNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the landmark image doesn't exist</value>
+  </data>
+  <data name="Error_LandmarkImageNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Landmark image not found </value>
+  </data>
+  <data name="Error_OCREngineNotAliveError_Description" xml:space="preserve">
+    <value>Indicates that the OCR engine isn't alive</value>
+  </data>
+  <data name="Error_OCREngineNotAliveError_FriendlyName" xml:space="preserve">
+    <value>OCR engine not alive</value>
+  </data>
+  <data name="ExtractTextFromFile_Description" xml:space="preserve">
+    <value>Extract text from a file</value>
+  </data>
+  <data name="ExtractTextFromFile_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromFileRelativeToImage_Description" xml:space="preserve">
+    <value>Extract text from a file relative to a specified image</value>
+  </data>
+  <data name="ExtractTextFromFileRelativeToImage_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromForegroundWindow_Description" xml:space="preserve">
+    <value>Extract text from the foreground window</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindow_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromForegroundWindowRelativeToImage_Description" xml:space="preserve">
+    <value>Extract text from the foreground window relative to a specified image</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindowRelativeToImage_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfFile_Description" xml:space="preserve">
+    <value>Extract text from a region of a file</value>
+  </data>
+  <data name="ExtractTextFromRegionOfFile_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfForegroundWindow_Description" xml:space="preserve">
+    <value>Extract text from a region of the foreground window</value>
+  </data>
+  <data name="ExtractTextFromRegionOfForegroundWindow_Summary" xml:space="preserve">
+    <value>Get text from a region of the &lt;OCRSOURCE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfScreen_Description" xml:space="preserve">
+    <value>Extract text from a region of the screen</value>
+  </data>
+  <data name="ExtractTextFromRegionOfScreen_Summary" xml:space="preserve">
+    <value>Get text from a region of the &lt;OCRSOURCE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromScreen_Description" xml:space="preserve">
+    <value>Extract text from the whole screen</value>
+  </data>
+  <data name="ExtractTextFromScreen_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenRelativeToImage_Description" xml:space="preserve">
+    <value>Extract text from the screen relative to a specified image</value>
+  </data>
+  <data name="ExtractTextFromScreenRelativeToImage_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="ExtractTextWithOCR_Description" xml:space="preserve">
+    <value>Extract text from a given source using the specified OCR engine</value>
+  </data>
+  <data name="ExtractTextWithOCR_FriendlyName" xml:space="preserve">
+    <value>Extract text with OCR</value>
+  </data>
+  <data name="ExtractTextWithOCR_ImageFile_Description" xml:space="preserve">
+    <value>The path of the image to extract text from</value>
+  </data>
+  <data name="ExtractTextWithOCR_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file path</value>
+  </data>
+  <data name="ExtractTextWithOCR_Images_Description" xml:space="preserve">
+    <value>The image to use for narrowing down the scan to a subregion relative to a specified image</value>
+  </data>
+  <data name="ExtractTextWithOCR_Images_FriendlyName" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="ExtractTextWithOCR_OcrEngine_Description" xml:space="preserve">
+    <value>The engine to use for the OCR operation</value>
+  </data>
+  <data name="ExtractTextWithOCR_OcrEngine_FriendlyName" xml:space="preserve">
+    <value>OCR engine</value>
+  </data>
+  <data name="ExtractTextWithOCR_OcrSource_Description" xml:space="preserve">
+    <value>The source of the image to perform the OCR operation on</value>
+  </data>
+  <data name="ExtractTextWithOCR_OcrSource_FriendlyName" xml:space="preserve">
+    <value>OCR source</value>
+  </data>
+  <data name="ExtractTextWithOCR_OcrText_Description" xml:space="preserve">
+    <value>The result of the text extraction</value>
+  </data>
+  <data name="ExtractTextWithOCR_OcrText_FriendlyName" xml:space="preserve">
+    <value>OCR text</value>
+  </data>
+  <data name="ExtractTextWithOCR_SearchMode_Description" xml:space="preserve">
+    <value>The selected mode for the OCR operation</value>
+  </data>
+  <data name="ExtractTextWithOCR_SearchMode_FriendlyName" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="ExtractTextWithOCR_Timeout_Description" xml:space="preserve">
+    <value>Specifies the time to wait for the operation to complete before the action fails</value>
+  </data>
+  <data name="ExtractTextWithOCR_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="ExtractTextWithOCR_Tolerance_Description" xml:space="preserve">
+    <value>Specifies how much the image can differ from the originally chosen image</value>
+  </data>
+  <data name="ExtractTextWithOCR_Tolerance_FriendlyName" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="ExtractTextWithOCR_WaitForImage_Description" xml:space="preserve">
+    <value>Specifies whether to wait or not for the image to appear on the screen or foreground window</value>
+  </data>
+  <data name="ExtractTextWithOCR_WaitForImage_FriendlyName" xml:space="preserve">
+    <value>Wait for image to appear</value>
+  </data>
+  <data name="ExtractTextWithOCR_X1_Description" xml:space="preserve">
+    <value>The start X coordinate of the subregion to narrow down the scan</value>
+  </data>
+  <data name="ExtractTextWithOCR_X1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="ExtractTextWithOCR_X2_Description" xml:space="preserve">
+    <value>The end X coordinate of the subregion to narrow down the scan</value>
+  </data>
+  <data name="ExtractTextWithOCR_X2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="ExtractTextWithOCR_Y1_Description" xml:space="preserve">
+    <value>The start Y coordinate of the subregion to narrow down the scan</value>
+  </data>
+  <data name="ExtractTextWithOCR_Y1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="ExtractTextWithOCR_Y2_Description" xml:space="preserve">
+    <value>The end Y coordinate of the subregion to narrow down the scan</value>
+  </data>
+  <data name="ExtractTextWithOCR_Y2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="IfTextOnScreen_DoesNotExist_FriendlyName" xml:space="preserve">
+    <value>Doesn't exist</value>
+  </data>
+  <data name="IfTextOnScreen_Exists_FriendlyName" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="IfTextOnScreenAction_CheckMode_Description" xml:space="preserve">
+    <value>Specifies whether to check if the text exists or not on the given source to analyze</value>
+  </data>
+  <data name="IfTextOnScreenAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>If text</value>
+  </data>
+  <data name="MODILanguage_ChineseSimplified_FriendlyName" xml:space="preserve">
+    <value>Chinese simplified</value>
+  </data>
+  <data name="MODILanguage_ChineseTraditional_FriendlyName" xml:space="preserve">
+    <value>Chinese traditional</value>
+  </data>
+  <data name="MODILanguage_Czech_FriendlyName" xml:space="preserve">
+    <value>Czech</value>
+  </data>
+  <data name="MODILanguage_Danish_FriendlyName" xml:space="preserve">
+    <value>Danish</value>
+  </data>
+  <data name="MODILanguage_Dutch_FriendlyName" xml:space="preserve">
+    <value>Dutch</value>
+  </data>
+  <data name="MODILanguage_English_FriendlyName" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="MODILanguage_Finnish_FriendlyName" xml:space="preserve">
+    <value>Finnish</value>
+  </data>
+  <data name="MODILanguage_French_FriendlyName" xml:space="preserve">
+    <value>French</value>
+  </data>
+  <data name="MODILanguage_German_FriendlyName" xml:space="preserve">
+    <value>German</value>
+  </data>
+  <data name="MODILanguage_Greek_FriendlyName" xml:space="preserve">
+    <value>Greek</value>
+  </data>
+  <data name="MODILanguage_Hungarian_FriendlyName" xml:space="preserve">
+    <value>Hungarian</value>
+  </data>
+  <data name="MODILanguage_Italian_FriendlyName" xml:space="preserve">
+    <value>Italian</value>
+  </data>
+  <data name="MODILanguage_Japanese_FriendlyName" xml:space="preserve">
+    <value>Japanese</value>
+  </data>
+  <data name="MODILanguage_Korean_FriendlyName" xml:space="preserve">
+    <value>Korean</value>
+  </data>
+  <data name="MODILanguage_Norwegian_FriendlyName" xml:space="preserve">
+    <value>Norwegian</value>
+  </data>
+  <data name="MODILanguage_Polish_FriendlyName" xml:space="preserve">
+    <value>Polish</value>
+  </data>
+  <data name="MODILanguage_Portuguese_FriendlyName" xml:space="preserve">
+    <value>Portuguese</value>
+  </data>
+  <data name="MODILanguage_Russian_FriendlyName" xml:space="preserve">
+    <value>Russian</value>
+  </data>
+  <data name="MODILanguage_Spanish_FriendlyName" xml:space="preserve">
+    <value>Spanish</value>
+  </data>
+  <data name="MODILanguage_Swedish_FriendlyName" xml:space="preserve">
+    <value>Swedish</value>
+  </data>
+  <data name="MODILanguage_Turkish_FriendlyName" xml:space="preserve">
+    <value>Turkish</value>
+  </data>
+  <data name="OCR_Description" xml:space="preserve">
+    <value>Initiate OCR engines to perform OCR related activities</value>
+  </data>
+  <data name="OCR_FriendlyName" xml:space="preserve">
+    <value>OCR</value>
+  </data>
+  <data name="OCRSource_File_FriendlyName" xml:space="preserve">
+    <value>Image on disk</value>
+  </data>
+  <data name="OCRSource_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window</value>
+  </data>
+  <data name="OCRSource_Screen_FriendlyName" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="SearchTarget_EntireScreen_FriendlyName" xml:space="preserve">
+    <value>Entire screen</value>
+  </data>
+  <data name="SearchTarget_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window</value>
+  </data>
+  <data name="SourceScanMode_RegionRelativeToImage_FriendlyName" xml:space="preserve">
+    <value>Subregion relative to image</value>
+  </data>
+  <data name="SourceScanMode_SpecificSubregion_FriendlyName" xml:space="preserve">
+    <value>Specific subregion only</value>
+  </data>
+  <data name="SourceScanMode_Whole_FriendlyName" xml:space="preserve">
+    <value>Whole of specified source</value>
+  </data>
+  <data name="TextOnScreenDoesNotExist_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on the screen or the foreground window</value>
+  </data>
+  <data name="TextOnScreenExists_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on the screen or the foreground window</value>
+  </data>
+  <data name="TextOnScreenToAppear_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on the screen or the foreground window</value>
+  </data>
+  <data name="TextOnScreenToDisappear_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionOfScreenDoesNotExist_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on a subregion of the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionOfScreenExists_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on a subregion of the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionOfScreenToAppear_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on a subregion of the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionOfScreenToDisappear_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from a subregion of the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenDoesNotExist_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on a subregion relative to an image on the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenExists_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on a subregion relative to an image on the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenToAppear_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on a subregion relative to an image on the screen or the foreground window</value>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenToDisappear_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from a subregion relative to an image on the screen or the foreground window</value>
+  </data>
+  <data name="WaitForTextOnScreen_Appear_FriendlyName" xml:space="preserve">
+    <value>Appear</value>
+  </data>
+  <data name="WaitForTextOnScreen_Disappear_FriendlyName" xml:space="preserve">
+    <value>Disappear</value>
+  </data>
+  <data name="WaitTextOnScreenAction_WaitFor_Description" xml:space="preserve">
+    <value>Specifies whether to wait for the text to appear or disappear</value>
+  </data>
+  <data name="WaitTextOnScreenAction_WaitFor_FriendlyName" xml:space="preserve">
+    <value>Wait for text to</value>
+  </data>
+  <data name="Conditionals_IfTextOnScreenAction_Description" xml:space="preserve">
+    <value>Marks the beginning of a conditional block of actions depending on whether the text specified appears on the screen or not using OCR</value>
+  </data>
+  <data name="Conditionals_IfTextOnScreenAction_FriendlyName" xml:space="preserve">
+    <value>If text on screen (OCR)</value>
+  </data>
+  <data name="Conditionals_TextOnScreenDoesNotExist_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnScreenExists_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionOfScreenDoesNotExist_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on subregion of &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionOfScreenExists_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on subregion of &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionRelativeToImageOnScreenDoesNotExist_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on &lt;SEARCHFORTEXTON&gt; relative to image</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionRelativeToImageOnScreenExists_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on &lt;SEARCHFORTEXTON&gt; relative to image</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenActionBase_Images_Description" xml:space="preserve">
+    <value>The image(s) specifying the subregion (relative to the top left corner of the image) to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_Images_FriendlyName" xml:space="preserve">
+    <value>Image</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageX1_Description" xml:space="preserve">
+    <value>The start X coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageX1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageX2_Description" xml:space="preserve">
+    <value>The end X coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageX2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageY1_Description" xml:space="preserve">
+    <value>The start Y coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageY1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageY2_Description" xml:space="preserve">
+    <value>The end Y coordinate of the subregion relative to the specified image to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_ImageY2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="TextOnScreenActionBase_IsRegex_Description" xml:space="preserve">
+    <value>Specifies whether to use a regular expression to find the text specified</value>
+  </data>
+  <data name="TextOnScreenActionBase_IsRegex_FriendlyName" xml:space="preserve">
+    <value>Is regular expression</value>
+  </data>
+  <data name="TextOnScreenActionBase_SearchForTextOn_Description" xml:space="preserve">
+    <value>Whether to search for the specified text on the entire visible screen or just the foreground window</value>
+  </data>
+  <data name="TextOnScreenActionBase_SearchForTextOn_FriendlyName" xml:space="preserve">
+    <value>Search for text on</value>
+  </data>
+  <data name="TextOnScreenActionBase_SearchMode_Description" xml:space="preserve">
+    <value>Specifies whether to scan the entire screen, a narrowed down subregion of it, or a specified window</value>
+  </data>
+  <data name="TextOnScreenActionBase_SearchMode_FriendlyName" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="TextOnScreenActionBase_TextLocationX_Description" xml:space="preserve">
+    <value>The X coordinate of the point where the text appears on the screen. If the search is performed in the foreground window, the returned coordinate is relative to the top left corner of the window</value>
+  </data>
+  <data name="TextOnScreenActionBase_TextLocationX_FriendlyName" xml:space="preserve">
+    <value>X location of found text</value>
+  </data>
+  <data name="TextOnScreenActionBase_TextLocationY_Description" xml:space="preserve">
+    <value>The X coordinate of the point where the text appears on the screen. If the search is performed in the foreground window, the coordinate returned is relative to the top left corner of the window</value>
+  </data>
+  <data name="TextOnScreenActionBase_TextLocationY_FriendlyName" xml:space="preserve">
+    <value>Y location of found text</value>
+  </data>
+  <data name="TextOnScreenActionBase_TextToFind_Description" xml:space="preserve">
+    <value>The text to search for in the specified source</value>
+  </data>
+  <data name="TextOnScreenActionBase_TextToFind_FriendlyName" xml:space="preserve">
+    <value>Text to find</value>
+  </data>
+  <data name="TextOnScreenActionBase_Tolerance_Description" xml:space="preserve">
+    <value>Specifies how much the image(s) searched for can differ from the originally chosen image</value>
+  </data>
+  <data name="TextOnScreenActionBase_Tolerance_FriendlyName" xml:space="preserve">
+    <value>Tolerance</value>
+  </data>
+  <data name="TextOnScreenActionBase_X1_Description" xml:space="preserve">
+    <value>The start X coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_X1_FriendlyName" xml:space="preserve">
+    <value>X1</value>
+  </data>
+  <data name="TextOnScreenActionBase_X2_Description" xml:space="preserve">
+    <value>The end X coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_X2_FriendlyName" xml:space="preserve">
+    <value>X2</value>
+  </data>
+  <data name="TextOnScreenActionBase_Y1_Description" xml:space="preserve">
+    <value>The start Y coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_Y1_FriendlyName" xml:space="preserve">
+    <value>Y1</value>
+  </data>
+  <data name="TextOnScreenActionBase_Y2_Description" xml:space="preserve">
+    <value>The end Y coordinate of the subregion to scan for the supplied text</value>
+  </data>
+  <data name="TextOnScreenActionBase_Y2_FriendlyName" xml:space="preserve">
+    <value>Y2</value>
+  </data>
+  <data name="Wait_TextOnScreenToAppear_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnScreenToDisappear_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionOfScreenToAppear_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on subregion of &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionOfScreenToDisappear_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from subregion of &lt;SEARCHFORTEXTON&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionRelativeToImageOnScreenToAppear_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on &lt;SEARCHFORTEXTON&gt; relative to image</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionRelativeToImageOnScreenToDisappear_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from &lt;SEARCHFORTEXTON&gt; relative to image</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}</comment>
+  </data>
+  <data name="Wait_WaitTextOnScreenAction_Description" xml:space="preserve">
+    <value>Wait until a specific text appears/disappears on the screen, the foreground window, or relative to an image on the screen or foreground window using OCR</value>
+  </data>
+  <data name="Wait_WaitTextOnScreenAction_FriendlyName" xml:space="preserve">
+    <value>Wait for text on screen (OCR)</value>
+  </data>
+  <data name="ErrorMessage_FileApplicationNotFound" xml:space="preserve">
+    <value>Failed to run OCR actions. File or application {0} not found</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FileApplicationAccessDenied" xml:space="preserve">
+    <value>Failed to run OCR actions. Access denied for application/file {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FileApplicationCannotExecute" xml:space="preserve">
+    <value>Failed to run OCR actions. Can't execute application/open file {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidWidthMultiplier" xml:space="preserve">
+    <value>Image width multiplier should be equal to or greater than one (1)</value>
+  </data>
+  <data name="ErrorMessage_InvalidHeightMultiplier" xml:space="preserve">
+    <value>Image height multiplier should be equal to or greater than one (1)</value>
+  </data>
+  <data name="ErrorMessage_InvalidDataPathFolder" xml:space="preserve">
+    <value>Data path folder {0} doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotGetTextNonInteractive" xml:space="preserve">
+    <value>Can't get text from screen in non-interactive mode</value>
+  </data>
+  <data name="ErrorMessage_DeadEngine" xml:space="preserve">
+    <value>{0} engine isn't alive</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ImageNotExists" xml:space="preserve">
+    <value>Image {0} doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ImageNotFound" xml:space="preserve">
+    <value>Couldn't find the image</value>
+  </data>
+  <data name="ErrorMessage_ExtractionFailed" xml:space="preserve">
+    <value>Failed to extract text with OCR</value>
+  </data>
+  <data name="ErrorMessage_InvalidX1Coordinate" xml:space="preserve">
+    <value>Subregion coordinate X1 can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidY1Coordinate" xml:space="preserve">
+    <value>Subregion coordinate Y1 can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidX2Coordinate" xml:space="preserve">
+    <value>Subregion coordinate X2 can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidY2Coordinate" xml:space="preserve">
+    <value>Subregion coordinate Y2 can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidX1CoordinateImageRelative" xml:space="preserve">
+    <value>Subregion coordinate X1 relative to image can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidY1CoordinateImageRelative" xml:space="preserve">
+    <value>Subregion coordinate Y1 relative to image can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidX2CoordinateImageRelative" xml:space="preserve">
+    <value>Subregion coordinate X2 relative to image can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidY2CoordinateImageRelative" xml:space="preserve">
+    <value>Subregion coordinate Y2 can't to image can't be negative. It is set to {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotCheckTextExistsNonInteractive" xml:space="preserve">
+    <value>Can't check if text exists in non-interactive mode</value>
+  </data>
+  <data name="ErrorMessage_AnalyzeError" xml:space="preserve">
+    <value>Failed to analyze text with OCR</value>
+  </data>
+  <data name="WaitAndExtractTextFromForegroundWindowRelativeToImage_Description" xml:space="preserve">
+    <value>Wait for text to appear on the foreground window and extract it, relative to a specified image using OCR engine</value>
+  </data>
+  <data name="WaitAndExtractTextFromForegroundWindowRelativeToImage_Summary" xml:space="preserve">
+    <value>Wait for text to appear on the &lt;OCRSOURCE&gt; and extract it, relative to a specified image using &lt;OCRENGINE&gt;</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;OCRENGINE&gt;"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromScreenRelativeToImage_Description" xml:space="preserve">
+    <value>Wait for text to appear on the screen and extract it, relative to a specified image using OCR engine</value>
+  </data>
+  <data name="WaitAndExtractTextFromScreenRelativeToImage_Summary" xml:space="preserve">
+    <value>Wait for text to appear on the  &lt;OCRSOURCE&gt; and extract it, relative to a specified image using &lt;OCRENGINE&gt;</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindowWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from the foreground window using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindowWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromForegroundWindowWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from the foreground window using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindowWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfScreenWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from a region of the screen using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfScreenWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from a region of the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfScreenWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from a region of the screen using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfScreenWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from a region of the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenRelativeToImageWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from the screen relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenRelativeToImageWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenRelativeToImageWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from the screen relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenRelativeToImageWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from the whole screen using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from the whole screen using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromScreenWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromForegroundWindowRelativeToImageWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for text to appear on the foreground window and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromForegroundWindowRelativeToImageWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text to appear on the &lt;OCRSOURCE&gt; and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromForegroundWindowRelativeToImageWithTesseract_Description" xml:space="preserve">
+    <value>Wait for text to appear on the foreground window and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromForegroundWindowRelativeToImageWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text to appear on the  &lt;OCRSOURCE&gt; and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromScreenRelativeToImageWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for text to appear on screen and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromScreenRelativeToImageWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text to appear on the  &lt;OCRSOURCE&gt; and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromScreenRelativeToImageWithTesseract_Description" xml:space="preserve">
+    <value>Wait for text to appear on screen and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="WaitAndExtractTextFromScreenRelativeToImageWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text to appear on  &lt;OCRSOURCE&gt; and extract it, relative to a specified image using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromFileRelativeToImageWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from a file relative to a specified image using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromFileRelativeToImageWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromFileRelativeToImageWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from a file relative to a specified image using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromFileRelativeToImageWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromFileWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from a file using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromFileWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromFileWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from a file using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromFileWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfFileWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from a region of a file using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromRegionOfFileWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfFileWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from a region of a file using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromRegionOfFileWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the file &lt;IMAGEFILE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfForegroundWindowWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from a region of the foreground window using Tesseract engine</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfForegroundWindowWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from a region of the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfForegroundWindowWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from a region of the foreground window using Tesseract engine</value>
+    <comment>{Locked="MODI"}</comment>
+  </data>
+  <data name="ExtractTextFromRegionOfForegroundWindowWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from a region of the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextFromForegroundWindowRelativeToImageWithCustomTesseract_Description" xml:space="preserve">
+    <value>Extract text from the foreground window relative to a specified image using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindowRelativeToImageWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromForegroundWindowRelativeToImageWithTesseract_Description" xml:space="preserve">
+    <value>Extract text from the foreground window relative to a specified image using Tesseract engine</value>
+  </data>
+  <data name="ExtractTextFromForegroundWindowRelativeToImageWithTesseract_Summary" xml:space="preserve">
+    <value>Get text from the &lt;OCRSOURCE&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;OCRSOURCE&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnScreenDoesNotExistWithCustomTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnScreenDoesNotExistWithTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on &lt;SEARCHFORTEXTON&gt;  using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnScreenExistsWithCustomTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnScreenExistsWithTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionOfScreenDoesNotExistWithCustomTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionOfScreenDoesNotExistWithTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionOfScreenExistsWithCustomTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionOfScreenExistsWithTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionRelativeToImageOnScreenDoesNotExistWithCustomTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionRelativeToImageOnScreenDoesNotExistWithTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; doesn't exist on &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionRelativeToImageOnScreenExistsWithCustomTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Conditionals_TextOnSubregionRelativeToImageOnScreenExistsWithTesseract_Summary" xml:space="preserve">
+    <value>If text &lt;TEXTTOFIND&gt; exists on &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenDoesNotExistWithCustomTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenDoesNotExistWithTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenExistsWithCustomTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on the screen or the foreground window using Tesseract engine</value>
+  </data>
+  <data name="TextOnScreenExistsWithTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on the screen or the foreground window using Tesseract engine</value>
+  </data>
+  <data name="TextOnScreenToAppearWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenToAppearWithTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenToDisappearWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnScreenToDisappearWithTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenDoesNotExistWithCustomTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenDoesNotExistWithTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenExistsWithCustomTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenExistsWithTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenToAppearWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenToAppearWithTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenToDisappearWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionOfScreenToDisappearWithTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from a subregion of the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenDoesNotExistWithCustomTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenDoesNotExistWithTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified doesn't appear on a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenExistsWithCustomTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenExistsWithTesseract_Description" xml:space="preserve">
+    <value>Check whether the text specified appears on a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenToAppearWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenToAppearWithTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to appear on a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenToDisappearWithCustomTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="TextOnSubregionRelativeToImageOnScreenToDisappearWithTesseract_Description" xml:space="preserve">
+    <value>Wait for the text specified to disappear from a subregion relative to an image on the screen or the foreground window using Tesseract engine</value>
+    <comment>{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnScreenToAppearWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnScreenToAppearWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnScreenToDisappearWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnScreenToDisappearWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionOfScreenToAppearWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionOfScreenToAppearWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionOfScreenToDisappearWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionOfScreenToDisappearWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from subregion of &lt;SEARCHFORTEXTON&gt; using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionRelativeToImageOnScreenToAppearWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionRelativeToImageOnScreenToAppearWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to appear on &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionRelativeToImageOnScreenToDisappearWithCustomTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="Wait_TextOnSubregionRelativeToImageOnScreenToDisappearWithTesseract_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXTTOFIND&gt; to disappear from &lt;SEARCHFORTEXTON&gt; relative to image using Tesseract engine</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;SEARCHFORTEXTON&gt;"}{Locked="&lt;Tesseract&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToCreateEngine" xml:space="preserve">
+    <value>Failed to create the OCR engine</value>
+  </data>
+  <data name="Error_CannotCheckIfTextExistsInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't check if text exists in non interactive mode</value>
+  </data>
+  <data name="CreateMODIEngine_Deprecation_Description" xml:space="preserve">
+    <value>'Create MODI OCR engine' has been deprecated and is no longer available in the actions list. If this action is deleted, it can't be used again and you will need to update your flows using alternative OCR actions.</value>
+    <comment>{Locked="MODI"}</comment>
+  </data>
+  <data name="CreateTesseractOCREngineBase_Deprecation_Description" xml:space="preserve">
+    <value>'Create Tesseract OCR engine' is going to be deprecated. Make sure you update your flows using alternative OCR actions.</value>
+    <comment>{Locked="Tesseract"}</comment>
+  </data>
+  <data name="ExtractTextWithOCR_SearchAlgorithm_Description" xml:space="preserve">
+    <value>Select which search algorithm to use when searching for the image.</value>
+  </data>
+  <data name="ExtractTextWithOCR_SearchAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Image matching algorithm</value>
+  </data>
+  <data name="ImageFinderAlgorithm_Legacy_FriendlyName" xml:space="preserve">
+    <value>Basic</value>
+  </data>
+  <data name="ImageFinderAlgorithm_Template_FriendlyName" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="TextOnScreenActionBase_SearchAlgorithm_Description" xml:space="preserve">
+    <value>Select which search algorithm to use when searching for the image.</value>
+  </data>
+  <data name="TextOnScreenActionBase_SearchAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Image matching algorithm</value>
+  </data>
+</root>

@@ -1,0 +1,807 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AESKeySize_Bits128_FriendlyName" xml:space="preserve">
+    <value>128 bits</value>
+  </data>
+  <data name="AESKeySize_Bits192_FriendlyName" xml:space="preserve">
+    <value>192 bits</value>
+  </data>
+  <data name="AESKeySize_Bits256_FriendlyName" xml:space="preserve">
+    <value>256 bits</value>
+  </data>
+  <data name="Cryptography_Description" xml:space="preserve">
+    <value>Encrypt and decrypt text and files</value>
+  </data>
+  <data name="Cryptography_FriendlyName" xml:space="preserve">
+    <value>Cryptography</value>
+  </data>
+  <data name="DecryptTextAction_DecryptedText_Description" xml:space="preserve">
+    <value>The decrypted text for later processing</value>
+  </data>
+  <data name="DecryptTextAction_DecryptedText_FriendlyName" xml:space="preserve">
+    <value>Decrypted text</value>
+  </data>
+  <data name="DecryptTextAction_DecryptionKey_Description" xml:space="preserve">
+    <value>The decryption key to use</value>
+  </data>
+  <data name="DecryptTextAction_DecryptionKey_FriendlyName" xml:space="preserve">
+    <value>Decryption key</value>
+  </data>
+  <data name="DecryptTextAction_Description" xml:space="preserve">
+    <value>Decrypt a string with AES based on a specified key and an encoding format</value>
+  </data>
+  <data name="DecryptTextAction_Encoding_Description" xml:space="preserve">
+    <value>The encoding for the decrypted text</value>
+  </data>
+  <data name="DecryptTextAction_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="DecryptTextAction_FriendlyName" xml:space="preserve">
+    <value>Decrypt text with AES</value>
+  </data>
+  <data name="DecryptTextAction_InitializationVector_Description" xml:space="preserve">
+    <value>The initialization vector to use for decryption in the form of a base64 string</value>
+  </data>
+  <data name="DecryptTextAction_InitializationVector_FriendlyName" xml:space="preserve">
+    <value>Initialization vector</value>
+  </data>
+  <data name="DecryptTextAction_KeySize_Description" xml:space="preserve">
+    <value>The size of the key in bits to use for the decryption</value>
+  </data>
+  <data name="DecryptTextAction_KeySize_FriendlyName" xml:space="preserve">
+    <value>Key size</value>
+  </data>
+  <data name="DecryptTextAction_Padding_Description" xml:space="preserve">
+    <value>The padding to use for the selected decryption algorithm</value>
+  </data>
+  <data name="DecryptTextAction_Padding_FriendlyName" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="DecryptTextAction_Salt_Description" xml:space="preserve">
+    <value>The salt to use for decryption in the form of a base64 string</value>
+  </data>
+  <data name="DecryptTextAction_Salt_FriendlyName" xml:space="preserve">
+    <value>Salt</value>
+  </data>
+  <data name="DecryptTextAction_TextToDecrypt_Description" xml:space="preserve">
+    <value>The text to decrypt in the form of a base64 string</value>
+  </data>
+  <data name="DecryptTextAction_TextToDecrypt_FriendlyName" xml:space="preserve">
+    <value>Text to decrypt</value>
+  </data>
+  <data name="DecryptTextAction_UseIV_Description" xml:space="preserve">
+    <value>Specify whether to use an initialization vector</value>
+  </data>
+  <data name="DecryptTextAction_UseIV_FriendlyName" xml:space="preserve">
+    <value>Use initialization vector</value>
+  </data>
+  <data name="DecryptTextAction_UseSalt_Description" xml:space="preserve">
+    <value>Specify whether to use salt for the decryption</value>
+  </data>
+  <data name="DecryptTextAction_UseSalt_FriendlyName" xml:space="preserve">
+    <value>Use salt</value>
+  </data>
+  <data name="DecryptTextWithAES_Description" xml:space="preserve">
+    <value>Decrypt a string with AES based on a specified key and an encoding format</value>
+  </data>
+  <data name="DecryptTextWithAES_Summary" xml:space="preserve">
+    <value>Decrypt text &lt;TEXTTODECRYPT&gt; and store the decrypted text into &lt;DECRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="DecryptTextWithAESUseIV_Description" xml:space="preserve">
+    <value>Decrypt a string with AES, using a key, a specified encoding format and an initialization vector</value>
+  </data>
+  <data name="DecryptTextWithAESUseIV_Summary" xml:space="preserve">
+    <value>Decrypt text &lt;TEXTTODECRYPT&gt; using an IV and store the decrypted text into &lt;DECRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="DecryptTextWithAESUseSalt_Description" xml:space="preserve">
+    <value>Decrypt a string with AES, using a key, a specified encoding format and a salt</value>
+  </data>
+  <data name="DecryptTextWithAESUseSalt_Summary" xml:space="preserve">
+    <value>Decrypt text &lt;TEXTTODECRYPT&gt; using salt and store the decrypted text into &lt;DECRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="DecryptTextWithAESUseSaltAndIV_Description" xml:space="preserve">
+    <value>Decrypt a string with AES, using a key, a specified encoding format, a salt and an initialization vector</value>
+  </data>
+  <data name="DecryptTextWithAESUseSaltAndIV_Summary" xml:space="preserve">
+    <value>Decrypt text &lt;TEXTTODECRYPT&gt; using a salt and an IV and store the decrypted text into &lt;DECRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="DecryptToFileAction_DecryptedFile_Description" xml:space="preserve">
+    <value>The decrypted file for later processing</value>
+  </data>
+  <data name="DecryptToFileAction_DecryptedFile_FriendlyName" xml:space="preserve">
+    <value>Decrypted file</value>
+  </data>
+  <data name="DecryptToFileAction_DecryptionKey_Description" xml:space="preserve">
+    <value>The decryption key to use</value>
+  </data>
+  <data name="DecryptToFileAction_DecryptionKey_FriendlyName" xml:space="preserve">
+    <value>Decryption key</value>
+  </data>
+  <data name="DecryptToFileAction_DecryptToFile_Description" xml:space="preserve">
+    <value>The file to save the decrypted text into</value>
+  </data>
+  <data name="DecryptToFileAction_DecryptToFile_FriendlyName" xml:space="preserve">
+    <value>Decrypt to file</value>
+  </data>
+  <data name="DecryptToFileAction_Description" xml:space="preserve">
+    <value>Decrypt a string to a file with AES based on a specified key and an encoding format</value>
+  </data>
+  <data name="DecryptToFileAction_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the text to decrypt</value>
+  </data>
+  <data name="DecryptToFileAction_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="DecryptToFileAction_FriendlyName" xml:space="preserve">
+    <value>Decrypt to file with AES</value>
+  </data>
+  <data name="DecryptToFileAction_IfFileExists_Description" xml:space="preserve">
+    <value>Specify what to do in case the destination file already exists</value>
+  </data>
+  <data name="DecryptToFileAction_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="DecryptToFileAction_InitializationVector_Description" xml:space="preserve">
+    <value>The initialization vector to use for decryption</value>
+  </data>
+  <data name="DecryptToFileAction_InitializationVector_FriendlyName" xml:space="preserve">
+    <value>Initialization vector</value>
+  </data>
+  <data name="DecryptToFileAction_KeySize_Description" xml:space="preserve">
+    <value>The size of the key in bits to use for decryption</value>
+  </data>
+  <data name="DecryptToFileAction_KeySize_FriendlyName" xml:space="preserve">
+    <value>Key size</value>
+  </data>
+  <data name="DecryptToFileAction_Padding_Description" xml:space="preserve">
+    <value>The padding to use for the selected decryption algorithm</value>
+  </data>
+  <data name="DecryptToFileAction_Padding_FriendlyName" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="DecryptToFileAction_Salt_Description" xml:space="preserve">
+    <value>The salt to use for decryption in the form of a base64 string</value>
+  </data>
+  <data name="DecryptToFileAction_Salt_FriendlyName" xml:space="preserve">
+    <value>Salt</value>
+  </data>
+  <data name="DecryptToFileAction_TextToDecrypt_Description" xml:space="preserve">
+    <value>The text to decrypt in the form of a base64 string</value>
+  </data>
+  <data name="DecryptToFileAction_TextToDecrypt_FriendlyName" xml:space="preserve">
+    <value>Text to decrypt</value>
+  </data>
+  <data name="DecryptToFileAction_UseIV_Description" xml:space="preserve">
+    <value>Specify whether to use an initialization vector. Enter the initialization vector in the form of a base64 string</value>
+  </data>
+  <data name="DecryptToFileAction_UseIV_FriendlyName" xml:space="preserve">
+    <value>Use initialization vector</value>
+  </data>
+  <data name="DecryptToFileAction_UseSalt_Description" xml:space="preserve">
+    <value>Specify whether to use salt for decryption</value>
+  </data>
+  <data name="DecryptToFileAction_UseSalt_FriendlyName" xml:space="preserve">
+    <value>Use salt</value>
+  </data>
+  <data name="DecryptToFileWithAES_Description" xml:space="preserve">
+    <value>Decrypt a string to a file with AES based on a specified key and an encoding format</value>
+  </data>
+  <data name="DecryptToFileWithAES_Summary" xml:space="preserve">
+    <value>Decrypt &lt;TEXTTODECRYPT&gt; and store the decrypted text into &lt;DECRYPTEDFILE&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDFILE&gt;"}</comment>
+  </data>
+  <data name="DecryptToFileWithAESUseIV_Description" xml:space="preserve">
+    <value>Decrypt a string to a file with AES based on a specified key, an encoding format and an initialization vector</value>
+  </data>
+  <data name="DecryptToFileWithAESUseIV_Summary" xml:space="preserve">
+    <value>Decrypt &lt;TEXTTODECRYPT&gt; using an IV and store the decrypted text into &lt;DECRYPTEDFILE&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDFILE&gt;"}</comment>
+  </data>
+  <data name="DecryptToFileWithAESUseSalt_Description" xml:space="preserve">
+    <value>Decrypt a string to a file with AES based on a specified key, an encoding format and a salt</value>
+  </data>
+  <data name="DecryptToFileWithAESUseSalt_Summary" xml:space="preserve">
+    <value>Decrypt &lt;TEXTTODECRYPT&gt; using salt and store the decrypted text into &lt;DECRYPTEDFILE&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDFILE&gt;"}</comment>
+  </data>
+  <data name="DecryptToFileWithAESUseSaltAndIV_Description" xml:space="preserve">
+    <value>Decrypts a string to a file with AES based on a specified key, an encoding format, a salt and an initialization vector</value>
+  </data>
+  <data name="DecryptToFileWithAESUseSaltAndIV_Summary" xml:space="preserve">
+    <value>Decrypt &lt;TEXTTODECRYPT&gt; using a salt and IV and store the decrypted text into &lt;DECRYPTEDFILE&gt;</value>
+    <comment>{Locked="&lt;TEXTTODECRYPT&gt;"}{Locked="&lt;DECRYPTEDFILE&gt;"}</comment>
+  </data>
+  <data name="EncryptFromFileAction_Description" xml:space="preserve">
+    <value>Encrypt the contents of a file with AES, using a key and a specified encoding format</value>
+  </data>
+  <data name="EncryptFromFileAction_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the file to encrypt</value>
+  </data>
+  <data name="EncryptFromFileAction_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="EncryptFromFileAction_EncryptedText_Description" xml:space="preserve">
+    <value>The text of the encrypted file for later processing</value>
+  </data>
+  <data name="EncryptFromFileAction_EncryptedText_FriendlyName" xml:space="preserve">
+    <value>Encrypted text</value>
+  </data>
+  <data name="EncryptFromFileAction_EncryptionKey_Description" xml:space="preserve">
+    <value>The encryption key to use</value>
+  </data>
+  <data name="EncryptFromFileAction_EncryptionKey_FriendlyName" xml:space="preserve">
+    <value>Encryption key</value>
+  </data>
+  <data name="EncryptFromFileAction_FileToEncrypt_Description" xml:space="preserve">
+    <value>The text file that stores the contents to encrypt</value>
+  </data>
+  <data name="EncryptFromFileAction_FileToEncrypt_FriendlyName" xml:space="preserve">
+    <value>File to encrypt</value>
+  </data>
+  <data name="EncryptFromFileAction_FriendlyName" xml:space="preserve">
+    <value>Encrypt from file with AES</value>
+  </data>
+  <data name="EncryptFromFileAction_InitializationVector_Description" xml:space="preserve">
+    <value>The randomly generated initialization vector value for later processing</value>
+  </data>
+  <data name="EncryptFromFileAction_InitializationVector_FriendlyName" xml:space="preserve">
+    <value>Initialization vector</value>
+  </data>
+  <data name="EncryptFromFileAction_KeySize_Description" xml:space="preserve">
+    <value>The size of the key in bits to use for the encryption</value>
+  </data>
+  <data name="EncryptFromFileAction_KeySize_FriendlyName" xml:space="preserve">
+    <value>Key size</value>
+  </data>
+  <data name="EncryptFromFileAction_PaddingMode_Description" xml:space="preserve">
+    <value>The padding to use for the selected encryption algorithm</value>
+  </data>
+  <data name="EncryptFromFileAction_PaddingMode_FriendlyName" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="EncryptFromFileAction_Salt_Description" xml:space="preserve">
+    <value>The randomly generated salt value for later processing</value>
+  </data>
+  <data name="EncryptFromFileAction_Salt_FriendlyName" xml:space="preserve">
+    <value>Salt</value>
+  </data>
+  <data name="EncryptFromFileAction_UseIV_Description" xml:space="preserve">
+    <value>Specify whether to use an initialization vector. When this option is enabled, the randomly generated initialization vector becomes an output in the form of a base64 string</value>
+  </data>
+  <data name="EncryptFromFileAction_UseIV_FriendlyName" xml:space="preserve">
+    <value>Use initialization vector</value>
+  </data>
+  <data name="EncryptFromFileAction_UseSalt_Description" xml:space="preserve">
+    <value>Specify whether to use salt for encryption. When this option is enabled,  the randomly generated salt becomes an output in the form of a base64 string.</value>
+  </data>
+  <data name="EncryptFromFileAction_UseSalt_FriendlyName" xml:space="preserve">
+    <value>Use salt</value>
+  </data>
+  <data name="EncryptFromFileWithAES_Description" xml:space="preserve">
+    <value>Encrypt the contents of a file with AES, using a key and a specified encoding format</value>
+  </data>
+  <data name="EncryptFromFileWithAES_Summary" xml:space="preserve">
+    <value>Encrypt &lt;FILETOENCRYPT&gt; and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;FILETOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptFromFileWithAESUseIV_Description" xml:space="preserve">
+    <value>Encrypt the contents of a file with AES, using a key, a specified encoding format and a randomly generated initialization vector</value>
+  </data>
+  <data name="EncryptFromFileWithAESUseIV_Summary" xml:space="preserve">
+    <value>Encrypt &lt;FILETOENCRYPT&gt; using a randomly generated IV and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;FILETOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptFromFileWithAESUseSalt_Description" xml:space="preserve">
+    <value>Encrypt the contents of a file with AES, using a key, a specified encoding format and a randomly generated salt</value>
+  </data>
+  <data name="EncryptFromFileWithAESUseSalt_Summary" xml:space="preserve">
+    <value>Encrypt &lt;FILETOENCRYPT&gt; using a randomly generated salt and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;FILETOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptFromFileWithAESUseSaltAndIV_Description" xml:space="preserve">
+    <value>Encrypt the contents of a file with AES, using a key, a specified encoding format and a randomly generated salt and an initialization vector</value>
+  </data>
+  <data name="EncryptFromFileWithAESUseSaltAndIV_Summary" xml:space="preserve">
+    <value>Encrypt &lt;FILETOENCRYPT&gt; using a randomly generated salt and IV and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;FILETOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptionEncoding_ANSI_FriendlyName" xml:space="preserve">
+    <value>ANSI</value>
+    <comment>{Locked="ANSI"}</comment>
+  </data>
+  <data name="EncryptionEncoding_BigEndianUnicode_FriendlyName" xml:space="preserve">
+    <value>Big-endian Unicode</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="EncryptionEncoding_DefaultEncoding_FriendlyName" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="EncryptionEncoding_Unicode_FriendlyName" xml:space="preserve">
+    <value>Unicode</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="EncryptionEncoding_UTF8_FriendlyName" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="EncryptTextAction_Description" xml:space="preserve">
+    <value>Encrypt a string with AES, using a key and a specified encoding format</value>
+  </data>
+  <data name="EncryptTextAction_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the text to encrypt</value>
+  </data>
+  <data name="EncryptTextAction_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="EncryptTextAction_EncryptedText_Description" xml:space="preserve">
+    <value>The encrypted text for later processing</value>
+  </data>
+  <data name="EncryptTextAction_EncryptedText_FriendlyName" xml:space="preserve">
+    <value>Encrypted text</value>
+  </data>
+  <data name="EncryptTextAction_EncryptionKey_Description" xml:space="preserve">
+    <value>The encryption key to use</value>
+  </data>
+  <data name="EncryptTextAction_EncryptionKey_FriendlyName" xml:space="preserve">
+    <value>Encryption key</value>
+  </data>
+  <data name="EncryptTextAction_FriendlyName" xml:space="preserve">
+    <value>Encrypt text with AES</value>
+  </data>
+  <data name="EncryptTextAction_InitializationVector_Description" xml:space="preserve">
+    <value>The randomly generated initialization vector value for later processing</value>
+  </data>
+  <data name="EncryptTextAction_InitializationVector_FriendlyName" xml:space="preserve">
+    <value>Initialization vector</value>
+  </data>
+  <data name="EncryptTextAction_KeySize_Description" xml:space="preserve">
+    <value>The size of the key in bits to use for the encryption</value>
+  </data>
+  <data name="EncryptTextAction_KeySize_FriendlyName" xml:space="preserve">
+    <value>Key size</value>
+  </data>
+  <data name="EncryptTextAction_PaddingMode_Description" xml:space="preserve">
+    <value>The padding to use for the selected encryption algorithm</value>
+  </data>
+  <data name="EncryptTextAction_PaddingMode_FriendlyName" xml:space="preserve">
+    <value>Padding</value>
+  </data>
+  <data name="EncryptTextAction_Salt_Description" xml:space="preserve">
+    <value>The randomly generated salt value for later processing</value>
+  </data>
+  <data name="EncryptTextAction_Salt_FriendlyName" xml:space="preserve">
+    <value>Salt</value>
+  </data>
+  <data name="EncryptTextAction_TextToEncrypt_Description" xml:space="preserve">
+    <value>The text to encrypt</value>
+  </data>
+  <data name="EncryptTextAction_TextToEncrypt_FriendlyName" xml:space="preserve">
+    <value>Text to encrypt</value>
+  </data>
+  <data name="EncryptTextAction_UseIV_Description" xml:space="preserve">
+    <value>Specify whether to use an initialization vector. When this option is enabled, the randomly generated initialization vector becomes an output in the form of a base64 string</value>
+  </data>
+  <data name="EncryptTextAction_UseIV_FriendlyName" xml:space="preserve">
+    <value>Use initialization vector</value>
+  </data>
+  <data name="EncryptTextAction_UseSalt_Description" xml:space="preserve">
+    <value>Specify whether to use salt for encryption. When this option is enabled,  the randomly generated salt becomes an output in the form of a base64 string.</value>
+  </data>
+  <data name="EncryptTextAction_UseSalt_FriendlyName" xml:space="preserve">
+    <value>Use salt</value>
+  </data>
+  <data name="EncryptTextWithAES_Description" xml:space="preserve">
+    <value>Encrypt a string with AES, using a key and a specified encoding format</value>
+  </data>
+  <data name="EncryptTextWithAES_Summary" xml:space="preserve">
+    <value>Encrypt text &lt;TEXTTOENCRYPT&gt; and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptTextWithAESUseIV_Description" xml:space="preserve">
+    <value>Encrypt a string with AES, using a key, a specified encoding format and a randomly generated initialization vector</value>
+  </data>
+  <data name="EncryptTextWithAESUseIV_Summary" xml:space="preserve">
+    <value>Encrypt text &lt;TEXTTOENCRYPT&gt; using a randomly generated IV and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptTextWithAESUseSalt_Description" xml:space="preserve">
+    <value>Encrypt a string with AES, using a key, a specified encoding format and a randomly generated salt</value>
+  </data>
+  <data name="EncryptTextWithAESUseSalt_Summary" xml:space="preserve">
+    <value>Encrypt text &lt;TEXTTOENCRYPT&gt; using a randomly generated salt and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="EncryptTextWithAESUseSaltAndIV_Description" xml:space="preserve">
+    <value>Encrypt a string with AES, using a key, a specified encoding format and a randomly generated salt and an initialization vector</value>
+  </data>
+  <data name="EncryptTextWithAESUseSaltAndIV_Summary" xml:space="preserve">
+    <value>Encrypt text &lt;TEXTTOENCRYPT&gt; using a randomly generated salt and IV and store the encrypted text into &lt;ENCRYPTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTOENCRYPT&gt;"}{Locked="&lt;ENCRYPTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="Error_DecryptTextError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred during decryption</value>
+  </data>
+  <data name="Error_DecryptTextError_FriendlyName" xml:space="preserve">
+    <value>Failed to decrypt text</value>
+  </data>
+  <data name="Error_DecryptToFileError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while decrypting or storing the contents to the specified file</value>
+  </data>
+  <data name="Error_DecryptToFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to decrypt and store the contents to a file</value>
+  </data>
+  <data name="Error_EncryptFileError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while encrypting the contents of the file</value>
+  </data>
+  <data name="Error_EncryptFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to encrypt the contents of the file</value>
+  </data>
+  <data name="Error_EncryptTextError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred during encryption</value>
+  </data>
+  <data name="Error_EncryptTextError_FriendlyName" xml:space="preserve">
+    <value>Failed to encrypt text</value>
+  </data>
+  <data name="Error_FileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the file doesn't exist</value>
+  </data>
+  <data name="Error_FileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="Error_HashFileError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while hashing the contents of the file</value>
+  </data>
+  <data name="Error_HashFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to hash the file</value>
+  </data>
+  <data name="Error_HashFileWithKeyError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while hashing the contents of the file with the specified key</value>
+  </data>
+  <data name="Error_HashFileWithKeyError_FriendlyName" xml:space="preserve">
+    <value>Failed to hash the file with key</value>
+  </data>
+  <data name="Error_HashTextError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred during hashing</value>
+  </data>
+  <data name="Error_HashTextError_FriendlyName" xml:space="preserve">
+    <value>Failed to hash text</value>
+  </data>
+  <data name="Error_HashTextWithKeyError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred during hashing with key</value>
+  </data>
+  <data name="Error_HashTextWithKeyError_FriendlyName" xml:space="preserve">
+    <value>Failed to hash text with key</value>
+  </data>
+  <data name="ErrorMessage_FailedToDecryptFile" xml:space="preserve">
+    <value>Failed to decrypt file</value>
+  </data>
+  <data name="ErrorMessage_FailedToDecryptText" xml:space="preserve">
+    <value>Failed to decrypt text</value>
+  </data>
+  <data name="ErrorMessage_FailedToEncryptFile" xml:space="preserve">
+    <value>Failed to encrypt file</value>
+  </data>
+  <data name="ErrorMessage_FailedToEncryptText" xml:space="preserve">
+    <value>Failed to encrypt text</value>
+  </data>
+  <data name="ErrorMessage_FailedToHashFile" xml:space="preserve">
+    <value>Failed to hash file</value>
+  </data>
+  <data name="ErrorMessage_FailedToHashText" xml:space="preserve">
+    <value>Failed to hash text</value>
+  </data>
+  <data name="ErrorMessage_FileDoesNotExist" xml:space="preserve">
+    <value>File '{0}' doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="HashAlgorithm_SHA256_FriendlyName" xml:space="preserve">
+    <value>SHA256</value>
+  </data>
+  <data name="HashAlgorithm_SHA384_FriendlyName" xml:space="preserve">
+    <value>SHA384</value>
+  </data>
+  <data name="HashAlgorithm_SHA512_FriendlyName" xml:space="preserve">
+    <value>SHA512</value>
+  </data>
+  <data name="HashFromFile_Description" xml:space="preserve">
+    <value>Hash the contents of a file, using a specified algorithm and an encoding format</value>
+  </data>
+  <data name="HashFromFile_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the file to hash</value>
+  </data>
+  <data name="HashFromFile_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="HashFromFile_File_Description" xml:space="preserve">
+    <value>The file to hash the contents of</value>
+  </data>
+  <data name="HashFromFile_File_FriendlyName" xml:space="preserve">
+    <value>File to hash</value>
+  </data>
+  <data name="HashFromFile_FriendlyName" xml:space="preserve">
+    <value>Hash from file</value>
+  </data>
+  <data name="HashFromFile_HashAlgorithm_Description" xml:space="preserve">
+    <value>The algorithm to use for hashing</value>
+  </data>
+  <data name="HashFromFile_HashAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Hash algorithm</value>
+  </data>
+  <data name="HashFromFile_HashedText_Description" xml:space="preserve">
+    <value>The hashed text for later processing</value>
+  </data>
+  <data name="HashFromFile_HashedText_FriendlyName" xml:space="preserve">
+    <value>Hashed text</value>
+  </data>
+  <data name="HashFromFile_Summary" xml:space="preserve">
+    <value>Hash &lt;FILE&gt; and store the hashed text into &lt;HASHEDTEXT&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}{Locked="&lt;HASHEDTEXT&gt;"}</comment>
+  </data>
+  <data name="HashFromFileWithKey_Description" xml:space="preserve">
+    <value>Hash the contents of a file with a key, using a specified algorithm and an encoding format</value>
+  </data>
+  <data name="HashFromFileWithKey_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the file to hash</value>
+  </data>
+  <data name="HashFromFileWithKey_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="HashFromFileWithKey_FileToHash_Description" xml:space="preserve">
+    <value>The file to hash the contents of</value>
+  </data>
+  <data name="HashFromFileWithKey_FileToHash_FriendlyName" xml:space="preserve">
+    <value>File to hash</value>
+  </data>
+  <data name="HashFromFileWithKey_FriendlyName" xml:space="preserve">
+    <value>Hash from file with key</value>
+  </data>
+  <data name="HashFromFileWithKey_HashedText_Description" xml:space="preserve">
+    <value>The hashed text for later processing</value>
+  </data>
+  <data name="HashFromFileWithKey_HashedText_FriendlyName" xml:space="preserve">
+    <value>Hashed text</value>
+  </data>
+  <data name="HashFromFileWithKey_HashKey_Description" xml:space="preserve">
+    <value>The hash key to hash the text with</value>
+  </data>
+  <data name="HashFromFileWithKey_HashKey_FriendlyName" xml:space="preserve">
+    <value>Hash key</value>
+  </data>
+  <data name="HashFromFileWithKey_KeyedHashAlgorithm_Description" xml:space="preserve">
+    <value>The algorithm to use for hashing</value>
+  </data>
+  <data name="HashFromFileWithKey_KeyedHashAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Hash algorithm</value>
+  </data>
+  <data name="HashFromFileWithKey_Summary" xml:space="preserve">
+    <value>Hash &lt;FILETOHASH&gt; with key and store the hashed text into &lt;HASHEDTEXT&gt;</value>
+    <comment>{Locked="&lt;FILETOHASH&gt;"}{Locked="&lt;HASHEDTEXT&gt;"}</comment>
+  </data>
+  <data name="HashText_Description" xml:space="preserve">
+    <value>Hash a string, using a specified algorithm and an encoding format</value>
+  </data>
+  <data name="HashText_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the text to hash</value>
+  </data>
+  <data name="HashText_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="HashText_FriendlyName" xml:space="preserve">
+    <value>Hash text</value>
+  </data>
+  <data name="HashText_HashAlgorithm_Description" xml:space="preserve">
+    <value>The algorithm to use for hashing</value>
+  </data>
+  <data name="HashText_HashAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Hash algorithm</value>
+  </data>
+  <data name="HashText_HashedText_Description" xml:space="preserve">
+    <value>The hashed text for later processing</value>
+  </data>
+  <data name="HashText_HashedText_FriendlyName" xml:space="preserve">
+    <value>Hashed text</value>
+  </data>
+  <data name="HashText_Summary" xml:space="preserve">
+    <value>Hash text &lt;TEXTTOHASH&gt; and store the hashed text into &lt;HASHEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTOHASH&gt;"}{Locked="&lt;HASHEDTEXT&gt;"}</comment>
+  </data>
+  <data name="HashText_TextToHash_Description" xml:space="preserve">
+    <value>The text to hash</value>
+  </data>
+  <data name="HashText_TextToHash_FriendlyName" xml:space="preserve">
+    <value>Text to hash</value>
+  </data>
+  <data name="HashTextWithKey_Description" xml:space="preserve">
+    <value>Hash a string with a key, using a specified algorithm and an encoding format</value>
+  </data>
+  <data name="HashTextWithKey_Encoding_Description" xml:space="preserve">
+    <value>The encoding of the text to hash</value>
+  </data>
+  <data name="HashTextWithKey_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="HashTextWithKey_FriendlyName" xml:space="preserve">
+    <value>Hash text with key</value>
+  </data>
+  <data name="HashTextWithKey_HashAlgorithm_Description" xml:space="preserve">
+    <value>The algorithm to use for hashing</value>
+  </data>
+  <data name="HashTextWithKey_HashAlgorithm_FriendlyName" xml:space="preserve">
+    <value>Hash algorithm</value>
+  </data>
+  <data name="HashTextWithKey_HashedText_Description" xml:space="preserve">
+    <value>The hashed text for later processing</value>
+  </data>
+  <data name="HashTextWithKey_HashedText_FriendlyName" xml:space="preserve">
+    <value>Hashed text</value>
+  </data>
+  <data name="HashTextWithKey_HashKey_Description" xml:space="preserve">
+    <value>The key to hash the text with</value>
+  </data>
+  <data name="HashTextWithKey_HashKey_FriendlyName" xml:space="preserve">
+    <value>Hash key</value>
+  </data>
+  <data name="HashTextWithKey_Summary" xml:space="preserve">
+    <value>Hash text &lt;TEXTTOHASH&gt; with key and store the hashed text into &lt;HASHEDTEXT&gt;</value>
+    <comment>{Locked="&lt;TEXTTOHASH&gt;"}{Locked="&lt;HASHEDTEXT&gt;"}</comment>
+  </data>
+  <data name="HashTextWithKey_TextToHash_Description" xml:space="preserve">
+    <value>The text to hash</value>
+  </data>
+  <data name="HashTextWithKey_TextToHash_FriendlyName" xml:space="preserve">
+    <value>Text to hash</value>
+  </data>
+  <data name="IfFileExists_AddSequentialSuffix_FriendlyName" xml:space="preserve">
+    <value>Add sequential suffix</value>
+  </data>
+  <data name="IfFileExists_DoNotModifyFiles_FriendlyName" xml:space="preserve">
+    <value>Don't decrypt to file</value>
+  </data>
+  <data name="IfFileExists_Overwrite_FriendlyName" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="KeyedHashAlgorithm_HMACSHA256_FriendlyName" xml:space="preserve">
+    <value>HMAC SHA256</value>
+  </data>
+  <data name="KeyedHashAlgorithm_HMACSHA384_FriendlyName" xml:space="preserve">
+    <value>HMAC SHA384</value>
+  </data>
+  <data name="KeyedHashAlgorithm_HMACSHA512_FriendlyName" xml:space="preserve">
+    <value>HMAC SHA512</value>
+  </data>
+  <data name="PaddingMode_ANSIX923_FriendlyName" xml:space="preserve">
+    <value>ANSIX923</value>
+  </data>
+  <data name="PaddingMode_ISO10126_FriendlyName" xml:space="preserve">
+    <value>ISO10126</value>
+  </data>
+  <data name="PaddingMode_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="PaddingMode_PKCS7_FriendlyName" xml:space="preserve">
+    <value>PKCS7</value>
+  </data>
+  <data name="PaddingMode_Zeros_FriendlyName" xml:space="preserve">
+    <value>Zeros</value>
+  </data>
+</root>

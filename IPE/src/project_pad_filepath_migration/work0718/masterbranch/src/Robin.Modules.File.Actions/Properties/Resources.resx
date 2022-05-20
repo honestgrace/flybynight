@@ -1,0 +1,1147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddTextPosition_AfterName_FriendlyName" xml:space="preserve">
+    <value>After name</value>
+  </data>
+  <data name="AddTextPosition_BeforeName_FriendlyName" xml:space="preserve">
+    <value>Before name</value>
+  </data>
+  <data name="CheckFileActionBase_File_Description" xml:space="preserve">
+    <value>The full path of where to look for the file</value>
+  </data>
+  <data name="CheckFileActionBase_File_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="Copy_CopiedFiles_Description" xml:space="preserve">
+    <value>The copied file(s) as a list of files</value>
+  </data>
+  <data name="Copy_CopiedFiles_FriendlyName" xml:space="preserve">
+    <value>Copied files</value>
+  </data>
+  <data name="Copy_Description" xml:space="preserve">
+    <value>Copy one or more files into a destination folder</value>
+  </data>
+  <data name="Copy_Destination_Description" xml:space="preserve">
+    <value>The destination folder for the copied files</value>
+  </data>
+  <data name="Copy_Destination_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="Copy_Files_Description" xml:space="preserve">
+    <value>The file(s) to copy. This can be a file path, or a variable containing a file, a list of files, a text path, or a list of text paths. Use the 'Get files in folder' action to populate a variable with a list of files</value>
+  </data>
+  <data name="Copy_Files_FriendlyName" xml:space="preserve">
+    <value>File(s) to copy</value>
+  </data>
+  <data name="Copy_FriendlyName" xml:space="preserve">
+    <value>Copy file(s)</value>
+  </data>
+  <data name="Copy_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies what to do if a file with the same name already exists in the destination folder</value>
+  </data>
+  <data name="Copy_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="Copy_Summary" xml:space="preserve">
+    <value>Copy the file(s) &lt;FILES&gt; into &lt;DESTINATION&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;DESTINATION&gt;"}</comment>
+  </data>
+  <data name="Created_Description" xml:space="preserve">
+    <value>Check whether the specified file is created</value>
+  </data>
+  <data name="Wait_Created_Summary" xml:space="preserve">
+    <value>Wait for file &lt;FILE&gt; to be created</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="CSVColumnsSeparator_Comma_FriendlyName" xml:space="preserve">
+    <value>Comma</value>
+  </data>
+  <data name="CSVColumnsSeparator_Semicolon_FriendlyName" xml:space="preserve">
+    <value>Semicolon</value>
+  </data>
+  <data name="CSVColumnsSeparator_SystemDefault_FriendlyName" xml:space="preserve">
+    <value>System default</value>
+  </data>
+  <data name="CSVColumnsSeparator_Tab_FriendlyName" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="CSVColumnsSeparatorType_Custom_FriendlyName" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="CSVColumnsSeparatorType_FixedColumnWidths_FriendlyName" xml:space="preserve">
+    <value>Fixed column widths</value>
+  </data>
+  <data name="CSVColumnsSeparatorType_Predefined_FriendlyName" xml:space="preserve">
+    <value>Predefined</value>
+  </data>
+  <data name="CSVEncoding_ASCII_FriendlyName" xml:space="preserve">
+    <value>ANSI</value>
+    <comment>{Locked="ANSI"}</comment>
+  </data>
+  <data name="CSVEncoding_BigEndianUnicode_FriendlyName" xml:space="preserve">
+    <value>Unicode (big-endian)</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="CSVEncoding_SystemDefault_FriendlyName" xml:space="preserve">
+    <value>System default</value>
+  </data>
+  <data name="CSVEncoding_Unicode_FriendlyName" xml:space="preserve">
+    <value>Unicode</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="CSVEncoding_UnicodeNoBOM_FriendlyName" xml:space="preserve">
+    <value>Unicode (no byte οrder mark)</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="CSVEncoding_UTF8_FriendlyName" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="CSVEncoding_UTF8NoBOM_FriendlyName" xml:space="preserve">
+    <value>UTF-8 (no byte order mark)</value>
+  </data>
+  <data name="DateTimeToAdd_CreationTime_FriendlyName" xml:space="preserve">
+    <value>Creation time</value>
+  </data>
+  <data name="DateTimeToAdd_Current_FriendlyName" xml:space="preserve">
+    <value>Current datetime</value>
+  </data>
+  <data name="DateTimeToAdd_LastAccessed_FriendlyName" xml:space="preserve">
+    <value>Last accessed</value>
+  </data>
+  <data name="DateTimeToAdd_LastModified_FriendlyName" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="Delete_Description" xml:space="preserve">
+    <value>Delete one or more files</value>
+  </data>
+  <data name="Delete_Files_Description" xml:space="preserve">
+    <value>The file(s) to delete. This can be a file path, or a variable containing a file, a list of files, a text path, or a list of text paths. Use the 'Get files in folder' to populate a variable with a list of files</value>
+  </data>
+  <data name="Delete_Files_FriendlyName" xml:space="preserve">
+    <value>File(s) to delete</value>
+  </data>
+  <data name="Delete_FriendlyName" xml:space="preserve">
+    <value>Delete file(s)</value>
+  </data>
+  <data name="Delete_Summary" xml:space="preserve">
+    <value>Delete file(s) &lt;FILES&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}</comment>
+  </data>
+  <data name="Deleted_Description" xml:space="preserve">
+    <value>Check whether the specified file is deleted</value>
+  </data>
+  <data name="Wait_Deleted_Summary" xml:space="preserve">
+    <value>Wait for file &lt;FILE&gt; to be deleted</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="DoesNotExist_Description" xml:space="preserve">
+    <value>Check whether the specified file doesn't exist</value>
+  </data>
+  <data name="Conditionals_DoesNotExist_Summary" xml:space="preserve">
+    <value>If file &lt;FILE&gt; doesn't exist</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="Error_CopyFileError_Description" xml:space="preserve">
+    <value>Indicates a problem copying the file</value>
+  </data>
+  <data name="Error_CopyFileError_FriendlyName" xml:space="preserve">
+    <value>Can't copy file</value>
+  </data>
+  <data name="Error_CreateTempFileError_Description" xml:space="preserve">
+    <value>Indicates a problem creating a temporary file</value>
+  </data>
+  <data name="Error_CreateTempFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to create temporary file</value>
+  </data>
+  <data name="Error_DeleteFileError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the file</value>
+  </data>
+  <data name="Error_DeleteFileError_FriendlyName" xml:space="preserve">
+    <value>Can't delete file</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the directory wasn't found</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="Error_FileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the file doesn't exist</value>
+  </data>
+  <data name="Error_FileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="Error_InvalidDestinationFolderError_Description" xml:space="preserve">
+    <value>Indicates that the destination folder doesn't exist</value>
+  </data>
+  <data name="Error_InvalidDestinationFolderError_FriendlyName" xml:space="preserve">
+    <value>Destination folder doesn't exist</value>
+  </data>
+  <data name="Error_InvalidDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that the directory is invalid</value>
+  </data>
+  <data name="Error_InvalidDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Invalid directory for file</value>
+  </data>
+  <data name="Error_InvalidFilePathError_Description" xml:space="preserve">
+    <value>Indicates that the file path doesn't exist</value>
+  </data>
+  <data name="Error_InvalidFilePathError_FriendlyName" xml:space="preserve">
+    <value>File path doesn't exist</value>
+  </data>
+  <data name="Error_InvalidSourceFolderError_Description" xml:space="preserve">
+    <value>Indicates that the source folder doesn't exist</value>
+  </data>
+  <data name="Error_InvalidSourceFolderError_FriendlyName" xml:space="preserve">
+    <value>Source folder doesn't exist</value>
+  </data>
+  <data name="Error_MoveFileError_Description" xml:space="preserve">
+    <value>Indicates a problem moving the file</value>
+  </data>
+  <data name="Error_MoveFileError_FriendlyName" xml:space="preserve">
+    <value>Can't move file</value>
+  </data>
+  <data name="Error_ReadFromCsvError_Description" xml:space="preserve">
+    <value>Indicates a problem reading from the CSV file</value>
+  </data>
+  <data name="Error_ReadFromCsvError_FriendlyName" xml:space="preserve">
+    <value>Read from CSV failed</value>
+  </data>
+  <data name="Error_ReadFromFileError_Description" xml:space="preserve">
+    <value>Indicates a problem reading from the file</value>
+  </data>
+  <data name="Error_ReadFromFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to read from file</value>
+  </data>
+  <data name="Error_RenameFileError_Description" xml:space="preserve">
+    <value>Indicates a problem renaming the file</value>
+  </data>
+  <data name="Error_RenameFileError_FriendlyName" xml:space="preserve">
+    <value>Can't rename file</value>
+  </data>
+  <data name="Error_WriteTextToFileError_Description" xml:space="preserve">
+    <value>Indicates a problem writing to the file</value>
+  </data>
+  <data name="Error_WriteTextToFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to write text to file</value>
+  </data>
+  <data name="Error_WriteToCSVError_Description" xml:space="preserve">
+    <value>Indicates a problem writing to the CSV file</value>
+  </data>
+  <data name="Error_WriteToCSVError_FriendlyName" xml:space="preserve">
+    <value>Write failed</value>
+  </data>
+  <data name="Exists_Description" xml:space="preserve">
+    <value>Check whether the specified file exists</value>
+  </data>
+  <data name="Conditionals_Exists_Summary" xml:space="preserve">
+    <value>If file &lt;FILE&gt; exists</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="File_Description" xml:space="preserve">
+    <value>Manage and manipulate files</value>
+  </data>
+  <data name="File_FriendlyName" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="FileEncoding_ANSI_FriendlyName" xml:space="preserve">
+    <value>ANSI</value>
+    <comment>{Locked="ANSI"}</comment>
+  </data>
+  <data name="FileEncoding_BigEndianUnicode_FriendlyName" xml:space="preserve">
+    <value>Unicode (big-endian)</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="FileEncoding_DefaultEncoding_FriendlyName" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="FileEncoding_Unicode_FriendlyName" xml:space="preserve">
+    <value>Unicode</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="FileEncoding_UnicodeNoBOM_FriendlyName" xml:space="preserve">
+    <value>Unicode (without byte order mask)</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="FileEncoding_UTF8_FriendlyName" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="FileEncoding_UTF8NoBOM_FriendlyName" xml:space="preserve">
+    <value>UTF-8 (without byte order mask)</value>
+  </data>
+  <data name="GetPathPart_Description" xml:space="preserve">
+    <value>Retrieve one or more parts (directory, filename, extension, etc.) from a text that represents a file path</value>
+  </data>
+  <data name="GetPathPart_Directory_Description" xml:space="preserve">
+    <value>The directory of the source file</value>
+  </data>
+  <data name="GetPathPart_Directory_FriendlyName" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="GetPathPart_Extension_Description" xml:space="preserve">
+    <value>The extension (for example, .doc) of the source file</value>
+  </data>
+  <data name="GetPathPart_Extension_FriendlyName" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="GetPathPart_File_Description" xml:space="preserve">
+    <value>The file path to use as the source</value>
+  </data>
+  <data name="GetPathPart_File_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="GetPathPart_FileName_Description" xml:space="preserve">
+    <value>The name of the source file</value>
+  </data>
+  <data name="GetPathPart_FileName_FriendlyName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="GetPathPart_FileNameWithoutExtension_Description" xml:space="preserve">
+    <value>The file name (without the extension) of the source file</value>
+  </data>
+  <data name="GetPathPart_FileNameWithoutExtension_FriendlyName" xml:space="preserve">
+    <value>File name without extension</value>
+  </data>
+  <data name="GetPathPart_FriendlyName" xml:space="preserve">
+    <value>Get file path part</value>
+  </data>
+  <data name="GetPathPart_RootPath_Description" xml:space="preserve">
+    <value>The root path of the source file</value>
+  </data>
+  <data name="GetPathPart_RootPath_FriendlyName" xml:space="preserve">
+    <value>Root path</value>
+  </data>
+  <data name="GetPathPart_Summary" xml:space="preserve">
+    <value>Get any of the root path, directory, file name, file name without extension and extension from file &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="GetTempPath_Description" xml:space="preserve">
+    <value>Create a uniquely named, empty temporary file on disk, and get the file object (which is a representation, and can access the file and all its information)</value>
+  </data>
+  <data name="GetTempPath_FriendlyName" xml:space="preserve">
+    <value>Get temporary file</value>
+  </data>
+  <data name="GetTempPath_Summary" xml:space="preserve">
+    <value>Create a temporary file and store it into &lt;TEMPFILE&gt;</value>
+    <comment>{Locked="&lt;TEMPFILE&gt;"}</comment>
+  </data>
+  <data name="GetTempPath_TempFile_Description" xml:space="preserve">
+    <value>The temporary file object</value>
+  </data>
+  <data name="GetTempPath_TempFile_FriendlyName" xml:space="preserve">
+    <value>Temporary file</value>
+  </data>
+  <data name="IfExists_DoNothing_FriendlyName" xml:space="preserve">
+    <value>Do nothing</value>
+  </data>
+  <data name="IfExists_Overwrite_FriendlyName" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="IfFile_DoesNotExist_FriendlyName" xml:space="preserve">
+    <value>Doesn't exist</value>
+  </data>
+  <data name="IfFile_Exists_FriendlyName" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="Conditionals_IfFileAction_Description" xml:space="preserve">
+    <value>Marks the beginning of a conditional block of actions depending on whether a file exists or not</value>
+  </data>
+  <data name="Conditionals_IfFileAction_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="IfFileAction_CheckMode_Description" xml:space="preserve">
+    <value>The state of the file to check</value>
+  </data>
+  <data name="IfFileAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>If file</value>
+  </data>
+  <data name="IfFileExists_Append_FriendlyName" xml:space="preserve">
+    <value>Append content</value>
+  </data>
+  <data name="IfFileExists_Overwrite_FriendlyName" xml:space="preserve">
+    <value>Overwrite existing content</value>
+  </data>
+  <data name="Move_Description" xml:space="preserve">
+    <value>Move one or more files into a destination folder</value>
+  </data>
+  <data name="Move_Destination_Description" xml:space="preserve">
+    <value>The destination folder for the moved files</value>
+  </data>
+  <data name="Move_Destination_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="Move_Files_Description" xml:space="preserve">
+    <value>The file(s) to move. This can be a file path, or a variable containing a file, a list of files, a textual path, or a list of text paths. Use the 'Get files in folder' action to populate a variable with a list of files</value>
+  </data>
+  <data name="Move_Files_FriendlyName" xml:space="preserve">
+    <value>File(s) to move</value>
+  </data>
+  <data name="Move_FriendlyName" xml:space="preserve">
+    <value>Move file(s)</value>
+  </data>
+  <data name="Move_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies what to do if a file with the same name already exists in the destination folder</value>
+  </data>
+  <data name="Move_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="Move_MovedFiles_Description" xml:space="preserve">
+    <value>The moved file(s) as a list of files</value>
+  </data>
+  <data name="Move_MovedFiles_FriendlyName" xml:space="preserve">
+    <value>Moved files</value>
+  </data>
+  <data name="Move_Summary" xml:space="preserve">
+    <value>Move the file(s) &lt;FILES&gt; into &lt;DESTINATION&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;DESTINATION&gt;"}</comment>
+  </data>
+  <data name="OverwriteWithSequentialSuffix_Description" xml:space="preserve">
+    <value>Changes the name of one or more files and adds a sequential suffix</value>
+  </data>
+  <data name="OverwriteWithSequentialSuffix_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by adding a sequence member starting from &lt;STARTNUMBERINGAT&gt; and incremented by &lt;INCREMENTBY&gt; to &lt;SEQUENCENEWNAME&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;STARTNUMBERINGAT&gt;"}{Locked="&lt;INCREMENTBY&gt;"}{Locked="&lt;SEQUENCENEWNAME&gt;"}</comment>
+  </data>
+  <data name="ReadCSV_Description" xml:space="preserve">
+    <value>Read a CSV file into a data table</value>
+  </data>
+  <data name="ReadCSV_Summary" xml:space="preserve">
+    <value>Load CSV table from file &lt;CSVFILE&gt;</value>
+    <comment>{Locked="&lt;CSVFILE&gt;"}</comment>
+  </data>
+  <data name="ReadCSVWithCustomSeparator_Description" xml:space="preserve">
+    <value>Read a CSV file with custom separators into a data table</value>
+  </data>
+  <data name="ReadCSVWithCustomSeparator_Summary" xml:space="preserve">
+    <value>Load CSV table from file &lt;CSVFILE&gt;</value>
+    <comment>{Locked="&lt;CSVFILE&gt;"}</comment>
+  </data>
+  <data name="ReadCSVWithFixedColumnWidths_Description" xml:space="preserve">
+    <value>Read a CSV file with fixed column widths into a data table</value>
+  </data>
+  <data name="ReadCSVWithFixedColumnWidths_Summary" xml:space="preserve">
+    <value>Load CSV table from file &lt;CSVFILE&gt;</value>
+    <comment>{Locked="&lt;CSVFILE&gt;"}</comment>
+  </data>
+  <data name="ReadFromCSVFile_ColumnsSeparator_Description" xml:space="preserve">
+    <value>The column-separator to parse the the CSV file</value>
+  </data>
+  <data name="ReadFromCSVFile_ColumnsSeparator_FriendlyName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="ReadFromCSVFile_ColumnsSeparatorType_Description" xml:space="preserve">
+    <value>Specifies whether to use a predefined columns separator, a custom one or fixed column widths</value>
+  </data>
+  <data name="ReadFromCSVFile_ColumnsSeparatorType_FriendlyName" xml:space="preserve">
+    <value>Columns separator</value>
+  </data>
+  <data name="ReadFromCSVFile_CSVFile_Description" xml:space="preserve">
+    <value>The CSV file to read. This can be a file path, or a variable containing a file or a textual path</value>
+  </data>
+  <data name="ReadFromCSVFile_CSVFile_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="ReadFromCSVFile_CSVTable_Description" xml:space="preserve">
+    <value>The contents of the CSV file as a data table</value>
+  </data>
+  <data name="ReadFromCSVFile_CSVTable_FriendlyName" xml:space="preserve">
+    <value>CSV table</value>
+  </data>
+  <data name="ReadFromCSVFile_CustomColumnsSeparator_Description" xml:space="preserve">
+    <value>The custom column-separator to use for parsing the CSV resource specified</value>
+  </data>
+  <data name="ReadFromCSVFile_CustomColumnsSeparator_FriendlyName" xml:space="preserve">
+    <value>Custom separator</value>
+  </data>
+  <data name="ReadFromCSVFile_Description" xml:space="preserve">
+    <value>Read a CSV file into a data table</value>
+  </data>
+  <data name="ReadFromCSVFile_Encoding_Description" xml:space="preserve">
+    <value>The encoding to use for reading the specified CSV file</value>
+  </data>
+  <data name="ReadFromCSVFile_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="ReadFromCSVFile_FirstLineContainsColumnNames_Description" xml:space="preserve">
+    <value>Specifies whether to use the first row of the CSV resource to set the column names of the resulting data table. Enable this option to avoid reading the names as data into the table. Subsequent actions may access the data held by the data table using column names (instead of column numbers)</value>
+  </data>
+  <data name="ReadFromCSVFile_FirstLineContainsColumnNames_FriendlyName" xml:space="preserve">
+    <value>First line contains column names</value>
+  </data>
+  <data name="ReadFromCSVFile_FixedColumnWidths_Description" xml:space="preserve">
+    <value>The fixed column-widths to use for parsing the CSV resource specified. Separate the widths using commas, spaces, tabs or newlines</value>
+  </data>
+  <data name="ReadFromCSVFile_FixedColumnWidths_FriendlyName" xml:space="preserve">
+    <value>Fixed column widths</value>
+  </data>
+  <data name="ReadFromCSVFile_FriendlyName" xml:space="preserve">
+    <value>Read from CSV file</value>
+  </data>
+  <data name="ReadFromCSVFile_TrimFields_Description" xml:space="preserve">
+    <value>Specifies whether to automatically trim off the leading and trailing whitespaces of the extracted cells</value>
+  </data>
+  <data name="ReadFromCSVFile_TrimFields_FriendlyName" xml:space="preserve">
+    <value>Trim fields</value>
+  </data>
+  <data name="ReadText_Description" xml:space="preserve">
+    <value>Read the contents of a text file as text</value>
+  </data>
+  <data name="ReadText_Summary" xml:space="preserve">
+    <value>&lt;if(CONTENT)&gt;Read contents of file &lt;FILE&gt; and store it into &lt;CONTENT&gt;&lt;else&gt;
+Read contents of file &lt;FILE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}{Locked="&lt;if(CONTENT)&gt;"}{Locked="&lt;CONTENT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="ReadTextAs_List_FriendlyName" xml:space="preserve">
+    <value>List (each is a list item)</value>
+  </data>
+  <data name="ReadTextAs_SingleTextValue_FriendlyName" xml:space="preserve">
+    <value>Single text value</value>
+  </data>
+  <data name="ReadTextAsList_Description" xml:space="preserve">
+    <value>Read the contents of a text file as a list</value>
+  </data>
+  <data name="ReadTextAsList_Summary" xml:space="preserve">
+    <value>&lt;if(CONTENT)&gt;Read contents of file &lt;FILE&gt; and store it into &lt;CONTENT&gt;&lt;else&gt;
+Read contents of file &lt;FILE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}{Locked="&lt;if(CONTENTS)&gt;"}{Locked="&lt;CONTENTS&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ReadTextFromFile_Content_Description" xml:space="preserve">
+    <value>The contents as a text</value>
+  </data>
+  <data name="ReadTextFromFile_Content_FriendlyName" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="ReadTextFromFile_Contents_Description" xml:space="preserve">
+    <value>The contents as a list of texts</value>
+  </data>
+  <data name="ReadTextFromFile_Contents_FriendlyName" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="ReadTextFromFile_Description" xml:space="preserve">
+    <value>Read the contents of a text file</value>
+  </data>
+  <data name="ReadTextFromFile_Encoding_Description" xml:space="preserve">
+    <value>The encoding to read the specified text from the text file with.</value>
+  </data>
+  <data name="ReadTextFromFile_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="ReadTextFromFile_File_Description" xml:space="preserve">
+    <value>The file to read</value>
+  </data>
+  <data name="ReadTextFromFile_File_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="ReadTextFromFile_FriendlyName" xml:space="preserve">
+    <value>Read text from file</value>
+  </data>
+  <data name="ReadTextFromFile_StoreContentAs_Description" xml:space="preserve">
+    <value>Specifies how to store the text. Choose 'Single text value' to store the entire text as a single text value. Choose 'List' to store each line of the original text as a text item in a list</value>
+  </data>
+  <data name="ReadTextFromFile_StoreContentAs_FriendlyName" xml:space="preserve">
+    <value>Store content as</value>
+  </data>
+  <data name="Rename_Description" xml:space="preserve">
+    <value>Change the name of one or more files</value>
+  </data>
+  <data name="Rename_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; to &lt;NEWNAME&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;NEWNAME&gt;"}</comment>
+  </data>
+  <data name="RenameAddCustomDateTime_Description" xml:space="preserve">
+    <value>Change the name of one or more files by adding a custom datetime</value>
+  </data>
+  <data name="RenameAddCustomDateTime_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by adding a datetime to the file name</value>
+    <comment>{Locked="&lt;FILES&gt;"}</comment>
+  </data>
+  <data name="RenameAddDateOrTime_Description" xml:space="preserve">
+    <value>Change the name of one or more files by adding a datetime</value>
+  </data>
+  <data name="RenameAddDateOrTime_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by adding a datetime to the file name</value>
+    <comment>{Locked="&lt;FILES&gt;"}</comment>
+  </data>
+  <data name="RenameAddSequentialSuffix_Description" xml:space="preserve">
+    <value>Change the name of one or more files by adding a sequential suffix</value>
+  </data>
+  <data name="RenameAddSequentialSuffix_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by adding a sequence member starting from &lt;STARTNUMBERINGAT&gt; and incremented by &lt;INCREMENTBY&gt; to the existing file name</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;STARTNUMBERINGAT&gt;"}{Locked="&lt;INCREMENTBY&gt;"}</comment>
+  </data>
+  <data name="RenameAddText_Description" xml:space="preserve">
+    <value>Change the name of one or more files by adding some text</value>
+  </data>
+  <data name="RenameAddText_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by adding the text &lt;TEXTTOADD&gt; to the file name</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;TEXTTOADD&gt;"}</comment>
+  </data>
+  <data name="RenameChangeExtension_Description" xml:space="preserve">
+    <value>Change the name of one or more files by changing the extension</value>
+  </data>
+  <data name="RenameChangeExtension_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by changing the extension to &lt;NEWEXTENSION&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;NEWEXTENSION&gt;"}</comment>
+  </data>
+  <data name="RenameFiles_CustomDateTime_Description" xml:space="preserve">
+    <value>The datetime to add to the file name(s)</value>
+  </data>
+  <data name="RenameFiles_CustomDateTime_FriendlyName" xml:space="preserve">
+    <value>Custom datetime</value>
+  </data>
+  <data name="RenameFiles_DateTimeFormat_Description" xml:space="preserve">
+    <value>The format of the datetime value to add to the file name, such as MM/dd/yyyy for date, and hh:mm:sstt for time</value>
+  </data>
+  <data name="RenameFiles_DateTimeFormat_FriendlyName" xml:space="preserve">
+    <value>Datetime format</value>
+  </data>
+  <data name="RenameFiles_DateTimePosition_Description" xml:space="preserve">
+    <value>Specifies whether to add the datetime before or after the original name(s)</value>
+  </data>
+  <data name="RenameFiles_DateTimePosition_FriendlyName" xml:space="preserve">
+    <value>Add datetime</value>
+  </data>
+  <data name="RenameFiles_DateTimeSeparator_Description" xml:space="preserve">
+    <value>Specifies what to use to separate the original file name and the datetime value added, including the option to not use a separator</value>
+  </data>
+  <data name="RenameFiles_DateTimeSeparator_FriendlyName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="RenameFiles_DateTimeToAdd_Description" xml:space="preserve">
+    <value>Specifies what datetime value to add to the file name(s)</value>
+  </data>
+  <data name="RenameFiles_DateTimeToAdd_FriendlyName" xml:space="preserve">
+    <value>Datetime to add</value>
+  </data>
+  <data name="RenameFiles_Description" xml:space="preserve">
+    <value>Change the name of one or more files</value>
+  </data>
+  <data name="RenameFiles_Files_Description" xml:space="preserve">
+    <value>The file(s) to rename. This can be a file path, or a variable containing a file, a list of files, a text path, or a list of text paths. Use the 'Get files in folder' action to populate a variable with a list of files</value>
+  </data>
+  <data name="RenameFiles_Files_FriendlyName" xml:space="preserve">
+    <value>File to rename</value>
+  </data>
+  <data name="RenameFiles_FriendlyName" xml:space="preserve">
+    <value>Rename file(s)</value>
+  </data>
+  <data name="RenameFiles_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies what to do if a file with the same name already exists in the folder</value>
+  </data>
+  <data name="RenameFiles_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="RenameFiles_IncrementBy_Description" xml:space="preserve">
+    <value>The number to increment the starting value by</value>
+  </data>
+  <data name="RenameFiles_IncrementBy_FriendlyName" xml:space="preserve">
+    <value>Increment by</value>
+  </data>
+  <data name="RenameFiles_KeepExtension_Description" xml:space="preserve">
+    <value>Specifies whether to include the previous extension with the file name(s). Disable this option to add the extension to the file(s) manually</value>
+  </data>
+  <data name="RenameFiles_KeepExtension_FriendlyName" xml:space="preserve">
+    <value>Keep extension</value>
+  </data>
+  <data name="RenameFiles_NewExtension_Description" xml:space="preserve">
+    <value>The text to add as the new extension for the file(s)</value>
+  </data>
+  <data name="RenameFiles_NewExtension_FriendlyName" xml:space="preserve">
+    <value>New extension</value>
+  </data>
+  <data name="RenameFiles_NewName_Description" xml:space="preserve">
+    <value>The new name of the file(s)</value>
+  </data>
+  <data name="RenameFiles_NewName_FriendlyName" xml:space="preserve">
+    <value>New file name</value>
+  </data>
+  <data name="RenameFiles_Padding_Description" xml:space="preserve">
+    <value>The minimum length for each number added</value>
+  </data>
+  <data name="RenameFiles_Padding_FriendlyName" xml:space="preserve">
+    <value>Make each number at least</value>
+  </data>
+  <data name="RenameFiles_RenamedFiles_Description" xml:space="preserve">
+    <value>The renamed file(s) as a list of files</value>
+  </data>
+  <data name="RenameFiles_RenamedFiles_FriendlyName" xml:space="preserve">
+    <value>Renamed files</value>
+  </data>
+  <data name="RenameFiles_RenameScheme_Description" xml:space="preserve">
+    <value>Specifies how to rename the file(s)</value>
+  </data>
+  <data name="RenameFiles_RenameScheme_FriendlyName" xml:space="preserve">
+    <value>Rename scheme</value>
+  </data>
+  <data name="RenameFiles_ReplaceWith_Description" xml:space="preserve">
+    <value>The text to replace the original text with</value>
+  </data>
+  <data name="RenameFiles_ReplaceWith_FriendlyName" xml:space="preserve">
+    <value>Replace with</value>
+  </data>
+  <data name="RenameFiles_SequenceNewName_Description" xml:space="preserve">
+    <value>The new name of the file(s)</value>
+  </data>
+  <data name="RenameFiles_SequenceNewName_FriendlyName" xml:space="preserve">
+    <value>New file name</value>
+  </data>
+  <data name="RenameFiles_SequencePosition_Description" xml:space="preserve">
+    <value>Specifies whether to add the number before or after the original name(s) or a new base name</value>
+  </data>
+  <data name="RenameFiles_SequencePosition_FriendlyName" xml:space="preserve">
+    <value>Add number to</value>
+  </data>
+  <data name="RenameFiles_SequenceSeparator_Description" xml:space="preserve">
+    <value>Specifies what to use to separate the original file name and the number added, including the option to not use a separator</value>
+  </data>
+  <data name="RenameFiles_SequenceSeparator_FriendlyName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="RenameFiles_SequenceUseExistingName_Description" xml:space="preserve">
+    <value>Specifies whether to add the number to the existing file name(s) or a new name</value>
+  </data>
+  <data name="RenameFiles_SequenceUseExistingName_FriendlyName" xml:space="preserve">
+    <value>Add number to</value>
+  </data>
+  <data name="RenameFiles_StartNumberingAt_Description" xml:space="preserve">
+    <value>The starting number value</value>
+  </data>
+  <data name="RenameFiles_StartNumberingAt_FriendlyName" xml:space="preserve">
+    <value>Start numbering at</value>
+  </data>
+  <data name="RenameFiles_TextPosition_Description" xml:space="preserve">
+    <value>Specifies whether to add the text before or after the original name(s)</value>
+  </data>
+  <data name="RenameFiles_TextPosition_FriendlyName" xml:space="preserve">
+    <value>Add text</value>
+  </data>
+  <data name="RenameFiles_TextToAdd_Description" xml:space="preserve">
+    <value>The text to add to the original file name(s)</value>
+  </data>
+  <data name="RenameFiles_TextToAdd_FriendlyName" xml:space="preserve">
+    <value>Text to add</value>
+  </data>
+  <data name="RenameFiles_TextToRemove_Description" xml:space="preserve">
+    <value>The text to remove from the original file name(s). This rename scheme searches each file name, and removes the entered text anywhere in the name, each time it occurs</value>
+  </data>
+  <data name="RenameFiles_TextToRemove_FriendlyName" xml:space="preserve">
+    <value>Text to remove</value>
+  </data>
+  <data name="RenameFiles_TextToReplace_Description" xml:space="preserve">
+    <value>The text to replace in the original file name(s). This rename scheme searches each file name, and replaces the entered text anywhere in the name, each time it occurs</value>
+  </data>
+  <data name="RenameFiles_TextToReplace_FriendlyName" xml:space="preserve">
+    <value>Text to replace</value>
+  </data>
+  <data name="RenameFiles_UseCustomDateTime_Description" xml:space="preserve">
+    <value>Specifies whether to use a custom datetime</value>
+  </data>
+  <data name="RenameFiles_UseCustomDateTime_FriendlyName" xml:space="preserve">
+    <value>Use custom datetime</value>
+  </data>
+  <data name="RenameFiles_UsePadding_Description" xml:space="preserve">
+    <value>Specifies whether to use padding</value>
+  </data>
+  <data name="RenameFiles_UsePadding_FriendlyName" xml:space="preserve">
+    <value>Use padding</value>
+  </data>
+  <data name="RenameRemoveText_Description" xml:space="preserve">
+    <value>Change the name of one or more files by removing some text</value>
+  </data>
+  <data name="RenameRemoveText_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by removing the text &lt;TEXTTOREMOVE&gt; from the file name</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;TEXTTOREMOVE&gt;"}</comment>
+  </data>
+  <data name="RenameReplaceText_Description" xml:space="preserve">
+    <value>Change the name of one or more files by replacing some text</value>
+  </data>
+  <data name="RenameReplaceText_Summary" xml:space="preserve">
+    <value>Rename the file(s) &lt;FILES&gt; by replacing &lt;TEXTTOREPLACE&gt; with &lt;REPLACEWITH&gt; in the file name</value>
+    <comment>{Locked="&lt;FILES&gt;"}{Locked="&lt;TEXTTOREPLACE&gt;"}{Locked="&lt;REPLACEWITH&gt;"}</comment>
+  </data>
+  <data name="RenameScheme_AddDateTime_FriendlyName" xml:space="preserve">
+    <value>Add datetime</value>
+  </data>
+  <data name="RenameScheme_AddText_FriendlyName" xml:space="preserve">
+    <value>Add text</value>
+  </data>
+  <data name="RenameScheme_ChangeExtension_FriendlyName" xml:space="preserve">
+    <value>Change extension</value>
+  </data>
+  <data name="RenameScheme_MakeSequential_FriendlyName" xml:space="preserve">
+    <value>Make sequential</value>
+  </data>
+  <data name="RenameScheme_RemoveText_FriendlyName" xml:space="preserve">
+    <value>Remove text</value>
+  </data>
+  <data name="RenameScheme_ReplaceText_FriendlyName" xml:space="preserve">
+    <value>Replace text</value>
+  </data>
+  <data name="RenameScheme_SetNewName_FriendlyName" xml:space="preserve">
+    <value>Set new name</value>
+  </data>
+  <data name="Separator_Dash_FriendlyName" xml:space="preserve">
+    <value>Dash</value>
+  </data>
+  <data name="Separator_Nothing_FriendlyName" xml:space="preserve">
+    <value>Nothing</value>
+  </data>
+  <data name="Separator_Period_FriendlyName" xml:space="preserve">
+    <value>Period</value>
+  </data>
+  <data name="Separator_Space_FriendlyName" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="Separator_Underscore_FriendlyName" xml:space="preserve">
+    <value>Underscore</value>
+  </data>
+  <data name="TextFileEncoding_ANSI_FriendlyName" xml:space="preserve">
+    <value>ANSI</value>
+    <comment>{Locked="ANSI"}</comment>
+  </data>
+  <data name="TextFileEncoding_BigEndianUnicode_FriendlyName" xml:space="preserve">
+    <value>Unicode (big-endian)</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="TextFileEncoding_DefaultEncoding_FriendlyName" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="TextFileEncoding_Unicode_FriendlyName" xml:space="preserve">
+    <value>Unicode</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="TextFileEncoding_UTF8_FriendlyName" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="WaitForFile_ToBeCreated_FriendlyName" xml:space="preserve">
+    <value>Created</value>
+  </data>
+  <data name="WaitForFile_ToBeDeleted_FriendlyName" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="Wait_WaitForFileAction_Description" xml:space="preserve">
+    <value>Suspend running the flow until a file is created or deleted</value>
+  </data>
+  <data name="Wait_WaitForFileAction_FriendlyName" xml:space="preserve">
+    <value>Wait for file</value>
+  </data>
+  <data name="WaitForFileAction_WaitFor_Description" xml:space="preserve">
+    <value>Specifies whether to pause the flow on the creation or deletion of a certain file</value>
+  </data>
+  <data name="WaitForFileAction_WaitFor_FriendlyName" xml:space="preserve">
+    <value>Wait for file to be</value>
+  </data>
+  <data name="WriteCSV_Description" xml:space="preserve">
+    <value>Write a data table, data row or list to a CSV file</value>
+  </data>
+  <data name="WriteCSV_Summary" xml:space="preserve">
+    <value>Write CSV table &lt;VARIABLETOWRITE&gt; to file &lt;CSVFILE&gt;</value>
+    <comment>{Locked="&lt;VARIABLETOWRITE&gt;"}{Locked="&lt;CSVFILE&gt;"}</comment>
+  </data>
+  <data name="WriteCSVWithCustomSeparator_Description" xml:space="preserve">
+    <value>Write a data table, data row or list to a CSV file</value>
+  </data>
+  <data name="WriteCSVWithCustomSeparator_Summary" xml:space="preserve">
+    <value>Write CSV table &lt;VARIABLETOWRITE&gt; to file &lt;CSVFILE&gt;</value>
+    <comment>{Locked="&lt;VARIABLETOWRITE&gt;"}{Locked="&lt;CSVFILE&gt;"}</comment>
+  </data>
+  <data name="WriteText_AppendNewLine_Description" xml:space="preserve">
+    <value>Specifies whether to append a new line at the end of the overall text to write to the file</value>
+  </data>
+  <data name="WriteText_AppendNewLine_FriendlyName" xml:space="preserve">
+    <value>Append new line</value>
+  </data>
+  <data name="WriteText_Description" xml:space="preserve">
+    <value>Write or appends text to a file</value>
+  </data>
+  <data name="WriteText_Encoding_Description" xml:space="preserve">
+    <value>The encoding to use for the specified text to write into the text file</value>
+  </data>
+  <data name="WriteText_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="WriteText_File_Description" xml:space="preserve">
+    <value>The file to which to write the text. This can be a file path, or a variable containing a file or a textual path</value>
+  </data>
+  <data name="WriteText_File_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="WriteText_FriendlyName" xml:space="preserve">
+    <value>Write text to file</value>
+  </data>
+  <data name="WriteText_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies whether to overwrite the existing content, or to append to the end of the existing content. If the file doesn't exist, this action automatically creates it</value>
+  </data>
+  <data name="WriteText_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="WriteText_Summary" xml:space="preserve">
+    <value>Write &lt;TEXTTOWRITE&gt; to &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;TEXTTOWRITE&gt;"}{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="WriteText_TextToWrite_Description" xml:space="preserve">
+    <value>The text to write in the specified file</value>
+  </data>
+  <data name="WriteText_TextToWrite_FriendlyName" xml:space="preserve">
+    <value>Text to write</value>
+  </data>
+  <data name="WriteToCSVFile_ColumnsSeparator_Description" xml:space="preserve">
+    <value>The column separator to use in the specified CSV file</value>
+  </data>
+  <data name="WriteToCSVFile_ColumnsSeparator_FriendlyName" xml:space="preserve">
+    <value>Separator</value>
+  </data>
+  <data name="WriteToCSVFile_CSVFile_Description" xml:space="preserve">
+    <value>The CSV file to export the variable to. This can be a file path, or a variable containing a file or a textual path</value>
+  </data>
+  <data name="WriteToCSVFile_CSVFile_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="WriteToCSVFile_CsvFileEncoding_Description" xml:space="preserve">
+    <value>The encoding to use for writing to the specified CSV file </value>
+  </data>
+  <data name="WriteToCSVFile_CsvFileEncoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="WriteToCSVFile_CustomColumnsSeparator_Description" xml:space="preserve">
+    <value>The custom column separator to use in the CSV file</value>
+  </data>
+  <data name="WriteToCSVFile_CustomColumnsSeparator_FriendlyName" xml:space="preserve">
+    <value>Custom columns separator</value>
+  </data>
+  <data name="WriteToCSVFile_Description" xml:space="preserve">
+    <value>Write a data table, data row or list to a CSV file</value>
+  </data>
+  <data name="WriteToCSVFile_FriendlyName" xml:space="preserve">
+    <value>Write to CSV file</value>
+  </data>
+  <data name="WriteToCSVFile_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies the desired behavior when the targeted CSV file already exists in the filesystem</value>
+  </data>
+  <data name="WriteToCSVFile_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="WriteToCSVFile_IncludeColumnNames_Description" xml:space="preserve">
+    <value>Specifies whether the column names of the variant specified should become the very first row of the CSV file. This option only takes effect if the target CSV file either doesn't initially exist or exists but is otherwise empty of text</value>
+  </data>
+  <data name="WriteToCSVFile_IncludeColumnNames_FriendlyName" xml:space="preserve">
+    <value>Include column names</value>
+  </data>
+  <data name="WriteToCSVFile_UseCustomSeparator_Description" xml:space="preserve">
+    <value>Specifies whether to use a custom columns separator or a predefined one</value>
+  </data>
+  <data name="WriteToCSVFile_UseCustomSeparator_FriendlyName" xml:space="preserve">
+    <value>Use custom columns separator</value>
+  </data>
+  <data name="WriteToCSVFile_VariableToWrite_Description" xml:space="preserve">
+    <value>The data table, data row variable or list variable to write into the target CSV file</value>
+  </data>
+  <data name="WriteToCSVFile_VariableToWrite_FriendlyName" xml:space="preserve">
+    <value>Variable to write</value>
+  </data>
+  <data name="ErrorMessage_CannotCopyFileToLocation" xml:space="preserve">
+    <value>Can't copy file {0} into {1}</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotDeleteFile" xml:space="preserve">
+    <value>Can't delete file {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotRenameFile" xml:space="preserve">
+    <value>Can't rename file</value>
+  </data>
+  <data name="ErrorMessage_DestinationFolderNotFound" xml:space="preserve">
+    <value>Destination folder {0} doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DirectoryNotFound" xml:space="preserve">
+    <value>Directory {0} not found</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToImportEmptyString" xml:space="preserve">
+    <value>Import failed. The fixed-widths string passed to the action is empty</value>
+  </data>
+  <data name="ErrorMessage_FailedToImportInvalidString" xml:space="preserve">
+    <value>Import failed. The fixed-widths string {0} is invalid</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToImportSeparatorError" xml:space="preserve">
+    <value>Import failed. The custom separator specified is empty</value>
+  </data>
+  <data name="ErrorMessage_FailedToReadText" xml:space="preserve">
+    <value>Failed to read text from file {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToWriteText" xml:space="preserve">
+    <value>Failed to write text to file</value>
+  </data>
+  <data name="ErrorMessage_FileNotFound" xml:space="preserve">
+    <value>File {0} not found</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FilePathDoesNotExist" xml:space="preserve">
+    <value>File path doesn't exist</value>
+  </data>
+  <data name="ErrorMessage_FileToCopyNotFound" xml:space="preserve">
+    <value>File to copy not found</value>
+  </data>
+  <data name="ErrorMessage_FileToDeleteNotFound" xml:space="preserve">
+    <value>File to delete not found</value>
+  </data>
+  <data name="ErrorMessage_FileToRenameNotFound" xml:space="preserve">
+    <value>File to rename not found</value>
+  </data>
+  <data name="ErrorMessage_FolderDoesNotExist" xml:space="preserve">
+    <value>Folder doesn't exist</value>
+  </data>
+  <data name="ErrorMessage_IllegalPathForm" xml:space="preserve">
+    <value>File path {0} isn't of a legal form.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ImportFailedParseError" xml:space="preserve">
+    <value>Import failed. Error while parsing</value>
+  </data>
+  <data name="ErrorMessage_InvalidDirectorySpecified" xml:space="preserve">
+    <value>Invalid directory specified {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SourceFolderDoesNotExist" xml:space="preserve">
+    <value>Source folder doesn't exist</value>
+  </data>
+  <data name="ErrorMessage_TempFileCreationFailed" xml:space="preserve">
+    <value>Failed to create temporary file.</value>
+  </data>
+  <data name="ErrorMessage_FileToMoveNotFound" xml:space="preserve">
+    <value>File to move not found</value>
+  </data>
+  <data name="ErrorMessage_CannotMoveFile" xml:space="preserve">
+    <value>Can't move file {0} into {1}</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_WrongExportType" xml:space="preserve">
+    <value>The variable to export must be a data table, data row or list</value>
+  </data>
+  <data name="ErrorMessage_ExportFailedInvalidSeparator" xml:space="preserve">
+    <value>Export failed. The custom separator specified is empty or contains newlines</value>
+  </data>
+  <data name="ErrorMessage_ExportFailed" xml:space="preserve">
+    <value>Export failed</value>
+  </data>
+</root>

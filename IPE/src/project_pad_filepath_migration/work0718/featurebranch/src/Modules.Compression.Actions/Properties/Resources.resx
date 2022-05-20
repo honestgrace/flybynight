@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CompressionLevel_BestBalanceOfSpeedAndCompression_FriendlyName" xml:space="preserve">
+    <value>Best balance of speed and compression</value>
+  </data>
+  <data name="CompressionLevel_BestCompression_FriendlyName" xml:space="preserve">
+    <value>Best compression</value>
+  </data>
+  <data name="CompressionLevel_BestSpeed_FriendlyName" xml:space="preserve">
+    <value>Best speed</value>
+  </data>
+  <data name="CompressionLevel_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Compression_Description" xml:space="preserve">
+    <value>Zip or unzip files from archives</value>
+  </data>
+  <data name="Compression_FriendlyName" xml:space="preserve">
+    <value>Compression</value>
+  </data>
+  <data name="ErrorMessage_ArchiveExistsButIsInvalid" xml:space="preserve">
+    <value>'{0}' already exists but it isn't a valid ZIP archive</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ArchiveNotFound" xml:space="preserve">
+    <value>Archive '{0}' not found</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotCreateFolder" xml:space="preserve">
+    <value>Can't create destination folder '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToUnzip" xml:space="preserve">
+    <value>Failed to unzip files</value>
+  </data>
+  <data name="ErrorMessage_FailedToZip" xml:space="preserve">
+    <value>Failed to zip files</value>
+  </data>
+  <data name="ErrorMessage_InvalidArchive" xml:space="preserve">
+    <value>'{0}' isn't a valid ZIP archive or a parameter isn't set</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidFileName" xml:space="preserve">
+    <value>File name '{0}' is invalid</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidFolderName" xml:space="preserve">
+    <value>Folder name '{0}' is invalid</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Error_ArchiveExistsInvalidError_Description" xml:space="preserve">
+    <value>Indicates that the archive already exists but it isn't a valid ZIP archive</value>
+  </data>
+  <data name="Error_ArchiveExistsInvalidError_FriendlyName" xml:space="preserve">
+    <value>Archive already exists but it isn't a valid ZIP archive</value>
+  </data>
+  <data name="Error_ArchiveNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the archive doesn't exist</value>
+  </data>
+  <data name="Error_ArchiveNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Archive not found</value>
+  </data>
+  <data name="Error_CreateFolderError_Description" xml:space="preserve">
+    <value>Indicates that the destination folder couldn't be created</value>
+  </data>
+  <data name="Error_CreateFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't create destination folder</value>
+  </data>
+  <data name="Error_FileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified file or folder doesn't exist</value>
+  </data>
+  <data name="Error_FileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File or folder doesn't exist</value>
+  </data>
+  <data name="Error_InvalidArchiveError_Description" xml:space="preserve">
+    <value>Indicates that the archive isn't a valid ZIP file</value>
+  </data>
+  <data name="Error_InvalidArchiveError_FriendlyName" xml:space="preserve">
+    <value>Archive isn't a valid ZIP file</value>
+  </data>
+  <data name="Error_InvalidFileError_Description" xml:space="preserve">
+    <value>Indicates that the file or folder name is invalid</value>
+  </data>
+  <data name="Error_InvalidFileError_FriendlyName" xml:space="preserve">
+    <value>File or folder name is invalid</value>
+  </data>
+  <data name="Error_UnzipError_Description" xml:space="preserve">
+    <value>Indicates a problem unzipping the files</value>
+  </data>
+  <data name="Error_UnzipError_FriendlyName" xml:space="preserve">
+    <value>Failed to unzip files</value>
+  </data>
+  <data name="Error_ZipError_Description" xml:space="preserve">
+    <value>Indicates a problem zipping the files</value>
+  </data>
+  <data name="Error_ZipError_FriendlyName" xml:space="preserve">
+    <value>Failed to zip files</value>
+  </data>
+  <data name="UnzipFiles_ArchivePath_Description" xml:space="preserve">
+    <value>The full path of a ZIP file to extract</value>
+  </data>
+  <data name="UnzipFiles_ArchivePath_FriendlyName" xml:space="preserve">
+    <value>Archive path</value>
+  </data>
+  <data name="UnzipFiles_Description" xml:space="preserve">
+    <value>Uncompress one or more files or folders contained in a ZIP archive</value>
+  </data>
+  <data name="UnzipFiles_DestinationFolder_Description" xml:space="preserve">
+    <value>The full path of the folder to extract the archive to. This overwrites files in the folder with the same name as a file in the archive</value>
+  </data>
+  <data name="UnzipFiles_DestinationFolder_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="UnzipFiles_ExcludeMask_Description" xml:space="preserve">
+    <value>Specify the filter to limit the extracted files. This allows wild cards, for example, '*.txt' or 'document?.doc' (without the quotes). To allow multiple file filters, separate the choices with a semi-colon, for instance, '*.txt;*.exe'</value>
+  </data>
+  <data name="UnzipFiles_ExcludeMask_FriendlyName" xml:space="preserve">
+    <value>Exclude mask</value>
+  </data>
+  <data name="UnzipFiles_FriendlyName" xml:space="preserve">
+    <value>Unzip files</value>
+  </data>
+  <data name="UnzipFiles_IncludeMask_Description" xml:space="preserve">
+    <value>The filter to limit the files extracted to those entered here. This allows wild cards, for example '*.txt' or 'document?.doc' (without the quotes). To allow multiple file filters, separate the choices with a semi-colon, for instance, '*.txt;*.exe'</value>
+  </data>
+  <data name="UnzipFiles_IncludeMask_FriendlyName" xml:space="preserve">
+    <value>Include mask</value>
+  </data>
+  <data name="UnzipFiles_Password_Description" xml:space="preserve">
+    <value>The password, if any, that is used for this archive. If the ZIP file isn't password-protected, leave this blank</value>
+  </data>
+  <data name="UnzipFiles_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="UnzipFiles_Summary" xml:space="preserve">
+    <value>Unzip the file(s) from &lt;ARCHIVEPATH&gt; into &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;ARCHIVEPATH&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="ZipFiles_ArchiveComment_Description" xml:space="preserve">
+    <value>The comment to include in the ZIP file as a file property</value>
+  </data>
+  <data name="ZipFiles_ArchiveComment_FriendlyName" xml:space="preserve">
+    <value>Archive comment</value>
+  </data>
+  <data name="ZipFiles_ArchivePath_Description" xml:space="preserve">
+    <value>The full path of ZIP file to create. If the file already exists, this action adds the new zipped files and/or to the existing ZIP file. If the ZIP file already contains a file or folder with the same name, it will be overwritten.</value>
+  </data>
+  <data name="ZipFiles_ArchivePath_FriendlyName" xml:space="preserve">
+    <value>Archive path</value>
+  </data>
+  <data name="ZipFiles_CompressionLevel_Description" xml:space="preserve">
+    <value>The level of compression to use. The higher the compression the smaller the file, though it takes longer to create or access</value>
+  </data>
+  <data name="ZipFiles_CompressionLevel_FriendlyName" xml:space="preserve">
+    <value>Compression level</value>
+  </data>
+  <data name="ZipFiles_Description" xml:space="preserve">
+    <value>Compress one or more files or folders into a ZIP archive</value>
+  </data>
+  <data name="ZipFiles_FilesOrFoldersToZip_Description" xml:space="preserve">
+    <value>The full path of the file(s) or folder(s) to include in the ZIP file</value>
+  </data>
+  <data name="ZipFiles_FilesOrFoldersToZip_FriendlyName" xml:space="preserve">
+    <value>File(s) to zip</value>
+  </data>
+  <data name="ZipFiles_FriendlyName" xml:space="preserve">
+    <value>ZIP files</value>
+  </data>
+  <data name="ZipFiles_Password_Description" xml:space="preserve">
+    <value>The password to use for protecting the ZIP. Leave this attribute blank to create a non password-protected ZIP</value>
+  </data>
+  <data name="ZipFiles_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ZipFiles_Summary" xml:space="preserve">
+    <value>Zip the file(s)/folder(s) &lt;FILESORFOLDERSTOZIP&gt; into &lt;ARCHIVEPATH&gt;</value>
+    <comment>{Locked="&lt;FILESORFOLDERSTOZIP&gt;"}{Locked="&lt;ARCHIVEPATH&gt;"}</comment>
+  </data>
+  <data name="ZipFiles_ZipFile_Description" xml:space="preserve">
+    <value>The ZIP file created by this action</value>
+  </data>
+  <data name="ZipFiles_ZipFile_FriendlyName" xml:space="preserve">
+    <value>ZIP file</value>
+  </data>
+</root>

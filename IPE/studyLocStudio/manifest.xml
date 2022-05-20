@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<JHKIM>
+<!-- PPowerAutomate -->
+  <!-- Target element="Component" name="Flow-Robin" mode="include" targetCultures="[culturesPowerAutomate41]"/ -->
+  <!-- Target element="Component" name="Flow-PeopleBot" mode="include" targetCultures="[culturesPowerAutomate41]"/ -->
+  <!-- Target element="Area" name="PowerAutomate" mode="include" targetCultures="[culturesPowerAutomate41]" / -->
+  <!-- Target element="Area" name="PowerAutomate" mode="include" targetCultures="[culturesPowerAutomate4]" / -->
+  <!-- Target element="Area" name="PowerAutomate" mode="include" targetCultures="[culturesPowerAutomate11]" / -->
+  <Target element="Area" name="JhkimAreaName" mode="include" targetCultures="[jhkimculture]" />
+</JHKIM>

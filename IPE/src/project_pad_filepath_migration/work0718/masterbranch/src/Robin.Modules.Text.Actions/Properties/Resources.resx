@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppendLine_Description" xml:space="preserve">
+    <value>Appends a new line of text to a text value</value>
+  </data>
+  <data name="AppendLine_FriendlyName" xml:space="preserve">
+    <value>Append line to text</value>
+  </data>
+  <data name="AppendLine_LineToAppend_Description" xml:space="preserve">
+    <value>The text to add on as a new line</value>
+  </data>
+  <data name="AppendLine_LineToAppend_FriendlyName" xml:space="preserve">
+    <value>Line to append</value>
+  </data>
+  <data name="AppendLine_Result_Description" xml:space="preserve">
+    <value>The new text</value>
+  </data>
+  <data name="AppendLine_Result_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="AppendLine_Summary" xml:space="preserve">
+    <value>Append &lt;LINETOAPPEND&gt; to text &lt;TEXT&gt;</value>
+    <comment>{Locked="&lt;LINETOAPPEND&gt;"}{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="AppendLine_Text_Description" xml:space="preserve">
+    <value>The original text</value>
+  </data>
+  <data name="AppendLine_Text_FriendlyName" xml:space="preserve">
+    <value>Original text</value>
+  </data>
+  <data name="CaseOption_LowerCase_FriendlyName" xml:space="preserve">
+    <value>Lower case</value>
+  </data>
+  <data name="CaseOption_SentenceCase_FriendlyName" xml:space="preserve">
+    <value>Sentence case</value>
+  </data>
+  <data name="CaseOption_TitleCase_FriendlyName" xml:space="preserve">
+    <value>Title case</value>
+  </data>
+  <data name="CaseOption_UpperCase_FriendlyName" xml:space="preserve">
+    <value>Upper case</value>
+  </data>
+  <data name="ChangeCase_Description" xml:space="preserve">
+    <value>Changes the casing of a text to uppercase, lowercase, title case or sentence case</value>
+  </data>
+  <data name="ChangeCase_FriendlyName" xml:space="preserve">
+    <value>Change text case</value>
+  </data>
+  <data name="ChangeCase_NewCase_Description" xml:space="preserve">
+    <value>Specify the text case style to use</value>
+  </data>
+  <data name="ChangeCase_NewCase_FriendlyName" xml:space="preserve">
+    <value>Convert to</value>
+  </data>
+  <data name="ChangeCase_Result_Description" xml:space="preserve">
+    <value>The new converted text</value>
+  </data>
+  <data name="ChangeCase_Result_FriendlyName" xml:space="preserve">
+    <value>Text with new case</value>
+  </data>
+  <data name="ChangeCase_Summary" xml:space="preserve">
+    <value>Convert text &lt;TEXT&gt; to &lt;NEWCASE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;NEWCASE&gt;"}</comment>
+  </data>
+  <data name="ChangeCase_Text_Description" xml:space="preserve">
+    <value>The text to convert</value>
+  </data>
+  <data name="ChangeCase_Text_FriendlyName" xml:space="preserve">
+    <value>Text to convert</value>
+  </data>
+  <data name="ConvertDateTimeToText_CustomFormat_Description" xml:space="preserve">
+    <value>The custom format to display the datetime value in. A datetime can be expressed as, for example, MM/dd/yyyy for date and hh:mm:sstt for time</value>
+  </data>
+  <data name="ConvertDateTimeToText_CustomFormat_FriendlyName" xml:space="preserve">
+    <value>Custom Format</value>
+  </data>
+  <data name="ConvertDateTimeToText_DateTime_Description" xml:space="preserve">
+    <value>The datetime value to convert to text</value>
+  </data>
+  <data name="ConvertDateTimeToText_DateTime_FriendlyName" xml:space="preserve">
+    <value>Datetime to convert</value>
+  </data>
+  <data name="ConvertDateTimeToText_Description" xml:space="preserve">
+    <value>Converts a datetime value to text using a specified custom format</value>
+  </data>
+  <data name="ConvertDateTimeToText_Format_Description" xml:space="preserve">
+    <value>Specify whether to use a standard datetime format, or create a custom one</value>
+  </data>
+  <data name="ConvertDateTimeToText_Format_FriendlyName" xml:space="preserve">
+    <value>Format to use</value>
+  </data>
+  <data name="ConvertDateTimeToText_FriendlyName" xml:space="preserve">
+    <value>Convert datetime to text</value>
+  </data>
+  <data name="ConvertDateTimeToText_Result_Description" xml:space="preserve">
+    <value>The formatted datetime as a text value</value>
+  </data>
+  <data name="ConvertDateTimeToText_Result_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ConvertDateTimeToText_StandardFormat_Description" xml:space="preserve">
+    <value>The standard datetime format the action uses to display the datetime value</value>
+  </data>
+  <data name="ConvertDateTimeToText_StandardFormat_FriendlyName" xml:space="preserve">
+    <value>Standard format</value>
+  </data>
+  <data name="ConvertTextToDateTime_CustomFormat_Description" xml:space="preserve">
+    <value>The format in which the date is stored in the text. A custom format can be expressed as, for example, yyyyMMdd for date and hhmmss for time</value>
+  </data>
+  <data name="ConvertTextToDateTime_CustomFormat_FriendlyName" xml:space="preserve">
+    <value>Custom format</value>
+  </data>
+  <data name="ConvertTextToDateTime_DateIsInCustomFormat_Description" xml:space="preserve">
+    <value>Specify whether the text to convert contains a representation of the date and time in a non-standard, non-recognizable format</value>
+  </data>
+  <data name="ConvertTextToDateTime_DateIsInCustomFormat_FriendlyName" xml:space="preserve">
+    <value>Date is represented in custom format</value>
+  </data>
+  <data name="ConvertTextToDateTime_DateTime_Description" xml:space="preserve">
+    <value>The datetime value</value>
+  </data>
+  <data name="ConvertTextToDateTime_DateTime_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ConvertTextToDateTime_Description" xml:space="preserve">
+    <value>Converts a text representation of a date and/or time value to a datetime value</value>
+  </data>
+  <data name="ConvertTextToDateTime_FriendlyName" xml:space="preserve">
+    <value>Convert text to datetime</value>
+  </data>
+  <data name="ConvertTextToDateTime_Text_Description" xml:space="preserve">
+    <value>The text to convert to a datetime value. This text must be in a recognizably datetime value format</value>
+  </data>
+  <data name="ConvertTextToDateTime_Text_FriendlyName" xml:space="preserve">
+    <value>Text to convert</value>
+  </data>
+  <data name="DateTimeConversionFormat_Custom_FriendlyName" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="DateTimeConversionFormat_Standard_FriendlyName" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="Error_InvalidRegexError_Description" xml:space="preserve">
+    <value>Indicates that the provided regular expression is invalid</value>
+  </data>
+  <data name="Error_InvalidRegexError_FriendlyName" xml:space="preserve">
+    <value>Provided regular expression is invalid</value>
+  </data>
+  <data name="Error_StartIndexOrLengthOutOfRangeError_Description" xml:space="preserve">
+    <value>Indicates that the start index or length are out of range</value>
+  </data>
+  <data name="Error_StartIndexOrLengthOutOfRangeError_FriendlyName" xml:space="preserve">
+    <value>Start index or length are out of range</value>
+  </data>
+  <data name="Error_TextNotValidDateTimeError_Description" xml:space="preserve">
+    <value>Indicates that the provided text value can't be converted into a valid datetime</value>
+  </data>
+  <data name="Error_TextNotValidDateTimeError_FriendlyName" xml:space="preserve">
+    <value>Provided text value can't be converted into a valid datetime</value>
+  </data>
+  <data name="Error_TextNotValidNumberError_Description" xml:space="preserve">
+    <value>Indicates that the provided text value can't be converted into a valid number</value>
+  </data>
+  <data name="Error_TextNotValidNumberError_FriendlyName" xml:space="preserve">
+    <value>Provided text value can't be converted into a valid number</value>
+  </data>
+  <data name="EscapeForRegularExpression_Description" xml:space="preserve">
+    <value>Escapes a minimal set of characters (\, *, +, ?, |, {, [, (,), ^, $,., #, and white space) by replacing them with their escape codes</value>
+  </data>
+  <data name="EscapeForRegularExpression_EscapedText_Description" xml:space="preserve">
+    <value>The escaped text</value>
+  </data>
+  <data name="EscapeForRegularExpression_EscapedText_FriendlyName" xml:space="preserve">
+    <value>Escaped text</value>
+  </data>
+  <data name="EscapeForRegularExpression_FriendlyName" xml:space="preserve">
+    <value>Escape text for regular expression</value>
+  </data>
+  <data name="EscapeForRegularExpression_Summary" xml:space="preserve">
+    <value>Get escaped text of original text &lt;TEXT&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="EscapeForRegularExpression_Text_Description" xml:space="preserve">
+    <value>The text to escape</value>
+  </data>
+  <data name="EscapeForRegularExpression_Text_FriendlyName" xml:space="preserve">
+    <value>Text to escape</value>
+  </data>
+  <data name="FromCustomDateTime_Description" xml:space="preserve">
+    <value>Converts a datetime value to text using a specified custom format</value>
+  </data>
+  <data name="FromCustomDateTime_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;
+Convert datetime &lt;DATETIME&gt; to text using format &lt;CUSTOMFORMAT&gt; and store it into &lt;RESULT&gt;&lt;else&gt;
+Convert datetime &lt;DATETIME&gt; to text using format &lt;CUSTOMFORMAT&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;DATETIME&gt;"}{Locked="&lt;CUSTOMFORMAT&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="FromDateTime_Description" xml:space="preserve">
+    <value>Converts a datetime value to text using a well-known format</value>
+  </data>
+  <data name="FromDateTime_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;
+Convert datetime &lt;DATETIME&gt; to text using format &lt;STANDARDFORMAT&gt; and store it into &lt;RESULT&gt;&lt;else&gt;
+Convert datetime &lt;DATETIME&gt; to text using format &lt;STANDARDFORMAT&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;DATETIME&gt;"}{Locked="&lt;STANDARDFORMAT&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="FromNumber_DecimalPlaces_Description" xml:space="preserve">
+    <value>The number of decimal places that will be included before truncation. Zeros can also be added to the end to pad the text in this way</value>
+  </data>
+  <data name="FromNumber_DecimalPlaces_FriendlyName" xml:space="preserve">
+    <value>Decimal places</value>
+  </data>
+  <data name="FromNumber_Description" xml:space="preserve">
+    <value>Converts a number to text using a specified format</value>
+  </data>
+  <data name="FromNumber_FormattedNumber_Description" xml:space="preserve">
+    <value>The formatted number as text</value>
+  </data>
+  <data name="FromNumber_FormattedNumber_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="FromNumber_FriendlyName" xml:space="preserve">
+    <value>Convert number to text</value>
+  </data>
+  <data name="FromNumber_Number_Description" xml:space="preserve">
+    <value>A numeric value to convert to text</value>
+  </data>
+  <data name="FromNumber_Number_FriendlyName" xml:space="preserve">
+    <value>Number to convert</value>
+  </data>
+  <data name="FromNumber_Summary" xml:space="preserve">
+    <value>Convert number &lt;NUMBER&gt; to text and store it into &lt;FORMATTEDNUMBER&gt;</value>
+    <comment>{Locked="&lt;NUMBER&gt;"}{Locked="&lt;FORMATTEDNUMBER&gt;"}</comment>
+  </data>
+  <data name="FromNumber_UseThousandsSeparator_Description" xml:space="preserve">
+    <value>Specify whether or not to use punctuation as a 1000 separator</value>
+  </data>
+  <data name="FromNumber_UseThousandsSeparator_FriendlyName" xml:space="preserve">
+    <value>Use thousands separator</value>
+  </data>
+  <data name="GetSubtext_Description" xml:space="preserve">
+    <value>Retrieves the subtext of a text value specifying the start index and length</value>
+  </data>
+  <data name="GetSubtext_Summary" xml:space="preserve">
+    <value>Get subtext of &lt;TEXT&gt; starting at character &lt;CHARACTERPOSITION&gt; with length &lt;NUMBEROFCHARS&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;CHARACTERPOSITION&gt;"}{Locked="&lt;NUMBEROFCHARS&gt;"}</comment>
+  </data>
+  <data name="GetSubtextBase_CharacterPosition_Description" xml:space="preserve">
+    <value>The position of the first character to retrieve. This is a zero-based index, counting from zero for the first character</value>
+  </data>
+  <data name="GetSubtextBase_CharacterPosition_FriendlyName" xml:space="preserve">
+    <value>Character position</value>
+  </data>
+  <data name="GetSubtextBase_Description" xml:space="preserve">
+    <value>Retrieve a subtext from a text value</value>
+  </data>
+  <data name="GetSubtextBase_FriendlyName" xml:space="preserve">
+    <value>Get subtext</value>
+  </data>
+  <data name="GetSubtextBase_Length_Description" xml:space="preserve">
+    <value>Specify whether the subtext continues to the end of the text, or includes only a certain number of characters</value>
+  </data>
+  <data name="GetSubtextBase_Length_FriendlyName" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="GetSubtextBase_NumberOfChars_Description" xml:space="preserve">
+    <value>The number of characters to retrieve</value>
+  </data>
+  <data name="GetSubtextBase_NumberOfChars_FriendlyName" xml:space="preserve">
+    <value>Number of chars</value>
+  </data>
+  <data name="GetSubtextBase_StartIndex_Description" xml:space="preserve">
+    <value>Specify how to find the starting point for text retrieval</value>
+  </data>
+  <data name="GetSubtextBase_StartIndex_FriendlyName" xml:space="preserve">
+    <value>Start index</value>
+  </data>
+  <data name="GetSubtextBase_Subtext_Description" xml:space="preserve">
+    <value>The retrieved subtext</value>
+  </data>
+  <data name="GetSubtextBase_Subtext_FriendlyName" xml:space="preserve">
+    <value>Subtext</value>
+  </data>
+  <data name="GetSubtextBase_Text_Description" xml:space="preserve">
+    <value>The text to retrieve a section of text from</value>
+  </data>
+  <data name="GetSubtextBase_Text_FriendlyName" xml:space="preserve">
+    <value>Original text</value>
+  </data>
+  <data name="GetSubtextFrom_Description" xml:space="preserve">
+    <value>Retrieves the subtext of a text value from a specified position to the end</value>
+  </data>
+  <data name="GetSubtextFrom_Summary" xml:space="preserve">
+    <value>Get subtext of &lt;TEXT&gt; starting at character &lt;CHARACTERPOSITION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;CHARACTERPOSITION&gt;"}</comment>
+  </data>
+  <data name="GetSubtextFromStartTo_Description" xml:space="preserve">
+    <value>Retrieves the subtext of a text value from the start to a specified length</value>
+  </data>
+  <data name="GetSubtextFromStartTo_Summary" xml:space="preserve">
+    <value>Get subtext of &lt;TEXT&gt; starting at the start of the text with length &lt;NUMBEROFCHARS&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;NUMBEROFCHARS&gt;"}</comment>
+  </data>
+  <data name="GetText_Description" xml:space="preserve">
+    <value>Retrieves the text of a value</value>
+  </data>
+  <data name="GetText_Summary" xml:space="preserve">
+    <value>Get subtext of &lt;TEXT&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="Join_Description" xml:space="preserve">
+    <value>Converts a list into a text value by separating its items with a delimiter</value>
+  </data>
+  <data name="Join_Summary" xml:space="preserve">
+    <value>Join items of list &lt;LIST&gt; separated by &lt;STANDARDDELIMITER&gt; x &lt;DELIMITERTIMES&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}{Locked="&lt;DELIMITERTIMES&gt;"}{Locked="&lt;STANDARDDELIMITER&gt;"}</comment>
+  </data>
+  <data name="JoinText_CustomDelimiter_Description" xml:space="preserve">
+    <value>The character(s) to use as delimiter</value>
+  </data>
+  <data name="JoinText_CustomDelimiter_FriendlyName" xml:space="preserve">
+    <value>Custom delimiter</value>
+  </data>
+  <data name="JoinText_DelimiterTimes_Description" xml:space="preserve">
+    <value>Specify how many times to use the specified delimiter</value>
+  </data>
+  <data name="JoinText_DelimiterTimes_FriendlyName" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="JoinText_DelimiterType_Description" xml:space="preserve">
+    <value>Specify whether to use no delimiter, a standard delimiter or a custom one</value>
+  </data>
+  <data name="JoinText_DelimiterType_FriendlyName" xml:space="preserve">
+    <value>Delimiter to separate list items</value>
+  </data>
+  <data name="JoinText_Description" xml:space="preserve">
+    <value>Converts a list into a text value by separating its items with a specified delimiter</value>
+  </data>
+  <data name="JoinText_FriendlyName" xml:space="preserve">
+    <value>Join text</value>
+  </data>
+  <data name="JoinText_List_Description" xml:space="preserve">
+    <value>The list to convert to text</value>
+  </data>
+  <data name="JoinText_List_FriendlyName" xml:space="preserve">
+    <value>Specify the list to join</value>
+  </data>
+  <data name="JoinText_Result_Description" xml:space="preserve">
+    <value>The new delimited text</value>
+  </data>
+  <data name="JoinText_Result_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="JoinText_StandardDelimiter_Description" xml:space="preserve">
+    <value>Specify the delimiter to use</value>
+  </data>
+  <data name="JoinText_StandardDelimiter_FriendlyName" xml:space="preserve">
+    <value>Standard delimiter</value>
+  </data>
+  <data name="JoinTextDelimiter_Custom_FriendlyName" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="JoinTextDelimiter_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="JoinTextDelimiter_Standard_FriendlyName" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="JoinWithCustomDelimiter_Description" xml:space="preserve">
+    <value>Converts a list into a text value by separating its items with a custom delimiter</value>
+  </data>
+  <data name="JoinWithCustomDelimiter_Summary" xml:space="preserve">
+    <value>Join items of list &lt;LIST&gt; separated by &lt;CUSTOMDELIMITER&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}{Locked="&lt;DELIMITERTIMES&gt;"}{Locked="&lt;CUSTOMDELIMITER&gt;"}</comment>
+  </data>
+  <data name="JoinWithDelimiter_Description" xml:space="preserve">
+    <value>Converts a list into a text value by separating its items with a specified custom delimiter</value>
+  </data>
+  <data name="JoinWithDelimiter_Summary" xml:space="preserve">
+    <value>Join items of list &lt;LIST&gt; seperated by &lt;CUSTOMDELIMITER&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}{Locked="&lt;CUSTOMDELIMITER&gt;"}</comment>
+  </data>
+  <data name="Pad_Description" xml:space="preserve">
+    <value>Creates a fixed length text by adding characters to the left or to the right of an existing text</value>
+  </data>
+  <data name="Pad_FriendlyName" xml:space="preserve">
+    <value>Pad text</value>
+  </data>
+  <data name="Pad_PaddedText_Description" xml:space="preserve">
+    <value>The new, padded text</value>
+  </data>
+  <data name="Pad_PaddedText_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="Pad_PaddingText_Description" xml:space="preserve">
+    <value>The character or text that will be added to lengthen the original text</value>
+  </data>
+  <data name="Pad_PaddingText_FriendlyName" xml:space="preserve">
+    <value>Text for padding</value>
+  </data>
+  <data name="Pad_PadPosition_Description" xml:space="preserve">
+    <value>Specify whether to add characters to the left or right of the existing text</value>
+  </data>
+  <data name="Pad_PadPosition_FriendlyName" xml:space="preserve">
+    <value>Pad</value>
+  </data>
+  <data name="Pad_Summary" xml:space="preserve">
+    <value>Pad &lt;PADPOSITION&gt; the text &lt;TEXT&gt; using &lt;PADDINGTEXT&gt;</value>
+    <comment>{Locked="&lt;PADPOSITION&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;PADDINGTEXT&gt;"}</comment>
+  </data>
+  <data name="Pad_Text_Description" xml:space="preserve">
+    <value>The text to lengthen</value>
+  </data>
+  <data name="Pad_Text_FriendlyName" xml:space="preserve">
+    <value>Text to pad</value>
+  </data>
+  <data name="Pad_TotalLength_Description" xml:space="preserve">
+    <value>The total character length of the final padded text. This means that the text for padding will be repeatedly added until the final text is of the specified length</value>
+  </data>
+  <data name="Pad_TotalLength_FriendlyName" xml:space="preserve">
+    <value>Total length</value>
+  </data>
+  <data name="PadPosition_Left_FriendlyName" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="PadPosition_Right_FriendlyName" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="Parse_Description" xml:space="preserve">
+    <value>Parses a text to find all occurrences of a specified subtext</value>
+  </data>
+  <data name="Parse_Summary" xml:space="preserve">
+    <value>&lt;if(OCCURRENCEPOSITIONS)&gt;
+Parse text &lt;TEXT&gt; for &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find all occurences. Store the positions where the text is found into &lt;OCCURRENCEPOSITIONS&gt;&lt;else&gt;
+Parse text &lt;TEXT&gt; for &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find all occurences&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;STARTINGPOSITION&gt;"}{Locked="&lt;if(OCCURRENCEPOSITIONS)&gt;"}{Locked="&lt;OCCURRENCEPOSITIONS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ParseForFirstOccurrence_Description" xml:space="preserve">
+    <value>Parses a text to find the first occurrence of a specified subtext</value>
+  </data>
+  <data name="ParseForFirstOccurrence_Summary" xml:space="preserve">
+    <value>&lt;if(OCCURRENCEPOSITION)&gt;
+Parse text &lt;TEXT&gt; for &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find the first occurence only. Store the position where the text is found into &lt;OCCURRENCEPOSITION&gt;&lt;else&gt;
+Parse text &lt;TEXT&gt; for &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find the first occurence only&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;STARTINGPOSITION&gt;"}{Locked="&lt;if(OCCURRENCEPOSITION)&gt;"}{Locked="&lt;OCCURRENCEPOSITION&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ParseText_Description" xml:space="preserve">
+    <value>Parses a text to find the first or all occurrences of a specified subtext or a regular expression pattern</value>
+  </data>
+  <data name="ParseText_FirstOccurrenceOnly_Description" xml:space="preserve">
+    <value>Specify whether to find the first occurrence only, or each occurrence of the 'Text to find'</value>
+  </data>
+  <data name="ParseText_FirstOccurrenceOnly_FriendlyName" xml:space="preserve">
+    <value>First occurrence only</value>
+  </data>
+  <data name="ParseText_FriendlyName" xml:space="preserve">
+    <value>Parse text</value>
+  </data>
+  <data name="ParseText_IgnoreCase_Description" xml:space="preserve">
+    <value>Specify whether to find the specified text using case-sensitive or case-insensitive matching</value>
+  </data>
+  <data name="ParseText_IgnoreCase_FriendlyName" xml:space="preserve">
+    <value>Ignore case</value>
+  </data>
+  <data name="ParseText_IsRegEx_Description" xml:space="preserve">
+    <value>Specify whether the subtext is a regular expression. For example \d means that the subtext could be any digit</value>
+  </data>
+  <data name="ParseText_IsRegEx_FriendlyName" xml:space="preserve">
+    <value>Is regular expression</value>
+  </data>
+  <data name="ParseText_Match_Description" xml:space="preserve">
+    <value>The result that matches the given regular expression</value>
+  </data>
+  <data name="ParseText_Match_FriendlyName" xml:space="preserve">
+    <value>Match</value>
+  </data>
+  <data name="ParseText_Matches_Description" xml:space="preserve">
+    <value>The results that match the given regular expression</value>
+  </data>
+  <data name="ParseText_Matches_FriendlyName" xml:space="preserve">
+    <value>Matches</value>
+  </data>
+  <data name="ParseText_OccurrencePosition_Description" xml:space="preserve">
+    <value>The position of the 'Text to find' into the 'Text to parse'. If the text isn't found within the original text, this variable will hold the value -1</value>
+  </data>
+  <data name="ParseText_OccurrencePosition_FriendlyName" xml:space="preserve">
+    <value>Position of found text</value>
+  </data>
+  <data name="ParseText_OccurrencePositions_Description" xml:space="preserve">
+    <value>The positions of the 'Text to find' into the 'Text to parse'. If the text isn't found within the original text, this variable will hold the value -1</value>
+  </data>
+  <data name="ParseText_OccurrencePositions_FriendlyName" xml:space="preserve">
+    <value>Position of found text</value>
+  </data>
+  <data name="ParseText_StartingPosition_Description" xml:space="preserve">
+    <value>The position to start looking for the 'Text to Find'. The first position is zero, so use 0 to start from the beginning</value>
+  </data>
+  <data name="ParseText_StartingPosition_FriendlyName" xml:space="preserve">
+    <value>Start Parsing at Position</value>
+  </data>
+  <data name="ParseText_Text_Description" xml:space="preserve">
+    <value>The text to parse</value>
+  </data>
+  <data name="ParseText_Text_FriendlyName" xml:space="preserve">
+    <value>Text to Parse</value>
+  </data>
+  <data name="ParseText_TextToFind_Description" xml:space="preserve">
+    <value>The subtext or a regular expression to search for</value>
+  </data>
+  <data name="ParseText_TextToFind_FriendlyName" xml:space="preserve">
+    <value>Text to Find</value>
+  </data>
+  <data name="Random_Description" xml:space="preserve">
+    <value>Generates a text of specified length consisting of random characters. This can be useful for generating passwords</value>
+  </data>
+  <data name="Random_FriendlyName" xml:space="preserve">
+    <value>Create random text</value>
+  </data>
+  <data name="Random_MaximumLength_Description" xml:space="preserve">
+    <value>The maximum length of the random text. For a certain length of text, set the minimum and maximum values to that number</value>
+  </data>
+  <data name="Random_MaximumLength_FriendlyName" xml:space="preserve">
+    <value>Maximum length</value>
+  </data>
+  <data name="Random_MinimumLength_Description" xml:space="preserve">
+    <value>The minimum length of the random text. For a certain length of text, set the minimum and maximum values to that number</value>
+  </data>
+  <data name="Random_MinimumLength_FriendlyName" xml:space="preserve">
+    <value>Minimum length</value>
+  </data>
+  <data name="Random_RandomText_Description" xml:space="preserve">
+    <value>The generated random text</value>
+  </data>
+  <data name="Random_RandomText_FriendlyName" xml:space="preserve">
+    <value>Random text</value>
+  </data>
+  <data name="Random_Summary" xml:space="preserve">
+    <value>&lt;if(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using digits&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using symbols&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using symbols and digits&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using lowercase letters&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using lowercase letters and digits&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using lowercase letters and symbols&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using lowercase letters, symbols and digits&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters and digits&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters and symbols&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters, symbols and digits&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters and lowercase letters&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters, lowercase letters and digits&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters, lowercase letters and symbols&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;
+Create a random text of length between &lt;MINIMUMLENGTH&gt; and &lt;MAXIMUMLENGTH&gt; characters using uppercase letters, lowercase letters, symbols and digits&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(!USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; !USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; !USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; !USEDIGITS)&gt;"}{Locked="&lt;elseif(USEUPPERCASELETTERS &amp;&amp; USELOWERCASELETTERS &amp;&amp; USESYMBOLS &amp;&amp; USEDIGITS)&gt;"}{Locked="&lt;MINIMUMLENGTH&gt;"}{Locked="&lt;MAXIMUMLENGTH&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Random_UseDigits_Description" xml:space="preserve">
+    <value>Specify whether digits will be included in the generated text</value>
+  </data>
+  <data name="Random_UseDigits_FriendlyName" xml:space="preserve">
+    <value>Use digits (0-9)</value>
+  </data>
+  <data name="Random_UseLowerCaseLetters_Description" xml:space="preserve">
+    <value>Specify whether lowercase characters will be included in the generated text</value>
+  </data>
+  <data name="Random_UseLowerCaseLetters_FriendlyName" xml:space="preserve">
+    <value>Use lowercase letters (a-z)</value>
+  </data>
+  <data name="Random_UseSymbols_Description" xml:space="preserve">
+    <value>Specify whether symbols will be included in the generated text</value>
+  </data>
+  <data name="Random_UseSymbols_FriendlyName" xml:space="preserve">
+    <value>Use symbols ( , . &lt; &gt; ? ! + - _ # $ ^ )</value>
+  </data>
+  <data name="Random_UseUpperCaseLetters_Description" xml:space="preserve">
+    <value>Specify whether uppercase characters will be included in the generated text</value>
+  </data>
+  <data name="Random_UseUpperCaseLetters_FriendlyName" xml:space="preserve">
+    <value>Use uppercase letters (A-Z)</value>
+  </data>
+  <data name="RegexParse_Description" xml:space="preserve">
+    <value>Parses a text to find all occurrences of a regular expression pattern</value>
+  </data>
+  <data name="RegexParse_Summary" xml:space="preserve">
+    <value>&lt;if(OCCURRENCEPOSITIONS &amp;&amp; MATCHES)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find all occurences. Store the positions where the text is found into &lt;OCCURRENCEPOSITIONS&gt; Store the matches found into &lt;MATCHES&gt;&lt;elseif(OCCURRENCEPOSITIONS &amp;&amp; !MATCHES)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find all occurences. Store the positions where the text is found into &lt;OCCURRENCEPOSITIONS&gt;&lt;elseif(!OCCURRENCEPOSITIONS &amp;&amp; MATCHES)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find all occurences. Store the matches found into &lt;MATCHES&gt;&lt;elseif(!OCCURRENCEPOSITIONS &amp;&amp; !MATCHES)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find all occurences.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(OCCURRENCEPOSITIONS &amp;&amp; MATCHES)&gt;"}{Locked="&lt;elseif(OCCURRENCEPOSITIONS &amp;&amp; !MATCHES)&gt;"}{Locked="&lt;elseif(!OCCURRENCEPOSITIONS &amp;&amp; MATCHES)&gt;"}{Locked="&lt;elseif(!OCCURRENCEPOSITIONS &amp;&amp; !MATCHES)&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;STARTINGPOSITION&gt;"}{Locked="&lt;OCCURRENCEPOSITIONS&gt;"}{Locked="&lt;MATCHES&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="RegexParseForFirstOccurrence_Description" xml:space="preserve">
+    <value>Parses a text to find the first occurrence of a regular expression pattern</value>
+  </data>
+  <data name="RegexParseForFirstOccurrence_Summary" xml:space="preserve">
+    <value>&lt;if(OCCURRENCEPOSITION &amp;&amp; MATCH)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find the first occurence only. Store the position where the text is found into &lt;OCCURRENCEPOSITION&gt; Store the match found into &lt;MATCH&gt;&lt;elseif(OCCURRENCEPOSITION &amp;&amp; !MATCH)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find the first occurence only. Store the position where the text is found into &lt;OCCURRENCEPOSITION&gt;&lt;elseif(!OCCURRENCEPOSITION &amp;&amp; MATCH)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find the first occurence only. Store the match found into &lt;MATCH&gt;&lt;elseif(!OCCURRENCEPOSITION &amp;&amp; !MATCH)&gt;
+Parse text &lt;TEXT&gt; for regular expression &lt;TEXTTOFIND&gt; starting at position &lt;STARTINGPOSITION&gt; and find the first occurence only.&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(OCCURRENCEPOSITION &amp;&amp; MATCH)&gt;"}{Locked="&lt;elseif(OCCURRENCEPOSITION &amp;&amp; !MATCH)&gt;"}{Locked="&lt;elseif(!OCCURRENCEPOSITION &amp;&amp; MATCH)&gt;"}{Locked="&lt;elseif(!OCCURRENCEPOSITION &amp;&amp; !MATCH)&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;STARTINGPOSITION&gt;"}{Locked="&lt;OCCURRENCEPOSITION&gt;"}{Locked="&lt;MATCH&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Replace_ActivateEscapeSequences_Description" xml:space="preserve">
+    <value>Specify whether to use special sequences. For example, '\t' in the replacement text will be interpreted as a tab</value>
+  </data>
+  <data name="Replace_ActivateEscapeSequences_FriendlyName" xml:space="preserve">
+    <value>Activate escape sequences</value>
+  </data>
+  <data name="Replace_Description" xml:space="preserve">
+    <value>Replaces all occurrences of a specified subtext with another text. It can also be used with regular expressions</value>
+  </data>
+  <data name="Replace_FriendlyName" xml:space="preserve">
+    <value>Replace text</value>
+  </data>
+  <data name="Replace_IgnoreCase_Description" xml:space="preserve">
+    <value>Specify whether to find the subtext to replace using case-sensitive or case-insensitive matching</value>
+  </data>
+  <data name="Replace_IgnoreCase_FriendlyName" xml:space="preserve">
+    <value>Ignore case</value>
+  </data>
+  <data name="Replace_IsRegEx_Description" xml:space="preserve">
+    <value>Specify whether the subtexts are regular expressions. A regular expression creates a range of possibilities for the subtext. For example, '\d' means that the subtext could be any digit</value>
+  </data>
+  <data name="Replace_IsRegEx_FriendlyName" xml:space="preserve">
+    <value>Use regular expressions for find and replace</value>
+  </data>
+  <data name="Replace_ReplaceWith_Description" xml:space="preserve">
+    <value>The text or a regular expression to replace found text</value>
+  </data>
+  <data name="Replace_ReplaceWith_FriendlyName" xml:space="preserve">
+    <value>Replace with</value>
+  </data>
+  <data name="Replace_Result_Description" xml:space="preserve">
+    <value>The new updated text</value>
+  </data>
+  <data name="Replace_Result_FriendlyName" xml:space="preserve">
+    <value>Result text</value>
+  </data>
+  <data name="Replace_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;
+Replace text &lt;TEXTTOFIND&gt; with &lt;REPLACEWITH&gt; in &lt;TEXT&gt; and store the result into &lt;RESULT&gt;&lt;else&gt;
+Replace text &lt;TEXTTOFIND&gt; with &lt;REPLACEWITH&gt; in &lt;TEXT&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;REPLACEWITH&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="else&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Replace_Text_Description" xml:space="preserve">
+    <value>The text to parse</value>
+  </data>
+  <data name="Replace_Text_FriendlyName" xml:space="preserve">
+    <value>Text to parse</value>
+  </data>
+  <data name="Replace_TextToFind_Description" xml:space="preserve">
+    <value>The subtext or a regular expression to search for</value>
+  </data>
+  <data name="Replace_TextToFind_FriendlyName" xml:space="preserve">
+    <value>Text to find</value>
+  </data>
+  <data name="Reverse_Description" xml:space="preserve">
+    <value>Reverses the order of letters in a text string</value>
+  </data>
+  <data name="Reverse_FriendlyName" xml:space="preserve">
+    <value>Reverse text</value>
+  </data>
+  <data name="Reverse_ReversedText_Description" xml:space="preserve">
+    <value>The reversed text</value>
+  </data>
+  <data name="Reverse_ReversedText_FriendlyName" xml:space="preserve">
+    <value>Reversed text</value>
+  </data>
+  <data name="Reverse_Summary" xml:space="preserve">
+    <value>Reverse &lt;TEXT&gt;</value>
+  </data>
+  <data name="Reverse_Text_Description" xml:space="preserve">
+    <value>The text to reverse</value>
+  </data>
+  <data name="Reverse_Text_FriendlyName" xml:space="preserve">
+    <value>Text to reverse</value>
+  </data>
+  <data name="Split_Description" xml:space="preserve">
+    <value>Creates a list containing the substrings of a text that are separated by a delimiter</value>
+  </data>
+  <data name="Split_Summary" xml:space="preserve">
+    <value>Convert text &lt;TEXT&gt; by separating text elements with delimiter &lt;STANDARDDELIMITER&gt; x &lt;DELIMITERTIMES&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;STANDARDDELIMITER&gt;"}{Locked="&lt;DELIMITERTIMES&gt;"}</comment>
+  </data>
+  <data name="SplitText_CustomDelimiter_Description" xml:space="preserve">
+    <value>The character(s) that were used as a delimiter</value>
+  </data>
+  <data name="SplitText_CustomDelimiter_FriendlyName" xml:space="preserve">
+    <value>Custom delimiter</value>
+  </data>
+  <data name="SplitText_DelimiterTimes_Description" xml:space="preserve">
+    <value>Specify how many times is the delimiter used</value>
+  </data>
+  <data name="SplitText_DelimiterTimes_FriendlyName" xml:space="preserve">
+    <value>Times</value>
+  </data>
+  <data name="SplitText_DelimiterType_Description" xml:space="preserve">
+    <value>Whether the used delimiter is of a standard or custom format</value>
+  </data>
+  <data name="SplitText_DelimiterType_FriendlyName" xml:space="preserve">
+    <value>Delimiter type</value>
+  </data>
+  <data name="SplitText_Description" xml:space="preserve">
+    <value>Creates a list containing the substrings of a text that are separated by a specified delimiter or a regular expression</value>
+  </data>
+  <data name="SplitText_FriendlyName" xml:space="preserve">
+    <value>Split text</value>
+  </data>
+  <data name="SplitText_IsRegEx_Description" xml:space="preserve">
+    <value>Specify whether the delimiter will be a regular expression. A regular expression creates a range of possibilities for the delimiter. For example, '\d' means that the delimiter could be any digit</value>
+  </data>
+  <data name="SplitText_IsRegEx_FriendlyName" xml:space="preserve">
+    <value>Is regular expression</value>
+  </data>
+  <data name="SplitText_Result_Description" xml:space="preserve">
+    <value>The new list</value>
+  </data>
+  <data name="SplitText_Result_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="SplitText_StandardDelimiter_Description" xml:space="preserve">
+    <value>The delimiter used</value>
+  </data>
+  <data name="SplitText_StandardDelimiter_FriendlyName" xml:space="preserve">
+    <value>Standard delimiter</value>
+  </data>
+  <data name="SplitText_Summary" xml:space="preserve">
+    <value>Convert text &lt;TEXT&gt; by separating text elements with delimiter &lt;STANDARDDELIMITER&gt; x &lt;DELIMITERTIMES&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;STANDARDDELIMITER&gt;"}{Locked="&lt;DELIMITERTIMES&gt;"}</comment>
+  </data>
+  <data name="SplitText_Text_Description" xml:space="preserve">
+    <value>The text to split</value>
+  </data>
+  <data name="SplitText_Text_FriendlyName" xml:space="preserve">
+    <value>The text to split</value>
+  </data>
+  <data name="SplitTextDelimiter_Custom_FriendlyName" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SplitTextDelimiter_Standard_FriendlyName" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="SplitWithDelimiter_Description" xml:space="preserve">
+    <value>Creates a list containing the substrings of a text that are separated by a specified delimiter or a regular expression</value>
+  </data>
+  <data name="SplitWithDelimiter_Summary" xml:space="preserve">
+    <value>Convert text &lt;TEXT&gt; by separating text elements with delimiter &lt;CUSTOMDELIMITER&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;CUSTOMDELIMITER&gt;"}</comment>
+  </data>
+  <data name="StandardDelimiter_NewLine_FriendlyName" xml:space="preserve">
+    <value>New line</value>
+  </data>
+  <data name="StandardDelimiter_Space_FriendlyName" xml:space="preserve">
+    <value>Space</value>
+  </data>
+  <data name="StandardDelimiter_Tab_FriendlyName" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="SubtextLength_EndOfText_FriendlyName" xml:space="preserve">
+    <value>End of text</value>
+  </data>
+  <data name="SubtextLength_NumberOfChars_FriendlyName" xml:space="preserve">
+    <value>Number of chars</value>
+  </data>
+  <data name="SubtextStartIndex_CharacterPosition_FriendlyName" xml:space="preserve">
+    <value>Character position</value>
+  </data>
+  <data name="SubtextStartIndex_StartOfText_FriendlyName" xml:space="preserve">
+    <value>Start of text</value>
+  </data>
+  <data name="Text_Description" xml:space="preserve">
+    <value>Control and manipulate text</value>
+  </data>
+  <data name="Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="ToDateTime_Description" xml:space="preserve">
+    <value>Converts a text representation of a date and/or time value to a datetime value</value>
+  </data>
+  <data name="ToDateTime_Summary" xml:space="preserve">
+    <value>&lt;if(DATETIME)&gt;
+Convert text &lt;TEXT&gt; to datetime and store it into &lt;DATETIME&gt;&lt;else&gt;
+Convert text &lt;TEXT&gt; to datetime&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;if(DATETIME)&gt;"}{Locked="&lt;DATETIME&gt;"}{Locked="else"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ToDateTimeCustomFormat_Description" xml:space="preserve">
+    <value>Converts a text representation of a date and/or time value to a datetime value using a custom format</value>
+  </data>
+  <data name="ToDateTimeCustomFormat_Summary" xml:space="preserve">
+    <value>&lt;if(DATETIME)&gt;
+Convert text &lt;TEXT&gt; to datetime and store it into &lt;DATETIME&gt;&lt;else&gt;
+Convert text &lt;TEXT&gt; to datetime&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;if(DATETIME)&gt;"}{Locked="&lt;DATETIME&gt;"}{Locked="else"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ToNumber_Description" xml:space="preserve">
+    <value>Converts a text representation of a number to a variable that contains a numeric value</value>
+  </data>
+  <data name="ToNumber_FriendlyName" xml:space="preserve">
+    <value>Convert text to number</value>
+  </data>
+  <data name="ToNumber_Number_Description" xml:space="preserve">
+    <value>The new numeric value</value>
+  </data>
+  <data name="ToNumber_Number_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ToNumber_Summary" xml:space="preserve">
+    <value>&lt;if(NUMBER)&gt;
+Convert text &lt;TEXT&gt; to number and store it into &lt;NUMBER&gt;&lt;else&gt;
+Convert text &lt;TEXT&gt; to number&lt;endif&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;if(NUMBER)&gt;"}{Locked="&lt;NUMBER&gt;"}{Locked="else"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ToNumber_Text_Description" xml:space="preserve">
+    <value>A text variable containing only a number, to convert to a numeric value variable. Spaces are ignored, but non-number text throws an exception</value>
+  </data>
+  <data name="ToNumber_Text_FriendlyName" xml:space="preserve">
+    <value>Text to convert</value>
+  </data>
+  <data name="Trim_Description" xml:space="preserve">
+    <value>Removes all occurrences of white space characters (such as space, tab, or new line) from the beginning and/or end of an existing text</value>
+  </data>
+  <data name="Trim_FriendlyName" xml:space="preserve">
+    <value>Trim text</value>
+  </data>
+  <data name="Trim_Summary" xml:space="preserve">
+    <value>Trim &lt;TRIMOPTION&gt; of &lt;TEXT&gt;</value>
+    <comment>{Locked="&lt;TRIMOPTION&gt;"}{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="Trim_Text_Description" xml:space="preserve">
+    <value>Text to trim</value>
+  </data>
+  <data name="Trim_Text_FriendlyName" xml:space="preserve">
+    <value>Text to trim</value>
+  </data>
+  <data name="Trim_TrimmedText_Description" xml:space="preserve">
+    <value>The new trimmed text</value>
+  </data>
+  <data name="Trim_TrimmedText_FriendlyName" xml:space="preserve">
+    <value>Trimmed text</value>
+  </data>
+  <data name="Trim_TrimOption_Description" xml:space="preserve">
+    <value>Specify where white space characters will be removed from</value>
+  </data>
+  <data name="Trim_TrimOption_FriendlyName" xml:space="preserve">
+    <value>What to trim</value>
+  </data>
+  <data name="TrimOption_Both_FriendlyName" xml:space="preserve">
+    <value>whitespace characters from the beginning and end</value>
+  </data>
+  <data name="TrimOption_FromStart_FriendlyName" xml:space="preserve">
+    <value>whitespace characters from the beginning</value>
+  </data>
+  <data name="TrimOption_ToEnd_FriendlyName" xml:space="preserve">
+    <value>whitespace characters from the end</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_FullDateTimeLongTime_FriendlyName" xml:space="preserve">
+    <value>Full datetime (long time)</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_FullDateTimeShortTime_FriendlyName" xml:space="preserve">
+    <value>Full datetime (short time)</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_GeneralDateTimeLongTime_FriendlyName" xml:space="preserve">
+    <value>General datetime (long time)</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_GeneralDateTimeShortTime_FriendlyName" xml:space="preserve">
+    <value>General datetime (short time)</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_LongDate_FriendlyName" xml:space="preserve">
+    <value>Long date</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_LongTime_FriendlyName" xml:space="preserve">
+    <value>Long time</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_ShortDate_FriendlyName" xml:space="preserve">
+    <value>Short date</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_ShortTime_FriendlyName" xml:space="preserve">
+    <value>Short time</value>
+  </data>
+  <data name="WellKnownDateTimeFormat_SortableDateTime_FriendlyName" xml:space="preserve">
+    <value>Sortable datetime</value>
+  </data>
+  <data name="ErrorMessage_TextNotValidDateTimeError" xml:space="preserve">
+    <value>The provided text value can't be converted into a valid datetime.</value>
+  </data>
+  <data name="ErrorMessage_TextNotValidNumberError" xml:space="preserve">
+    <value>Can't convert text '{0}' into a valid number (text provided is either in a non-recognizable format or contains too many characters).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_StartIndexLessThanZeroError" xml:space="preserve">
+    <value>Start index or length are out of range: Start index can't be less than 0.</value>
+  </data>
+  <data name="ErrorMessage_LengthLessThanZeroError" xml:space="preserve">
+    <value>Start index or length are out of range: Length can't be less than 0.</value>
+  </data>
+  <data name="ErrorMessage_StartIndexAndLengthOutOfRangeError" xml:space="preserve">
+    <value>Start index or length are out of range: Start index plus length is {0} while text has only {1} characters.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_StartIndexOutOfRangeError" xml:space="preserve">
+    <value>Start index or length are out of range: Start index is {0} while text has only {1} characters.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidRegexError" xml:space="preserve">
+    <value>Provided regular expression is invalid {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_NotValidRegexError" xml:space="preserve">
+    <value>Regular expression isn't valid.</value>
+  </data>
+</root>

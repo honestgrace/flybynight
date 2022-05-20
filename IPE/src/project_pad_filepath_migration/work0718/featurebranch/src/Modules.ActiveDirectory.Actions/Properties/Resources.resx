@@ -1,0 +1,1735 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+	<!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+	<xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+		<xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+		<xsd:element name="root" msdata:IsDataSet="true">
+			<xsd:complexType>
+				<xsd:choice maxOccurs="unbounded">
+					<xsd:element name="metadata">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" />
+							</xsd:sequence>
+							<xsd:attribute name="name" use="required" type="xsd:string" />
+							<xsd:attribute name="type" type="xsd:string" />
+							<xsd:attribute name="mimetype" type="xsd:string" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="assembly">
+						<xsd:complexType>
+							<xsd:attribute name="alias" type="xsd:string" />
+							<xsd:attribute name="name" type="xsd:string" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="data">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+								<xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+							<xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+							<xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+							<xsd:attribute ref="xml:space" />
+						</xsd:complexType>
+					</xsd:element>
+					<xsd:element name="resheader">
+						<xsd:complexType>
+							<xsd:sequence>
+								<xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+							</xsd:sequence>
+							<xsd:attribute name="name" type="xsd:string" use="required" />
+						</xsd:complexType>
+					</xsd:element>
+				</xsd:choice>
+			</xsd:complexType>
+		</xsd:element>
+	</xsd:schema>
+	<resheader name="resmimetype">
+		<value>text/microsoft-resx</value>
+	</resheader>
+	<resheader name="version">
+		<value>2.0</value>
+	</resheader>
+	<resheader name="reader">
+		<value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<resheader name="writer">
+		<value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+	</resheader>
+	<data name="ActiveDirectory_Description" xml:space="preserve">
+    <value>Connect to an Active Directory server and perform operations</value>
+  </data>
+	<data name="ActiveDirectory_FriendlyName" xml:space="preserve">
+    <value>Active Directory</value>
+  </data>
+	<data name="ActiveDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Active Directory entry</value>
+  </data>
+	<data name="ActiveDirectoryEntry_FriendlyNamePlural" xml:space="preserve">
+    <value>Active Directory entries</value>
+  </data>
+	<data name="AddUserToGroup_Description" xml:space="preserve">
+    <value>Adds a user to a group in the Active Directory</value>
+  </data>
+	<data name="AddUserToGroup_Summary" xml:space="preserve">
+    <value>Add user &lt;USERDISTINGUISHEDNAME&gt; to group &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;USERDISTINGUISHEDNAME&gt;"}{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="AuthenticationTypes_Anonymous_FriendlyName" xml:space="preserve">
+    <value>Anonymous</value>
+  </data>
+	<data name="AuthenticationTypes_Delegation_FriendlyName" xml:space="preserve">
+    <value>Delegation</value>
+  </data>
+	<data name="AuthenticationTypes_Encryption_FriendlyName" xml:space="preserve">
+    <value>Encryption</value>
+  </data>
+	<data name="AuthenticationTypes_FastBind_FriendlyName" xml:space="preserve">
+    <value>Fast bind</value>
+  </data>
+	<data name="AuthenticationTypes_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+	<data name="AuthenticationTypes_ReadonlyServer_FriendlyName" xml:space="preserve">
+    <value>Read-only server</value>
+  </data>
+	<data name="AuthenticationTypes_Sealing_FriendlyName" xml:space="preserve">
+    <value>Sealing</value>
+  </data>
+	<data name="AuthenticationTypes_Secure_FriendlyName" xml:space="preserve">
+    <value>Secure</value>
+  </data>
+	<data name="AuthenticationTypes_SecureSocketsLayer_FriendlyName" xml:space="preserve">
+    <value>Secure sockets layer</value>
+  </data>
+	<data name="AuthenticationTypes_ServerBind_FriendlyName" xml:space="preserve">
+    <value>Server bind</value>
+  </data>
+	<data name="AuthenticationTypes_Signing_FriendlyName" xml:space="preserve">
+    <value>Signing</value>
+  </data>
+	<data name="Category_Group_Description" xml:space="preserve">
+    <value>Create, modify and get information about a group in an Active Directory server</value>
+  </data>
+	<data name="Category_Group_FriendlyName" xml:space="preserve">
+    <value>Group</value>
+  </data>
+	<data name="Category_Object_Description" xml:space="preserve">
+    <value>Create or manipulate an object in an Active Directory server</value>
+  </data>
+	<data name="Category_Object_FriendlyName" xml:space="preserve">
+    <value>Object</value>
+  </data>
+	<data name="Category_User_Description" xml:space="preserve">
+    <value>Create, modify and get information about a user in an Active Directory server</value>
+  </data>
+	<data name="Category_User_FriendlyName" xml:space="preserve">
+    <value>User</value>
+  </data>
+	<data name="CloseConnection_Description" xml:space="preserve">
+    <value>Closes the connection with the Active Directory server</value>
+  </data>
+	<data name="CloseConnection_FriendlyName" xml:space="preserve">
+    <value>Close connection</value>
+  </data>
+	<data name="CloseConnection_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="CloseConnection_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="CloseConnection_Summary" xml:space="preserve">
+    <value>Close the Active Directory connection stored in &lt;PARENTDIRECTORYENTRY&gt;</value>
+    <comment>{Locked="&lt;PARENTDIRECTORYENTRY&gt;"}</comment>
+  </data>
+	<data name="ConnectToServer_Description" xml:space="preserve">
+    <value>Connects to an Active Directory server</value>
+  </data>
+	<data name="ConnectToServer_Summary" xml:space="preserve">
+    <value>Connect to server &lt;LDAPPATH&gt;</value>
+    <comment>{Locked="&lt;LDAPPATH&gt;"}</comment>
+  </data>
+	<data name="ConnectToServerAction_AuthenticationType_Description" xml:space="preserve">
+    <value>Specify the type of authentication to be used</value>
+  </data>
+	<data name="ConnectToServerAction_AuthenticationType_FriendlyName" xml:space="preserve">
+    <value>Authentication type</value>
+  </data>
+	<data name="ConnectToServerAction_Description" xml:space="preserve">
+    <value>Connects to an Active Directory server</value>
+  </data>
+	<data name="ConnectToServerAction_FriendlyName" xml:space="preserve">
+    <value>Connect to server</value>
+  </data>
+	<data name="ConnectToServerAction_LdapPath_Description" xml:space="preserve">
+    <value>The LDAP path of the Active Directory server</value>
+  </data>
+	<data name="ConnectToServerAction_LdapPath_FriendlyName" xml:space="preserve">
+    <value>LDAP path</value>
+  </data>
+	<data name="ConnectToServerAction_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent of the Active Directory entry for use with later Active Directory actions</value>
+  </data>
+	<data name="ConnectToServerAction_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="ConnectToServerAction_Password_Description" xml:space="preserve">
+    <value>The user's password</value>
+  </data>
+	<data name="ConnectToServerAction_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+	<data name="ConnectToServerAction_UseAuthentication_Description" xml:space="preserve">
+    <value>Specify whether authentication is needed to connect to the server</value>
+  </data>
+	<data name="ConnectToServerAction_UseAuthentication_FriendlyName" xml:space="preserve">
+    <value>Use authentication</value>
+  </data>
+	<data name="ConnectToServerAction_Username_Description" xml:space="preserve">
+    <value>The user's username</value>
+  </data>
+	<data name="ConnectToServerAction_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+	<data name="ConnectToServerWithAuthentication_Description" xml:space="preserve">
+    <value>Connects to an Active Directory server with authentication</value>
+  </data>
+	<data name="ConnectToServerWithAuthentication_Summary" xml:space="preserve">
+    <value>Connect to server &lt;LDAPPATH&gt; with username &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;LDAPPATH&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+	<data name="Countries_Afghanistan_FriendlyName" xml:space="preserve">
+    <value>Afghanistan</value>
+  </data>
+	<data name="Countries_AlandIslands_FriendlyName" xml:space="preserve">
+    <value>Åland Islands</value>
+  </data>
+	<data name="Countries_Albania_FriendlyName" xml:space="preserve">
+    <value>Albania</value>
+  </data>
+	<data name="Countries_Algeria_FriendlyName" xml:space="preserve">
+    <value>Algeria</value>
+  </data>
+	<data name="Countries_AmericanSamoa_FriendlyName" xml:space="preserve">
+    <value>American Samoa</value>
+  </data>
+	<data name="Countries_Andorra_FriendlyName" xml:space="preserve">
+    <value>Andorra</value>
+  </data>
+	<data name="Countries_Angola_FriendlyName" xml:space="preserve">
+    <value>Angola</value>
+  </data>
+	<data name="Countries_Anguilla_FriendlyName" xml:space="preserve">
+    <value>Anguilla</value>
+  </data>
+	<data name="Countries_Antarctica_FriendlyName" xml:space="preserve">
+    <value>Antarctica</value>
+  </data>
+	<data name="Countries_AntiguaandBarbuda_FriendlyName" xml:space="preserve">
+    <value>Antigua and Barbuda</value>
+  </data>
+	<data name="Countries_Argentina_FriendlyName" xml:space="preserve">
+    <value>Argentina</value>
+  </data>
+	<data name="Countries_Armenia_FriendlyName" xml:space="preserve">
+    <value>Armenia</value>
+  </data>
+	<data name="Countries_Aruba_FriendlyName" xml:space="preserve">
+    <value>Aruba</value>
+  </data>
+	<data name="Countries_Australia_FriendlyName" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+	<data name="Countries_Austria_FriendlyName" xml:space="preserve">
+    <value>Austria</value>
+  </data>
+	<data name="Countries_Azerbaijan_FriendlyName" xml:space="preserve">
+    <value>Azerbaijan</value>
+  </data>
+	<data name="Countries_Bahamas_FriendlyName" xml:space="preserve">
+    <value>Bahamas</value>
+  </data>
+	<data name="Countries_Bahrain_FriendlyName" xml:space="preserve">
+    <value>Bahrain</value>
+  </data>
+	<data name="Countries_Bangladesh_FriendlyName" xml:space="preserve">
+    <value>Bangladesh</value>
+  </data>
+	<data name="Countries_Barbados_FriendlyName" xml:space="preserve">
+    <value>Barbados</value>
+  </data>
+	<data name="Countries_Belarus_FriendlyName" xml:space="preserve">
+    <value>Belarus</value>
+  </data>
+	<data name="Countries_Belgium_FriendlyName" xml:space="preserve">
+    <value>Belgium</value>
+  </data>
+	<data name="Countries_Belize_FriendlyName" xml:space="preserve">
+    <value>Belize</value>
+  </data>
+	<data name="Countries_Benin_FriendlyName" xml:space="preserve">
+    <value>Benin</value>
+  </data>
+	<data name="Countries_Bermuda_FriendlyName" xml:space="preserve">
+    <value>Bermuda</value>
+  </data>
+	<data name="Countries_Bhutan_FriendlyName" xml:space="preserve">
+    <value>Bhutan</value>
+  </data>
+	<data name="Countries_BolivarianRepublicOfVenezuela_FriendlyName" xml:space="preserve">
+    <value>Bolivarian Republic of Venezuela</value>
+  </data>
+	<data name="Countries_Bonaire_FriendlyName" xml:space="preserve">
+    <value>Bonaire</value>
+  </data>
+	<data name="Countries_BosniaandHerzegovina_FriendlyName" xml:space="preserve">
+    <value>Bosnia and Herzegovina</value>
+  </data>
+	<data name="Countries_Botswana_FriendlyName" xml:space="preserve">
+    <value>Botswana</value>
+  </data>
+	<data name="Countries_BouvetIsland_FriendlyName" xml:space="preserve">
+    <value>Bouvet Island</value>
+  </data>
+	<data name="Countries_Brazil_FriendlyName" xml:space="preserve">
+    <value>Brazil</value>
+  </data>
+	<data name="Countries_BritishIndianOceanTerritory_FriendlyName" xml:space="preserve">
+    <value>British Indian Ocean Territory</value>
+  </data>
+	<data name="Countries_BruneiDarussalam_FriendlyName" xml:space="preserve">
+    <value>Brunei Darussalam</value>
+  </data>
+	<data name="Countries_Bulgaria_FriendlyName" xml:space="preserve">
+    <value>Bulgaria</value>
+  </data>
+	<data name="Countries_BurkinaFaso_FriendlyName" xml:space="preserve">
+    <value>Burkina Faso</value>
+  </data>
+	<data name="Countries_Burundi_FriendlyName" xml:space="preserve">
+    <value>Burundi</value>
+  </data>
+	<data name="Countries_CaboVerde_FriendlyName" xml:space="preserve">
+    <value>Cabo Verde</value>
+  </data>
+	<data name="Countries_Cambodia_FriendlyName" xml:space="preserve">
+    <value>Cambodia</value>
+  </data>
+	<data name="Countries_Cameroon_FriendlyName" xml:space="preserve">
+    <value>Cameroon</value>
+  </data>
+	<data name="Countries_Canada_FriendlyName" xml:space="preserve">
+    <value>Canada</value>
+  </data>
+	<data name="Countries_CaymanIslands_FriendlyName" xml:space="preserve">
+    <value>Cayman Islands</value>
+  </data>
+	<data name="Countries_CentralAfricanRepublic_FriendlyName" xml:space="preserve">
+    <value>Central African Republic</value>
+  </data>
+	<data name="Countries_Chad_FriendlyName" xml:space="preserve">
+    <value>Chad</value>
+  </data>
+	<data name="Countries_Chile_FriendlyName" xml:space="preserve">
+    <value>Chile</value>
+  </data>
+	<data name="Countries_China_FriendlyName" xml:space="preserve">
+    <value>China</value>
+  </data>
+	<data name="Countries_ChristmasIsland_FriendlyName" xml:space="preserve">
+    <value>Christmas Island</value>
+  </data>
+	<data name="Countries_CocosKeelingIslands_FriendlyName" xml:space="preserve">
+    <value>Cocos (Keeling) Islands</value>
+  </data>
+	<data name="Countries_Colombia_FriendlyName" xml:space="preserve">
+    <value>Colombia</value>
+  </data>
+	<data name="Countries_Comoros_FriendlyName" xml:space="preserve">
+    <value>Comoros</value>
+  </data>
+	<data name="Countries_Congo_FriendlyName" xml:space="preserve">
+    <value>Congo</value>
+  </data>
+	<data name="Countries_CookIslands_FriendlyName" xml:space="preserve">
+    <value>Cook Islands</value>
+  </data>
+	<data name="Countries_CostaRica_FriendlyName" xml:space="preserve">
+    <value>Costa Rica</value>
+  </data>
+	<data name="Countries_Croatia_FriendlyName" xml:space="preserve">
+    <value>Croatia</value>
+  </data>
+	<data name="Countries_Cuba_FriendlyName" xml:space="preserve">
+    <value>Cuba</value>
+  </data>
+	<data name="Countries_Curacao_FriendlyName" xml:space="preserve">
+    <value>Curaçao</value>
+  </data>
+	<data name="Countries_Cyprus_FriendlyName" xml:space="preserve">
+    <value>Cyprus</value>
+  </data>
+	<data name="Countries_CzechRepublic_FriendlyName" xml:space="preserve">
+    <value>Czech Republic</value>
+  </data>
+	<data name="Countries_DemocraticPeoplesRepublicOfKorea_FriendlyName" xml:space="preserve">
+    <value>Democratic Peoples Republic of Korea</value>
+  </data>
+	<data name="Countries_DemocraticRepublicOftheCongo_FriendlyName" xml:space="preserve">
+    <value>Democratic Republic of the Congo</value>
+  </data>
+	<data name="Countries_Denmark_FriendlyName" xml:space="preserve">
+    <value>Denmark</value>
+  </data>
+	<data name="Countries_Djibouti_FriendlyName" xml:space="preserve">
+    <value>Djibouti</value>
+  </data>
+	<data name="Countries_Dominica_FriendlyName" xml:space="preserve">
+    <value>Dominica</value>
+  </data>
+	<data name="Countries_DominicanRepublic_FriendlyName" xml:space="preserve">
+    <value>Dominican Republic</value>
+  </data>
+	<data name="Countries_Ecuador_FriendlyName" xml:space="preserve">
+    <value>Ecuador</value>
+  </data>
+	<data name="Countries_Egypt_FriendlyName" xml:space="preserve">
+    <value>Egypt</value>
+  </data>
+	<data name="Countries_ElSalvador_FriendlyName" xml:space="preserve">
+    <value>El Salvador</value>
+  </data>
+	<data name="Countries_EquatorialGuinea_FriendlyName" xml:space="preserve">
+    <value>Equatorial Guinea</value>
+  </data>
+	<data name="Countries_Eritrea_FriendlyName" xml:space="preserve">
+    <value>Eritrea</value>
+  </data>
+	<data name="Countries_Estonia_FriendlyName" xml:space="preserve">
+    <value>Estonia</value>
+  </data>
+	<data name="Countries_Ethiopia_FriendlyName" xml:space="preserve">
+    <value>Ethiopia</value>
+  </data>
+	<data name="Countries_FalklandIslandsMalvinas_FriendlyName" xml:space="preserve">
+    <value>Falkland Islands (Malvinas)</value>
+  </data>
+	<data name="Countries_FaroeIslands_FriendlyName" xml:space="preserve">
+    <value>Faroe Islands</value>
+  </data>
+	<data name="Countries_Fiji_FriendlyName" xml:space="preserve">
+    <value>Fiji</value>
+  </data>
+	<data name="Countries_Finland_FriendlyName" xml:space="preserve">
+    <value>Finland</value>
+  </data>
+	<data name="Countries_France_FriendlyName" xml:space="preserve">
+    <value>France</value>
+  </data>
+	<data name="Countries_FrenchGuiana_FriendlyName" xml:space="preserve">
+    <value>French Guiana</value>
+  </data>
+	<data name="Countries_FrenchPolynesia_FriendlyName" xml:space="preserve">
+    <value>French Polynesia</value>
+  </data>
+	<data name="Countries_FrenchSouthernTerritories_FriendlyName" xml:space="preserve">
+    <value>French Southern Territories</value>
+  </data>
+	<data name="Countries_Gabon_FriendlyName" xml:space="preserve">
+    <value>Gabon</value>
+  </data>
+	<data name="Countries_Gambia_FriendlyName" xml:space="preserve">
+    <value>Gambia</value>
+  </data>
+	<data name="Countries_Georgia_FriendlyName" xml:space="preserve">
+    <value>Georgia</value>
+  </data>
+	<data name="Countries_Germany_FriendlyName" xml:space="preserve">
+    <value>Germany</value>
+  </data>
+	<data name="Countries_Ghana_FriendlyName" xml:space="preserve">
+    <value>Ghana</value>
+  </data>
+	<data name="Countries_Gibraltar_FriendlyName" xml:space="preserve">
+    <value>Gibraltar</value>
+  </data>
+	<data name="Countries_Greece_FriendlyName" xml:space="preserve">
+    <value>Greece</value>
+  </data>
+	<data name="Countries_Greenland_FriendlyName" xml:space="preserve">
+    <value>Greenland</value>
+  </data>
+	<data name="Countries_Grenada_FriendlyName" xml:space="preserve">
+    <value>Grenada</value>
+  </data>
+	<data name="Countries_Guadeloupe_FriendlyName" xml:space="preserve">
+    <value>Guadeloupe</value>
+  </data>
+	<data name="Countries_Guam_FriendlyName" xml:space="preserve">
+    <value>Guam</value>
+  </data>
+	<data name="Countries_Guatemala_FriendlyName" xml:space="preserve">
+    <value>Guatemala</value>
+  </data>
+	<data name="Countries_Guernsey_FriendlyName" xml:space="preserve">
+    <value>Guernsey</value>
+  </data>
+	<data name="Countries_Guinea_FriendlyName" xml:space="preserve">
+    <value>Guinea</value>
+  </data>
+	<data name="Countries_GuineaBissau_FriendlyName" xml:space="preserve">
+    <value>Guinea-Bissau</value>
+  </data>
+	<data name="Countries_Guyana_FriendlyName" xml:space="preserve">
+    <value>Guyana</value>
+  </data>
+	<data name="Countries_Haiti_FriendlyName" xml:space="preserve">
+    <value>Haiti</value>
+  </data>
+	<data name="Countries_HeardIslandandMcDonaldIslands_FriendlyName" xml:space="preserve">
+    <value>Heard Island and McDonald Islands</value>
+  </data>
+	<data name="Countries_HolySee_FriendlyName" xml:space="preserve">
+    <value>Holy See</value>
+  </data>
+	<data name="Countries_Honduras_FriendlyName" xml:space="preserve">
+    <value>Honduras</value>
+  </data>
+	<data name="Countries_HongKong_FriendlyName" xml:space="preserve">
+    <value>Hong Kong SAR</value>
+  </data>
+	<data name="Countries_Hungary_FriendlyName" xml:space="preserve">
+    <value>Hungary</value>
+  </data>
+	<data name="Countries_Iceland_FriendlyName" xml:space="preserve">
+    <value>Iceland</value>
+  </data>
+	<data name="Countries_India_FriendlyName" xml:space="preserve">
+    <value>India</value>
+  </data>
+	<data name="Countries_Indonesia_FriendlyName" xml:space="preserve">
+    <value>Indonesia</value>
+  </data>
+	<data name="Countries_Iraq_FriendlyName" xml:space="preserve">
+    <value>Iraq</value>
+  </data>
+	<data name="Countries_Ireland_FriendlyName" xml:space="preserve">
+    <value>Ireland</value>
+  </data>
+	<data name="Countries_IslamicRepublicOfIran_FriendlyName" xml:space="preserve">
+    <value>Islamic Republic of Iran</value>
+  </data>
+	<data name="Countries_IsleOfMan_FriendlyName" xml:space="preserve">
+    <value>Isle of Man</value>
+  </data>
+	<data name="Countries_Israel_FriendlyName" xml:space="preserve">
+    <value>Israel</value>
+  </data>
+	<data name="Countries_Italy_FriendlyName" xml:space="preserve">
+    <value>Italy</value>
+  </data>
+	<data name="Countries_IvoryCoast_FriendlyName" xml:space="preserve">
+    <value>Côte d'Ivoire</value>
+  </data>
+	<data name="Countries_Jamaica_FriendlyName" xml:space="preserve">
+    <value>Jamaica</value>
+  </data>
+	<data name="Countries_Japan_FriendlyName" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+	<data name="Countries_Jersey_FriendlyName" xml:space="preserve">
+    <value>Jersey</value>
+  </data>
+	<data name="Countries_Jordan_FriendlyName" xml:space="preserve">
+    <value>Jordan</value>
+  </data>
+	<data name="Countries_Kazakhstan_FriendlyName" xml:space="preserve">
+    <value>Kazakhstan</value>
+  </data>
+	<data name="Countries_Kenya_FriendlyName" xml:space="preserve">
+    <value>Kenya</value>
+  </data>
+	<data name="Countries_Kiribati_FriendlyName" xml:space="preserve">
+    <value>Kiribati</value>
+  </data>
+	<data name="Countries_Kuwait_FriendlyName" xml:space="preserve">
+    <value>Kuwait</value>
+  </data>
+	<data name="Countries_Kyrgyzstan_FriendlyName" xml:space="preserve">
+    <value>Kyrgyzstan</value>
+  </data>
+	<data name="Countries_LaoPeoplesDemocraticRepublic_FriendlyName" xml:space="preserve">
+    <value>Lao People's Democratic Republic</value>
+  </data>
+	<data name="Countries_Latvia_FriendlyName" xml:space="preserve">
+    <value>Latvia</value>
+  </data>
+	<data name="Countries_Lebanon_FriendlyName" xml:space="preserve">
+    <value>Lebanon</value>
+  </data>
+	<data name="Countries_Lesotho_FriendlyName" xml:space="preserve">
+    <value>Lesotho</value>
+  </data>
+	<data name="Countries_Liberia_FriendlyName" xml:space="preserve">
+    <value>Liberia</value>
+  </data>
+	<data name="Countries_Libya_FriendlyName" xml:space="preserve">
+    <value>Libya</value>
+  </data>
+	<data name="Countries_Liechtenstein_FriendlyName" xml:space="preserve">
+    <value>Liechtenstein</value>
+  </data>
+	<data name="Countries_Lithuania_FriendlyName" xml:space="preserve">
+    <value>Lithuania</value>
+  </data>
+	<data name="Countries_Luxembourg_FriendlyName" xml:space="preserve">
+    <value>Luxembourg</value>
+  </data>
+	<data name="Countries_Macao_FriendlyName" xml:space="preserve">
+    <value>Macao SAR</value>
+  </data>
+	<data name="Countries_Madagascar_FriendlyName" xml:space="preserve">
+    <value>Madagascar</value>
+  </data>
+	<data name="Countries_Malawi_FriendlyName" xml:space="preserve">
+    <value>Malawi</value>
+  </data>
+	<data name="Countries_Malaysia_FriendlyName" xml:space="preserve">
+    <value>Malaysia</value>
+  </data>
+	<data name="Countries_Maldives_FriendlyName" xml:space="preserve">
+    <value>Maldives</value>
+  </data>
+	<data name="Countries_Mali_FriendlyName" xml:space="preserve">
+    <value>Mali</value>
+  </data>
+	<data name="Countries_Malta_FriendlyName" xml:space="preserve">
+    <value>Malta</value>
+  </data>
+	<data name="Countries_MarshallIslands_FriendlyName" xml:space="preserve">
+    <value>Marshall Islands</value>
+  </data>
+	<data name="Countries_Martinique_FriendlyName" xml:space="preserve">
+    <value>Martinique</value>
+  </data>
+	<data name="Countries_Mauritania_FriendlyName" xml:space="preserve">
+    <value>Mauritania</value>
+  </data>
+	<data name="Countries_Mauritius_FriendlyName" xml:space="preserve">
+    <value>Mauritius</value>
+  </data>
+	<data name="Countries_Mayotte_FriendlyName" xml:space="preserve">
+    <value>Mayotte</value>
+  </data>
+	<data name="Countries_Mexico_FriendlyName" xml:space="preserve">
+    <value>Mexico</value>
+  </data>
+	<data name="Countries_Micronesia_FriendlyName" xml:space="preserve">
+    <value>Micronesia</value>
+  </data>
+	<data name="Countries_Moldova_FriendlyName" xml:space="preserve">
+    <value>Moldova</value>
+  </data>
+	<data name="Countries_Monaco_FriendlyName" xml:space="preserve">
+    <value>Monaco</value>
+  </data>
+	<data name="Countries_Mongolia_FriendlyName" xml:space="preserve">
+    <value>Mongolia</value>
+  </data>
+	<data name="Countries_Montenegro_FriendlyName" xml:space="preserve">
+    <value>Montenegro</value>
+  </data>
+	<data name="Countries_Montserrat_FriendlyName" xml:space="preserve">
+    <value>Montserrat</value>
+  </data>
+	<data name="Countries_Morocco_FriendlyName" xml:space="preserve">
+    <value>Morocco</value>
+  </data>
+	<data name="Countries_Mozambique_FriendlyName" xml:space="preserve">
+    <value>Mozambique</value>
+  </data>
+	<data name="Countries_Myanmar_FriendlyName" xml:space="preserve">
+    <value>Myanmar</value>
+  </data>
+	<data name="Countries_Namibia_FriendlyName" xml:space="preserve">
+    <value>Namibia</value>
+  </data>
+	<data name="Countries_Nauru_FriendlyName" xml:space="preserve">
+    <value>Nauru</value>
+  </data>
+	<data name="Countries_Nepal_FriendlyName" xml:space="preserve">
+    <value>Nepal</value>
+  </data>
+	<data name="Countries_Netherlands_FriendlyName" xml:space="preserve">
+    <value>Netherlands</value>
+  </data>
+	<data name="Countries_NewCaledonia_FriendlyName" xml:space="preserve">
+    <value>New Caledonia</value>
+  </data>
+	<data name="Countries_NewZealand_FriendlyName" xml:space="preserve">
+    <value>New Zealand</value>
+  </data>
+	<data name="Countries_Nicaragua_FriendlyName" xml:space="preserve">
+    <value>Nicaragua</value>
+  </data>
+	<data name="Countries_Niger_FriendlyName" xml:space="preserve">
+    <value>Niger</value>
+  </data>
+	<data name="Countries_Nigeria_FriendlyName" xml:space="preserve">
+    <value>Nigeria</value>
+  </data>
+	<data name="Countries_Niue_FriendlyName" xml:space="preserve">
+    <value>Niue</value>
+  </data>
+	<data name="Countries_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+	<data name="Countries_NorfolkIsland_FriendlyName" xml:space="preserve">
+    <value>Norfolk Island</value>
+  </data>
+	<data name="Countries_NorthernMarianaIslands_FriendlyName" xml:space="preserve">
+    <value>Northern Mariana Islands</value>
+  </data>
+	<data name="Countries_Norway_FriendlyName" xml:space="preserve">
+    <value>Norway</value>
+  </data>
+	<data name="Countries_Oman_FriendlyName" xml:space="preserve">
+    <value>Oman</value>
+  </data>
+	<data name="Countries_Pakistan_FriendlyName" xml:space="preserve">
+    <value>Pakistan</value>
+  </data>
+	<data name="Countries_Palau_FriendlyName" xml:space="preserve">
+    <value>Palau</value>
+  </data>
+	<data name="Countries_Palestine_FriendlyName" xml:space="preserve">
+    <value>Palestinian Authority</value>
+  </data>
+	<data name="Countries_Panama_FriendlyName" xml:space="preserve">
+    <value>Panama</value>
+  </data>
+	<data name="Countries_PapuaNewGuinea_FriendlyName" xml:space="preserve">
+    <value>Papua New Guinea</value>
+  </data>
+	<data name="Countries_Paraguay_FriendlyName" xml:space="preserve">
+    <value>Paraguay</value>
+  </data>
+	<data name="Countries_Peru_FriendlyName" xml:space="preserve">
+    <value>Peru</value>
+  </data>
+	<data name="Countries_Philippines_FriendlyName" xml:space="preserve">
+    <value>Philippines</value>
+  </data>
+	<data name="Countries_Pitcairn_FriendlyName" xml:space="preserve">
+    <value>Pitcairn</value>
+  </data>
+	<data name="Countries_Poland_FriendlyName" xml:space="preserve">
+    <value>Poland</value>
+  </data>
+	<data name="Countries_Portugal_FriendlyName" xml:space="preserve">
+    <value>Portugal</value>
+  </data>
+	<data name="Countries_PuertoRico_FriendlyName" xml:space="preserve">
+    <value>Puerto Rico</value>
+  </data>
+	<data name="Countries_Qatar_FriendlyName" xml:space="preserve">
+    <value>Qatar</value>
+  </data>
+	<data name="Countries_RepublicOfKorea_FriendlyName" xml:space="preserve">
+    <value>Republic of Korea</value>
+  </data>
+	<data name="Countries_RepublicOfMacedoniatheformerYugoslav_FriendlyName" xml:space="preserve">
+    <value>North Macedonia</value>
+  </data>
+	<data name="Countries_Reunion_FriendlyName" xml:space="preserve">
+    <value>Réunion</value>
+  </data>
+	<data name="Countries_Romania_FriendlyName" xml:space="preserve">
+    <value>Romania</value>
+  </data>
+	<data name="Countries_Russia_FriendlyName" xml:space="preserve">
+    <value>Russia</value>
+  </data>
+	<data name="Countries_Rwanda_FriendlyName" xml:space="preserve">
+    <value>Rwanda</value>
+  </data>
+	<data name="Countries_SaintBarthelemy_FriendlyName" xml:space="preserve">
+    <value>Saint Barthélemy</value>
+  </data>
+	<data name="Countries_SaintHelena_FriendlyName" xml:space="preserve">
+    <value>Saint Helena</value>
+  </data>
+	<data name="Countries_SaintKittsandNevis_FriendlyName" xml:space="preserve">
+    <value>Saint Kitts and Nevis</value>
+  </data>
+	<data name="Countries_SaintLucia_FriendlyName" xml:space="preserve">
+    <value>Saint Lucia</value>
+  </data>
+	<data name="Countries_SaintMartinFrenchpart_FriendlyName" xml:space="preserve">
+    <value>Saint Martin (French part)</value>
+  </data>
+	<data name="Countries_SaintPierreandMiquelon_FriendlyName" xml:space="preserve">
+    <value>Saint Pierre and Miquelon</value>
+  </data>
+	<data name="Countries_SaintVincentandtheGrenadines_FriendlyName" xml:space="preserve">
+    <value>Saint Vincent and the Grenadines</value>
+  </data>
+	<data name="Countries_Samoa_FriendlyName" xml:space="preserve">
+    <value>Samoa</value>
+  </data>
+	<data name="Countries_SanMarino_FriendlyName" xml:space="preserve">
+    <value>San Marino</value>
+  </data>
+	<data name="Countries_SaoTomeandPrincipe_FriendlyName" xml:space="preserve">
+    <value>São Tomé and Príncipe</value>
+  </data>
+	<data name="Countries_SaudiArabia_FriendlyName" xml:space="preserve">
+    <value>Saudi Arabia</value>
+  </data>
+	<data name="Countries_Senegal_FriendlyName" xml:space="preserve">
+    <value>Senegal</value>
+  </data>
+	<data name="Countries_Serbia_FriendlyName" xml:space="preserve">
+    <value>Serbia</value>
+  </data>
+	<data name="Countries_Seychelles_FriendlyName" xml:space="preserve">
+    <value>Seychelles</value>
+  </data>
+	<data name="Countries_SierraLeone_FriendlyName" xml:space="preserve">
+    <value>Sierra Leone</value>
+  </data>
+	<data name="Countries_Singapore_FriendlyName" xml:space="preserve">
+    <value>Singapore</value>
+  </data>
+	<data name="Countries_SintMaartenDutchpart_FriendlyName" xml:space="preserve">
+    <value>Sint Maarten (Dutch part)</value>
+  </data>
+	<data name="Countries_Slovakia_FriendlyName" xml:space="preserve">
+    <value>Slovakia</value>
+  </data>
+	<data name="Countries_Slovenia_FriendlyName" xml:space="preserve">
+    <value>Slovenia</value>
+  </data>
+	<data name="Countries_SolomonIslands_FriendlyName" xml:space="preserve">
+    <value>Solomon Islands</value>
+  </data>
+	<data name="Countries_Somalia_FriendlyName" xml:space="preserve">
+    <value>Somalia</value>
+  </data>
+	<data name="Countries_SouthAfrica_FriendlyName" xml:space="preserve">
+    <value>South Africa</value>
+  </data>
+	<data name="Countries_SouthGeorgiaandtheSouthSandwichIslands_FriendlyName" xml:space="preserve">
+    <value>South Georgia and the South Sandwich Islands</value>
+  </data>
+	<data name="Countries_SouthSudan_FriendlyName" xml:space="preserve">
+    <value>South Sudan</value>
+  </data>
+	<data name="Countries_Spain_FriendlyName" xml:space="preserve">
+    <value>Spain</value>
+  </data>
+	<data name="Countries_SriLanka_FriendlyName" xml:space="preserve">
+    <value>Sri Lanka</value>
+  </data>
+	<data name="Countries_StateOfBoliviaPlurinational_FriendlyName" xml:space="preserve">
+    <value>State of Bolivia Plurinational</value>
+  </data>
+	<data name="Countries_Sudan_FriendlyName" xml:space="preserve">
+    <value>Sudan</value>
+  </data>
+	<data name="Countries_Suriname_FriendlyName" xml:space="preserve">
+    <value>Suriname</value>
+  </data>
+	<data name="Countries_SvalbardandJanMayen_FriendlyName" xml:space="preserve">
+    <value>Svalbard and Jan Mayen</value>
+  </data>
+	<data name="Countries_Swaziland_FriendlyName" xml:space="preserve">
+    <value>Swaziland</value>
+  </data>
+	<data name="Countries_Sweden_FriendlyName" xml:space="preserve">
+    <value>Sweden</value>
+  </data>
+	<data name="Countries_Switzerland_FriendlyName" xml:space="preserve">
+    <value>Switzerland</value>
+  </data>
+	<data name="Countries_SyrianArabRepublic_FriendlyName" xml:space="preserve">
+    <value>Syrian Arab Republic</value>
+  </data>
+	<data name="Countries_Taiwan_FriendlyName" xml:space="preserve">
+    <value>Taiwan</value>
+  </data>
+	<data name="Countries_Tajikistan_FriendlyName" xml:space="preserve">
+    <value>Tajikistan</value>
+  </data>
+	<data name="Countries_Tanzania_FriendlyName" xml:space="preserve">
+    <value>Tanzania</value>
+  </data>
+	<data name="Countries_Thailand_FriendlyName" xml:space="preserve">
+    <value>Thailand</value>
+  </data>
+	<data name="Countries_TimorLeste_FriendlyName" xml:space="preserve">
+    <value>Timor-Leste</value>
+  </data>
+	<data name="Countries_Togo_FriendlyName" xml:space="preserve">
+    <value>Togo</value>
+  </data>
+	<data name="Countries_Tokelau_FriendlyName" xml:space="preserve">
+    <value>Tokelau</value>
+  </data>
+	<data name="Countries_Tonga_FriendlyName" xml:space="preserve">
+    <value>Tonga</value>
+  </data>
+	<data name="Countries_TrinidadandTobago_FriendlyName" xml:space="preserve">
+    <value>Trinidad and Tobago</value>
+  </data>
+	<data name="Countries_Tunisia_FriendlyName" xml:space="preserve">
+    <value>Tunisia</value>
+  </data>
+	<data name="Countries_Turkey_FriendlyName" xml:space="preserve">
+    <value>Turkey</value>
+  </data>
+	<data name="Countries_Turkmenistan_FriendlyName" xml:space="preserve">
+    <value>Turkmenistan</value>
+  </data>
+	<data name="Countries_TurksandCaicosIslands_FriendlyName" xml:space="preserve">
+    <value>Turks and Caicos Islands</value>
+  </data>
+	<data name="Countries_Tuvalu_FriendlyName" xml:space="preserve">
+    <value>Tuvalu</value>
+  </data>
+	<data name="Countries_Uganda_FriendlyName" xml:space="preserve">
+    <value>Uganda</value>
+  </data>
+	<data name="Countries_Ukraine_FriendlyName" xml:space="preserve">
+    <value>Ukraine</value>
+  </data>
+	<data name="Countries_UnitedArabEmirates_FriendlyName" xml:space="preserve">
+    <value>United Arab Emirates</value>
+  </data>
+	<data name="Countries_UnitedKingdomOfGreatBritainandNorthernIreland_FriendlyName" xml:space="preserve">
+    <value>United Kingdom of Great Britain and Northern Ireland</value>
+  </data>
+	<data name="Countries_UnitedStatesMinorOutlyingIslands_FriendlyName" xml:space="preserve">
+    <value>United States Minor Outlying Islands</value>
+  </data>
+	<data name="Countries_UnitedStatesOfAmerica_FriendlyName" xml:space="preserve">
+    <value>United States of America</value>
+  </data>
+	<data name="Countries_Uruguay_FriendlyName" xml:space="preserve">
+    <value>Uruguay</value>
+  </data>
+	<data name="Countries_Uzbekistan_FriendlyName" xml:space="preserve">
+    <value>Uzbekistan</value>
+  </data>
+	<data name="Countries_Vanuatu_FriendlyName" xml:space="preserve">
+    <value>Vanuatu</value>
+  </data>
+	<data name="Countries_Vietnam_FriendlyName" xml:space="preserve">
+    <value>Vietnam</value>
+  </data>
+	<data name="Countries_VirginIslandsBritish_FriendlyName" xml:space="preserve">
+    <value>Virgin Islands (British)</value>
+  </data>
+	<data name="Countries_VirginIslandsUS_FriendlyName" xml:space="preserve">
+    <value>Virgin Islands (U.S.)</value>
+  </data>
+	<data name="Countries_WallisandFutuna_FriendlyName" xml:space="preserve">
+    <value>Wallis and Futuna</value>
+  </data>
+	<data name="Countries_Yemen_FriendlyName" xml:space="preserve">
+    <value>Yemen</value>
+  </data>
+	<data name="Countries_Zambia_FriendlyName" xml:space="preserve">
+    <value>Zambia</value>
+  </data>
+	<data name="Countries_Zimbabwe_FriendlyName" xml:space="preserve">
+    <value>Zimbabwe</value>
+  </data>
+	<data name="DeleteGroup_Description" xml:space="preserve">
+    <value>Deletes a group in the Active Directory</value>
+  </data>
+	<data name="DeleteGroup_Summary" xml:space="preserve">
+    <value>Delete the group &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="DeleteUser_Description" xml:space="preserve">
+    <value>Deletes a user in the Active Directory</value>
+  </data>
+	<data name="DeleteUser_Summary" xml:space="preserve">
+    <value>Delete user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="DisableUser_Description" xml:space="preserve">
+    <value>Disables a user in the Active Directory</value>
+  </data>
+	<data name="DisableUser_Summary" xml:space="preserve">
+    <value>Disable user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="EnableUser_Description" xml:space="preserve">
+    <value>Enables a user in the Active Directory</value>
+  </data>
+	<data name="EnableUser_Summary" xml:space="preserve">
+    <value>Enable user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="Error_ActiveDirectoryEntryNotFound_Description" xml:space="preserve">
+    <value>Indicates that the Active Directory entry given isn't found on the Active Directory server</value>
+  </data>
+	<data name="Error_ActiveDirectoryEntryNotFound_FriendlyName" xml:space="preserve">
+    <value>Active Directory entry not found</value>
+  </data>
+	<data name="Error_ActiveDirectoryError_Description" xml:space="preserve">
+    <value>General Active Directory error</value>
+  </data>
+	<data name="Error_ActiveDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Active Directory error</value>
+  </data>
+	<data name="Error_AuthenticationError_Description" xml:space="preserve">
+    <value>Indicates an error with the user's authentication</value>
+  </data>
+	<data name="Error_AuthenticationError_FriendlyName" xml:space="preserve">
+    <value>Authentication error</value>
+  </data>
+	<data name="Error_InvalidAttributeSyntaxError_Description" xml:space="preserve">
+    <value>Indicates that a given attribute is invalid</value>
+  </data>
+	<data name="Error_InvalidAttributeSyntaxError_FriendlyName" xml:space="preserve">
+    <value>Invalid attribute syntax</value>
+  </data>
+	<data name="Error_InvalidOperationError_Description" xml:space="preserve">
+    <value>Indicates an invalid operation error</value>
+  </data>
+	<data name="Error_InvalidOperationError_FriendlyName" xml:space="preserve">
+    <value>Invalid operation</value>
+  </data>
+	<data name="Error_ObjectAlreadyExistsError_Description" xml:space="preserve">
+    <value>Indicates that an object with the specified name already exists in the Active Directory</value>
+  </data>
+	<data name="Error_ObjectAlreadyExistsError_FriendlyName" xml:space="preserve">
+    <value>Object already exists</value>
+  </data>
+	<data name="Error_ObjectDoesNotExistOnServerError_Description" xml:space="preserve">
+    <value>Indicates that the object doesn't exist in the Active Directory server</value>
+  </data>
+	<data name="Error_ObjectDoesNotExistOnServerError_FriendlyName" xml:space="preserve">
+    <value>Object doesn't exist on server</value>
+  </data>
+	<data name="Error_ServerNotOperationalError_Description" xml:space="preserve">
+    <value>Indicates that the Active Directory server isn't operational</value>
+  </data>
+	<data name="Error_ServerNotOperationalError_FriendlyName" xml:space="preserve">
+    <value>The server isn't operational</value>
+  </data>
+	<data name="Error_SetOrUpdatePasswordError_Description" xml:space="preserve">
+    <value>Indicates a problem setting or updating the user's password</value>
+  </data>
+	<data name="Error_SetOrUpdatePasswordError_FriendlyName" xml:space="preserve">
+    <value>Couldn't set or update password</value>
+  </data>
+	<data name="Error_UnauthorizedAccessError_Description" xml:space="preserve">
+    <value>Indicates that an authorization error occurred</value>
+  </data>
+	<data name="Error_UnauthorizedAccessError_FriendlyName" xml:space="preserve">
+    <value>Unauthorized access</value>
+  </data>
+	<data name="Group_CreateGroup_Description" xml:space="preserve">
+    <value>Creates a group in the Active Directory</value>
+  </data>
+	<data name="Group_CreateGroup_Description_Description" xml:space="preserve">
+    <value>The description for the group</value>
+  </data>
+	<data name="Group_CreateGroup_Description_FriendlyName" xml:space="preserve">
+    <value>Description</value>
+  </data>
+	<data name="Group_CreateGroup_FriendlyName" xml:space="preserve">
+    <value>Create group</value>
+  </data>
+	<data name="Group_CreateGroup_GroupName_Description" xml:space="preserve">
+    <value>The name of the newly created group</value>
+  </data>
+	<data name="Group_CreateGroup_GroupName_FriendlyName" xml:space="preserve">
+    <value>Group name</value>
+  </data>
+	<data name="Group_CreateGroup_GroupScope_Description" xml:space="preserve">
+    <value>The scope of the group in the Active Directory</value>
+  </data>
+	<data name="Group_CreateGroup_GroupScope_FriendlyName" xml:space="preserve">
+    <value>Group scope</value>
+  </data>
+	<data name="Group_CreateGroup_GroupType_Description" xml:space="preserve">
+    <value>The type of the group</value>
+  </data>
+	<data name="Group_CreateGroup_GroupType_FriendlyName" xml:space="preserve">
+    <value>Group type</value>
+  </data>
+	<data name="Group_CreateGroup_Location_Description" xml:space="preserve">
+    <value>The location that the group will be created in</value>
+  </data>
+	<data name="Group_CreateGroup_Location_FriendlyName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+	<data name="Group_CreateGroup_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Group_CreateGroup_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Group_CreateGroup_Summary" xml:space="preserve">
+    <value>Create a group &lt;GROUPNAME&gt; in &lt;LOCATION&gt;</value>
+    <comment>{Locked="&lt;GROUPNAME&gt;"}{Locked="&lt;LOCATION&gt;"}</comment>
+  </data>
+	<data name="Group_GetGroupInfo_Description" xml:space="preserve">
+    <value>Gets information about a group from the Active Directory server</value>
+  </data>
+	<data name="Group_GetGroupInfo_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="Group_GetGroupInfo_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="Group_GetGroupInfo_FriendlyName" xml:space="preserve">
+    <value>Get group info</value>
+  </data>
+	<data name="Group_GetGroupInfo_GroupInfo_Description" xml:space="preserve">
+    <value>The group's info</value>
+  </data>
+	<data name="Group_GetGroupInfo_GroupInfo_FriendlyName" xml:space="preserve">
+    <value>Group info</value>
+  </data>
+	<data name="Group_GetGroupInfo_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Group_GetGroupInfo_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Group_GetGroupInfo_Summary" xml:space="preserve">
+    <value>Get information for group &lt;DISTINGUISHEDNAME&gt; and store the results in &lt;GROUPINFO&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}{Locked="&lt;GROUPINFO&gt;"}</comment>
+  </data>
+	<data name="Group_GetGroupMembers_Description" xml:space="preserve">
+    <value>Gets the members of a group in the Active Directory</value>
+  </data>
+	<data name="Group_GetGroupMembers_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="Group_GetGroupMembers_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="Group_GetGroupMembers_FriendlyName" xml:space="preserve">
+    <value>Get group members</value>
+  </data>
+	<data name="Group_GetGroupMembers_GroupMembers_Description" xml:space="preserve">
+    <value>The variable that holds the members of the group</value>
+  </data>
+	<data name="Group_GetGroupMembers_GroupMembers_FriendlyName" xml:space="preserve">
+    <value>Group members</value>
+  </data>
+	<data name="Group_GetGroupMembers_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Group_GetGroupMembers_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Group_GetGroupMembers_Summary" xml:space="preserve">
+    <value>Get the members of group &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="Group_ModifyGroupAction_Description" xml:space="preserve">
+    <value>Modifies a group in the Active Directory</value>
+  </data>
+	<data name="Group_ModifyGroupAction_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="Group_ModifyGroupAction_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="Group_ModifyGroupAction_FriendlyName" xml:space="preserve">
+    <value>Modify group</value>
+  </data>
+	<data name="Group_ModifyGroupAction_NewName_Description" xml:space="preserve">
+    <value>The new name for the group</value>
+  </data>
+	<data name="Group_ModifyGroupAction_NewName_FriendlyName" xml:space="preserve">
+    <value>New name</value>
+  </data>
+	<data name="Group_ModifyGroupAction_Operation_Description" xml:space="preserve">
+    <value>Select the operation to perform</value>
+  </data>
+	<data name="Group_ModifyGroupAction_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+	<data name="Group_ModifyGroupAction_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Group_ModifyGroupAction_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Group_ModifyGroupAction_Summary" xml:space="preserve">
+    <value>Modifies group &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="Group_ModifyGroupAction_UserDistinguishedName_Description" xml:space="preserve">
+    <value>Specify the user's distinguished name</value>
+  </data>
+	<data name="Group_ModifyGroupAction_UserDistinguishedName_FriendlyName" xml:space="preserve">
+    <value>User distinguished name</value>
+  </data>
+	<data name="GroupInfo_FriendlyName" xml:space="preserve">
+    <value>Group info</value>
+  </data>
+	<data name="GroupInfo_FriendlyNamePlural" xml:space="preserve">
+    <value>Group infos</value>
+  </data>
+	<data name="GroupMember_FriendlyName" xml:space="preserve">
+    <value>Group member</value>
+  </data>
+	<data name="GroupMember_FriendlyNamePlural" xml:space="preserve">
+    <value>Group members</value>
+  </data>
+	<data name="GroupOperation_AddUser_FriendlyName" xml:space="preserve">
+    <value>Add user</value>
+  </data>
+	<data name="GroupOperation_Delete_FriendlyName" xml:space="preserve">
+    <value>Delete group</value>
+  </data>
+	<data name="GroupOperation_RemoveUser_FriendlyName" xml:space="preserve">
+    <value>Remove user</value>
+  </data>
+	<data name="GroupOperation_Rename_FriendlyName" xml:space="preserve">
+    <value>Rename group</value>
+  </data>
+	<data name="GroupScope_GlobalScope_FriendlyName" xml:space="preserve">
+    <value>Global</value>
+  </data>
+	<data name="GroupScope_LocalScope_FriendlyName" xml:space="preserve">
+    <value>Local</value>
+  </data>
+	<data name="GroupScope_UniversalScope_FriendlyName" xml:space="preserve">
+    <value>Universal</value>
+  </data>
+	<data name="GroupType_Distribution_FriendlyName" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+	<data name="GroupType_Security_FriendlyName" xml:space="preserve">
+    <value>Security</value>
+  </data>
+	<data name="Object_CreateObject_Description" xml:space="preserve">
+    <value>Creates an object in the Active Directory</value>
+  </data>
+	<data name="Object_CreateObject_FriendlyName" xml:space="preserve">
+    <value>Create object</value>
+  </data>
+	<data name="Object_CreateObject_Location_Description" xml:space="preserve">
+    <value>The location that the group will be created in</value>
+  </data>
+	<data name="Object_CreateObject_Location_FriendlyName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+	<data name="Object_CreateObject_ObjectName_Description" xml:space="preserve">
+    <value>The name of the newly created object</value>
+  </data>
+	<data name="Object_CreateObject_ObjectName_FriendlyName" xml:space="preserve">
+    <value>Object name</value>
+  </data>
+	<data name="Object_CreateObject_ObjectType_Description" xml:space="preserve">
+    <value>The type of the object</value>
+  </data>
+	<data name="Object_CreateObject_ObjectType_FriendlyName" xml:space="preserve">
+    <value>Object type</value>
+  </data>
+	<data name="Object_CreateObject_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Object_CreateObject_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Object_CreateObject_Summary" xml:space="preserve">
+    <value>Create object &lt;OBJECTNAME&gt; in &lt;LOCATION&gt;</value>
+    <comment>{Locked="&lt;OBJECTNAME&gt;"}{Locked="&lt;LOCATION&gt;"}</comment>
+  </data>
+	<data name="Object_DeleteObject_Description" xml:space="preserve">
+    <value>Deletes an object in the Active Directory</value>
+  </data>
+	<data name="Object_DeleteObject_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="Object_DeleteObject_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="Object_DeleteObject_FriendlyName" xml:space="preserve">
+    <value>Delete object</value>
+  </data>
+	<data name="Object_DeleteObject_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Object_DeleteObject_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Object_DeleteObject_Summary" xml:space="preserve">
+    <value>Delete object &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="Object_MoveObject_Description" xml:space="preserve">
+    <value>Moves an object in the Active Directory</value>
+  </data>
+	<data name="Object_MoveObject_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="Object_MoveObject_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="Object_MoveObject_FriendlyName" xml:space="preserve">
+    <value>Move object</value>
+  </data>
+	<data name="Object_MoveObject_MoveToLocation_Description" xml:space="preserve">
+    <value>The location for the object to be moved to</value>
+  </data>
+	<data name="Object_MoveObject_MoveToLocation_FriendlyName" xml:space="preserve">
+    <value>Move to location</value>
+  </data>
+	<data name="Object_MoveObject_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Object_MoveObject_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Object_MoveObject_Summary" xml:space="preserve">
+    <value>Move object &lt;DISTINGUISHEDNAME&gt; to &lt;MOVETOLOCATION&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}{Locked="&lt;MOVETOLOCATION&gt;"}</comment>
+  </data>
+	<data name="Object_RenameObject_Description" xml:space="preserve">
+    <value>Renames an object in the Active Directory</value>
+  </data>
+	<data name="Object_RenameObject_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="Object_RenameObject_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="Object_RenameObject_FriendlyName" xml:space="preserve">
+    <value>Rename object</value>
+  </data>
+	<data name="Object_RenameObject_NewName_Description" xml:space="preserve">
+    <value>Type the new name for the group</value>
+  </data>
+	<data name="Object_RenameObject_NewName_FriendlyName" xml:space="preserve">
+    <value>New name</value>
+  </data>
+	<data name="Object_RenameObject_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="Object_RenameObject_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="Object_RenameObject_Summary" xml:space="preserve">
+    <value>Rename object &lt;DISTINGUISHEDNAME&gt; to &lt;NEWNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}{Locked="&lt;NEWNAME&gt;"}</comment>
+  </data>
+	<data name="ObjectType_Computer_FriendlyName" xml:space="preserve">
+    <value>Computer</value>
+  </data>
+	<data name="ObjectType_OrganizationalUnit_FriendlyName" xml:space="preserve">
+    <value>Organizational unit</value>
+  </data>
+	<data name="RemoveUserFromGroup_Description" xml:space="preserve">
+    <value>Removes a user from a group in the Active Directory</value>
+  </data>
+	<data name="RemoveUserFromGroup_Summary" xml:space="preserve">
+    <value>Remove user &lt;USERDISTINGUISHEDNAME&gt; from group &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;USERDISTINGUISHEDNAME&gt;"}{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="RenameGroup_Description" xml:space="preserve">
+    <value>Renames a group in the Active Directory</value>
+  </data>
+	<data name="RenameGroup_Summary" xml:space="preserve">
+    <value>Rename the group &lt;DISTINGUISHEDNAME&gt; with new name &lt;NEWNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}{Locked="&lt;NEWNAME&gt;"}</comment>
+  </data>
+	<data name="RenameUser_Description" xml:space="preserve">
+    <value>Renames a user in the Active Directory</value>
+  </data>
+	<data name="RenameUser_Summary" xml:space="preserve">
+    <value>Rename user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="ResetUserPassword_Description" xml:space="preserve">
+    <value>Resets the password of a user in the Active Directory</value>
+  </data>
+	<data name="ResetUserPassword_Summary" xml:space="preserve">
+    <value>Reset the password of the user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="User_CreateUser_Description" xml:space="preserve">
+    <value>Creates a user in the Active Directory</value>
+  </data>
+	<data name="User_CreateUser_DisabledAccount_Description" xml:space="preserve">
+    <value>Specify whether the account will be disabled</value>
+  </data>
+	<data name="User_CreateUser_DisabledAccount_FriendlyName" xml:space="preserve">
+    <value>Disabled account</value>
+  </data>
+	<data name="User_CreateUser_FirstName_Description" xml:space="preserve">
+    <value>The first name of the user</value>
+  </data>
+	<data name="User_CreateUser_FirstName_FriendlyName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+	<data name="User_CreateUser_FriendlyName" xml:space="preserve">
+    <value>Create user</value>
+  </data>
+	<data name="User_CreateUser_Initials_Description" xml:space="preserve">
+    <value>The initials of the user</value>
+  </data>
+	<data name="User_CreateUser_Initials_FriendlyName" xml:space="preserve">
+    <value>Initials</value>
+  </data>
+	<data name="User_CreateUser_LastName_Description" xml:space="preserve">
+    <value>The last name of the user</value>
+  </data>
+	<data name="User_CreateUser_LastName_FriendlyName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+	<data name="User_CreateUser_Location_Description" xml:space="preserve">
+    <value>The location that the group will be created in</value>
+  </data>
+	<data name="User_CreateUser_Location_FriendlyName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+	<data name="User_CreateUser_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="User_CreateUser_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="User_CreateUser_Password_Description" xml:space="preserve">
+    <value>The password of the user</value>
+  </data>
+	<data name="User_CreateUser_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+	<data name="User_CreateUser_PasswordNeverExpires_Description" xml:space="preserve">
+    <value>Specify whether the password of the user will expire</value>
+  </data>
+	<data name="User_CreateUser_PasswordNeverExpires_FriendlyName" xml:space="preserve">
+    <value>Password never expires</value>
+  </data>
+	<data name="User_CreateUser_Summary" xml:space="preserve">
+    <value>Create user &lt;USERNAME&gt; in &lt;LOCATION&gt;</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}{Locked="&lt;LOCATION&gt;"}</comment>
+  </data>
+	<data name="User_CreateUser_Username_Description" xml:space="preserve">
+    <value>The username of the user</value>
+  </data>
+	<data name="User_CreateUser_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+	<data name="User_GetUserInfo_Description" xml:space="preserve">
+    <value>Gets a user's information in the Active Directory</value>
+  </data>
+	<data name="User_GetUserInfo_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="User_GetUserInfo_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="User_GetUserInfo_FriendlyName" xml:space="preserve">
+    <value>Get user info</value>
+  </data>
+	<data name="User_GetUserInfo_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="User_GetUserInfo_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="User_GetUserInfo_Summary" xml:space="preserve">
+    <value>Get the information of user &lt;DISTINGUISHEDNAME&gt; and store the results in &lt;USERINFO&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}{Locked="&lt;USERINFO&gt;"}</comment>
+  </data>
+	<data name="User_GetUserInfo_UserInfo_Description" xml:space="preserve">
+    <value>The user's info</value>
+  </data>
+	<data name="User_GetUserInfo_UserInfo_FriendlyName" xml:space="preserve">
+    <value>User info</value>
+  </data>
+	<data name="User_ModifyUserAction_Description" xml:space="preserve">
+    <value>Modify a user in the Active Directory</value>
+  </data>
+	<data name="User_ModifyUserAction_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="User_ModifyUserAction_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="User_ModifyUserAction_EnableUser_Description" xml:space="preserve">
+    <value>Enable or disable the user</value>
+  </data>
+	<data name="User_ModifyUserAction_EnableUser_FriendlyName" xml:space="preserve">
+    <value>Enable user</value>
+  </data>
+	<data name="User_ModifyUserAction_FriendlyName" xml:space="preserve">
+    <value>Modify user</value>
+  </data>
+	<data name="User_ModifyUserAction_NewName_Description" xml:space="preserve">
+    <value>Type the new name for the group</value>
+  </data>
+	<data name="User_ModifyUserAction_NewName_FriendlyName" xml:space="preserve">
+    <value>New name</value>
+  </data>
+	<data name="User_ModifyUserAction_NewPassword_Description" xml:space="preserve">
+    <value>Type the new password for the group</value>
+  </data>
+	<data name="User_ModifyUserAction_NewPassword_FriendlyName" xml:space="preserve">
+    <value>New password</value>
+  </data>
+	<data name="User_ModifyUserAction_Operation_Description" xml:space="preserve">
+    <value>Select the operation to be performed</value>
+  </data>
+	<data name="User_ModifyUserAction_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+	<data name="User_ModifyUserAction_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="User_ModifyUserAction_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="User_UnlockUser_Description" xml:space="preserve">
+    <value>Unlocks an Active Directory user</value>
+  </data>
+	<data name="User_UnlockUser_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="User_UnlockUser_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="User_UnlockUser_FriendlyName" xml:space="preserve">
+    <value>Unlock user</value>
+  </data>
+	<data name="User_UnlockUser_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="User_UnlockUser_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="User_UnlockUser_Summary" xml:space="preserve">
+    <value>Unlock user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="User_UpdateUserInfo_City_Description" xml:space="preserve">
+    <value>The city of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_City_FriendlyName" xml:space="preserve">
+    <value>City</value>
+  </data>
+	<data name="User_UpdateUserInfo_Company_Description" xml:space="preserve">
+    <value>The company of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Company_FriendlyName" xml:space="preserve">
+    <value>The company of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Country_Description" xml:space="preserve">
+    <value>The country of the user as a two-letter code (ISO 3166-1 alpha-2)</value>
+  </data>
+	<data name="User_UpdateUserInfo_Country_FriendlyName" xml:space="preserve">
+    <value>Country/Region</value>
+  </data>
+	<data name="User_UpdateUserInfo_Description" xml:space="preserve">
+    <value>Updates a user's information in the Active Directory</value>
+  </data>
+	<data name="User_UpdateUserInfo_DisplayName_Description" xml:space="preserve">
+    <value>The display name of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_DisplayName_FriendlyName" xml:space="preserve">
+    <value>Display name</value>
+  </data>
+	<data name="User_UpdateUserInfo_DistinguishedName_Description" xml:space="preserve">
+    <value>The distinguished name of the Active Directory entry</value>
+  </data>
+	<data name="User_UpdateUserInfo_DistinguishedName_FriendlyName" xml:space="preserve">
+    <value>Distinguished name</value>
+  </data>
+	<data name="User_UpdateUserInfo_Email_Description" xml:space="preserve">
+    <value>The email of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Email_FriendlyName" xml:space="preserve">
+    <value>The email of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Extension_Description" xml:space="preserve">
+    <value>The extension of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Extension_FriendlyName" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+	<data name="User_UpdateUserInfo_FirstName_Description" xml:space="preserve">
+    <value>The first name of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_FirstName_FriendlyName" xml:space="preserve">
+    <value>First name</value>
+  </data>
+	<data name="User_UpdateUserInfo_FriendlyName" xml:space="preserve">
+    <value>Update user info</value>
+  </data>
+	<data name="User_UpdateUserInfo_Initials_Description" xml:space="preserve">
+    <value>The initials of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Initials_FriendlyName" xml:space="preserve">
+    <value>Initials</value>
+  </data>
+	<data name="User_UpdateUserInfo_LastName_Description" xml:space="preserve">
+    <value>The last name of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_LastName_FriendlyName" xml:space="preserve">
+    <value>Last name</value>
+  </data>
+	<data name="User_UpdateUserInfo_ParentDirectoryEntry_Description" xml:space="preserve">
+    <value>The parent entry of the Active Directory server</value>
+  </data>
+	<data name="User_UpdateUserInfo_ParentDirectoryEntry_FriendlyName" xml:space="preserve">
+    <value>Parent directory entry</value>
+  </data>
+	<data name="User_UpdateUserInfo_PostalCode_Description" xml:space="preserve">
+    <value>The postal code of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_PostalCode_FriendlyName" xml:space="preserve">
+    <value>Postal code</value>
+  </data>
+	<data name="User_UpdateUserInfo_State_Description" xml:space="preserve">
+    <value>The state of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_State_FriendlyName" xml:space="preserve">
+    <value>State</value>
+  </data>
+	<data name="User_UpdateUserInfo_Summary" xml:space="preserve">
+    <value>Update the information of user &lt;DISTINGUISHEDNAME&gt;</value>
+    <comment>{Locked="&lt;DISTINGUISHEDNAME&gt;"}</comment>
+  </data>
+	<data name="User_UpdateUserInfo_TelephoneNumber_Description" xml:space="preserve">
+    <value>The telephone number of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_TelephoneNumber_FriendlyName" xml:space="preserve">
+    <value>Telephone number</value>
+  </data>
+	<data name="User_UpdateUserInfo_Title_Description" xml:space="preserve">
+    <value>The title of the user</value>
+  </data>
+	<data name="User_UpdateUserInfo_Title_FriendlyName" xml:space="preserve">
+    <value>Title</value>
+  </data>
+	<data name="UserInfo_FriendlyName" xml:space="preserve">
+    <value>User info</value>
+  </data>
+	<data name="UserInfo_FriendlyNamePlural" xml:space="preserve">
+    <value>User infos</value>
+  </data>
+	<data name="UserOperation_Delete_FriendlyName" xml:space="preserve">
+    <value>Delete user</value>
+  </data>
+	<data name="UserOperation_EnableDisable_FriendlyName" xml:space="preserve">
+    <value>Enable/disable user</value>
+  </data>
+	<data name="UserOperation_Rename_FriendlyName" xml:space="preserve">
+    <value>Rename user</value>
+  </data>
+	<data name="UserOperation_ResetPassword_FriendlyName" xml:space="preserve">
+    <value>Reset password</value>
+  </data>
+	<data name="ErrorMessage_NotInitializedConnection" xml:space="preserve">
+    <value>The connection with the Active Directory hasn't been initialized.</value>
+  </data>
+	<data name="ErrorMessage_InvalidLocation" xml:space="preserve">
+    <value>The move location can't be empty. Please enter a valid location.</value>
+  </data>
+	<data name="ErrorMessage_EntryNotFoundDN" xml:space="preserve">
+    <value>Directory entry not found. Please check that the entry exists on the Active Directory server or that the given DN is correct.</value>
+  </data>
+	<data name="Message_DistinguishedName" xml:space="preserve">
+    <value>Entry with distinguished name {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+	<data name="ErrorMessage_EntryNotFound" xml:space="preserve">
+    <value>Directory entry not found. Please check that the entry exists on the Active Directory server.</value>
+  </data>
+	<data name="Message_GroupInfo" xml:space="preserve">
+    <value>Group {0} with {1} users</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+	<data name="ErrorMessage_PasswordNotSet" xml:space="preserve">
+    <value>Password couldn't be set.</value>
+  </data>
+	<data name="Message_GroupMember" xml:space="preserve">
+    <value>{0} {1} with path {2}</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+	<data name="Message_UserInfo" xml:space="preserve">
+    <value>User {0} {1}</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+	<data name="Error_LocationCannotBeEmpty_Description" xml:space="preserve">
+    <value>Indicates that an Active Directory object location is empty</value>
+  </data>
+	<data name="Error_LocationCannotBeEmpty_FriendlyName" xml:space="preserve">
+    <value>Location can't be empty</value>
+  </data>
+</root>

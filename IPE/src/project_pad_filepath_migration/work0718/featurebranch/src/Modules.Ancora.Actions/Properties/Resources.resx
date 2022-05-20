@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Ancora_Description" xml:space="preserve">
+    <value>Connect to Ancora, upload documents and get the results</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Ancora_FriendlyName" xml:space="preserve">
+    <value>Ancora</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="AncoraClient_FriendlyName" xml:space="preserve">
+    <value>Ancora Client</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="AncoraClient_FriendlyNamePlural" xml:space="preserve">
+    <value>Ancora Clients</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="BatchType_FriendlyName" xml:space="preserve">
+    <value>Batch Type</value>
+  </data>
+  <data name="BatchType_FriendlyNamePlural" xml:space="preserve">
+    <value>Batch Types</value>
+  </data>
+  <data name="Connect_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="Connect_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept Untrusted Certificates</value>
+  </data>
+  <data name="Connect_AncoraClient_Description" xml:space="preserve">
+    <value>The client to be used for later requests</value>
+  </data>
+  <data name="Connect_AncoraClient_FriendlyName" xml:space="preserve">
+    <value>Ancora Client</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Connect_BaseUrl_Description" xml:space="preserve">
+    <value>The base url to send the post and get requests</value>
+  </data>
+  <data name="Connect_BaseUrl_FriendlyName" xml:space="preserve">
+    <value>Base Url</value>
+  </data>
+  <data name="Connect_Description" xml:space="preserve">
+    <value>Connects to an Ancora account</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Connect_FriendlyName" xml:space="preserve">
+    <value>Connect To Ancora</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Connect_Password_Description" xml:space="preserve">
+    <value>The password of the Ancora account</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Connect_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Connect_Summary" xml:space="preserve">
+    <value>Create a connection to an Ancora account for user &lt;USERNAME&gt;&lt;if(ANCORACLIENT)&gt; and store the connection into &lt;ANCORACLIENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;USERNAME&gt;"}{Locked="&lt;if(ANCORACLIENT)&gt;"}{Locked="&lt;ANCORACLIENT&gt;"}{Locked="&lt;endif&gt;"}{Locked="Ancora"}</comment></data>
+  <data name="Connect_Username_Description" xml:space="preserve">
+    <value>The username of the Ancora account</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Connect_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Error_AuthenticationError_Description" xml:space="preserve">
+    <value>Indicates a problem authenticating with Ancora</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="Error_AuthenticationError_FriendlyName" xml:space="preserve">
+    <value>Authentication Error</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the directory does not exist on the given path</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Directory Not Found Error</value>
+  </data>
+  <data name="Error_EmptyFilePathError_Description" xml:space="preserve">
+    <value>Indicates that the file path was empty</value>
+  </data>
+  <data name="Error_EmptyFilePathError_FriendlyName" xml:space="preserve">
+    <value>Empty File Path</value>
+  </data>
+  <data name="Error_FileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the file does not exist on the given path</value>
+  </data>
+  <data name="Error_FileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File not Found Error</value>
+  </data>
+  <data name="Error_WebRequestError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred on the web request</value>
+  </data>
+  <data name="Error_WebRequestError_FriendlyName" xml:space="preserve">
+    <value>Web Request Error</value>
+  </data>
+  <data name="GetBatchTypes_AncoraClient_Description" xml:space="preserve">
+    <value>The Ancora client to use for the request</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetBatchTypes_AncoraClient_FriendlyName" xml:space="preserve">
+    <value>Ancora Client</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetBatchTypes_AvailableBatchTypes_Description" xml:space="preserve">
+    <value>The list of available batch types</value>
+  </data>
+  <data name="GetBatchTypes_AvailableBatchTypes_FriendlyName" xml:space="preserve">
+    <value>Available Batch Types</value>
+  </data>
+  <data name="GetBatchTypes_Description" xml:space="preserve">
+    <value>Returns all available batch types</value>
+  </data>
+  <data name="GetBatchTypes_FriendlyName" xml:space="preserve">
+    <value>Get Batch Types</value>
+  </data>
+  <data name="GetBatchTypes_Summary" xml:space="preserve">
+    <value>Send a request to retrieve all available batch types&lt;if(AVAILABLEBATCHTYPES)&gt; and store the results into &lt;AVAILABLEBATCHTYPES&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(AVAILABLEBATCHTYPES)&gt;"}{Locked="&lt;AVAILABLEBATCHTYPES&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetCapturedData_Description" xml:space="preserve">
+    <value>Retrieves the exported data from Ancora</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetCapturedData_Summary" xml:space="preserve">
+    <value>Retrieve the results of the uploaded batch with id &lt;BATCHID&gt;</value>
+  <comment>{Locked="&lt;BATCHID&gt;"}</comment></data>
+  <data name="GetCapturedDataAndExportDocument_Description" xml:space="preserve">
+    <value>Retrieves the exported data from Ancora and exports it to a file</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetCapturedDataAndExportDocument_Summary" xml:space="preserve">
+    <value>Retrieve the results of the uploaded batch with id &lt;BATCHID&gt; and export it to &lt;EXPORTFILEPATH&gt;</value>
+  <comment>{Locked="&lt;BATCHID&gt;"}{Locked="&lt;EXPORTFILEPATH&gt;"}</comment></data>
+  <data name="GetExportedDataAction_AncoraClient_Description" xml:space="preserve">
+    <value>The Ancora client to use for the request</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetExportedDataAction_AncoraClient_FriendlyName" xml:space="preserve">
+    <value>Ancora Client</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetExportedDataAction_BatchId_Description" xml:space="preserve">
+    <value>The uploaded batch Id</value>
+  </data>
+  <data name="GetExportedDataAction_BatchId_FriendlyName" xml:space="preserve">
+    <value>Batch Id</value>
+  </data>
+  <data name="GetExportedDataAction_Description" xml:space="preserve">
+    <value>Retrieves the exported data from Ancora and optionally exports it to a file</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="GetExportedDataAction_ExportFile_Description" xml:space="preserve">
+    <value>Specify whether to also save the file locally</value>
+  </data>
+  <data name="GetExportedDataAction_ExportFile_FriendlyName" xml:space="preserve">
+    <value>Export File</value>
+  </data>
+  <data name="GetExportedDataAction_ExportFilePath_Description" xml:space="preserve">
+    <value>The path to save the exported file to</value>
+  </data>
+  <data name="GetExportedDataAction_ExportFilePath_FriendlyName" xml:space="preserve">
+    <value>Export File To</value>
+  </data>
+  <data name="GetExportedDataAction_FriendlyName" xml:space="preserve">
+    <value>Get Exported Data</value>
+  </data>
+  <data name="GetExportedDataAction_Response_Description" xml:space="preserve">
+    <value>The results of the uploaded batch</value>
+  </data>
+  <data name="GetExportedDataAction_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="IsBatchStateSuccessful_AncoraClient_Description" xml:space="preserve">
+    <value>The Ancora client to use for the request</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="IsBatchStateSuccessful_AncoraClient_FriendlyName" xml:space="preserve">
+    <value>Ancora Client</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="IsBatchStateSuccessful_BatchId_Description" xml:space="preserve">
+    <value>The batch Id returned by the 'Uploaded Document Action'</value>
+  </data>
+  <data name="IsBatchStateSuccessful_BatchId_FriendlyName" xml:space="preserve">
+    <value>Batch Id</value>
+  </data>
+  <data name="IsBatchStateSuccessful_Description" xml:space="preserve">
+    <value>Checks whether the state of the batch is successful</value>
+  </data>
+  <data name="UploadDocument_AncoraClient_Description" xml:space="preserve">
+    <value>The Ancora client to use for the request</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="UploadDocument_AncoraClient_FriendlyName" xml:space="preserve">
+    <value>Ancora Client</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="UploadDocument_BatchName_Description" xml:space="preserve">
+    <value>The name of the batch</value>
+  </data>
+  <data name="UploadDocument_BatchName_FriendlyName" xml:space="preserve">
+    <value>Batch Name</value>
+  </data>
+  <data name="UploadDocument_BatchTypeId_Description" xml:space="preserve">
+    <value>The batch type id</value>
+  </data>
+  <data name="UploadDocument_BatchTypeId_FriendlyName" xml:space="preserve">
+    <value>Batch Type Id</value>
+  </data>
+  <data name="UploadDocument_DefaultDocumentType_Description" xml:space="preserve">
+    <value>The default document type (if any)</value>
+  </data>
+  <data name="UploadDocument_DefaultDocumentType_FriendlyName" xml:space="preserve">
+    <value>Default Document Type</value>
+  </data>
+  <data name="UploadDocument_Description" xml:space="preserve">
+    <value>Uploads document(s) to Ancora for analysis</value>
+  <comment>{Locked="Ancora"}</comment></data>
+  <data name="UploadDocument_Description_Description" xml:space="preserve">
+    <value>The description of the batch</value>
+  </data>
+  <data name="UploadDocument_Description_FriendlyName" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="UploadDocument_FileName_Description" xml:space="preserve">
+    <value>The file name</value>
+  </data>
+  <data name="UploadDocument_FileName_FriendlyName" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="UploadDocument_FilePath_Description" xml:space="preserve">
+    <value>The path(s) that holds the file(s) to be uploaded</value>
+  </data>
+  <data name="UploadDocument_FilePath_FriendlyName" xml:space="preserve">
+    <value>FIle Path</value>
+  </data>
+  <data name="UploadDocument_FriendlyName" xml:space="preserve">
+    <value>Upload Document</value>
+  </data>
+  <data name="UploadDocument_Metadata_Description" xml:space="preserve">
+    <value>The metadata (if any)</value>
+  </data>
+  <data name="UploadDocument_Metadata_FriendlyName" xml:space="preserve">
+    <value>Metadata</value>
+  </data>
+  <data name="UploadDocument_Priority_Description" xml:space="preserve">
+    <value>The priority of the uploaded document</value>
+  </data>
+  <data name="UploadDocument_Priority_FriendlyName" xml:space="preserve">
+    <value>Priority</value>
+  </data>
+  <data name="UploadDocument_Summary" xml:space="preserve">
+    <value>Send a request to submit documents with file name &lt;FILENAME&gt; and batch name &lt;BATCHNAME&gt;</value>
+  <comment>{Locked="&lt;FILENAME&gt;"}{Locked="&lt;BATCHNAME&gt;"}</comment></data>
+  <data name="UploadDocument_UploadedBatchId_Description" xml:space="preserve">
+    <value>The id of the uploaded batch</value>
+  </data>
+  <data name="UploadDocument_UploadedBatchId_FriendlyName" xml:space="preserve">
+    <value>Uploaded Batch Id</value>
+  </data>
+  <data name="Wait_IsBatchStateSuccessful_Description" xml:space="preserve">
+    <value>Suspends the execution of the automation until the state of a batch is successful</value>
+  </data>
+  <data name="Wait_IsBatchStateSuccessful_FriendlyName" xml:space="preserve">
+    <value>Wait for Batch State</value>
+  </data>
+  <data name="Wait_IsBatchStateSuccessful_Summary" xml:space="preserve">
+    <value>Wait for state of batch with id &lt;BATCHID&gt; to be successful</value>
+  <comment>{Locked="&lt;BATCHID&gt;"}</comment></data>
+  <data name="ErrorMessage_FilePathCannotBeEmpty" xml:space="preserve">
+    <value>The file path cannot be empty.</value>
+  </data>
+  <data name="Message_AncoraClient" xml:space="preserve">
+    <value>Ancora Client with base URL '{0}'</value>
+  <comment>{Locked="{0}"}{Locked="Ancora"}</comment></data>
+  <data name="ErrorMessage_HandleWebRequest" xml:space="preserve">
+    <value>{0}, errorCode: {1}</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="Message_BatchType" xml:space="preserve">
+    <value>Batch type '{0}'</value>
+  <comment>{Locked="{0}"}</comment></data>
+</root>

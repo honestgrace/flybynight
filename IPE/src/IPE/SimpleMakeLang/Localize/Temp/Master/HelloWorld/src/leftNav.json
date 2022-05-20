@@ -1,0 +1,67 @@
+{
+  "strings": {
+    "leftNavItems": {
+      "actionItems": {
+        "approvalsPageNavText": "Approvals",
+        "_approvalsPageNavText.comment": "The text shown in the left navigation bar for the approvals page item",
+        "businessProcessFlowsPageNavText": "Business process flows",
+        "_businessProcessFlowsPageNavText.comment": "The text shown in the left navigation bar for the business process flows page item"
+      },
+      "actionItemsNavText": "Action items",
+      "_actionItemsNavText.comment": "The text shown in the left navigation bar for the action items item group",
+      "aiBuilder": {
+        "buildPageNavText": "Explore",
+        "_buildPageNavText.comment": "The text shown in the left navigation bar for the build page item",
+        "documentAutomationPageNavText": "Document automation (preview)",
+        "_documentAutomationPageNavText.comment": "The text shown in the left navigation bar for the document automation page item",
+        "modelsPageNavText": "Models",
+        "_modelsPageNavText.comment": "The text shown in the left navigation bar for the models page item"
+      },
+      "aiBuilderNavText": "AI Builder",
+      "_aiBuilderNavText.comment": "The text shown in the left navigation bar for the AI builder item group",
+      "connectorsPageNavText": "Connectors",
+      "_connectorsPageNavText.comment": "The text shown in the left navigation bar for the connectors page item",
+      "createPageNavText": "Create",
+      "_createPageNavText.comment": "The text shown in the left navigation bar for the create page item",
+      "data": {
+        "connectionsPageNavText": "Connections",
+        "_connectionsPageNavText.comment": "The text shown in the left navigation bar for the connections page item",
+        "customConnectorsPageNavText": "Custom connectors",
+        "_customConnectorsPageNavText.comment": "The text shown in the left navigation bar for the custom connectors page item",
+        "gatewaysPageNavText": "Gateways",
+        "_gatewaysPageNavText.comment": "The text shown in the left navigation bar for the gateways page item",
+        "tablesPageNavText": "Tables",
+        "_tablesPageNavText.comment": "The text shown in the left navigation bar for the tables page item"
+      },
+      "dataNavText": "Data",
+      "_dataNavText.comment": "The text shown in the left navigation bar for the data item group",
+      "homePageNavText": "Home",
+      "_homePageNavText.comment": "The text shown in the left navigation bar for the home page item",
+      "learnPageNavText": "Learn",
+      "_learnPageNavText.comment": "The text shown in the left navigation bar for the learn page item",
+      "monitor": {
+        "cloudFlowActivityPageNavText": "Cloud flow activity",
+        "_cloudFlowActivityPageNavText.comment": "The text shown in the left navigation bar for the cloud flow activity page item",
+        "desktopFlowQueuesPageNavText": "Desktop flow queues",
+        "_desktopFlowQueuesPageNavText.comment": "The text shown in the left navigation bar for the desktop flow queues page item",
+        "desktopFlowQueuesPageNavPreviewText": "Desktop flow queues (preview)",
+        "desktopFlowRunsPageNavText": "Desktop flow runs",
+        "_desktopFlowRunsPageNavText.comment": "The text shown in the left navigation bar for the desktop flow runs page item",
+        "desktopFlowRunsPageNavPreviewText": "Desktop flow runs (preview)",
+        "machinesPageNavText": "Machines",
+        "_machinesPageNavText.comment": "The text shown in the left navigation bar for the machines page item",
+        "machinesPageNavPreviewText": "Machines (preview)"
+      },
+      "monitorNavText": "Monitor",
+      "_monitorNavText.comment": "The text shown in the left navigation bar for the monitor item group",
+      "myFlowsPageNavText": "My flows",
+      "_myFlowsPageNavText.comment": "The text shown in the left navigation bar for the my flows page item",
+      "processAdvisorNavText": "Process advisor",
+      "_processAdvisorNavText.comment": "The text shown in the left navigation bar for the process advisor item group",
+      "solutionsPageNavText": "Solutions",
+      "_solutionsPageNavText.comment": "The text shown in the left navigation bar for the solutions page item",
+      "templatesPageNavText": "Templates",
+      "_templatesPageNavText.comment": "The text shown in the left navigation bar for the templates page item"
+    }
+  }
+}

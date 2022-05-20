@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CaptureFast_Description" xml:space="preserve">
+    <value>Connect to CaptureFast, upload documents and get the results</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="CaptureFast_FriendlyName" xml:space="preserve">
+    <value>CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="CaptureFastConnectionObject_FriendlyName" xml:space="preserve">
+    <value>CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="CaptureFastConnectionObject_FriendlyNamePlural" xml:space="preserve">
+    <value>CaptureFast connections</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Connection_Description" xml:space="preserve">
+    <value>The CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Connection_FriendlyName" xml:space="preserve">
+    <value>CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Description" xml:space="preserve">
+    <value>Connects to a CaptureFast account</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_FriendlyName" xml:space="preserve">
+    <value>Connect to CaptureFast account</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Password_Description" xml:space="preserve">
+    <value>The password of the CaptureFast account</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="Connect_Summary" xml:space="preserve">
+    <value>Create a connection to a CaptureFast account for user &lt;USERNAME&gt; and store the connection into &lt;CONNECTION&gt;</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}{Locked="&lt;CONNECTION&gt;"}{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Username_Description" xml:space="preserve">
+    <value>The username of the CaptureFast account</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Connect_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="Error_CreateConnectionError_Description" xml:space="preserve">
+    <value>Indicates a problem connecting to CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Error_CreateConnectionError_FriendlyName" xml:space="preserve">
+    <value>Failed to create connection</value>
+  </data>
+  <data name="Error_GetResultsFromDocumentError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the results of the uploaded document from CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Error_GetResultsFromDocumentError_FriendlyName" xml:space="preserve">
+    <value>Failed to get results from the uploaded document</value>
+  </data>
+  <data name="Error_InvalidFileNameError_Description" xml:space="preserve">
+    <value>Indicates that the specified file name was invalid</value>
+  </data>
+  <data name="Error_InvalidFileNameError_FriendlyName" xml:space="preserve">
+    <value>File name invalid</value>
+  </data>
+  <data name="Error_TimeoutExpiredError_Description" xml:space="preserve">
+    <value>Indicates that the specified timeout has expired</value>
+  </data>
+  <data name="Error_TimeoutExpiredError_FriendlyName" xml:space="preserve">
+    <value>Timeout expired</value>
+  </data>
+  <data name="Error_UploadDocumentError_Description" xml:space="preserve">
+    <value>Indicates a problem uploading the specified document to CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="Error_UploadDocumentError_FriendlyName" xml:space="preserve">
+    <value>Failed to upload document</value>
+  </data>
+  <data name="GetResultsFromDocument_Connection_Description" xml:space="preserve">
+    <value>The CaptureFast connection to use</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="GetResultsFromDocument_Connection_FriendlyName" xml:space="preserve">
+    <value>CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="GetResultsFromDocument_Description" xml:space="preserve">
+    <value>Gets all the results from an uploaded document in CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="GetResultsFromDocument_DocumentId_Description" xml:space="preserve">
+    <value>The ID of the document to get results from</value>
+  </data>
+  <data name="GetResultsFromDocument_DocumentId_FriendlyName" xml:space="preserve">
+    <value>Document ID</value>
+  </data>
+  <data name="GetResultsFromDocument_FriendlyName" xml:space="preserve">
+    <value>Get results from CaptureFast document</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="GetResultsFromDocument_Response_Description" xml:space="preserve">
+    <value>The API response result</value>
+  </data>
+  <data name="GetResultsFromDocument_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="GetResultsFromDocument_Summary" xml:space="preserve">
+    <value>Get uploaded documents with document ID &lt;DOCUMENTID&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;DOCUMENTID&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="GetResultsFromDocument_Timeout_Description" xml:space="preserve">
+    <value>The waiting time (in seconds) to get results from CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="GetResultsFromDocument_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="UploadDocument_Connection_Description" xml:space="preserve">
+    <value>The CaptureFast connection to be used</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="UploadDocument_Connection_FriendlyName" xml:space="preserve">
+    <value>CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="UploadDocument_Description" xml:space="preserve">
+    <value>Uploads a document to the account of an established CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="UploadDocument_DocumentId_Description" xml:space="preserve">
+    <value>The ID of the document to be uploaded</value>
+  </data>
+  <data name="UploadDocument_DocumentId_FriendlyName" xml:space="preserve">
+    <value>Document ID</value>
+  </data>
+  <data name="UploadDocument_Files_Description" xml:space="preserve">
+    <value>The full path of the document to upload</value>
+  </data>
+  <data name="UploadDocument_Files_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="UploadDocument_FriendlyName" xml:space="preserve">
+    <value>Upload document to CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="UploadDocument_Response_Description" xml:space="preserve">
+    <value>The API response result</value>
+  </data>
+  <data name="UploadDocument_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="UploadDocument_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="UploadDocument_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="UploadDocument_Summary" xml:space="preserve">
+    <value>Upload document with template ID &lt;TEMPLATEID&gt; and team ID &lt;TEAMID&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEMPLATEID&gt;"}{Locked="&lt;TEAMID&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="UploadDocument_TeamId_Description" xml:space="preserve">
+    <value>The team ID</value>
+  </data>
+  <data name="UploadDocument_TeamId_FriendlyName" xml:space="preserve">
+    <value>Team ID</value>
+  </data>
+  <data name="UploadDocument_TemplateId_Description" xml:space="preserve">
+    <value>The template ID to use for the document to be uploaded</value>
+  </data>
+  <data name="UploadDocument_TemplateId_FriendlyName" xml:space="preserve">
+    <value>Template ID</value>
+  </data>
+  <data name="UploadDocument_Timeout_Description" xml:space="preserve">
+    <value>The waiting time (in seconds) to get results from CaptureFast</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="UploadDocument_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="ErrorMessage_FailedToCreateCaptureFastConnection" xml:space="preserve">
+    <value>Failed to create connection {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToGetResultsFromDocument" xml:space="preserve">
+    <value>Failed to get results from the uploaded document with document ID {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_UnauthorizedAccess" xml:space="preserve">
+    <value>WebException: unauthorized access.</value>
+  </data>
+  <data name="ErrorMessage_TimeoutInvalidValue" xml:space="preserve">
+    <value>Timeout should be equal or greater than 1.</value>
+  </data>
+  <data name="Message_CaptureFastConnection" xml:space="preserve">
+    <value>CaptureFast connection</value>
+    <comment>{Locked="CaptureFast"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToCreateConnection" xml:space="preserve">
+    <value>Failed to create connection.</value>
+  </data>
+  <data name="ErrorMessage_RequestTimeout" xml:space="preserve">
+    <value>Request timeout</value>
+  </data>
+  <data name="ErrorMessage_FailedToUploadDocument" xml:space="preserve">
+    <value>Failed to upload document.</value>
+  </data>
+  <data name="ErrorMessage_OperationTimedOut" xml:space="preserve">
+    <value>The operation timed out.</value>
+  </data>
+  <data name="ErrorMessage_FileNameIsInvalid" xml:space="preserve">
+    <value>File name '{0}' is invalid.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+</root>

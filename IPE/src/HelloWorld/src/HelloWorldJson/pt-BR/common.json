@@ -1,0 +1,24 @@
+{
+  "strings": {
+    "Common": {
+      "Loading": "Loading",
+      "SomethingWentWrong": "Something went wrong. Please refresh the page or try again after some time.",
+      "ClientRequestAborted": "Client request aborted. Please see https://aka.ms/powerAutomateClientRequestAborted for more details.",
+      "NetworkError": "Network Error. Please see https://aka.ms/powerautomate-networkerror for more details.",
+      "FailedToFetch": "Failed to fetch. Please see https://aka.ms/powerautomate-failedtofetch for more details.",
+      "LearnMore": "Learn more"
+    },
+    "List": {
+      "ShowMore": "Show more"
+    },
+    "ListCommands": {
+      "More": "More actions"
+    },
+    "Menu": {
+      "Overflow": {
+        "Tooltip": "Hallo Welt!",
+        "Label": "More commands"
+      }
+    }
+  }
+}

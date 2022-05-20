@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\connectorsPage.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.AllConnectors" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[All connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CategoryDropdown_AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.CreateYourOwnConnectors" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Want to create your own connectors?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Want to create your own connectors?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.DetailsPageGeneralError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to load connector. Please try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to load connector. Please try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FailedToLoadConnectors" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't load connectors. Please try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[We couldn't load connectors. Please try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.IndependentPublishersSection" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Independent Publisher connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Independent Publisher connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.NoConnectorsFound" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We couldn't find any connectors that matched your search.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[We couldn't find any connectors that matched your search.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.NoRecommendedTemplate" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No related templates found.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No related templates found.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Operations.Empty" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There are currently no triggers for this connector. Help us decide which services and triggers to add.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There are currently no triggers for this connector. Help us decide which services and triggers to add.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Operations.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to load triggers. Please try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to load triggers. Please try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Operations.Header" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Triggers - A trigger is an event that starts a flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Triggers - A trigger is an event that starts a flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.PopularSection" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Popular connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Popular connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Premium" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Premium]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Premium]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[A single label behind a picture indicating a connector is premium]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.PremiumConnectors" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Premium connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Premium connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RecentlyAddedSection" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recently added connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Recently added connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.SearchBox.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.SearchBox.Placeholder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search connnector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Search connnector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.SeeDocumentation" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See documentation]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[See documentation]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.StandardConnectors" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Standard connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Standard connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserVoice" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[UserVoice]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[UserVoice]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[UserVoice suggestion link text]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

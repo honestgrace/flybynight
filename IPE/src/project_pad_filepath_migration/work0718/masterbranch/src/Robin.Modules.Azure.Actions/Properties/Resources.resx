@@ -1,0 +1,1427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachDisk_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AttachDisk_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client </value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AttachDisk_Container_Description" xml:space="preserve">
+    <value>The container that holds the VHD file</value>
+  </data>
+  <data name="AttachDisk_Container_FriendlyName" xml:space="preserve">
+    <value>Container </value>
+  </data>
+  <data name="AttachDisk_Description" xml:space="preserve">
+    <value>Attaches an existing disk to the virtual machine with the specified name and resource group</value>
+  </data>
+  <data name="AttachDisk_DiskName_Description" xml:space="preserve">
+    <value>The name of the disk to attach</value>
+  </data>
+  <data name="AttachDisk_DiskName_FriendlyName" xml:space="preserve">
+    <value>Disk name</value>
+  </data>
+  <data name="AttachDisk_DiskResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the disk</value>
+  </data>
+  <data name="AttachDisk_DiskResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Disk's resource group</value>
+  </data>
+  <data name="AttachDisk_FriendlyName" xml:space="preserve">
+    <value>Attach disk</value>
+  </data>
+  <data name="AttachDisk_IsManagedDisk_Description" xml:space="preserve">
+    <value>Specify whether the disk to attach is managed</value>
+  </data>
+  <data name="AttachDisk_IsManagedDisk_FriendlyName" xml:space="preserve">
+    <value>Disk is managed</value>
+  </data>
+  <data name="AttachDisk_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the VM</value>
+  </data>
+  <data name="AttachDisk_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>VM resource group</value>
+  </data>
+  <data name="AttachDisk_StorageAccount_Description" xml:space="preserve">
+    <value>The storage account where VHD file is located</value>
+  </data>
+  <data name="AttachDisk_StorageAccount_FriendlyName" xml:space="preserve">
+    <value>Storage account </value>
+  </data>
+  <data name="AttachDisk_VhdName_Description" xml:space="preserve">
+    <value>The name of the VHD file</value>
+  </data>
+  <data name="AttachDisk_VhdName_FriendlyName" xml:space="preserve">
+    <value>VHD file</value>
+  </data>
+  <data name="AttachDisk_VirtualMachineName_Description" xml:space="preserve">
+    <value>The VM where the disk will be attached</value>
+  </data>
+  <data name="AttachDisk_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="AttachManagedDisk_Description" xml:space="preserve">
+    <value>Attaches a managed data disk to the virtual machine with the specified name and resource group</value>
+  </data>
+  <data name="AttachManagedDisk_Summary" xml:space="preserve">
+    <value>Attach managed disk &lt;DISKNAME&gt; to VM &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="AttachUnManagedDisk_Description" xml:space="preserve">
+    <value>Attaches an unmanaged disk to the VM with the specified name and resource group</value>
+  </data>
+  <data name="AttachUnManagedDisk_Summary" xml:space="preserve">
+    <value>Attach VHD &lt;VHDNAME&gt; to VM &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt; as data disk</value>
+  <comment>{Locked="&lt;VHDNAME&gt;"}{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="AuthenticationType_WithFile_FriendlyName" xml:space="preserve">
+    <value>With file</value>
+  </data>
+  <data name="AuthenticationType_WithServicePrincipal_FriendlyName" xml:space="preserve">
+    <value>With service principal</value>
+  </data>
+  <data name="AuthenticationType_WithUser_FriendlyName" xml:space="preserve">
+    <value>With user</value>
+  </data>
+  <data name="Azure_Description" xml:space="preserve">
+    <value>Connect to Azure Cloud and automate the management of resources like virtual machines, disks, snapshots and resource groups</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Azure_FriendlyName" xml:space="preserve">
+    <value>Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure clients</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureClient_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureManagedDisk_FriendlyName" xml:space="preserve">
+    <value>Azure managed disk</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureManagedDisk_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure managed disks</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureManagedVmDisk_FriendlyName" xml:space="preserve">
+    <value>Azure managed disk attached to VM</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureManagedVmDisk_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure managed disks attached to VM</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Azure resource group</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureResourceGroup_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure resource groups</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureSnapshot_FriendlyName" xml:space="preserve">
+    <value>Azure snapshot</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureSnapshot_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure snapshots</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureSubscription_FriendlyName" xml:space="preserve">
+    <value>Azure subscription</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureSubscription_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure subscriptions</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureUnManagedVmDisk_FriendlyName" xml:space="preserve">
+    <value>Azure unmanaged disk attached to VM</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureUnManagedVmDisk_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure unmanaged disks attached to VM</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureVirtualMachine_FriendlyName" xml:space="preserve">
+    <value>Azure virtual machine</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureVirtualMachine_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure virtual machines</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureVirtualMachineInfo_FriendlyName" xml:space="preserve">
+    <value>Azure virtual machine info</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="AzureVirtualMachineInfo_FriendlyNamePlural" xml:space="preserve">
+    <value>Azure virtual machine info</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Category_ResourceGroups_Description" xml:space="preserve">
+    <value>Connect to Azure Cloud and manage resource groups</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Category_ResourceGroups_FriendlyName" xml:space="preserve">
+    <value>Resource groups</value>
+  </data>
+  <data name="Category_VirtualMachines_Description" xml:space="preserve">
+    <value>Connect to Azure Cloud and manage virtual machines, disks and snapshots</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Category_VirtualMachines_Disks_Description" xml:space="preserve">
+    <value>Connect to Azure Cloud and manage disks</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Category_VirtualMachines_Disks_FriendlyName" xml:space="preserve">
+    <value>Disks</value>
+  </data>
+  <data name="Category_VirtualMachines_FriendlyName" xml:space="preserve">
+    <value>Virtual machines</value>
+  </data>
+  <data name="Category_VirtualMachines_Snapshots_Description" xml:space="preserve">
+    <value>Connect to Azure Cloud and manage snapshots</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Category_VirtualMachines_Snapshots_FriendlyName" xml:space="preserve">
+    <value>Snapshots</value>
+  </data>
+  <data name="CreateManagedDisk_Description" xml:space="preserve">
+    <value>Creates a managed disk</value>
+  </data>
+  <data name="CreateManagedDisk_Summary" xml:space="preserve">
+    <value>Create managed disk &lt;DISKNAME&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}</comment></data>
+  <data name="CreateManagedDiskAction_AvailabilityZone_Description" xml:space="preserve">
+    <value>The availability zone for the managed disk</value>
+  </data>
+  <data name="CreateManagedDiskAction_AvailabilityZone_FriendlyName" xml:space="preserve">
+    <value>Availability zone</value>
+  </data>
+  <data name="CreateManagedDiskAction_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateManagedDiskAction_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateManagedDiskAction_BlobUrl_Description" xml:space="preserve">
+    <value>The URL of the blob</value>
+  </data>
+  <data name="CreateManagedDiskAction_BlobUrl_FriendlyName" xml:space="preserve">
+    <value>Blob URL</value>
+  </data>
+  <data name="CreateManagedDiskAction_Description" xml:space="preserve">
+    <value>Creates a managed disk with the specified settings</value>
+  </data>
+  <data name="CreateManagedDiskAction_DiskName_Description" xml:space="preserve">
+    <value>The name of the managed disk to create</value>
+  </data>
+  <data name="CreateManagedDiskAction_DiskName_FriendlyName" xml:space="preserve">
+    <value>Disk name</value>
+  </data>
+  <data name="CreateManagedDiskAction_FriendlyName" xml:space="preserve">
+    <value>Create managed disk</value>
+  </data>
+  <data name="CreateManagedDiskAction_Location_Description" xml:space="preserve">
+    <value>The location where the new disk is created</value>
+  </data>
+  <data name="CreateManagedDiskAction_Location_FriendlyName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="CreateManagedDiskAction_ManagedDisk_Description" xml:space="preserve">
+    <value>The created managed disk</value>
+  </data>
+  <data name="CreateManagedDiskAction_ManagedDisk_FriendlyName" xml:space="preserve">
+    <value>Created Azure managed disk</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateManagedDiskAction_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the disk</value>
+  </data>
+  <data name="CreateManagedDiskAction_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group name</value>
+  </data>
+  <data name="CreateManagedDiskAction_ResourceGroupCreateOption_Description" xml:space="preserve">
+    <value>Specify whether a new resource group will be created or an existing one will be used</value>
+  </data>
+  <data name="CreateManagedDiskAction_ResourceGroupCreateOption_FriendlyName" xml:space="preserve">
+    <value>Resource group option</value>
+  </data>
+  <data name="CreateManagedDiskAction_SizeInGb_Description" xml:space="preserve">
+    <value>Size of the disk in GB</value>
+  </data>
+  <data name="CreateManagedDiskAction_SizeInGb_FriendlyName" xml:space="preserve">
+    <value>Disk size in GB</value>
+  </data>
+  <data name="CreateManagedDiskAction_SnapshotName_Description" xml:space="preserve">
+    <value>The managed snapshot to use as a source</value>
+  </data>
+  <data name="CreateManagedDiskAction_SnapshotName_FriendlyName" xml:space="preserve">
+    <value>Snapshot name</value>
+  </data>
+  <data name="CreateManagedDiskAction_SnapshotResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the snapshot</value>
+  </data>
+  <data name="CreateManagedDiskAction_SnapshotResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Snapshot's resource group</value>
+  </data>
+  <data name="CreateManagedDiskAction_Source_Description" xml:space="preserve">
+    <value>Specifies whether to create an empty disk or use the snapshot of another disk  or use a blob in a storage account</value>
+  </data>
+  <data name="CreateManagedDiskAction_Source_FriendlyName" xml:space="preserve">
+    <value>Source type</value>
+  </data>
+  <data name="CreateManagedDiskAction_StorageAccountType_Description" xml:space="preserve">
+    <value>The disk type</value>
+  </data>
+  <data name="CreateManagedDiskAction_StorageAccountType_FriendlyName" xml:space="preserve">
+    <value>Storage account type</value>
+  </data>
+  <data name="CreateManagedDiskFromStorageBlob_Description" xml:space="preserve">
+    <value>Creates a managed disk from storage blob</value>
+  </data>
+  <data name="CreateManagedDiskFromStorageBlob_Summary" xml:space="preserve">
+    <value>Create managed disk &lt;DISKNAME&gt; from storage blob &lt;BLOBURL&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;BLOBURL&gt;"}</comment></data>
+  <data name="CreateResourceGroup_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateResourceGroup_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateResourceGroup_Description" xml:space="preserve">
+    <value>Creates a new resource group</value>
+  </data>
+  <data name="CreateResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Create resource group</value>
+  </data>
+  <data name="CreateResourceGroup_GroupName_Description" xml:space="preserve">
+    <value>The name of the resource group</value>
+  </data>
+  <data name="CreateResourceGroup_GroupName_FriendlyName" xml:space="preserve">
+    <value>Resource group name</value>
+  </data>
+  <data name="CreateResourceGroup_Location_Description" xml:space="preserve">
+    <value>The location where the new disk will be created</value>
+  </data>
+  <data name="CreateResourceGroup_Location_FriendlyName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="CreateResourceGroup_ResourceGroup_Description" xml:space="preserve">
+    <value>The created resource group</value>
+  </data>
+  <data name="CreateResourceGroup_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Created resource group</value>
+  </data>
+  <data name="CreateResourceGroup_Summary" xml:space="preserve">
+    <value>&lt;if(RESOURCEGROUP)&gt;
+Create a new resource group and store it into &lt;RESOURCEGROUP&gt;&lt;else&gt;
+Create a new resource group&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(RESOURCEGROUP)&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="CreateSessionAction_AuthenticationType_Description" xml:space="preserve">
+    <value>Specify the way to authenticate</value>
+  </data>
+  <data name="CreateSessionAction_AuthenticationType_FriendlyName" xml:space="preserve">
+    <value>Authentication type</value>
+  </data>
+  <data name="CreateSessionAction_AuthFile_Description" xml:space="preserve">
+    <value>The path of the file with all the required information to authenticate</value>
+  </data>
+  <data name="CreateSessionAction_AuthFile_FriendlyName" xml:space="preserve">
+    <value>Authentication file</value>
+  </data>
+  <data name="CreateSessionAction_AzureClient_Description" xml:space="preserve">
+    <value>The created Azure client </value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionAction_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionAction_ClientId_Description" xml:space="preserve">
+    <value>The client Id of the application, also known as application Id, which identifies the application that is using the token</value>
+  </data>
+  <data name="CreateSessionAction_ClientId_FriendlyName" xml:space="preserve">
+    <value>Client ID </value>
+  </data>
+  <data name="CreateSessionAction_ClientSecret_Description" xml:space="preserve">
+    <value>The secret for the client ID</value>
+  </data>
+  <data name="CreateSessionAction_ClientSecret_FriendlyName" xml:space="preserve">
+    <value>Client secret</value>
+  </data>
+  <data name="CreateSessionAction_Description" xml:space="preserve">
+    <value>Creates an Azure session</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionAction_Environment_Description" xml:space="preserve">
+    <value>The environment to authenticate to</value>
+  </data>
+  <data name="CreateSessionAction_Environment_FriendlyName" xml:space="preserve">
+    <value>Environment</value>
+  </data>
+  <data name="CreateSessionAction_FriendlyName" xml:space="preserve">
+    <value>Create session</value>
+  </data>
+  <data name="CreateSessionAction_Password_Description" xml:space="preserve">
+    <value>The associated password</value>
+  </data>
+  <data name="CreateSessionAction_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="CreateSessionAction_SubscriptionId_Description" xml:space="preserve">
+    <value>The Azure subscription ID. If not provided, the default subscription will be used</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionAction_SubscriptionId_FriendlyName" xml:space="preserve">
+    <value>Subscription ID</value>
+  </data>
+  <data name="CreateSessionAction_TenantId_Description" xml:space="preserve">
+    <value>The directory ID of the Azure Active Directory</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionAction_TenantId_FriendlyName" xml:space="preserve">
+    <value>Tenant ID</value>
+  </data>
+  <data name="CreateSessionAction_UserName_Description" xml:space="preserve">
+    <value>The user name</value>
+  </data>
+  <data name="CreateSessionAction_UserName_FriendlyName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="CreateSessionViaFile_Description" xml:space="preserve">
+    <value>Creates an Azure session using an authentication file</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionViaFile_Summary" xml:space="preserve">
+    <value>&lt;if(AZURECLIENT)&gt;
+Create an Azure session using authentication file &lt;AUTHFILE&gt; and store the result in &lt;AZURECLIENT&gt;&lt;else&gt;
+Create an Azure session using authentication file &lt;AUTHFILE&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;AUTHFILE&gt;"}{Locked="&lt;if(AZURECLIENT)&gt;"}{Locked="&lt;AZURECLIENT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="Azure"}</comment></data>
+  <data name="CreateSessionViaServicePrincipal_Description" xml:space="preserve">
+    <value>Creates an Azure session using service principal</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSessionViaServicePrincipal_Summary" xml:space="preserve">
+    <value>&lt;if(AZURECLIENT)&gt;
+Create an Azure session with service principal and store the result in &lt;AZURECLIENT&gt;&lt;else&gt;
+Create an Azure session with service principal&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(AZURECLIENT)&gt;"}{Locked="&lt;AZURECLIENT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="Azure"}</comment></data>
+  <data name="CreateSnapshot_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSnapshot_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client </value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSnapshot_Description" xml:space="preserve">
+    <value>Creates a snapshot from the specified disk</value>
+  </data>
+  <data name="CreateSnapshot_DiskName_Description" xml:space="preserve">
+    <value>The name of the managed disk that will be used as source data</value>
+  </data>
+  <data name="CreateSnapshot_DiskName_FriendlyName" xml:space="preserve">
+    <value>Source disk</value>
+  </data>
+  <data name="CreateSnapshot_DiskResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the managed disk that will be used as source data</value>
+  </data>
+  <data name="CreateSnapshot_DiskResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Source disk's resource group</value>
+  </data>
+  <data name="CreateSnapshot_FriendlyName" xml:space="preserve">
+    <value>Create snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Location_Description" xml:space="preserve">
+    <value>The location where the new disk will be created</value>
+  </data>
+  <data name="CreateSnapshot_Location_FriendlyName" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="CreateSnapshot_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group where the snapshot will be created</value>
+  </data>
+  <data name="CreateSnapshot_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="CreateSnapshot_ResourceGroupCreateOption_Description" xml:space="preserve">
+    <value>Specifies whether a new resource group will be created or an existing one will be used</value>
+  </data>
+  <data name="CreateSnapshot_ResourceGroupCreateOption_FriendlyName" xml:space="preserve">
+    <value>Resource group option</value>
+  </data>
+  <data name="CreateSnapshot_Snapshot_Description" xml:space="preserve">
+    <value>The created snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Snapshot_FriendlyName" xml:space="preserve">
+    <value>Created Azure snapshot</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="CreateSnapshot_SnapshotName_Description" xml:space="preserve">
+    <value>The name of the snapshot to create</value>
+  </data>
+  <data name="CreateSnapshot_SnapshotName_FriendlyName" xml:space="preserve">
+    <value>Snapshot name</value>
+  </data>
+  <data name="CreateSnapshot_Summary" xml:space="preserve">
+    <value>&lt;if(SNAPSHOT)&gt;
+Create snapshot &lt;SNAPSHOTNAME&gt; from disk &lt;DISKNAME&gt; and store it into &lt;SNAPSHOT&gt;&lt;else&gt;
+Create snapshot &lt;SNAPSHOTNAME&gt; from disk &lt;DISKNAME&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;SNAPSHOTNAME&gt;"}{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;if(SNAPSHOT)&gt;"}{Locked="&lt;SNAPSHOT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="DeleteDisk_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DeleteDisk_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DeleteDisk_Description" xml:space="preserve">
+    <value>Deletes the managed disk with the specified name and resource group</value>
+  </data>
+  <data name="DeleteDisk_DiskName_Description" xml:space="preserve">
+    <value>The name of the managed disk to delete</value>
+  </data>
+  <data name="DeleteDisk_DiskName_FriendlyName" xml:space="preserve">
+    <value>Disk name</value>
+  </data>
+  <data name="DeleteDisk_FriendlyName" xml:space="preserve">
+    <value>Delete disk</value>
+  </data>
+  <data name="DeleteDisk_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the disk</value>
+  </data>
+  <data name="DeleteDisk_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="DeleteDisk_Summary" xml:space="preserve">
+    <value>Delete managed disk &lt;DISKNAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="DeleteResourceGroup_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DeleteResourceGroup_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DeleteResourceGroup_Description" xml:space="preserve">
+    <value>Deletes the specified resource group and all the contained resources</value>
+  </data>
+  <data name="DeleteResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Delete resource group</value>
+  </data>
+  <data name="DeleteResourceGroup_GroupName_Description" xml:space="preserve">
+    <value>The name of the resource group</value>
+  </data>
+  <data name="DeleteResourceGroup_GroupName_FriendlyName" xml:space="preserve">
+    <value>Resource group name</value>
+  </data>
+  <data name="DeleteResourceGroup_Summary" xml:space="preserve">
+    <value>Delete resource group &lt;GROUPNAME&gt; and all the contained resources</value>
+  <comment>{Locked="&lt;GROUPNAME&gt;"}</comment></data>
+  <data name="DeleteSnapshot_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DeleteSnapshot_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DeleteSnapshot_Description" xml:space="preserve">
+    <value>Deletes the snapshot with the specified name and resource group</value>
+  </data>
+  <data name="DeleteSnapshot_FriendlyName" xml:space="preserve">
+    <value>Delete snapshot</value>
+  </data>
+  <data name="DeleteSnapshot_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the snapshot</value>
+  </data>
+  <data name="DeleteSnapshot_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="DeleteSnapshot_SnapshotName_Description" xml:space="preserve">
+    <value>The name of the snapshot to delete</value>
+  </data>
+  <data name="DeleteSnapshot_SnapshotName_FriendlyName" xml:space="preserve">
+    <value>Snapshot name</value>
+  </data>
+  <data name="DeleteSnapshot_Summary" xml:space="preserve">
+    <value>Delete snapshot &lt;SNAPSHOTNAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;SNAPSHOTNAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="DescribeVirtualMachineAction_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DescribeVirtualMachineAction_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DescribeVirtualMachineAction_Description" xml:space="preserve">
+    <value>Gets all the information for the virtual machine(s) based on the specified criteria</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_FriendlyName" xml:space="preserve">
+    <value>Describe virtual machine</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the virtual machine</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_Status_Description" xml:space="preserve">
+    <value>The status of the virtual machine</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_Status_FriendlyName" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_Summary" xml:space="preserve">
+    <value>Get all the information for the virtual machine(s) and store it in &lt;VIRTUALMACHINES&gt;</value>
+  <comment>{Locked="&lt;VIRTUALMACHINES&gt;"}</comment></data>
+  <data name="DescribeVirtualMachineAction_VirtualMachineName_Description" xml:space="preserve">
+    <value>The name of the virtual machine</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_VirtualMachines_Description" xml:space="preserve">
+    <value>The retrieved virtual machines with all the related information</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_VirtualMachines_FriendlyName" xml:space="preserve">
+    <value>Virtual machines</value>
+  </data>
+  <data name="DetachDisk_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DetachDisk_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="DetachDisk_Description" xml:space="preserve">
+    <value>Detaches the disk from the virtual machine with the specified name and resource group</value>
+  </data>
+  <data name="DetachDisk_DiskName_Description" xml:space="preserve">
+    <value>The name of the disk to detach</value>
+  </data>
+  <data name="DetachDisk_DiskName_FriendlyName" xml:space="preserve">
+    <value>Disk name</value>
+  </data>
+  <data name="DetachDisk_FriendlyName" xml:space="preserve">
+    <value>Detach disk</value>
+  </data>
+  <data name="DetachDisk_IsManagedDisk_Description" xml:space="preserve">
+    <value>Specify whether the disk to detach is managed</value>
+  </data>
+  <data name="DetachDisk_IsManagedDisk_FriendlyName" xml:space="preserve">
+    <value>Disk is managed</value>
+  </data>
+  <data name="DetachDisk_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the VM</value>
+  </data>
+  <data name="DetachDisk_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Virtual machine's resource group</value>
+  </data>
+  <data name="DetachDisk_Summary" xml:space="preserve">
+    <value>Detach disk &lt;DISKNAME&gt; from virtual machine &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="DetachDisk_VirtualMachineName_Description" xml:space="preserve">
+    <value>The VM from where the disk will be detached</value>
+  </data>
+  <data name="DetachDisk_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="DiskSource_None_FriendlyName" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="DiskSource_Snapshot_FriendlyName" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="DiskSource_StorageBlob_FriendlyName" xml:space="preserve">
+    <value>Storage blob</value>
+  </data>
+  <data name="EndSession_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="EndSession_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client </value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="EndSession_Description" xml:space="preserve">
+    <value>Ends an Azure session</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="EndSession_FriendlyName" xml:space="preserve">
+    <value>End session</value>
+  </data>
+  <data name="EndSession_Summary" xml:space="preserve">
+    <value>End the Azure session stored in &lt;AZURECLIENT&gt;</value>
+  <comment>{Locked="&lt;AZURECLIENT&gt;"}{Locked="Azure"}</comment></data>
+  <data name="Environment_AzureChinaCloud_FriendlyName" xml:space="preserve">
+    <value>China cloud</value>
+  </data>
+  <data name="Environment_AzureGermanCloud_FriendlyName" xml:space="preserve">
+    <value>German cloud</value>
+  </data>
+  <data name="Environment_AzureGlobalCloud_FriendlyName" xml:space="preserve">
+    <value>Global cloud</value>
+  </data>
+  <data name="Environment_AzureUSGovernment_FriendlyName" xml:space="preserve">
+    <value>US Government</value>
+  </data>
+  <data name="Error_AttachedToVirtualMachineError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the disk because it is attached to a VM</value>
+  </data>
+  <data name="Error_AttachedToVirtualMachineError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete the disk because it is attached to a VM</value>
+  </data>
+  <data name="Error_AzureClientNotInitializedError_Description" xml:space="preserve">
+    <value>Indicates that the Azure client isn't initialized and can't be used</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Error_AzureClientNotInitializedError_FriendlyName" xml:space="preserve">
+    <value>Failed to use Azure client since it isn't initialized</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Error_DiskNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the disk with the specified criteria doesn't exist</value>
+  </data>
+  <data name="Error_DiskNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Disk wasn't found</value>
+  </data>
+  <data name="Error_FailedToAttachDiskError_Description" xml:space="preserve">
+    <value>Indicates that the disk attachment failed</value>
+  </data>
+  <data name="Error_FailedToAttachDiskError_FriendlyName" xml:space="preserve">
+    <value>Failed to attach the disk</value>
+  </data>
+  <data name="Error_FailedToCreateAzureClientError_Description" xml:space="preserve">
+    <value>Indicates that creating the Azure client failed</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Error_FailedToCreateAzureClientError_FriendlyName" xml:space="preserve">
+    <value>Failed to create Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Error_FailedToCreateDiskError_Description" xml:space="preserve">
+    <value>Indicates that creating the disk failed</value>
+  </data>
+  <data name="Error_FailedToCreateDiskError_FriendlyName" xml:space="preserve">
+    <value>Failed to create disk</value>
+  </data>
+  <data name="Error_FailedToCreateResourceGroupError_Description" xml:space="preserve">
+    <value>Indicates that creating the resource group failed</value>
+  </data>
+  <data name="Error_FailedToCreateResourceGroupError_FriendlyName" xml:space="preserve">
+    <value>Failed to create resource group</value>
+  </data>
+  <data name="Error_FailedToCreateSnapshotError_Description" xml:space="preserve">
+    <value>Indicates that creating the snapshot failed</value>
+  </data>
+  <data name="Error_FailedToCreateSnapshotError_FriendlyName" xml:space="preserve">
+    <value>Failed to create snapshot</value>
+  </data>
+  <data name="Error_FailedToDeleteDiskError_Description" xml:space="preserve">
+    <value>Indicates that deleting the disk failed</value>
+  </data>
+  <data name="Error_FailedToDeleteDiskError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete disk</value>
+  </data>
+  <data name="Error_FailedToDeleteResourceGroupsError_Description" xml:space="preserve">
+    <value>Indicates that deleting the resource group failed</value>
+  </data>
+  <data name="Error_FailedToDeleteResourceGroupsError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete the resource group</value>
+  </data>
+  <data name="Error_FailedToDeleteSnapshotError_Description" xml:space="preserve">
+    <value>Indicates that deleting the snapshot failed</value>
+  </data>
+  <data name="Error_FailedToDeleteSnapshotError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete snapshot</value>
+  </data>
+  <data name="Error_FailedToDescribeVirtualMachinesError_Description" xml:space="preserve">
+    <value>Indicates that getting basic information of the VM(s) failed</value>
+  </data>
+  <data name="Error_FailedToDescribeVirtualMachinesError_FriendlyName" xml:space="preserve">
+    <value>Failed to get basic information of the VM(s) </value>
+  </data>
+  <data name="Error_FailedToDetachDiskError_Description" xml:space="preserve">
+    <value>Indicates that detaching the disk failed</value>
+  </data>
+  <data name="Error_FailedToDetachDiskError_FriendlyName" xml:space="preserve">
+    <value>Failed to detach disk</value>
+  </data>
+  <data name="Error_FailedToGetDisksError_Description" xml:space="preserve">
+    <value>Indicates that getting the disks with the specified criteria failed</value>
+  </data>
+  <data name="Error_FailedToGetDisksError_FriendlyName" xml:space="preserve">
+    <value>Failed to get the disks with the specified criteria</value>
+  </data>
+  <data name="Error_FailedToGetResourceGroupsError_Description" xml:space="preserve">
+    <value>Indicates that getting the resource groups with the specified criteria failed</value>
+  </data>
+  <data name="Error_FailedToGetResourceGroupsError_FriendlyName" xml:space="preserve">
+    <value>Failed to get the resource groups with the specified criteria </value>
+  </data>
+  <data name="Error_FailedToGetSnapshotsError_Description" xml:space="preserve">
+    <value>Indicates that getting the snapshots with the specified criteria failed</value>
+  </data>
+  <data name="Error_FailedToGetSnapshotsError_FriendlyName" xml:space="preserve">
+    <value>Failed to get the snapshots with the specified criteria </value>
+  </data>
+  <data name="Error_FailedToGetSubscriptionsError_Description" xml:space="preserve">
+    <value>Indicates that getting the subscriptions with the specified criteria failed</value>
+  </data>
+  <data name="Error_FailedToGetSubscriptionsError_FriendlyName" xml:space="preserve">
+    <value>Failed to get the subscriptions with the specified criteria</value>
+  </data>
+  <data name="Error_FailedToGetVirtualMachinesError_Description" xml:space="preserve">
+    <value>Indicates that getting the VMs with basic information failed</value>
+  </data>
+  <data name="Error_FailedToGetVirtualMachinesError_FriendlyName" xml:space="preserve">
+    <value>Failed to get the VMs with basic information</value>
+  </data>
+  <data name="Error_FailedToRestartVirtualMachineError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while trying to restart the VM</value>
+  </data>
+  <data name="Error_FailedToRestartVirtualMachineError_FriendlyName" xml:space="preserve">
+    <value>Failed to restart the VM</value>
+  </data>
+  <data name="Error_FailedToShutDownVirtualMachineError_Description" xml:space="preserve">
+    <value>Indicates an error occured while trying to shut down the VM</value>
+  </data>
+  <data name="Error_FailedToShutDownVirtualMachineError_FriendlyName" xml:space="preserve">
+    <value>Failed to shut down the VM</value>
+  </data>
+  <data name="Error_FailedToStartVirtualMachineError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while trying to start the VM</value>
+  </data>
+  <data name="Error_FailedToStartVirtualMachineError_FriendlyName" xml:space="preserve">
+    <value>Failed to start the VM</value>
+  </data>
+  <data name="Error_FailedToStopVirtualMachineError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while trying to stop the VM</value>
+  </data>
+  <data name="Error_FailedToStopVirtualMachineError_FriendlyName" xml:space="preserve">
+    <value>Failed to stop the VM</value>
+  </data>
+  <data name="Error_ManagedAndUnManagedDiskNotAllowedTogetherError_Description" xml:space="preserve">
+    <value>Indicates that the attachment failed because both unmanaged and managed disk can't exist together in a VM</value>
+  </data>
+  <data name="Error_ManagedAndUnManagedDiskNotAllowedTogetherError_FriendlyName" xml:space="preserve">
+    <value>Both unmanaged and managed disk can't exist together in a VM</value>
+  </data>
+  <data name="Error_NotAttachedToVirtualMachineError_Description" xml:space="preserve">
+    <value>Indicates that the detachment failed because the disk isn't attached to the specified VM</value>
+  </data>
+  <data name="Error_NotAttachedToVirtualMachineError_FriendlyName" xml:space="preserve">
+    <value>Failed to detach because the disk isn't attached to the specified VM</value>
+  </data>
+  <data name="Error_ResourceAlreadyExists_Description" xml:space="preserve">
+    <value>Indicates that the resource with the specified name already exists</value>
+  </data>
+  <data name="Error_ResourceAlreadyExists_FriendlyName" xml:space="preserve">
+    <value>The resource with the specified name already exists</value>
+  </data>
+  <data name="Error_ResourceGroupAlreadyExistsError_Description" xml:space="preserve">
+    <value>Indicates that the resource group already exists and can't be created</value>
+  </data>
+  <data name="Error_ResourceGroupAlreadyExistsError_FriendlyName" xml:space="preserve">
+    <value>Resource group already exists</value>
+  </data>
+  <data name="Error_ResourceGroupNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified resource group wasn't found</value>
+  </data>
+  <data name="Error_ResourceGroupNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Resource group wasn't found</value>
+  </data>
+  <data name="Error_SnapshotNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified snapshot wasn't found</value>
+  </data>
+  <data name="Error_SnapshotNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Snapshot wasn't found</value>
+  </data>
+  <data name="Error_VirtualMachineNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified VM wasn't found</value>
+  </data>
+  <data name="Error_VirtualMachineNotFoundError_FriendlyName" xml:space="preserve">
+    <value>VM wasn't found</value>
+  </data>
+  <data name="GetDisksAction_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetDisksAction_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetAllDisks_Description" xml:space="preserve">
+    <value>Gets all disks</value>
+  </data>
+  <data name="GetDisksAction_DiskName_Description" xml:space="preserve">
+    <value>The name of the disk</value>
+  </data>
+  <data name="GetDisksAction_DiskName_FriendlyName" xml:space="preserve">
+    <value>Disk name</value>
+  </data>
+  <data name="GetDisksAction_Disks_Description" xml:space="preserve">
+    <value>The retrieved disks with all the related information</value>
+  </data>
+  <data name="GetDisksAction_Disks_FriendlyName" xml:space="preserve">
+    <value>Disks</value>
+  </data>
+  <data name="GetDisksAction_FriendlyName" xml:space="preserve">
+    <value>Get disks</value>
+  </data>
+  <data name="GetDisksAction_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group where the disks reside</value>
+  </data>
+  <data name="GetDisksAction_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="GetAllDisks_Summary" xml:space="preserve">
+    <value>Get all disks and store them into &lt;DISKS&gt;</value>
+  <comment>{Locked="&lt;DISKS&gt;"}</comment></data>
+  <data name="GetResourceGroups_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetResourceGroups_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetResourceGroups_Description" xml:space="preserve">
+    <value>Gets the resource groups based on the specified criteria</value>
+  </data>
+  <data name="GetResourceGroups_FriendlyName" xml:space="preserve">
+    <value>Get resource groups</value>
+  </data>
+  <data name="GetResourceGroups_GroupName_Description" xml:space="preserve">
+    <value>The name of the resource group</value>
+  </data>
+  <data name="GetResourceGroups_GroupName_FriendlyName" xml:space="preserve">
+    <value>Resource group name</value>
+  </data>
+  <data name="GetResourceGroups_ResourceGroups_Description" xml:space="preserve">
+    <value>The retrieved resource groups</value>
+  </data>
+  <data name="GetResourceGroups_ResourceGroups_FriendlyName" xml:space="preserve">
+    <value>Resource groups</value>
+  </data>
+  <data name="GetResourceGroups_Summary" xml:space="preserve">
+    <value>&lt;if(RESOURCEGROUPS)&gt;
+Get the resource groups based on the specified criteria and store them into &lt;RESOURCEGROUPS&gt;&lt;else&gt;
+Get the resource groups based on the specified criteria&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(RESOURCEGROUPS)&gt;"}{Locked="&lt;RESOURCEGROUPS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetSnapshotsAction_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetSnapshotsAction_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetSnapshotsAction_Description" xml:space="preserve">
+    <value>Gets the snapshots based on the specified criteria</value>
+  </data>
+  <data name="GetSnapshotsAction_FriendlyName" xml:space="preserve">
+    <value>Get snapshots</value>
+  </data>
+  <data name="GetSnapshotsAction_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group where the snapshots reside</value>
+  </data>
+  <data name="GetSnapshotsAction_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="GetSnapshotsAction_SnapshotName_Description" xml:space="preserve">
+    <value>The name of the snapshot</value>
+  </data>
+  <data name="GetSnapshotsAction_SnapshotName_FriendlyName" xml:space="preserve">
+    <value>Snapshot name</value>
+  </data>
+  <data name="GetSnapshotsAction_Snapshots_Description" xml:space="preserve">
+    <value>The retrieved snapshots with all the related information</value>
+  </data>
+  <data name="GetSnapshotsAction_Snapshots_FriendlyName" xml:space="preserve">
+    <value>Snapshots</value>
+  </data>
+  <data name="GetSnapshots_Summary" xml:space="preserve">
+    <value>&lt;if(SNAPSHOTS)&gt;
+Get the snapshots based on the specified criteria and store them into &lt;SNAPSHOTS&gt;&lt;else&gt;
+Get the snapshots based on the specified criteria&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(SNAPSHOTS)&gt;"}{Locked="&lt;SNAPSHOTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetSubscriptions_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetSubscriptions_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetSubscriptions_Description" xml:space="preserve">
+    <value>Gets subscriptions that the current account can access</value>
+  </data>
+  <data name="GetSubscriptions_FriendlyName" xml:space="preserve">
+    <value>Get subscriptions</value>
+  </data>
+  <data name="GetSubscriptions_Subscriptions_Description" xml:space="preserve">
+    <value>The retrieved subscriptions with all the related information</value>
+  </data>
+  <data name="GetSubscriptions_Subscriptions_FriendlyName" xml:space="preserve">
+    <value>Subscriptions</value>
+  </data>
+  <data name="GetSubscriptions_Summary" xml:space="preserve">
+    <value>&lt;if(SUBSCRIPTIONS)&gt;
+Get subscriptions and store them into &lt;SUBSCRIPTIONS&gt;&lt;else&gt;
+Get subscriptions&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(SUBSCRIPTIONS)&gt;"}{Locked="&lt;SUBSCRIPTIONS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetVirtualMachines_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetVirtualMachines_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="GetVirtualMachines_Description" xml:space="preserve">
+    <value>Gets the basic information for the virtual machines</value>
+  </data>
+  <data name="GetVirtualMachines_FriendlyName" xml:space="preserve">
+    <value>Get virtual machines</value>
+  </data>
+  <data name="GetVirtualMachines_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the virtual machine</value>
+  </data>
+  <data name="GetVirtualMachines_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="GetVirtualMachines_Status_Description" xml:space="preserve">
+    <value>The status of the virtual machine</value>
+  </data>
+  <data name="GetVirtualMachines_Status_FriendlyName" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="GetVirtualMachines_Summary" xml:space="preserve">
+    <value>&lt;if(VIRTUALMACHINESINFO)&gt;
+Get basic information for the virtual machines and store it into &lt;VIRTUALMACHINESINFO&gt;&lt;else&gt;
+Get basic information for the virtual machines&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(VIRTUALMACHINESINFO)&gt;"}{Locked="&lt;VIRTUALMACHINESINFO&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetVirtualMachines_VirtualMachinesInfo_Description" xml:space="preserve">
+    <value>The retrieved virtual machines with basic information</value>
+  </data>
+  <data name="GetVirtualMachines_VirtualMachinesInfo_FriendlyName" xml:space="preserve">
+    <value>Virtual machines</value>
+  </data>
+  <data name="ResourceGroupCreateOption_CreateNew_FriendlyName" xml:space="preserve">
+    <value>Create new</value>
+  </data>
+  <data name="ResourceGroupCreateOption_UseExisting_FriendlyName" xml:space="preserve">
+    <value>Use existing </value>
+  </data>
+  <data name="RestartVirtualMachine_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="RestartVirtualMachine_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="RestartVirtualMachine_Description" xml:space="preserve">
+    <value>Restarts a virtual machine</value>
+  </data>
+  <data name="RestartVirtualMachine_FriendlyName" xml:space="preserve">
+    <value>Restart virtual machine</value>
+  </data>
+  <data name="RestartVirtualMachine_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the virtual machine</value>
+  </data>
+  <data name="RestartVirtualMachine_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="RestartVirtualMachine_Summary" xml:space="preserve">
+    <value>Restart virtual machine &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="RestartVirtualMachine_VirtualMachineName_Description" xml:space="preserve">
+    <value>The name of the virtual machine</value>
+  </data>
+  <data name="RestartVirtualMachine_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="ShutDownVirtualMachine_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="ShutDownVirtualMachine_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="ShutDownVirtualMachine_Description" xml:space="preserve">
+    <value>Shuts down the operating system of a virtual machine</value>
+  </data>
+  <data name="ShutDownVirtualMachine_FriendlyName" xml:space="preserve">
+    <value>Shut down virtual machine</value>
+  </data>
+  <data name="ShutDownVirtualMachine_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the virtual machine</value>
+  </data>
+  <data name="ShutDownVirtualMachine_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="ShutDownVirtualMachine_Summary" xml:space="preserve">
+    <value>Shut down the operating system of virtual machine &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="ShutDownVirtualMachine_VirtualMachineName_Description" xml:space="preserve">
+    <value>The name of the virtual machine</value>
+  </data>
+  <data name="ShutDownVirtualMachine_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="StartVirtualMachine_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="StartVirtualMachine_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="StartVirtualMachine_Description" xml:space="preserve">
+    <value>Starts the virtual machine</value>
+  </data>
+  <data name="StartVirtualMachine_FriendlyName" xml:space="preserve">
+    <value>Start virtual machine</value>
+  </data>
+  <data name="StartVirtualMachine_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the virtual machine</value>
+  </data>
+  <data name="StartVirtualMachine_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="StartVirtualMachine_Summary" xml:space="preserve">
+    <value>Start virtual machine &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt;</value>
+  <comment>{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="StartVirtualMachine_VirtualMachineName_Description" xml:space="preserve">
+    <value>The name of the virtual machine</value>
+  </data>
+  <data name="StartVirtualMachine_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="StopVirtualMachine_AzureClient_Description" xml:space="preserve">
+    <value>The client used to connect to Azure</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="StopVirtualMachine_AzureClient_FriendlyName" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="StopVirtualMachine_Description" xml:space="preserve">
+    <value>Stops the virtual machine and deallocates the related hardware (CPU and memory) and network resources</value>
+  </data>
+  <data name="StopVirtualMachine_FriendlyName" xml:space="preserve">
+    <value>Stop virtual machine</value>
+  </data>
+  <data name="StopVirtualMachine_ResourceGroup_Description" xml:space="preserve">
+    <value>The resource group of the virtual machine</value>
+  </data>
+  <data name="StopVirtualMachine_ResourceGroup_FriendlyName" xml:space="preserve">
+    <value>Resource group</value>
+  </data>
+  <data name="StopVirtualMachine_Summary" xml:space="preserve">
+    <value>Stop virtual machine &lt;VIRTUALMACHINENAME&gt; of resource group &lt;RESOURCEGROUP&gt; and deallocate the related hardware and network resources</value>
+  <comment>{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}</comment></data>
+  <data name="StopVirtualMachine_VirtualMachineName_Description" xml:space="preserve">
+    <value>The name of the virtual machine</value>
+  </data>
+  <data name="StopVirtualMachine_VirtualMachineName_FriendlyName" xml:space="preserve">
+    <value>Virtual machine name</value>
+  </data>
+  <data name="StorageAccountType_Premium_FriendlyName" xml:space="preserve">
+    <value>Premium SSD</value>
+  </data>
+  <data name="StorageAccountType_Standard_FriendlyName" xml:space="preserve">
+    <value>Standard HDD</value>
+  </data>
+  <data name="StorageAccountType_StandardSSD_FriendlyName" xml:space="preserve">
+    <value>Standard SSD</value>
+  </data>
+  <data name="StorageAccountType_UltraSSD_FriendlyName" xml:space="preserve">
+    <value>Ultra disk SSD</value>
+  </data>
+  <data name="VMStatus_Any_FriendlyName" xml:space="preserve">
+    <value>Any</value>
+  </data>
+  <data name="VMStatus_Deallocated_FriendlyName" xml:space="preserve">
+    <value>Deallocated</value>
+  </data>
+  <data name="VMStatus_Deallocating_FriendlyName" xml:space="preserve">
+    <value>Deallocating</value>
+  </data>
+  <data name="VMStatus_Running_FriendlyName" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="VMStatus_Starting_FriendlyName" xml:space="preserve">
+    <value>Starting</value>
+  </data>
+  <data name="VMStatus_Stopped_FriendlyName" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="VMStatus_Stopping_FriendlyName" xml:space="preserve">
+    <value>Stopping</value>
+  </data>
+  <data name="VMStatus_Unknown_FriendlyName" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="CreateManagedDiskFromSnapshot_Description" xml:space="preserve">
+    <value>Creates a managed disk from snapshot</value>
+  </data>
+  <data name="CreateManagedDiskFromSnapshot_Summary" xml:space="preserve">
+    <value>Create managed disk &lt;DISKNAME&gt; from snapshot &lt;SNAPSHOTNAME&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;SNAPSHOTNAME&gt;"}</comment></data>
+  <data name="GetAllSnapshots_Description" xml:space="preserve">
+    <value>Gets all snapshots</value>
+  </data>
+  <data name="GetAllSnapshots_Summary" xml:space="preserve">
+    <value>&lt;if(SNAPSHOTS)&gt;
+Get all snapshots and store them into &lt;SNAPSHOTS&gt;&lt;else&gt;
+Get all snapshots&lt;endif&gt;</value>
+  <comment>{Locked="&lt;if(SNAPSHOTS)&gt;"}{Locked="&lt;SNAPSHOTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetDisksAction_Description" xml:space="preserve">
+    <value>Gets the disks based on the specified criteria</value>
+  </data>
+  <data name="GetDisksAction_RetrieveDisksMode_Description" xml:space="preserve">
+    <value>Specify which disks to retrieve</value>
+  </data>
+  <data name="GetDisksAction_RetrieveDisksMode_FriendlyName" xml:space="preserve">
+    <value>Retrieve disks</value>
+  </data>
+  <data name="GetDisksByNameAndResourceGroup_Description" xml:space="preserve">
+    <value>Gets disk(s) with the specified name and resource group</value>
+  </data>
+  <data name="GetDisksByNameAndResourceGroup_Summary" xml:space="preserve">
+    <value>Get disk(s) with name &lt;DISKNAME&gt; residing in resource group &lt;RESOURCEGROUP&gt; and store them into &lt;DISKS&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;DISKS&gt;"}</comment></data>
+  <data name="GetDisksByName_Description" xml:space="preserve">
+    <value>Gets disk(s) with the specified name</value>
+  </data>
+  <data name="GetDisksByName_Summary" xml:space="preserve">
+    <value>Get disk(s) with name &lt;DISKNAME&gt; and store them into &lt;DISKS&gt;</value>
+  <comment>{Locked="&lt;DISKNAME&gt;"}{Locked="&lt;DISKS&gt;"}</comment></data>
+  <data name="GetDisksByResourceGroup_Description" xml:space="preserve">
+    <value>Gets disk(s) of the specified resource group</value>
+  </data>
+  <data name="GetDisksByResourceGroup_Summary" xml:space="preserve">
+    <value>Get disk(s) residing in resource group &lt;RESOURCEGROUP&gt; and store them into &lt;DISKS&gt;</value>
+  <comment>{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;DISKS&gt;"}</comment></data>
+  <data name="GetSnapshotsAction_RetrieveSnapshotsMode_Description" xml:space="preserve">
+    <value>Specify which snapshots to retrieve</value>
+  </data>
+  <data name="GetSnapshotsAction_RetrieveSnapshotsMode_FriendlyName" xml:space="preserve">
+    <value>Retrieve snapshots</value>
+  </data>
+  <data name="GetSnapshotsByNameAndResourceGroup_Description" xml:space="preserve">
+    <value>Gets snapshot(s) with the specified name and resource group</value>
+  </data>
+  <data name="GetSnapshotsByNameAndResourceGroup_Summary" xml:space="preserve">
+    <value>&lt;if(SNAPSHOTS)&gt;
+Get snapshot(s) with name &lt;SNAPSHOTNAME&gt; residing in resource group &lt;RESOURCEGROUP&gt; and store them into &lt;SNAPSHOTS&gt;&lt;else&gt;
+Get snapshot(s) with name &lt;SNAPSHOTNAME&gt; residing in resource group &lt;RESOURCEGROUP&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;SNAPSHOTNAME&gt;"}{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;if(SNAPSHOTS)&gt;"}{Locked="&lt;SNAPSHOTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetSnapshotsByName_Description" xml:space="preserve">
+    <value>Gets snapshot(s) with the specified name</value>
+  </data>
+  <data name="GetSnapshotsByName_Summary" xml:space="preserve">
+    <value>&lt;if(SNAPSHOTS)&gt;
+Get snapshot(s) with name &lt;SNAPSHOTNAME&gt; and store them into &lt;SNAPSHOTS&gt;&lt;else&gt;
+Get snapshot(s) with name &lt;SNAPSHOTNAME&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;SNAPSHOTNAME&gt;"}{Locked="&lt;if(SNAPSHOTS)&gt;"}{Locked="&lt;SNAPSHOTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetSnapshotsByResourceGroup_Description" xml:space="preserve">
+    <value>Gets snapshot(s) residing in the specified resource group</value>
+  </data>
+  <data name="GetSnapshotsByResourceGroup_Summary" xml:space="preserve">
+    <value>&lt;if(SNAPSHOTS)&gt;
+Get snapshot(s) residing in Resource Group &lt;RESOURCEGROUP&gt; and store them into &lt;SNAPSHOTS&gt;&lt;else&gt;
+Get snapshot(s) residing in Resource Group &lt;RESOURCEGROUP&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;if(SNAPSHOTS)&gt;"}{Locked="&lt;SNAPSHOTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="RetrieveAzureResourceMode_All_FriendlyName" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="RetrieveAzureResourceMode_ByName_FriendlyName" xml:space="preserve">
+    <value>With the specified name in all resource groups</value>
+  </data>
+  <data name="RetrieveAzureResourceMode_ByResourceGroupAndName_FriendlyName" xml:space="preserve">
+    <value>With specific name in the specified resource group</value>
+  </data>
+  <data name="RetrieveAzureResourceMode_ByResourceGroup_FriendlyName" xml:space="preserve">
+    <value>With the specified resource group</value>
+  </data>
+  <data name="DescribeAllVirtualMachines_Description" xml:space="preserve">
+    <value>Gets all the information for all the virtual machines</value>
+  </data>
+  <data name="DescribeAllVirtualMachines_Summary" xml:space="preserve">
+    <value>Get all the information for all the virtual machines and store it in &lt;VIRTUALMACHINES&gt;</value>
+  <comment>{Locked="&lt;VIRTUALMACHINES&gt;"}</comment></data>
+  <data name="DescribeVirtualMachineAction_RetrieveVMMode_Description" xml:space="preserve">
+    <value>Specify which virtual machines to describe</value>
+  </data>
+  <data name="DescribeVirtualMachineAction_RetrieveVMMode_FriendlyName" xml:space="preserve">
+    <value>Describe virtual machines</value>
+  </data>
+  <data name="DescribeVirtualMachinesByNameAndResourceGroup_Description" xml:space="preserve">
+    <value>Gets information for the virtual machine(s) with the specified name and resource group</value>
+  </data>
+  <data name="DescribeVirtualMachinesByNameAndResourceGroup_Summary" xml:space="preserve">
+    <value>Get information for the virtual machine(s) in resource group &lt;RESOURCEGROUP&gt; with name &lt;VIRTUALMACHINENAME&gt; and store it in &lt;VIRTUALMACHINES&gt;</value>
+  <comment>{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;VIRTUALMACHINES&gt;"}</comment></data>
+  <data name="DescribeVirtualMachinesByName_Description" xml:space="preserve">
+    <value>Gets information for the virtual machine(s) with the specified name </value>
+  </data>
+  <data name="DescribeVirtualMachinesByName_Summary" xml:space="preserve">
+    <value>Get information for the virtual machine(s) with name &lt;VIRTUALMACHINENAME&gt; and store it in &lt;VIRTUALMACHINES&gt;</value>
+  <comment>{Locked="&lt;VIRTUALMACHINENAME&gt;"}{Locked="&lt;VIRTUALMACHINES&gt;"}</comment></data>
+  <data name="DescribeVirtualMachinesByResourceGroup_Description" xml:space="preserve">
+    <value>Gets information for the virtual machine(s) of the specified resource group</value>
+  </data>
+  <data name="DescribeVirtualMachinesByResourceGroup_Summary" xml:space="preserve">
+    <value>Get information for the virtual machine(s) in resource group &lt;RESOURCEGROUP&gt; and store it in &lt;VIRTUALMACHINES&gt;</value>
+  <comment>{Locked="&lt;RESOURCEGROUP&gt;"}{Locked="&lt;VIRTUALMACHINES&gt;"}</comment></data>
+  <data name="ErrrorMessage_NotInitializedAzureClient" xml:space="preserve">
+    <value>The Azure client hasn't been initialized.</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="ErrorMessage_ServiceResponseWithStatusCode" xml:space="preserve">
+    <value>{0} (StatusCode: {1}).</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_ResourceGroupAlreadyExists" xml:space="preserve">
+    <value>Resource group '{0}' already exists.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ResourceGroupNotFound" xml:space="preserve">
+    <value>Resource group '{0}' couldn't be found.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_VirtualMachineNotFound" xml:space="preserve">
+    <value>Virtual machine '{0}' couldn't be found.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_VirtualMachineNotFoundInResourceGroup" xml:space="preserve">
+    <value>Virtual machine '{0}' wasn't found in resource group '{1}'.</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_DiskNotFoundInResourceGroup" xml:space="preserve">
+    <value>Disk '{0}' wasn't found in resource group '{1}'.</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_ManagedDiskNotEnabled" xml:space="preserve">
+    <value>Virtual machine '{0}' doesn't have managed disk enabled. Both un-managed and managed disks can't exist together in a virtual machine.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ManagedDiskEnabled" xml:space="preserve">
+    <value>Virtual machine '{0}' has managed disk enabled. Both un-managed and managed disks can't exist together in a virtual machine.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_DiskAlreadyExists" xml:space="preserve">
+    <value>Disk '{0}' already exists in resource group '{1}'.</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_SnapshotNotFoundInResourceGroup" xml:space="preserve">
+    <value>Snapshot '{0}' wasn't found in resource group '{1}'.</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_DiskCantBeDeleted" xml:space="preserve">
+    <value>Disk '{0}' is attached to virtual machine and can't be deleted.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_DiskNotAttachedToVirtualMachine" xml:space="preserve">
+    <value>Disk '{0}' isn't attached to virtual machine '{1}'.</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_DiskNotFound" xml:space="preserve">
+    <value>Disk '{0}' couldn't be found.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_SnapshotAlreadyExistsInResourceGroup" xml:space="preserve">
+    <value>Snapshot '{0}' already exists in resource group '{1}'.</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="ErrorMessage_SnapshotNotFound" xml:space="preserve">
+    <value>Snapshot '{0}' wasn't found.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="Message_AzureClient" xml:space="preserve">
+    <value>Azure client</value>
+  <comment>{Locked="Azure"}</comment></data>
+  <data name="Message_Yes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="Message_No" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="Message_AzureManagedDisk" xml:space="preserve">
+    <value>Name: '{0}', Resource group: '{1}', Location: '{2}', State: '{3}', Configuration: '{4}', Is attached to virtual machine: '{5}', Tags: '{6}'</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}{Locked="{3}"}{Locked="{4}"}{Locked="{5}"}{Locked="{6}"}</comment></data>
+  <data name="Message_CachingLun" xml:space="preserve">
+    <value>, Caching: '{0}', Lun: '{1}' </value>
+  <comment>{Locked="{0}"}{Locked="{1}"}</comment></data>
+  <data name="Message_AzureSubscription" xml:space="preserve">
+    <value>Subscription id: '{0}', Name: '{1}', Status: '{2}'</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment></data>
+  <data name="Message_AzureUnManagedVmDisk" xml:space="preserve">
+    <value>Name: '{0}', Size: '{1} GiB', Vhd uri: '{2}', Caching: '{3}', Lun: '{4}'</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}{Locked="{3}"}{Locked="{4}"}</comment></data>
+  <data name="Message_AzureVirtualMachineInfo" xml:space="preserve">
+    <value>Name: '{0}', Status: '{1}', Resource group: '{2}', Location: '{3}', Operating system: '{4}', Tags: '{5}'</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}{Locked="{3}"}{Locked="{4}"}{Locked="{5}"}</comment></data>
+  <data name="Message_AzureVirtualMachineAddedInfo" xml:space="preserve">
+    <value>, Is managed disk enabled: '{0}', Managed data disks count: '{1}', Unmanaged data disks count: '{2}'</value>
+  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment></data>
+  <data name="CreateManagedDiskAction_StorageAccountName_FriendlyName" xml:space="preserve">
+    <value>Storage account name</value>
+  </data>
+  <data name="CreateManagedDiskAction_StorageAccountName_Description" xml:space="preserve">
+    <value>The name of the storage account where VHD file is stored</value>
+  </data>
+  <data name="Message_AzureSnapshot" xml:space="preserve">
+	  <value>Name: '{0}', Resource group: '{1}', Location: '{2}', Size: '{3} GiB',  Tags: '{4}'</value>
+	  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}{Locked="{3}"}{Locked="{4}"}</comment>
+  </data>
+  <data name="Message_AzureResourceGroup" xml:space="preserve">
+	  <value>Name: '{0}', Location: '{1}', Tags: '{2}'</value>
+	  <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+</root>

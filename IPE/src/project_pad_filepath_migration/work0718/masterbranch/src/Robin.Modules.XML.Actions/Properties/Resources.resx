@@ -1,0 +1,744 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_AttributeNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the attribute doesn't exist in the element</value>
+  </data>
+  <data name="Error_AttributeNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Attribute not found in element</value>
+  </data>
+  <data name="Error_ConvertAttributeError_Description" xml:space="preserve">
+    <value>Indicates a problem converting the attribute value to the requested data type</value>
+  </data>
+  <data name="Error_ConvertAttributeError_FriendlyName" xml:space="preserve">
+    <value>Failed to convert attribute value to the requested data type</value>
+  </data>
+  <data name="Error_ConvertElementError_Description" xml:space="preserve">
+    <value>Indicates a problem converting the element value to the requested data type</value>
+  </data>
+  <data name="Error_ConvertElementError_FriendlyName" xml:space="preserve">
+    <value>Failed to convert element value to the requested data type</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the directory doesn't exist</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="Error_FileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the file doesn't exist</value>
+  </data>
+  <data name="Error_FileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File not found</value>
+  </data>
+  <data name="Error_InsertElementError_Description" xml:space="preserve">
+    <value>Indicates a problem inserting the XML element</value>
+  </data>
+  <data name="Error_InsertElementError_FriendlyName" xml:space="preserve">
+    <value>Failed to insert XML element</value>
+  </data>
+  <data name="Error_InvalidDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that the specified directory is invalid</value>
+  </data>
+  <data name="Error_InvalidDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Invalid directory specified</value>
+  </data>
+  <data name="Error_InvalidFileError_Description" xml:space="preserve">
+    <value>Indicates that the file doesn't contain a valid XML document</value>
+  </data>
+  <data name="Error_InvalidFileError_FriendlyName" xml:space="preserve">
+    <value>File doesn't contain a valid XML document</value>
+  </data>
+  <data name="Error_InvalidXMLError_Description" xml:space="preserve">
+    <value>Indicates that the XML document provided is invalid</value>
+  </data>
+  <data name="Error_InvalidXMLError_FriendlyName" xml:space="preserve">
+    <value>Invalid XML document provided</value>
+  </data>
+  <data name="Error_InvalidXPathError_Description" xml:space="preserve">
+    <value>Indicates that the XPath expression provided is invalid</value>
+  </data>
+  <data name="Error_InvalidXPathError_FriendlyName" xml:space="preserve">
+    <value>Invalid XPath expression provided</value>
+  </data>
+  <data name="Error_ReadFileError_Description" xml:space="preserve">
+    <value>Indicates a problem reading from file</value>
+  </data>
+  <data name="Error_ReadFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to read from file</value>
+  </data>
+  <data name="Error_RemoveAttributeError_Description" xml:space="preserve">
+    <value>Indicates a problem removing the XML attibute</value>
+  </data>
+  <data name="Error_RemoveAttributeError_FriendlyName" xml:space="preserve">
+    <value>Failed to remove XML attibute</value>
+  </data>
+  <data name="Error_RemoveElementError_Description" xml:space="preserve">
+    <value>Indicates a problem removing the XML element</value>
+  </data>
+  <data name="Error_RemoveElementError_FriendlyName" xml:space="preserve">
+    <value>Failed to remove XML element</value>
+  </data>
+  <data name="Error_SetAttributeError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the XML attibute</value>
+  </data>
+  <data name="Error_SetAttributeError_FriendlyName" xml:space="preserve">
+    <value>Failed to set XML attibute</value>
+  </data>
+  <data name="Error_SetElementError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the element value</value>
+  </data>
+  <data name="Error_SetElementError_FriendlyName" xml:space="preserve">
+    <value>Failed to set element value</value>
+  </data>
+  <data name="Error_WriteFileError_Description" xml:space="preserve">
+    <value>Indicates a problem writing XML to file</value>
+  </data>
+  <data name="Error_WriteFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to write XML to file</value>
+  </data>
+  <data name="Error_XPathNoElementError_Description" xml:space="preserve">
+    <value>Indicates that the XPath expression returns no element</value>
+  </data>
+  <data name="Error_XPathNoElementError_FriendlyName" xml:space="preserve">
+    <value>XPath expression returns no element</value>
+  </data>
+  <data name="ExecuteXPath_Description" xml:space="preserve">
+    <value>Extract values from an XML document based on the provided XPath query</value>
+  </data>
+  <data name="ExecuteXPath_Summary" xml:space="preserve">
+    <value>&lt;if(XPATHRESULTS)&gt;Execute XPath query &lt;XPATHQUERY&gt; against &lt;XMLDOCUMENT&gt;and store the retrieved values into &lt;XPATHRESULTS&gt;&lt;else&gt;Execute XPath query &lt;XPATHQUERY&gt; against &lt;XMLDOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;XPATHQUERY&gt;"}{Locked="&lt;XMLDOCUMENT&gt;"}{Locked="&lt;if(XPATHRESULTS)&gt;"}{Locked="&lt;XPATHRESULTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="ExecuteXPathAndGetFirstValueOnly_Description" xml:space="preserve">
+    <value>Extract values from an XML document based on the provided XPath query and get the first result only</value>
+  </data>
+  <data name="ExecuteXPathAndGetFirstValueOnly_Summary" xml:space="preserve">
+    <value>&lt;if(XPATHRESULTS)&gt;Execute XPath query &lt;XPATHQUERY&gt; against &lt;XMLDOCUMENT&gt;and store the retrieved value into &lt;XPATHRESULTS&gt;&lt;else&gt;Execute XPath query &lt;XPATHQUERY&gt; against &lt;XMLDOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;XPATHQUERY&gt;"}{Locked="&lt;XMLDOCUMENT&gt;"}{Locked="&lt;if(XPATHRESULTS)&gt;"}{Locked="&lt;XPATHRESULTS&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="ExecuteXPathQuery_Description" xml:space="preserve">
+    <value>Extract values from an XML document based on the provided XPath query</value>
+  </data>
+  <data name="ExecuteXPathQuery_FirstValueOnly_Description" xml:space="preserve">
+    <value>Specifies whether to retrieve a single value (the first value only) or all the values that match the provided XPath expression</value>
+  </data>
+  <data name="ExecuteXPathQuery_FirstValueOnly_FriendlyName" xml:space="preserve">
+    <value>Get first value only</value>
+  </data>
+  <data name="ExecuteXPathQuery_FriendlyName" xml:space="preserve">
+    <value>Execute XPath expression</value>
+  </data>
+  <data name="ExecuteXPathQuery_XmlDocument_Description" xml:space="preserve">
+    <value>The XML as text or a previously defined variable that contains the XML document to parse</value>
+  </data>
+  <data name="ExecuteXPathQuery_XmlDocument_FriendlyName" xml:space="preserve">
+    <value>XML document to parse</value>
+  </data>
+  <data name="ExecuteXPathQuery_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to execute against the XML document</value>
+  </data>
+  <data name="ExecuteXPathQuery_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="ExecuteXPathQuery_XPathResult_Description" xml:space="preserve">
+    <value>The extracted node(s) as an XML node</value>
+  </data>
+  <data name="ExecuteXPathQuery_XPathResult_FriendlyName" xml:space="preserve">
+    <value>Extracted value</value>
+  </data>
+  <data name="ExecuteXPathQuery_XPathResults_Description" xml:space="preserve">
+    <value>The extracted node(s) as a list of XML nodes</value>
+  </data>
+  <data name="ExecuteXPathQuery_XPathResults_FriendlyName" xml:space="preserve">
+    <value>Extracted values</value>
+  </data>
+  <data name="FileEncoding_ASCII_FriendlyName" xml:space="preserve">
+    <value>ANSI</value>
+  <comment>{Locked="ANSI"}</comment></data>
+  <data name="FileEncoding_BigEndianUnicode_FriendlyName" xml:space="preserve">
+    <value>Unicode big endian</value>
+  <comment>{Locked="Unicode"}</comment></data>
+  <data name="FileEncoding_DefaultEncoding_FriendlyName" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="FileEncoding_Unicode_FriendlyName" xml:space="preserve">
+    <value>Unicode</value>
+  <comment>{Locked="Unicode"}</comment></data>
+  <data name="FileEncoding_UTF8_FriendlyName" xml:space="preserve">
+    <value>UTF-8</value>
+  </data>
+  <data name="GetElementAttribute_Description" xml:space="preserve">
+    <value>Get the value of an attribute of an XML element as text</value>
+  </data>
+  <data name="GetElementAttribute_Summary" xml:space="preserve">
+    <value>&lt;if(TEXTVALUE)&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt; and store it into &lt;TEXTVALUE&gt;&lt;else&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(TEXTVALUE)&gt;"}{Locked="&lt;TEXTVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetElementAttributeAsBoolean_Description" xml:space="preserve">
+    <value>Get the value of an attribute of an XML element as boolean</value>
+  </data>
+  <data name="GetElementAttributeAsBoolean_Summary" xml:space="preserve">
+    <value>&lt;if(BOOLEANVALUE)&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt; and store it into &lt;BOOLEANVALUE&gt;&lt;else&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(BOOLEANVALUE)&gt;"}{Locked="&lt;BOOLEANVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetElementAttributeAsDateTime_Description" xml:space="preserve">
+    <value>Get the value of an attribute of an XML element as datetime</value>
+  </data>
+  <data name="GetElementAttributeAsDateTime_Summary" xml:space="preserve">
+    <value>&lt;if(DATETIMEVALUE)&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt; and store it into &lt;DATETIMEVALUE&gt;&lt;else&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(DATETIMEVALUE)&gt;"}{Locked="&lt;DATETIMEVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetElementAttributeAsNumeric_Description" xml:space="preserve">
+    <value>Get the value of an attribute of an XML element as numeric</value>
+  </data>
+  <data name="GetElementAttributeAsNumeric_Summary" xml:space="preserve">
+    <value>&lt;if(NUMERICVALUE)&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt; and store it into &lt;NUMERICVALUE&gt;&lt;else&gt;Get the value of the XML attribute &lt;ATTRIBUTENAME&gt; of element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(NUMERICVALUE)&gt;"}{Locked="&lt;NUMERICVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetElementValue_Description" xml:space="preserve">
+    <value>Get the value of an XML element as text</value>
+  </data>
+  <data name="GetElementValue_Summary" xml:space="preserve">
+    <value>&lt;if(TEXTVALUE)&gt;Get the value of the XML element &lt;DOCUMENT&gt; and store it into &lt;TEXTVALUE&gt;&lt;else&gt;Get the value of the XML element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(TEXTVALUE)&gt;"}{Locked="&lt;TEXTVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment></data>
+  <data name="GetElementValueAsBoolean_Description" xml:space="preserve">
+    <value>Get the value of an XML element as boolean</value>
+  </data>
+  <data name="GetElementValueAsBoolean_Summary" xml:space="preserve">
+    <value>&lt;if(BOOLEANVALUE)&gt;Get the value of the XML element &lt;DOCUMENT&gt; and store it into &lt;BOOLEANVALUE&gt;&lt;else&gt;Get the value of the XML element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(BOOLEANVALUE)&gt;"}{Locked="&lt;BOOLEANVALUE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment></data>
+  <data name="GetElementValueAsDateTime_Description" xml:space="preserve">
+    <value>Gets the value of an XML element as datetime</value>
+  </data>
+  <data name="GetElementValueAsDateTime_Summary" xml:space="preserve">
+    <value>&lt;if(DATETIMEVALUE)&gt;Get the value of the XML element &lt;DOCUMENT&gt; and store it into &lt;DATETIMEVALUE&gt;&lt;else&gt;Get the value of the XML element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(DATETIMEVALUE)&gt;"}{Locked="&lt;DATETIMEVALUE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment></data>
+  <data name="GetElementValueAsNumeric_Description" xml:space="preserve">
+    <value>Get the value of an XML element as numeric</value>
+  </data>
+  <data name="GetElementValueAsNumeric_Summary" xml:space="preserve">
+    <value>&lt;if(NUMERICVALUE)&gt;Get the value of the XML element &lt;DOCUMENT&gt; and store it into &lt;NUMERICVALUE&gt;&lt;else&gt;Get the value of the XML element &lt;DOCUMENT&gt;&lt;endif&gt;</value>
+  <comment>{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;if(NUMERICVALUE)&gt;"}{Locked="&lt;NUMERICVALUE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment></data>
+  <data name="GetXmlElementAttribute_AttributeName_Description" xml:space="preserve">
+    <value>The name of the attribute to retrieve its value</value>
+  </data>
+  <data name="GetXmlElementAttribute_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="GetXmlElementAttribute_BooleanValue_Description" xml:space="preserve">
+    <value>The retrieved value of the XML attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_BooleanValue_FriendlyName" xml:space="preserve">
+    <value>XML attribute value</value>
+  </data>
+  <data name="GetXmlElementAttribute_DateTimeValue_Description" xml:space="preserve">
+    <value>The retrieved value of the XML attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_DateTimeValue_FriendlyName" xml:space="preserve">
+    <value>XML attribute value</value>
+  </data>
+  <data name="GetXmlElementAttribute_Description" xml:space="preserve">
+    <value>Get the value of an attribute of an XML element</value>
+  </data>
+  <data name="GetXmlElementAttribute_Document_Description" xml:space="preserve">
+    <value>The XML document or XML element to retrieve its attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="GetXmlElementAttribute_FriendlyName" xml:space="preserve">
+    <value>Get XML element attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_NumericValue_Description" xml:space="preserve">
+    <value>The retrieved value of the XML attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_NumericValue_FriendlyName" xml:space="preserve">
+    <value>XML attribute value</value>
+  </data>
+  <data name="GetXmlElementAttribute_TextValue_Description" xml:space="preserve">
+    <value>The retrieved value of the XML attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_TextValue_FriendlyName" xml:space="preserve">
+    <value>XML attribute value</value>
+  </data>
+  <data name="GetXmlElementAttribute_ValueType_Description" xml:space="preserve">
+    <value>Specifies the data type for the attribute value</value>
+  </data>
+  <data name="GetXmlElementAttribute_ValueType_FriendlyName" xml:space="preserve">
+    <value>Get value as</value>
+  </data>
+  <data name="GetXmlElementAttribute_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the sub-element and retrieve its attribute</value>
+  </data>
+  <data name="GetXmlElementAttribute_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="GetXmlElementValue_BooleanValue_Description" xml:space="preserve">
+    <value>The XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_BooleanValue_FriendlyName" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="GetXmlElementValue_DateTimeValue_Description" xml:space="preserve">
+    <value>The XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_DateTimeValue_FriendlyName" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="GetXmlElementValue_Description" xml:space="preserve">
+    <value>Get the value of an XML element</value>
+  </data>
+  <data name="GetXmlElementValue_Document_Description" xml:space="preserve">
+    <value>The XML document or XML element to retrieve its value</value>
+  </data>
+  <data name="GetXmlElementValue_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="GetXmlElementValue_FriendlyName" xml:space="preserve">
+    <value>Get XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_NumericValue_Description" xml:space="preserve">
+    <value>The XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_NumericValue_FriendlyName" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="GetXmlElementValue_TextValue_Description" xml:space="preserve">
+    <value>The XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_TextValue_FriendlyName" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="GetXmlElementValue_ValueType_Description" xml:space="preserve">
+    <value>Specifies the data type for the XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_ValueType_FriendlyName" xml:space="preserve">
+    <value>Get value as</value>
+  </data>
+  <data name="GetXmlElementValue_XmlElementValue_Description" xml:space="preserve">
+    <value>The retrieved value of the XML element</value>
+  </data>
+  <data name="GetXmlElementValue_XmlElementValue_FriendlyName" xml:space="preserve">
+    <value>XML element value</value>
+  </data>
+  <data name="GetXmlElementValue_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the sub-element and retrieve its value</value>
+  </data>
+  <data name="GetXmlElementValue_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="InsertElement_Description" xml:space="preserve">
+    <value>Insert a new XML element into an XML document</value>
+  </data>
+  <data name="InsertElement_Document_Description" xml:space="preserve">
+    <value>The XML document to insert the new XML element</value>
+  </data>
+  <data name="InsertElement_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="InsertElement_Element_Description" xml:space="preserve">
+    <value>The new XML element to insert into the XML document</value>
+  </data>
+  <data name="InsertElement_Element_FriendlyName" xml:space="preserve">
+    <value>XML element to insert</value>
+  </data>
+  <data name="InsertElement_FriendlyName" xml:space="preserve">
+    <value>Insert XML element</value>
+  </data>
+  <data name="InsertElement_Summary" xml:space="preserve">
+    <value>Insert XML element &lt;ELEMENT&gt; into document &lt;DOCUMENT&gt;</value>
+  <comment>{Locked="&lt;ELEMENT&gt;"}{Locked="&lt;DOCUMENT&gt;"}</comment></data>
+  <data name="InsertElement_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the parent XML element and insert the new element into it</value>
+  </data>
+  <data name="InsertElement_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="ReadFromFile_Description" xml:space="preserve">
+    <value>Read the contents of an XML file into a variable</value>
+  </data>
+  <data name="ReadFromFile_Encoding_Description" xml:space="preserve">
+    <value>The encoding used for the specified file</value>
+  </data>
+  <data name="ReadFromFile_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="ReadFromFile_File_Description" xml:space="preserve">
+    <value>The file that contains the XML document to read</value>
+  </data>
+  <data name="ReadFromFile_File_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="ReadFromFile_FriendlyName" xml:space="preserve">
+    <value>Read XML from file</value>
+  </data>
+  <data name="ReadFromFile_Summary" xml:space="preserve">
+    <value>Read XML from file &lt;FILE&gt; and store it into &lt;XMLDOCUMENT&gt;</value>
+  <comment>{Locked="&lt;FILE&gt;"}{Locked="&lt;XMLDOCUMENT&gt;"}</comment></data>
+  <data name="ReadFromFile_XmlDocument_Description" xml:space="preserve">
+    <value>The variable that holds the read XML document</value>
+  </data>
+  <data name="ReadFromFile_XmlDocument_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="RemoveElement_Description" xml:space="preserve">
+    <value>Remove one or more XML elements from an XML document</value>
+  </data>
+  <data name="RemoveElement_Document_Description" xml:space="preserve">
+    <value>The XML document that contains the XML element(s) to remove</value>
+  </data>
+  <data name="RemoveElement_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="RemoveElement_FriendlyName" xml:space="preserve">
+    <value>Remove XML element</value>
+  </data>
+  <data name="RemoveElement_Summary" xml:space="preserve">
+    <value>Remove element(s) &lt;XPATHQUERY&gt; from XML document &lt;DOCUMENT&gt;</value>
+  <comment>{Locked="&lt;XPATHQUERY&gt;"}{Locked="&lt;DOCUMENT&gt;"}</comment></data>
+  <data name="RemoveElement_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the element(s) to remove</value>
+  </data>
+  <data name="RemoveElement_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="RemoveElementAttribute_AttributeName_Description" xml:space="preserve">
+    <value>The name of the attribute to remove</value>
+  </data>
+  <data name="RemoveElementAttribute_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="RemoveElementAttribute_Description" xml:space="preserve">
+    <value>Remove an attribute from an XML element</value>
+  </data>
+  <data name="RemoveElementAttribute_Document_Description" xml:space="preserve">
+    <value>The XML document or XML element to remove its attribute</value>
+  </data>
+  <data name="RemoveElementAttribute_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="RemoveElementAttribute_FriendlyName" xml:space="preserve">
+    <value>Remove XML element attribute</value>
+  </data>
+  <data name="RemoveElementAttribute_Summary" xml:space="preserve">
+    <value>Remove the XML attribute &lt;ATTRIBUTENAME&gt; from element &lt;DOCUMENT&gt;</value>
+  <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;DOCUMENT&gt;"}</comment></data>
+  <data name="RemoveElementAttribute_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the sub-element and remove its attribute</value>
+  </data>
+  <data name="RemoveElementAttribute_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="RemoveXmlElementAttribute_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="SetElementAttribute_AttributeName_Description" xml:space="preserve">
+    <value>The name of the attribute to set its value</value>
+  </data>
+  <data name="SetElementAttribute_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="SetElementAttribute_AttributeValue_Description" xml:space="preserve">
+    <value>The new value for the attribute</value>
+  </data>
+  <data name="SetElementAttribute_AttributeValue_FriendlyName" xml:space="preserve">
+    <value>Attribute value</value>
+  </data>
+  <data name="SetElementAttribute_Description" xml:space="preserve">
+    <value>Set the value of an attribute of an XML element</value>
+  </data>
+  <data name="SetElementAttribute_Document_Description" xml:space="preserve">
+    <value>The XML document or XML element to set its attribute</value>
+  </data>
+  <data name="SetElementAttribute_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="SetElementAttribute_FriendlyName" xml:space="preserve">
+    <value>Set XML element attribute</value>
+  </data>
+  <data name="SetElementAttribute_Summary" xml:space="preserve">
+    <value>Set the value of the XML attribute &lt;ATTRIBUTENAME&gt; of the element &lt;DOCUMENT&gt; to &lt;ATTRIBUTEVALUE&gt;</value>
+  <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;ATTRIBUTEVALUE&gt;"}</comment></data>
+  <data name="SetElementAttribute_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the sub-element and set its attribute</value>
+  </data>
+  <data name="SetElementAttribute_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="SetElementValue_Description" xml:space="preserve">
+    <value>Set the value of an XML element</value>
+  </data>
+  <data name="SetElementValue_Document_Description" xml:space="preserve">
+    <value>The XML document or XML element to retrieve it value</value>
+  </data>
+  <data name="SetElementValue_Document_FriendlyName" xml:space="preserve">
+    <value>XML document</value>
+  </data>
+  <data name="SetElementValue_ElementValue_Description" xml:space="preserve">
+    <value>The new value for the XML element</value>
+  </data>
+  <data name="SetElementValue_ElementValue_FriendlyName" xml:space="preserve">
+    <value>XML element value</value>
+  </data>
+  <data name="SetElementValue_FriendlyName" xml:space="preserve">
+    <value>Set XML element value</value>
+  </data>
+  <data name="SetElementValue_Summary" xml:space="preserve">
+    <value>Set the value of the XML element &lt;DOCUMENT&gt; to &lt;ELEMENTVALUE&gt;</value>
+  <comment>{Locked="&lt;DOCUMENT&gt;"}{Locked="&lt;ELEMENTVALUE&gt;"}</comment></data>
+  <data name="SetElementValue_XPathQuery_Description" xml:space="preserve">
+    <value>The XPath expression to locate the sub-element and retrieve its value</value>
+  </data>
+  <data name="SetElementValue_XPathQuery_FriendlyName" xml:space="preserve">
+    <value>XPath query</value>
+  </data>
+  <data name="ValueType_Boolean_FriendlyName" xml:space="preserve">
+    <value>Boolean value</value>
+  </data>
+  <data name="ValueType_DateTime_FriendlyName" xml:space="preserve">
+    <value>Datetime value</value>
+  </data>
+  <data name="ValueType_Numeric_FriendlyName" xml:space="preserve">
+    <value>Numeric value</value>
+  </data>
+  <data name="ValueType_Text_FriendlyName" xml:space="preserve">
+    <value>Text value</value>
+  </data>
+  <data name="WriteToFile_Description" xml:space="preserve">
+    <value>Write the contents of an XML node variable into a file</value>
+  </data>
+  <data name="WriteToFile_Summary" xml:space="preserve">
+    <value>Write XML &lt;XML&gt; into file &lt;FILE&gt;</value>
+  <comment>{Locked="&lt;XML&gt;"}{Locked="&lt;FILE&gt;"}</comment></data>
+  <data name="WriteToFileFormatted_Description" xml:space="preserve">
+    <value>Write the contents of an XML node variable into a file after formatting it</value>
+  </data>
+  <data name="WriteToFileFormatted_Summary" xml:space="preserve">
+    <value>Write XML &lt;XML&gt; into file &lt;FILE&gt;</value>
+  <comment>{Locked="&lt;XML&gt;"}{Locked="&lt;FILE&gt;"}</comment></data>
+  <data name="WriteXmlToFile_Description" xml:space="preserve">
+    <value>Write the contents of an XML node variable into a file</value>
+  </data>
+  <data name="WriteXmlToFile_Encoding_Description" xml:space="preserve">
+    <value>The encoding used for the specified file</value>
+  </data>
+  <data name="WriteXmlToFile_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="WriteXmlToFile_File_Description" xml:space="preserve">
+    <value>The file to write the XML document into</value>
+  </data>
+  <data name="WriteXmlToFile_File_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="WriteXmlToFile_FormatXml_Description" xml:space="preserve">
+    <value>Specifies whether to format the XML</value>
+  </data>
+  <data name="WriteXmlToFile_FormatXml_FriendlyName" xml:space="preserve">
+    <value>Format XML</value>
+  </data>
+  <data name="WriteXmlToFile_FriendlyName" xml:space="preserve">
+    <value>Write XML to file</value>
+  </data>
+  <data name="WriteXmlToFile_Indentation_Description" xml:space="preserve">
+    <value>Specifies by how many spaces to indent each level of the XML</value>
+  </data>
+  <data name="WriteXmlToFile_Indentation_FriendlyName" xml:space="preserve">
+    <value>Indentation per level</value>
+  </data>
+  <data name="WriteXmlToFile_Xml_Description" xml:space="preserve">
+    <value>The XML node or document to write into the file</value>
+  </data>
+  <data name="WriteXmlToFile_Xml_FriendlyName" xml:space="preserve">
+    <value>XML to write</value>
+  </data>
+  <data name="XML_Description" xml:space="preserve">
+    <value>Manage and manipulate XML files</value>
+  </data>
+  <data name="XML_FriendlyName" xml:space="preserve">
+    <value>XML</value>
+  </data>
+  <data name="XmlNodeObject_FriendlyName" xml:space="preserve">
+    <value>XML node</value>
+  </data>
+  <data name="XmlNodeObject_FriendlyNamePlural" xml:space="preserve">
+    <value>XML nodes</value>
+  </data>
+  <data name="ErrorMessage_InvalidXMLError" xml:space="preserve">
+    <value>Invalid XML document provided</value>
+  </data>
+  <data name="ErrorMessage_InvalidXPathError" xml:space="preserve">
+    <value>Invalid XPath expression provided</value>
+  </data>
+  <data name="ErrorMessage_XPathNoElementError" xml:space="preserve">
+    <value>XPath expression returned no element.</value>
+  </data>
+  <data name="ErrorMessage_AttributeNotFoundError" xml:space="preserve">
+    <value>Attribute: {0} not found in element.</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ConvertAttributeNumberError" xml:space="preserve">
+    <value>Failed to convert attribute value {0} to number</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ConvertAttributeBooleanError" xml:space="preserve">
+    <value>Failed to convert attribute value {0} to boolean</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ConvertAttributeDateTimeError" xml:space="preserve">
+    <value>Failed to convert attribute value {0} to datetime</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ConvertElementNumberError" xml:space="preserve">
+    <value>Failed to convert element value {0} to number</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ConvertElementBooleanError" xml:space="preserve">
+    <value>Failed to convert element value {0} to boolean</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ConvertElementDateTimeError" xml:space="preserve">
+    <value>Failed to convert element value {0} to DateTime</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_InsertElementError" xml:space="preserve">
+    <value>Failed to insert new XML element</value>
+  </data>
+  <data name="ErrorMessage_InvalidFileError" xml:space="preserve">
+    <value>File {0} doesn't contain a valid XML document</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_FileNotFoundError" xml:space="preserve">
+    <value>File {0} not found</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_DirectoryNotFoundError" xml:space="preserve">
+    <value>Directory {0} not found</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_ReadFileError" xml:space="preserve">
+    <value>Failed to read XML from file {0}</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_RemoveElementError" xml:space="preserve">
+    <value>Failed to remove XML element</value>
+  </data>
+  <data name="ErrorMessage_RemoveAttributeError" xml:space="preserve">
+    <value>Failed to remove attribute '{0}'</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_SetAttributeError" xml:space="preserve">
+    <value>Failed to set attribute value</value>
+  </data>
+  <data name="ErrorMessage_SetElementError" xml:space="preserve">
+    <value>Failed to set element value</value>
+  </data>
+  <data name="ErrorMessage_InvalidDirectoryError" xml:space="preserve">
+    <value>Invalid directory specified {0}</value>
+  <comment>{Locked="{0}"}</comment></data>
+  <data name="ErrorMessage_WriteFileError" xml:space="preserve">
+    <value>Failed to write text to file</value>
+  </data>
+  <data name="ErrorMessage_InvalidXMLProvided" xml:space="preserve">
+    <value>The provided value is not a valid XML Document</value>
+  </data>
+</root>

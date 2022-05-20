@@ -1,0 +1,42 @@
+{
+  "strings": {
+    "leftNavItems": {
+      "actionItems": {
+        "approvalsPageNavText": "Approvals",
+        "businessProcessFlowsPageNavText": "Business process flows"
+      },
+      "actionItemsNavText": "Action items",
+      "aiBuilder": {
+        "buildPageNavText": "Explore",
+        "documentAutomationPageNavText": "Document automation (preview)",
+        "modelsPageNavText": "Models"
+      },
+      "aiBuilderNavText": "AI Builder",
+      "connectorsPageNavText": "Connectors",
+      "createPageNavText": "Create",
+      "data": {
+        "connectionsPageNavText": "Connections",
+        "customConnectorsPageNavText": "Custom connectors",
+        "gatewaysPageNavText": "Gateways",
+        "tablesPageNavText": "Tables"
+      },
+      "dataNavText": "Data",
+      "homePageNavText": "Home",
+      "learnPageNavText": "Learn",
+      "monitor": {
+        "cloudFlowActivityPageNavText": "Cloud flow activity",
+        "desktopFlowQueuesPageNavText": "Desktop flow queues",
+        "desktopFlowQueuesPageNavPreviewText": "Desktop flow queues (preview)",
+        "desktopFlowRunsPageNavText": "Desktop flow runs",
+        "desktopFlowRunsPageNavPreviewText": "Desktop flow runs (preview)",
+        "machinesPageNavText": "Machines",
+        "machinesPageNavPreviewText": "Machines (preview)"
+      },
+      "monitorNavText": "Monitor",
+      "myFlowsPageNavText": "My flows",
+      "processAdvisorNavText": "Process advisor",
+      "solutionsPageNavText": "Solutions",
+      "templatesPageNavText": "Templates"
+    }
+  }
+}

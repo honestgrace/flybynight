@@ -1,0 +1,28 @@
+[D365_ToolsRepoPath]\Tools\CallGitGui.ps1
+[D365_ToolsRepoPath]\Tools\CallMakelang.ps1
+[D365_ToolsRepoPath]\Tools\CallMakelang.ps1
+[D365_ToolsRepoPath]\Tools\CheckCommitV2.ps1   ****
+[D365_ToolsRepoPath]\Tools\CheckinGit.ps1
+[D365_ToolsRepoPath]\Tools\CheckinGitTopic.ps1
+[D365_ToolsRepoPath]\Tools\CheckModifiedFile.ps1 
+[D365_ToolsRepoPath]\Tools\CheckModifiedFile.ps1
+[D365_ToolsRepoPath]\Tools\CreatePRv3.ps1   ****
+[D365_ToolsRepoPath]\Tools\LcxConvert.ps1
+[D365_ToolsRepoPath]\Tools\LcxConvert.ps1
+[D365_ToolsRepoPath]\Tools\LcxRemoveComment.ps1
+[D365_ToolsRepoPath]\Tools\LocPayloadtoFilelist.ps1
+[D365_ToolsRepoPath]\Tools\PlatformAdminSSPckgJsn.ps1
+[D365_ToolsRepoPath]\Tools\PPUXGenerate-Filelist.ps1
+[D365_ToolsRepoPath]\Tools\RemoveLcxModified.ps1
+[D365_ToolsRepoPath]\Tools\RunV2.ps1    ****
+[D365_ToolsRepoPath]\Tools\SyncRepo.ps1
+[D365_ToolsRepoPath]\Tools\ValidateCFG.ps1
+[D365_ToolsRepoPath]\Tools\ValidateCFG.ps1
+
+CheckCommitV2.ps1
+CreatePRv3.ps1
+EVAL_ArtifactV2.ps1      ****
+EVAL_CloudBuildV2.ps1    ****
+EVAL_ProcessArtifactV2.ps1    ****
+ProcessArtifactV2.ps1      ****
+RunV2.ps1

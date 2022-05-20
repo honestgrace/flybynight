@@ -1,0 +1,53 @@
+{
+  "strings": {
+    "header": {
+      "settingsMenu": {
+        "adminCenter": "Admin Center",
+        "viewMyLicenses": "View My Licenses",
+        "powerAutomateSettings": "View all Power Automate Settings"
+      },
+      "helpMenu": {
+        "documentation": "Documentation",
+        "learn": "Learn",
+        "support": "Support",
+        "roadmap": "Roadmap",
+        "community": "Community",
+        "giveFeedback": "Give Feedback",
+        "blog": "Blog",
+        "desktopFlows": "Desktop flows",
+        "pricing": "Pricing",
+        "PADesktop": "Power Automate Desktop",
+        "PAForMobile": "Power Automate for Mobile",
+        "dataGateway": "Data Gateway"
+      },
+      "signoutMenu": {
+        "signoutButtonLabel": "Sign out"
+      },
+      "environmentPicker": {
+        "environmentPickerButtonLabel": "Environments"
+      }
+    },
+    "viewMyLicensesPanel": {
+      "title": "Licenses",
+      "userPlans": {
+        "aiBuilderTrial": "AI Builder Trial"
+      },
+      "environmentPlans": {
+        "perFlowPlan": "Per-flow plan",
+        "unattended": "Robotic process automation (RPA) - unattended add-on",
+        "aibuilder": "AI Builder add-on"
+      },
+      "capabilities": {
+        "standardConnector": "Standard connectors",
+        "premiumConnector": "Premium connectors",
+        "customConnector": "Custom connectors",
+        "onPremiseConnector": "On-premise connectors",
+        "rpaAttended": "Robotic process automation (RPA) - attended",
+        "rpaUnattended": "Robotic process automation (RPA) - unattended",
+        "processFlows": "Business process flows",
+        "aibuilder": "AI Builder",
+        "processAdvisor": "Process advisor"
+      }
+    }
+  }
+}

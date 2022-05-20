@@ -1,0 +1,18 @@
+# open C:\gitroot\TestLoc\src\HelloWorld\src\HelloWorld\HelloWorld.csproj
+# show the end result first
+# delete .resx files and build again
+# show the difference with English only
+# now show how the localization is done
+del C:\gitroot\TestLoc\src\HelloWorld\src\HelloWorld\Properties\Resources.de-DE.resx
+del C:\gitroot\TestLoc\src\HelloWorld\src\HelloWorld\Properties\Resources.el-GR.resx
+del C:\gitroot\TestLoc\src\HelloWorld\src\HelloWorld\Properties\Resources.fr-FR.resx
+
+cd C:\gitroot\TestLoc\src\HelloWorld\Localize
+Makelang.cmd all /handoff
+dir Extern\*.lcl /s /b
+
+copy /y C:\gitroot\TestLoc\src\HelloWorld\backup\Resources.resx.de-DE.lcl C:\gitroot\TestLoc\src\HelloWorld\Localize\Extern\de-DE\HelloWorld\src\HelloWorld\Properties\Resources.resx.lcl
+copy /y C:\gitroot\TestLoc\src\HelloWorld\backup\Resources.resx.el-GR.lcl C:\gitroot\TestLoc\src\HelloWorld\Localize\Extern\el-GR\HelloWorld\src\HelloWorld\Properties\Resources.resx.lcl
+copy /y C:\gitroot\TestLoc\src\HelloWorld\backup\Resources.resx.fr-FR.lcl C:\gitroot\TestLoc\src\HelloWorld\Localize\Extern\fr-FR\HelloWorld\src\HelloWorld\Properties\Resources.resx.lcl
+
+Makelang.cmd all

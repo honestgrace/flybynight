@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachmentsOptions_DoNotSave_FriendlyName" xml:space="preserve">
+    <value>Do not save attachments</value>
+  </data>
+  <data name="AttachmentsOptions_Save_FriendlyName" xml:space="preserve">
+    <value>Save attachments</value>
+  </data>
+  <data name="AuthenticateAndSend_Description" xml:space="preserve">
+    <value>Creates and sends a new email message</value>
+  </data>
+  <data name="AuthenticateAndSend_Summary" xml:space="preserve">
+    <value>Send email to &lt;TO&gt; with subject &lt;SUBJECT&gt;</value>
+    <comment>{Locked="&lt;TO&gt;"}{Locked="&lt;SUBJECT&gt;"}</comment>
+  </data>
+  <data name="Delete_Description" xml:space="preserve">
+    <value>Deletes an email message (or a list of email message) retrieved by a Retrieve email messages action</value>
+  </data>
+  <data name="Delete_Summary" xml:space="preserve">
+    <value>Delete email messages &lt;EMAILSTOPROCESS&gt; from account &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="Email_Description" xml:space="preserve">
+    <value>Automate sending, receiving and managing email messages through imap/smtp</value>
+  </data>
+  <data name="Email_FriendlyName" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Error_AttachmentNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified attachment(s) were not found</value>
+  </data>
+  <data name="Error_AttachmentNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Attachment not found</value>
+  </data>
+  <data name="Error_ConnectToImapServerError_Description" xml:space="preserve">
+    <value>Indicates that there was a problem connecting to the IMAP server</value>
+  </data>
+  <data name="Error_ConnectToImapServerError_FriendlyName" xml:space="preserve">
+    <value>Failed to connect to IMAP server</value>
+  </data>
+  <data name="Error_ImapServerAuthenticationError_Description" xml:space="preserve">
+    <value>Indicates a problem authenticating to the specified IMAP server</value>
+  </data>
+  <data name="Error_ImapServerAuthenticationError_FriendlyName" xml:space="preserve">
+    <value>Failed to authenticate to the IMAP server</value>
+  </data>
+  <data name="Error_InvalidEmailAddressError_Description" xml:space="preserve">
+    <value>Indicates that the specified email address is invalid</value>
+  </data>
+  <data name="Error_InvalidEmailAddressError_FriendlyName" xml:space="preserve">
+    <value>Invalid email address</value>
+  </data>
+  <data name="Error_InvalidMailFolderError_Description" xml:space="preserve">
+    <value>Indicates that the specified mail folder wasn't found</value>
+  </data>
+  <data name="Error_InvalidMailFolderError_FriendlyName" xml:space="preserve">
+    <value>Specified mail-folder doesn't exist</value>
+  </data>
+  <data name="Error_ProcessEmailsError_Description" xml:space="preserve">
+    <value>Indicates a problem with processing the specified email messages</value>
+  </data>
+  <data name="Error_ProcessEmailsError_FriendlyName" xml:space="preserve">
+    <value>Failed to process email messages</value>
+  </data>
+  <data name="Error_RetrieveEmailsError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the email messages</value>
+  </data>
+  <data name="Error_RetrieveEmailsError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve email messages</value>
+  </data>
+  <data name="Error_SaveAttachmentsError_Description" xml:space="preserve">
+    <value>Indicates a problem saving the attachments</value>
+  </data>
+  <data name="Error_SaveAttachmentsError_FriendlyName" xml:space="preserve">
+    <value>Failed to save attachments</value>
+  </data>
+  <data name="Error_SendEmailError_Description" xml:space="preserve">
+    <value>Indicates a problem sending the email message</value>
+  </data>
+  <data name="Error_SendEmailError_FriendlyName" xml:space="preserve">
+    <value>Failed to send email message</value>
+  </data>
+  <data name="Group_IMAPServer_Description" xml:space="preserve">
+    <value>The IMAP Server settings</value>
+  </data>
+  <data name="Group_IMAPServer_FriendlyName" xml:space="preserve">
+    <value>IMAP Server</value>
+  </data>
+  <data name="Group_SMTPServer_Description" xml:space="preserve">
+    <value>The SMTP Server settings</value>
+  </data>
+  <data name="Group_SMTPServer_FriendlyName" xml:space="preserve">
+    <value>SMTP Server</value>
+  </data>
+  <data name="Group_EmailFilters_Description" xml:space="preserve">
+    <value>The filters for the retrieved emails</value>
+  </data>
+  <data name="Group_EmailFilters_FriendlyName" xml:space="preserve">
+    <value>Email Filters</value>
+  </data>
+  <data name="MailMessageObject_FriendlyName" xml:space="preserve">
+    <value>Mail Message</value>
+  </data>
+  <data name="MailMessageObject_FriendlyNamePlural" xml:space="preserve">
+    <value>Mail Messages</value>
+  </data>
+  <data name="MarkAsUnread_Description" xml:space="preserve">
+    <value>Marks as unread an email message (or a list of email message) retrieved by a Retrieve email messages action</value>
+  </data>
+  <data name="MarkAsUnread_Summary" xml:space="preserve">
+    <value>Mark email messages &lt;EMAILSTOPROCESS&gt; as unread in account &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="MarkAsUnreadAndMove_Description" xml:space="preserve">
+    <value>Mark as unread and move an email message (or a list of email messages) retrieved by a Retrieve email messages action</value>
+  </data>
+  <data name="MarkAsUnreadAndMove_Summary" xml:space="preserve">
+    <value>Mark email messages &lt;EMAILSTOPROCESS&gt; as unread and move them to mail folder &lt;MAILFOLDER&gt; in account &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;MAILFOLDER&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="Move_Description" xml:space="preserve">
+    <value>Move an email message (or a list of email messages) retrieved by a Retrieve email messages action</value>
+  </data>
+  <data name="Move_Summary" xml:space="preserve">
+    <value>Move email messages &lt;EMAILSTOPROCESS&gt; to mail folder &lt;MAILFOLDER&gt; in account &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;MAILFOLDER&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="ProcessEmails_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="ProcessEmails_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept Untrusted Certificates</value>
+  </data>
+  <data name="ProcessEmails_Description" xml:space="preserve">
+    <value>Move, delete or mark as unread an email message (or a list of email messages) retrieved by a Retrieve email  messages action</value>
+  </data>
+  <data name="ProcessEmails_EmailsToProcess_Description" xml:space="preserve">
+    <value>The email message or list of email messages to process. This should be a variable populated by a Retrieve email messages action</value>
+  </data>
+  <data name="ProcessEmails_EmailsToProcess_FriendlyName" xml:space="preserve">
+    <value>Email message(s) to process</value>
+  </data>
+  <data name="ProcessEmails_EnableSSL_Description" xml:space="preserve">
+    <value>Specify whether to use a secure connection to communicate with the IMAP server</value>
+  </data>
+  <data name="ProcessEmails_EnableSSL_FriendlyName" xml:space="preserve">
+    <value>Enable SSL</value>
+  </data>
+  <data name="ProcessEmails_FriendlyName" xml:space="preserve">
+    <value>Process email messages</value>
+  </data>
+  <data name="ProcessEmails_IMAPServer_Description" xml:space="preserve">
+    <value>The IMAP server address (e.g. imap.gmail.com)</value>
+    <comment>{Locked="imap.gmail.com"}</comment>
+  </data>
+  <data name="ProcessEmails_IMAPServer_FriendlyName" xml:space="preserve">
+    <value>IMAP server</value>
+  </data>
+  <data name="ProcessEmails_MailFolder_Description" xml:space="preserve">
+    <value>The name of the mail folder to which the email messages will be moved</value>
+  </data>
+  <data name="ProcessEmails_MailFolder_FriendlyName" xml:space="preserve">
+    <value>Mail folder</value>
+  </data>
+  <data name="ProcessEmails_NeedsAuthentication_Description" xml:space="preserve">
+    <value>Specify whether the server requires authentication</value>
+  </data>
+  <data name="ProcessEmails_NeedsAuthentication_FriendlyName" xml:space="preserve">
+    <value>IMAP Server needs authentication</value>
+  </data>
+  <data name="ProcessEmails_Operation_Description" xml:space="preserve">
+    <value>The operation you want to perform on the specified email messages</value>
+  </data>
+  <data name="ProcessEmails_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ProcessEmails_Password_Description" xml:space="preserve">
+    <value>The password of the email account to access</value>
+  </data>
+  <data name="ProcessEmails_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ProcessEmails_Port_Description" xml:space="preserve">
+    <value>The port to use for the IMAP server. Usually this is port 993</value>
+  </data>
+  <data name="ProcessEmails_Port_FriendlyName" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="ProcessEmails_Username_Description" xml:space="preserve">
+    <value>The username of the email account to access</value>
+  </data>
+  <data name="ProcessEmails_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="ProcessEmailsOperation_Delete_FriendlyName" xml:space="preserve">
+    <value>Delete email messages from server</value>
+  </data>
+  <data name="ProcessEmailsOperation_MarkAsUnread_FriendlyName" xml:space="preserve">
+    <value>Mark email messages as unread</value>
+  </data>
+  <data name="ProcessEmailsOperation_MarkAsUnreadAndMove_FriendlyName" xml:space="preserve">
+    <value>Mark email messages as unread and move to mail folder</value>
+  </data>
+  <data name="ProcessEmailsOperation_Move_FriendlyName" xml:space="preserve">
+    <value>Move email messages to mail folder</value>
+  </data>
+  <data name="Retrieve_Description" xml:space="preserve">
+    <value>Retrieves email messages from an IMAP server</value>
+  </data>
+  <data name="Retrieve_Summary" xml:space="preserve">
+    <value>Retrieve &lt;MAILSTORETRIEVE&gt; from account &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;MAILSTORETRIEVE&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="RetrieveAndSaveAttachments_Description" xml:space="preserve">
+    <value>Retrieves email messages from an IMAP server and saves their attachments</value>
+  </data>
+  <data name="RetrieveAndSaveAttachments_Summary" xml:space="preserve">
+    <value>Retrieve &lt;MAILSTORETRIEVE&gt; from account &lt;USERNAME&gt;</value>
+    <comment>{Locked="&lt;MAILSTORETRIEVE&gt;"}{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="RetrieveEmails_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="RetrieveEmails_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept untrusted certificates</value>
+  </data>
+  <data name="RetrieveEmails_BodyContains_Description" xml:space="preserve">
+    <value>The key phrase to find within the email body. Leave this attribute blank to retrieve all email messages regardless of their content</value>
+  </data>
+  <data name="RetrieveEmails_BodyContains_FriendlyName" xml:space="preserve">
+    <value>'Body' contains</value>
+  </data>
+  <data name="RetrieveEmails_Description" xml:space="preserve">
+    <value>Retrieves email messages from an IMAP server</value>
+  </data>
+  <data name="RetrieveEmails_EnableSSL_Description" xml:space="preserve">
+    <value>Specify whether to use a secure connection to communicate with the IMAP Server</value>
+  </data>
+  <data name="RetrieveEmails_EnableSSL_FriendlyName" xml:space="preserve">
+    <value>Enable SSL</value>
+  </data>
+  <data name="RetrieveEmails_FriendlyName" xml:space="preserve">
+    <value>Retrieve email messages</value>
+  </data>
+  <data name="RetrieveEmails_FromContains_Description" xml:space="preserve">
+    <value>The full email address of the sender whose messages will be retrieved. Leave this attribute blank to retrieve all messages regardless of the sender</value>
+  </data>
+  <data name="RetrieveEmails_FromContains_FriendlyName" xml:space="preserve">
+    <value>"From" field contains</value>
+  </data>
+  <data name="RetrieveEmails_IMAPServer_Description" xml:space="preserve">
+    <value>The IMAP server address (e.g. imap.gmail.com)</value>
+    <comment>{Locked="imap.gmail.com"}</comment>
+  </data>
+  <data name="RetrieveEmails_IMAPServer_FriendlyName" xml:space="preserve">
+    <value>IMAP server</value>
+  </data>
+  <data name="RetrieveEmails_MailFolder_Description" xml:space="preserve">
+    <value>The name of the IMAP mail folder (also known as 'mailBox') to retrieve messages from</value>
+  </data>
+  <data name="RetrieveEmails_MailFolder_FriendlyName" xml:space="preserve">
+    <value>Mail folder</value>
+  </data>
+  <data name="RetrieveEmails_MailsToRetrieve_Description" xml:space="preserve">
+    <value>Specify whether to retrieve all messages in the folder or only the unread ones</value>
+  </data>
+  <data name="RetrieveEmails_MailsToRetrieve_FriendlyName" xml:space="preserve">
+    <value>Retrieve</value>
+  </data>
+  <data name="RetrieveEmails_MarkAsRead_Description" xml:space="preserve">
+    <value>Specify whether to mark as read the retrieved messages or leave them as is</value>
+  </data>
+  <data name="RetrieveEmails_MarkAsRead_FriendlyName" xml:space="preserve">
+    <value>Mark as read</value>
+  </data>
+  <data name="RetrieveEmails_NeedsAuthentication_Description" xml:space="preserve">
+    <value>Specify whether the server requires authentication</value>
+  </data>
+  <data name="RetrieveEmails_NeedsAuthentication_FriendlyName" xml:space="preserve">
+    <value>IMAP server needs authentication</value>
+  </data>
+  <data name="RetrieveEmails_Password_Description" xml:space="preserve">
+    <value>The password of the email account to access</value>
+  </data>
+  <data name="RetrieveEmails_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="RetrieveEmails_Port_Description" xml:space="preserve">
+    <value>The port to use for the IMAP server. Usually this is port 993</value>
+  </data>
+  <data name="RetrieveEmails_Port_FriendlyName" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="RetrieveEmails_RetrievedEmails_Description" xml:space="preserve">
+    <value>The retrieved email message for later processing as a list of email message objects</value>
+  </data>
+  <data name="RetrieveEmails_RetrievedEmails_FriendlyName" xml:space="preserve">
+    <value>Retrieved email  messages</value>
+  </data>
+  <data name="RetrieveEmails_SaveAttachments_Description" xml:space="preserve">
+    <value>Specify whether to save the attachments of the email messages retrieved or not</value>
+  </data>
+  <data name="RetrieveEmails_SaveAttachments_FriendlyName" xml:space="preserve">
+    <value>Save attachments</value>
+  </data>
+  <data name="RetrieveEmails_SaveAttachmentsInto_Description" xml:space="preserve">
+    <value>The folder to save the attachments to</value>
+  </data>
+  <data name="RetrieveEmails_SaveAttachmentsInto_FriendlyName" xml:space="preserve">
+    <value>Save attachments into</value>
+  </data>
+  <data name="RetrieveEmails_SubjectContains_Description" xml:space="preserve">
+    <value>The key phrase to find within the email subject. Leave this attribute blank to retrieve all email messages regardless of their subject</value>
+  </data>
+  <data name="RetrieveEmails_SubjectContains_FriendlyName" xml:space="preserve">
+    <value>"Subject" contains</value>
+  </data>
+  <data name="RetrieveEmails_ToContains_Description" xml:space="preserve">
+    <value>The full email address(es) of the recipient(s) (separated by space if more than one) for the messages that will be retrieved. Leave this attribute blank to retrieve all messages regardless of the recipient(s)</value>
+  </data>
+  <data name="RetrieveEmails_ToContains_FriendlyName" xml:space="preserve">
+    <value>"To" field contains</value>
+  </data>
+  <data name="RetrieveEmails_Username_Description" xml:space="preserve">
+    <value>The username of the email account to access</value>
+  </data>
+  <data name="RetrieveEmails_Username_FriendlyName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="RetrieveMessagesMode_All_FriendlyName" xml:space="preserve">
+    <value>All email messages</value>
+  </data>
+  <data name="RetrieveMessagesMode_Read_FriendlyName" xml:space="preserve">
+    <value>Read email messages only</value>
+  </data>
+  <data name="RetrieveMessagesMode_Unread_FriendlyName" xml:space="preserve">
+    <value>Unread email messages only</value>
+  </data>
+  <data name="Send_Description" xml:space="preserve">
+    <value>Creates and sends a new email message</value>
+  </data>
+  <data name="Send_Summary" xml:space="preserve">
+    <value>Send email to &lt;TO&gt; with subject &lt;SUBJECT&gt;</value>
+    <comment>{Locked="&lt;TO&gt;"}{Locked="&lt;SUBJECT&gt;"}</comment>
+  </data>
+  <data name="SendEmail_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="SendEmail_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept untrusted certificates</value>
+  </data>
+  <data name="SendEmail_Attachments_Description" xml:space="preserve">
+    <value>The full path of any attachment(s), or a file or a list of files. Multiple files should be enclosed in double quotes (") and separated by a space character</value>
+  </data>
+  <data name="SendEmail_Attachments_FriendlyName" xml:space="preserve">
+    <value>Attachment(s)</value>
+  </data>
+  <data name="SendEmail_BCC_Description" xml:space="preserve">
+    <value>The email(s) of the BCC (hidden) recipient(s). If more than one email is entered, the list of addresses should be separated by semi-colons</value>
+  </data>
+  <data name="SendEmail_BCC_FriendlyName" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="SendEmail_Body_Description" xml:space="preserve">
+    <value>The body of the email message</value>
+  </data>
+  <data name="SendEmail_Body_FriendlyName" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="SendEmail_CC_Description" xml:space="preserve">
+    <value>The email(s) of the Cc recipient(s). If more than one email address is entered, the list of addresses should be separated by semi-colons</value>
+  </data>
+  <data name="SendEmail_CC_FriendlyName" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="SendEmail_Description" xml:space="preserve">
+    <value>Creates and sends a new email message</value>
+  </data>
+  <data name="SendEmail_EnableSSL_Description" xml:space="preserve">
+    <value>Specify whether or not to communicate with the server through a secure connection</value>
+  </data>
+  <data name="SendEmail_EnableSSL_FriendlyName" xml:space="preserve">
+    <value>Enable SSL</value>
+  </data>
+  <data name="SendEmail_FriendlyName" xml:space="preserve">
+    <value>Send email</value>
+  </data>
+  <data name="SendEmail_IsBodyHtml_Description" xml:space="preserve">
+    <value>Specify whether the body of the email message will be interpreted as HTML coding</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="SendEmail_IsBodyHtml_FriendlyName" xml:space="preserve">
+    <value>Body Is HTML</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="SendEmail_NeedsAuthentication_Description" xml:space="preserve">
+    <value>Specify whether the server requires authentication</value>
+  </data>
+  <data name="SendEmail_NeedsAuthentication_FriendlyName" xml:space="preserve">
+    <value>SMTP Server needs authentication</value>
+  </data>
+  <data name="SendEmail_Password_Description" xml:space="preserve">
+    <value>The password of the email account to access</value>
+  </data>
+  <data name="SendEmail_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="SendEmail_Port_Description" xml:space="preserve">
+    <value>The port to use for the server. Usually this is port 25</value>
+  </data>
+  <data name="SendEmail_Port_FriendlyName" xml:space="preserve">
+    <value>Server port</value>
+  </data>
+  <data name="SendEmail_SenderDisplayName_Description" xml:space="preserve">
+    <value>The sender's display name</value>
+  </data>
+  <data name="SendEmail_SenderDisplayName_FriendlyName" xml:space="preserve">
+    <value>Sender display name</value>
+  </data>
+  <data name="SendEmail_SendFrom_Description" xml:space="preserve">
+    <value>The sender's email address</value>
+  </data>
+  <data name="SendEmail_SendFrom_FriendlyName" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="SendEmail_SendTo_Description" xml:space="preserve">
+    <value>The email address(es) of the recipient(s). If more than one email address is entered, the list of addresses should be separated by semi-colons</value>
+  </data>
+  <data name="SendEmail_SendTo_FriendlyName" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="SendEmail_SMTPServer_Description" xml:space="preserve">
+    <value>The SMTP server address</value>
+  </data>
+  <data name="SendEmail_SMTPServer_FriendlyName" xml:space="preserve">
+    <value>SMTP server</value>
+  </data>
+  <data name="SendEmail_Subject_Description" xml:space="preserve">
+    <value>The subject of the email message</value>
+  </data>
+  <data name="SendEmail_Subject_FriendlyName" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="SendEmail_Username_Description" xml:space="preserve">
+    <value>The username of the email account to access</value>
+  </data>
+  <data name="SendEmail_Username_FriendlyName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="ErrorMessage_AttachmentNotFound" xml:space="preserve">
+    <value>Attachment {0} not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DeleteMessagesFailed" xml:space="preserve">
+    <value>Deleting specified email messages failed on IMAP server {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToAccessMailFolder" xml:space="preserve">
+    <value>Failed to access mail folder {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToAuthenticateToIMAP" xml:space="preserve">
+    <value>Authentication failed on IMAP server {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToConnectToIMAP" xml:space="preserve">
+    <value>Failed to connect to IMAP server {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToFilterMessages" xml:space="preserve">
+    <value>Failed to filter messages on mail folder {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveMessage" xml:space="preserve">
+    <value>Failed to retrieve message with uid {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToSaveAttachments" xml:space="preserve">
+    <value>Failed to save attachment(s) for message with uid {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToSaveAttachmentsInDirectory" xml:space="preserve">
+    <value>Failed to save attachment(s) in directory {0} for message with uid {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToSendEmail" xml:space="preserve">
+    <value>Failed to send email message.</value>
+  </data>
+  <data name="ErrorMessage_InvalidEmailAddress" xml:space="preserve">
+    <value>Invalid email address {0} in {1} field.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_MailFolderDoesNotExist" xml:space="preserve">
+    <value>Specified mail folder {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_MarkAndMoveMessagesFailed" xml:space="preserve">
+    <value>Marking specified email messages as unread and moving them to folder {0} failed on IMAP server {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_MarkMessagesFailed" xml:space="preserve">
+    <value>Marking specified email message as unread failed on IMAP server {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_MoveMessagesFailed" xml:space="preserve">
+    <value>Moving specified email message to folder {0} failed on IMAP server {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_SourceFolderDoesNotExist" xml:space="preserve">
+    <value>Source mail-folder {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Message_MailMessage" xml:space="preserve">
+    <value>Mail message from '{0}' with subject '{1}'.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+</root>

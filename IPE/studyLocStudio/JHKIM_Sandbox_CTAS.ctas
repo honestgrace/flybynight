@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectWorkflow>
+  <Project>
+    <ID>power-platform-loc</ID>
+    <ContentType>UI</ContentType>
+    <WorkFlow>Production</WorkFlow>
+    <WorkflowContext>[Context]</WorkflowContext>
+    <WorkflowClass>Metrics</WorkflowClass>
+    <Owner>[Owner]</Owner>
+  </Project>
+
+  <Scenarios>
+    <Profile name="Clone dev git" tasks="ListRepoAndMakelang_csv,Clone Git"/>
+    <Profile name="Handback_Makelang" tasks="Sync D365_Tools Repo,Sync D365_CE Repo,RequireFiles,ListRepoAndMakelang,Sync Production Repo,VerifyLocTermStates,Publish Target Binary and Master,Call Makelang,Update AdminSS Package.Json,Create Topic Branch,Call Git GUI"/>
+    <Profile name="Handoff" tasks="Sync D365_Tools Repo,Sync D365_CE Repo,RequireFiles,ListRepoAndMakelang,ListRepoAndMakelang_csv,Sync Production Repo,Call Makelang Handoff,Copy Master and Base Files to Run folder,Copy Master and Base Files to Repo,Git Check In,NotifyRun"/>
+    <Profile name="Handoff_Artifact" tasks="Sync D365_Tools Repo,Sync D365_CE Repo,RequireFiles,ListRepoAndMakelang,ListRepoAndMakelang_csv,Sync Production Repo,Download and map files from Artifact,Call Makelang Handoff,Copy Master and Base Files to Run folder,Copy Master and Base Files to Repo,Git Check In,NotifyRun"/>
+    <Profile name="SimpleHandback_ORG" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,ListRepoAndMakelang,Sync Production Repo,Convert Serbian,Publish Target,Create Topic Branch,Call Git GUI"/>
+    <!-- Profile name="SimpleHandback" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,ListRepoAndMakelang,Sync Production Repo,Convert Serbian,Publish Target,Create Topic Branch,Git Check In to Topic branch,Create PR"/ -->
+    <Profile name="SimpleHandback" tasks="ListRepoAndMakelang,Sync Production Repo,Convert Serbian,Publish Target,LSBuild Generate,Publish LocalizedBinary,Stop workflow when no file to hand back,Create Topic Branch,Git Check In to Topic branch,Create PR,Call GetProjectWordCount,EvalFlowRPA,NotifyRun"/>
+
+    <Profile name="SimpleHandback_PAD" tasks="ListRepoAndMakelang,Sync Production Repo,Publish Target,LSBuild Generate,Publish LocalizedBinary,Stop workflow when no file to hand back,Create Topic Branch,Git Check In to Topic branch,Create PR,Call GetProjectWordCount_PAD,EvalFlowPeopleBot,NotifyRun"/>
+    <Profile name="JHKIM_SimpleHandback_PAD" tasks="Publish Target,LSBuild Generate,Publish LocalizedBinary,Stop workflow when no file to hand back,Create Topic Branch,Git Check In to Topic branch,Create PR,Call GetProjectWordCount_PAD,EvalFlowPeopleBot,NotifyRun"/>
+
+    <Profile name="SimpleHandback_PAD_PDP" tasks="ListRepoAndMakelang,Sync Production Repo,LSBuild Generate,Publish LocalizedBinary,Stop workflow when no file to hand back,Create Topic Branch,Git Check In to Topic branch PAD PDP,Create PR PAD PDP,Call GetProjectWordCount_PAD,NotifyRun"/>
+
+    <Profile name="GetProjectWordCount" tasks="Lsbuild Update,LocVer Update,LSWordCount,Publish LSWordCount,NotifyRun"/>
+    <Profile name="JHKIM_GetProjectWordCount" tasks="Lsbuild Update,LocVer Update,LSWordCount,Publish LSWordCount,NotifyRun"/>
+
+    <Profile name="EvalHandBack" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,Start Handback"/>
+    <Profile name="SimpleHandoff_ORG" tasks="Generate Build Version file,Stop workflow when Version is same,Stage BuildMaster and BuildVerFile,Flat Lcg File Name,Call GenerateCFG"/>
+    <Profile name="SimpleHandoff" tasks="Generate Build Version file,Stop workflow when Version is same,List master file from EOL,Copy LocPayload to Run folder,List master file from LocPayload,List master file from Build,Compare File List,Stage BuildMaster and BuildVerFile,Flat Lcg File Name,Git Check In,Stop workflow when lcg file is not commited,Call GenerateCFG"/>
+
+    <Profile name="EvalDevRepo" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,ListRepoAndMakelang,Sync Production Repo,Copy Binary,Lsbuild Parse,Lsbuild Merge,Stage Master,Flat Lcg File Name,Stop workflow when no file to hand off,Generate Build Version file for PAD,Stage BuildVerFile,Git Check In,Stop workflow when lcg file is not commited,Call GenerateCFG"/>
+    <Profile name="JHKIM_EvalDevRepo" tasks="ListRepoAndMakelang,Sync Production Repo"/>
+    <Profile name="JHKIM_EvalDevRepoALL" tasks="ListRepoAndMakelang,Sync Production Repo,Copy Binary,Lsbuild Parse,Lsbuild Merge,Stage Master,Flat Lcg File Name,Stop workflow when no file to hand off,Generate Build Version file for PAD,Stage BuildVerFile,Git Check In,Stop workflow when lcg file is not commited,Call GenerateCFG"/>
+
+    <!-- Profile name="EvalCloudBuild" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,Get Cloud Build Version"/ -->
+    <Profile name="EvalBuild" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,Get Build Version"/>
+    <Profile name="JHKIM_EvalBuild" tasks="Get Build Version"/>
+
+    <Profile name="EvalArtifact" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,Get Artifact Version"/>
+    <Profile name="JHKIM_EvalArtifact" tasks="Get Artifact Version"/>
+    <Profile name="GenerateCFG" tasks="Generate BuildTXT,Generate CFG for all,Publish CFG and BuildTXT File,Git Check In,NotifyRun"/>
+    <Profile name="GenerateCFG_SandBox" tasks="Sync D365_Tools Repo,Sync PPLOC Repo,Generate BuildTXT,Generate CFG for all,Publish CFG and BuildTXT File for SandBox,Git Check In,NotifyRun"/>
+  </Scenarios>
+
+  <Pass>
+
+    <task id="RunAnything" name="Sync D365_Tools Repo" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [D365_ToolsRepoPath]\Tools\SyncGit.cmd [D365_ToolsRepoPath] [D365_ToolsRepoBranch] NA NA NA NA [work]\Runs\[runId]\SyncD365_ToolsRepo.log</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Sync D365_CE Repo" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [D365_ToolsRepoPath]\Tools\SyncGit.cmd [D365_CERepoPath] [D365_CERepoBranch] NA NA NA NA [work]\Runs\[runId]\SyncD365_CERepo.log</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Sync PPLOC Repo" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [D365_ToolsRepoPath]\Tools\SyncGit.cmd [D365_CERepoPath] [D365_CERepoBranch] NA NA NA NA [work]\Runs\[runId]\SyncPower-platform-loc.log</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RequireFiles" requirepass="true" enable="false">
+      <option name="FileTypes" value="MakelangCMD" />
+    </task>
+
+    <task id="RunAnything" name="ListRepoAndMakelang" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c echo [Repo] [branch] [Component] [Repo]\[Path]\Localize [Makelang] [RunMakelang4HB]>>[work]\Runs\[runId]\repo_makelanglist.txt</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="ListRepoAndMakelang_csv" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c echo [Repo_Root],[Repo_Name],[branch],[Component],[Repo]\[PATH]\Localize,[Makelang],[RunMakelang4HB],[Build_ID],[Repo_URL]>>[work]\Runs\[runId]\repo_makelanglist.csv</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Clone Git" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\Run.ps1 -Action GitClone -List [work]\Runs\[runId]\repo_makelanglist.csv</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Sync Production Repo" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [D365_ToolsRepoPath]\Tools\SyncGit.cmd [Repo] [branch] NA NA NA NA [work]\Runs\[runId]\[Repo_Name]_SyncGit.log</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="PublishEolFiles" name="Copy Binary" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">Binary</option>
+      <option name="TemplateAttribute">published</option>
+    </task>
+
+    <task id="RunAnything" name="PowerPortals_MasterPrep" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_CERepoPath]\PowerApps\temp\PowerPortals_MasterPrep.ps1 -files [work]\Runs\[runId]\work\[Unit]\[Component]\Master\[group]\en-US\[file] -mode master -PowerPortalRepoRootPath [D365_CERepoPath]</option>
+      <option name="Mode">Partition</option>
+      <option name="PartitionKey" value="[Component]:[Unit]:[Component]:[group]:[file]" />
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Sync Production Repo_ORG" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\SyncRepo.ps1 [work]\Runs\[runId]\repo_makelanglist.txt</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Download and map files from Artifact" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\Run.ps1 -Action ProcessArtifact -List [work]\Runs\[runId]\repo_makelanglist.csv -Release [Release] -Mapping [D365_CERepoPath]\[Release]\Platform\Platform_Mapping.csv -TempFolder [TempFolder] -VSTSToken [VSTSToken]</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Convert Serbian" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\LcxConvert.ps1 -folder [D365_CERepoPath]\[unit]\[Component] -target lcl -LSBuildExePath [LSBuildExePath]</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="VerifyLocTermStates"/>
+
+    <task id="Lsbuild" name="Lsbuild Parse" requirepass="true">
+      <option name="Action">Parse</option>
+      <option name="WarningLevel">1</option>
+      <option name="WarningsAsErrors">false</option>
+      <option name="BreakOnException">false</option>
+      <option name="SerialParsers">227,239,238,345</option>
+      <option name="LSBuildPath" value="[LSBuildExePath]\lsbuild.exe"/>
+    </task>
+
+    <task id="PublishEolFiles" name="Publish Generated" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">Generated</option>
+      <option name="TemplateAttribute">published</option>
+    </task>
+
+    <task id="Lsbuild" name="Lsbuild MakeTarget" requirepass="true">
+      <option name="Action" value="MakeTarget" />
+      <option name="LSBuildPath" value="[LSBuildExePath]\lsbuild.exe"/>
+    </task>
+
+    <task id="PublishEolFiles" name="Publish GeneratedTarget" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">GeneratedTarget</option>
+      <option name="TemplateAttribute">published</option>
+    </task>
+
+    <task id="Lsbuild" name="Lsbuild Merge" requirepass="true">
+      <option name="Action">Merge</option>
+      <option name="WarningLevel">1</option>
+      <option name="WarningsAsErrors">false</option>
+      <option name="BreakOnException">false</option>
+      <option name="LSBuildPath" value="[LSBuildExePath]\lsbuild.exe"/>
+    </task>
+
+     <task id="Lsbuild" name="Lsbuild Update Master" requirepass="true">
+       <option name="Action">update</option>
+       <option name="WarningLevel">1</option>
+       <option name="WarningsAsErrors">false</option>
+       <option name="BreakOnException">false</option>
+       <option name="UpdateFrom" value="Parse" />
+       <option name="UpdateTo" value="Master" />
+       <option name="LSBuildPath" value="[LSBuildExePath]\lsbuild.exe"/>
+     </task>
+
+    <task id="Lsbuild" name="Lsbuild Update" requirepass="true">
+      <option name="Action">update</option>
+      <option name="WarningLevel">1</option>
+      <option name="WarningsAsErrors">false</option>
+      <option name="BreakOnException">false</option>
+      <option name="LSBuildPath" value="[LSBuildExePath]\lsbuild.exe"/>
+    </task>
+
+    <task id="LocVerUpdate" name="LocVer Update" requirepass="false">
+      <option name="ValidStrings">True</option>
+      <option name="SyncCultureLocks">True</option>
+      <option name="Verbose">True</option>
+    </task>
+
+    <task id="CTASLocVer" name="Locver" requirepass="false">
+      <option name="FileTypes">Target</option>
+    </task>
+
+    <task id="PublishEolFiles" name="Publish Binary" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Binary" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="RunAnything" name="Remove Comment" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\LcxRemoveComment.ps1 -folder [work]\Runs\[runId]\work\[unit]\Target\[Component] -target lcl -LSBuildExePath [LSBuildExePath]</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="Lsbuild" name="Lsbuild Generate" requirepass="false">
+      <option name="Action">Generate</option>
+      <option name="IgnoreUpdatedTranslation">true</option>
+      <option name="GeneratePseudo">false</option>
+      <option name="WarningLevel">1</option>
+      <option name="SerialParsers">227</option>
+      <option name="ValidationAttributeDefault">false</option>
+      <option name="LSBuildPath" value="[LSBuildExePath]\lsbuild.exe"/>
+    </task>
+
+    <task id="PublishEolFiles" name="Publish LocalizedBinary" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="LocalizedBinary" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="LSWordCount" requirepass="false">
+      <option name="Weights" xml="true">
+        <weights>
+          <weight value="0.4" id="Updated"/>
+          <weight value="1.0" id="New"/>
+        </weights>
+      </option>
+      <option name="IgnoreNumbers">FALSE</option>
+    </task>
+
+    <task id="PublishEolFiles" name="Publish LSWordCount" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="LSWordCountCSV" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="CheckAdaptation">
+      <option name="AdaptationListFilePattern">[Enlistment]\Lionbridge_OF\To_IPED\Projects\CRM\Adaptation_Lists\@culture@_CRM_UI_AdaptationList.xlsm</option>
+    </task>
+
+    <task id="ItemProcessor" name="Generate Untranslated strings" requirepass="false">
+      <option name="FileTypes">Target</option>
+      <option name="Filters" xml="true">
+        <Filters>
+          <Group>
+            <Filter name="test filter" description="">
+              <Test>ToBeLocalized</Test>
+              <Action>CSVRow(@"ToBeLocalized.csv", File.WorkPath, ID, Source);</Action>
+            </Filter>
+          </Group>
+        </Filters>
+      </option>
+    </task>
+
+    <task id="RunAnything" name="Generate Build Version file" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c echo [Version]>>[work]\Runs\[runId]\[Component].ver</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Generate Build Version file for PAD" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c echo [runId]>>[work]\Runs\[runId]\[Component].ver</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Stop workflow when Version is same" requirepass="true" enable="false" >
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [D365_ToolsRepoPath]\Tools\FileCompare.cmd [work]\Runs\[runId]\[Component].ver [D365_CERepoPath]\[unit]\[Component].ver>"[work]\Runs\[runId]\work\Stop workflow when Version is same.data.txt"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="Stop workflow when Version is same">
+      <case name="FileDiff" op="eq" value="0">
+        <message type="important" value="Version is same and already processed: stopping workflow"/>
+        <action verb="stop"/>
+      </case>
+    </switch>
+
+
+    <task id="RunAnything" name="List master file from EOL" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c echo [MasterDrop]\[MasterPath]\[file].lcg>>[work]\Runs\[runId]\[Component]_EOL_filelist.txt</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="CopyRelatedFiles" name="Copy LocPayload to Run folder">
+      <option name="FileTypes">LocPayload</option>
+      <option name="Verbose">true</option>
+    </task>
+
+    <task id="RunAnything" name="List master file from LocPayload" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\LocPayloadtoFilelist.ps1 -LocPayload [work]\Runs\[runId]\work\LocPayload.xml -MasterDrop [MasterDrop] -FileListlog [work]\Runs\[runId]\[Component]_Build_filelist.txt -conditionlog "[work]\Runs\[runId]\work\List master file from LocPayload.data.txt" </option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="List master file from LocPayload">
+      <case name="LocPayloadCount" op="ne" value="0">
+        <message type="important" value="LocPayload found: skipping List master file from Build"/>
+        <action verb="disable" value="List master file from Build"/>
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="List master file from Build" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c dir /s /b [MasterDrop]\[BuildtopFolder]\*.lcg>>[work]\Runs\[runId]\[Component]_Build_filelist.txt</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Compare File List" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\FC.ps1 -FileList_EOL [work]\Runs\[runId]\[Component]_EOL_filelist.txt -FileList_Build [work]\Runs\[runId]\[Component]_Build_filelist.txt -Component [Component] -Owner [Owner]</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="PublishEolFiles" name="Stage Master" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Master" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Stage Master and Binary" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Master,Binary" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Stage BuildMaster and BuildVerFile" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="BuildMaster,BuildVerFile" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Stage BuildVerFile" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="BuildVerFile" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Publish Target" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Target" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Publish Target from Work" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Target_Work" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Publish Target Binary and Master" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Target,Binary,Master" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="RunAnything" name="Call Makelang" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CallMakelang.ps1 -List [work]\Runs\[runId]\repo_makelanglist.txt -LCID All</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Update AdminSS Package.Json" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\PlatformAdminSSPckgJsn.ps1 -List [work]\Runs\[runId]\repo_makelanglist.txt</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Stop workflow when no file to hand back" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckModifiedFile.ps1  -commonRepo [CommonRepoPath] -Repopath [Repo] -log "[work]\Runs\[runId]\work\Stop workflow when no file to hand back.data.txt"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="Stop workflow when no file to hand back">
+      <case name="LCL" op="eq" value="0">
+        <message type="important" value="LCL file is not commited: stopping workflow"/>
+        <action verb="stop" />
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="Create Topic Branch" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [D365_ToolsRepoPath]\Tools\CTB.cmd [Repo] [branch] [Component] NA NA NA [work]\Runs\[runId]\[Repo_Name]_CTB.log</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Create Topic Branch_ORG" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CTB.ps1 -List [work]\Runs\[runId]\repo_makelanglist.txt</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Get Build Version" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\JHKIM_Eval.ps1 -productGroup [unit] -Component [Component] -targetRootDirectory [MasterDrop] -CTASlocal [CTASLocal] -Repo [D365_CERepoPath]\[unit] -CheckBuildCompleted"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Get Artifact Version" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\JHKIM_EVAL_ProcessArtifact.ps1 -productGroup [unit] -Component [Component] -targetRootDirectory [TempFolder] -CTASlocal [CTASLocal] -Repo [D365_CERepoPath]\[unit] -targetbranchName [branch] -BuildURL [BuildURL] -VSTSToken [VSTSToken] -ArtifactName [ArtifactName]"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Start Handback" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\Eval_Handback.ps1 -Component [Component] -CTASlocal [CTASLocal] -Repo [D365_CERepoPath]\[unit]"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Call Makelang Handoff" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CallMakelang.ps1 -List [work]\Runs\[runId]\repo_makelanglist.txt -LCID 1031 -Option /handoff</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Call Git GUI" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CallGitGui.ps1 -List [work]\Runs\[runId]\repo_makelanglist.txt</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">ignore</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Copy Base Files" requirepass="true" enable="false">
+      <option name="Mode">EolTypes</option>
+      <option name="FileTypes">Master</option>
+      <option name="Program" value="robocopy.exe"/>
+      <!-- option name="Arguments" value=" [Repo]\[Path]\Localize\Temp\Base [work]\Runs\[runId]\work\[Release]\[Project.ID]\UI\Base [file].lcl /s /NP" / -->
+      <option name="Arguments" value=" [Repo]\[Path]\Localize\Temp\Base [D365_CERepoPath]\[Release]\[Project.ID]\UI\Base [file] /s /NP" />
+     </task>
+
+    <task id="RunAnything" name="Copy Master Files" requirepass="true" enable="false">
+      <option name="Mode">EolTypes</option>
+      <option name="FileTypes">Binary</option>
+      <option name="Program" value="robocopy.exe"/>
+      <!-- option name="Arguments" value=" [Repo]\[Path]\Localize\Temp\Master [work]\Runs\[runId]\work\[Release]\[Project.ID]\UI\Master [file] /s /NP" / -->
+      <option name="Arguments" value=" [Repo]\[Path]\Localize\Temp\Master [D365_CERepoPath]\[Release]\[Project.ID]\UI\Master [file] /s /NP" />
+    </task>
+
+    <task id="CopyRelatedFiles" name="Copy Master and Base Files to Run folder">
+      <option name="FileTypes">Binary_Repo,Master_Repo</option>
+      <option name="Verbose">true</option>
+    </task>
+
+    <task id="PublishEolFiles" name="Copy Master and Base Files to Repo" enable="false">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Binary_Repo,Master_Repo" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Copy Target Files from Dev Repo" enable="false">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Target_Repo" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="RunAnything" name="Flat Lcg File Name" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\LcxConvert.ps1 -folder [D365_CERepoPath]\[unit]\[Component] -target lcg -LSBuildExePath [LSBuildExePath]</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Stop workflow when no file to hand off" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckModifiedFile.ps1  -commonRepo [CommonRepoPath] -Repopath [D365_CERepoPath] -log "[work]\Runs\[runId]\work\Stop workflow when no file to hand off.data.txt"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="Stop workflow when no file to hand off">
+      <case name="LCL" op="eq" value="0">
+        <message type="important" value="LCG file is not commited: stopping workflow"/>
+        <action verb="stop" />
+      </case>
+    </switch>
+
+    <task id="PublishEolFiles" name="Publish Generated Target LCL" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="GeneratedTarget" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="RunAnything" name="Flat Lcg File Name_ORG" requirepass="true" enable="false">
+      <option name="Mode">EolTypes</option>
+      <option name="FileTypes">Master</option>
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\FlatLcxName.ps1  -file [D365_CERepoPath]\[unit]\[Component]\[MasterPath]\[file].lcg</option>
+      <!-- option name="Program">cmd.exe</option -->
+      <!-- option name="Arguments">/c echo [D365_CERepoPath]\[unit]\[Component]\[MasterPath]\[file].lcg>>[work]\Runs\[runId]\filelist.txt</option -->
+    </task>
+
+    <!-- task id="RunAnything" name="Call GenerateCFG" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\CFG.arg</option>
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task -->
+
+    <task id="RunAnything" name="Call GenerateCFG_SandBox" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\CFG_SandBox.arg</option>
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Generate BuildTXT" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c echo [HO]>>[work]\Runs\[runId]\work\Build.txt</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="FabricMakeFileGroups" name="Generate CFG for all"  enable="false">
+        <option name="GetLCIFromCFG" value="false"/>
+        <option name="BuildVersion" value="[HO]"/>
+        <option name="FabricCultures" xml="true">
+            <Aliases>
+                <Culture name="ar" alias="ar-SA" />
+                <Culture name="bg" alias="bg-BG" />
+                <Culture name="ca" alias="ca-ES" />
+                <Culture name="cs" alias="cs-CZ" />
+                <Culture name="da" alias="da-DK" />
+                <Culture name="de" alias="de-DE" />
+                <Culture name="el" alias="el-GR" />
+                <Culture name="es" alias="es-ES" />
+                <Culture name="et" alias="et-EE" />
+                <Culture name="eu" alias="eu-ES" />
+                <Culture name="fi" alias="fi-FI" />
+                <Culture name="fr" alias="fr-FR" />
+                <Culture name="gl" alias="gl-ES" />
+                <Culture name="he" alias="he-IL" />
+                <Culture name="hi" alias="hi-IN" />
+                <Culture name="hr" alias="hr-HR" />
+                <Culture name="hu" alias="hu-HU" />
+                <Culture name="id" alias="id-ID" />
+                <Culture name="it" alias="it-IT" />
+                <Culture name="ja" alias="ja-JP" />
+                <Culture name="kk" alias="kk-KZ" />
+                <Culture name="ko" alias="ko-KR" />
+                <Culture name="lt" alias="lt-LT" />
+                <Culture name="lv" alias="lv-LV" />
+                <Culture name="ms" alias="ms-MY" />
+                <Culture name="no" alias="nb-NO" />
+                <Culture name="nb" alias="nb-NO" />
+                <Culture name="nl" alias="nl-NL" />
+                <Culture name="pl" alias="pl-PL" />
+                <Culture name="ro" alias="ro-RO" />
+                <Culture name="ru" alias="ru-RU" />
+                <Culture name="sk" alias="sk-SK" />
+                <Culture name="sl" alias="sl-SI" />
+                <Culture name="sr-Cyrl-RS" alias="sr-Cyrl-CS" />
+                <Culture name="sr-Latn-RS" alias="sr-Latn-CS" />
+                <Culture name="sv" alias="sv-SE" />
+                <Culture name="th" alias="th-TH" />
+                <Culture name="tr" alias="tr-TR" />
+                <Culture name="uk" alias="uk-UA" />
+                <Culture name="vi" alias="vi-VN" />
+                <Culture name="zh-HANS" alias="zh-CN" />
+                <Culture name="zh-HANT" alias="zh-TW" />
+            </Aliases>
+        </option>
+    </task>
+
+    <task id="RunAnything" name="Validate CFG" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\ValidateCFG.ps1 -commonRepo [CommonRepoPath] -CFG "[work]\Runs\[runId]\work\power-platform-loc_ConcreteFileGroups.xml" -Repopath "[D365_CERepoPath]" -Root "#DefaultCollection#Production#power-platform-loc#master#"</option> <!-- -verboselogging -->
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+      <option name="ErrorPattern"><![CDATA[^##\[(?<sev>[dewi!x])\]\s*(?<msg>.+)$]]></option>
+    </task>
+
+    <task id="PublishEolFiles" name="Publish CFG and BuildTXT File">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">CFG,BuildTXT</option>
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="PublishEolFiles" name="Publish CFG and BuildTXT File for SandBox">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">CFG_SandBox,BuildTXT_SandBox</option>
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+    <task id="RunAnything" name="Validate Published CFG" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\ValidateCFG.ps1 -CFG "[D365_CERepoPath]\[unit]\[unit]_ConcreteFileGroups.xml" -Repopath "[D365_CERepoPath]" -Root "#DefaultCollection#Production#power-platform-loc#master#" -commonRepo [CommonRepoPath]</option> <!-- -verboselogging -->
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Git Check In" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckinGit.ps1 -Repopath [D365_CERepoPath] -message "(Auto) Check in Binary and Master for [Project.ID] [CTAS - RunID=[runId]]"</option>
+      <option name="Mode">Once</option>
+      <option name="ExitCode">ignore</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Stop workflow when lcg file is not commited" requirepass="true" enable="false" >
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckCommit.ps1 -VSTSToken [VSTSToken] -log "[work]\Runs\[runId]\work\Stop workflow when lcg file is not commited.data.txt"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="Stop workflow when lcg file is not commited">
+      <case name="Lcg" op="eq" value="0">
+        <message type="important" value="Lcg file is not commited: stopping workflow"/>
+        <action verb="stop"/>
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="Git Check In to Topic branch" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckinGitTopic.ps1 -Repopath [Repo] -message "[Automated] Localization hand-back [CTAS - RunID=[runId]]" -log "[work]\Runs\[runId]\work\Git Check In to Topic branch.data.txt"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="Git Check In to Topic branch">
+      <case name="LCL" op="eq" value="0">
+        <message type="important" value="LCL file is not commited: stopping workflow"/>
+        <!-- action verb="stop" / -->
+        <action verb="disable" value="Create PR" />
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="Create PR" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CreatePRv2.ps1 -Component [Component] -personalAccessTokenFile "[VSTSToken]" -adoOrganization [adoOrganization] -adoProjectName [adoProjectName] -adoRepoName [Repo_Name] -topicBranchLog "[work]\Runs\[runId]\[Repo_Name]_CTB.log" -topicBranchList [work]\Runs\[runId]\TB_List.txt -branch [branch] -reviewerEmailAddress "[reviewerEmailAddress]" -workitemId [workitemId] -UrlList [work]\Runs\[runId]\URL_List.txt -prTitle "[Automated] Localization hand-back [CTAS - RunID=[runId]]" -autocomplete 1 -bypass 1</option>
+      <option name="Mode">Partition</option>
+      <option name="PartitionKey" value="[Component]:[adoOrganization]:[adoProjectName]:[Repo_Name]:[branch]:[reviewerEmailAddress]:[workItemId]" />
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Git Check In to Topic branch PAD PDP" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckinGitTopic.ps1 -Repopath [Repo] -message "[Automated] Localization hand-back [CTAS - RunID=[runId]]" -log "[work]\Runs\[runId]\work\Git Check In to Topic branch PAD PDP.data.txt"</option>
+      <option name="Mode">PerComponent</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="Git Check In to Topic branch PAD PDP">
+      <case name="LCL" op="eq" value="0">
+        <message type="important" value="LCL file is not commited: stopping workflow"/>
+        <!-- action verb="stop" / -->
+        <action verb="disable" value="Create PR PAD PDP" />
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="Create PR PAD PDP" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CreatePRv2.ps1 -Component [Component] -personalAccessTokenFile "[VSTSToken]" -adoOrganization [adoOrganization] -adoProjectName [adoProjectName] -adoRepoName [Repo_Name] -topicBranchLog "[work]\Runs\[runId]\[Repo_Name]_CTB.log" -topicBranchList [work]\Runs\[runId]\TB_List.txt -branch [branch] -reviewerEmailAddress "[reviewerEmailAddress]" -workitemId [workitemId] -UrlList [work]\Runs\[runId]\URL_List.txt -prTitle "[Automated] Localization hand-back [CTAS - RunID=[runId]]" -autocomplete 1 -bypass 0</option>
+      <option name="Mode">Partition</option>
+      <option name="PartitionKey" value="[Component]:[adoOrganization]:[adoProjectName]:[Repo_Name]:[branch]:[reviewerEmailAddress]:[workItemId]" />
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Call GetProjectWordCount" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\WordCount.arg</option>
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Call GetProjectWordCount_PAD" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[JHKIMPath]\JHKIM_Sandbox_WordCount_PAD.arg</option>
+      <!-- <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\WordCount_PAD.arg</option> -->
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="EvalFlowRPA" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckRepoBranch.ps1 -Repo [Repo_Name] -Branch [branch] -IsRepo "Flow-RPA" -IsBranch "master" -log "[work]\Runs\[runId]\work\EvalFlowRPA.data.txt"</option>
+      <option name="Mode">Partition</option>
+      <option name="PartitionKey" value="[Repo_Name]:[branch]" />
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="EvalFlowRPA">
+      <case name="Match" op="eq" value="1">
+        <message type="important" value="Current repo is Flow-RPA but branch is not master.Check in to FlowRPA Master"/>
+        <!-- action verb="stop" / -->
+        <action verb="enable" value="Check in to Flow-RPA master" />
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="Check in to Flow-RPA master" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\HBArg_FlowRPA_master.arg</option>
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="EvalFlowPeopleBot" requirepass="true" enable="false">
+      <option name="Program">powershell.exe</option>
+      <option name="Arguments">-ExecutionPolicy UnRestricted -File [D365_ToolsRepoPath]\Tools\CheckRepoBranch.ps1 -Repo [Repo_Name] -Branch [branch] -IsRepo "Flow-PeopleBot" -IsBranch "master" -log "[work]\Runs\[runId]\work\EvalFlowPeopleBot.data.txt"</option>
+      <option name="Mode">Partition</option>
+      <option name="PartitionKey" value="[Repo_Name]:[branch]" />
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <switch task="EvalFlowPeopleBot">
+      <case name="Match" op="eq" value="1">
+        <message type="important" value="Current repo is Flow-PeopleBot but branch is not master.Check in to Flow-PeopleBot Master"/>
+        <!-- action verb="stop" / -->
+        <action verb="enable" value="Check in to Flow-PeopleBot master" />
+      </case>
+    </switch>
+
+    <task id="RunAnything" name="Check in to Flow-PeopleBot master" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\HBArg_FlowPeopleBot_master.arg</option>
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="RunAnything" name="Call GenerateCFG" requirepass="true" enable="false">
+      <option name="Program">cmd.exe</option>
+      <option name="Arguments">/c [CTASLocal]\Taskengine.exe @[D365_CERepoPath]\[unit]\JHKIM_CFG.arg</option>
+      <option name="Mode">PerProject</option>
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+  </Pass>
+  <Pass>
+
+    <task id="NotifyRun">
+      <option name="Email" xml="true">
+        <Emails>
+          <Email workflowClass = "*" failedOnly= "true" 
+                 to="[Owner]"
+                 subject="[CTAS] [Context] - [result] (Total: [TaskCount]; Pass: [passcount]; Failed: [failcount])"
+                 template="[D365_ToolsRepoPath]\Tools\official.htm"/>
+        </Emails>
+      </option>
+    </task>
+
+  </Pass>
+</ProjectWorkflow>

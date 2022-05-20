@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AmazonEc2ActionBase_Description" xml:space="preserve">
+    <value>Base class for EC2 actions</value>
+  </data>
+  <data name="AmazonEc2ActionBase_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="AmazonEc2ActionBase_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="AmazonEc2ActionBase_Summary" xml:space="preserve">
+    <value>Base class for EC2 actions</value>
+  </data>
+  <data name="AttachVolume_Description" xml:space="preserve">
+    <value>Attach an EBS volume to an EC2 instance</value>
+  </data>
+  <data name="AttachVolume_Device_Description" xml:space="preserve">
+    <value>The name of the device</value>
+  </data>
+  <data name="AttachVolume_Device_FriendlyName" xml:space="preserve">
+    <value>Device name</value>
+  </data>
+  <data name="AttachVolume_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="AttachVolume_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="AttachVolume_FriendlyName" xml:space="preserve">
+    <value>Attach volume</value>
+  </data>
+  <data name="AttachVolume_InstanceId_Description" xml:space="preserve">
+    <value>The ID of the instance</value>
+  </data>
+  <data name="AttachVolume_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="AttachVolume_Summary" xml:space="preserve">
+    <value>Attach an EBS volume to an EC2 instance using the specified device name</value>
+  </data>
+  <data name="AttachVolume_VolumeId_Description" xml:space="preserve">
+    <value>The ID of the EBS volume</value>
+  </data>
+  <data name="AttachVolume_VolumeId_FriendlyName" xml:space="preserve">
+    <value>Volume ID</value>
+  </data>
+  <data name="AWS_Description" xml:space="preserve">
+    <value>Connect to Amazon web services and automate a variety of tasks</value>
+  </data>
+  <data name="AWS_FriendlyName" xml:space="preserve">
+    <value>AWS</value>
+  </data>
+  <data name="Category_EC2_Description" xml:space="preserve">
+    <value>Connect to Amazon EC2 and manage instances, EBS volumes and EBS snapshots</value>
+  </data>
+  <data name="Category_EC2_FriendlyName" xml:space="preserve">
+    <value>EC2</value>
+  </data>
+  <data name="Category_EC2_Instances_Description" xml:space="preserve">
+    <value>Start, stop, reboot and get information on an EC2 instance</value>
+  </data>
+  <data name="Category_EC2_Instances_FriendlyName" xml:space="preserve">
+    <value>Instances</value>
+  </data>
+  <data name="Category_EC2_Snapshots_Description" xml:space="preserve">
+    <value>Create or delete an EBS snapshot and get related information</value>
+  </data>
+  <data name="Category_EC2_Snapshots_FriendlyName" xml:space="preserve">
+    <value>Snapshots</value>
+  </data>
+  <data name="Category_EC2_Volumes_Description" xml:space="preserve">
+    <value>Create, attach, detach or delete an EBS volume and get related information</value>
+  </data>
+  <data name="Category_EC2_Volumes_FriendlyName" xml:space="preserve">
+    <value>Volumes</value>
+  </data>
+  <data name="CreateEC2Session_Description" xml:space="preserve">
+    <value>Create an EC2 client to automate EC2 web services</value>
+  </data>
+  <data name="CreateEC2Session_FriendlyName" xml:space="preserve">
+    <value>Create EC2 session</value>
+  </data>
+  <data name="CreateEC2Session_Summary" xml:space="preserve">
+    <value>Create an AWS EC2 client and store it into &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="CreateEc2SessionAction_AccessKeyId_Description" xml:space="preserve">
+    <value>The AWS access key ID</value>
+  </data>
+  <data name="CreateEc2SessionAction_AccessKeyId_FriendlyName" xml:space="preserve">
+    <value>Access key ID</value>
+  </data>
+  <data name="CreateEc2SessionAction_Description" xml:space="preserve">
+    <value>Create an EC2 client to automate EC2 web services</value>
+  </data>
+  <data name="CreateEc2SessionAction_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="CreateEc2SessionAction_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="CreateEc2SessionAction_FriendlyName" xml:space="preserve">
+    <value>Create EC2 session</value>
+  </data>
+  <data name="CreateEc2SessionAction_ProfileLocation_Description" xml:space="preserve">
+    <value>The location of the credentials file that contains the profile to use</value>
+  </data>
+  <data name="CreateEc2SessionAction_ProfileLocation_FriendlyName" xml:space="preserve">
+    <value>Profile location</value>
+  </data>
+  <data name="CreateEc2SessionAction_ProfileName_Description" xml:space="preserve">
+    <value>The name of the profile to use </value>
+  </data>
+  <data name="CreateEc2SessionAction_ProfileName_FriendlyName" xml:space="preserve">
+    <value>Profile name</value>
+  </data>
+  <data name="CreateEc2SessionAction_RegionEndpoint_Description" xml:space="preserve">
+    <value>The region constant to use that determines the endpoint to use</value>
+  </data>
+  <data name="CreateEc2SessionAction_RegionEndpoint_FriendlyName" xml:space="preserve">
+    <value>Region endpoint</value>
+  </data>
+  <data name="CreateEc2SessionAction_Secret_Description" xml:space="preserve">
+    <value>The AWS secret access key</value>
+  </data>
+  <data name="CreateEc2SessionAction_Secret_FriendlyName" xml:space="preserve">
+    <value>Secret</value>
+  </data>
+  <data name="CreateEc2SessionAction_Summary" xml:space="preserve">
+    <value>Create an AWS EC2 client and store it into &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="CreateEc2SessionAction_UseAccessKeys_Description" xml:space="preserve">
+    <value>Specifies whether to use access key ID  and secret access key in order to create the EC2 session</value>
+  </data>
+  <data name="CreateEc2SessionAction_UseAccessKeys_FriendlyName" xml:space="preserve">
+    <value>Access keys</value>
+  </data>
+  <data name="CreateEc2SessionWithAccessKeys_Description" xml:space="preserve">
+    <value>Create an AWS EC2 client using access keys</value>
+  </data>
+  <data name="CreateEc2SessionWithAccessKeys_Summary" xml:space="preserve">
+    <value>Create an AWS EC2 client using access keys and store it into &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="CreateEc2SessionWithProfile_Description" xml:space="preserve">
+    <value>Creates an AWS EC2 client using a profile</value>
+  </data>
+  <data name="CreateEc2SessionWithProfile_Summary" xml:space="preserve">
+    <value>Create an AWS EC2 client using a profile and store it into &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="CreateSnapshot_Description" xml:space="preserve">
+    <value>Create a snapshot of an EBS volume and stores it in Amazon S3</value>
+  </data>
+  <data name="CreateSnapshot_Description_Description" xml:space="preserve">
+    <value>A description for the snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Description_FriendlyName" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="CreateSnapshot_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="CreateSnapshot_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="CreateSnapshot_FriendlyName" xml:space="preserve">
+    <value>Create snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Name_Description" xml:space="preserve">
+    <value>The name of the snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Name_FriendlyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreateSnapshot_Purpose_Description" xml:space="preserve">
+    <value>The purpose of the snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Purpose_FriendlyName" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="CreateSnapshot_Snapshot_Description" xml:space="preserve">
+    <value>The created snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Snapshot_FriendlyName" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="CreateSnapshot_Summary" xml:space="preserve">
+    <value>Create a snapshot of an EBS volume and store it in &lt;SNAPSHOT&gt;</value>
+    <comment>{Locked="&lt;SNAPSHOT&gt;"}</comment>
+  </data>
+  <data name="CreateSnapshot_VolumeId_Description" xml:space="preserve">
+    <value>The ID of the EBS volume</value>
+  </data>
+  <data name="CreateSnapshot_VolumeId_FriendlyName" xml:space="preserve">
+    <value>Volume ID</value>
+  </data>
+  <data name="CreateVolume_Description" xml:space="preserve">
+    <value>Creates an EBS volume to attach to an instance in the same availability zone</value>
+  </data>
+  <data name="CreateVolume_FriendlyName" xml:space="preserve">
+    <value>Create volume</value>
+  </data>
+  <data name="CreateVolume_Summary" xml:space="preserve">
+    <value>Create an EBS volume and store it into &lt;VOLUME&gt;</value>
+    <comment>{Locked="&lt;VOLUME&gt;"}</comment>
+  </data>
+  <data name="CreateVolumeAction_AvailabilityZone_Description" xml:space="preserve">
+    <value>Specifies the availability zone, a region code followed by a letter identifier</value>
+  </data>
+  <data name="CreateVolumeAction_AvailabilityZone_FriendlyName" xml:space="preserve">
+    <value>Availability zone</value>
+  </data>
+  <data name="CreateVolumeAction_Description" xml:space="preserve">
+    <value>Create an EBS volume</value>
+  </data>
+  <data name="CreateVolumeAction_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="CreateVolumeAction_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="CreateVolumeAction_Encrypted_Description" xml:space="preserve">
+    <value>Specifies whether to encrypt the volume</value>
+  </data>
+  <data name="CreateVolumeAction_Encrypted_FriendlyName" xml:space="preserve">
+    <value>Encrypted</value>
+  </data>
+  <data name="CreateVolumeAction_FriendlyName" xml:space="preserve">
+    <value>Create volume</value>
+  </data>
+  <data name="CreateVolumeAction_FromSnapshot_Description" xml:space="preserve">
+    <value>Specifies whether to create the volume from a specified snapshot</value>
+  </data>
+  <data name="CreateVolumeAction_FromSnapshot_FriendlyName" xml:space="preserve">
+    <value>From snapshot</value>
+  </data>
+  <data name="CreateVolumeAction_Name_Description" xml:space="preserve">
+    <value>The desired name for the volume</value>
+  </data>
+  <data name="CreateVolumeAction_Name_FriendlyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="CreateVolumeAction_Purpose_Description" xml:space="preserve">
+    <value>The purpose of the volume, if any</value>
+  </data>
+  <data name="CreateVolumeAction_Purpose_FriendlyName" xml:space="preserve">
+    <value>Purpose</value>
+  </data>
+  <data name="CreateVolumeAction_Size_Description" xml:space="preserve">
+    <value>The size of the volume in GBs</value>
+  </data>
+  <data name="CreateVolumeAction_Size_FriendlyName" xml:space="preserve">
+    <value>Volume size</value>
+  </data>
+  <data name="CreateVolumeAction_SnapshotId_Description" xml:space="preserve">
+    <value>The snapshot to create the volume from</value>
+  </data>
+  <data name="CreateVolumeAction_SnapshotId_FriendlyName" xml:space="preserve">
+    <value>Snapshot ID</value>
+  </data>
+  <data name="CreateVolumeAction_SnapshotSize_Description" xml:space="preserve">
+    <value>The size must be equal to or larger than the snapshot size</value>
+  </data>
+  <data name="CreateVolumeAction_SnapshotSize_FriendlyName" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="CreateVolumeAction_Summary" xml:space="preserve">
+    <value>Create an EBS volume and store it into &lt;VOLUME&gt;</value>
+    <comment>{Locked="&lt;VOLUME&gt;"}</comment>
+  </data>
+  <data name="CreateVolumeAction_Volume_Description" xml:space="preserve">
+    <value>The created volume</value>
+  </data>
+  <data name="CreateVolumeAction_Volume_FriendlyName" xml:space="preserve">
+    <value>Volume</value>
+  </data>
+  <data name="CreateVolumeAction_VolumeId_Description" xml:space="preserve">
+    <value>The ID of the created volume</value>
+  </data>
+  <data name="CreateVolumeAction_VolumeId_FriendlyName" xml:space="preserve">
+    <value>Volume ID</value>
+  </data>
+  <data name="CreateVolumeAction_VolumeType_Description" xml:space="preserve">
+    <value>The type of the volume</value>
+  </data>
+  <data name="CreateVolumeAction_VolumeType_FriendlyName" xml:space="preserve">
+    <value>Volume type</value>
+  </data>
+  <data name="CreateVolumeFromSnapshot_Description" xml:space="preserve">
+    <value>Create an EBS volume from an EBS snapshot</value>
+  </data>
+  <data name="CreateVolumeFromSnapshot_Summary" xml:space="preserve">
+    <value>Create an EBS volume from an EBS snapshot and stores it into &lt;VOLUME&gt;</value>
+    <comment>{Locked="&lt;VOLUME&gt;"}</comment>
+  </data>
+  <data name="DeleteSnapshot_Description" xml:space="preserve">
+    <value>Delete the specified snapshot</value>
+  </data>
+  <data name="DeleteSnapshot_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="DeleteSnapshot_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="DeleteSnapshot_FriendlyName" xml:space="preserve">
+    <value>Delete snapshot</value>
+  </data>
+  <data name="DeleteSnapshot_SnapshotId_Description" xml:space="preserve">
+    <value>The ID of the EBS snapshot to delete</value>
+  </data>
+  <data name="DeleteSnapshot_SnapshotId_FriendlyName" xml:space="preserve">
+    <value>Snapshot ID</value>
+  </data>
+  <data name="DeleteSnapshot_Summary" xml:space="preserve">
+    <value>Delete the specified snapshot</value>
+  </data>
+  <data name="DeleteVolume_Description" xml:space="preserve">
+    <value>Delete the specified EBS volume</value>
+  </data>
+  <data name="DeleteVolume_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="DeleteVolume_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="DeleteVolume_FriendlyName" xml:space="preserve">
+    <value>Delete volume</value>
+  </data>
+  <data name="DeleteVolume_Summary" xml:space="preserve">
+    <value>Delete the specified EBS volume (shouldn't be attached to an instance)</value>
+  </data>
+  <data name="DeleteVolume_VolumeId_Description" xml:space="preserve">
+    <value>The ID of the EBS volume to delete</value>
+  </data>
+  <data name="DeleteVolume_VolumeId_FriendlyName" xml:space="preserve">
+    <value>Volume ID</value>
+  </data>
+  <data name="DescribeAllSnapshots_Description" xml:space="preserve">
+    <value>Describe all EBS snapshots</value>
+  </data>
+  <data name="DescribeAllSnapshots_Summary" xml:space="preserve">
+    <value>Describe all EBS snapshots</value>
+  </data>
+  <data name="DescribeAllVolumes_Description" xml:space="preserve">
+    <value>Describe all EBS volumes</value>
+  </data>
+  <data name="DescribeAllVolumes_Summary" xml:space="preserve">
+    <value>Describe all EBS volumes and store them into &lt;VOLUMES&gt;</value>
+    <comment>{Locked="&lt;VOLUMES&gt;"}</comment>
+  </data>
+  <data name="DescribeEC2Instance_AvailabilityZone_Description" xml:space="preserve">
+    <value>Specifies the availability zone, a region code followed by a letter identifier</value>
+  </data>
+  <data name="DescribeEC2Instance_AvailabilityZone_FriendlyName" xml:space="preserve">
+    <value>Availability zone</value>
+  </data>
+  <data name="DescribeEC2Instance_Description" xml:space="preserve">
+    <value>Returns all the information for the specified EC2 instance(s)</value>
+  </data>
+  <data name="DescribeEC2Instance_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="DescribeEC2Instance_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="DescribeEC2Instance_Ec2Instances_Description" xml:space="preserve">
+    <value>The retrieved instance(s) with all the relevant information</value>
+  </data>
+  <data name="DescribeEC2Instance_Ec2Instances_FriendlyName" xml:space="preserve">
+    <value>Retrieved instance(s)</value>
+  </data>
+  <data name="DescribeEC2Instance_FriendlyName" xml:space="preserve">
+    <value>Describe instances</value>
+  </data>
+  <data name="DescribeEC2Instance_InstanceIds_Description" xml:space="preserve">
+    <value>The instance IDs to describe</value>
+  </data>
+  <data name="DescribeEC2Instance_InstanceIds_FriendlyName" xml:space="preserve">
+    <value>Instance IDs</value>
+  </data>
+  <data name="DescribeEC2Instance_InstanceState_Description" xml:space="preserve">
+    <value>The current state of the instance</value>
+  </data>
+  <data name="DescribeEC2Instance_InstanceState_FriendlyName" xml:space="preserve">
+    <value>Instance state</value>
+  </data>
+  <data name="DescribeEC2Instance_Summary" xml:space="preserve">
+    <value>Get all the information for the specified EC2 instance(s) using the &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="DescribeSnapshots_Description" xml:space="preserve">
+    <value>Describes the specified EBS snapshots available</value>
+  </data>
+  <data name="DescribeSnapshots_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="DescribeSnapshots_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="DescribeSnapshots_FriendlyName" xml:space="preserve">
+    <value>Describe snapshots</value>
+  </data>
+  <data name="DescribeSnapshots_OwnerIds_Description" xml:space="preserve">
+    <value>The owner IDs who own the snapshots</value>
+  </data>
+  <data name="DescribeSnapshots_OwnerIds_FriendlyName" xml:space="preserve">
+    <value>Owner IDs</value>
+  </data>
+  <data name="DescribeSnapshots_RestorableByUserIds_Description" xml:space="preserve">
+    <value>The IDs of the AWS accounts that can create volumes from the snapshot</value>
+  </data>
+  <data name="DescribeSnapshots_RestorableByUserIds_FriendlyName" xml:space="preserve">
+    <value>Restorable by user IDs</value>
+  </data>
+  <data name="DescribeSnapshots_SnapshotIds_Description" xml:space="preserve">
+    <value>The snapshot IDs to describe</value>
+  </data>
+  <data name="DescribeSnapshots_SnapshotIds_FriendlyName" xml:space="preserve">
+    <value>Snapshot IDs</value>
+  </data>
+  <data name="DescribeSnapshots_Snapshots_Description" xml:space="preserve">
+    <value>The retrieved snapshot(s) with all the relevant information</value>
+  </data>
+  <data name="DescribeSnapshots_Snapshots_FriendlyName" xml:space="preserve">
+    <value>Retrieved snapshot(s)</value>
+  </data>
+  <data name="DescribeSnapshots_Summary" xml:space="preserve">
+    <value>Describe the specified EBS snapshot(s) available and store them into &lt;SNAPSHOTS&gt;</value>
+    <comment>{Locked="&lt;SNAPSHOTS&gt;"}</comment>
+  </data>
+  <data name="DescribeSnapshotsByCustomFilter_Description" xml:space="preserve">
+    <value>Describe EBS snapshots using a custom filter</value>
+  </data>
+  <data name="DescribeSnapshotsByCustomFilter_Summary" xml:space="preserve">
+    <value>Describe EBS snapshots using a custom filter and store them into &lt;SNAPSHOTS&gt;</value>
+    <comment>{Locked="&lt;SNAPSHOTS&gt;"}</comment>
+  </data>
+  <data name="DescribeSnapshotsById_Description" xml:space="preserve">
+    <value>Describe EBS snapshots with the specified ID(s)</value>
+  </data>
+  <data name="DescribeSnapshotsById_Summary" xml:space="preserve">
+    <value>Describe EBS snapshots with the specified ID(s) and store them into &lt;SNAPSHOTS&gt;</value>
+    <comment>{Locked="&lt;SNAPSHOTS&gt;"}</comment>
+  </data>
+  <data name="DescribeSnapshotsByOwnerId_Description" xml:space="preserve">
+    <value>Describe EBS snapshots with the specified owner ID(s)</value>
+  </data>
+  <data name="DescribeSnapshotsByOwnerId_Summary" xml:space="preserve">
+    <value>Describe EBS snapshots with the specified owner ID(s) and store them into &lt;SNAPSHOTS&gt;</value>
+    <comment>{Locked="&lt;SNAPSHOTS&gt;"}</comment>
+  </data>
+  <data name="DescribeSnapshotsByRestorableUserId_Description" xml:space="preserve">
+    <value>Describe EBS snapshots restorable by the specified ID(s) of the AWS accounts</value>
+  </data>
+  <data name="DescribeSnapshotsByRestorableUserId_Summary" xml:space="preserve">
+    <value>Describe EBS snapshots restorable by the specified ID(s) of the AWS accounts and store them into &lt;SNAPSHOTS&gt;</value>
+    <comment>{Locked="&lt;SNAPSHOTS&gt;"}</comment>
+  </data>
+  <data name="DescribeVolumes_Description" xml:space="preserve">
+    <value>Describe the specified EBS volumes</value>
+  </data>
+  <data name="DescribeVolumes_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="DescribeVolumes_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="DescribeVolumes_FriendlyName" xml:space="preserve">
+    <value>Describe volumes</value>
+  </data>
+  <data name="DescribeVolumes_InstanceId_Description" xml:space="preserve">
+    <value>The ID of the instance that the volume is attached to</value>
+  </data>
+  <data name="DescribeVolumes_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="DescribeVolumes_Summary" xml:space="preserve">
+    <value>Describe the specified EBS volume(s) and store them into &lt;VOLUMES&gt;</value>
+    <comment>{Locked="&lt;VOLUMES&gt;"}</comment>
+  </data>
+  <data name="DescribeVolumes_VolumeIds_Description" xml:space="preserve">
+    <value>The volume IDs to describe</value>
+  </data>
+  <data name="DescribeVolumes_VolumeIds_FriendlyName" xml:space="preserve">
+    <value>Volume IDs</value>
+  </data>
+  <data name="DescribeVolumes_Volumes_Description" xml:space="preserve">
+    <value>The retrieved EBS volumes with all the relevant information</value>
+  </data>
+  <data name="DescribeVolumes_Volumes_FriendlyName" xml:space="preserve">
+    <value>Retrieved EBS volumes</value>
+  </data>
+  <data name="DescribeVolumesByIds_Description" xml:space="preserve">
+    <value>Describe specified EBS volumes </value>
+  </data>
+  <data name="DescribeVolumesByIds_Summary" xml:space="preserve">
+    <value>Describe the specified EBS volumes and store them into &lt;VOLUMES&gt;</value>
+    <comment>{Locked="&lt;VOLUMES&gt;"}</comment>
+  </data>
+  <data name="DescribeVolumesByInstance_Description" xml:space="preserve">
+    <value>Describe EBS volumes of the specified instance</value>
+  </data>
+  <data name="DescribeVolumesByInstance_Summary" xml:space="preserve">
+    <value>Describe EBS volumes of the specified instance and store them into &lt;VOLUMES&gt;</value>
+    <comment>{Locked="&lt;VOLUMES&gt;"}</comment>
+  </data>
+  <data name="DescribeVolumesMode_AllVolumes_FriendlyName" xml:space="preserve">
+    <value>All volumes</value>
+  </data>
+  <data name="DescribeVolumesMode_AllVolumesOfTheSpecifiedInstance_FriendlyName" xml:space="preserve">
+    <value>Volumes of the specified instance</value>
+  </data>
+  <data name="DescribeVolumesMode_SpecificVolumes_FriendlyName" xml:space="preserve">
+    <value>Volumes with the specified IDs</value>
+  </data>
+  <data name="DetachVolume_Description" xml:space="preserve">
+    <value>Detach an EBS volume from an EC2 instance</value>
+  </data>
+  <data name="DetachVolume_Device_Description" xml:space="preserve">
+    <value>The name of the device</value>
+  </data>
+  <data name="DetachVolume_Device_FriendlyName" xml:space="preserve">
+    <value>Device name</value>
+  </data>
+  <data name="DetachVolume_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="DetachVolume_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="DetachVolume_Force_Description" xml:space="preserve">
+    <value>Specifies whether to force detachment, if the previous detachment attempt didn't occur cleanly</value>
+  </data>
+  <data name="DetachVolume_Force_FriendlyName" xml:space="preserve">
+    <value>Force detachment</value>
+  </data>
+  <data name="DetachVolume_FriendlyName" xml:space="preserve">
+    <value>Detach volume</value>
+  </data>
+  <data name="DetachVolume_InstanceId_Description" xml:space="preserve">
+    <value>The ID of the instance</value>
+  </data>
+  <data name="DetachVolume_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="DetachVolume_Summary" xml:space="preserve">
+    <value>Detach an EBS volume from an EC2 instance</value>
+  </data>
+  <data name="DetachVolume_VolumeId_Description" xml:space="preserve">
+    <value>The ID of the EBS volume</value>
+  </data>
+  <data name="DetachVolume_VolumeId_FriendlyName" xml:space="preserve">
+    <value>Volume ID</value>
+  </data>
+  <data name="Ec2ClientObject_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="Ec2ClientObject_FriendlyNamePlural" xml:space="preserve">
+    <value>EC2 clients</value>
+  </data>
+  <data name="Ec2InstanceInfo_FriendlyName" xml:space="preserve">
+    <value>EC2 instance info</value>
+  </data>
+  <data name="Ec2InstanceInfo_FriendlyNamePlural" xml:space="preserve">
+    <value>EC2 instances info</value>
+  </data>
+  <data name="EndEC2Session_Description" xml:space="preserve">
+    <value>Dispose an open EC2 client</value>
+  </data>
+  <data name="EndEC2Session_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="EndEC2Session_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="EndEC2Session_FriendlyName" xml:space="preserve">
+    <value>End EC2 session</value>
+  </data>
+  <data name="EndEC2Session_Summary" xml:space="preserve">
+    <value>Dispose the  EC2 client stored into &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="Error_AuthenticationFailureError_Description" xml:space="preserve">
+    <value>Indicates that the provided credentials couldn't be validated</value>
+  </data>
+  <data name="Error_AuthenticationFailureError_FriendlyName" xml:space="preserve">
+    <value>Authentication failed</value>
+  </data>
+  <data name="Error_CreateSessionFailed_Description" xml:space="preserve">
+    <value>Indicates that the creation of EC2 client failed</value>
+  </data>
+  <data name="Error_CreateSessionFailed_FriendlyName" xml:space="preserve">
+    <value>Create session failed</value>
+  </data>
+  <data name="Error_IncorrectStateError_Description" xml:space="preserve">
+    <value>Indicates that the resource is in an incorrect state for the request. This can occur if there's an attempt to attach a volume that's still being created (ensure that the volume is 'available') or detach a volume that isn't attached</value>
+  </data>
+  <data name="Error_IncorrectStateError_FriendlyName" xml:space="preserve">
+    <value>Incorrect state for the request</value>
+  </data>
+  <data name="Error_InsufficientCapacityError_Description" xml:space="preserve">
+    <value>Indicates that there isn't enough capacity to fulfill the request</value>
+  </data>
+  <data name="Error_InsufficientCapacityError_FriendlyName" xml:space="preserve">
+    <value>Insufficient capacity</value>
+  </data>
+  <data name="Error_InvalidAttachmentError_Description" xml:space="preserve">
+    <value>Indicates an attempt to detach a volume from an instance to which it isn't attached</value>
+  </data>
+  <data name="Error_InvalidAttachmentError_FriendlyName" xml:space="preserve">
+    <value>Invalid attempt to detach</value>
+  </data>
+  <data name="Error_InvalidInstanceIdError_Description" xml:space="preserve">
+    <value>Indicates that either the specified instance ID is malformed, or that the specified instance doesn't exist</value>
+  </data>
+  <data name="Error_InvalidInstanceIdError_FriendlyName" xml:space="preserve">
+    <value>Invalid instance ID</value>
+  </data>
+  <data name="Error_InvalidParameterError_Description" xml:space="preserve">
+    <value>Indicates that a parameter specified in the request isn't valid, unsupported, or can't be used</value>
+  </data>
+  <data name="Error_InvalidParameterError_FriendlyName" xml:space="preserve">
+    <value>Invalid parameter</value>
+  </data>
+  <data name="Error_InvalidProfileError_Description" xml:space="preserve">
+    <value>Indicates that the specified profile isn't correctly configured</value>
+  </data>
+  <data name="Error_InvalidProfileError_FriendlyName" xml:space="preserve">
+    <value>Invalid profile</value>
+  </data>
+  <data name="Error_InvalidSnapshotError_Description" xml:space="preserve">
+    <value>Indicates that either the specified snapshot ID is invalid, or that the specified snapshot doesn't exist</value>
+  </data>
+  <data name="Error_InvalidSnapshotError_FriendlyName" xml:space="preserve">
+    <value>Invalid snapshot ID</value>
+  </data>
+  <data name="Error_InvalidUserOrOwnerError_Description" xml:space="preserve">
+    <value>Indicates that the specified user or owner isn't valid</value>
+  </data>
+  <data name="Error_InvalidUserOrOwnerError_FriendlyName" xml:space="preserve">
+    <value>Invalid user ID</value>
+  </data>
+  <data name="Error_InvalidVolumeError_Description" xml:space="preserve">
+    <value>Indicates that either the volume ID isn't valid, or the specified volume doesn't exist 
+or the volume isn't in the same availability zone as the specified instance</value>
+  </data>
+  <data name="Error_InvalidVolumeError_FriendlyName" xml:space="preserve">
+    <value>Invalid volume</value>
+  </data>
+  <data name="Error_InvalidZoneError_Description" xml:space="preserve">
+    <value>Indicates that the specified availability zone doesn't exist, or isn't available to use</value>
+  </data>
+  <data name="Error_InvalidZoneError_FriendlyName" xml:space="preserve">
+    <value>Invalid zone</value>
+  </data>
+  <data name="Error_LimitExceededError_Description" xml:space="preserve">
+    <value>Indicates that the limit for the specified resource is reached</value>
+  </data>
+  <data name="Error_LimitExceededError_FriendlyName" xml:space="preserve">
+    <value>Resource's limit is exceeded</value>
+  </data>
+  <data name="Error_NotAvailableInZoneError_Description" xml:space="preserve">
+    <value>Indicates that the specified availability zone doesn't support provisioned IOPS SSD volumes</value>
+  </data>
+  <data name="Error_NotAvailableInZoneError_FriendlyName" xml:space="preserve">
+    <value>Volume type isn't supported in the specified zone</value>
+  </data>
+  <data name="Error_ProfileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified profile doesn't exist</value>
+  </data>
+  <data name="Error_ProfileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Profile doesn't exist</value>
+  </data>
+  <data name="Error_RequestFailedError_Description" xml:space="preserve">
+    <value>Indicates that the request to AWS failed</value>
+  </data>
+  <data name="Error_RequestFailedError_FriendlyName" xml:space="preserve">
+    <value>Amazon service request failed</value>
+  </data>
+  <data name="Error_ResourceIsInUseError_Description" xml:space="preserve">
+    <value>Indicates that the operation can't be completed because the resource is in use</value>
+  </data>
+  <data name="Error_ResourceIsInUseError_FriendlyName" xml:space="preserve">
+    <value>The resource is in use</value>
+  </data>
+  <data name="Error_UnauthorizedOperationError_Description" xml:space="preserve">
+    <value>Indicates that an unauthorized operation was requested</value>
+  </data>
+  <data name="Error_UnauthorizedOperationError_FriendlyName" xml:space="preserve">
+    <value>Unauthorized operation</value>
+  </data>
+  <data name="Error_UnsupportedOperationError_Description" xml:space="preserve">
+    <value>Indicates that an unsupported operation was requested. For example, an instance that's instance store-backed can't be stopped</value>
+  </data>
+  <data name="Error_UnsupportedOperationError_FriendlyName" xml:space="preserve">
+    <value>Unsupported operation</value>
+  </data>
+  <data name="GetAvailableEC2Instances_AvailabilityZone_Description" xml:space="preserve">
+    <value>Specifies the availability zone,  a region code followed by a letter identifier</value>
+  </data>
+  <data name="GetAvailableEC2Instances_AvailabilityZone_FriendlyName" xml:space="preserve">
+    <value>Availability zone</value>
+  </data>
+  <data name="GetAvailableEC2Instances_Description" xml:space="preserve">
+    <value>Get information for the relevant EC2 instances</value>
+  </data>
+  <data name="GetAvailableEC2Instances_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="GetAvailableEC2Instances_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="GetAvailableEC2Instances_Ec2InstancesInfo_Description" xml:space="preserve">
+    <value>The list of the EC2 instances</value>
+  </data>
+  <data name="GetAvailableEC2Instances_Ec2InstancesInfo_FriendlyName" xml:space="preserve">
+    <value>EC2 instances</value>
+  </data>
+  <data name="GetAvailableEC2Instances_FriendlyName" xml:space="preserve">
+    <value>Get available EC2 instances</value>
+  </data>
+  <data name="GetAvailableEC2Instances_InstanceState_Description" xml:space="preserve">
+    <value>The state of the instance (pending, running, shutting down, terminated, stopping, stopped)</value>
+  </data>
+  <data name="GetAvailableEC2Instances_InstanceState_FriendlyName" xml:space="preserve">
+    <value>Instance state</value>
+  </data>
+  <data name="GetAvailableEC2Instances_Summary" xml:space="preserve">
+    <value>Get information for the relevant EC2 instances using the &lt;EC2CLIENT&gt;</value>
+    <comment>{Locked="&lt;EC2CLIENT&gt;"}</comment>
+  </data>
+  <data name="Instance_FriendlyName" xml:space="preserve">
+    <value>EC2 instance</value>
+  </data>
+  <data name="Instance_FriendlyNamePlural" xml:space="preserve">
+    <value>EC2 instances</value>
+  </data>
+  <data name="InstanceState_All_FriendlyName" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="InstanceState_Pending_FriendlyName" xml:space="preserve">
+    <value>Pending</value>
+  </data>
+  <data name="InstanceState_Running_FriendlyName" xml:space="preserve">
+    <value>Running</value>
+  </data>
+  <data name="InstanceState_ShuttingDown_FriendlyName" xml:space="preserve">
+    <value>Shutting down</value>
+  </data>
+  <data name="InstanceState_Stopped_FriendlyName" xml:space="preserve">
+    <value>Stopped</value>
+  </data>
+  <data name="InstanceState_Stopping_FriendlyName" xml:space="preserve">
+    <value>Stopping</value>
+  </data>
+  <data name="InstanceState_Terminated_FriendlyName" xml:space="preserve">
+    <value>Terminated</value>
+  </data>
+  <data name="InstanceState_Unknown_FriendlyName" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="InstanceStateChange_FriendlyName" xml:space="preserve">
+    <value>Instance state change</value>
+  </data>
+  <data name="InstanceStateChange_FriendlyNamePlural" xml:space="preserve">
+    <value>Instance state changes</value>
+  </data>
+  <data name="RebootEC2Instance_Description" xml:space="preserve">
+    <value>Reboot EC2 instance(s)</value>
+  </data>
+  <data name="RebootEC2Instance_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="RebootEC2Instance_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="RebootEC2Instance_FriendlyName" xml:space="preserve">
+    <value>Reboot EC2 instance</value>
+  </data>
+  <data name="RebootEC2Instance_InstanceIds_Description" xml:space="preserve">
+    <value>The instance IDs to reboot</value>
+  </data>
+  <data name="RebootEC2Instance_InstanceIds_FriendlyName" xml:space="preserve">
+    <value>Instance IDs</value>
+  </data>
+  <data name="RebootEC2Instance_Summary" xml:space="preserve">
+    <value>Reboot EC2 instance(s) with instance ID(s) &lt;INSTANCEIDS&gt;</value>
+    <comment>{Locked="&lt;INSTANCEIDS&gt;"}</comment>
+  </data>
+  <data name="SigningAlgorithm_HmacSHA1_FriendlyName" xml:space="preserve">
+    <value>HMAC SHA1</value>
+  </data>
+  <data name="SigningAlgorithm_HmacSHA256_FriendlyName" xml:space="preserve">
+    <value>HMAC SHA256</value>
+  </data>
+  <data name="Snapshot_FriendlyName" xml:space="preserve">
+    <value>EBS snapshot</value>
+  </data>
+  <data name="Snapshot_FriendlyNamePlural" xml:space="preserve">
+    <value>EBS snapshots</value>
+  </data>
+  <data name="StartEC2Instance_Description" xml:space="preserve">
+    <value>Start EC2 instance(s)</value>
+  </data>
+  <data name="StartEC2Instance_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="StartEC2Instance_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="StartEC2Instance_FriendlyName" xml:space="preserve">
+    <value>Start EC2 instance</value>
+  </data>
+  <data name="StartEC2Instance_InstanceIds_Description" xml:space="preserve">
+    <value>The instance IDs to start</value>
+  </data>
+  <data name="StartEC2Instance_InstanceIds_FriendlyName" xml:space="preserve">
+    <value>Instance IDs</value>
+  </data>
+  <data name="StartEC2Instance_StartingEc2Instances_Description" xml:space="preserve">
+    <value>The returned information for the started instances</value>
+  </data>
+  <data name="StartEC2Instance_StartingEc2Instances_FriendlyName" xml:space="preserve">
+    <value>Starting instances</value>
+  </data>
+  <data name="StartEC2Instance_Summary" xml:space="preserve">
+    <value>Start EC2 instance(s) with instance ID(s) &lt;INSTANCEIDS&gt; and store the starting instance(s) into &lt;STARTINGEC2INSTANCES&gt;</value>
+    <comment>{Locked="&lt;INSTANCEIDS&gt;"}{Locked="&lt;STARTINGEC2INSTANCES&gt;"}</comment>
+  </data>
+  <data name="StopEC2Instance_Description" xml:space="preserve">
+    <value>Stop EC2 instance(s)</value>
+  </data>
+  <data name="StopEC2Instance_Ec2Client_Description" xml:space="preserve">
+    <value>The EC2 client</value>
+  </data>
+  <data name="StopEC2Instance_Ec2Client_FriendlyName" xml:space="preserve">
+    <value>EC2 client</value>
+  </data>
+  <data name="StopEC2Instance_Force_Description" xml:space="preserve">
+    <value>Specifies whether to force the instances to stop. The instances don't have an opportunity to flush file system caches or file system metadata</value>
+  </data>
+  <data name="StopEC2Instance_Force_FriendlyName" xml:space="preserve">
+    <value>Force stop</value>
+  </data>
+  <data name="StopEC2Instance_FriendlyName" xml:space="preserve">
+    <value>Stop EC2 instance</value>
+  </data>
+  <data name="StopEC2Instance_Hibernate_Description" xml:space="preserve">
+    <value>Specifies whether to hibernate the instance, if it was enabled for hibernation at launch. If the instance can't hibernate successfully, a normal shutdown occurs</value>
+  </data>
+  <data name="StopEC2Instance_Hibernate_FriendlyName" xml:space="preserve">
+    <value>Hibernation: </value>
+  </data>
+  <data name="StopEC2Instance_InstanceIds_Description" xml:space="preserve">
+    <value>The instance IDs to stop</value>
+  </data>
+  <data name="StopEC2Instance_InstanceIds_FriendlyName" xml:space="preserve">
+    <value>Instance IDs</value>
+  </data>
+  <data name="StopEC2Instance_StoppingEc2Instances_Description" xml:space="preserve">
+    <value>The returned information for the stopped instances</value>
+  </data>
+  <data name="StopEC2Instance_StoppingEc2Instances_FriendlyName" xml:space="preserve">
+    <value>Stopping instances</value>
+  </data>
+  <data name="StopEC2Instance_Summary" xml:space="preserve">
+    <value>Stop EC2 instance(s) with instance ID(s) &lt;INSTANCEIDS&gt; and store the stopping instance(s) into &lt;STOPPINGEC2INSTANCES&gt;</value>
+    <comment>{Locked="&lt;INSTANCEIDS&gt;"}{Locked="&lt;STOPPINGEC2INSTANCES&gt;"}</comment>
+  </data>
+  <data name="Volume_FriendlyName" xml:space="preserve">
+    <value>EBS volume</value>
+  </data>
+  <data name="Volume_FriendlyNamePlural" xml:space="preserve">
+    <value>EBS volumes</value>
+  </data>
+  <data name="VolumeType_Gp2_FriendlyName" xml:space="preserve">
+    <value>Gp2</value>
+  </data>
+  <data name="VolumeType_Io1_FriendlyName" xml:space="preserve">
+    <value>Io1</value>
+  </data>
+  <data name="VolumeType_Sc1_FriendlyName" xml:space="preserve">
+    <value>Sc1</value>
+  </data>
+  <data name="VolumeType_St1_FriendlyName" xml:space="preserve">
+    <value>St1</value>
+  </data>
+  <data name="VolumeType_Standard_FriendlyName" xml:space="preserve">
+    <value>Standard</value>
+  </data>
+  <data name="DescribeSnapshotsMode_AllSnapshots_FriendlyName" xml:space="preserve">
+    <value>All snapshots</value>
+  </data>
+  <data name="DescribeSnapshotsMode_SnapshotsByCustomFilter_FriendlyName" xml:space="preserve">
+    <value>Snapshots by custom filter</value>
+  </data>
+  <data name="DescribeSnapshotsMode_SnapshotsById_FriendlyName" xml:space="preserve">
+    <value>Snapshots by ID</value>
+  </data>
+  <data name="DescribeSnapshotsMode_SnapshotsByOwnerId_FriendlyName" xml:space="preserve">
+    <value>Snapshots by owner ID</value>
+  </data>
+  <data name="DescribeSnapshotsMode_SnapshotsByRestorableUserId_FriendlyName" xml:space="preserve">
+    <value>Snapshots restorable by user ID</value>
+  </data>
+  <data name="DescribeSnapshots_DescribeSnapshotsMode_Description" xml:space="preserve">
+    <value>Specifies whether to get all snapshots of the defined region or filter snapshots by their ID, owner or user by which they are restorable</value>
+  </data>
+  <data name="DescribeSnapshots_DescribeSnapshotsMode_FriendlyName" xml:space="preserve">
+    <value>Describe snapshots mode</value>
+  </data>
+  <data name="DescribeVolumes_DescribeVolumesMode_Description" xml:space="preserve">
+    <value>Specifies whether to describe all volumes, volumes specified by ID or volumes of an instance</value>
+  </data>
+  <data name="DescribeVolumes_DescribeVolumesMode_FriendlyName" xml:space="preserve">
+    <value>Describe volumes mode</value>
+  </data>
+  <data name="ErrorMessage_ProfileNotFound" xml:space="preserve">
+    <value>Profile '{0}' doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidProfile" xml:space="preserve">
+    <value>Profile '{0}' isn't correctly configured</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_WithStatusCode" xml:space="preserve">
+    <value>{0} (Status code:{1})</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="Message_Ec2InstanceInfo" xml:space="preserve">
+    <value>Instance id: '{0}' Instance state: '{1}' Availability zone: '{2}'</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+  <data name="Message_ChecksPassed" xml:space="preserve">
+    <value>{0}/{1} checks passed</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="Message_InstanceStateChange" xml:space="preserve">
+    <value>Instance: '{0}' Previous state: '{1}' Current state: '{2}'</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+  <data name="Message_Snapshot" xml:space="preserve">
+    <value>Snapshot id: '{0}' Volume size: '{1}' Description: '{2}' 'State': '{3}'</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}{Locked="{3}"}</comment>
+  </data>
+  <data name="Message_AmazonEC2Client" xml:space="preserve">
+    <value>Amazon EC2 client</value>
+  </data>
+  <data name="Message_Volume" xml:space="preserve">
+    <value>Volume id: '{0}' Size: '{1}' Volume type: '{2}'</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+</root>

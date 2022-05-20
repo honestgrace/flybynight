@@ -1,0 +1,2354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\desktopFlows.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.Create.AddAName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a name or we'll generate one]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add a name or we'll generate one]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Refers to naming a flow upon creating one]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Create.CreateButton" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Refers to creating a new flow with user submitted inputs]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Actions.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Action details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.Duration" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Duration]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Duration]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.ErrorDetails" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.ParentFlow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Parent flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Parent flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.RunMode" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Run mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Run mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.Screenshot" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Screenshot]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Screenshot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.Start" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Start]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.Status" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Status]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Status]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.TargetMachine" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Target machine]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Target machine]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Header.Trigger" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trigger]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Trigger]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Inputs" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Inputs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Inputs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Outputs" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Outputs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Outputs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Desktop.FlowRun.Summary.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Run details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Run details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.FlowSaveAs.Save" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Save]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.FlowSaveAs.SaveAs" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save As]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Save As]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MessageModal.Description" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This desktop flow will no longer be supported on November 30, 2021. Select {Migrate} to move your flow to Power Automate Desktop and start using our newest robotic process automation (RPA) capabilities.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This desktop flow will no longer be supported on November 30, 2021. Select {Migrate} to move your flow to Power Automate Desktop and start using our newest robotic process automation (RPA) capabilities.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {Migrate}: is the action to perform, please translate this segment as well keeping the brackets around the translation {}.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MessageModal.PrimaryButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrate]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrate]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MessageModal.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's a new, easier way to create and run desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's a new, easier way to create and run desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Migrate" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrate]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrate]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Migrate Ui flow v1 to Ui flow v2 button]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MigrateButtonText.Preview" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrate]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrate]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Displays for migration of UI Flow v1 to UI Flow v2]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MigrateFinished.Description" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Open the app to find your new converted flow. The original will stay in your list of desktop flows in the Power Automate portal.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Open the app to find your new converted flow. The original will stay in your list of desktop flows in the Power Automate portal.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MigrateFinished.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow was migrated]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow was migrated]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.MigrateInProgress" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrating your flow to Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrating your flow to Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.OK" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Got it]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Got it]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.OpenPAD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Launch Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.PAda.MigrateInProgress" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrating your flow to Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrating your flow to Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.PAda.OpenPAD" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Launch Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.UnexpectedPage" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid page for current page]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid page for current page]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Wizard.AboutToMigrate.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrate your flow to new Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrate your flow to new Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Wizard.Header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrate your flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrate your flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Header for ui flow migration wizard]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Wizard.LandingPage.Continue.Body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[2. Select {Migrate} to continue. This will create a converted copy of your flow—the original will stay here in Power Automate.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[2. Select {Migrate} to continue. This will create a converted copy of your flow—the original will stay here in Power Automate.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} "Migrate" should still be localized but keep the {} which will make it bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Wizard.LandingPage.InstallPAD.Body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1. If you haven't already, {install} Power Automate Desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[1. If you haven't already, {install} Power Automate Desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} "install" should still be localized but keep the {} which will add a link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Wizard.PAda.AboutToMigrate.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migrate your flow to new Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migrate your flow to new Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.Wizard.PAda.LandingPage.InstallPAD.Body" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1. If you haven't already, {install} Power Automate for desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[1. If you haven't already, {install} Power Automate for desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} "install" should still be localized but keep the {} which will add a link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Commands.Edit" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Edit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Commands.Owners" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Share]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Share]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.FlowDisplayNameLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Status.ChildFlowLimitation" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow surpassed the limit of child desktop flow runs. The child flow desktop flow runs are not available.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow surpassed the limit of child desktop flow runs. The child flow desktop flow runs are not available.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Status.Queued" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow is queued ...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow is queued ...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Status.RunFailed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow run failed.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow run failed.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Status.RunSuccessful" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow ran successfully.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow ran successfully.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Status.Running" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow is running ...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow is running ...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.FlowRunsTile.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Run history]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Run history]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.ZeroFlowRun.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When your flow runs, you'll see its history here.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[When your flow runs, you'll see its history here.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowPropertyTile.ZeroInstantFlowRun.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow hasn't been run yet. Select {Run} to see it work.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow hasn't been run yet. Select {Run} to see it work.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{NoLocRule} {Run} - UI will make the interpolated "Run" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FlowRun.Help" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Help]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Help]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowRun.No.Runs.Description" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[When a flow does run, this is where you'll see its history]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[When a flow does run, this is where you'll see its history]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowRun.No.Runs.Heading" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There are no runs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There are no runs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FlowRun.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Run]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Run]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.Action" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Action]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.Duration" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Duration]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Duration]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.PAD.Subflow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Subflow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Subflow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.Requested" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Requested]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Requested]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListHeader.StartTimeV2" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Start]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is the new run history table column header for start time]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.ListHeader.Status" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Status]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Status]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Flows.Tabs.RPAScriptsGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.UiFlows.NoFlows.CallToAction" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[New desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.AnalyzeInPowerBI" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Analyze in Power BI (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Analyze in Power BI (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.Back.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back to the list page]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Back to the list page]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.Details.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} Details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} Details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the flow display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.Edit.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} Edit]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} Edit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the flow display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.Help.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} Help]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} Help]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.SaveAs.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} Save As]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} Save As]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the flow display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.Test" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Test]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Test]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Commands.TestAriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} Test]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} Test]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the flow display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCDSExperience.Missing.Dataverse.Modal.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[What is Microsoft Dataverse?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[What is Microsoft Dataverse?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCDSExperience.Missing.Dataverse.Modal.SubMessage" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} is a centralized database where you can easily retrieve information to use across your flows and apps.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} is a centralized database where you can easily retrieve information to use across your flows and apps.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the text for Microsoft Dataverse]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCDSExperience.Missing.Dataverse.Modal.SubTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Set up Dataverse for this environment or switch to an environment that’s already using it.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Set up Dataverse for this environment or switch to an environment that’s already using it.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Create.Dataverse.Modal.Header" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Set up Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Set up Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Button.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[New Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Dataverse" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Inprogress.Detail" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check back later. Your new database is being configured and in some cases can take over an hour.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Check back later. Your new database is being configured and in some cases can take over an hour.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Inprogress.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setting up Dataverse ...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Setting up Dataverse ...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Message.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add Dataverse to this environment or switch to an environment that’s already using it.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add Dataverse to this environment or switch to an environment that’s already using it.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Message.Subtext" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To start using UI flows, create a Microsoft Dataverse in your current environment. {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To start using UI flows, create a Microsoft Dataverse in your current environment. {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the Learn more link on how to create Microsoft Dataverse database]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Message.SubtextGA" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a Microsoft Dataverse to this environment or switch to an environment that’s already using it. {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add a Microsoft Dataverse to this environment or switch to an environment that’s already using it. {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the Learn more link on how to create Microsoft Dataverse database]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Message.TextGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need Microsoft Dataverse to make desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You need Microsoft Dataverse to make desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Microsoft.Dataverse" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Microsoft Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.NoPermission.SubText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please contact your org's admin to learn more.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please contact your org's admin to learn more.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.NoPermission.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have permission to create a new Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You don't have permission to create a new Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Checkbox.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Include sample apps and data]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Include sample apps and data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Create" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Currency.Dropdown.PlaceHolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select a default currency unit.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select a default currency unit.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Currency.Dropdown.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Currency]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Currency]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Footer.Consent.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By selecting Create, you agree to Microsoft {0} | {1}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[By selecting Create, you agree to Microsoft {0} | {1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0}: 'terms and conditions' link.  {1}: Microsoft privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Footer.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[By selecting {0}, you agree to Microsoft's {1} | {2}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[By selecting {0}, you agree to Microsoft's {1} | {2}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[(0): 'Create' text. {1}: 'Terms of use' link.  {2}: Microsoft privacy statement]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Language.Dropdown.PlaceHolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select a default language.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select a default language.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Language.Dropdown.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Language]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Language]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Subtitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Set up a {0} to connect to your new environment.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Set up a {0} to connect to your new environment.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDatabase.Panel.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[New Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[New Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreateDialog.MessageBar.DatabaseReadyRetry" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your new Microsoft Dataverse '{0}' has been created. Please retry.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your new Microsoft Dataverse '{0}' has been created. Please retry.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the database name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.CreatePage.MessageBar.ProvisioningState.Ready" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Dataverse were created—now you can use desktop flows.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your Dataverse were created—now you can use desktop flows.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provision.Complete.Modal.Content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select {0} now to launch Power Automate Desktop and start creating time-saving flows that use robotic process automation (RPA).]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select {0} now to launch Power Automate Desktop and start creating time-saving flows that use robotic process automation (RPA).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the text "+New desktop flow"]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provision.Complete.Modal.Header" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Dataverse was created]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your Dataverse was created]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provision.Complete.Modal.PAda.Content" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select {0} now to launch Power Automate for desktop and start creating time-saving flows that use robotic process automation (RPA).]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select {0} now to launch Power Automate for desktop and start creating time-saving flows that use robotic process automation (RPA).]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the text "+New desktop flow"]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provision.Complete.Modal.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setup is complete]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Setup is complete]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provisioning.Modal.Header" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Setting things up ...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Setting things up ...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provisioning.Modal.SubContent" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your environment and Dataverse are being configured and in some cases can take over an hour.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your environment and Dataverse are being configured and in some cases can take over an hour.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.Dataverse.Provisioning.Modal.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check back later]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Check back later]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.MessageBar.ProvisioningState.Error" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your new Microsoft Dataverse is in an unexpected state: '{0}'.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your new Microsoft Dataverse is in an unexpected state: '{0}'.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the state ex. LinkedDatabaseFailedProvisioning]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.MessageBar.ProvisioningState.Progress" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your new Microsoft Dataverse is being prepared.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your new Microsoft Dataverse is being prepared.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.MessageBar.ProvisioningState.Ready" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your new Microsoft Dataverse '{0}' has been created.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your new Microsoft Dataverse '{0}' has been created.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the database name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.MissingPermissionImage.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Image for missing permission to create Microsoft Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Image for missing permission to create Microsoft Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.MissingResourceImage.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Image for missing resource]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Image for missing resource]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.CreateCdsExperience.NoPermission.Modal.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need permissions to setup Microsoft Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You need permissions to setup Microsoft Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.DesktopFlowProperties.Win32Deprecated.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This desktop flow is no longer supported. Migrate your flow to Power Automate for desktop and start using our newest robotic process automation (RPA) capabilities.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This desktop flow is no longer supported. Migrate your flow to Power Automate for desktop and start using our newest robotic process automation (RPA) capabilities.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.DesktopFlowProperties.Win32Deprecation.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about flows migration.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more about flows migration.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.DesktopFlowProperties.Win32Deprecation.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This desktop flow will no longer be supported. Migrate your flow to Power Automate for desktop and start using our newest robotic process automation (RPA) capabilities.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This desktop flow will no longer be supported. Migrate your flow to Power Automate for desktop and start using our newest robotic process automation (RPA) capabilities.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.DesktopV2.Launch.App" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch app]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Launch app]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.SaveAs.Dialog.FlowName.Placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy of - {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Copy of - {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the flow display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.SaveAs.Dialog.SubtextGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We'll create a copy of this flow and add it to your Desktop flows page. You can rename it first if you want.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[We'll create a copy of this flow and add it to your Desktop flows page. You can rename it first if you want.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.SaveAs.Dialog.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create a copy of this flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create a copy of this flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Edit.Selenium.ContentGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The new desktop flow will appear on your My flows page in the Desktop flows tab. Select it to go to the details page and make any changes.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The new desktop flow will appear on your My flows page in the Desktop flows tab. Select it to go to the details page and make any changes.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Edit.Selenium.ImageTitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit and add to your desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Edit and add to your desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Edit.Selenium.TitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit and add to your desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Edit and add to your desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Edit.Win32.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check inputs and outputs to get it working just the way you want.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Check inputs and outputs to get it working just the way you want.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Edit.Win32.ImageTitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Test and edit your desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Test and edit your desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Edit.Win32.TitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Test and edit your desktop flow when you're done recording]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Test and edit your desktop flow when you're done recording]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Find.Win32.ContentGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All your desktop flows will appear in the Desktop flows tab on your my flows page.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[All your desktop flows will appear in the Desktop flows tab on your my flows page.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Find.Win32.ImageTitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Find your desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Find your desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Find.Win32.TitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Where to find your new desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Where to find your new desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.ContentGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Record multistep tasks at the user-interface level, then replay your desktop flow to perform the same series of steps automatically.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Record multistep tasks at the user-interface level, then replay your desktop flow to perform the same series of steps automatically.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.DesktopV2.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name your flow then select Launch app to go to the flow designer in Power Automate Desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Name your flow then select Launch app to go to the flow designer in Power Automate Desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.DesktopV2.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate desktop presentation]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate desktop presentation]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.DesktopV2.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're about to go to Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You're about to go to Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.ImageTitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows presentation]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flows presentation]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.PAda.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name your flow then select Launch app to go to the flow designer in Power Automate for desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Name your flow then select Launch app to go to the flow designer in Power Automate for desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.PAda.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop presentation]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop presentation]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.PAda.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're about to go to Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You're about to go to Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.TitleDesktopGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Welcome to the Windows recorder for desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Welcome to the Windows recorder for desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Presentation.TitleSelenium" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create desktop flows with Selenium IDE]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create desktop flows with Selenium IDE]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Recording.Selenium.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This will take you to Selenium IDE, a third-party provider. Here you can record, play, and edit your script output, plus define its variables.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This will take you to Selenium IDE, a third-party provider. Here you can record, play, and edit your script output, plus define its variables.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Recording.Selenium.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recording with SeleniumIDE]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Recording with SeleniumIDE]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Recording.Selenium.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch the recorder from your browser]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Launch the recorder from your browser]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Recording.Win32.ContentGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Together, this sequence of recorded steps becomes your desktop flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Together, this sequence of recorded steps becomes your desktop flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Recording.Win32.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Recording Win32]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Recording Win32]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Recording.Win32.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Each app you open and record in will create a set of steps]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Each app you open and record in will create a set of steps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Return.Selenium.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Once you’re done recording, the Selenium IDE script output will appear as a UI flow and autosave to Microsoft Dataverse.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Once you’re done recording, the Selenium IDE script output will appear as a UI flow and autosave to Microsoft Dataverse.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Return.Selenium.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Return to Flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Return to Flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Return.Selenium.Title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Return to {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Return to {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is brand name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Start.Win32.ContentGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Next, name your desktop flow then launch the recorder. You’ll use your keyboard and mouse to recreate the steps of your process.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Next, name your desktop flow then launch the recorder. You’ll use your keyboard and mouse to recreate the steps of your process.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Start.Win32.ImageTitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows steps]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flows steps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Creation.Start.Win32.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Start with a process you want to automate]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Start with a process you want to automate]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.DesktopV2.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select Launch app to go to the flow designer in Power Automate Desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select Launch app to go to the flow designer in Power Automate Desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.DesktopV2.DialogTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.DesktopV2.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate desktop Presentation]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate desktop Presentation]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.DesktopV2.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're about to go to Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You're about to go to Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.PAda.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select Launch app to go to the flow designer in Power Automate for desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select Launch app to go to the flow designer in Power Automate for desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.PAda.DialogTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.PAda.ImageTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop presentation]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop presentation]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaCarousel.Edit.Presentation.PAda.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You're about to go to Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You're about to go to Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaNativeClient.UnexpectedV1ExtensionError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unexpected Microsoft Windows recorder (V1) browser extension error.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unexpected Microsoft Windows recorder (V1) browser extension error.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.Operation.ErrorContext.ImagePlaceholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Image showing where the error occurred.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Image showing where the error occurred.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Alt text describing a contextual image of a failed step in a RPA flow]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RpaScript.Operation.ErrorContext.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error context]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error context]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.Operation.ErrorDetailMessage.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error Detail Message]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error Detail Message]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.Operation.ExpectedContext.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Screenshot for Recording]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Screenshot for Recording]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoAgent" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please ensure that UI flows is installed and running.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please ensure that UI flows is installed and running.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.AriaLabel.GetExtension" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[GetExtension]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[GetExtension]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.First.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1. Make sure you have Power Automate Desktop installed. If you don't, select 'Install app' now.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[1. Make sure you have Power Automate Desktop installed. If you don't, select 'Install app' now.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.GetExtension" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get extension]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Get extension]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.InstallApp" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Install app]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Install app]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please make sure that Desktop flows is installed and that the browser extension is enabled to record your steps. Select Download to get the latest Desktop flows installer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please make sure that Desktop flows is installed and that the browser extension is enabled to record your steps. Select Download to get the latest Desktop flows installer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.PAda.First.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[1. Make sure you have Power Automate for desktop installed. If you don't, select 'Install app' now.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[1. Make sure you have Power Automate for desktop installed. If you don't, select 'Install app' now.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.Second.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[2. Check that you've enabled the Windows recorder (V1) extension in your browser.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[2. Check that you've enabled the Windows recorder (V1) extension in your browser.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoChromeExtension.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's an issue with your setup]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's an issue with your setup]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoSelenium" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select Get extension to leave Power Automate and go download the Selenium IDE extension, an open-source software. Enable the extension after installing.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select Get extension to leave Power Automate and go download the Selenium IDE extension, an open-source software. Enable the extension after installing.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoSeleniumOrConflict" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select Get extension to leave Power Automate and go download the Selenium IDE extension, an open-source software. Enable the extension after installing and make sure only one version of the extension is enabled.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select Get extension to leave Power Automate and go download the Selenium IDE extension, an open-source software. Enable the extension after installing and make sure only one version of the extension is enabled.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoSeleniumOrConflictTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need the Selenium IDE extension]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You need the Selenium IDE extension]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.NoSeleniumTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need the Selenium IDE extension]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You need the Selenium IDE extension]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.VersionMismatch.Message" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select Download to get the latest UI flows installer.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select Download to get the latest UI flows installer.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.PackageError.VersionMismatch.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your installed version of UI flows is out of date]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your installed version of UI flows is out of date]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScript.TitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorExtension" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error during recording from SeleniumIDE ]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error during recording from SeleniumIDE ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorExtensionLost" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For optimal performance, please save or close all the Selenium IDE browser extension windows before launching the recorder.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[For optimal performance, please save or close all the Selenium IDE browser extension windows before launching the recorder.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorValidation" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error during validation of the Selenium actions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error during validation of the Selenium actions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorWorkflow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to load the Selenium workflow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to load the Selenium workflow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.LaunchRecorder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Launch recorder]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Launch recorder]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.Modal.RetryButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Retry]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Retry]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.AgentBusy.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate Desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.AgentBusy.PAda.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Close.DialogText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To keep the work you've done, select Save and close.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To keep the work you've done, select Save and close.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Close.DialogTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save your work before closing?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Save your work before closing?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Close.SaveDialogText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[If you leave this page you will lose all changes since your last save. Are you sure you want to leave this page?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[If you leave this page you will lose all changes since your last save. Are you sure you want to leave this page?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Close.SaveDialogTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Leave page?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Leave page?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Error.SeleniumLoadedMoreThanOnce" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have multiple Selenium IDE browser extensions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You have multiple Selenium IDE browser extensions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA["Selenium IDE" is the name of the extension.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Error.SeleniumLoadedMoreThanOnceDescription" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For optimal performance, please delete all but one browser extension.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[For optimal performance, please delete all but one browser extension.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA["Selenium IDE" is the name of the extension and "Selenium" is a type of desktop flows.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Error.SeleniumLoadedMoreThanOnceGetExtension" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to the extension page for this browser]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Go to the extension page for this browser]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Error.UnsupportedBrowser" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unsupported browser]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unsupported browser]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Error.UnsupportedBrowserDescriptionGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You are using an unsupported browser. For now, only Microsoft Edge (Chromium) and Google Chrome are supported to record or test desktop flows.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You are using an unsupported browser. For now, only Microsoft Edge (Chromium) and Google Chrome are supported to record or test desktop flows.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Error.UploadScriptFailedGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to upload desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to upload desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Setup.CancelButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancel]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Setup.DialogText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select download to install a package with everything you'll need to record the steps of your process.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select download to install a package with everything you'll need to record the steps of your process.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Setup.DialogTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The package installation is required.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The package installation is required.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Setup.DownloadButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Download]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Dialogs.Setup.GetExtension" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get extension]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Get extension]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.AdditionalDesktopFlowOptions" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Additional desktop flow options]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Additional desktop flow options]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.FlowName" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.FlowNamePlaceholder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add a name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.DesktopOption.Description" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use the Windows recorder (V1) to create desktop workflows. Requires a Windows 10 computer with a 64-bit operating system.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Use the Windows recorder (V1) to create desktop workflows. Requires a Windows 10 computer with a 64-bit operating system.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.DesktopOption.DescriptionGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use the Windows recorder (V1) to create desktop workflows. Requires a Windows 10 computer with a 64-bit operating system. These flows will be deprecated on November 30, 2021.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Use the Windows recorder (V1) to create desktop workflows. Requires a Windows 10 computer with a 64-bit operating system. These flows will be deprecated on November 30, 2021.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.DesktopOption.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Windows recorder]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Windows recorder]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.DesktopOption.TextGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Windows recorder V1 (Legacy)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Windows recorder V1 (Legacy)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.GetDetailsLink.AriaLabelGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get requirement details about how to make your desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Get requirement details about how to make your desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.GetDetailsLink.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Get requirement details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Get requirement details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.PADAppOption.TextGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.PADesktopOption.Description" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enjoy new ease and speed—now in addition to recording UI flows you can pick from hundreds of prebuilt drag-and-drop actions to create your automations. Requires a Windows 10 computer with a 64-bit operating system.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Enjoy new ease and speed—now in addition to recording UI flows you can pick from hundreds of prebuilt drag-and-drop actions to create your automations. Requires a Windows 10 computer with a 64-bit operating system.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.PADesktopOption.DescriptionGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enjoy new ease and speed—now in addition to recording desktop flows you can pick from hundreds of prebuilt drag-and-drop actions to create your automations. Requires a Windows 10 computer with a 64-bit operating system.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Enjoy new ease and speed—now in addition to recording desktop flows you can pick from hundreds of prebuilt drag-and-drop actions to create your automations. Requires a Windows 10 computer with a 64-bit operating system.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.PADesktopOption.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate Desktop (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.PADesktopOption.TextGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.SeleniumOption.Description" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Use this open-source tool to record web workflows. Requires the latest version of Microsoft Edge or Google Chrome.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Use this open-source tool to record web workflows. Requires the latest version of Microsoft Edge or Google Chrome.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.SeleniumOption.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Selenium IDE]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Selenium IDE]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.TitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose how you want to make your desktop flow:]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose how you want to make your desktop flow:]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.OptionSelection.UnexpectedPage" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid page for current page]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid page for current page]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.Selenium.UrlError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The URL you entered is not valid.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The URL you entered is not valid.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.Selenium.UrlHelp" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The base URL is the web address you will start with to record the first steps of your process.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The base URL is the web address you will start with to record the first steps of your process.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.Selenium.UrlLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Base URL]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Base URL]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TitleGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Build a desktop flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Build a desktop flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.DesktopButton.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Compatible with Windows 10 machines running 64-bit operating systems]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Compatible with Windows 10 machines running 64-bit operating systems]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.DesktopButton.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop app]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop app]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.PADAppButton.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.PADesktopButton.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate Desktop]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.SecondaryTitle.AriaLabelGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about creating desktop flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more about creating desktop flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.SecondaryTitle.Link" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.SecondaryTitle.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose desktop or web to get started.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose desktop or web to get started.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.SeleniumButton.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Runs virtually on the latest versions of Microsoft Edge (Chromium) and Google Chrome]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Runs virtually on the latest versions of Microsoft Edge (Chromium) and Google Chrome]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Modal.TypeSelection.SeleniumButton.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Web app]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Web app]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Recording.Failed.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select Done in the recorder after the last step of your process. If there’s still an issue, you’ll need to switch from the Windows recorder (V1) to Power Automate Desktop.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select Done in the recorder after the last step of your process. If there’s still an issue, you’ll need to switch from the Windows recorder (V1) to Power Automate Desktop.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Test.Dialog.CheckBox" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Don't show me this again]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Don't show me this again]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Test.Local.ActionFailed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action '{0}' failed.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Action '{0}' failed.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFilter.all" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All runs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[All runs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFilter.cancelled" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Canceled runs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Canceled runs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFilter.failed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed runs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed runs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFilter.running" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Running]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Running]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFilter.succeeded" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Succeeded runs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Succeeded runs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFlow.UIFlowRun.Link.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See run details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[See run details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunMode.Attended" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Attended]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Attended]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunMode.LocalAttended" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Local attended]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Local attended]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunMode.Unattended" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unattended]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unattended]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.Cancelled" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancelled]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancelled]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.Failed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.Running" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Running]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Running]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.Skipped" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Skipped]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Skipped]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.Succeeded" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Succeeded]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Succeeded]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.UiFlows.Waiting" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Queued]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Queued]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunStatus.Unknown" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unknown]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.MicrosoftPrivacyLink" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Privacy Statement]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Microsoft Privacy Statement]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.TermsOfUse.Link" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Terms of use]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Terms of use]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,950 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\common.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.Carousel.CircleButtonLabelFormat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Slide {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Slide {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name format for the carousel circle buttons.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Carousel.NextActionLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Next]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Next]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the next button for the carousel.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Carousel.Pause" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pause]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Pause]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the pause button for the carousel.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Carousel.Play" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Play]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Play]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the play button for the carousel.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Carousel.PlayPauseActionLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Play - Pause]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Play - Pause]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the play-pause button for the carousel.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Carousel.PreviousActionLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Previous]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Previous]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Name of the previous button for the carousel.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.All" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[All]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Back" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Back]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Back]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Cancel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancel]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Canceled" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Canceled]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Canceled]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.ClickToCopy" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Click to copy]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Click to copy]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.ClientRequestAborted" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Client request aborted. Please see https://aka.ms/powerAutomateClientRequestAborted for more details.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Client request aborted. Please see https://aka.ms/powerAutomateClientRequestAborted for more details.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Close" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Close]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Copied" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copied!]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Copied!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Create" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Creating" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Creating]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Creating]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Delete" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Delete]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Details" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Details]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Details]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Dismiss" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dismiss]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Dismiss]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.DismissMessage" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dismiss message]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Dismiss message]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Done" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Done]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Done]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Edit" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Edit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Errors" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Errors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Errors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.FailedToFetch" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to fetch. Please see https://aka.ms/powerautomate-failedtofetch for more details.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to fetch. Please see https://aka.ms/powerautomate-failedtofetch for more details.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.FieldRequired" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This field is required.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This field is required.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic warning for required input]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.FieldRequiredWithDisplayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} is required]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} is required]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the field which is required]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.GotIt" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Got it]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Got it]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Import" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Information" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Information]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Information]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.LearnMore" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Loading" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Loading]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.MaybeLater" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Maybe later]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Maybe later]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.MicrosoftFlow" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft Flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Microsoft Flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[DEPRECATED. Do not use.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.NetworkError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Network Error. Please see https://aka.ms/powerautomate-networkerror for more details.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Network Error. Please see https://aka.ms/powerautomate-networkerror for more details.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Next" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Next]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Next]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.NoSearchResults.Details" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check the spelling or try a different word]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Check the spelling or try a different word]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.NoSearchResults.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No search results found]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No search results found]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.NumbersOnly" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This field only accepts numeric values.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This field only accepts numeric values.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic warning for numbers only]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.Ok" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OK]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OK]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.PositiveNumbersOnly" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Only positive integers are allowed.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Only positive integers are allowed.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Generic warning for only positive numbers]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.Refresh" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Refresh]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Refresh]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Required" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Required]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Required]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.RowSelectionAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Row Selection]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Row Selection]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Save" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Save]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Saving" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Saving]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Saving]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.SeeMore" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[See more]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[See more]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Select" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.SelectAll" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select All]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select All]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.SomethingWentWrong" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong. Please refresh the page or try again after some time.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Something went wrong. Please refresh the page or try again after some time.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.SomethingWentWrongShort" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Something went wrong]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.SomethingWentWrongShortWithError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Something went wrong: {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Something went wrong: {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the original message in the error.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Common.Success" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Success]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Success]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Troubleshoot" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Troubleshoot]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Troubleshoot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Untitled" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Untitled]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Untitled]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Warning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Warning]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Warning]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Warnings" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Warnings]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Warnings]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Common.Working" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Working...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Working...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[General text used in place of a spinner when doing some work.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.DatePicker.Close" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close date picker]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Close date picker]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.DatePicker.NextMonth" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to next month]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Go to next month]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.DatePicker.NextYear" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to next year]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Go to next year]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.DatePicker.PreviousMonth" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to previous month]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Go to previous month]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.DatePicker.PreviousYear" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to previous year]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Go to previous year]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Datepicker.Go.To.Today" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Go to today]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Go to today]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Datepicker.Invalid.Input.Error.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid date format. Please enter date as YYYY-MM-DD.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid date format. Please enter date as YYYY-MM-DD.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Should be YYYY-MM-DD for all locales.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.CancelFlowRun.Button.CancelAction" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Keep working]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Keep working]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.CancelFlowRun.Button.ConfirmAction" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel run]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancel run]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.CancelFlowRun.ContentGA" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Canceling the flow run '{0}' will also cancel any desktop flow runs associated with it.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Canceling the flow run '{0}' will also cancel any desktop flow runs associated with it.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the flow to be canceled]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.CancelFlowRun.Header" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel flow run?]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancel flow run?]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Entity.ClearSearch" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear search]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Clear search]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Entity.Search" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Search]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.List.ShowMore" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show more]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Show more]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.ListCommands.More" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More actions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[More actions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Menu.Overflow.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More commands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[More commands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Menu.Overflow.Tooltip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More commands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[More commands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.Apply.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Apply changes and close panel]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Apply changes and close panel]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[text used by a screen reader on the button that applies the selection and closes the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.Apply.Narrator" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Filter applied]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Filter applied]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text announced by narrator when apply button had been clicked]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.Apply.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Apply]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Apply]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the button that applies the selection and closes the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.Cancel.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel changes and close panel]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancel changes and close panel]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text used by a screen reader on the button that discards the selection and closes the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.Cancel.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cancel]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cancel]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the button that discards the selection and closes the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.ClearAll.Narrator" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All cleared]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[All cleared]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text announced by narrator when the clear all button had been clicked]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.ClearAll.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clear all]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Clear all]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the button that deselects every values in the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.Header" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} ({1})]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} ({1})]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the property, {1} is the number of values selected]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SearchBox.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Search {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the correponding filtered property (ie. Status, run mode, start time, ...)]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SearchBox.NoResultFormat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No result found for {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No result found for {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the text in the search field]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SearchBox.Placeholder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Search]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed as the placeholder of a search bar, used to filter the values in the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SearchBox.ResultFormat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Found a result for {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Found a result for {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the text in the search field]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SearchBox.ResultsFormat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Found {0} results for {1}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Found {0} results for {1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the number of results (n>1), {1} is the text in the search field]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SelectAll.Narrator" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[All selected]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[All selected]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text announced by narrator when the select all button had been clicked]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SelectionPanel.SelectAll.Text" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select all]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select all]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Text displayed on the button that selects every values in the panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.TrialDialog.AdminBlockedTrial.Content" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please contact your admin to see if they can unblock you.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please contact your admin to see if they can unblock you.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.TrialDialog.AdminBlockedTrial.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trials are blocked by your org's admin]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Trials are blocked by your org's admin]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Unknown.StartTime" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown start time]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unknown start time]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UserConsent.TermsAndConditions.Link" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[terms and conditions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[terms and conditions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+    </Item>
+  </Item>
+</LCX>

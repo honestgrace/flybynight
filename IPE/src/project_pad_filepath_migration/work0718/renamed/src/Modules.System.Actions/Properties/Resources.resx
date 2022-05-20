@@ -1,0 +1,1570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ControlScreenSaver_Description" xml:space="preserve">
+    <value>Enables, disables, starts or stops the screensaver</value>
+  </data>
+  <data name="ControlScreenSaver_FriendlyName" xml:space="preserve">
+    <value>Control screen saver</value>
+  </data>
+  <data name="ControlScreenSaver_ScreenSaverAction_Description" xml:space="preserve">
+    <value>The function of the screensaver</value>
+  </data>
+  <data name="ControlScreenSaver_ScreenSaverAction_FriendlyName" xml:space="preserve">
+    <value>Screen saver action</value>
+  </data>
+  <data name="ControlScreenSaver_Summary" xml:space="preserve">
+    <value>&lt;SCREENSAVERACTION&gt; the screen saver</value>
+    <comment>{Locked="&lt;SCREENSAVERACTION&gt;"}</comment>
+  </data>
+  <data name="DeleteEnvironmentVariable_Description" xml:space="preserve">
+    <value>Deletes an environment variable from a given scope</value>
+  </data>
+  <data name="DeleteEnvironmentVariable_FriendlyName" xml:space="preserve">
+    <value>Delete Windows environment variable</value>
+	<comment>{Locked="Windows"}</comment>
+  </data>
+  <data name="DeleteEnvironmentVariable_Name_Description" xml:space="preserve">
+    <value>The name of the environment variable to delete</value>
+  </data>
+  <data name="DeleteEnvironmentVariable_Name_FriendlyName" xml:space="preserve">
+    <value>Environment variable name</value>
+  </data>
+  <data name="DeleteEnvironmentVariable_Summary" xml:space="preserve">
+    <value>Delete environment variable &lt;NAME&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}</comment>
+  </data>
+  <data name="DeleteEnvironmentVariable_Type_Description" xml:space="preserve">
+    <value>The type of the environment variable to delete</value>
+  </data>
+  <data name="DeleteEnvironmentVariable_Type_FriendlyName" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="DesktopOperation_Hide_FriendlyName" xml:space="preserve">
+    <value>Restore all windows (undo show desktop)</value>
+  </data>
+  <data name="DesktopOperation_Show_FriendlyName" xml:space="preserve">
+    <value>Minimize all windows (show desktop)</value>
+  </data>
+  <data name="EmptyRecycleBin_Description" xml:space="preserve">
+    <value>Deletes all files from the windows recycle bin</value>
+  </data>
+  <data name="EmptyRecycleBin_FriendlyName" xml:space="preserve">
+    <value>Empty recycle bin</value>
+  </data>
+  <data name="EmptyRecycleBin_Summary" xml:space="preserve">
+    <value>Delete all files from the windows recycle bin</value>
+  </data>
+  <data name="EnvironmentVariableType_System_FriendlyName" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="EnvironmentVariableType_User_FriendlyName" xml:space="preserve">
+    <value>User</value>
+  </data>
+  <data name="Error_DeleteEnvironmentVariableError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting an environment variable</value>
+  </data>
+  <data name="Error_DeleteEnvironmentVariableError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete environment variable</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the directory was not found</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="Error_DocumentAccessDeniedError_Description" xml:space="preserve">
+    <value>Indicates that access was denied for the provided document</value>
+  </data>
+  <data name="Error_DocumentAccessDeniedError_FriendlyName" xml:space="preserve">
+    <value>Access denied for document</value>
+  </data>
+  <data name="Error_DocumentNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified document was not found</value>
+  </data>
+  <data name="Error_DocumentNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Document not found</value>
+  </data>
+  <data name="Error_EnvironmentVariableNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified environment variable doesn't exist</value>
+  </data>
+  <data name="Error_EnvironmentVariableNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Environment variable doesn't exist</value>
+  </data>
+  <data name="Error_ExecuteApplicationOrOpenFileError_Description" xml:space="preserve">
+    <value>Indicates a problem executing the specified application or opening the specified file</value>
+  </data>
+  <data name="Error_ExecuteApplicationOrOpenFileError_FriendlyName" xml:space="preserve">
+    <value>Can't execute application or open file</value>
+  </data>
+  <data name="Error_ExecuteCommandOrConsoleApplicationError_Description" xml:space="preserve">
+    <value>Indicates a problem executing the specified command or console application</value>
+  </data>
+  <data name="Error_ExecuteCommandOrConsoleApplicationError_FriendlyName" xml:space="preserve">
+    <value>Can't execute command or console application</value>
+  </data>
+  <data name="Error_FileOrApplicationAccessDeniedError_Description" xml:space="preserve">
+    <value>Indicates that access was denied for the specified application or file</value>
+  </data>
+  <data name="Error_FileOrApplicationAccessDeniedError_FriendlyName" xml:space="preserve">
+    <value>Access denied for application or File</value>
+  </data>
+  <data name="Error_FileOrApplicationNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified file or application was not found</value>
+  </data>
+  <data name="Error_FileOrApplicationNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File or application not found</value>
+  </data>
+  <data name="Error_GetDefaultPrinterError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the default printer</value>
+  </data>
+  <data name="Error_GetDefaultPrinterError_FriendlyName" xml:space="preserve">
+    <value>Can't get default printer</value>
+  </data>
+  <data name="Error_GetScreenError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the specified screen</value>
+  </data>
+  <data name="Error_GetScreenError_FriendlyName" xml:space="preserve">
+    <value>Failed to get specified screen</value>
+  </data>
+  <data name="Error_GetScreenResolutionError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the screen's resolution</value>
+  </data>
+  <data name="Error_GetScreenResolutionError_FriendlyName" xml:space="preserve">
+    <value>Failed to get the screen's resolution</value>
+  </data>
+  <data name="Error_InsufficientPermissionsError_Description" xml:space="preserve">
+    <value>Indicates that the user has insufficient permissions to perform this action</value>
+  </data>
+  <data name="Error_InsufficientPermissionsError_FriendlyName" xml:space="preserve">
+    <value>Insufficient permissions</value>
+  </data>
+  <data name="Error_InvalidProcessIdError_Description" xml:space="preserve">
+    <value>Indicates that a process with the specified ID isn't running</value>
+  </data>
+  <data name="Error_InvalidProcessIdError_FriendlyName" xml:space="preserve">
+    <value>Process with specified ID not running</value>
+  </data>
+  <data name="Error_InvalidSoundFileError_Description" xml:space="preserve">
+    <value>Indicates an invalid sound file</value>
+  </data>
+  <data name="Error_InvalidSoundFileError_FriendlyName" xml:space="preserve">
+    <value>Invalid sound file</value>
+  </data>
+  <data name="Error_LockWorkstationError_Description" xml:space="preserve">
+    <value>Indicates a problem locking the computer in non-interactive mode</value>
+  </data>
+  <data name="Error_LockWorkstationError_FriendlyName" xml:space="preserve">
+    <value>Can't lock the computer</value>
+  </data>
+  <data name="Error_LockWorkstationInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem locking the computer in non interactive mode</value>
+  </data>
+  <data name="Error_LockWorkstationInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't lock the computer in non interactive mode</value>
+  </data>
+  <data name="Error_LogOffUserError_Description" xml:space="preserve">
+    <value>Indicates a problem logging off the current user</value>
+  </data>
+  <data name="Error_LogOffUserError_FriendlyName" xml:space="preserve">
+    <value>Can't log off the current user</value>
+  </data>
+  <data name="Error_LogOffUserInNonInteractiveModeError_Description" xml:space="preserve">
+    <value>Indicates a problem logging off the user in non-interactive mode</value>
+  </data>
+  <data name="Error_LogOffUserInNonInteractiveModeError_FriendlyName" xml:space="preserve">
+    <value>Can't log off user in non interactive mode</value>
+  </data>
+  <data name="Error_PingError_Description" xml:space="preserve">
+    <value>Indicates a problem completing the ping action</value>
+  </data>
+  <data name="Error_PingError_FriendlyName" xml:space="preserve">
+    <value>Can't complete ping action</value>
+  </data>
+  <data name="Error_PrintDocumentError_Description" xml:space="preserve">
+    <value>Indicates a problem printing the specified document</value>
+  </data>
+  <data name="Error_PrintDocumentError_FriendlyName" xml:space="preserve">
+    <value>Can't print document</value>
+  </data>
+  <data name="Error_RetrieveProcessesError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the list of processes</value>
+  </data>
+  <data name="Error_RetrieveProcessesError_FriendlyName" xml:space="preserve">
+    <value>Can't retrieve list of processes</value>
+  </data>
+  <data name="Error_RetrieveWindowHandleError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the application's main window handle</value>
+  </data>
+  <data name="Error_RetrieveWindowHandleError_FriendlyName" xml:space="preserve">
+    <value>Can't retrieve application's main window handle</value>
+  </data>
+  <data name="Error_RunPowershellScriptError_Description" xml:space="preserve">
+    <value>Indicates a problem running the provided PowerShell script</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="Error_RunPowershellScriptError_FriendlyName" xml:space="preserve">
+    <value>Failed to run PowerShell script</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="Error_RunPythonScriptError_Description" xml:space="preserve">
+    <value>Indicates a problem running the provided Python script</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="Error_RunPythonScriptError_FriendlyName" xml:space="preserve">
+    <value>Failed to run Python script</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="Error_SaveScreenshotToClipboardError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the screenshot to the clipboard</value>
+  </data>
+  <data name="Error_SaveScreenshotToClipboardError_FriendlyName" xml:space="preserve">
+    <value>Failed to set screenshot to clipboard</value>
+  </data>
+  <data name="Error_SaveScreenshotToFileError_Description" xml:space="preserve">
+    <value>Indicates a problem saving the screenshot to a file</value>
+  </data>
+  <data name="Error_SaveScreenshotToFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to save screenshot to file</value>
+  </data>
+  <data name="Error_SetDefaultPrinterError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the default printer</value>
+  </data>
+  <data name="Error_SetDefaultPrinterError_FriendlyName" xml:space="preserve">
+    <value>Can't set default printer</value>
+  </data>
+  <data name="Error_SetEnvironmentVariableError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the environment variable's value</value>
+  </data>
+  <data name="Error_SetEnvironmentVariableError_FriendlyName" xml:space="preserve">
+    <value>Indicates a problem setting the environment variable's value</value>
+  </data>
+  <data name="Error_SetScreenResolutionError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the screen's resolution</value>
+  </data>
+  <data name="Error_SetScreenResolutionError_FriendlyName" xml:space="preserve">
+    <value>Failed to set the screen's resolution</value>
+  </data>
+  <data name="Error_ShutdownComputerError_Description" xml:space="preserve">
+    <value>Indicates a problem shutting down the computer</value>
+  </data>
+  <data name="Error_ShutdownComputerError_FriendlyName" xml:space="preserve">
+    <value>Can't shut down the computer</value>
+  </data>
+  <data name="Error_SoundFileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the sound file could not be found</value>
+  </data>
+  <data name="Error_SoundFileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Can't find sound file</value>
+  </data>
+  <data name="Error_TakeScreenshotError_Description" xml:space="preserve">
+    <value>Indicates a problem taking the screenshot</value>
+  </data>
+  <data name="Error_TakeScreenshotError_FriendlyName" xml:space="preserve">
+    <value>Failed to take screenshot</value>
+  </data>
+  <data name="Error_TerminateProcessError_Description" xml:space="preserve">
+    <value>Indicates a problem terminating the process</value>
+  </data>
+  <data name="Error_TerminateProcessError_FriendlyName" xml:space="preserve">
+    <value>Failed to terminate process</value>
+  </data>
+  <data name="GetDefaultPrinter_Description" xml:space="preserve">
+    <value>Gets the name of the default printer</value>
+  </data>
+  <data name="GetDefaultPrinter_FriendlyName" xml:space="preserve">
+    <value>Get default printer</value>
+  </data>
+  <data name="GetDefaultPrinter_PrinterName_Description" xml:space="preserve">
+    <value>The name of the default printer</value>
+  </data>
+  <data name="GetDefaultPrinter_PrinterName_FriendlyName" xml:space="preserve">
+    <value>Default printer name</value>
+  </data>
+  <data name="GetDefaultPrinter_Summary" xml:space="preserve">
+    <value>&lt;if(DEFAULTPRINTERNAME)&gt;Get the default printer name and store its name into &lt;DEFAULTPRINTERNAME&gt;&lt;else&gt;
+Get the default printer name&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(DEFAULTPRINTERNAME)&gt;"}{Locked="&lt;DEFAULTPRINTERNAME&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="GetEnvironmentVariable_Description" xml:space="preserve">
+    <value>Retrieves the value of an environment variable</value>
+  </data>
+  <data name="GetEnvironmentVariable_FriendlyName" xml:space="preserve">
+    <value>Get Windows environment variable</value>
+    <comment>{Locked="Windows"}</comment>
+  </data>
+  <data name="GetEnvironmentVariable_Name_Description" xml:space="preserve">
+    <value>The name of the environment variable whose value will be retrieved</value>
+  </data>
+  <data name="GetEnvironmentVariable_Name_FriendlyName" xml:space="preserve">
+    <value>Environment variable name</value>
+  </data>
+  <data name="GetEnvironmentVariable_Scope_Description" xml:space="preserve">
+    <value>The scope from which the environment variable should be retrieved</value>
+  </data>
+  <data name="GetEnvironmentVariable_Scope_FriendlyName" xml:space="preserve">
+    <value>Scope</value>
+  </data>
+  <data name="GetEnvironmentVariable_SearchOnlyInScope_Description" xml:space="preserve">
+    <value>Specify whether to search for the variable only in a specific scope</value>
+  </data>
+  <data name="GetEnvironmentVariable_SearchOnlyInScope_FriendlyName" xml:space="preserve">
+    <value>Search for variable only in scope</value>
+  </data>
+  <data name="GetEnvironmentVariable_Summary" xml:space="preserve">
+    <value>&lt;if(VALUE)&gt;Retrieve the value of environment variable &lt;NAME&gt; and store it into &lt;VALUE&gt;&lt;else&gt;
+Retrieve the value of environment variable &lt;NAME&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;if(VALUE)&gt;"}{Locked="&lt;VALUE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="GetEnvironmentVariable_Value_Description" xml:space="preserve">
+    <value>The environment variable's value</value>
+  </data>
+  <data name="GetEnvironmentVariable_Value_FriendlyName" xml:space="preserve">
+    <value>Environment variable value</value>
+  </data>
+  <data name="GetEnvironmentVariableFromScope_Description" xml:space="preserve">
+    <value>Retrieves the value of an environment variable from the specified scope</value>
+  </data>
+  <data name="GetEnvironmentVariableFromScope_Summary" xml:space="preserve">
+    <value>&lt;if(VALUE)&gt;Retrieve the value of environment variable &lt;NAME&gt; and store it into &lt;VALUE&gt;&lt;else&gt;
+Retrieve the value of environment variable &lt;NAME&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;if(VALUE)&gt;"}{Locked="&lt;VALUE&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="GetScreenResolution_Description" xml:space="preserve">
+    <value>Gets the width, height, bit count and frequency of a selected monitor</value>
+  </data>
+  <data name="GetScreenResolution_FriendlyName" xml:space="preserve">
+    <value>Get screen resolution</value>
+  </data>
+  <data name="GetScreenResolution_MonitorBitCount_Description" xml:space="preserve">
+    <value>The monitor bit count</value>
+  </data>
+  <data name="GetScreenResolution_MonitorBitCount_FriendlyName" xml:space="preserve">
+    <value>Monitor bit count</value>
+  </data>
+  <data name="GetScreenResolution_MonitorFrequency_Description" xml:space="preserve">
+    <value>The monitor frequency</value>
+  </data>
+  <data name="GetScreenResolution_MonitorFrequency_FriendlyName" xml:space="preserve">
+    <value>Monitor frequency</value>
+  </data>
+  <data name="GetScreenResolution_MonitorHeight_Description" xml:space="preserve">
+    <value>The height of the monitor</value>
+  </data>
+  <data name="GetScreenResolution_MonitorHeight_FriendlyName" xml:space="preserve">
+    <value>Monitor height</value>
+  </data>
+  <data name="GetScreenResolution_MonitorNumber_Description" xml:space="preserve">
+    <value>The number of the monitor to get the resolution of</value>
+  </data>
+  <data name="GetScreenResolution_MonitorNumber_FriendlyName" xml:space="preserve">
+    <value>Monitor number</value>
+  </data>
+  <data name="GetScreenResolution_MonitorWidth_Description" xml:space="preserve">
+    <value>The width of the monitor</value>
+  </data>
+  <data name="GetScreenResolution_MonitorWidth_FriendlyName" xml:space="preserve">
+    <value>Monitor width</value>
+  </data>
+  <data name="GetScreenResolution_Summary" xml:space="preserve">
+    <value>&lt;if(MONITORWIDTH&amp;&amp;MONITORHEIGHT&amp;&amp;MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; the height into &lt;MONITORHEIGHT&gt; the bit count into &lt;MONITORBITCOUNT&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORWIDTH&amp;&amp;MONITORHEIGHT&amp;&amp;MONITORBITCOUNT)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; the height into &lt;MONITORHEIGHT&gt; and the bit count into &lt;MONITORBITCOUNT&gt;&lt;elseif(MONITORHEIGHT&amp;&amp;MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the height into &lt;MONITORHEIGHT&gt; the the bit count into &lt;MONITORBITCOUNT&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORWIDTH&amp;&amp;MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; the bit count into &lt;MONITORBITCOUNT&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORWIDTH&amp;&amp;MONITORHEIGHT&amp;&amp;MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; the height into &lt;MONITORHEIGHT&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the bit count into &lt;MONITORBITCOUNT&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORHEIGHT&amp;&amp;MONITORBITCOUNT)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the height into &lt;MONITORHEIGHT&gt; and the bit count into &lt;MONITORBITCOUNT&gt;&lt;elseif(MONITORWIDTH&amp;&amp;MONITORBITCOUNT)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; and the bit count into &lt;MONITORBITCOUNT&gt;&lt;elseif(MONITORWIDTH&amp;&amp;MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORHEIGHT&amp;&amp;MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the height into &lt;MONITORHEIGHT&gt; and the frequency into &lt;MONITORFREQUENCY&gt;&lt;elseif(MONITORWIDTH&amp;&amp;MONITORHEIGHT)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt; and the height into &lt;MONITORHEIGHT&gt;&lt;elseif(MONITORWIDTH)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the width into &lt;MONITORWIDTH&gt;&lt;elseif(MONITORHEIGHT)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the height into &lt;MONITORHEIGHT&gt;&lt;elseif(MONITORBITCOUNT)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the bit count into &lt;MONITORBITCOUNT&gt;&lt;elseif(MONITORFREQUENCY)&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt; and store the frequency into &lt;MONITORFREQUENCY&gt;&lt;else&gt;
+Get the screen resolution of monitor &lt;MONITORNUMBER&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MONITORNUMBER&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(MONITORWIDTH)&gt;"}{Locked="&lt;MONITORWIDTH&gt;"}{Locked="&lt;MONITORHEIGHT&gt;"}{Locked="&lt;MONITORBITCOUNT&gt;"}{Locked="&lt;MONITORFREQUENCY&gt;"}{Locked="&lt;elseif(MONITORWIDTH&amp;&amp;MONITORHEIGHT)&gt;"}{Locked="&lt;elseif(MONITORWIDTH&amp;&amp;MONITORHEIGHT&amp;&amp;MONITORBITCOUNT)&gt;"}{Locked="&lt;if(MONITORWIDTH&amp;&amp;MONITORHEIGHT&amp;&amp;MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORHEIGHT)&gt;"}{Locked="&lt;elseif(MONITORHEIGHT&amp;&amp;MONITORBITCOUNT)&gt;"}{Locked="&lt;elseif(MONITORHEIGHT&amp;&amp;MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORBITCOUNT)&gt;}{Locked="&lt;elseif(MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORWIDTH&amp;&amp;MONITORBITCOUNT)&gt;"}{Locked="&lt;elseif(MONITORWIDTH&amp;&amp;MONITORBITCOUNT&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORWIDTH&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORWIDTH&amp;&amp;MONITORHEIGHT&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;elseif(MONITORHEIGHT&amp;&amp;MONITORFREQUENCY)&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="IfProcess_IsNotRunning_FriendlyName" xml:space="preserve">
+    <value>Isn't running</value>
+  </data>
+  <data name="IfProcess_IsRunning_FriendlyName" xml:space="preserve">
+    <value>Is running</value>
+  </data>
+  <data name="IfProcessAction_CheckMode_Description" xml:space="preserve">
+    <value>State of the process to check</value>
+  </data>
+  <data name="IfProcessAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>If process</value>
+  </data>
+  <data name="ImageFormat_Bmp_FriendlyName" xml:space="preserve">
+    <value>BMP</value>
+  </data>
+  <data name="ImageFormat_Emf_FriendlyName" xml:space="preserve">
+    <value>EMF</value>
+  </data>
+  <data name="ImageFormat_Exif_FriendlyName" xml:space="preserve">
+    <value>EXIF</value>
+  </data>
+  <data name="ImageFormat_Gif_FriendlyName" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="ImageFormat_Jpg_FriendlyName" xml:space="preserve">
+    <value>JPG</value>
+  </data>
+  <data name="ImageFormat_Png_FriendlyName" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="ImageFormat_Tiff_FriendlyName" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="ImageFormat_Wmf_FriendlyName" xml:space="preserve">
+    <value>WMF</value>
+  </data>
+  <data name="LockWorkstation_Description" xml:space="preserve">
+    <value>Locks the workstation's display to protect it from unauthorized use</value>
+  </data>
+  <data name="LockWorkstation_FriendlyName" xml:space="preserve">
+    <value>Lock workstation</value>
+  </data>
+  <data name="LockWorkstation_Summary" xml:space="preserve">
+    <value>Lock the workstation</value>
+  </data>
+  <data name="LogOffUser_Description" xml:space="preserve">
+    <value>Logs off the current user</value>
+  </data>
+  <data name="LogOffUser_Force_Description" xml:space="preserve">
+    <value>Specify whether to force the user account to log off, regardless of unsaved files or programs that won't close</value>
+  </data>
+  <data name="LogOffUser_Force_FriendlyName" xml:space="preserve">
+    <value>Force log off</value>
+  </data>
+  <data name="LogOffUser_FriendlyName" xml:space="preserve">
+    <value>Log off user</value>
+  </data>
+  <data name="LogOffUser_Summary" xml:space="preserve">
+    <value>&lt;if(FORCE)&gt;Log off the current user (Forced)&lt;else&gt;
+Log off the current user&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(FORCE)&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="Ping_Description" xml:space="preserve">
+    <value>Sends a message to determine whether a remote computer is accessible over the network</value>
+  </data>
+  <data name="Ping_FriendlyName" xml:space="preserve">
+    <value>Ping</value>
+  </data>
+  <data name="Ping_HostName_Description" xml:space="preserve">
+    <value>The name of the remote computer or an IP address</value>
+  </data>
+  <data name="Ping_HostName_FriendlyName" xml:space="preserve">
+    <value>Host name</value>
+  </data>
+  <data name="Ping_PingResult_Description" xml:space="preserve">
+    <value>The status of the ping message (success or failure)</value>
+  </data>
+  <data name="Ping_PingResult_FriendlyName" xml:space="preserve">
+    <value>Ping result</value>
+  </data>
+  <data name="Ping_RoundTripTime_Description" xml:space="preserve">
+    <value>The number of milliseconds taken for the Ping to complete</value>
+  </data>
+  <data name="Ping_RoundTripTime_FriendlyName" xml:space="preserve">
+    <value>Round trip time</value>
+  </data>
+  <data name="Ping_Summary" xml:space="preserve">
+    <value>&lt;if(PINGRESULT)&gt;Ping host &lt;HOSTNAME&gt; and get the result into &lt;PINGRESULT&gt;&lt;else&gt;
+Ping host &lt;HOSTNAME&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;HOSTNAME&gt;"}{Locked="&lt;if(PINGRESULT)&gt;"}{Locked="&lt;PINGRESULT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="Ping_Timeout_Description" xml:space="preserve">
+    <value>The maximum number of milliseconds to wait for the Ping reply message</value>
+  </data>
+  <data name="Ping_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="PlaySound_Description" xml:space="preserve">
+    <value>Plays a sound from a WAV file</value>
+  </data>
+  <data name="PlaySound_Summary" xml:space="preserve">
+    <value>Play sound &lt;WAVFILE&gt;</value>
+    <comment>{Locked="&lt;WAVFILE&gt;"}</comment>
+  </data>
+  <data name="PlaySoundBase_Description" xml:space="preserve">
+    <value>Plays a system sound or a wav file</value>
+  </data>
+  <data name="PlaySoundBase_FriendlyName" xml:space="preserve">
+    <value>Play sound</value>
+  </data>
+  <data name="PlaySoundBase_PlaySoundFrom_Description" xml:space="preserve">
+    <value>The type of sound to play</value>
+  </data>
+  <data name="PlaySoundBase_PlaySoundFrom_FriendlyName" xml:space="preserve">
+    <value>Play sound from</value>
+  </data>
+  <data name="PlaySoundBase_SystemSound_Description" xml:space="preserve">
+    <value>The specific sound to play</value>
+  </data>
+  <data name="PlaySoundBase_SystemSound_FriendlyName" xml:space="preserve">
+    <value>Sound to play</value>
+  </data>
+  <data name="PlaySoundBase_WavFile_Description" xml:space="preserve">
+    <value>The full path of the specific WAV file to play</value>
+  </data>
+  <data name="PlaySoundBase_WavFile_FriendlyName" xml:space="preserve">
+    <value>File to play</value>
+  </data>
+  <data name="PlaySoundFrom_File_FriendlyName" xml:space="preserve">
+    <value>WAV file</value>
+  </data>
+  <data name="PlaySoundFrom_System_FriendlyName" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="PlaySystemSound_Description" xml:space="preserve">
+    <value>Plays a system sound</value>
+  </data>
+  <data name="PlaySystemSound_Summary" xml:space="preserve">
+    <value>Play sound &lt;SYSTEMSOUND&gt;</value>
+    <comment>{Locked="&lt;SYSTEMSOUND&gt;"}</comment>
+  </data>
+  <data name="PrintDocument_Description" xml:space="preserve">
+    <value>Prints a document on the default printer</value>
+  </data>
+  <data name="PrintDocument_DocumentPath_Description" xml:space="preserve">
+    <value>The path of the document to print</value>
+  </data>
+  <data name="PrintDocument_DocumentPath_FriendlyName" xml:space="preserve">
+    <value>Document to print</value>
+  </data>
+  <data name="PrintDocument_FriendlyName" xml:space="preserve">
+    <value>Print document</value>
+  </data>
+  <data name="PrintDocument_Summary" xml:space="preserve">
+    <value>Print document &lt;DOCUMENTPATH&gt;</value>
+    <comment>{Locked="&lt;DOCUMENTPATH&gt;"}</comment>
+  </data>
+  <data name="ProcessIsNotRunning_Description" xml:space="preserve">
+    <value>Check if a process isn't running</value>
+  </data>
+  <data name="ProcessIsRunning_Description" xml:space="preserve">
+    <value>Check if a process is running</value>
+  </data>
+  <data name="ProcessToStart_Description" xml:space="preserve">
+    <value>Check if a process has started</value>
+  </data>
+  <data name="ProcessToStop_Description" xml:space="preserve">
+    <value>Check if a process has stopped</value>
+  </data>
+  <data name="ProcessWindowStyle_Hidden_FriendlyName" xml:space="preserve">
+    <value>Hidden</value>
+  </data>
+  <data name="ProcessWindowStyle_Maximized_FriendlyName" xml:space="preserve">
+    <value>Maximized</value>
+  </data>
+  <data name="ProcessWindowStyle_Minimized_FriendlyName" xml:space="preserve">
+    <value>Minimized</value>
+  </data>
+  <data name="ProcessWindowStyle_Normal_FriendlyName" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="RunApplication_Description" xml:space="preserve">
+    <value>Executes an application or opens a document by executing the associated application</value>
+  </data>
+  <data name="RunApplication_Summary" xml:space="preserve">
+    <value>&lt;if(COMMANDLINEARGUMENTS)&gt;Run application &lt;APPLICATIONPATH&gt; with arguments &lt;COMMANDLINEARGUMENTS&gt;&lt;else&gt;
+Run application &lt;APPLICATIONPATH&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;APPLICATIONPATH&gt;"}{Locked="&lt;if(COMMANDLINEARGUMENTS)&gt;"}{Locked="&lt;COMMANDLINEARGUMENTS&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="RunApplicationAndWaitToComplete_Description" xml:space="preserve">
+    <value>Executes an application or opens a document by executing the associated application and waits for it to complete</value>
+  </data>
+  <data name="RunApplicationAndWaitToComplete_Summary" xml:space="preserve">
+    <value>&lt;if(COMMANDLINEARGUMENTS)&gt;Run application &lt;APPLICATIONPATH&gt; with arguments &lt;COMMANDLINEARGUMENTS&gt; and wait for it to complete&lt;else&gt;
+Run application &lt;APPLICATIONPATH&gt; and wait for it to complete &lt;endif&gt;</value>
+    <comment>{Locked="&lt;APPLICATIONPATH&gt;"}{Locked="&lt;if(COMMANDLINEARGUMENTS)&gt;"}{Locked="&lt;COMMANDLINEARGUMENTS&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="RunApplicationAndWaitToLoad_Description" xml:space="preserve">
+    <value>Executes an application or opens a document by executing the associated application and waits for it to load</value>
+  </data>
+  <data name="RunApplicationAndWaitToLoad_Summary" xml:space="preserve">
+    <value>&lt;if(COMMANDLINEARGUMENTS)&gt;Run application &lt;APPLICATIONPATH&gt; with arguments &lt;COMMANDLINEARGUMENTS&gt; and wait for it to load&lt;else&gt;
+Run application &lt;APPLICATIONPATH&gt; and wait for it to load &lt;endif&gt;</value>
+    <comment>{Locked="&lt;APPLICATIONPATH&gt;"}{Locked="&lt;if(COMMANDLINEARGUMENTS)&gt;"}{Locked="&lt;COMMANDLINEARGUMENTS&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="RunApplicationBase_ApplicationPath_Description" xml:space="preserve">
+    <value>The executable file as a complete file path</value>
+  </data>
+  <data name="RunApplicationBase_ApplicationPath_FriendlyName" xml:space="preserve">
+    <value>Application path</value>
+  </data>
+  <data name="RunApplicationBase_CommandLineArguments_Description" xml:space="preserve">
+    <value>Add extra arguments that would go after the executable file name. For example, enter notepad.exe in the application path and a specific text file in the command line arguments</value>
+  </data>
+  <data name="RunApplicationBase_CommandLineArguments_FriendlyName" xml:space="preserve">
+    <value>Command line arguments</value>
+  </data>
+  <data name="RunApplicationBase_Description" xml:space="preserve">
+    <value>Executes an application or opens a document by executing the associated application</value>
+  </data>
+  <data name="RunApplicationBase_ExitCode_Description" xml:space="preserve">
+    <value>The application exit code</value>
+  </data>
+  <data name="RunApplicationBase_ExitCode_FriendlyName" xml:space="preserve">
+    <value>Exit code</value>
+  </data>
+  <data name="RunApplicationBase_FriendlyName" xml:space="preserve">
+    <value>Run application</value>
+  </data>
+  <data name="RunApplicationBase_ProcessId_Description" xml:space="preserve">
+    <value>The process ID output</value>
+  </data>
+  <data name="RunApplicationBase_ProcessId_FriendlyName" xml:space="preserve">
+    <value>Process ID</value>
+  </data>
+  <data name="RunApplicationBase_Timeout_Description" xml:space="preserve">
+    <value>The maximum wait time, and how long before forcing a continue</value>
+  </data>
+  <data name="RunApplicationBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="RunApplicationBase_WaitApplication_Description" xml:space="preserve">
+    <value>Whether the next action execute immediately, or wait until the program loads or completes</value>
+  </data>
+  <data name="RunApplicationBase_WaitApplication_FriendlyName" xml:space="preserve">
+    <value>After application launch</value>
+  </data>
+  <data name="RunApplicationBase_WindowHandle_Description" xml:space="preserve">
+    <value>The window handle. When opening a new window, this will catch the value of the window handle, and store it in this variable. A window handle is useful to specifically identify a window in a later action</value>
+  </data>
+  <data name="RunApplicationBase_WindowHandle_FriendlyName" xml:space="preserve">
+    <value>Window handle</value>
+  </data>
+  <data name="RunApplicationBase_WindowStyle_Description" xml:space="preserve">
+    <value>Choose the appearance and size of the application window when it opens</value>
+  </data>
+  <data name="RunApplicationBase_WindowStyle_FriendlyName" xml:space="preserve">
+    <value>Window style</value>
+  </data>
+  <data name="RunApplicationBase_WorkingDirectory_Description" xml:space="preserve">
+    <value>The full path of the folder to work out of, if applicable.</value>
+  </data>
+  <data name="RunApplicationBase_WorkingDirectory_FriendlyName" xml:space="preserve">
+    <value>Working folder</value>
+  </data>
+  <data name="RunDOSCommand_Description" xml:space="preserve">
+    <value>Runs a DOS command or console application in invisible mode and retrieves its output upon completion</value>
+  </data>
+  <data name="RunDosCommandAction_DOSCommandOrApplication_Description" xml:space="preserve">
+    <value>The name of DOS command or a console application, with arguments if applicable</value>
+  </data>
+  <data name="RunDosCommandAction_DOSCommandOrApplication_FriendlyName" xml:space="preserve">
+    <value>DOS command or application</value>
+  </data>
+  <data name="RunDosCommandAction_ExitCode_Description" xml:space="preserve">
+    <value>The command or application exit code. This will be a numeric value</value>
+  </data>
+  <data name="RunDosCommandAction_ExitCode_FriendlyName" xml:space="preserve">
+    <value>Exit code</value>
+  </data>
+  <data name="RunDosCommandAction_FriendlyName" xml:space="preserve">
+    <value>Run DOS command</value>
+  </data>
+  <data name="RunDosCommandAction_StandardError_Description" xml:space="preserve">
+    <value>The text describing the errors occurred (if any) during the execution of the DOS command or application</value>
+  </data>
+  <data name="RunDosCommandAction_StandardError_FriendlyName" xml:space="preserve">
+    <value>Standard error</value>
+  </data>
+  <data name="RunDosCommandAction_StandardOutput_Description" xml:space="preserve">
+    <value>The text output from the DOS command or application</value>
+  </data>
+  <data name="RunDosCommandAction_StandardOutput_FriendlyName" xml:space="preserve">
+    <value>Standard output</value>
+  </data>
+  <data name="RunDOSCommand_Summary" xml:space="preserve">
+    <value>&lt;if(STANDARDOUTPUT)&gt;Run DOS command or console application and store its output into &lt;STANDARDOUTPUT&gt;&lt;else&gt;
+Run DOS command or console application&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(STANDARDOUTPUT)&gt;"}{Locked="&lt;STANDARDOUTPUT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="RunDosCommandAction_WorkingDirectory_Description" xml:space="preserve">
+    <value>The full path of the folder to work out of, if applicable</value>
+  </data>
+  <data name="RunDosCommandAction_WorkingDirectory_FriendlyName" xml:space="preserve">
+    <value>Working folder</value>
+  </data>
+  <data name="RunJavascript_Description" xml:space="preserve">
+    <value>Executes some custom JavaScript code and retrieves its output into a variable</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="RunJavascript_FriendlyName" xml:space="preserve">
+    <value>Run JavaScript</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="RunJavascript_JavascriptCode_Description" xml:space="preserve">
+    <value>The JavaScript code to execute. Variables may be included within the script since they will be evaluated prior to the JavaScript code's execution</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="RunJavascript_JavascriptCode_FriendlyName" xml:space="preserve">
+    <value>JavaScript to run</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="RunJavascript_ScriptError_Description" xml:space="preserve">
+    <value>The errors that may occur during the execution of the JavaScript code</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="RunJavascript_ScriptError_FriendlyName" xml:space="preserve">
+    <value>Error output</value>
+  </data>
+  <data name="RunJavascript_ScriptOutput_Description" xml:space="preserve">
+    <value>The script's output</value>
+  </data>
+  <data name="RunJavascript_ScriptOutput_FriendlyName" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="RunJavascript_Summary" xml:space="preserve">
+    <value>&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;Run JavaScript and store its output into &lt;SCRIPTOUTPUT&gt; and its error into &lt;SCRIPTERROR&gt;&lt;elseif(SCRIPTOUTPUT)&gt;
+Run JavaScript and store its output into &lt;SCRIPTOUTPUT&gt;&lt;elseif(SCRIPTERROR)&gt;
+Run JavaScript and store its error into &lt;SCRIPTERROR&gt;&lt;else&gt;
+Run JavaScript&lt;endif&gt;</value>
+    <comment>{Locked="&lt;elseif(SCRIPTOUTPUT)&gt;"}{Locked="&lt;SCRIPTOUTPUT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;SCRIPTERROR&gt;"}{Locked="&lt;elseif(SCRIPTERROR)&gt;"}{Locked="&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;"}{Locked="&lt;else&gt;"}{Locked="JavaScript"}</comment>
+  </data>
+  <data name="RunPowershellScript_Description" xml:space="preserve">
+    <value>Executes some custom PowerShell script and retrieves its output into a variable</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="RunPowershellScript_FriendlyName" xml:space="preserve">
+    <value>Run PowerShell script</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="RunPowershellScript_Script_Description" xml:space="preserve">
+    <value>The PowerShell code to execute. Variables may be included within the script since they will be evaluated prior to the execution of the PowerShell code</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="RunPowershellScript_Script_FriendlyName" xml:space="preserve">
+    <value>PowerShell code to run</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="RunPowershellScript_ScriptError_Description" xml:space="preserve">
+    <value>The errors that may occur during the execution of the PowerShell code</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="RunPowershellScript_ScriptError_FriendlyName" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="RunPowershellScript_ScriptOutput_Description" xml:space="preserve">
+    <value>The script's output</value>
+  </data>
+  <data name="RunPowershellScript_ScriptOutput_FriendlyName" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="RunPowershellScript_Summary" xml:space="preserve">
+    <value>&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;Run PowerShell script and store its output into &lt;SCRIPTOUTPUT&gt; and its error into &lt;SCRIPTERROR&gt;&lt;elseif(SCRIPTOUTPUT)&gt;
+Run PowerShell script and store its output into &lt;SCRIPTOUTPUT&gt;&lt;elseif(SCRIPTERROR)&gt;
+Run PowerShell script and store its error into &lt;SCRIPTERROR&gt;&lt;else&gt;
+Run PowerShell script&lt;endif&gt;</value>
+    <comment>{Locked="&lt;elseif(SCRIPTOUTPUT)&gt;"}{Locked="&lt;SCRIPTOUTPUT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;SCRIPTERROR&gt;"}{Locked="&lt;elseif(SCRIPTERROR)&gt;"}{Locked="&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;"}{Locked="&lt;else&gt;"}{Locked="PowerShell"}</comment>
+  </data>
+  <data name="RunPythonScript_Description" xml:space="preserve">
+    <value>Executes Python 2 script code and retrieves its output</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="RunPythonScript_FriendlyName" xml:space="preserve">
+    <value>Run Python script</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="RunPythonScript_ModuleFolderPaths_Description" xml:space="preserve">
+    <value>The path(s) of folder(s) where external Python modules lie</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="RunPythonScript_ModuleFolderPaths_FriendlyName" xml:space="preserve">
+    <value>Module folder paths</value>
+  </data>
+  <data name="RunPythonScript_PythonCode_Description" xml:space="preserve">
+    <value>Τhe Python script code to execute</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="RunPythonScript_PythonCode_FriendlyName" xml:space="preserve">
+    <value>Python script to run</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="RunPythonScript_ScriptError_Description" xml:space="preserve">
+    <value>The errors that may occur during the execution of the Python script code</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="RunPythonScript_ScriptError_FriendlyName" xml:space="preserve">
+    <value>Error output</value>
+  </data>
+  <data name="RunPythonScript_ScriptOutput_Description" xml:space="preserve">
+    <value>Τhe script's output</value>
+  </data>
+  <data name="RunPythonScript_ScriptOutput_FriendlyName" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="RunPythonScript_Summary" xml:space="preserve">
+    <value>&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;Run Python script &lt;PYTHONCODE&gt; and store its output into &lt;SCRIPTOUTPUT&gt; and its error into &lt;SCRIPTERROR&gt;&lt;elseif(SCRIPTOUTPUT)&gt;
+Run Python script &lt;PYTHONCODE&gt; and store its output into &lt;SCRIPTOUTPUT&gt;&lt;elseif(SCRIPTERROR)&gt;
+Run Python script &lt;PYTHONCODE&gt; and store its error into &lt;SCRIPTERROR&gt;&lt;else&gt;
+Run Python script &lt;PYTHONCODE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;elseif(SCRIPTOUTPUT)&gt;"}{Locked="&lt;SCRIPTOUTPUT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SCRIPTERROR)&gt;"}{Locked="&lt;SCRIPTERROR&gt;"}{Locked="&lt;PYTHONCODE&gt;"}{Locked="Python"}{Locked="&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;"}</comment>
+  </data>
+  <data name="RunVBScript_Description" xml:space="preserve">
+    <value>Executes some custom VBScript code and retrieves its output into a variable</value>
+    <comment>{Locked="VBScript"}</comment>
+  </data>
+  <data name="RunVBScript_FriendlyName" xml:space="preserve">
+    <value>Run VBScript</value>
+    <comment>{Locked="VBScript"}</comment>
+  </data>
+  <data name="RunVBScript_ScriptError_Description" xml:space="preserve">
+    <value>The errors that may occur during the execution of the VBScript code</value>
+    <comment>{Locked="VBScript"}</comment>
+  </data>
+  <data name="RunVBScript_ScriptError_FriendlyName" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="RunVBScript_ScriptOutput_Description" xml:space="preserve">
+    <value>The script's output</value>
+  </data>
+  <data name="RunVBScript_ScriptOutput_FriendlyName" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="RunVBScript_Summary" xml:space="preserve">
+    <value>&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;Run VBScript and store its output into &lt;SCRIPTOUTPUT&gt; and its error into &lt;SCRIPTERROR&gt;&lt;elseif(SCRIPTOUTPUT)&gt;
+Run VBScript and store its output into &lt;SCRIPTOUTPUT&gt;&lt;elseif(SCRIPTERROR)&gt;
+Run VBScript and store its error into &lt;SCRIPTERROR&gt;&lt;else&gt;
+Run VBScript&lt;endif&gt;</value>
+    <comment>{Locked="&lt;elseif(SCRIPTOUTPUT)&gt;"}{Locked="&lt;SCRIPTOUTPUT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;elseif(SCRIPTERROR)&gt;"}{Locked="&lt;SCRIPTERROR&gt;"}{Locked="VBScript"}{Locked="&lt;if(SCRIPTOUTPUT&amp;&amp;SCRIPTERROR)&gt;"}</comment>
+  </data>
+  <data name="RunVBScript_VBScriptCode_Description" xml:space="preserve">
+    <value>The VBScript code to execute. Variables may be included within the script since they will be evaluated prior to the execution of the VBScript</value>
+    <comment>{Locked="VBScript"}</comment>
+  </data>
+  <data name="RunVBScript_VBScriptCode_FriendlyName" xml:space="preserve">
+    <value>VBScript to run</value>
+    <comment>{Locked="VBScript"}</comment>
+  </data>
+  <data name="ScreenCaptureOption_AllScreens_FriendlyName" xml:space="preserve">
+    <value>All screens</value>
+  </data>
+  <data name="ScreenCaptureOption_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Foreground window</value>
+  </data>
+  <data name="ScreenCaptureOption_PrimaryScreen_FriendlyName" xml:space="preserve">
+    <value>Primary screen</value>
+  </data>
+  <data name="ScreenCaptureOption_SelectScreen_FriendlyName" xml:space="preserve">
+    <value>Select screen</value>
+  </data>
+  <data name="ScreenSaverAction_Disabled_FriendlyName" xml:space="preserve">
+    <value>Disable</value>
+  </data>
+  <data name="ScreenSaverAction_Enable_FriendlyName" xml:space="preserve">
+    <value>Enable</value>
+  </data>
+  <data name="ScreenSaverAction_Start_FriendlyName" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="ScreenSaverAction_Stop_FriendlyName" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="SetDefaultPrinter_Description" xml:space="preserve">
+    <value>Sets a printer as the default printer</value>
+  </data>
+  <data name="SetDefaultPrinter_FriendlyName" xml:space="preserve">
+    <value>Set default printer</value>
+  </data>
+  <data name="SetDefaultPrinter_PrinterName_Description" xml:space="preserve">
+    <value>The name of the printer to set as default</value>
+  </data>
+  <data name="SetDefaultPrinter_PrinterName_FriendlyName" xml:space="preserve">
+    <value>Printer name</value>
+  </data>
+  <data name="SetDefaultPrinter_Summary" xml:space="preserve">
+    <value>Set &lt;PRINTERNAME&gt; as the default printer</value>
+    <comment>{Locked="&lt;PRINTERNAME&gt;"}</comment>
+  </data>
+  <data name="SetEnvironmentVariable_Description" xml:space="preserve">
+    <value>Sets an environment variable to a given value</value>
+  </data>
+  <data name="SetEnvironmentVariable_FriendlyName" xml:space="preserve">
+    <value>Set Windows environment variable</value>
+	<comment>{Locked="Windows"}</comment>
+  </data>
+  <data name="SetEnvironmentVariable_Name_Description" xml:space="preserve">
+    <value>The name of the environment variable</value>
+  </data>
+  <data name="SetEnvironmentVariable_Name_FriendlyName" xml:space="preserve">
+    <value>Environment variable name</value>
+  </data>
+  <data name="SetEnvironmentVariable_Summary" xml:space="preserve">
+    <value>Set into environment variable &lt;NAME&gt; the value &lt;VALUE&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;VALUE&gt;"}</comment>
+  </data>
+  <data name="SetEnvironmentVariable_Type_Description" xml:space="preserve">
+    <value>The type of the environment variable</value>
+  </data>
+  <data name="SetEnvironmentVariable_Type_FriendlyName" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="SetEnvironmentVariable_Value_Description" xml:space="preserve">
+    <value>The value that is set to the environment variable</value>
+  </data>
+  <data name="SetEnvironmentVariable_Value_FriendlyName" xml:space="preserve">
+    <value>New environment variable value</value>
+  </data>
+  <data name="SetScreenResolution_Description" xml:space="preserve">
+    <value>Sets the width, height, bit count and frequency of a selected monitor</value>
+  </data>
+  <data name="SetScreenResolution_FriendlyName" xml:space="preserve">
+    <value>Set screen resolution</value>
+  </data>
+  <data name="SetScreenResolution_MonitorBitCount_Description" xml:space="preserve">
+    <value>The value to set the monitor bit count to</value>
+  </data>
+  <data name="SetScreenResolution_MonitorBitCount_FriendlyName" xml:space="preserve">
+    <value>Monitor bit count</value>
+  </data>
+  <data name="SetScreenResolution_MonitorFrequency_Description" xml:space="preserve">
+    <value>The value to set the monitor frequency to</value>
+  </data>
+  <data name="SetScreenResolution_MonitorFrequency_FriendlyName" xml:space="preserve">
+    <value>Monitor frequency</value>
+  </data>
+  <data name="SetScreenResolution_MonitorHeight_Description" xml:space="preserve">
+    <value>The value to set the monitor height to</value>
+  </data>
+  <data name="SetScreenResolution_MonitorHeight_FriendlyName" xml:space="preserve">
+    <value>Monitor height</value>
+  </data>
+  <data name="SetScreenResolution_MonitorNumber_Description" xml:space="preserve">
+    <value>The number of monitor to set the resolution of</value>
+  </data>
+  <data name="SetScreenResolution_MonitorNumber_FriendlyName" xml:space="preserve">
+    <value>Monitor number</value>
+  </data>
+  <data name="SetScreenResolution_MonitorWidth_Description" xml:space="preserve">
+    <value>The value to set the monitor width to</value>
+  </data>
+  <data name="SetScreenResolution_MonitorWidth_FriendlyName" xml:space="preserve">
+    <value>Monitor width</value>
+  </data>
+  <data name="SetScreenResolution_Summary" xml:space="preserve">
+    <value>Set screen resolution for monitor &lt;MONITORNUMBER&gt;</value>
+    <comment>{Locked="&lt;MONITORNUMBER&gt;"}</comment>
+  </data>
+  <data name="ShowDesktop_Description" xml:space="preserve">
+    <value>Shows the desktop</value>
+  </data>
+  <data name="ShowDesktop_DesktopOperation_Description" xml:space="preserve">
+    <value>Specify whether to minimize all windows to reveal the desktop or restore all windows to their original respective states</value>
+  </data>
+  <data name="ShowDesktop_DesktopOperation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ShowDesktop_FriendlyName" xml:space="preserve">
+    <value>Show desktop</value>
+  </data>
+  <data name="ShowDesktop_Summary" xml:space="preserve">
+    <value>&lt;DESKTOPOPERATION&gt;</value>
+    <comment>{Locked="&lt;DESKTOPOPERATION&gt;"}</comment>
+  </data>
+  <data name="ShutdownComputer_Description" xml:space="preserve">
+    <value>Shuts down the computer</value>
+  </data>
+  <data name="ShutdownComputer_Force_Description" xml:space="preserve">
+    <value>Specify whether to force the computer to shut down, regardless of unsaved files or programs that won't close</value>
+  </data>
+  <data name="ShutdownComputer_Force_FriendlyName" xml:space="preserve">
+    <value>Force</value>
+  </data>
+  <data name="ShutdownComputer_FriendlyName" xml:space="preserve">
+    <value>Shutdown computer</value>
+  </data>
+  <data name="ShutdownComputer_ShutdownOption_Description" xml:space="preserve">
+    <value>Specify which shutdown option the computer will perform</value>
+  </data>
+  <data name="ShutdownComputer_ShutdownOption_FriendlyName" xml:space="preserve">
+    <value>Action to perform</value>
+  </data>
+  <data name="ShutdownComputer_Summary" xml:space="preserve">
+    <value>&lt;if(FORCE)&gt;&lt;SHUTDOWNOPTION&gt; the computer (Forced)&lt;else&gt;
+&lt;SHUTDOWNOPTION&gt; the computer&lt;endif&gt;</value>
+    <comment>{Locked="&lt;SHUTDOWNOPTION&gt;"}{Locked="&lt;if(FORCE)&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="ShutdownOption_Hibernate_FriendlyName" xml:space="preserve">
+    <value>Hibernate</value>
+  </data>
+  <data name="ShutdownOption_Restart_FriendlyName" xml:space="preserve">
+    <value>Restart</value>
+  </data>
+  <data name="ShutdownOption_Shutdown_FriendlyName" xml:space="preserve">
+    <value>Shutdown</value>
+  </data>
+  <data name="ShutdownOption_Suspend_FriendlyName" xml:space="preserve">
+    <value>Suspend</value>
+  </data>
+  <data name="SpecifyProcessBy_Id_FriendlyName" xml:space="preserve">
+    <value>Process ID</value>
+  </data>
+  <data name="SpecifyProcessBy_Name_FriendlyName" xml:space="preserve">
+    <value>Process name</value>
+  </data>
+  <data name="StoreScreenshotInto_Clipboard_FriendlyName" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="StoreScreenshotInto_File_FriendlyName" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="System_Description" xml:space="preserve">
+    <value>Perform a variety of tasks in a Windows environment and retrieve information from the system</value>
+  </data>
+  <data name="System_FriendlyName" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="SystemSound_Asterisk_FriendlyName" xml:space="preserve">
+    <value>Asterisk</value>
+  </data>
+  <data name="SystemSound_Beep_FriendlyName" xml:space="preserve">
+    <value>Beep</value>
+  </data>
+  <data name="SystemSound_Exclamation_FriendlyName" xml:space="preserve">
+    <value>Exclamation</value>
+  </data>
+  <data name="SystemSound_Hand_FriendlyName" xml:space="preserve">
+    <value>Hand</value>
+  </data>
+  <data name="SystemSound_Question_FriendlyName" xml:space="preserve">
+    <value>Question</value>
+  </data>
+  <data name="TakeScreenshot_Description" xml:space="preserve">
+    <value>Takes a screenshot of all screens and saves it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshot_Summary" xml:space="preserve">
+    <value>Take a screenshot of the entire screen and save it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotAndSaveToFile_Description" xml:space="preserve">
+    <value>Takes a screenshot of the entire screen and saves it to a file</value>
+  </data>
+  <data name="TakeScreenshotAndSaveToFile_Summary" xml:space="preserve">
+    <value>Take a screenshot of the entire screen and save it to &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="TakeScreenshotBase_CaptureOption_Description" xml:space="preserve">
+    <value>The area to capture</value>
+  </data>
+  <data name="TakeScreenshotBase_CaptureOption_FriendlyName" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="TakeScreenshotBase_Description" xml:space="preserve">
+    <value>Takes a screenshot of the foreground window or the specified screen and saves the image in a file or to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotBase_File_Description" xml:space="preserve">
+    <value>The full path of the file name where the captured image will be saved</value>
+  </data>
+  <data name="TakeScreenshotBase_File_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="TakeScreenshotBase_FriendlyName" xml:space="preserve">
+    <value>Take screenshot</value>
+  </data>
+  <data name="TakeScreenshotBase_ImageFormat_Description" xml:space="preserve">
+    <value>The format for the image file to save</value>
+  </data>
+  <data name="TakeScreenshotBase_ImageFormat_FriendlyName" xml:space="preserve">
+    <value>Image format</value>
+  </data>
+  <data name="TakeScreenshotBase_ScreenToCapture_Description" xml:space="preserve">
+    <value>Specify which screen to capture</value>
+  </data>
+  <data name="TakeScreenshotBase_ScreenToCapture_FriendlyName" xml:space="preserve">
+    <value>Screen to capture</value>
+  </data>
+  <data name="TakeScreenshotBase_StoreScreenshotInto_Description" xml:space="preserve">
+    <value>The location to save the screenshot to</value>
+  </data>
+  <data name="TakeScreenshotBase_StoreScreenshotInto_FriendlyName" xml:space="preserve">
+    <value>Save screenshot to</value>
+  </data>
+  <data name="TakeScreenshotOfForegroundWindow_Description" xml:space="preserve">
+    <value>Takes a screenshot of the foreground window and saves it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfForegroundWindow_Summary" xml:space="preserve">
+    <value>Take a screenshot of the foreground window and save it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfForegroundWindowAndSaveToFile_Description" xml:space="preserve">
+    <value>Takes a screenshot of the foreground window and saves it to a file</value>
+  </data>
+  <data name="TakeScreenshotOfForegroundWindowAndSaveToFile_Summary" xml:space="preserve">
+    <value>Take a screenshot of the foreground window and save it to &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="TakeScreenshotOfPrimaryScreen_Description" xml:space="preserve">
+    <value>Takes a screenshot of the primary screen and saves it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfPrimaryScreen_Summary" xml:space="preserve">
+    <value>Take a screenshot of the primary screen and save it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfPrimaryScreenAndSaveToFile_Description" xml:space="preserve">
+    <value>Takes a screenshot of the primary screen and saves it to a file</value>
+  </data>
+  <data name="TakeScreenshotOfPrimaryScreenAndSaveToFile_Summary" xml:space="preserve">
+    <value>Take a screenshot of the primary screen and save it to &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="TakeScreenshotOfScreen_Description" xml:space="preserve">
+    <value>Takes a screenshot of a specified screen and saves it to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfScreen_Summary" xml:space="preserve">
+    <value>Take a screenshot of screen &lt;SCREENTOCAPTURE&gt; and save it to the clipboard</value>
+    <comment>{Locked="&lt;SCREENTOCAPTURE&gt;"}</comment>
+  </data>
+  <data name="TakeScreenshotOfScreenAndSaveToFile_Description" xml:space="preserve">
+    <value>Takes a screenshot of a specified screen and saves it to a file</value>
+  </data>
+  <data name="TakeScreenshotOfScreenAndSaveToFile_Summary" xml:space="preserve">
+    <value>Take a screenshot of screen &lt;SCREENTOCAPTURE&gt; and save it to &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;SCREENTOCAPTURE&gt;"}{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="TerminateProcess_Description" xml:space="preserve">
+    <value>Immediately stops a running process</value>
+  </data>
+  <data name="TerminateProcess_FriendlyName" xml:space="preserve">
+    <value>Terminate process</value>
+  </data>
+  <data name="TerminateProcess_ProcessId_Description" xml:space="preserve">
+    <value>The ID of the process to terminate</value>
+  </data>
+  <data name="TerminateProcess_ProcessId_FriendlyName" xml:space="preserve">
+    <value>Process ID</value>
+  </data>
+  <data name="TerminateProcess_ProcessName_Description" xml:space="preserve">
+    <value>The name of the process to terminate. If more than one processes with the same name are running, all of them will be terminated</value>
+  </data>
+  <data name="TerminateProcess_ProcessName_FriendlyName" xml:space="preserve">
+    <value>Process name</value>
+  </data>
+  <data name="TerminateProcess_SpecifyProcessBy_Description" xml:space="preserve">
+    <value>Specify whether the process to terminate will be specified by its name, or by its ID</value>
+  </data>
+  <data name="TerminateProcess_SpecifyProcessBy_FriendlyName" xml:space="preserve">
+    <value>Specify process by</value>
+  </data>
+  <data name="TerminateProcessById_Description" xml:space="preserve">
+    <value>Immediately stops a running process given its ID</value>
+  </data>
+  <data name="TerminateProcessById_Summary" xml:space="preserve">
+    <value>Terminate processes with ID &lt;PROCESSID&gt;</value>
+    <comment>{Locked="&lt;PROCESSID&gt;"}</comment>
+  </data>
+  <data name="TerminateProcessByName_Description" xml:space="preserve">
+    <value>Immediately stops a running process given its name</value>
+  </data>
+  <data name="TerminateProcessByName_Summary" xml:space="preserve">
+    <value>Terminate all process with name &lt;PROCESSNAME&gt;</value>
+    <comment>{Locked="&lt;PROCESSNAME&gt;"}</comment>
+  </data>
+  <data name="WaitForApplication_DoNotWait_FriendlyName" xml:space="preserve">
+    <value>Continue immediately</value>
+  </data>
+  <data name="WaitForApplication_WaitToComplete_FriendlyName" xml:space="preserve">
+    <value>Wait for application to complete</value>
+  </data>
+  <data name="WaitForApplication_WaitToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for application to load</value>
+  </data>
+  <data name="WaitForProcess_Start_FriendlyName" xml:space="preserve">
+    <value>Start</value>
+  </data>
+  <data name="WaitForProcess_Stop_FriendlyName" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="WaitProcessAction_WaitFor_Description" xml:space="preserve">
+    <value>Whether to wait until a certain process starts or stops</value>
+  </data>
+  <data name="WaitProcessAction_WaitFor_FriendlyName" xml:space="preserve">
+    <value>Wait for process to</value>
+  </data>
+  <data name="Conditionals_IfProcessAction_Description" xml:space="preserve">
+    <value>Marks the beginning of a conditional block of actions depending on whether a process is running or not</value>
+  </data>
+  <data name="Conditionals_IfProcessAction_FriendlyName" xml:space="preserve">
+    <value>If process</value>
+  </data>
+  <data name="Conditionals_ProcessIsNotRunning_Summary" xml:space="preserve">
+    <value>If process &lt;PROCESSNAME&gt; isn't running</value>
+    <comment>{Locked="&lt;PROCESSNAME&gt;"}</comment>
+  </data>
+  <data name="Conditionals_ProcessIsRunning_Summary" xml:space="preserve">
+    <value>If process &lt;PROCESSNAME&gt; is running</value>
+    <comment>{Locked="&lt;PROCESSNAME&gt;"}</comment>
+  </data>
+  <data name="ProcessActionBase_ProcessName_Description" xml:space="preserve">
+    <value>The name of the process to check</value>
+  </data>
+  <data name="ProcessActionBase_ProcessName_FriendlyName" xml:space="preserve">
+    <value>Process name</value>
+  </data>
+  <data name="Wait_ProcessToStart_Summary" xml:space="preserve">
+    <value>Wait for process &lt;PROCESSNAME&gt; to start</value>
+    <comment>{Locked="&lt;PROCESSNAME&gt;"}</comment>
+  </data>
+  <data name="Wait_ProcessToStop_Summary" xml:space="preserve">
+    <value>Wait for process &lt;PROCESSNAME&gt; to stop</value>
+    <comment>{Locked="&lt;PROCESSNAME&gt;"}</comment>
+  </data>
+  <data name="Wait_WaitProcessAction_Description" xml:space="preserve">
+    <value>Suspends the execution until a process starts or stops</value>
+  </data>
+  <data name="Wait_WaitProcessAction_FriendlyName" xml:space="preserve">
+    <value>Wait for process</value>
+  </data>
+  <data name="ErrorMessage_InsufficientPermissionsUserError" xml:space="preserve">
+    <value>Insufficient permissions for accessing the user environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InsufficientPermissionsSystemError" xml:space="preserve">
+    <value>Insufficient permissions for accessing the system environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DeleteEnvironmentVariableUserError" xml:space="preserve">
+    <value>Failed to delete user environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DeleteEnvironmentVariableSystemError" xml:space="preserve">
+    <value>Failed to delete system environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_GetDefaultPrinterError" xml:space="preserve">
+    <value>Can't get the default printer's name.</value>
+  </data>
+  <data name="ErrorMessage_EnvironmentVariableNotFoundUserError" xml:space="preserve">
+    <value>Failed to retrieve value of user environment variable '{0}' (variable doesn't exist).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_EnvironmentVariableNotFoundError" xml:space="preserve">
+    <value>Failed to retrieve value of environment variable '{0}' (variable doesn't exist).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_EnvironmentVariableNotFoundSystemError" xml:space="preserve">
+    <value>Failed to retrieve value of system environment variable '{0}' (variable doesn't exist).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InsufficientPermissionsError" xml:space="preserve">
+    <value>Insufficient permissions for accessing the environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveUserEnvironmentVariableError" xml:space="preserve">
+    <value>Failed to retrieve value of user environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveEnvironmentVariableError" xml:space="preserve">
+    <value>Failed to retrieve value of environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveSystemEnvironmentVariableError" xml:space="preserve">
+    <value>Failed to retrieve value of system environment variable '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InsufficientNumberOfMonitorsError" xml:space="preserve">
+    <value>Number of monitor should be greater than zero (0).</value>
+  </data>
+  <data name="ErrorMessage_GreaterNumberOfMonitorsError" xml:space="preserve">
+    <value>Number of monitors is greater than your number of monitors ({0}).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_GetScreenResolutionError" xml:space="preserve">
+    <value>Failed to get display settings of monitor: {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LockWorkstationInNonInteractiveModeError" xml:space="preserve">
+    <value>Can't lock the computer in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_LockWorkstationError" xml:space="preserve">
+    <value>Can't lock the computer.</value>
+  </data>
+  <data name="ErrorMessage_LogOffUserInNonInteractiveModeError" xml:space="preserve">
+    <value>Can't log off user in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_LogOffUserError" xml:space="preserve">
+    <value>Can't log off the current user.</value>
+  </data>
+  <data name="ErrorMessage_PingError" xml:space="preserve">
+    <value>Can't complete ping action.</value>
+  </data>
+  <data name="ErrorMessage_SoundFileNotFoundError" xml:space="preserve">
+    <value>Can't find sound file '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidSoundFileError" xml:space="preserve">
+    <value>Invalid sound file '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DocumentNotFoundError" xml:space="preserve">
+    <value>Document '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DocumentAccessDeniedError" xml:space="preserve">
+    <value>Access denied for document '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PrintDocumentError" xml:space="preserve">
+    <value>Can't print document '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PrintDocumentTypeError" xml:space="preserve">
+    <value>Can't print this type of document: '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ExecuteApplicationOrOpenFileError" xml:space="preserve">
+    <value>Can't execute application/open file '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RetrieveWindowHandleError" xml:space="preserve">
+    <value>Can't retrieve main window handle for application '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FileOrApplicationNotFoundError" xml:space="preserve">
+    <value>File or application '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FileOrApplicationAccessDeniedError" xml:space="preserve">
+    <value>Access denied for application/file '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ExecuteCommandOrConsoleApplicationError" xml:space="preserve">
+    <value>Can't execute command or console application '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RunPowershellScriptError" xml:space="preserve">
+    <value>Failed to run PowerShell script.</value>
+    <comment>{Locked="PowerShell"}</comment>
+  </data>
+  <data name="ErrorMessage_DirectoryNotFoundError" xml:space="preserve">
+    <value>Directory '{0}' doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RunPythonScriptError" xml:space="preserve">
+    <value>Failed to run Python script.</value>
+    <comment>{Locked="Python"}</comment>
+  </data>
+  <data name="ErrorMessage_SetDefaultPrinterError" xml:space="preserve">
+    <value>Can't set '{0}' as default printer.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SetEnvironmentVariableEmptyError" xml:space="preserve">
+    <value>Failed to set environment variable '{0}' (value was empty).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SetEnvironmentVariableUserError" xml:space="preserve">
+    <value>Failed to set user environment variable '{0}' to value '{1}'.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_SetEnvironmentVariableSystemError" xml:space="preserve">
+    <value>Failed to set system environment variable '{0}' to value '{1}'.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_ChangeDisplaySettingsError" xml:space="preserve">
+    <value>Failed to change display settings of monitor: {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_BadDualViewError" xml:space="preserve">
+    <value>The settings change was unsuccessful because system is DualView capable.</value>
+  </data>
+  <data name="ErrorMessage_BadParamError" xml:space="preserve">
+    <value>An invalid parameter was passed in. This can include an invalid flag or combination of flags.</value>
+  </data>
+  <data name="ErrorMessage_BadFlagsError" xml:space="preserve">
+    <value>An invalid set of flags was passed in.</value>
+  </data>
+  <data name="ErrorMessage_UpdateRegistryError" xml:space="preserve">
+    <value>Unable to write settings to the registry.</value>
+  </data>
+  <data name="ErrorMessage_GraphicsModeError" xml:space="preserve">
+    <value>The graphics mode isn't supported.</value>
+  </data>
+  <data name="ErrorMessage_DisplayDriverError" xml:space="preserve">
+    <value>The display driver failed the specified graphics mode.</value>
+  </data>
+  <data name="ErrorMessage_RestartRequiredError" xml:space="preserve">
+    <value>The computer must be restarted in order for the graphics mode to work.</value>
+  </data>
+  <data name="ErrorMessage_SetScreenResolutionError" xml:space="preserve">
+    <value>Failed to set display settings of monitor: {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ShutdownComputerError" xml:space="preserve">
+    <value>Can't {0} the computer.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SaveScreenshotToFileError" xml:space="preserve">
+    <value>Failed to save screenshot to file.</value>
+  </data>
+  <data name="ErrorMessage_SaveScreenshotToClipboardError" xml:space="preserve">
+    <value>Failed to set screenshot to clipboard.</value>
+  </data>
+  <data name="ErrorMessage_TakeScreenshotError" xml:space="preserve">
+    <value>Failed to take screenshot.</value>
+  </data>
+  <data name="ErrorMessage_GetScreenError" xml:space="preserve">
+    <value>Failed to get screen {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_NoForegroundWindowError" xml:space="preserve">
+    <value>No window is on the foreground.</value>
+  </data>
+  <data name="ErrorMessage_TerminateProcessError" xml:space="preserve">
+    <value>Failed to terminate process '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidProcessIdError" xml:space="preserve">
+    <value>Process with ID '{0}' isn't running.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TerminateProcessWithIdError" xml:space="preserve">
+    <value>Failed to terminate process with ID '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidNumberOfMonitors" xml:space="preserve">
+    <value>Number of monitors should be greater than zero (0).</value>
+  </data>
+  <data name="ErrorMessage_MethodNotSupported" xml:space="preserve">
+    <value>The SetSuspendState method isn't supported on this system.</value>
+  </data>
+  <data name="RunDOSCommandWithCodePage_Description" xml:space="preserve">
+    <value>Runs a DOS command or console application in invisible mode and retrieves its output upon completion using a different code page</value>
+  </data>
+  <data name="RunDOSCommandWithCodePage_Summary" xml:space="preserve">
+    <value>&lt;if(STANDARDOUTPUT)&gt;Run DOS command or console application and store its output into &lt;STANDARDOUTPUT&gt;&lt;else&gt;
+Run DOS command or console application&lt;endif&gt;</value>
+  </data>
+  <data name="RunDosCommandAction_ChangeCodePage_Description" xml:space="preserve">
+    <value>Specifies whether to change the session's current code page</value>
+  </data>
+  <data name="RunDosCommandAction_ChangeCodePage_FriendlyName" xml:space="preserve">
+    <value>Change code page</value>
+  </data>
+  <data name="RunDosCommandAction_Encoding_Description" xml:space="preserve">
+    <value>The encoding to use when reading the output</value>
+  </data>
+  <data name="RunDosCommandAction_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="RunDosCommandAction_Description" xml:space="preserve">
+    <value>Runs a DOS command or console application in invisible mode and retrieves its output upon completion</value>
+  </data>
+</root>

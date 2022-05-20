@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Handoff>
+<!-- PowerAutomate -->
+  <Target element="Component" name="TestLoc_B1" mode="include" targetCultures="[culturesCRM44]" />
+  <Target element="Component" name="TestLoc_B2" mode="include" targetCultures="[culturesCRM44]"/>
+  <Target element="Component" name="TestLoc_B3" mode="include" targetCultures="[culturesCRM44]"/>
+
+  <!-- Target element="Component" name="PAuFlowRPA" mode="include" targetCultures="[culturesCRM44]"/>
+  <Target element="Component" name="PAuFlowRPARelease" mode="include" targetCultures="[culturesCRM44]"/ -->
+</Handoff>

@@ -1,0 +1,35 @@
+!-publish:false
+!-define:LSBuildExePath=[D365_ToolsRepoPath]\Tools\LSBuild\LSBuild.Corext.6.12.4929.5\lsbuild.exe
+!-define:EnlistmentRoot=e:\Depot
+!-define:Repo_Root=F:\Src\WinAutomate
+!-define:HORepo_Root=F:\Automation\BAGIE
+!-define:D365_CERepoPath=[HORepo_Root]\D365_CE
+!-define:D365_CERepoBranch=master
+!-define:CommonRepoPath=[HORepo_Root]\common
+!-define:CommonRepoBranch=master
+!-define:D365_ToolsRepoPath=[HORepo_Root]\D365_Tools
+!-define:D365_ToolsRepoBranch=master
+!-define:Owner=toshiosh@microsoft.com
+!-define:Release=Latest
+!-nologo
+!-define:lssName=lss.lss
+!-define:TempFolder=E:\Temp3
+!-define:VSTSToken=E:\bin\script\VSTSToken.txt
+!-define:Context=JHKIM Test
+!-define:Context=Dynamics 365 CE [Unit] UI Handoff runs
+!-define:Unit=PowerAutomate
+
+!-define:jhkimculture=bg-BG,ca-ES,cs-CZ,da-DK,de-DE,el-GR,es-ES,et-EE,eu-ES,fi-FI,fr-FR,gl-ES,hi-IN,hr-HR,hu-HU,id-ID,it-IT,ja-JP,kk-KZ,ko-KR,lt-LT,lv-LV,ms-MY,nb-NO,nl-NL,pl-PL,pt-BR,pt-PT,ro-RO,ru-RU,sk-SK,sl-SI,sr-Cyrl-CS,sr-Latn-CS,sv-SE,th-TH,tr-TR,uk-UA,vi-VN,zh-CN,zh-TW
+-define:jhkimculture=de-DE
+
+! CTAS variables
+-work:e:\CTAS\work
+-eol:C:\gitroot\TestLoc\studyLocStudio\eol.eol
+-project:C:\gitroot\TestLoc\studyLocStudio\ctas.ctas
+-manifest:C:\gitroot\TestLoc\studyLocStudio\manifest.xml
+-scenario:LSBUILD
+
+-define:JHKIMCMD=cmd.exe
+-define:JHKIMTARGET=c:\
+-define:JHKIM_VARIABLES=[WorkFolder] [InputFile] [file] [file.source] [filefolder] [filefolder.source] [targetculture] [sourceculture] [parentculture] [derivation] [quality] [component] [area] [PartitionKey] [filekind] [logfile] [eol-variable]
+-define:LSBuildExePath=F:\Automation\BAGIE\D365_Tools\Tools\LSBuild\LSBuild.6.12.6202.0\lsbuild.exe

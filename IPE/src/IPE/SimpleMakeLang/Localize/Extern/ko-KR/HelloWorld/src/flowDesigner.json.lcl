@@ -1,0 +1,1163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\flowDesigner.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.ConnectionParameterService.FailedToRenderConfigItem" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to render config parameter '{0}' for connector '{1}']]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to render config parameter '{0}' for connector '{1}']]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the key of the parameter, {1} is the id of the connector]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.CopyPaste.Error.PasteTriggerNotSupported" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pasting a trigger is not supported yet.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Pasting a trigger is not supported yet.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.DynamicContentPicker.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Dynamic Value]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Dynamic Value]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.EditorDialogLauncher.Create" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.EditorDialogLauncher.Edit" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Edit {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.DetailsForTrip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We just need a few more details to get you booked for the trip of a lifetime!]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[We just need a few more details to get you booked for the trip of a lifetime!]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.ErrorDuplicateKeys" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please enter unique token names.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please enter unique token names.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.ErrorJsonParsing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There was an error while parsing the JSON, please validate the card JSON.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There was an error while parsing the JSON, please validate the card JSON.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.PlaceHolderEmail" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[youremail@example.com]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[youremail@example.com]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.PlaceHolderName" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Last, First]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Last, First]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.PlaceHolderPhoneNumber" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[xxx.xxx.xxxx]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[xxx.xxx.xxxx]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.SaveCard" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Save card]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Save card]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.Submit" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Submit]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Submit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.TellUsAboutYourself" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tell us about yourself]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tell us about yourself]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Adaptive Card]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Adaptive Card]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.YourEmail" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your email]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your email]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.YourName" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.AdaptiveCardEditor.YourPhoneNumber" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Phone Number]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Phone Number]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ArrayEditor.AddNewItemButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add new item]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add new item]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ArrayEditor.DeleteItemButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete item]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Delete item]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CodeView.AriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to code view]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to code view]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CodeView.CodeView" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Code View]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Code View]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.AddCustomItem" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a custom item]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add a custom item]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.CustomValue" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom value]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Custom value]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.Empty.ErrorTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's a problem]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's a problem]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.Empty.ItemsMessage" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No items found]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No items found]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.Empty.ItemsTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have any items]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You don't have any items]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.Empty.SearchMessage" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Check the spelling or try a different search term]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Check the spelling or try a different search term]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.Empty.SearchTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No search results for '{0}']]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No search results for '{0}']]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.CustomValue.Placeholder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select an item]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select an item]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ExpressionEditor.LinkText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[List of functions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[List of functions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ExpressionEditor.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Expression]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Expression]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.FolderPicker.LoadingText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Loading...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Loading...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.FolderPicker.NavigateFolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show contents of folder {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Show contents of folder {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.FolderPicker.NoItems" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No Items]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No Items]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.FolderPicker.SelectFolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Select folder {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Select folder {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.FolderPicker.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Folder Picker]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Folder Picker]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.FolderPicker.TogglePicker" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show picker]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Show picker]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.GeofenceEditor.Address" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Address]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Address]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.GeofenceEditor.BingMapsLoadError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The Bing Maps API failed to load.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The Bing Maps API failed to load.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.GeofenceEditor.Coordinates" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Coordinates]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Coordinates]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.GeofenceEditor.Geofence" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trigger Region]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Trigger Region]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.GeofenceEditor.InvalidGeofenceLoadError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The geofence {0} is not a valid JSON string.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The geofence {0} is not a valid JSON string.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.GeofenceEditor.LatLong" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Latitude, Longitude]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Latitude, Longitude]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.MashupEditor.CommitButtonLabel.create" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.MashupEditor.CommitButtonLabel.update" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Update]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Update]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.contains" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.endswith" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ends with]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ends with]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.eq" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Equals]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Equals]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.ge" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Greater than or equals]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Greater than or equals]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.gt" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Greater than]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Greater than]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.le" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Less than or equals]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Less than or equals]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.lt" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Less than]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Less than]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.ne" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Does not equal]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Does not equal]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.DropdownOption.substringof" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.AddButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.AddGroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add group]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add group]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.AddNewExpressionLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add new level {0} expression]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add new level {0} expression]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.AddRelatedEntity" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add related entity]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add related entity]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.AddRow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add row]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add row]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.AndGroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[And]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[And]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.ContainsData" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Contains data]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Contains data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.DeleteExpression" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Delete]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.DoesNotContainData" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Does not contain data]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Does not contain data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.DoesNotContainDataWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Conditions cannot be added under relationships with no related data]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Conditions cannot be added under relationships with no related data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.ErrorMalformed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Malformed expression, could not render]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Malformed expression, could not render]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.ExpressionLevelDescription" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Level {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Level {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.ExpressionPositionDescription" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[expression {0} of {1}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[expression {0} of {1}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.FieldPlaceholder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose a field...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose a field...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.FieldSelectorControlLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[field selector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[field selector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupCollapseAriaDescription" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Collapse this group]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Collapse this group]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupCollapseAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Collapse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Collapse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupCollapserAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Show group expression]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Show group expression]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupExpandAriaDescription" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Expand this group]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Expand this group]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupExpandAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Expand]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Expand]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupSelectorAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[group selector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[group selector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.GroupTypeSelectorLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Group type selector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Group type selector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.InvalidField" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} has been removed from the system or is no longer available for filtering]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} has been removed from the system or is no longer available for filtering]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.MakeGroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Make group]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Make group]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.MissingRelationshipWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Condition not executed because of missing relationship: {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Condition not executed because of missing relationship: {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.MoreCommandsAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[more commands]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[more commands]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.MoveDownExpression" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Move down]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Move down]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.MoveUpExpression" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Move up]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Move up]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.OperatorSelectorControlLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[operator]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[operator]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.OrGroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Or]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Or]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.RelatedEntityPlaceholder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose a related entity...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose a related entity...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.RowSelectorAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[row selector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[row selector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ExpressionBuilderResources.Ungroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Ungroup]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Ungroup]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.Switch.AdvancedTooltip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to Basic Mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to Basic Mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.Switch.BasicTooltip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to Advanced Mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to Advanced Mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.Switch.DisabledTooltip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Query contains errors, fix the query to enable Basic Mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Query contains errors, fix the query to enable Basic Mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.Switch.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch editor view]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch editor view]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.ODataEditor.ValueSummary" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Value]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Value]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.People.AddContentLegacy" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add dynamic content]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add dynamic content]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.People.AdvancedMode" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to Advanced Mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to Advanced Mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.People.BasicMode" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to Basic Mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to Basic Mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.PowerQueryEditor.ParametersQueryGroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.PowerQueryEditor.PowerQuery" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.Schema.DialogTitle" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert a sample JSON Payload]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Insert a sample JSON Payload]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.Schema.DialogWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Clicking 'Done' will overwrite your current schema]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Clicking 'Done' will overwrite your current schema]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.Schema.GenerateButtonText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Generate from sample]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Generate from sample]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.Table.ClickToDeleteItem" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Click to delete item]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Click to delete item]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.dictionaryEditor.CodeViewButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to text mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to text mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.dictionaryEditor.DeleteRowButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Click to delete item]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Click to delete item]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.dictionaryEditor.EnterKey" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter key]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Enter key]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.dictionaryEditor.EnterValue" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Enter value]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Enter value]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Editors.dictionaryEditor.KeyValueButton" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Switch to key value mode]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Switch to key value mode]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Monitor.TargetsListPage.LearnMoreAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about machines.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more about machines.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Monitor.UpgradeCdsSolution.DetailsWithLearnMorePlainLinkFormat" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To use new machine-management capabilities in this environment, contact your admin to update to the latest version of Microsoft Dataverse. Learn more at {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To use new machine-management capabilities in this environment, contact your admin to update to the latest version of Microsoft Dataverse. Learn more at {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is a the learn more link in text on how to upgrade the solution.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Monitor.UpgradeCdsSolution.FailedToRetrieveOrgInfo" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to load information about your environment. Please try again later.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to load information about your environment. Please try again later.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.TokenPicker.AddContent" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Insert a dynamic value]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Insert a dynamic value]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.TokenPicker.AddContentTooltip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a dynamic value (Ctrl+Space)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add a dynamic value (Ctrl+Space)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.TokenPicker.AddExpression" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add an expression]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add an expression]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.TokenPicker.AddExpressionTooltip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add an expression (Ctrl+Shift+Space)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add an expression (Ctrl+Shift+Space)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.TokenPicker.SearchPlaceholder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Search content from previous steps]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Search content from previous steps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.WorkflowError.EmptyExpression" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The expression value was empty.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The expression value was empty.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.WorkflowError.ExpressionScannerLimitExceeded" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The provided expression of length '{0}' exceeds the limit of '{1}' characters.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The provided expression of length '{0}' exceeds the limit of '{1}' characters.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the length of the provided expression. {1} is the maximum number of characters allowed in an expression.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.WorkflowError.ExpressionScannerStringLiteralNotTerminated" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The string literal is not terminated.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The string literal is not terminated.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.WorkflowError.ExpressionScannerTokenNotFound" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to get an expression token of type '{0}'.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to get an expression token of type '{0}'.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the token type.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.WorkflowError.ExpressionScannerUnexpectedCharacter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unexpected character '{0}'.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unexpected character '{0}'.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the unexpected character.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.WorkflowError.ExpressionSegmentNotTerminated" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The string interpolation segment is not terminated.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The string interpolation segment is not terminated.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.WorkflowError.InvalidExpressionBuilderType" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid expression type '{0}'.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid expression type '{0}'.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the expression type]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.WorkflowError.NotExpression" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The provided value '{0}' is not an expression.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The provided value '{0}' is not an expression.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the inputted value.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.WorkflowError.UnexpectedDereference" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An unexpected dereference expression was found.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[An unexpected dereference expression was found.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.WorkflowError.UnrecognizedExpression" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The expression '{0}' could not be recognized.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The expression '{0}' could not be recognized.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the expression value.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,156 @@
+{
+  "strings": {
+    "Carousel": {
+      "CircleButtonLabelFormat": "Slide {0}",
+      "NextActionLabel": "Next",
+      "Pause": "Pause",
+      "Play": "Play",
+      "PlayPauseActionLabel": "Play - Pause",
+      "PreviousActionLabel": "Previous"
+    },
+    "Common": {
+      "All": "All",
+      "Back": "Back",
+      "Cancel": "Cancel",
+      "Canceled": "Canceled",
+      "ClickToCopy": "Click to copy",
+      "ClientRequestAborted": "Client request aborted. Please see https://aka.ms/powerAutomateClientRequestAborted for more details.",
+      "Close": "Close",
+      "Copied": "Copied!",
+      "Create": "Create",
+      "Creating": "Creating",
+      "Delete": "Delete",
+      "Details": "Details",
+      "Dismiss": "Dismiss",
+      "DismissMessage": "Dismiss message",
+      "Done": "Done",
+      "Edit": "Edit",
+      "Error": "Error",
+      "Errors": "Errors",
+      "FailedToFetch": "Failed to fetch. Please see https://aka.ms/powerautomate-failedtofetch for more details.",
+      "FieldRequired": "This field is required.",
+      "FieldRequiredWithDisplayName": "{0} is required",
+      "GotIt": "Got it",
+      "Import": "Import",
+      "Information": "Information",
+      "LearnMore": "Learn more",
+      "Loading": "Loading",
+      "MaybeLater": "Maybe later",
+      "MicrosoftFlow": "Microsoft Flow",
+      "NetworkError": "Network Error. Please see https://aka.ms/powerautomate-networkerror for more details.",
+      "Next": "Next",
+      "NoSearchResults": {
+        "Details": "Check the spelling or try a different word",
+        "Title": "No search results found"
+      },
+      "NumbersOnly": "This field only accepts numeric values.",
+      "Ok": "OK",
+      "PositiveNumbersOnly": "Only positive integers are allowed.",
+      "Refresh": "Refresh",
+      "Required": "Required",
+      "RowSelectionAriaLabel": "Row Selection",
+      "Save": "Save",
+      "Saving": "Saving",
+      "Success": "Success",
+      "SeeMore": "See more",
+      "Select": "Select",
+      "SelectAll": "Select All",
+      "SomethingWentWrong": "Something went wrong. Please refresh the page or try again after some time.",
+      "SomethingWentWrongShort": "Something went wrong",
+      "SomethingWentWrongShortWithError": "Something went wrong: {0}",
+      "Troubleshoot": "Troubleshoot",
+      "Untitled": "Untitled",
+      "Warning": "Warning",
+      "Warnings": "Warnings",
+      "Working": "Working..."
+    },
+    "Datepicker": {
+      "Go": {
+        "To": {
+          "Today": "Go to today"
+        }
+      },
+      "Invalid": {
+        "Input": {
+          "Error": {
+            "Message": "Invalid date format. Please enter date as YYYY-MM-DD."
+          }
+        }
+      }
+    },
+    "DatePicker": {
+      "PreviousMonth": "Go to previous month",
+      "NextMonth": "Go to next month",
+      "PreviousYear": "Go to previous year",
+      "NextYear": "Go to next year",
+      "Close": "Close date picker"
+    },
+    "Dialogs": {
+      "CancelFlowRun": {
+        "Header": "Cancel flow run?",
+        "ContentGA": "Canceling the flow run '{0}' will also cancel any desktop flow runs associated with it.",
+        "Button": {
+          "ConfirmAction": "Cancel run",
+          "CancelAction": "Keep working"
+        }
+      }
+    },
+    "Entity": {
+      "Search": "Search",
+      "ClearSearch": "Clear search"
+    },
+    "List": {
+      "ShowMore": "Show more"
+    },
+    "ListCommands": {
+      "More": "More actions"
+    },
+    "Menu": {
+      "Overflow": {
+        "Tooltip": "More commands",
+        "Label": "More commands"
+      }
+    },
+    "SelectionPanel": {
+      "Apply": {
+        "AriaLabel": "Apply changes and close panel",
+        "Narrator": "Filter applied",
+        "Text": "Apply"
+      },
+      "Cancel": {
+        "AriaLabel": "Cancel changes and close panel",
+        "Text": "Cancel"
+      },
+      "ClearAll": {
+        "Narrator": "All cleared",
+        "Text": "Clear all"
+      },
+      "Header": "{0} ({1})",
+      "SearchBox": {
+        "AriaLabel": "Search {0}",
+        "NoResultFormat": "No result found for {0}",
+        "Placeholder": "Search",
+        "ResultFormat": "Found a result for {0}",
+        "ResultsFormat": "Found {0} results for {1}"
+      },
+      "SelectAll": {
+        "Narrator": "All selected",
+        "Text": "Select all"
+      }
+    },
+    "TrialDialog": {
+      "AdminBlockedTrial": {
+        "Content": "Please contact your admin to see if they can unblock you.",
+        "Title": "Trials are blocked by your org's admin"
+      }
+    },
+    "Unknown": {
+      "StartTime": "Unknown start time"
+    },
+    "UserConsent": {
+      "TermsAndConditions": {
+        "Link": "terms and conditions"
+      }
+    }
+  }
+}

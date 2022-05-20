@@ -1,0 +1,373 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close_Description" xml:space="preserve">
+    <value>Close a previously opened CMD session</value>
+  </data>
+  <data name="Close_FriendlyName" xml:space="preserve">
+    <value>Close CMD session</value>
+  </data>
+  <data name="Close_Session_Description" xml:space="preserve">
+    <value>The CMD session to close. Specify this variable in an open CMD session action</value>
+  </data>
+  <data name="Close_Session_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="Close_Summary" xml:space="preserve">
+    <value>Close the CMD session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="CmdSessionHandle_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="CmdSessionHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>CMD sessions</value>
+  </data>
+  <data name="Cmd_Description" xml:space="preserve">
+    <value>Automate a CMD session</value>
+  </data>
+  <data name="Cmd_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="Error_OpenCmdError_Description" xml:space="preserve">
+    <value>Indicates a problem initiating a CMD session</value>
+  </data>
+  <data name="Error_OpenCmdError_FriendlyName" xml:space="preserve">
+    <value>Can't start CMD session</value>
+  </data>
+  <data name="Error_SessionClosedError_Description" xml:space="preserve">
+    <value>Indicates that the CMD session specified is closed</value>
+  </data>
+  <data name="Error_SessionClosedError_FriendlyName" xml:space="preserve">
+    <value>CMD session is closed</value>
+  </data>
+  <data name="Error_TimeoutExpiredError_Description" xml:space="preserve">
+    <value>Indicates that the specified timeout period has elapsed before the text appeared in the CMD session</value>
+  </data>
+  <data name="Error_TimeoutExpiredError_FriendlyName" xml:space="preserve">
+    <value>Timeout occurred while waiting for text</value>
+  </data>
+  <data name="Error_WorkingDirectoryDoesNotExist_Description" xml:space="preserve">
+    <value>Indicates that an error occured trying to locate the working directory</value>
+  </data>
+  <data name="Error_WorkingDirectoryDoesNotExist_FriendlyName" xml:space="preserve">
+    <value>Working directory doesn't exist</value>
+  </data>
+  <data name="Error_WriteCmdError_Description" xml:space="preserve">
+    <value>Indicates an error writing to a CMD session</value>
+  </data>
+  <data name="Error_WriteCmdError_FriendlyName" xml:space="preserve">
+    <value>Can't write to CMD session</value>
+  </data>
+  <data name="Open_Description" xml:space="preserve">
+    <value>Open a new CMD session</value>
+  </data>
+  <data name="OpenCmdSession_Directory_Description" xml:space="preserve">
+    <value>The full path of the folder to start the CMD session, if applicable</value>
+  </data>
+  <data name="OpenCmdSession_Directory_FriendlyName" xml:space="preserve">
+    <value>Working folder</value>
+  </data>
+  <data name="OpenCmdSession_FriendlyName" xml:space="preserve">
+    <value>Open CMD session</value>
+  </data>
+  <data name="OpenCmdSession_Session_Description" xml:space="preserve">
+    <value>The CMD session for use with later CMD actions</value>
+  </data>
+  <data name="OpenCmdSession_Session_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="Open_Summary" xml:space="preserve">
+    <value>&lt;if(DIRECTORY&amp;&amp;SESSION)&gt;
+Start a new CMD session with working directory &lt;DIRECTORY&gt; and store it into &lt;SESSION&gt;&lt;elseif(DIRECTORY)&gt;
+Start a new CMD session with working directory &lt;DIRECTORY&gt;&lt;elseif(SESSION)&gt;
+Start a new CMD session and store it into &lt;SESSION&gt;&lt;else&gt;
+Start a new CMD session&lt;endif&gt;</value>
+    <comment>{Locked="&lt;DIRECTORY&gt;"}{Locked="&lt;if(DIRECTORY&amp;&amp;SESSION)&gt;"}{Locked="&lt;elseif(DIRECTORY)&gt;"}{Locked="&lt;elseif(SESSION)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;if(SESSION)&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="Read_Description" xml:space="preserve">
+    <value>Read the output of a CMD session</value>
+  </data>
+  <data name="Read_Summary" xml:space="preserve">
+    <value>&lt;if(CMDOUTPUT)&gt;
+Read output from CMD session &lt;SESSION&gt; and store standard output to &lt;CMDOUTPUT&gt;&lt;else&gt;
+Read output from CMD session &lt;SESSION&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;SESSION&gt;"}{Locked="&lt;CMDOUTPUT&gt;"}{Locked="&lt;if(CMDOUTPUT)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ReadAndSplit_Description" xml:space="preserve">
+    <value>Read the output and error of a CMD session</value>
+  </data>
+  <data name="ReadAndSplit_Summary" xml:space="preserve">
+    <value>&lt;if(CMDOUTPUT&amp;&amp;CMDERROR)&gt;
+Read output from CMD session &lt;SESSION&gt; and store standard output to &lt;CMDOUTPUT&gt; and store standard error to &lt;CMDERROR&gt;&lt;elseif(CMDOUTPUT)&gt;
+Read output from CMD session &lt;SESSION&gt; and store standard output to &lt;CMDOUTPUT&gt;&lt;elseif(CMDERROR)&gt;
+Read output from CMD session &lt;SESSION&gt; and store standard error to &lt;CMDERROR&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;SESSION&gt;"}{Locked="&lt;CMDOUTPUT&gt;"}{Locked="&lt;CMDERROR&gt;"}{Locked="&lt;if(CMDOUTPUT&amp;&amp;CMDERROR)&gt;"}{Locked="&lt;elseif(CMDOUTPUT)&gt;"}{Locked="&lt;elseif(CMDERROR)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ReadFromCmdSession_CmdError_Description" xml:space="preserve">
+    <value>The CMD session's standard error</value>
+  </data>
+  <data name="ReadFromCmdSession_CmdError_FriendlyName" xml:space="preserve">
+    <value>CMD standard error</value>
+  </data>
+  <data name="ReadFromCmdSession_CmdOutput_Description" xml:space="preserve">
+    <value>The CMD session's standard output</value>
+  </data>
+  <data name="ReadFromCmdSession_CmdOutput_FriendlyName" xml:space="preserve">
+    <value>CMD standard output</value>
+  </data>
+  <data name="ReadFromCmdSession_Description" xml:space="preserve">
+    <value>Read the output of a CMD session</value>
+  </data>
+  <data name="ReadFromCmdSession_FriendlyName" xml:space="preserve">
+    <value>Read from CMD session</value>
+  </data>
+  <data name="ReadFromCmdSession_Session_Description" xml:space="preserve">
+    <value>A previously opened CMD session</value>
+  </data>
+  <data name="ReadFromCmdSession_Session_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="ReadFromCmdSession_SplitOutputAndError_Description" xml:space="preserve">
+    <value>Specifies whether to store the standard output and the standard error into different variables or combined into one</value>
+  </data>
+  <data name="ReadFromCmdSession_SplitOutputAndError_FriendlyName" xml:space="preserve">
+    <value>Separate output from error</value>
+  </data>
+  <data name="WaitForText_Description" xml:space="preserve">
+    <value>Wait for a specific text on a previously opened CMD session</value>
+  </data>
+  <data name="WaitForText_FriendlyName" xml:space="preserve">
+    <value>Wait for text on CMD session</value>
+  </data>
+  <data name="WaitForText_IgnoreCase_Description" xml:space="preserve">
+    <value>Specifies whether the text to wait should match with standard output or standard error without taking into account the case of the text</value>
+  </data>
+  <data name="WaitForText_IgnoreCase_FriendlyName" xml:space="preserve">
+    <value>Ignore case</value>
+  </data>
+  <data name="WaitForText_IsRegEx_Description" xml:space="preserve">
+    <value>Specifies whether to wait for a regular expression instead of plain text</value>
+  </data>
+  <data name="WaitForText_IsRegEx_FriendlyName" xml:space="preserve">
+    <value>Is regular expression</value>
+  </data>
+  <data name="WaitForText_Session_Description" xml:space="preserve">
+    <value>An open CMD session variable</value>
+  </data>
+  <data name="WaitForText_Session_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="WaitForText_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; on CMD session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="WaitForText_Text_Description" xml:space="preserve">
+    <value>The text or regular expression to wait to appear on standard output or on standard error</value>
+  </data>
+  <data name="WaitForText_Text_FriendlyName" xml:space="preserve">
+    <value>Text to wait</value>
+  </data>
+  <data name="WaitForText_Timeout_Description" xml:space="preserve">
+    <value>Specifies whether to wait indefinitely for the text to appear or to fail if the text doesn't show up within a set time period</value>
+  </data>
+  <data name="WaitForText_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Write_Command_Description" xml:space="preserve">
+    <value>The name of the command to execute</value>
+  </data>
+  <data name="Write_Command_FriendlyName" xml:space="preserve">
+    <value>Command</value>
+  </data>
+  <data name="Write_Description" xml:space="preserve">
+    <value>Execute a command on an open CMD session</value>
+  </data>
+  <data name="Write_FriendlyName" xml:space="preserve">
+    <value>Write to CMD session</value>
+  </data>
+  <data name="Write_SendEnter_Description" xml:space="preserve">
+    <value>Specifies whether to send an &lt;Enter&gt; the command</value>
+    <comment>{Locked="&lt;Enter&gt;"}</comment>
+  </data>
+  <data name="Write_SendEnter_FriendlyName" xml:space="preserve">
+    <value>Send &lt;Enter&gt; after command</value>
+    <comment>{Locked="&lt;Enter&gt;"}</comment>
+  </data>
+  <data name="Write_Session_Description" xml:space="preserve">
+    <value>A previously opened CMD session variable</value>
+  </data>
+  <data name="Write_Session_FriendlyName" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="Write_Summary" xml:space="preserve">
+    <value>&lt;if(SENDENTER)&gt;
+Execute the command &lt;COMMAND&gt; and then send Enter at CMD session &lt;SESSION&gt;&lt;else&gt;
+Execute the command &lt;COMMAND&gt; at CMD session &lt;SESSION&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(SENDENTER)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;COMMAND&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_WorkingDirectoryNotExists" xml:space="preserve">
+    <value>Working directory '{0}' doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidTimeout" xml:space="preserve">
+    <value>Timeout should be greater than zero (0)</value>
+  </data>
+  <data name="ErrorMessage_CmdSessionIsClosed" xml:space="preserve">
+    <value>CMD session is closed</value>
+  </data>
+  <data name="ErrorMessage_TimeoutOccurred" xml:space="preserve">
+    <value>Timeout occurred while waiting for text {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotStartSession" xml:space="preserve">
+    <value>Can't start CMD session</value>
+  </data>
+  <data name="ErrorMessage_CannotWriteToCmdSession" xml:space="preserve">
+    <value>Can't write to CMD session</value>
+  </data>
+  <data name="Message_CmdSessionHandle" xml:space="preserve">
+    <value>CMD session</value>
+  </data>
+  <data name="OpenCmdSession_ChangeCodePage_Description" xml:space="preserve">
+    <value>Specifies whether to change the current session's code page</value>
+  </data>
+  <data name="OpenCmdSession_ChangeCodePage_FriendlyName" xml:space="preserve">
+    <value>Change code page</value>
+  </data>
+  <data name="OpenCmdSession_Encoding_Description" xml:space="preserve">
+    <value>The encoding to use when reading the cmd output</value>
+  </data>
+  <data name="OpenCmdSession_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="OpenWithCodePage_Description" xml:space="preserve">
+    <value>Open a new CMD session with the specified code page</value>
+  </data>
+  <data name="OpenWithCodePage_Summary" xml:space="preserve">
+    <value>&lt;if(DIRECTORY&amp;&amp;SESSION)&gt;
+Start a new CMD session with working directory &lt;DIRECTORY&gt; and store it into &lt;SESSION&gt;&lt;elseif(DIRECTORY)&gt;
+Start a new CMD session with working directory &lt;DIRECTORY&gt;&lt;elseif(SESSION)&gt;
+Start a new CMD session and store it into &lt;SESSION&gt;&lt;else&gt;
+Start a new CMD session&lt;endif&gt;</value>
+  </data>
+  <data name="OpenCmdSession_Description" xml:space="preserve">
+    <value>Open a new CMD session</value>
+  </data>
+</root>

@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\headerContainer.json" PsrId="306" FileType="1" SrcCul="en-US" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.header.environmentPicker.environmentPickerButtonLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Environments]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Environment picker button label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.PADesktop" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Power Automate Desktop link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.PAForMobile" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for Mobile]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Power Automate for Mobile link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.blog" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Blog]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Blog link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.community" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Community]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Community link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.dataGateway" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Data Gateway]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Data Gateway link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.desktopFlows" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flows]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Desktop flows link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.documentation" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Documentation]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Documentation link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.giveFeedback" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Give Feedback]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Give Feedback link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.learn" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Learn link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.pricing" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Pricing]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Pricing link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.roadmap" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Roadmap]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Roadmap link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.helpMenu.support" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Support]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Support link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.settingsMenu.adminCenter" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Admin Center]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Admin center link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.settingsMenu.powerAutomateSettings" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View all Power Automate Settings]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Power automate settings link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.settingsMenu.viewMyLicenses" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View My Licenses]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[View My Licenses link text]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.header.signoutMenu.signoutButtonLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sign out]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Sign out button label]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.aibuilder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[AI Builder]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for AI Builder capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.customConnector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom connectors]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Custom connectors capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.onPremiseConnector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[On-premise connectors]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for On-premise connectors capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.premiumConnector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Premium connectors]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Premium connectors capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.processAdvisor" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Process advisor]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Process advisor]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.processFlows" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Business process flows]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Business process flows capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.rpaAttended" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Robotic process automation (RPA) - attended]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Robotic process automation (RPA) - attended capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.rpaUnattended" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Robotic process automation (RPA) - unattended]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Robotic process automation (RPA) - unattended capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.capabilities.standardConnector" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Standard connectors]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Display name for Standard connectors capability]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.environmentPlans.aibuilder" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[AI Builder add-on]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is the display name for AI Builder add-on]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.environmentPlans.perFlowPlan" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Per-flow plan]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is the display name for per flow plan]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.environmentPlans.unattended" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Robotic process automation (RPA) - unattended add-on]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is the display name for unattended add-on]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.title" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Licenses]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is the title of the view my license panel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.viewMyLicensesPanel.userPlans.aiBuilderTrial" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[AI Builder Trial]]></Val>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[This is the display name for AI Builder Trial plan]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,745 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Copy_CopiedFolder_Description" xml:space="preserve">
+    <value>The copied folder object (which is a representation and can access the folder and all its information)</value>
+  </data>
+  <data name="Copy_CopiedFolder_FriendlyName" xml:space="preserve">
+    <value>Copied folder</value>
+  </data>
+  <data name="Copy_Description" xml:space="preserve">
+    <value>Copy a folder into a destination folder</value>
+  </data>
+  <data name="Copy_Destination_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to be the destination folder</value>
+  </data>
+  <data name="Copy_Destination_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="Copy_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to copy. If the folder path ends with a \ only the contents of the folder (files + subfolders) are copied. Otherwise, the folder itself (along with its contents) is copied as a subfolder into the destination folder.</value>
+  </data>
+  <data name="Copy_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder to copy</value>
+  </data>
+  <data name="Copy_FriendlyName" xml:space="preserve">
+    <value>Copy folder</value>
+  </data>
+  <data name="Copy_IfFolderExists_Description" xml:space="preserve">
+    <value>Specify whether to overwrite files or not copy them at all, if the destination folder already exists. If the folder exists, but the files have different names, the old files still remain in the folder.</value>
+  </data>
+  <data name="Copy_IfFolderExists_FriendlyName" xml:space="preserve">
+    <value>If folder exists</value>
+  </data>
+  <data name="Copy_Summary" xml:space="preserve">
+    <value>Copy the folder &lt;FOLDER&gt; into &lt;DESTINATION&gt;</value>
+    <comment>{Locked="&lt;FOLDER&gt;"}{Locked="&lt;DESTINATION&gt;"}</comment>
+  </data>
+  <data name="Create_Description" xml:space="preserve">
+    <value>Create a new folder</value>
+  </data>
+  <data name="Create_Folder_Description" xml:space="preserve">
+    <value>The created folder object (which is a representation and can access the folder and all its information)</value>
+  </data>
+  <data name="Create_Folder_FriendlyName" xml:space="preserve">
+    <value>Newly created folder</value>
+  </data>
+  <data name="Create_FolderName_Description" xml:space="preserve">
+    <value>Enter the text, or a text variable, to be the name of the new folder</value>
+  </data>
+  <data name="Create_FolderName_FriendlyName" xml:space="preserve">
+    <value>New folder name</value>
+  </data>
+  <data name="Create_FolderPath_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to create a new folder in</value>
+  </data>
+  <data name="Create_FolderPath_FriendlyName" xml:space="preserve">
+    <value>Create new folder into</value>
+  </data>
+  <data name="Create_FriendlyName" xml:space="preserve">
+    <value>Create folder</value>
+  </data>
+  <data name="Create_Summary" xml:space="preserve">
+    <value>Create folder &lt;FOLDERNAME&gt; into &lt;FOLDERPATH&gt;</value>
+    <comment>{Locked="&lt;FOLDERNAME&gt;"}{Locked="&lt;FOLDERPATH&gt;"}</comment>
+  </data>
+  <data name="Delete_Description" xml:space="preserve">
+    <value>Delete an existing folder and its contents (files and subfolders)</value>
+  </data>
+  <data name="Delete_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to delete. Remember that all contents of that folder and its subfolders are deleted too.</value>
+  </data>
+  <data name="Delete_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder to delete</value>
+  </data>
+  <data name="Delete_FriendlyName" xml:space="preserve">
+    <value>Delete folder</value>
+  </data>
+  <data name="Delete_Summary" xml:space="preserve">
+    <value>Delete folder &lt;FOLDER&gt;</value>
+    <comment>{Locked="&lt;FOLDER&gt;"}</comment>
+  </data>
+  <data name="DoesNotExist_Description" xml:space="preserve">
+    <value>Check whether a folder doesn't exist</value>
+  </data>
+  <data name="Empty_Description" xml:space="preserve">
+    <value>Delete all the contents of a folder (files and subfolders) without deleting the folder itself</value>
+  </data>
+  <data name="Empty_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to delete its contents</value>
+  </data>
+  <data name="Empty_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder to empty</value>
+  </data>
+  <data name="Empty_FriendlyName" xml:space="preserve">
+    <value>Empty folder</value>
+  </data>
+  <data name="Empty_Summary" xml:space="preserve">
+    <value>Delete the contents of the folder &lt;FOLDER&gt;</value>
+    <comment>{Locked="&lt;FOLDER&gt;"}</comment>
+  </data>
+  <data name="Error_CopyFolderError_Description" xml:space="preserve">
+    <value>Indicates a problem copying the folder</value>
+  </data>
+  <data name="Error_CopyFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't copy folder</value>
+  </data>
+  <data name="Error_CreateFolderError_Description" xml:space="preserve">
+    <value>Indicates a problem creating the folder</value>
+  </data>
+  <data name="Error_CreateFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't create folder</value>
+  </data>
+  <data name="Error_DeleteFolderError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the folder</value>
+  </data>
+  <data name="Error_DeleteFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't delete folder</value>
+  </data>
+  <data name="Error_EmptyFolderError_Description" xml:space="preserve">
+    <value>Indicates a problem clearing the folder's contents</value>
+  </data>
+  <data name="Error_EmptyFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't delete folder's contents</value>
+  </data>
+  <data name="Error_EmptyNewFolderPathAndNameError_Description" xml:space="preserve">
+    <value>Indicates that both the new folder path and folder name don't have value</value>
+  </data>
+  <data name="Error_EmptyNewFolderPathAndNameError_FriendlyName" xml:space="preserve">
+    <value>New folder path and name are empty</value>
+  </data>
+  <data name="Error_FolderNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the folder wasn't found</value>
+  </data>
+  <data name="Error_FolderNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Folder doesn't exist</value>
+  </data>
+  <data name="Error_InvalidDestinationFolderError_Description" xml:space="preserve">
+    <value>Indicates that the destination folder wasn't found</value>
+  </data>
+  <data name="Error_InvalidDestinationFolderError_FriendlyName" xml:space="preserve">
+    <value>Destination folder doesn't exist</value>
+  </data>
+  <data name="Error_MoveFolderError_Description" xml:space="preserve">
+    <value>Indicates a problem moving the folder</value>
+  </data>
+  <data name="Error_MoveFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't move folder</value>
+  </data>
+  <data name="Error_RenameFolderError_Description" xml:space="preserve">
+    <value>Indicates a problem renaming the folder</value>
+  </data>
+  <data name="Error_RenameFolderError_FriendlyName" xml:space="preserve">
+    <value>Can't rename folder</value>
+  </data>
+  <data name="Error_RetrieveFilesError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the list of files</value>
+  </data>
+  <data name="Error_RetrieveFilesError_FriendlyName" xml:space="preserve">
+    <value>Can't retrieve list of files</value>
+  </data>
+  <data name="Error_RetrieveSubfoldersError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the list of subfolders</value>
+  </data>
+  <data name="Error_RetrieveSubfoldersError_FriendlyName" xml:space="preserve">
+    <value>Can't retrieve list of subfolders</value>
+  </data>
+  <data name="Exists_Description" xml:space="preserve">
+    <value>Checks whether a folder exists</value>
+  </data>
+  <data name="Folder_Description" xml:space="preserve">
+    <value>Manage and manipulate folders</value>
+  </data>
+  <data name="Folder_FriendlyName" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="FolderExistsAction_CheckMode_Description" xml:space="preserve">
+    <value>Choose the state of the folder to check</value>
+  </data>
+  <data name="FolderExistsAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>If folder</value>
+  </data>
+  <data name="FolderExistsAction_Path_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to check its state</value>
+  </data>
+  <data name="FolderExistsAction_Path_FriendlyName" xml:space="preserve">
+    <value>Folder path</value>
+  </data>
+  <data name="GetFiles_Description" xml:space="preserve">
+    <value>Retrieve the list of files in a folder</value>
+  </data>
+  <data name="GetFiles_FailOnAccessDenied_Description" xml:space="preserve">
+    <value>Specify whether to throw an error when trying to get files of a folder with no access rights or ignore those folders</value>
+  </data>
+  <data name="GetFiles_FailOnAccessDenied_FriendlyName" xml:space="preserve">
+    <value>Fail upon denied access to any subfolder</value>
+  </data>
+  <data name="GetFiles_FileFilter_Description" xml:space="preserve">
+    <value>Choose a filter to limit the files retrieved. This allows wild cards, for example, *.txt or document?.doc. To allow for multiple file filters, separate the choices with a semi-colon, for example, *.txt;*.exe.</value>
+  </data>
+  <data name="GetFiles_FileFilter_FriendlyName" xml:space="preserve">
+    <value>File filter</value>
+  </data>
+  <data name="GetFiles_Files_Description" xml:space="preserve">
+    <value>The retrieved files as a list of file objects</value>
+  </data>
+  <data name="GetFiles_Files_FriendlyName" xml:space="preserve">
+    <value>Retrieved files</value>
+  </data>
+  <data name="GetFiles_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to retrieve the list of files from</value>
+  </data>
+  <data name="GetFiles_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="GetFiles_FriendlyName" xml:space="preserve">
+    <value>Get files in folder</value>
+  </data>
+  <data name="GetFiles_IncludeSubfolders_Description" xml:space="preserve">
+    <value>Specify whether to look into subfolders as well</value>
+  </data>
+  <data name="GetFiles_IncludeSubfolders_FriendlyName" xml:space="preserve">
+    <value>Include subfolders</value>
+  </data>
+  <data name="GetFiles_SortBy1_Description" xml:space="preserve">
+    <value>Specify whether to sort the results and by which criterion</value>
+  </data>
+  <data name="GetFiles_SortBy1_FriendlyName" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="GetFiles_SortBy2_Description" xml:space="preserve">
+    <value>Specify whether to sort the results by a second criterion</value>
+  </data>
+  <data name="GetFiles_SortBy2_FriendlyName" xml:space="preserve">
+    <value>Then by</value>
+  </data>
+  <data name="GetFiles_SortBy3_Description" xml:space="preserve">
+    <value>Specify whether to sort the results by a third criterion</value>
+  </data>
+  <data name="GetFiles_SortBy3_FriendlyName" xml:space="preserve">
+    <value>Then by</value>
+  </data>
+  <data name="GetFiles_SortDescending1_Description" xml:space="preserve">
+    <value>Specify whether to sort the items in descending or ascending order</value>
+  </data>
+  <data name="GetFiles_SortDescending1_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GetFiles_SortDescending2_Description" xml:space="preserve">
+    <value>Specify whether to sort the items in descending or ascending order</value>
+  </data>
+  <data name="GetFiles_SortDescending2_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GetFiles_SortDescending3_Description" xml:space="preserve">
+    <value>Specify whether to sort the items in descending or ascending order</value>
+  </data>
+  <data name="GetFiles_SortDescending3_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GetFiles_Summary" xml:space="preserve">
+    <value>&lt;if(INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;
+Retrieve the files in folder &lt;FOLDER&gt; and its subfolders that match &lt;FILEFILTER&gt; and store them into &lt;FILES&gt;&lt;elseif(INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;
+Retrieve the files in folder &lt;FOLDER&gt; and its subfolders that match &lt;FILEFILTER&gt;, without failing on access denied and store them into &lt;FILES&gt;&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;
+Retrieve the files in folder &lt;FOLDER&gt; that match &lt;FILEFILTER&gt; and store them into &lt;FILES&gt;&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;
+Retrieve the files in folder &lt;FOLDER&gt; that match &lt;FILEFILTER&gt;, without failing on access denied and store them into &lt;FILES&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;"}{Locked="&lt;FOLDER&gt;"}{Locked="&lt;FILEFILTER&gt;"}{Locked="&lt;FILES&gt;"}{Locked="&lt;elseif(INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;"}{Locked="&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;"}{Locked="&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="GetSpecialFolder_Description" xml:space="preserve">
+    <value>Retrieve the path of a Windows' special folder (such as Desktop, My Pictures, Internet Cache, etc.)</value>
+  </data>
+  <data name="GetSpecialFolder_FriendlyName" xml:space="preserve">
+    <value>Get special folder</value>
+  </data>
+  <data name="GetSpecialFolder_SpecialFolder_Description" xml:space="preserve">
+    <value>Choose the name of the special folder (like My Documents or Desktop). This will be independent of path, to find the special folder on any computer regardless of path specifics.</value>
+  </data>
+  <data name="GetSpecialFolder_SpecialFolder_FriendlyName" xml:space="preserve">
+    <value>Special folder name</value>
+  </data>
+  <data name="GetSpecialFolder_SpecialFolderPath_Description" xml:space="preserve">
+    <value>The special folder object (which is a representation and can access the folder and all its information)</value>
+  </data>
+  <data name="GetSpecialFolder_SpecialFolderPath_FriendlyName" xml:space="preserve">
+    <value>Special folder path</value>
+  </data>
+  <data name="GetSpecialFolder_Summary" xml:space="preserve">
+    <value>&lt;if(SPECIALFOLDERPATH)&gt;
+Get the path of the folder &lt;SPECIALFOLDER&gt; and store it into &lt;SPECIALFOLDERPATH&gt;&lt;else&gt;
+Get the path of the folder &lt;SPECIALFOLDER&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(SPECIALFOLDERPATH)&gt;"}{Locked="&lt;SPECIALFOLDER&gt;"}{Locked="&lt;SPECIALFOLDERPATH&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="GetSubfolders_Description" xml:space="preserve">
+    <value>Retrieve the list of subfolders in a folder</value>
+  </data>
+  <data name="GetSubfolders_FailOnAccessDenied_Description" xml:space="preserve">
+    <value>Specify whether to throw an error when trying to get subfolders of a folder with no access rights or ignore those folders</value>
+  </data>
+  <data name="GetSubfolders_FailOnAccessDenied_FriendlyName" xml:space="preserve">
+    <value>Fail upon denied access to any subfolder</value>
+  </data>
+  <data name="GetSubfolders_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to retrieve the list of subfolders from</value>
+  </data>
+  <data name="GetSubfolders_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="GetSubfolders_FolderFilter_Description" xml:space="preserve">
+    <value>Choose a filter to limit the subfolders retrieved. This allows wild cards, for example, Doc* or Document?. To allow for multiple folder filters, separate the choices with a semi-colon, for example, Doc*;*.</value>
+  </data>
+  <data name="GetSubfolders_FolderFilter_FriendlyName" xml:space="preserve">
+    <value>Folder filter</value>
+  </data>
+  <data name="GetSubfolders_FriendlyName" xml:space="preserve">
+    <value>Get subfolders in folder</value>
+  </data>
+  <data name="GetSubfolders_IncludeSubfolders_Description" xml:space="preserve">
+    <value>Specify whether to look into the subfolders and retrieve their subfolders (and so on) as well</value>
+  </data>
+  <data name="GetSubfolders_IncludeSubfolders_FriendlyName" xml:space="preserve">
+    <value>Include subfolders</value>
+  </data>
+  <data name="GetSubfolders_SortBy1_Description" xml:space="preserve">
+    <value>Specify whether to sort the results and by which criterion</value>
+  </data>
+  <data name="GetSubfolders_SortBy1_FriendlyName" xml:space="preserve">
+    <value>Sort by</value>
+  </data>
+  <data name="GetSubfolders_SortBy2_Description" xml:space="preserve">
+    <value>Specify whether to sort the results by a second criterion</value>
+  </data>
+  <data name="GetSubfolders_SortBy2_FriendlyName" xml:space="preserve">
+    <value>Then by</value>
+  </data>
+  <data name="GetSubfolders_SortBy3_Description" xml:space="preserve">
+    <value>Specify whether to sort the results by a third criterion</value>
+  </data>
+  <data name="GetSubfolders_SortBy3_FriendlyName" xml:space="preserve">
+    <value>Then by</value>
+  </data>
+  <data name="GetSubfolders_SortDescending1_Description" xml:space="preserve">
+    <value>Specify whether to sort the items in descending or ascending order</value>
+  </data>
+  <data name="GetSubfolders_SortDescending1_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GetSubfolders_SortDescending2_Description" xml:space="preserve">
+    <value>Specify whether to sort the items in descending or ascending order</value>
+  </data>
+  <data name="GetSubfolders_SortDescending2_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GetSubfolders_SortDescending3_Description" xml:space="preserve">
+    <value>Specify whether to sort the items in descending or ascending order</value>
+  </data>
+  <data name="GetSubfolders_SortDescending3_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="GetSubfolders_Subfolders_Description" xml:space="preserve">
+    <value>The retrieved subfolders as a list of folder objects</value>
+  </data>
+  <data name="GetSubfolders_Subfolders_FriendlyName" xml:space="preserve">
+    <value>Retrieved subfolders</value>
+  </data>
+  <data name="GetSubfolders_Summary" xml:space="preserve">
+    <value>&lt;if(INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;
+Retrieve the subfolders in folder &lt;FOLDER&gt; and its subfolders that match &lt;FOLDERFILTER&gt; and store them into &lt;SUBFOLDERS&gt;&lt;elseif(INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;
+Retrieve the subfolders in folder &lt;FOLDER&gt; and its subfolders that match &lt;FOLDERFILTER&gt;, without failing on access denied and store them into &lt;SUBFOLDERS&gt;&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;
+Retrieve the subfolders in folder &lt;FOLDER&gt; that match &lt;FOLDERFILTER&gt; and store them into &lt;SUBFOLDERS&gt;&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;
+Retrieve the subfolders in folder &lt;FOLDER&gt; that match &lt;FOLDERFILTER&gt;, without failing on access denied and store them into &lt;SUBFOLDERS&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;"}{Locked="&lt;FOLDER&gt;"}{Locked="&lt;FOLDERFILTER&gt;"}{Locked="&lt;SUBFOLDERS&gt;"}{Locked="&lt;elseif(INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;"}{Locked="&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;FAILONACCESSDENIED)&gt;"}{Locked="&lt;elseif(!INCLUDESUBFOLDERS&amp;&amp;!FAILONACCESSDENIED)&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="IfExists_DoNothing_FriendlyName" xml:space="preserve">
+    <value>Do nothing</value>
+  </data>
+  <data name="IfExists_Overwrite_FriendlyName" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="IfFolder_DoesNotExist_FriendlyName" xml:space="preserve">
+    <value>Doesn't exist</value>
+  </data>
+  <data name="IfFolder_Exists_FriendlyName" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="Move_Description" xml:space="preserve">
+    <value>Move an existing folder into a destination folder</value>
+  </data>
+  <data name="Move_Destination_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to be the destination folder</value>
+  </data>
+  <data name="Move_Destination_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="Move_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to move</value>
+  </data>
+  <data name="Move_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder to move</value>
+  </data>
+  <data name="Move_FriendlyName" xml:space="preserve">
+    <value>Move folder</value>
+  </data>
+  <data name="Move_MovedFolder_Description" xml:space="preserve">
+    <value>The moved folder object (which is a representation and can access the folder and all its information)</value>
+  </data>
+  <data name="Move_MovedFolder_FriendlyName" xml:space="preserve">
+    <value>Moved folder</value>
+  </data>
+  <data name="Move_Summary" xml:space="preserve">
+    <value>Move the folder &lt;FOLDER&gt; into &lt;DESTINATION&gt;</value>
+    <comment>{Locked="&lt;FOLDER&gt;"}{Locked="&lt;DESTINATION&gt;"}</comment>
+  </data>
+  <data name="Rename_Description" xml:space="preserve">
+    <value>Change the name of a folder</value>
+  </data>
+  <data name="Rename_Folder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to change its name</value>
+  </data>
+  <data name="Rename_Folder_FriendlyName" xml:space="preserve">
+    <value>Folder to rename</value>
+  </data>
+  <data name="Rename_FriendlyName" xml:space="preserve">
+    <value>Rename folder</value>
+  </data>
+  <data name="Rename_NewName_Description" xml:space="preserve">
+    <value>Enter the text, or a text variable, to be the new folder name</value>
+  </data>
+  <data name="Rename_NewName_FriendlyName" xml:space="preserve">
+    <value>New folder name</value>
+  </data>
+  <data name="Rename_RenamedFolder_Description" xml:space="preserve">
+    <value>The renamed folder object (which is a representation and can access the folder and all its information)</value>
+  </data>
+  <data name="Rename_RenamedFolder_FriendlyName" xml:space="preserve">
+    <value>Store renamed folder into</value>
+  </data>
+  <data name="Rename_Summary" xml:space="preserve">
+    <value>Rename the folder &lt;FOLDER&gt; to &lt;NEWNAME&gt;</value>
+    <comment>{Locked="&lt;FOLDER&gt;"}{Locked="&lt;NEWNAME&gt;"}</comment>
+  </data>
+  <data name="SortBy_CreationTime_FriendlyName" xml:space="preserve">
+    <value>Creation time</value>
+  </data>
+  <data name="SortBy_Directory_FriendlyName" xml:space="preserve">
+    <value>Directory</value>
+  </data>
+  <data name="SortBy_Exists_FriendlyName" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="SortBy_Extension_FriendlyName" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="SortBy_FullName_FriendlyName" xml:space="preserve">
+    <value>Full name</value>
+  </data>
+  <data name="SortBy_IsArchive_FriendlyName" xml:space="preserve">
+    <value>Is archive</value>
+  </data>
+  <data name="SortBy_IsHidden_FriendlyName" xml:space="preserve">
+    <value>Is hidden</value>
+  </data>
+  <data name="SortBy_IsReadOnly_FriendlyName" xml:space="preserve">
+    <value>Is read-only</value>
+  </data>
+  <data name="SortBy_IsSystem_FriendlyName" xml:space="preserve">
+    <value>Is system</value>
+  </data>
+  <data name="SortBy_LastAccessed_FriendlyName" xml:space="preserve">
+    <value>Last accessed</value>
+  </data>
+  <data name="SortBy_LastModified_FriendlyName" xml:space="preserve">
+    <value>Last modified</value>
+  </data>
+  <data name="SortBy_Name_FriendlyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="SortBy_NameWithoutExtension_FriendlyName" xml:space="preserve">
+    <value>Name without extension</value>
+  </data>
+  <data name="SortBy_NoSort_FriendlyName" xml:space="preserve">
+    <value>No sort</value>
+  </data>
+  <data name="SortBy_RootPath_FriendlyName" xml:space="preserve">
+    <value>Root path</value>
+  </data>
+  <data name="SortBy_Size_FriendlyName" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="SpecialFolder_ApplicationData_FriendlyName" xml:space="preserve">
+    <value>Application Data</value>
+  </data>
+  <data name="SpecialFolder_CommonApplicationData_FriendlyName" xml:space="preserve">
+    <value>Common Application Data</value>
+  </data>
+  <data name="SpecialFolder_CommonProgramFiles_FriendlyName" xml:space="preserve">
+    <value>Common Program Files</value>
+  </data>
+  <data name="SpecialFolder_Cookies_FriendlyName" xml:space="preserve">
+    <value>Cookies</value>
+  </data>
+  <data name="SpecialFolder_DesktopDirectory_FriendlyName" xml:space="preserve">
+    <value>Desktop</value>
+  </data>
+  <data name="SpecialFolder_Favorites_FriendlyName" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="SpecialFolder_History_FriendlyName" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="SpecialFolder_InternetCache_FriendlyName" xml:space="preserve">
+    <value>Internet Cache</value>
+  </data>
+  <data name="SpecialFolder_LocalApplicationData_FriendlyName" xml:space="preserve">
+    <value>Local Application Data</value>
+  </data>
+  <data name="SpecialFolder_MyMusic_FriendlyName" xml:space="preserve">
+    <value>Music</value>
+  </data>
+  <data name="SpecialFolder_MyPictures_FriendlyName" xml:space="preserve">
+    <value>Pictures</value>
+  </data>
+  <data name="SpecialFolder_Personal_FriendlyName" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="SpecialFolder_ProgramFiles_FriendlyName" xml:space="preserve">
+    <value>Program Files</value>
+  </data>
+  <data name="SpecialFolder_Programs_FriendlyName" xml:space="preserve">
+    <value>Programs</value>
+  </data>
+  <data name="SpecialFolder_Recent_FriendlyName" xml:space="preserve">
+    <value>Recent</value>
+  </data>
+  <data name="SpecialFolder_SendTo_FriendlyName" xml:space="preserve">
+    <value>Send To</value>
+  </data>
+  <data name="SpecialFolder_StartMenu_FriendlyName" xml:space="preserve">
+    <value>Start Menu</value>
+  </data>
+  <data name="SpecialFolder_Startup_FriendlyName" xml:space="preserve">
+    <value>Startup</value>
+  </data>
+  <data name="SpecialFolder_System_FriendlyName" xml:space="preserve">
+    <value>System</value>
+  </data>
+  <data name="SpecialFolder_Templates_FriendlyName" xml:space="preserve">
+    <value>Templates</value>
+  </data>
+  <data name="Conditionals_DoesNotExist_Summary" xml:space="preserve">
+    <value>If folder &lt;PATH&gt; doesn't exist</value>
+    <comment>{Locked="&lt;PATH&gt;"}</comment>
+  </data>
+  <data name="Conditionals_Exists_Summary" xml:space="preserve">
+    <value>If folder &lt;PATH&gt; exists</value>
+    <comment>{Locked="&lt;PATH&gt;"}</comment>
+  </data>
+  <data name="Conditionals_IfFolderExistsAction_Description" xml:space="preserve">
+    <value>Mark the beginning of a conditional block of actions depending on whether a folder exists or not</value>
+  </data>
+  <data name="Conditionals_IfFolderExistsAction_FriendlyName" xml:space="preserve">
+    <value>If folder exists</value>
+  </data>
+  <data name="IfFolderExistsAction_CheckMode_Description" xml:space="preserve">
+    <value>Choose the state of the folder to check</value>
+  </data>
+  <data name="IfFolderExistsAction_CheckMode_FriendlyName" xml:space="preserve">
+    <value>If folder</value>
+  </data>
+  <data name="IfFolderExistsAction_Path_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to check its state</value>
+  </data>
+  <data name="IfFolderExistsAction_Path_FriendlyName" xml:space="preserve">
+    <value>Folder path</value>
+  </data>
+  <data name="ErrorMessage_FolderToCopyDoesNotExist" xml:space="preserve">
+    <value>Folder to copy {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DestinationFolderDoesNotExist" xml:space="preserve">
+    <value>Destination folder {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotCopyFolder" xml:space="preserve">
+    <value>Can't copy folder {0} into {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_NoValuesGiven" xml:space="preserve">
+    <value>Both new folder path and new folder name don't have values.</value>
+  </data>
+  <data name="ErrorMessage_PathDoesNotExist" xml:space="preserve">
+    <value>Path {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotCreateFolder" xml:space="preserve">
+    <value>Can't create folder {0} into {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_FolderDoesNotExist" xml:space="preserve">
+    <value>Folder {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotDeleteFolder" xml:space="preserve">
+    <value>Can't delete folder {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotRetrieveFilesInFolder" xml:space="preserve">
+    <value>Can't retrieve list of files in folder {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotRetrieveSubfolders" xml:space="preserve">
+    <value>Can't retrieve list of subfolders in folder {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FolderToMoveDoesNotExist" xml:space="preserve">
+    <value>Folder to move {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotMoveFolder" xml:space="preserve">
+    <value>Can't move folder {0} into {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_FolderToRenameDoesNotExist" xml:space="preserve">
+    <value>Folder to rename {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotRenameFolder" xml:space="preserve">
+    <value>Can't rename folder {0} to {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+</root>

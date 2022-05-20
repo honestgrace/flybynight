@@ -1,0 +1,186 @@
+{
+  "strings": {
+    "Carousel": {
+      "CircleButtonLabelFormat": "Slide {0}",
+      "_CircleButtonLabelFormat.comment": "Name format for the carousel circle buttons.",
+      "NextActionLabel": "Next",
+      "_NextActionLabel.comment": "Name of the next button for the carousel.",
+      "Pause": "Pause",
+      "_Pause.comment": "Name of the pause button for the carousel.",
+      "Play": "Play",
+      "_Play.comment": "Name of the play button for the carousel.",
+      "PlayPauseActionLabel": "Play - Pause",
+      "_PlayPauseActionLabel.comment": "Name of the play-pause button for the carousel.",
+      "PreviousActionLabel": "Previous",
+      "_PreviousActionLabel.comment": "Name of the previous button for the carousel."
+    },
+    "Common": {
+      "All": "All",
+      "Back": "Back",
+      "Cancel": "Cancel",
+      "Canceled": "Canceled",
+      "ClickToCopy": "Click to copy",
+      "ClientRequestAborted": "Client request aborted. Please see https://aka.ms/powerAutomateClientRequestAborted for more details.",
+      "Close": "Close",
+      "Copied": "Copied!",
+      "Create": "Create",
+      "Creating": "Creating",
+      "Delete": "Delete",
+      "Details": "Details",
+      "Dismiss": "Dismiss",
+      "DismissMessage": "Dismiss message",
+      "Done": "Done",
+      "Edit": "Edit",
+      "Error": "Error",
+      "Errors": "Errors",
+      "FailedToFetch": "Failed to fetch. Please see https://aka.ms/powerautomate-failedtofetch for more details.",
+      "FieldRequired": "This field is required.",
+      "_FieldRequired.comment": "Generic warning for required input",
+      "FieldRequiredWithDisplayName": "{0} is required",
+      "_FieldRequiredWithDisplayName.comment": "{0} is the name of the field which is required",
+      "GotIt": "Got it",
+      "Import": "Import",
+      "Information": "Information",
+      "LearnMore": "Learn more",
+      "Loading": "Loading",
+      "MaybeLater": "Maybe later",
+      "MicrosoftFlow": "Microsoft Flow",
+      "_MicrosoftFlow.comment": "DEPRECATED. Do not use.",
+      "NetworkError": "Network Error. Please see https://aka.ms/powerautomate-networkerror for more details.",
+      "Next": "Next",
+      "NoSearchResults": {
+        "Details": "Check the spelling or try a different word",
+        "Title": "No search results found"
+      },
+      "NumbersOnly": "This field only accepts numeric values.",
+      "_NumbersOnly.comment": "Generic warning for numbers only",
+      "Ok": "OK",
+      "PositiveNumbersOnly": "Only positive integers are allowed.",
+      "_PositiveNumbersOnly.comment": "Generic warning for only positive numbers",
+      "Refresh": "Refresh",
+      "Required": "Required",
+      "RowSelectionAriaLabel": "Row Selection",
+      "Save": "Save",
+      "Saving": "Saving",
+      "Success": "Success",
+      "SeeMore": "See more",
+      "Select": "Select",
+      "SelectAll": "Select All",
+      "SomethingWentWrong": "Something went wrong. Please refresh the page or try again after some time.",
+      "SomethingWentWrongShort": "Something went wrong",
+      "SomethingWentWrongShortWithError": "Something went wrong: {0}",
+      "_SomethingWentWrongShortWithError.comment": "{0} is the original message in the error.",
+      "Troubleshoot": "Troubleshoot",
+      "Untitled": "Untitled",
+      "Warning": "Warning",
+      "Warnings": "Warnings",
+      "Working": "Working...",
+      "_Working.comment": "General text used in place of a spinner when doing some work."
+    },
+    "Datepicker": {
+      "Go": {
+        "To": {
+          "Today": "Go to today"
+        }
+      },
+      "Invalid": {
+        "Input": {
+          "Error": {
+            "Message": "Invalid date format. Please enter date as YYYY-MM-DD.",
+            "_Message.comment": "Should be YYYY-MM-DD for all locales."
+          }
+        }
+      }
+    },
+    "DatePicker": {
+      "PreviousMonth": "Go to previous month",
+      "NextMonth": "Go to next month",
+      "PreviousYear": "Go to previous year",
+      "NextYear": "Go to next year",
+      "Close": "Close date picker"
+    },
+    "Dialogs": {
+      "CancelFlowRun": {
+        "Header": "Cancel flow run?",
+        "ContentGA": "Canceling the flow run '{0}' will also cancel any desktop flow runs associated with it.",
+        "_ContentGA.comment": "{0} is the name of the flow to be canceled",
+        "Button": {
+          "ConfirmAction": "Cancel run",
+          "CancelAction": "Keep working"
+        }
+      }
+    },
+    "Entity": {
+      "Search": "Search",
+      "ClearSearch": "Clear search"
+    },
+    "List": {
+      "ShowMore": "Show more"
+    },
+    "ListCommands": {
+      "More": "More actions"
+    },
+    "Menu": {
+      "Overflow": {
+        "Tooltip": "More commands",
+        "Label": "More commands"
+      }
+    },
+    "SelectionPanel": {
+      "Apply": {
+        "AriaLabel": "Apply changes and close panel",
+        "_AriaLabel.comment": "text used by a screen reader on the button that applies the selection and closes the panel",
+        "Narrator": "Filter applied",
+        "_Narrator.comment": "Text announced by narrator when apply button had been clicked",
+        "Text": "Apply",
+        "_Text.comment": "Text displayed on the button that applies the selection and closes the panel"
+      },
+      "Cancel": {
+        "AriaLabel": "Cancel changes and close panel",
+        "_AriaLabel.comment": "Text used by a screen reader on the button that discards the selection and closes the panel",
+        "Text": "Cancel",
+        "_Text.comment": "Text displayed on the button that discards the selection and closes the panel"
+      },
+      "ClearAll": {
+        "Narrator": "All cleared",
+        "_Narrator.comment": "Text announced by narrator when the clear all button had been clicked",
+        "Text": "Clear all",
+        "_Text.comment": "Text displayed on the button that deselects every values in the panel"
+      },
+      "Header": "{0} ({1})",
+      "_Header.comment": "{0} is the name of the property, {1} is the number of values selected",
+      "SearchBox": {
+        "AriaLabel": "Search {0}",
+        "_AriaLabel.comment": "{0} is the correponding filtered property (ie. Status, run mode, start time, ...)",
+        "NoResultFormat": "No result found for {0}",
+        "_NoResultFormat.comment": "{0} is the text in the search field",
+        "Placeholder": "Search",
+        "_Placeholder.comment": "Text displayed as the placeholder of a search bar, used to filter the values in the panel",
+        "ResultFormat": "Found a result for {0}",
+        "_ResultFormat.comment": "{0} is the text in the search field",
+        "ResultsFormat": "Found {0} results for {1}",
+        "_ResultsFormat.comment": "{0} is the number of results (n>1), {1} is the text in the search field"
+      },
+      "SelectAll": {
+        "Narrator": "All selected",
+        "_Narrator.comment": "Text announced by narrator when the select all button had been clicked",
+        "Text": "Select all",
+        "_Text.comment": "Text displayed on the button that selects every values in the panel"
+      }
+    },
+    "TrialDialog": {
+      "AdminBlockedTrial": {
+        "Content": "Please contact your admin to see if they can unblock you.",
+        "Title": "Trials are blocked by your org's admin"
+      }
+    },
+    "Unknown": {
+      "StartTime": "Unknown start time"
+    },
+    "UserConsent": {
+      "TermsAndConditions": {
+        "Link": "terms and conditions"
+      }
+    }
+  }
+}

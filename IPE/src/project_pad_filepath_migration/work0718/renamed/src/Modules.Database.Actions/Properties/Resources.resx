@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Close_Connection_Description" xml:space="preserve">
+    <value>The handle for the new SQL connection</value>
+  </data>
+  <data name="Close_Connection_FriendlyName" xml:space="preserve">
+    <value>SQL connection</value>
+  </data>
+  <data name="Close_Description" xml:space="preserve">
+    <value>Close an open connection to a database</value>
+  </data>
+  <data name="Close_FriendlyName" xml:space="preserve">
+    <value>Close SQL connection</value>
+  </data>
+  <data name="Close_Summary" xml:space="preserve">
+    <value>Close SQL connection &lt;CONNECTION&gt;</value>
+    <comment>{Locked="&lt;CONNECTION&gt;"}</comment>
+  </data>
+  <data name="Connect_Connection_Description" xml:space="preserve">
+    <value>A handle for the new SQL connection</value>
+  </data>
+  <data name="Connect_Connection_FriendlyName" xml:space="preserve">
+    <value>SQL connection</value>
+  </data>
+  <data name="Connect_ConnectionString_Description" xml:space="preserve">
+    <value>The connection string to use to connect to the database</value>
+  </data>
+  <data name="Connect_ConnectionString_FriendlyName" xml:space="preserve">
+    <value>Connection string</value>
+  </data>
+  <data name="Connect_Description" xml:space="preserve">
+    <value>Open a new connection to a database</value>
+  </data>
+  <data name="Connect_FriendlyName" xml:space="preserve">
+    <value>Open SQL connection</value>
+  </data>
+  <data name="Connect_Summary" xml:space="preserve">
+    <value>&lt;if(CONNECTION)&gt;
+Open SQL connection &lt;CONNECTIONSTRING&gt; and store it into &lt;CONNECTION&gt;&lt;else&gt;
+Open SQL connection &lt;CONNECTIONSTRING&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;CONNECTIONSTRING&gt;"}{Locked="&lt;if(CONNECTION)&gt;"}{Locked="&lt;CONNECTION&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ConnectAndExecute_Description" xml:space="preserve">
+    <value>Connect to a database and execute a SQL statement</value>
+  </data>
+  <data name="ConnectAndExecute_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;
+Execute SQL statement &lt;STATEMENT&gt; and store the query result into &lt;RESULT&gt;&lt;else&gt;
+Execute SQL statement &lt;STATEMENT&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;STATEMENT&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Database_Description" xml:space="preserve">
+    <value>Connect to databases and execute SQL statements</value>
+  </data>
+  <data name="Database_FriendlyName" xml:space="preserve">
+    <value>Database</value>
+  </data>
+  <data name="Error_ConnectToDataSourceError_Description" xml:space="preserve">
+    <value>Indicates a problem connecting to the data source</value>
+  </data>
+  <data name="Error_ConnectToDataSourceError_FriendlyName" xml:space="preserve">
+    <value>Can't connect to data source</value>
+  </data>
+  <data name="Error_InvalidConnectionStringError_Description" xml:space="preserve">
+    <value>Indicates that the specified connection string is invalid</value>
+  </data>
+  <data name="Error_InvalidConnectionStringError_FriendlyName" xml:space="preserve">
+    <value>Invalid connection string</value>
+  </data>
+  <data name="Error_SqlStatementError_Description" xml:space="preserve">
+    <value>Indicates there's an error in the given SQL statement</value>
+  </data>
+  <data name="Error_SqlStatementError_FriendlyName" xml:space="preserve">
+    <value>Error in SQL statement</value>
+  </data>
+  <data name="Execute_Description" xml:space="preserve">
+    <value>Connect to a database and execute a SQL statement</value>
+  </data>
+  <data name="Execute_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;
+Execute SQL statement &lt;STATEMENT&gt; on &lt;CONNECTION&gt; and store the query result into &lt;RESULT&gt;&lt;else&gt;
+Execute SQL statement &lt;STATEMENT&gt; on &lt;CONNECTION&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;STATEMENT&gt;"}{Locked="&lt;CONNECTION&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ExecuteSqlStatement_Connection_Description" xml:space="preserve">
+    <value>The handle for the new SQL connection</value>
+  </data>
+  <data name="ExecuteSqlStatement_Connection_FriendlyName" xml:space="preserve">
+    <value>SQL connection</value>
+  </data>
+  <data name="ExecuteSqlStatement_ConnectionString_Description" xml:space="preserve">
+    <value>The connection string to use to connect to the database</value>
+  </data>
+  <data name="ExecuteSqlStatement_ConnectionString_FriendlyName" xml:space="preserve">
+    <value>Connection string</value>
+  </data>
+  <data name="ExecuteSqlStatement_Description" xml:space="preserve">
+    <value>Connect to a database and execute an SQL statement</value>
+  </data>
+  <data name="ExecuteSqlStatement_FriendlyName" xml:space="preserve">
+    <value>Execute SQL statement</value>
+  </data>
+  <data name="ExecuteSqlStatement_GetConnection_Description" xml:space="preserve">
+    <value>Specifies whether to create a new connection from a given connection string or select an already open connection</value>
+  </data>
+  <data name="ExecuteSqlStatement_GetConnection_FriendlyName" xml:space="preserve">
+    <value>Get connection by</value>
+  </data>
+  <data name="ExecuteSqlStatement_Result_Description" xml:space="preserve">
+    <value>The result from the database in the form of a data table, with rows and columns</value>
+  </data>
+  <data name="ExecuteSqlStatement_Result_FriendlyName" xml:space="preserve">
+    <value>Query result</value>
+  </data>
+  <data name="ExecuteSqlStatement_Statement_Description" xml:space="preserve">
+    <value>The SQL statement to execute to the database</value>
+  </data>
+  <data name="ExecuteSqlStatement_Statement_FriendlyName" xml:space="preserve">
+    <value>SQL statement</value>
+  </data>
+  <data name="ExecuteSqlStatement_Timeout_Description" xml:space="preserve">
+    <value>The maximum amount of time to wait for a result from the database</value>
+  </data>
+  <data name="ExecuteSqlStatement_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="GetSQLConnectionBy_ConnectionString_FriendlyName" xml:space="preserve">
+    <value>Connection string</value>
+  </data>
+  <data name="GetSQLConnectionBy_SQLConnectionVariable_FriendlyName" xml:space="preserve">
+    <value>SQL connection variable</value>
+  </data>
+  <data name="SqlConnectionHandle_FriendlyName" xml:space="preserve">
+    <value>SQL connection</value>
+  </data>
+  <data name="SqlConnectionHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>SQL connections</value>
+  </data>
+  <data name="ErrorMessage_CannotConnectError" xml:space="preserve">
+    <value>Can't connect to data source {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidConnectionString" xml:space="preserve">
+    <value>Connection string isn't valid</value>
+  </data>
+  <data name="ErrorMessage_StatementError" xml:space="preserve">
+    <value>Error in SQL statement {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_UniniatializedConnection" xml:space="preserve">
+    <value>SQL connection is uninitialized. Please double-check that the correct SQL connection has been specified and that it's used after 'Open SQL connection' and not after it's been closed</value>
+  </data>
+  <data name="Message_SqlConnection" xml:space="preserve">
+    <value>SQL connection</value>
+  </data>
+  <data name="ErrorMessage_CannotConnect" xml:space="preserve">
+    <value>Can't connect to the data source</value>
+  </data>
+</root>

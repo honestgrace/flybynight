@@ -1,0 +1,824 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\errorHandlingResources.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.Dialogs.UIFlow.MigrateV1.ClientDataError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Migration failed due to invalid clientdata field in RPA workflow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Migration failed due to invalid clientdata field in RPA workflow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[Invalid clientdatafield in RPA workflow]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.InvalidConnectionCredentials" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to connect. The credentials for the machine are incorrect.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to connect. The credentials for the machine are incorrect.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.InvalidUIFlowsCertificates" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The security certificate of your app has expired. You'll need to install the latest version of desktop flows on your machine.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The security certificate of your app has expired. You'll need to install the latest version of desktop flows on your machine.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.MachineGroupNotFound" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to find machine or machine group. It may have been deleted. Select another connection or create a new one.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to find machine or machine group. It may have been deleted. Select another connection or create a new one.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.OnPremiseDataGatewayNotAvailable" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The target gateway isn't available. Make sure the gateway is online.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The target gateway isn't available. Make sure the gateway is online.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.UIFlowAgentNotAvailable" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Could not connect to desktop flows running on your machine. Please make sure that desktop flows is installed and running.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Could not connect to desktop flows running on your machine. Please make sure that desktop flows is installed and running.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.UIFlowForbiddenTarget" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to connect. You do not have sufficient permissions on the machine or gateway.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to connect. You do not have sufficient permissions on the machine or gateway.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.UIFlowNoMachineInsideGroup" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to connect. There are no machines in the group.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to connect. There are no machines in the group.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.RpaErrorCodes.UnreachableCrlEndpoint" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The request could not be authenticated because the service could not reach the CRL endpoint. The firewall rules on the machine may be blocking the CRL, or it could be offline.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The request could not be authenticated because the service could not reach the CRL endpoint. The firewall rules on the machine may be blocking the CRL, or it could be offline.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.TestConnectionFailed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Test connection failed.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Test connection failed.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.TestConnectionFailedDetails" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Test connection failed. Details: {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Test connection failed. Details: {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the inner error.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Error.TestConnectionNotFound" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connection not found. Please create a new connection and change your application to use the new connection.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connection not found. Please create a new connection and change your application to use the new connection.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.CDSOperationTimedOutWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The operation timed out. Please try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The operation timed out. Please try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.CannotFindDeletedFlowRunError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The flow run you're looking for has been deleted or is not available.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The flow run you're looking for has been deleted or is not available.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.CannotSaveDeletedFlowError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The flow you're looking for has been deleted or is not available.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The flow you're looking for has been deleted or is not available.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.CannotSaveManagedSolutionError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The flow was saved to your default flow list instead of a solution, as it is part of a solution which was deleted.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The flow was saved to your default flow list instead of a solution, as it is part of a solution which was deleted.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.ConcurrentDeleteRequestDetected" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[More than one concurrent Delete requests detected for an Entity]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[More than one concurrent Delete requests detected for an Entity]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.ConnectionAuthorizationWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You do not have access to this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You do not have access to this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.DefaultTriggerHint" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[To see it work now, perform the starting action.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[To see it work now, perform the starting action.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.DoneButtonLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Done]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Done]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.Base64ToBinaryBlobInvalid" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to upload screenshot. Please try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to upload screenshot. Please try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.FlowNameMaxLength" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow name cannot exceed {0} characters]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow name cannot exceed {0} characters]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} - flow length limit]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Error.FlowNameMinLength" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow name must be at least {0} characters]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow name must be at least {0} characters]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} - Flow name minimum length]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Error.NotInteger" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Must be an integer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Must be an integer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.NotIntegerWithDisplayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} must be an integer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} must be an integer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the field which must be an integer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Error.NotNonNegativeInteger" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Must be a non-negative integer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Must be a non-negative integer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.NotNonNegativeIntegerWithDisplayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} must be a non-negative integer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} must be a non-negative integer]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the field which must be a non-negative integer]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.Error.ServiceNotRunning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[UI Flow Service is not running]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[UI Flow Service is not running]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Error.ServiceNotRunningWithLink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Could not connect to desktop flows running on your machine. Please make sure that Power Automate Desktop is installed and running. Learn more at {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Could not connect to desktop flows running on your machine. Please make sure that Power Automate Desktop is installed and running. Learn more at {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the learn more link]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.FlowDeletedWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This flow has been deleted.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This flow has been deleted.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.FlowDisplayNameLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.FlowNoPermissionWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You don't have permission to view this flow.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You don't have permission to view this flow.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.GeneralSQLError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Sql error: Generic SQL error]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Sql error: Generic SQL error]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.InvalidQuerySyntax" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Bad request. Check that the URL is correct.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Bad request. Check that the URL is correct.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.InvalidToken" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Token refresh failed too many times]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Token refresh failed too many times]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.LimitedAccessWarning" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You have limited permissions to this flow. Some features may not work with your current access. Please contact the flow owner for additional permissions.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You have limited permissions to this flow. Some features may not work with your current access. Please contact the flow owner for additional permissions.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.NetworkError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Network Error.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Network Error.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.NoAttachment" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No file attachment found for attribute]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No file attachment found for attribute]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.NoObjectMatchedWithTheQuery" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No object matched the query]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No object matched the query]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.RequestFailedWith401" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Request failed with status code 401]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Request failed with status code 401]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.RunNowButtonLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Run Now]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Run Now]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.SessionId" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[flowsession With Id]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[flowsession With Id]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.SolutionWithId" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[solution With Id]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[solution With Id]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Status.Running" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your flow is running ...]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your flow is running ...]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Flow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Flow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.TriggerPrompt" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} This may take a few moments.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} This may take a few moments.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA["Done" === Flow_DoneButtonLabel]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.UIFlowCreatedWarning" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} Desktop flow has been created but cannot be added into the solution.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} Desktop flow has been created but cannot be added into the solution.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the error message Cannot update solution *** because it is a managed solution.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Flow.WorkflowBinaryWithId" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[workflowbinary With Id]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[workflowbinary With Id]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Flow.WorkflowWithId" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[workflow with id]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[workflow with id]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.FullPageError.FriendlyError.Subtext.GuestUserNoPlans" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This org hasn't given you a plan with access to {0}. Please contact the org's admin to get access.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This org hasn't given you a plan with access to {0}. Please contact the org's admin to get access.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is brand name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.FullPageError.FriendlyError.Subtext.RedirectToMSA" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your organization doesn’t allow access to {0} via your work or school email. Continue by using your personal email, for example, someone@hotmail.com.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your organization doesn’t allow access to {0} via your work or school email. Continue by using your personal email, for example, someone@hotmail.com.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is brand name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.DesktopFlowList.Win32Deprecated.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Windows recorder v1 flows are no longer supported. {Migrate} your flows to Power Automate for desktop or {delete} them.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Windows recorder v1 flows are no longer supported. {Migrate} your flows to Power Automate for desktop or {delete} them.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{migrate} and {delete} - UI will make the interpolated "migrate" and "delete" bold]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Rpa.Error.AttributeMaxLengthExceeded" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The name of your Desktop Flow is longer than 100 characters.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The name of your Desktop Flow is longer than 100 characters.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Error.InsufficientAccessToChildFlow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You cannot duplicate this desktop flow, as it uses another desktop flow that you do not have access to.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You cannot duplicate this desktop flow, as it uses another desktop flow that you do not have access to.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Error.MissingXrmInstanceApiUrlGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need a database to create desktop flows. Create a Microsoft Dataverse database in your current environment.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You need a database to create desktop flows. Create a Microsoft Dataverse database in your current environment.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Error.PrivilegeCheck.Text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You need permissions to use Microsoft Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You need permissions to use Microsoft Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Rpa.Error.XrmOutdatedGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your Microsoft Dataverse is not up to date. Update to a more recent version to access desktop flows.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your Microsoft Dataverse is not up to date. Update to a more recent version to access desktop flows.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaNativeClient.UnexpectedV1ExtensionError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unexpected Microsoft Windows recorder (V1) browser extension error.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unexpected Microsoft Windows recorder (V1) browser extension error.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.CDS.ScreenshotDataMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot retrieve screenshot data from Microsoft Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cannot retrieve screenshot data from Microsoft Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.CDS.ScreenshotDataValueMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No screenshot data available in the Microsoft Dataverse entity]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No screenshot data available in the Microsoft Dataverse entity]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.CDS.ScreenshotEntityMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot retrieve screenshot entity from Microsoft Dataverse]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cannot retrieve screenshot entity from Microsoft Dataverse]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.CDS.ScreenshotMimetypeMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No mimetype information available for this screenshot]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No mimetype information available for this screenshot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.CreateScreenshotEntityRequest" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error {0} while creating screenshot entity]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error {0} while creating screenshot entity]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the http response status code.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.ScreenshotDataMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid or null screenshot data received]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid or null screenshot data received]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.ScreenshotDataMissingFromCache" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No screenshot data in cache after fetching them]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No screenshot data in cache after fetching them]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.ScreenshotValueMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trying to retrieve an unknown screenshot]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Trying to retrieve an unknown screenshot]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaScreenshotService.Error.UploadScreenshotBlobRequest" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error {0} while uploading screenshot to the entity]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error {0} while uploading screenshot to the entity]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the http response status code.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorExtension" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error during recording from SeleniumIDE ]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error during recording from SeleniumIDE ]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorExtensionLost" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[For optimal performance, please save or close all the Selenium IDE browser extension windows before launching the recorder.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[For optimal performance, please save or close all the Selenium IDE browser extension windows before launching the recorder.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaSeleniumRecording.ErrorValidation" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Error during validation of the Selenium actions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Error during validation of the Selenium actions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.AgentBusy.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate Desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate Desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.AgentBusy.PAda.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Power Automate for desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Power Automate for desktop is currently busy executing other tasks. Please wait until that has completed and try again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Errors.DuplicateScreenshotId" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Screenshot ID already cached, make sure that screenshot IDs from the agent are always unique.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Screenshot ID already cached, make sure that screenshot IDs from the agent are always unique.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RpaWizard.Errors.UnknownScreenshotId" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Trying to cache screenshot data of an unknown screenshot.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Trying to cache screenshot data of an unknown screenshot.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.RunFlow.ValidateInput.Text.MaxLimit" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cannot have more than {0} characters]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cannot have more than {0} characters]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is a number representing the maximum number of allowed characters]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.RunFlow.ValidateInput.Text.MaxLimitWithDisplayName" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[{0} cannot have more than {1} characters]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[{0} cannot have more than {1} characters]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the field which cannot exceed the specified number of character.]A;{1} is the number of characters, as an integer, which cannot be exceeded]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.SignUp.Error.invalidEmail" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Please enter a valid email address.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Please enter a valid email address.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UIFlow.FlowRunNeverStarted.ErrorDetailGA" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's an issue starting your desktop flow. Check for errors and try running it again. Error returned: "{0}"]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's an issue starting your desktop flow. Check for errors and try running it again. Error returned: "{0}"]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is here the error message]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.UIFlow.FlowRunNeverStarted.ErrorGA" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[There's an issue starting your desktop flow. Check for errors and try running it again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[There's an issue starting your desktop flow. Check for errors and try running it again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UIFlow.FlowRunNotFound.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to find the flow run. Check for errors and try running it again.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to find the flow run. Check for errors and try running it again.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UiFlowRunService.Error.FlowRunEntityMissing" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Target run has not been loaded]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Target run has not been loaded]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UiFlowRunService.Error.WorkflowClientDataDefinitionInvalid" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid definition field in RPA workflow clientData]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid definition field in RPA workflow clientData]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UiFlowRunService.Error.WorkflowIdNotRpaWorkflow" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Provided ID is not an RPA workflow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Provided ID is not an RPA workflow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.UiFlowService.Error.UnknownFlowType" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unknown flow type: {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unknown flow type: {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the provided flow type.]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

@@ -1,0 +1,883 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddItemToList_Description" xml:space="preserve">
+    <value>Αppend a new item to a list</value>
+  </data>
+  <data name="AddItemToList_FriendlyName" xml:space="preserve">
+    <value>Add item to list</value>
+  </data>
+  <data name="AddItemToList_Item_Description" xml:space="preserve">
+    <value>A value or a variable to add to the list. Provide a list of values to append multiple elements. If the list has a specific type of elements, the new element is converted over to that type</value>
+  </data>
+  <data name="AddItemToList_Item_FriendlyName" xml:space="preserve">
+    <value>Add item</value>
+  </data>
+  <data name="AddItemToList_List_Description" xml:space="preserve">
+    <value>A list variable to append the new elements to</value>
+  </data>
+  <data name="AddItemToList_List_FriendlyName" xml:space="preserve">
+    <value>Into list</value>
+  </data>
+  <data name="AddItemToList_NewList_Description" xml:space="preserve">
+    <value>The new list</value>
+  </data>
+  <data name="AddItemToList_NewList_FriendlyName" xml:space="preserve">
+    <value>New list</value>
+  </data>
+  <data name="AddItemToList_Summary" xml:space="preserve">
+    <value>Add item &lt;ITEM&gt; to list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;ITEM&gt;"}{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="ClearList_ClearedList_Description" xml:space="preserve">
+    <value>The new cleared list</value>
+  </data>
+  <data name="ClearList_ClearedList_FriendlyName" xml:space="preserve">
+    <value>Cleared list</value>
+  </data>
+  <data name="ClearList_Description" xml:space="preserve">
+    <value>Remove all items from a list</value>
+  </data>
+  <data name="ClearList_FriendlyName" xml:space="preserve">
+    <value>Clear list</value>
+  </data>
+  <data name="ClearList_List_Description" xml:space="preserve">
+    <value>A list variable to remove its elements</value>
+  </data>
+  <data name="ClearList_List_FriendlyName" xml:space="preserve">
+    <value>List to clear</value>
+  </data>
+  <data name="ClearList_Summary" xml:space="preserve">
+    <value>Clear list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="ConvertCustomObjectToJson_CustomObject_Description" xml:space="preserve">
+    <value>The custom object to convert to JSON</value>
+  </data>
+  <data name="ConvertCustomObjectToJson_CustomObject_FriendlyName" xml:space="preserve">
+    <value>Custom object</value>
+  </data>
+  <data name="ConvertCustomObjectToJson_Description" xml:space="preserve">
+    <value>Convert a custom object to a JSON string</value>
+  </data>
+  <data name="ConvertCustomObjectToJson_FriendlyName" xml:space="preserve">
+    <value>Convert custom object to JSON</value>
+  </data>
+  <data name="ConvertCustomObjectToJson_Json_Description" xml:space="preserve">
+    <value>The converted JSON from the provided custom object</value>
+  </data>
+  <data name="ConvertCustomObjectToJson_Json_FriendlyName" xml:space="preserve">
+    <value>Into JSON</value>
+  </data>
+  <data name="ConvertCustomObjectToJson_Summary" xml:space="preserve">
+    <value>Convert custom object &lt;CUSTOMOBJECT&gt; to JSON &lt;JSON&gt;</value>
+    <comment>{Locked="&lt;CUSTOMOBJECT&gt;"}{Locked="&lt;JSON&gt;"}</comment>
+  </data>
+  <data name="ConvertJsonToCustomObject_CustomObject_Description" xml:space="preserve">
+    <value>Τhe converted custom object from the provided JSON</value>
+  </data>
+  <data name="ConvertJsonToCustomObject_CustomObject_FriendlyName" xml:space="preserve">
+    <value>Into custom object</value>
+  </data>
+  <data name="ConvertJsonToCustomObject_Description" xml:space="preserve">
+    <value>Convert a JSON string to a custom object</value>
+  </data>
+  <data name="ConvertJsonToCustomObject_FriendlyName" xml:space="preserve">
+    <value>Convert JSON to custom object</value>
+  </data>
+  <data name="ConvertJsonToCustomObject_Json_Description" xml:space="preserve">
+    <value>A JSON text, or a previously created variable containing one, to convert it to a custom object</value>
+  </data>
+  <data name="ConvertJsonToCustomObject_Json_FriendlyName" xml:space="preserve">
+    <value>JSON</value>
+  </data>
+  <data name="ConvertJsonToCustomObject_Summary" xml:space="preserve">
+    <value>Convert JSON &lt;JSON&gt; to custom object &lt;CUSTOMOBJECT&gt;</value>
+    <comment>{Locked="&lt;JSON&gt;"}{Locked="&lt;CUSTOMOBJECT&gt;"}</comment>
+  </data>
+  <data name="CreateNewList_List_Description" xml:space="preserve">
+    <value>The new list</value>
+  </data>
+  <data name="CreateNewList_List_FriendlyName" xml:space="preserve">
+    <value>Store new empty list into</value>
+  </data>
+  <data name="CreateNewList_Description" xml:space="preserve">
+    <value>Create a new empty list</value>
+  </data>
+  <data name="CreateNewList_FriendlyName" xml:space="preserve">
+    <value>Create new list</value>
+  </data>
+  <data name="CreateNewList_Summary" xml:space="preserve">
+    <value>Create a new list and store it to &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="DecreaseVariable_DecreasedValue_Description" xml:space="preserve">
+    <value>The numeric variable to decrease</value>
+  </data>
+  <data name="DecreaseVariable_DecreasedValue_FriendlyName" xml:space="preserve">
+    <value>Variable name</value>
+  </data>
+  <data name="DecreaseVariable_DecrementValue_Description" xml:space="preserve">
+    <value>A numeric value, or a previously created variable containing one, to decrease the variable by</value>
+  </data>
+  <data name="DecreaseVariable_DecrementValue_FriendlyName" xml:space="preserve">
+    <value>Decrease by</value>
+  </data>
+  <data name="DecreaseVariable_Description" xml:space="preserve">
+    <value>Decrease the value of a variable by a specific amount</value>
+  </data>
+  <data name="DecreaseVariable_FriendlyName" xml:space="preserve">
+    <value>Decrease variable</value>
+  </data>
+  <data name="DecreaseVariable_Summary" xml:space="preserve">
+    <value>Decrease variable &lt;VALUE&gt; by &lt;DECREMENTVALUE&gt;</value>
+    <comment>{Locked="&lt;VALUE&gt;"}{Locked="&lt;DECREMENTVALUE&gt;"}</comment>
+  </data>
+  <data name="DecreaseVariable_Value_Description" xml:space="preserve">
+    <value>A numeric value, or a previously created variable containing one, to decrease the variable by</value>
+  </data>
+  <data name="DecreaseVariable_Value_FriendlyName" xml:space="preserve">
+    <value>Variable name</value>
+  </data>
+  <data name="Error_ColumnIndexOutOfRangeError_Description" xml:space="preserve">
+    <value>Indicates that the column index is out of range</value>
+  </data>
+  <data name="Error_ColumnIndexOutOfRangeError_FriendlyName" xml:space="preserve">
+    <value>Column index is out of range</value>
+  </data>
+  <data name="Error_ColumnNameNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the column name isn't in the data table</value>
+  </data>
+  <data name="Error_ColumnNameNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Column name doesn't exist</value>
+  </data>
+  <data name="Error_GenerateRandomNumberError_Description" xml:space="preserve">
+    <value>Indicates that there is an error generating a random number</value>
+  </data>
+  <data name="Error_GenerateRandomNumberError_FriendlyName" xml:space="preserve">
+    <value>Failed to generate random number</value>
+  </data>
+  <data name="Error_IncompatibleTypesListListItemError_Description" xml:space="preserve">
+    <value>Indicates that the list and the item supplied are of incompatible types</value>
+  </data>
+  <data name="Error_IncompatibleTypesListListItemError_FriendlyName" xml:space="preserve">
+    <value>The list and item supplied are of incompatible types</value>
+  </data>
+  <data name="Error_IncompatibleTypesListsError_Description" xml:space="preserve">
+    <value>Indicates that the lists supplied are of incompatible types</value>
+  </data>
+  <data name="Error_IncompatibleTypesListsError_FriendlyName" xml:space="preserve">
+    <value>The lists supplied are of incompatible types</value>
+  </data>
+  <data name="Error_IndexOutOfRangeError_Description" xml:space="preserve">
+    <value>Indicates that item index is out of range</value>
+  </data>
+  <data name="Error_IndexOutOfRangeError_FriendlyName" xml:space="preserve">
+    <value>Item index is out of range</value>
+  </data>
+  <data name="Error_ItemNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that item doesn't exist in the list</value>
+  </data>
+  <data name="Error_ItemNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Item not found</value>
+  </data>
+  <data name="Error_ParseCustomObjectError_Description" xml:space="preserve">
+    <value>Indicates that there is an error parsing the custom object</value>
+  </data>
+  <data name="Error_ParseCustomObjectError_FriendlyName" xml:space="preserve">
+    <value>Error parsing the custom object</value>
+  </data>
+  <data name="Error_ParseJsonError_Description" xml:space="preserve">
+    <value>Indicates that there is an error parsing the specified JSON</value>
+  </data>
+  <data name="Error_ParseJsonError_FriendlyName" xml:space="preserve">
+    <value>Error parsing the JSON</value>
+  </data>
+  <data name="FindCommonListItems_Description" xml:space="preserve">
+    <value>Compare two lists and create a new list with the items that are common to both</value>
+  </data>
+  <data name="FindCommonListItems_FirstList_Description" xml:space="preserve">
+    <value>The variable that contains the first list to compare</value>
+  </data>
+  <data name="FindCommonListItems_FirstList_FriendlyName" xml:space="preserve">
+    <value>First list</value>
+  </data>
+  <data name="FindCommonListItems_FriendlyName" xml:space="preserve">
+    <value>Find common list items</value>
+  </data>
+  <data name="FindCommonListItems_OutputList_Description" xml:space="preserve">
+    <value>The new list of common items</value>
+  </data>
+  <data name="FindCommonListItems_OutputList_FriendlyName" xml:space="preserve">
+    <value>Store common items into</value>
+  </data>
+  <data name="FindCommonListItems_SecondList_Description" xml:space="preserve">
+    <value>The variable that contains the second list to compare</value>
+  </data>
+  <data name="FindCommonListItems_SecondList_FriendlyName" xml:space="preserve">
+    <value>Second list</value>
+  </data>
+  <data name="FindCommonListItems_Summary" xml:space="preserve">
+    <value>&lt;if(OUTPUTLIST)&gt;Find items that are common in lists &lt;FIRSTLIST&gt; and &lt;SECONDLIST&gt; and store them as a new list into &lt;OUTPUTLIST&gt;&lt;else&gt;
+Find items that are common in lists &lt;FIRSTLIST&gt; and &lt;SECONDLIST&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;FIRSTLIST&gt;"}{Locked="&lt;SECONDLIST&gt;"}{Locked="&lt;if(OUTPUTLIST)&gt;"}{Locked="&lt;OUTPUTLIST&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="GenerateRandomNumber_AllowDuplicates_Description" xml:space="preserve">
+    <value>Specifies whether to permit or prevent the same number from appearing more than once in the random numbers list</value>
+  </data>
+  <data name="GenerateRandomNumber_AllowDuplicates_FriendlyName" xml:space="preserve">
+    <value>Allow duplicates</value>
+  </data>
+  <data name="GenerateRandomNumber_Description" xml:space="preserve">
+    <value>Generate a random number or a list of random numbers that fall between a minimum and maximum value</value>
+  </data>
+  <data name="GenerateRandomNumber_FriendlyName" xml:space="preserve">
+    <value>Generate random number</value>
+  </data>
+  <data name="GenerateRandomNumber_GenerateMultipleNumbers_Description" xml:space="preserve">
+    <value>Specifies whether to generate a single random number or a list of random numbers</value>
+  </data>
+  <data name="GenerateRandomNumber_GenerateMultipleNumbers_FriendlyName" xml:space="preserve">
+    <value>Generate multiple numbers</value>
+  </data>
+  <data name="GenerateRandomNumber_MaximumValue_Description" xml:space="preserve">
+    <value>The upper boundary for the random number(s) to generate</value>
+  </data>
+  <data name="GenerateRandomNumber_MaximumValue_FriendlyName" xml:space="preserve">
+    <value>Maximum value</value>
+  </data>
+  <data name="GenerateRandomNumber_MinimumValue_Description" xml:space="preserve">
+    <value>The lower boundary for the random number(s) to generate</value>
+  </data>
+  <data name="GenerateRandomNumber_MinimumValue_FriendlyName" xml:space="preserve">
+    <value>Minimum value</value>
+  </data>
+  <data name="GenerateRandomNumber_NumbersCount_Description" xml:space="preserve">
+    <value>Specifies how many random numbers to generate</value>
+  </data>
+  <data name="GenerateRandomNumber_NumbersCount_FriendlyName" xml:space="preserve">
+    <value>How many numbers</value>
+  </data>
+  <data name="GenerateRandomNumber_RandomNumber_Description" xml:space="preserve">
+    <value>The newly generated random number</value>
+  </data>
+  <data name="GenerateRandomNumber_RandomNumber_FriendlyName" xml:space="preserve">
+    <value>Store random number into</value>
+  </data>
+  <data name="GenerateRandomNumber_RandomNumbers_Description" xml:space="preserve">
+    <value>The newly generated list of random numbers</value>
+  </data>
+  <data name="GenerateRandomNumber_RandomNumbers_FriendlyName" xml:space="preserve">
+    <value>Store random numbers into</value>
+  </data>
+  <data name="GetDecimalPart_Description" xml:space="preserve">
+    <value>Returns the fractional digits of a numeric value</value>
+  </data>
+  <data name="GetDecimalPart_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;Get decimal part of &lt;NUMBER&gt; and store it into &lt;RESULT&gt;&lt;else&gt;
+Get decimal part of &lt;NUMBER&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;NUMBER&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="GetIntegerPart_Description" xml:space="preserve">
+    <value>Returns the integral digits of a numeric value</value>
+  </data>
+  <data name="GetIntegerPart_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;Get integer part of &lt;NUMBER&gt; and store it into &lt;RESULT&gt;&lt;else&gt;
+Get integer part of &lt;NUMBER&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;NUMBER&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="IncreaseVariable_IncreasedValue_Description" xml:space="preserve">
+    <value>The numeric variable to increase</value>
+  </data>
+  <data name="IncreaseVariable_IncreasedValue_FriendlyName" xml:space="preserve">
+    <value>Variable name</value>
+  </data>
+  <data name="IncreaseVariable_IncrementValue_Description" xml:space="preserve">
+    <value>A numeric value, or a previously created variable containing one, to increase the variable by</value>
+  </data>
+  <data name="IncreaseVariable_IncrementValue_FriendlyName" xml:space="preserve">
+    <value>Increase by</value>
+  </data>
+  <data name="IncreaseVariable_Description" xml:space="preserve">
+    <value>Increase the value of a variable by a specific amount</value>
+  </data>
+  <data name="IncreaseVariable_FriendlyName" xml:space="preserve">
+    <value>Increase variable</value>
+  </data>
+  <data name="IncreaseVariable_Summary" xml:space="preserve">
+    <value>Increase variable &lt;VALUE&gt; by &lt;INCREMENTVALUE&gt;</value>
+    <comment>{Locked="&lt;VALUE&gt;"}{Locked="&lt;INCREMENTVALUE&gt;"}</comment>
+  </data>
+  <data name="IncreaseVariable_Value_Description" xml:space="preserve">
+    <value>The numeric value to increase</value>
+  </data>
+  <data name="IncreaseVariable_Value_FriendlyName" xml:space="preserve">
+    <value>Variable name</value>
+  </data>
+  <data name="ListOfRandomNumbers_Description" xml:space="preserve">
+    <value>Generates a list of random numbers that fall between a minimum and maximum value</value>
+  </data>
+  <data name="ListOfRandomNumbers_Summary" xml:space="preserve">
+    <value>&lt;if(RANDOMNUMBERS)&gt;Generate a list of random numbers between &lt;MINIMUMVALUE&gt; and &lt;MAXIMUMVALUE&gt; and store it into &lt;RANDOMNUMBERS&gt;&lt;else&gt;
+Generate a list of random numbers between &lt;MINIMUMVALUE&gt; and &lt;MAXIMUMVALUE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MINIMUMVALUE&gt;"}{Locked="&lt;MAXIMUMVALUE&gt;"}{Locked="&lt;if(RANDOMNUMBERS)&gt;"}{Locked="&lt;RANDOMNUMBERS&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="MergeLists_Description" xml:space="preserve">
+    <value>Merge two lists into one</value>
+  </data>
+  <data name="MergeLists_FirstList_Description" xml:space="preserve">
+    <value>The first list of items to merge</value>
+  </data>
+  <data name="MergeLists_FirstList_FriendlyName" xml:space="preserve">
+    <value>First list</value>
+  </data>
+  <data name="MergeLists_FriendlyName" xml:space="preserve">
+    <value>Merge lists</value>
+  </data>
+  <data name="MergeLists_OutputList_Description" xml:space="preserve">
+    <value>The merged list. The initial lists aren't affected</value>
+  </data>
+  <data name="MergeLists_OutputList_FriendlyName" xml:space="preserve">
+    <value>Output list</value>
+  </data>
+  <data name="MergeLists_SecondList_Description" xml:space="preserve">
+    <value>The second list of items to merge</value>
+  </data>
+  <data name="MergeLists_SecondList_FriendlyName" xml:space="preserve">
+    <value>Second list</value>
+  </data>
+  <data name="MergeLists_Summary" xml:space="preserve">
+    <value>Merge list &lt;FIRSTLIST&gt; with &lt;SECONDLIST&gt; to list &lt;OUTPUTLIST&gt;</value>
+    <comment>{Locked="&lt;FIRSTLIST&gt;"}{Locked="&lt;SECONDLIST&gt;"}{Locked="&lt;OUTPUTLIST&gt;"}</comment>
+  </data>
+  <data name="RandomNumber_Description" xml:space="preserve">
+    <value>Generates a random number that falls between a minimum and maximum value</value>
+  </data>
+  <data name="RandomNumber_Summary" xml:space="preserve">
+    <value>&lt;if(RANDOMNUMBER)&gt;Generate a random number between &lt;MINIMUMVALUE&gt; and &lt;MAXIMUMVALUE&gt; and store it into &lt;RANDOMNUMBER&gt;&lt;else&gt;
+Generate a random number between &lt;MINIMUMVALUE&gt; and &lt;MAXIMUMVALUE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;MINIMUMVALUE&gt;"}{Locked="&lt;MAXIMUMVALUE&gt;"}{Locked="&lt;if(RANDOMNUMBER)&gt;"}{Locked="&lt;RANDOMNUMBER&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_Description" xml:space="preserve">
+    <value>Remove the multiple occurrences of items in a list, so that in the resulting list each item will be unique</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_FriendlyName" xml:space="preserve">
+    <value>Remove duplicate items from list</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_IgnoreCase_Description" xml:space="preserve">
+    <value>Specifies whether to perform case insensitive comparison of text while searching for duplicate items (only applies to lists made of text items)</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_IgnoreCase_FriendlyName" xml:space="preserve">
+    <value>Ignore text case while searching for duplicate items</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_List_Description" xml:space="preserve">
+    <value>The list variable to remove duplicate items from</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_List_FriendlyName" xml:space="preserve">
+    <value>List to remove duplicate items from</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_NewList_Description" xml:space="preserve">
+    <value>The new list without duplicate items</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_NewList_FriendlyName" xml:space="preserve">
+    <value>New list</value>
+  </data>
+  <data name="RemoveDuplicateItemsFromList_Summary" xml:space="preserve">
+    <value>Remove duplicate items from list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="RemoveItemFromList_FriendlyName" xml:space="preserve">
+    <value>Remove item from list</value>
+  </data>
+  <data name="RemoveItemFromList_Description" xml:space="preserve">
+    <value>Remove one or multiple items from a list</value>
+  </data>
+  <data name="RemoveItemFromListByIndex_Description" xml:space="preserve">
+    <value>Remove an item at a specified index from a list</value>
+  </data>
+  <data name="RemoveItemFromListByIndex_Summary" xml:space="preserve">
+    <value>Remove item at index &lt;ITEMINDEX&gt; from list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;ITEMINDEX&gt;"}{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="RemoveItemFromListByValue_Description" xml:space="preserve">
+    <value>Remove one or multiple items from a list</value>
+  </data>
+  <data name="RemoveItemFromListByValue_Summary" xml:space="preserve">
+    <value>&lt;if(ITEMMATCHALLOCCURRENCES)&gt;Remove all occurrences of item &lt;ITEM&gt; from list &lt;LIST&gt;&lt;else&gt;
+Remove the first occurrence of item &lt;ITEM&gt; from list &lt;LIST&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(ITEMMATCHALLOCCURRENCES)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;ITEM&gt;"}{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="RemoveItemFromList_Item_Description" xml:space="preserve">
+    <value>The item to remove</value>
+  </data>
+  <data name="RemoveItemFromList_Item_FriendlyName" xml:space="preserve">
+    <value>With value</value>
+  </data>
+  <data name="RemoveItemFromList_ItemIndex_Description" xml:space="preserve">
+    <value>The index number of the item to remove</value>
+  </data>
+  <data name="RemoveItemFromList_ItemIndex_FriendlyName" xml:space="preserve">
+    <value>At index</value>
+  </data>
+  <data name="RemoveItemFromList_ItemMatchAllOccurrences_Description" xml:space="preserve">
+    <value>Removes all the occurrences that match the item specified</value>
+  </data>
+  <data name="RemoveItemFromList_ItemMatchAllOccurrences_FriendlyName" xml:space="preserve">
+    <value>Remove all item occurrences</value>
+  </data>
+  <data name="RemoveItemFromList_List_Description" xml:space="preserve">
+    <value>The list with items to remove</value>
+  </data>
+  <data name="RemoveItemFromList_List_FriendlyName" xml:space="preserve">
+    <value>From list</value>
+  </data>
+  <data name="RemoveItemFromList_Mode_Description" xml:space="preserve">
+    <value>Specifies whether to remove the item at a specified index or the item(s) with a specific value</value>
+  </data>
+  <data name="RemoveItemFromList_Mode_FriendlyName" xml:space="preserve">
+    <value>Remove item by</value>
+  </data>
+  <data name="RemoveItemFromList_NewList_Description" xml:space="preserve">
+    <value>The new list</value>
+  </data>
+  <data name="RemoveItemFromList_NewList_FriendlyName" xml:space="preserve">
+    <value>New list</value>
+  </data>
+  <data name="RemoveItemFromListMode_ByIndex_FriendlyName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="RemoveItemFromListMode_ByValue_FriendlyName" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_ColumnAsList_Description" xml:space="preserve">
+    <value>The new list that holds the contents of the specified data table</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_ColumnAsList_FriendlyName" xml:space="preserve">
+    <value>Column contents as list</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_ColumnNameOrIndex_Description" xml:space="preserve">
+    <value>The column name, if column names are defined, or the index number of the column to retrieve</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_ColumnNameOrIndex_FriendlyName" xml:space="preserve">
+    <value>Column name or index</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_DataTable_Description" xml:space="preserve">
+    <value>The data table with the column to convert into a list</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_DataTable_FriendlyName" xml:space="preserve">
+    <value>Data table</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_Description" xml:space="preserve">
+    <value>Convert the contents of a data table column into a list</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_FriendlyName" xml:space="preserve">
+    <value>Retrieve data table column into list</value>
+  </data>
+  <data name="RetrieveDataTableColumnIntoList_Summary" xml:space="preserve">
+    <value>&lt;if(COLUMNASLIST)&gt;Retrieve the contents of column &lt;COLUMNNAMEORINDEX&gt; from data table &lt;DATATABLE&gt; and store them as a new list into &lt;COLUMNASLIST&gt;&lt;else&gt;
+Retrieve the contents of column &lt;COLUMNNAMEORINDEX&gt; from data table &lt;DATATABLE&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;COLUMNNAMEORINDEX&gt;"}{Locked="&lt;DATATABLE&gt;"}{Locked="&lt;if(COLUMNASLIST)&gt;"}{Locked="&lt;COLUMNASLIST&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="ReverseList_Description" xml:space="preserve">
+    <value>Reverse the order of the items of a list</value>
+  </data>
+  <data name="ReverseList_FriendlyName" xml:space="preserve">
+    <value>Reverse list</value>
+  </data>
+  <data name="ReverseList_List_Description" xml:space="preserve">
+    <value>The list whose items order to reverse</value>
+  </data>
+  <data name="ReverseList_List_FriendlyName" xml:space="preserve">
+    <value>List to reverse</value>
+  </data>
+  <data name="ReverseList_ReversedList_Description" xml:space="preserve">
+    <value>The new reversed list</value>
+  </data>
+  <data name="ReverseList_ReversedList_FriendlyName" xml:space="preserve">
+    <value>Reversed list</value>
+  </data>
+  <data name="ReverseList_Summary" xml:space="preserve">
+    <value>Reverse the ordering of the items in &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="RoundNumber_Description" xml:space="preserve">
+    <value>Round up a numeric value to a specified number of decimal places</value>
+  </data>
+  <data name="RoundNumber_Summary" xml:space="preserve">
+    <value>&lt;if(RESULT)&gt;Round &lt;NUMBER&gt; at &lt;DECIMALPLACES&gt; decimal digits and store it into &lt;RESULT&gt;&lt;else&gt;
+Round &lt;NUMBER&gt; at &lt;DECIMALPLACES&gt; decimal digits&lt;endif&gt;</value>
+    <comment>{Locked="&lt;NUMBER&gt;"}{Locked="&lt;DECIMALPLACES&gt;"}{Locked="&lt;if(RESULT)&gt;"}{Locked="&lt;RESULT&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="ShuffleList_Description" xml:space="preserve">
+    <value>Create a random permutation of a list</value>
+  </data>
+  <data name="ShuffleList_FriendlyName" xml:space="preserve">
+    <value>Shuffle list</value>
+  </data>
+  <data name="ShuffleList_List_Description" xml:space="preserve">
+    <value>The variable that contains the list to shuffle</value>
+  </data>
+  <data name="ShuffleList_List_FriendlyName" xml:space="preserve">
+    <value>List to shuffle</value>
+  </data>
+  <data name="ShuffleList_ShuffledList_Description" xml:space="preserve">
+    <value>The new shuffled list</value>
+  </data>
+  <data name="ShuffleList_ShuffledList_FriendlyName" xml:space="preserve">
+    <value>Shuffled list</value>
+  </data>
+  <data name="ShuffleList_Summary" xml:space="preserve">
+    <value>Shuffle list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="SortDirection_Ascending_FriendlyName" xml:space="preserve">
+    <value>Ascending</value>
+  </data>
+  <data name="SortDirection_Descending_FriendlyName" xml:space="preserve">
+    <value>Descending</value>
+  </data>
+  <data name="SortList_Description" xml:space="preserve">
+    <value>Sort the items of a list. Use items of the same type</value>
+  </data>
+  <data name="SortList_Summary" xml:space="preserve">
+    <value>Sort list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="SortListBase_Description" xml:space="preserve">
+    <value>Sort the items of a list. Use items of the same type</value>
+  </data>
+  <data name="SortListBase_FriendlyName" xml:space="preserve">
+    <value>Sort list</value>
+  </data>
+  <data name="SortListBase_List_Description" xml:space="preserve">
+    <value>The variable that holds the list to sort</value>
+  </data>
+  <data name="SortListBase_List_FriendlyName" xml:space="preserve">
+    <value>List to sort</value>
+  </data>
+  <data name="SortListBase_SortDirection1_Description" xml:space="preserve">
+    <value>Specifies whether to sort by the first property ascending or descending</value>
+  </data>
+  <data name="SortListBase_SortDirection1_FriendlyName" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="SortListBase_SortDirection2_Description" xml:space="preserve">
+    <value>Specifies whether to sort by the second property ascending or descending</value>
+  </data>
+  <data name="SortListBase_SortDirection2_FriendlyName" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="SortListBase_SortDirection3_Description" xml:space="preserve">
+    <value>Specifies whether to sort by the third property ascending or descending</value>
+  </data>
+  <data name="SortListBase_SortDirection3_FriendlyName" xml:space="preserve">
+    <value>Sort</value>
+  </data>
+  <data name="SortListBase_Property1_Description" xml:space="preserve">
+    <value>The name of an item's property to sort the list by. Refer to the help file for the property names of each object</value>
+  </data>
+  <data name="SortListBase_Property1_FriendlyName" xml:space="preserve">
+    <value>First property to sort by</value>
+  </data>
+  <data name="SortListBase_Property2_Description" xml:space="preserve">
+    <value>The name of a second property to sort the list by</value>
+  </data>
+  <data name="SortListBase_Property2_FriendlyName" xml:space="preserve">
+    <value>Second property to sort by</value>
+  </data>
+  <data name="SortListBase_Property3_Description" xml:space="preserve">
+    <value>The name of a third property to sort the list by</value>
+  </data>
+  <data name="SortListBase_Property3_FriendlyName" xml:space="preserve">
+    <value>Third property to sort by</value>
+  </data>
+  <data name="SortListBase_SortByProperty_Description" xml:space="preserve">
+    <value>If the list items are objects (such are files, folders, etc), enable this option to sort the item by a specific property. Leave this option disabled to sort the elements by their default property (e.g., file objects will be sorted by their full path)</value>
+  </data>
+  <data name="SortListBase_SortByProperty_FriendlyName" xml:space="preserve">
+    <value>Sort by list item's properties</value>
+  </data>
+  <data name="SortListBase_SortedList_Description" xml:space="preserve">
+    <value>The new sorted list</value>
+  </data>
+  <data name="SortListBase_SortedList_FriendlyName" xml:space="preserve">
+    <value>Sorted list</value>
+  </data>
+  <data name="SortListByProperty_Summary" xml:space="preserve">
+    <value>Sort list &lt;LIST&gt;</value>
+    <comment>{Locked="&lt;LIST&gt;"}</comment>
+  </data>
+  <data name="SubtractLists_Description" xml:space="preserve">
+    <value>Compare two lists and create a new list with the items that are in the first list but not in the second</value>
+  </data>
+  <data name="SubtractLists_FirstList_Description" xml:space="preserve">
+    <value>The variable that holds the first list to compare</value>
+  </data>
+  <data name="SubtractLists_FirstList_FriendlyName" xml:space="preserve">
+    <value>First list</value>
+  </data>
+  <data name="SubtractLists_FriendlyName" xml:space="preserve">
+    <value>Subtract lists</value>
+  </data>
+  <data name="SubtractLists_OutputList_Description" xml:space="preserve">
+    <value>The new resulting list</value>
+  </data>
+  <data name="SubtractLists_OutputList_FriendlyName" xml:space="preserve">
+    <value>Store differences as a new list into</value>
+  </data>
+  <data name="SubtractLists_SecondList_Description" xml:space="preserve">
+    <value>The variable that holds the second list to compare</value>
+  </data>
+  <data name="SubtractLists_SecondList_FriendlyName" xml:space="preserve">
+    <value>Second list</value>
+  </data>
+  <data name="SubtractLists_Summary" xml:space="preserve">
+    <value>&lt;if(OUTPUTLIST)&gt;Find items that belong in &lt;FIRSTLIST&gt; but not in &lt;SECONDLIST&gt; and store them as a new list into &lt;OUTPUTLIST&gt;&lt;else&gt;
+Find items that belong in &lt;FIRSTLIST&gt; but not in &lt;SECONDLIST&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;FIRSTLIST&gt;"}{Locked="&lt;SECONDLIST&gt;"}{Locked="&lt;if(OUTPUTLIST)&gt;"}{Locked="&lt;OUTPUTLIST&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="TruncateNumber_DecimalPlaces_Description" xml:space="preserve">
+    <value>The number of decimal places to round the given number up to. Enter 0 to return an integer as a result</value>
+  </data>
+  <data name="TruncateNumber_DecimalPlaces_FriendlyName" xml:space="preserve">
+    <value>Decimal places</value>
+  </data>
+  <data name="TruncateNumber_Description" xml:space="preserve">
+    <value>Get the integral or fractional digits of a numeric value, or round up the value to a specified number of decimal places</value>
+  </data>
+  <data name="TruncateNumber_FriendlyName" xml:space="preserve">
+    <value>Truncate number</value>
+  </data>
+  <data name="TruncateNumber_Number_Description" xml:space="preserve">
+    <value>The number or variable that holds the numeric value to truncate/round up</value>
+  </data>
+  <data name="TruncateNumber_Number_FriendlyName" xml:space="preserve">
+    <value>Number to truncate</value>
+  </data>
+  <data name="TruncateNumber_Operation_Description" xml:space="preserve">
+    <value>Specifies the operation to perform on the given number</value>
+  </data>
+  <data name="TruncateNumber_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="TruncateNumber_Result_Description" xml:space="preserve">
+    <value>The truncated or rounded number</value>
+  </data>
+  <data name="TruncateNumber_Result_FriendlyName" xml:space="preserve">
+    <value>Store truncated value into</value>
+  </data>
+  <data name="TruncateOperation_GetDecimalPart_FriendlyName" xml:space="preserve">
+    <value>Get decimal part</value>
+  </data>
+  <data name="TruncateOperation_GetIntegerPart_FriendlyName" xml:space="preserve">
+    <value>Get integer part</value>
+  </data>
+  <data name="TruncateOperation_RoundAtNthDecimalDigits_FriendlyName" xml:space="preserve">
+    <value>Round number</value>
+  </data>
+  <data name="Variables_Description" xml:space="preserve">
+    <value>Create and manage variables of different datatypes</value>
+  </data>
+  <data name="Variables_FriendlyName" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="SortListByProperty_Description" xml:space="preserve">
+    <value>Sort the items of a list allowing to specify multiple properties to sort by using defined sort directions</value>
+  </data>
+  <data name="ErrorMessage_IncompatibleTypesListError" xml:space="preserve">
+    <value>The lists supplied are of incompatible types</value>
+  </data>
+  <data name="ErrorMessage_ParseCustomObjectError" xml:space="preserve">
+    <value>Error converting the custom object to JSON</value>
+  </data>
+  <data name="ErrorMessage_ParseJsonError" xml:space="preserve">
+    <value>Error parsing the JSON</value>
+  </data>
+  <data name="ErrorMessage_HowManyNumbersError" xml:space="preserve">
+    <value>&lt;How Many Numbers&gt; must hold a positive value</value>
+  </data>
+  <data name="ErrorMessage_MinimumValueError" xml:space="preserve">
+    <value>Minimum Value can't exceed the Maximum Value</value>
+  </data>
+  <data name="ErrorMessage_InvalidArgumetsError" xml:space="preserve">
+    <value>Can't generate a list of {0} random numbers betweeen {1} and {2} without duplicates</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+  <data name="ErrorMessage_GenerateRandomNumberError" xml:space="preserve">
+    <value>Error generating random number(s). Minimum value, Maximum value or How many numbers might be out of range</value>
+  </data>
+  <data name="ErrorMessage_IndexOutOfRangeError" xml:space="preserve">
+    <value>Item index is out of range: Item index ({0}) can't be less than 0 or equal or greater than the list's number of items ({1})</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_ItemNotFoundError" xml:space="preserve">
+    <value>Item not found: Item ({0}) isn't in the list</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ColumnNameNotFoundError" xml:space="preserve">
+    <value>Column name '{0}' doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ColumnIndexNumOutOfRangeError" xml:space="preserve">
+    <value>Column index {0} is out of range</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ColumnIndexOutOfRangeError" xml:space="preserve">
+    <value>Column index is out of range</value>
+  </data>
+  <data name="ErrorMessage_IncompatibleLists" xml:space="preserve">
+    <value>The lists supplied are of incompatible types</value>
+  </data>
+  <data name="ErrorMessage_SortPropertyNotValidField" xml:space="preserve">
+    <value>'{0}' isn't a valid field</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ItemPropertiesInvalidTypes" xml:space="preserve">
+    <value>Items' properties to compare must be of the same type</value>
+  </data>
+  <data name="ErrorMessage_IndexOutOfRange" xml:space="preserve">
+    <value>Item index is out of range: Item index ({0}) can't be less than 0 or equal or greater than the list's number of items ({1})</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidCast" xml:space="preserve">
+    <value>Column name/index must be a text or numerical value</value>
+  </data>
+  <data name="ErrorMessage_ColumnNameDoesNotExist" xml:space="preserve">
+    <value>Column name doesn't exist</value>
+  </data>
+  <data name="ErrorMessage_ColumnIndexOutOfRange" xml:space="preserve">
+    <value>Column index is out of range</value>
+  </data>
+  <data name="ErrorMessage_JSONParsingError" xml:space="preserve">
+    <value>Error parsing the JSON</value>
+  </data>
+  <data name="ErrorMessage_ErrorConvertingCustomObject" xml:space="preserve">
+    <value>Error converting the custom object to JSON</value>
+  </data>
+  <data name="ErrorMessage_ErrorCreatingCustomObject" xml:space="preserve">
+    <value>Error creating the custom object</value>
+  </data>
+  <data name="ErrorMessage_PropertyNameExists" xml:space="preserve">
+    <value>Property name '{0}' exists</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ErrorAddingPropertyToCustomObject" xml:space="preserve">
+    <value>Error while adding property to the custom object</value>
+  </data>
+</root>

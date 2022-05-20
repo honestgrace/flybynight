@@ -1,0 +1,838 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachmentsOptions_DoNotSave_FriendlyName" xml:space="preserve">
+    <value>Do not save attachments</value>
+  </data>
+  <data name="AttachmentsOptions_Save_FriendlyName" xml:space="preserve">
+    <value>Save attachments</value>
+  </data>
+  <data name="Close_Description" xml:space="preserve">
+    <value>Close a previously launched Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Close_FriendlyName" xml:space="preserve">
+    <value>Close Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Close_Instance_Description" xml:space="preserve">
+    <value>The Outlook instance to work with. This variable is specified in a 'Launch Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Close_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Close_Summary" xml:space="preserve">
+    <value>Close the Outlook instance stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="DeleteEmails_Description" xml:space="preserve">
+    <value>Delete an email message (or a list of email messages) retrieved by a 'Retrieve email messages from Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="DeleteEmails_Summary" xml:space="preserve">
+    <value>Delete email messages &lt;EMAILSTOPROCESS&gt; from account &lt;ACCOUNT&gt;</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;ACCOUNT&gt;"}</comment>
+  </data>
+  <data name="Error_AttachmentNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified attachment(s) don't exist</value>
+  </data>
+  <data name="Error_AttachmentNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Attachment not found</value>
+  </data>
+  <data name="Error_CloseOutlookError_Description" xml:space="preserve">
+    <value>Indicates a problem closing the Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_CloseOutlookError_FriendlyName" xml:space="preserve">
+    <value>Failed to close Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_DirectoryNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified email message(s) couldn't be saved because the directory doesn't exist</value>
+  </data>
+  <data name="Error_DirectoryNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Directory not found</value>
+  </data>
+  <data name="Error_InvalidMailFolderError_Description" xml:space="preserve">
+    <value>Indicates that the specified mail folder isn't valid</value>
+  </data>
+  <data name="Error_InvalidMailFolderError_FriendlyName" xml:space="preserve">
+    <value>Mail folder specified not valid in Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_LaunchOutlookError_Description" xml:space="preserve">
+    <value>Indicates a problem launching Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_LaunchOutlookError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_MailFolderNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified mail folder doesn't exist</value>
+  </data>
+  <data name="Error_MailFolderNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Specified mail folder doesn't exist</value>
+  </data>
+  <data name="Error_MessageDeletedOrMovedError_Description" xml:space="preserve">
+    <value>Indicates that the specified email message(s) couldn't be saved because they are moved or deleted</value>
+  </data>
+  <data name="Error_MessageDeletedOrMovedError_FriendlyName" xml:space="preserve">
+    <value>Email message is deleted or moved to another folder</value>
+  </data>
+  <data name="Error_OutlookAccountNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified Outlook account doesn't exist</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_OutlookAccountNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Failed to find Outlook account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_ProcessEmailMessagesError_Description" xml:space="preserve">
+    <value>Indicates a problem processing the specified email messages in Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_ProcessEmailMessagesError_FriendlyName" xml:space="preserve">
+    <value>Failed to process email messages in Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_RetrieveEmailMessagesError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the email messages from Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_RetrieveEmailMessagesError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve email messages from Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Error_SaveAttachmentsDirectoryNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the directory to save the attachments into doesn't exist</value>
+  </data>
+  <data name="Error_SaveAttachmentsDirectoryNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Directory for saving attachments not found</value>
+  </data>
+  <data name="Error_SaveEmailMessagesError_Description" xml:space="preserve">
+    <value>Indicates a problem saving the specified email message(s)</value>
+  </data>
+  <data name="Error_SaveEmailMessagesError_FriendlyName" xml:space="preserve">
+    <value>Failed to save email message(s)</value>
+  </data>
+  <data name="Error_SendEmailMessageError_Description" xml:space="preserve">
+    <value>Indicates a problem sending the email message</value>
+  </data>
+  <data name="Error_SendEmailMessageError_FriendlyName" xml:space="preserve">
+    <value>Failed to send email message</value>
+  </data>
+  <data name="ForwardEmail_Description" xml:space="preserve">
+    <value>Respond to an Outlook message by forwarding it</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ForwardEmail_Summary" xml:space="preserve">
+    <value>Respond to a received message by forwarding to &lt;SENDTO&gt;</value>
+    <comment>{Locked="&lt;SENDTO&gt;"}</comment>
+  </data>
+  <data name="Launch_Description" xml:space="preserve">
+    <value>Launch Outlook and create a new Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Launch_FriendlyName" xml:space="preserve">
+    <value>Launch Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Launch_Instance_Description" xml:space="preserve">
+    <value>The specific Outlook instance for use with later Outlook actions</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Launch_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Launch_Summary" xml:space="preserve">
+    <value>&lt;if(INSTANCE)&gt;Launch Outlook and store the instance created in &lt;INSTANCE&gt;&lt;else&gt;
+Launch Outlook &lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(INSTANCE)&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="&lt;endif&gt;"}{Locked="Outlook"}{Locked="&lt;else&gt;"}</comment>
+  </data>
+  <data name="MarkEmailsAsUnread_Description" xml:space="preserve">
+    <value>Mark an email message (or a list of email messages) retrieved by a 'Retrieve email messages from Outlook' action as unread</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="MarkEmailsAsUnread_Summary" xml:space="preserve">
+    <value>Mark email messages &lt;EMAILSTOPROCESS&gt; from account &lt;ACCOUNT&gt; as unread</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;ACCOUNT&gt;"}</comment>
+  </data>
+  <data name="MessageType_Html_FriendlyName" xml:space="preserve">
+    <value>HTML (*.html)</value>
+    <comment>{Locked="Unicode"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="MessageType_MhtFiles_FriendlyName" xml:space="preserve">
+    <value>MHT files (*.mht)</value>
+  </data>
+  <data name="MessageType_OutlookMessageFormat_FriendlyName" xml:space="preserve">
+    <value>Outlook message format (*.msg)</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="MessageType_OutlookMessageFormatUnicode_FriendlyName" xml:space="preserve">
+    <value>Outlook message format - Unicode (*.msg)</value>
+    <comment>{Locked="Unicode"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="MessageType_OutlookTemplate_FriendlyName" xml:space="preserve">
+    <value>Outlook template (*.oft)</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="MessageType_TextOnly_FriendlyName" xml:space="preserve">
+    <value>Text only (*.txt)</value>
+  </data>
+  <data name="MoveEmails_Description" xml:space="preserve">
+    <value>Move an email message (or a list of email messages) retrieved by a 'Retrieve emails from Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="MoveEmails_Summary" xml:space="preserve">
+    <value>Move email messages &lt;EMAILSTOPROCESS&gt; to mail folder &lt;FOLDER&gt; in account &lt;ACCOUNT&gt;</value>
+    <comment>{Locked="&lt;EMAILSTOPROCESS&gt;"}{Locked="&lt;FOLDER&gt;"}{Locked="&lt;ACCOUNT&gt;"}</comment>
+  </data>
+  <data name="Outlook_Description" xml:space="preserve">
+    <value>Automate sending, receiving, and managing email messages of an Outlook account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="Outlook_FriendlyName" xml:space="preserve">
+    <value>Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="OutlookInstanceHandle_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="OutlookInstanceHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>Outlook instances</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="OutlookMailMessage_FriendlyName" xml:space="preserve">
+    <value>Outlook email message</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="OutlookMailMessage_FriendlyNamePlural" xml:space="preserve">
+    <value>Outlook email messages</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_Account_Description" xml:space="preserve">
+    <value>The name of the Outlook account (data file name) to work with</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_Account_FriendlyName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="ProcessEmailMessages_Description" xml:space="preserve">
+    <value>Move or delete an email message (or a list of email messages) retrieved by a 'Retrieve email messages from Outlook' action.</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_EmailsToProcess_Description" xml:space="preserve">
+    <value>The email message(s) to process. Use a variable populated by a 'Retrieve email messages from Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_EmailsToProcess_FriendlyName" xml:space="preserve">
+    <value>Email messages to process</value>
+  </data>
+  <data name="ProcessEmailMessages_FriendlyName" xml:space="preserve">
+    <value>Process email messages in Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_Instance_Description" xml:space="preserve">
+    <value>The Outlook instance to work with. Specify this variable in a 'Launch Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ProcessEmailMessages_MailFolder_Description" xml:space="preserve">
+    <value>The name of the folder to retrieve messages from. Enter the full folder path for subfolders (e.g., Inbox\Work)</value>
+  </data>
+  <data name="ProcessEmailMessages_MailFolder_FriendlyName" xml:space="preserve">
+    <value>Mail folder</value>
+  </data>
+  <data name="ProcessEmailMessages_Operation_Description" xml:space="preserve">
+    <value>Specifies which operation to perform on the specified email messages</value>
+  </data>
+  <data name="ProcessEmailMessages_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="ProcessEmailOperation_Delete_FriendlyName" xml:space="preserve">
+    <value>Delete email messages</value>
+  </data>
+  <data name="ProcessEmailOperation_MarkAsUnread_FriendlyName" xml:space="preserve">
+    <value>Mark as unread</value>
+  </data>
+  <data name="ProcessEmailOperation_Move_FriendlyName" xml:space="preserve">
+    <value>Move email messages to mail folder</value>
+  </data>
+  <data name="ReplyAllToEmail_Description" xml:space="preserve">
+    <value>Respond to an Outlook message by replying to all</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ReplyAllToEmail_Summary" xml:space="preserve">
+    <value>Respond to a received message by replying to all</value>
+  </data>
+  <data name="ReplyToEmail_Description" xml:space="preserve">
+    <value>Respond to an Outlook message by replying</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ReplyToEmail_Summary" xml:space="preserve">
+    <value>Respond to a received message by replying</value>
+  </data>
+  <data name="RespondToMailMessage_Account_Description" xml:space="preserve">
+    <value>The name of the Outlook account (data file name) to work with</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RespondToMailMessage_Account_FriendlyName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="RespondToMailMessage_Attachments_Description" xml:space="preserve">
+    <value>The full path of any attachment(s). Enclose multiple files in double quotes (") and separate them by a space character</value>
+  </data>
+  <data name="RespondToMailMessage_Attachments_FriendlyName" xml:space="preserve">
+    <value>Attachment(s)</value>
+  </data>
+  <data name="RespondToMailMessage_BCC_Description" xml:space="preserve">
+    <value>The email address(es) of the BCC (hidden) recipient(s). To enter more than one email address, separate the list of addresses by spaces or semicolons</value>
+  </data>
+  <data name="RespondToMailMessage_BCC_FriendlyName" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="RespondToMailMessage_Body_Description" xml:space="preserve">
+    <value>The text of the body</value>
+  </data>
+  <data name="RespondToMailMessage_Body_FriendlyName" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="RespondToMailMessage_CC_Description" xml:space="preserve">
+    <value>The email address(es) of the CC recipient(s). To enter more than one email address, separate the list of addresses by spaces or semicolons</value>
+  </data>
+  <data name="RespondToMailMessage_CC_FriendlyName" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="RespondToMailMessage_Description" xml:space="preserve">
+    <value>Respond to an Outlook message, by replying, replying to all or forwarding it</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RespondToMailMessage_FriendlyName" xml:space="preserve">
+    <value>Respond to Outlook message</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RespondToMailMessage_Instance_Description" xml:space="preserve">
+    <value>The Outlook instance to work with. Specify this variable in a 'Launch Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RespondToMailMessage_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RespondToMailMessage_MailMessage_Description" xml:space="preserve">
+    <value>The email message to act upon. Use a variable populated by a 'Retrieve email messages from Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RespondToMailMessage_MailMessage_FriendlyName" xml:space="preserve">
+    <value>Mail message</value>
+  </data>
+  <data name="RespondToMailMessage_ResponseAction_Description" xml:space="preserve">
+    <value>Specifies whether to reply (to sender or all) with a message or forward the received message</value>
+  </data>
+  <data name="RespondToMailMessage_ResponseAction_FriendlyName" xml:space="preserve">
+    <value>Response action</value>
+  </data>
+  <data name="RespondToMailMessage_SendTo_Description" xml:space="preserve">
+    <value>The email address(es) of the recipient(s). To enter more than one email address, separate the list of addresses by spaces or semicolons</value>
+  </data>
+  <data name="RespondToMailMessage_SendTo_FriendlyName" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="ResponseAction_Forward_FriendlyName" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="ResponseAction_Reply_FriendlyName" xml:space="preserve">
+    <value>Reply</value>
+  </data>
+  <data name="ResponseAction_ReplyAll_FriendlyName" xml:space="preserve">
+    <value>Reply all</value>
+  </data>
+  <data name="RetrieveEmailMessages_Account_Description" xml:space="preserve">
+    <value>The name of the Outlook account (data file name) to work with</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailMessages_Account_FriendlyName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="RetrieveEmailMessages_AttachmentsOptions_Description" xml:space="preserve">
+    <value>Specifies whether to save the attachments of the email messages retrieved or not</value>
+  </data>
+  <data name="RetrieveEmailMessages_AttachmentsOptions_FriendlyName" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="RetrieveEmailMessages_BodyContains_Description" xml:space="preserve">
+    <value>The key phrase to find within the email body. Leave this attribute blank to retrieve all email messages regardless of their content</value>
+  </data>
+  <data name="RetrieveEmailMessages_BodyContains_FriendlyName" xml:space="preserve">
+    <value>Body contains</value>
+  </data>
+  <data name="RetrieveEmailMessages_Description" xml:space="preserve">
+    <value>Retrieve email messages from an Outlook account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailMessages_EmailsToRetrieve_Description" xml:space="preserve">
+    <value>Specifies whether to retrieve all messages in the folder or only the unread ones</value>
+  </data>
+  <data name="RetrieveEmailMessages_EmailsToRetrieve_FriendlyName" xml:space="preserve">
+    <value>Retrieve</value>
+  </data>
+  <data name="RetrieveEmailMessages_FriendlyName" xml:space="preserve">
+    <value>Retrieve email messages from Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailMessages_FromContains_Description" xml:space="preserve">
+    <value>The full email address of the sender whose messages to retrieve. Leave this attribute blank to retrieve all messages regardless of the sender</value>
+  </data>
+  <data name="RetrieveEmailMessages_FromContains_FriendlyName" xml:space="preserve">
+    <value>From contains</value>
+  </data>
+  <data name="RetrieveEmailMessages_Instance_Description" xml:space="preserve">
+    <value>The Outlook instance to work with. Specify this variable in a 'Launch Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailMessages_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailMessages_MailFolder_Description" xml:space="preserve">
+    <value>The name of the folder to retrieve messages from. Enter the full folder path for subfolders (ex: Inbox\Work)</value>
+  </data>
+  <data name="RetrieveEmailMessages_MailFolder_FriendlyName" xml:space="preserve">
+    <value>Mail folder</value>
+  </data>
+  <data name="RetrieveEmailMessages_MarkAsRead_Description" xml:space="preserve">
+    <value>Specifies whether to mark as read all the unread messages retrieved</value>
+  </data>
+  <data name="RetrieveEmailMessages_MarkAsRead_FriendlyName" xml:space="preserve">
+    <value>Mark as read</value>
+  </data>
+  <data name="RetrieveEmailMessages_Messages_Description" xml:space="preserve">
+    <value>The retrieved email messages for later processing. The variable contains a list of Outlook message objects</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailMessages_Messages_FriendlyName" xml:space="preserve">
+    <value>Retrieved messages</value>
+  </data>
+  <data name="RetrieveEmailMessages_SaveAttachmentsInto_Description" xml:space="preserve">
+    <value>The path to save the attachments of the retrieved emails into</value>
+  </data>
+  <data name="RetrieveEmailMessages_SaveAttachmentsInto_FriendlyName" xml:space="preserve">
+    <value>Save attachments into</value>
+  </data>
+  <data name="RetrieveEmailMessages_SubjectContains_Description" xml:space="preserve">
+    <value>The key phrase to find within the email subject. Leave this attribute blank to retrieve all email messages regardless of their subject</value>
+  </data>
+  <data name="RetrieveEmailMessages_SubjectContains_FriendlyName" xml:space="preserve">
+    <value>Subject contains</value>
+  </data>
+  <data name="RetrieveEmailMessages_ToContains_Description" xml:space="preserve">
+    <value>The full email address(es) of the recipient(s) (separated by space or semicolon if more than one) for the messages to retrieve. Leave this attribute blank to retrieve all messages regardless of the recipient(s)</value>
+  </data>
+  <data name="RetrieveEmailMessages_ToContains_FriendlyName" xml:space="preserve">
+    <value>To contains</value>
+  </data>
+  <data name="RetrieveEmails_Description" xml:space="preserve">
+    <value>Retrieve email messages from an Outlook account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmails_Summary" xml:space="preserve">
+    <value>Retrieve email messages from account &lt;ACCOUNT&gt;</value>
+    <comment>{Locked="&lt;ACCOUNT&gt;"}</comment>
+  </data>
+  <data name="RetrieveEmailsAndSaveAttachments_Description" xml:space="preserve">
+    <value>Retrieve email messages from an Outlook account and saves their attachments</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="RetrieveEmailsAndSaveAttachments_Summary" xml:space="preserve">
+    <value>Retrieve email messages from account &lt;ACCOUNT&gt;</value>
+    <comment>{Locked="&lt;ACCOUNT&gt;"}</comment>
+  </data>
+  <data name="RetrieveMessagesMode_All_FriendlyName" xml:space="preserve">
+    <value>All email messages</value>
+  </data>
+  <data name="RetrieveMessagesMode_Read_FriendlyName" xml:space="preserve">
+    <value>Read email messages only</value>
+  </data>
+  <data name="RetrieveMessagesMode_Unread_FriendlyName" xml:space="preserve">
+    <value>Unread email messages only</value>
+  </data>
+  <data name="SaveAsMode_CustomName_FriendlyName" xml:space="preserve">
+    <value>Custom</value>
+  </data>
+  <data name="SaveAsMode_DefaultName_FriendlyName" xml:space="preserve">
+    <value>Default</value>
+  </data>
+  <data name="SaveEmails_Description" xml:space="preserve">
+    <value>Save Outlook email messages given an account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveEmails_Summary" xml:space="preserve">
+    <value>Save Outlook email messages from account &lt;ACCOUNT&gt; to folder &lt;SAVEEMAILSTO&gt; as &lt;SAVEFORMAT&gt;</value>
+    <comment>{Locked="&lt;ACCOUNT&gt;"}{Locked="&lt;SAVEEMAILSTO&gt;"}{Locked="&lt;SAVEFORMAT&gt;"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveEmailsAs_Description" xml:space="preserve">
+    <value>Save Outlook email messages given an account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveEmailsAs_Summary" xml:space="preserve">
+    <value>Save Outlook email messages from account &lt;ACCOUNT&gt; to folder &lt;SAVEEMAILSTO&gt; with custom name &lt;SAVEEMAILSAS&gt; and type &lt;SAVEFORMAT&gt;</value>
+    <comment>{Locked="&lt;ACCOUNT&gt;"}{Locked="&lt;SAVEEMAILSTO&gt;"}{Locked="&lt;SAVEEMAILSAS&gt;"}{Locked="&lt;SAVEFORMAT&gt;"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_Account_Description" xml:space="preserve">
+    <value>The name of the Outlook account (data file name) to work with</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_Account_FriendlyName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_Description" xml:space="preserve">
+    <value>Save Outlook email messages given an account</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_EmailsToSave_Description" xml:space="preserve">
+    <value>The email message(s) to save. Use a variable populated by a 'Retrieve email messages from Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_EmailsToSave_FriendlyName" xml:space="preserve">
+    <value>Email message(s) to save</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_FriendlyName" xml:space="preserve">
+    <value>Save Outlook email messages</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_Instance_Description" xml:space="preserve">
+    <value>The Outlook instance to work with. Specify this variable in a 'Launch Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SaveOutlookEmailMessages_MessagesFiles_Description" xml:space="preserve">
+    <value>The file paths of the saved email messages for later processing</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_MessagesFiles_FriendlyName" xml:space="preserve">
+    <value>Stored message(s) files</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveAsMode_Description" xml:space="preserve">
+    <value>Specifies whether to save the messages using the default name (subject) or provide another</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveAsMode_FriendlyName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveEmailsAs_Description" xml:space="preserve">
+    <value>Specifies the custom name for messages' name which differs from message to message by an automatically added suffix</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveEmailsAs_FriendlyName" xml:space="preserve">
+    <value>Save as</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveEmailsTo_Description" xml:space="preserve">
+    <value>The folder to save the messages to</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveEmailsTo_FriendlyName" xml:space="preserve">
+    <value>Save email message(s) to</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveFormat_Description" xml:space="preserve">
+    <value>Specifies the format to save the messages</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_SaveFormat_FriendlyName" xml:space="preserve">
+    <value>Save format</value>
+  </data>
+  <data name="SaveOutlookEmailMessages_Summary" xml:space="preserve">
+    <value>Save Outlook email messages from account &lt;ACCOUNT&gt; to folder as &lt;SAVEFORMAT&gt;</value>
+    <comment>{Locked="&lt;ACCOUNT&gt;"}{Locked="&lt;SAVEFORMAT&gt;"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmail_Description" xml:space="preserve">
+    <value>Create and send a new email message through Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmail_Summary" xml:space="preserve">
+    <value>Send email to &lt;SENDTO&gt; with subject &lt;SUBJECT&gt;</value>
+    <comment>{Locked="&lt;SENDTO&gt;"}{Locked="&lt;SUBJECT&gt;"}</comment>
+  </data>
+  <data name="SendEmailFrom_Account_FriendlyName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="SendEmailFrom_OtherMailbox_FriendlyName" xml:space="preserve">
+    <value>Other mailbox</value>
+  </data>
+  <data name="SendEmailFromMailbox_Description" xml:space="preserve">
+    <value>Create and send a new email message through Outlook from another mailbox</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailFromMailbox_Summary" xml:space="preserve">
+    <value>Send email to &lt;SENDTO&gt; from mailbox &lt;SENDFROM&gt; with subject &lt;SUBJECT&gt;</value>
+    <comment>{Locked="&lt;SENDTO&gt;"}{Locked="&lt;SENDFROM&gt;"}{Locked="&lt;SUBJECT&gt;"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_Account_Description" xml:space="preserve">
+    <value>The name of the Outlook account (data file name) to work with</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_Account_FriendlyName" xml:space="preserve">
+    <value>Account</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Attachments_Description" xml:space="preserve">
+    <value>The full path of any attachment(s). Enclose multiple files in double quotes (") and separate them by a space character</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Attachments_FriendlyName" xml:space="preserve">
+    <value>Attachment(s)</value>
+  </data>
+  <data name="SendEmailThroughOutlook_BCC_Description" xml:space="preserve">
+    <value>The email address(es) of the BCC (hidden) recipient(s). To enter more than one email address, separate the list of addresses by spaces or semicolons</value>
+  </data>
+  <data name="SendEmailThroughOutlook_BCC_FriendlyName" xml:space="preserve">
+    <value>BCC</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Body_Description" xml:space="preserve">
+    <value>The text of the body</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Body_FriendlyName" xml:space="preserve">
+    <value>Body</value>
+  </data>
+  <data name="SendEmailThroughOutlook_CC_Description" xml:space="preserve">
+    <value>The email address(es) of the CC recipient(s). To enter more than one email address, separate the list of addresses by spaces or semicolons</value>
+  </data>
+  <data name="SendEmailThroughOutlook_CC_FriendlyName" xml:space="preserve">
+    <value>CC</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Description" xml:space="preserve">
+    <value>Create and send a new email message through Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_FriendlyName" xml:space="preserve">
+    <value>Send email message through Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_Instance_Description" xml:space="preserve">
+    <value>The Outlook instance to work with. Specify this variable in a 'Launch Outlook' action</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_Instance_FriendlyName" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_IsBodyHtml_Description" xml:space="preserve">
+    <value>Specifies whether to interpret the body of the email as HTML coding</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_IsBodyHtml_FriendlyName" xml:space="preserve">
+    <value>Body is HTML</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_SendEmailFrom_Description" xml:space="preserve">
+    <value>Specifies whether to send the email message using the specified account or a different one, for example from a shared mailbox</value>
+  </data>
+  <data name="SendEmailThroughOutlook_SendEmailFrom_FriendlyName" xml:space="preserve">
+    <value>Send email message from</value>
+  </data>
+  <data name="SendEmailThroughOutlook_SendFrom_Description" xml:space="preserve">
+    <value>The name of the Outlook account to send the email from; for example, a shared mailbox.</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="SendEmailThroughOutlook_SendFrom_FriendlyName" xml:space="preserve">
+    <value>Send from</value>
+  </data>
+  <data name="SendEmailThroughOutlook_SendTo_Description" xml:space="preserve">
+    <value>The email address(es) of the recipient(s). To enter more than one email address, separate the list of addresses by spaces or semicolons</value>
+  </data>
+  <data name="SendEmailThroughOutlook_SendTo_FriendlyName" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Subject_Description" xml:space="preserve">
+    <value>The subject of the email message</value>
+  </data>
+  <data name="SendEmailThroughOutlook_Subject_FriendlyName" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="OutlookInstanceHandle_OutlookInstance" xml:space="preserve">
+    <value>Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="OutlookMailMessage_OutlookMailmessage" xml:space="preserve">
+    <value>Outlook email message from {0} with subject {1}</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_UninitializedOutlookInstance" xml:space="preserve">
+    <value>Outlook instance is uninitialized. Please double-check that the correct Outlook instance has been specified and that it's used after a 'Launch Outlook' and not after the Outlook instance has been closed</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToLaunch" xml:space="preserve">
+    <value>Failed to launch Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_AccountDoesNotExist" xml:space="preserve">
+    <value>Outlook account: {0} doesn't exist</value>
+    <comment>{Locked="{0}"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_AccountNotFound" xml:space="preserve">
+    <value>Failed to find Outlook account {0}</value>
+    <comment>{Locked="{0}"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_MailFolderDoesNotExist" xml:space="preserve">
+    <value>Mail folder {0} doesn't exist in Outlook</value>
+    <comment>{Locked="{0}"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_MailFolderNotFound" xml:space="preserve">
+    <value> Failed to find mail folder {0} in Outlook</value>
+    <comment>{Locked="{0}"}{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_DirectoryToSaveAttachmentNotFound" xml:space="preserve">
+    <value>Directory {0} for saving attachments not found</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveEmails" xml:space="preserve">
+    <value>Failed to retrieve email messages from Outlook</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+  <data name="ErrorMessage_AttachmentNotFound" xml:space="preserve">
+    <value>Attachment not found</value>
+  </data>
+  <data name="ErrorMessage_FailedToSendEmail" xml:space="preserve">
+    <value>Failed to send email message</value>
+  </data>
+  <data name="ErrorMessage_FailedToSendEmailResponse" xml:space="preserve">
+    <value>Failed to send email response</value>
+  </data>
+  <data name="ErrorMessage_FailedToProcessEmails" xml:space="preserve">
+    <value>Failed to process email messages</value>
+  </data>
+  <data name="ErrorMessage_DirectoryNotFound" xml:space="preserve">
+    <value>Directory {0} not found</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_EmailNotFound" xml:space="preserve">
+    <value>Email message is deleted or moved to another folder (EntryID: {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToSaveMessages" xml:space="preserve">
+    <value>Failed to save email message(s)</value>
+  </data>
+  <data name="ErrorMessage_FailedToCloseOutlook" xml:space="preserve">
+    <value>Failed to close Outlook instance</value>
+    <comment>{Locked="Outlook"}</comment>
+  </data>
+</root>

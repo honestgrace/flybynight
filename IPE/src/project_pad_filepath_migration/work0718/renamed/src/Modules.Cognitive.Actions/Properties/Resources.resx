@@ -1,0 +1,2272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AnalyzeEntitiesFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Entities' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="AnalyzeEntitiesFromFile_Summary" xml:space="preserve">
+    <value>Inspect the given document residing on &lt;FILEPATH&gt; for known entities (proper nouns such as public figures, landmarks, etc.) and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeEntitiesFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Entities' with data loaded from GCS Content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="AnalyzeEntitiesFromGCS_Summary" xml:space="preserve">
+    <value>Inspect the given document residing on &lt;GCSURL&gt; for known entities (proper nouns such as public figures, landmarks, etc.) and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;GCSURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeFromFile_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Analyze Tone' from file</value>
+  </data>
+  <data name="AnalyzeFromFile_Summary" xml:space="preserve">
+    <value>Analyze tone for the text residing on &lt;FILEPATH&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeFromText_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Analyze Tone' and provides the text through a variable</value>
+  </data>
+  <data name="AnalyzeFromText_Summary" xml:space="preserve">
+    <value>Analyze tone for the text &lt;TEXT&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeImageFromFile_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Analyze Image' with data loaded from file</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="AnalyzeImageFromFile_Summary" xml:space="preserve">
+    <value>Extract a rich set of visual features based on the image residing in &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeImageFromUrl_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Analyze Image' with data loaded from URL</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="AnalyzeImageFromUrl_Summary" xml:space="preserve">
+    <value>Extract a rich set of visual features based on the image residing in &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeSentimentFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Sentiment' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="AnalyzeSentimentFromFile_Summary" xml:space="preserve">
+    <value>Analyze the sentiment of the document (positive or negative) residing on &lt;FILEPATH&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeSentimentFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Sentiment' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="AnalyzeSentimentFromGCS_Summary" xml:space="preserve">
+    <value>Analyze the sentiment of the document (positive or negative) residing on &lt;GCSURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;GCSURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeSyntaxFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Syntax' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="AnalyzeSyntaxFromFile_Summary" xml:space="preserve">
+    <value>Extract linguistic information, breaking up the given text into a series of sentences and tokens (generally, word boundaries), providing further analysis on those tokens of the document &lt;FILEPATH&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="AnalyzeSyntaxFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Syntax' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="AnalyzeSyntaxFromGCS_Summary" xml:space="preserve">
+    <value>Extract linguistic information, breaking up the given text into a series of sentences and tokens (generally, word boundaries), providing further analysis on those tokens of the document &lt;GCSURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;GCSURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Category_Google_Description" xml:space="preserve">
+    <value>Google's cognitive actions</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Category_Google_FriendlyName" xml:space="preserve">
+    <value>Google</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Category_Google_NaturalLanguage_Description" xml:space="preserve">
+    <value>Reveal the structure and meaning of text</value>
+  </data>
+  <data name="Category_Google_NaturalLanguage_FriendlyName" xml:space="preserve">
+    <value>Natural language</value>
+  </data>
+  <data name="Category_Google_Vision_Description" xml:space="preserve">
+    <value>Assign labels to images and classify them into predefined categories. Detect objects, faces, and read printed and handwritten text</value>
+  </data>
+  <data name="Category_Google_Vision_FriendlyName" xml:space="preserve">
+    <value>Vision</value>
+  </data>
+  <data name="Category_IBM_Description" xml:space="preserve">
+    <value>IBM's cognitive actions</value>
+  </data>
+  <data name="Category_IBM_DocumentConversion_Description" xml:space="preserve">
+    <value>Translate non-structured documents like fax, email, pdf etc into an EDI or other structured formats</value>
+  </data>
+  <data name="Category_IBM_DocumentConversion_FriendlyName" xml:space="preserve">
+    <value>Document conversion</value>
+  </data>
+  <data name="Category_IBM_FriendlyName" xml:space="preserve">
+    <value>IBM</value>
+  </data>
+  <data name="Category_IBM_LanguageTranslator_Description" xml:space="preserve">
+    <value>Translate documents, apps and webpages</value>
+  </data>
+  <data name="Category_IBM_LanguageTranslator_FriendlyName" xml:space="preserve">
+    <value>Language translator</value>
+  </data>
+  <data name="Category_IBM_ToneAnalyzer_Description" xml:space="preserve">
+    <value>Detect emotional and language tones in written text</value>
+  </data>
+  <data name="Category_IBM_ToneAnalyzer_FriendlyName" xml:space="preserve">
+    <value>Tone analyzer</value>
+  </data>
+  <data name="Category_IBM_VisualRecognition_Description" xml:space="preserve">
+    <value>Find meaning in visual content. Analyze images for scenes, objects and other content</value>
+  </data>
+  <data name="Category_IBM_VisualRecognition_FriendlyName" xml:space="preserve">
+    <value>Visual recognition</value>
+  </data>
+  <data name="Category_Microsoft_BingSpellCheck_Description" xml:space="preserve">
+    <value>Correct spelling errors, recognize the difference among names, brand names, slang as well as understand homophones</value>
+  </data>
+  <data name="Category_Microsoft_BingSpellCheck_FriendlyName" xml:space="preserve">
+    <value>Bing spell check</value>
+  </data>
+  <data name="Category_Microsoft_ComputerVision_Description" xml:space="preserve">
+    <value>Analyze images and extract data </value>
+  </data>
+  <data name="Category_Microsoft_ComputerVision_FriendlyName" xml:space="preserve">
+    <value>Computer vision</value>
+  </data>
+  <data name="Category_Microsoft_Description" xml:space="preserve">
+    <value>Microsoft's cognitive actions</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Category_Microsoft_Face_Description" xml:space="preserve">
+    <value>Detect, identify and verify faces in images</value>
+  </data>
+  <data name="Category_Microsoft_Face_FriendlyName" xml:space="preserve">
+    <value>Face</value>
+  </data>
+  <data name="Category_Microsoft_FriendlyName" xml:space="preserve">
+    <value>Microsoft</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Category_Microsoft_TextAnalytics_Description" xml:space="preserve">
+    <value>Detect sentiment, key phrases, named entities and language from text</value>
+  </data>
+  <data name="Category_Microsoft_TextAnalytics_FriendlyName" xml:space="preserve">
+    <value>Text Analytics</value>
+  </data>
+  <data name="ClassifyImageFromFile_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Classify Image' and provides an image using a file path</value>
+  </data>
+  <data name="ClassifyImageFromFile_Summary" xml:space="preserve">
+    <value>Get a classification for the image residing on &lt;IMAGEFILE&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ClassifyImageFromUrl_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Classify image' and provides an image using a URL</value>
+  </data>
+  <data name="ClassifyImageFromUrl_Summary" xml:space="preserve">
+    <value>Get a classification for the image residing on &lt;IMAGEURL&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Cognitive_Description" xml:space="preserve">
+    <value>Perform cognitive operations using Google, Microsoft or IBM services</value>
+    <comment>{Locked="Google"}{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Cognitive_FriendlyName" xml:space="preserve">
+    <value>Cognitive</value>
+  </data>
+  <data name="ContentType_ApplicationJson_FriendlyName" xml:space="preserve">
+    <value>application/json</value>
+    <comment>{Locked="application/json"}</comment>
+  </data>
+  <data name="ContentType_TextHtml_FriendlyName" xml:space="preserve">
+    <value>text/html</value>
+    <comment>{Locked="html"}{Locked="text/html"}</comment>
+  </data>
+  <data name="ContentType_TextPlain_FriendlyName" xml:space="preserve">
+    <value>text/plain</value>
+    <comment>{Locked="text/plain"}</comment>
+  </data>
+  <data name="ConversionTarget_AnswerUnits_FriendlyName" xml:space="preserve">
+    <value>Answer units</value>
+  </data>
+  <data name="ConversionTarget_NormalizedHtml_FriendlyName" xml:space="preserve">
+    <value>Normalized HTML</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="ConversionTarget_NormalizedText_FriendlyName" xml:space="preserve">
+    <value>Normalized text</value>
+  </data>
+  <data name="ConvertToAnswerUnits_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Convert Document' to convert a document to answer units</value>
+  </data>
+  <data name="ConvertToAnswerUnits_Summary" xml:space="preserve">
+    <value>Convert the document residing on &lt;FILEPATH&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ConvertToHtml_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Convert Document' to convert a document to HTML</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="ConvertToHtml_Summary" xml:space="preserve">
+    <value>Convert the document residing on &lt;FILEPATH&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ConvertToText_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Convert Document' to convert a document to text</value>
+  </data>
+  <data name="ConvertToText_Summary" xml:space="preserve">
+    <value>Convert the document residing on &lt;FILEPATH&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="DescribeImageFromFile_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Describe Image' with data loaded from a file</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="DescribeImageFromFile_Summary" xml:space="preserve">
+    <value>Generate a description of an image which is residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="DescribeImageFromUrl_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Describe Image' with data loaded from URL</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="DescribeImageFromUrl_Summary" xml:space="preserve">
+    <value>Generate a description of an image which is residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="DetectFromFile_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Face - Detect' with data loaded from file</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="DetectFromFile_Summary" xml:space="preserve">
+    <value>Detect one or more human faces in an image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="DetectFromURL_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Face - Detect' with data loaded from URL</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="DetectFromURL_Summary" xml:space="preserve">
+    <value>Detect one or more human faces in an image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="DocumentType_Html_FriendlyName" xml:space="preserve">
+    <value>HTML</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="DocumentType_PlainText_FriendlyName" xml:space="preserve">
+    <value>Plain text</value>
+  </data>
+  <data name="Error_InvokeCognitiveServiceError_Description" xml:space="preserve">
+    <value>Indicates a problem while trying to invoke Cognitive Services</value>
+  </data>
+  <data name="Error_InvokeCognitiveServiceError_FriendlyName" xml:space="preserve">
+    <value>Failed to invoke cognitive services</value>
+  </data>
+  <data name="Error_RequestTimeoutExpiredError_Description" xml:space="preserve">
+    <value>Indicates that the timeout expired while performing the request</value>
+  </data>
+  <data name="Error_RequestTimeoutExpiredError_FriendlyName" xml:space="preserve">
+    <value>Request timeout expired</value>
+  </data>
+  <data name="FaceDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Face Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="FaceDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect faces in image residing on &lt;IMAGEFILE&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="FaceDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Face Detection' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="FaceDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect faces in image residing on &lt;IMAGEURL&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="FindSimilarByFaceIds_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Face - Find Similar' and provides a list of face IDs</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="FindSimilarByFaceIds_Summary" xml:space="preserve">
+    <value>Search the similar-looking faces of face ID &lt;FACEID&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FACEID&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="FindSimilarByFaceListId_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Face - Find Similar' and provides a face list</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="FindSimilarByFaceListId_Summary" xml:space="preserve">
+    <value>Search the similar-looking faces of face ID &lt;FACEID&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;FACEID&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Entities'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_DocumentType_Description" xml:space="preserve">
+    <value>The type of the document to transmit</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_DocumentType_FriendlyName" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_FilePath_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the document to transmit</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_FilePath_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_FriendlyName" xml:space="preserve">
+    <value>Analyze entities</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_GcsUrl_Description" xml:space="preserve">
+    <value>The URI of the document residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_GcsUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Content URI</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Language_Description" xml:space="preserve">
+    <value>The language of the text</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_ProvideFile_Description" xml:space="preserve">
+    <value>Specify whether you will provide the document by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_ProvideFile_FriendlyName" xml:space="preserve">
+    <value>Provide file</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeEntitiesGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Sentiment'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_DocumentType_Description" xml:space="preserve">
+    <value>The type of document to transmit</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_DocumentType_FriendlyName" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_FilePath_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the document to transmit</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_FilePath_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_FriendlyName" xml:space="preserve">
+    <value>Analyze sentiment</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_GcsUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_GcsUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Content URI</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Language_Description" xml:space="preserve">
+    <value>The language of the text</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_ProvideFile_Description" xml:space="preserve">
+    <value>Specify whether you will provide the document by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_ProvideFile_FriendlyName" xml:space="preserve">
+    <value>Provide document</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSentimentGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Natural Language service named 'Analyze Syntax'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_DocumentType_Description" xml:space="preserve">
+    <value>The type of document to transmit</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_DocumentType_FriendlyName" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_FilePath_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the document to transmit</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_FilePath_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_FriendlyName" xml:space="preserve">
+    <value>Analyze syntax</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_GcsUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_GcsUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Content URI</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Language_Description" xml:space="preserve">
+    <value>The language of the text</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_ProvideFile_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_ProvideFile_FriendlyName" xml:space="preserve">
+    <value>Provide document</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_NaturalLanguage_AnalyzeSyntaxGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Face Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Face detection</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_FaceDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key be use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Image Properties Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Image properties detection</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_ImagePropertiesDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Label Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Label detection</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_LabelDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Landmark Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Landmark detection</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file path</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_LandmarkDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Logo Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Logo detection</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_LogoDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Safe Search Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Safe search detection</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_SafeSearchDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_APIKey_Description" xml:space="preserve">
+    <value>The Google Cloud API key to use for this API call</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_APIKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Text Detection'</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_FriendlyName" xml:space="preserve">
+    <value>Text Detection</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_ImageUrl_Description" xml:space="preserve">
+    <value>The URI of the image residing on Google Cloud Storage</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>GCS Image URI</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a Google Cloud Storage URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_Summary" xml:space="preserve">
+    <value>&lt;if(RESPONSE)&gt;
+Use &lt;APIKEY&gt; to connect to Google and invoke SafeSearch detection service with data loaded from &lt;FILEPATH&gt; or &lt;GCSURI&gt; and store the results into &lt;RESPONSE&gt; and status code into &lt;STATUSCODE&gt;&lt;else&gt;
+Use &lt;APIKEY&gt; to connect to Google and invoke SafeSearch detection service with data loaded from &lt;FILEPATH&gt; or &lt;GCSURI&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;APIKEY&gt;"}{Locked="&lt;FILEPATH&gt;"}{Locked="&lt;GCSURI&gt;"}{Locked="&lt;if(RESPONSE)&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}{Locked="&lt;RESPONSE&gt;"}{Locked="&lt;STATUSCODE&gt;"}{Locked="Google"}</comment>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Google_Vision_TextDetectionGoogle_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_AnswerUnits_Description" xml:space="preserve">
+    <value>The heading levels as a comma-separated string</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_AnswerUnits_FriendlyName" xml:space="preserve">
+    <value>Answer units</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_ConversionTarget_Description" xml:space="preserve">
+    <value>The output format of the conversion</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_ConversionTarget_FriendlyName" xml:space="preserve">
+    <value>Conversion target</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Convert Document'</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_FilePath_Description" xml:space="preserve">
+    <value>The path to the file to analyze</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_FilePath_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_FriendlyName" xml:space="preserve">
+    <value>Convert document</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_MimeType_Description" xml:space="preserve">
+    <value>The MIME type of the file</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_MimeType_FriendlyName" xml:space="preserve">
+    <value>Mime type</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Password_Description" xml:space="preserve">
+    <value>The password to use for this call</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Response_Description" xml:space="preserve">
+    <value>The results of the API call</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_StatusCode_Description" xml:space="preserve">
+    <value>The status code of the  API call</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Username_Description" xml:space="preserve">
+    <value>The username to use for this call</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_VersionDate_Description" xml:space="preserve">
+    <value>The release date of the API to use</value>
+  </data>
+  <data name="IBM_DocumentConversion_ConvertDocumentIBM_VersionDate_FriendlyName" xml:space="preserve">
+    <value>Version date</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_ApiKey_Description" xml:space="preserve">
+    <value>The API key to use for this call</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_ApiKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_ContentType_Description" xml:space="preserve">
+    <value>The format of the requested values</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_ContentType_FriendlyName" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Identify Language'</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_FriendlyName" xml:space="preserve">
+    <value>Identify language</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_InstanceId_Description" xml:space="preserve">
+    <value>The Instance ID of the service.</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Location_Description" xml:space="preserve">
+    <value>The account's service location. You can see it through IBM "Manage" in the resources section</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Location_FriendlyName" xml:space="preserve">
+    <value>Service endpoint location</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Response_Description" xml:space="preserve">
+    <value>The results of the API call</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_StatusCode_Description" xml:space="preserve">
+    <value>The status code of the  API call</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Summary" xml:space="preserve">
+    <value>Identify the language of the text &lt;TEXT&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Text_Description" xml:space="preserve">
+    <value>The text to analyze</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_VersionDate_Description" xml:space="preserve">
+    <value>The release date of the API to use</value>
+  </data>
+  <data name="IBM_LanguageTranslator_IdentifyLanguage_VersionDate_FriendlyName" xml:space="preserve">
+    <value>Version date</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_ApiKey_Description" xml:space="preserve">
+    <value>The API key to use for this call</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_ApiKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Translate'</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_FriendlyName" xml:space="preserve">
+    <value>Translate</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_InstanceId_Description" xml:space="preserve">
+    <value>The Instance ID of the service.</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Location_Description" xml:space="preserve">
+    <value>The account's service location. You can see it through IBM "Manage" in the resources section</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Location_FriendlyName" xml:space="preserve">
+    <value>Service endpoint location</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_ModelId_Description" xml:space="preserve">
+    <value>The unique model_id of the translation model to use for the text translation</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_ModelId_FriendlyName" xml:space="preserve">
+    <value>Model ID</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Response_Description" xml:space="preserve">
+    <value>The results of the API call</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Source_Description" xml:space="preserve">
+    <value>The source language of the text</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Source_FriendlyName" xml:space="preserve">
+    <value>Source</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Target_Description" xml:space="preserve">
+    <value>The translation target language in 2 or 5 letter language code</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Target_FriendlyName" xml:space="preserve">
+    <value>Target</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Text_Description" xml:space="preserve">
+    <value>The text to send or list of words to be separately translated</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_TranslateMode_Description" xml:space="preserve">
+    <value>Specify the mode to use for this call</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_TranslateMode_FriendlyName" xml:space="preserve">
+    <value>Translate mode</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_VersionDate_Description" xml:space="preserve">
+    <value>The release date of the API to use</value>
+  </data>
+  <data name="IBM_LanguageTranslator_TranslateIBM_VersionDate_FriendlyName" xml:space="preserve">
+    <value>Version date</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_ApiKey_Description" xml:space="preserve">
+    <value>The API key to use for this call</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_ApiKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_ContentType_Description" xml:space="preserve">
+    <value>The content type of the text that will be sent</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_ContentType_FriendlyName" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Analyze Tone'</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_FilePath_Description" xml:space="preserve">
+    <value>The path to the file to analyze</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_FilePath_FriendlyName" xml:space="preserve">
+    <value>File path</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_FriendlyName" xml:space="preserve">
+    <value>Analyze tone</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_InstanceId_Description" xml:space="preserve">
+    <value>The Instance ID of the service.</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Location_Description" xml:space="preserve">
+    <value>The account's service location. You can see it through IBM "Manage" in the resources section</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Location_FriendlyName" xml:space="preserve">
+    <value>Service endpoint location</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_ProvideText_Description" xml:space="preserve">
+    <value>Specify how you will provide the text to be analyzed</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_ProvideText_FriendlyName" xml:space="preserve">
+    <value>Provide text</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Response_Description" xml:space="preserve">
+    <value>The results of the API call</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Sentences_Description" xml:space="preserve">
+    <value>Specify whether to remove the sentence analysis</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Sentences_FriendlyName" xml:space="preserve">
+    <value>Sentences</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_StatusCode_Description" xml:space="preserve">
+    <value>The status code of the  API call</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Text_Description" xml:space="preserve">
+    <value>The text to analyze</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Tones_Description" xml:space="preserve">
+    <value>The tone with which the results will be filtered (optional)</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_Tones_FriendlyName" xml:space="preserve">
+    <value>Tones</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_VersionDate_Description" xml:space="preserve">
+    <value>The release date of the API to use</value>
+  </data>
+  <data name="IBM_ToneAnalyzer_AnalyzeToneIBM_VersionDate_FriendlyName" xml:space="preserve">
+    <value>Version date</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ApiKey_Description" xml:space="preserve">
+    <value>The API key to use for this call</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ApiKey_FriendlyName" xml:space="preserve">
+    <value>API key</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ClassifierIds_Description" xml:space="preserve">
+    <value>The classifier IDs to use as a comma separated list</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ClassifierIds_FriendlyName" xml:space="preserve">
+    <value>Classifier IDs</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Classify Image'</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_FriendlyName" xml:space="preserve">
+    <value>Classify Image</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ImageFile_Description" xml:space="preserve">
+    <value>The path to the image to be analyzed</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file path</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ImageUrl_Description" xml:space="preserve">
+    <value>The URL of the image to be analyzed</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_InstanceId_Description" xml:space="preserve">
+    <value>The instance ID of the service.</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_InstanceId_FriendlyName" xml:space="preserve">
+    <value>Instance ID</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Language_Description" xml:space="preserve">
+    <value>The language of the output</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Location_Description" xml:space="preserve">
+    <value>The account's service location. You can see it through IBM "Manage" in the resources section</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Location_FriendlyName" xml:space="preserve">
+    <value>Service endpoint location</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Owners_Description" xml:space="preserve">
+    <value>The classifiers to use as a comma separated list</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Owners_FriendlyName" xml:space="preserve">
+    <value>Owners</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ProvideImage_Description" xml:space="preserve">
+    <value>Specify how you will provide the image</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Response_Description" xml:space="preserve">
+    <value>The results of the API call</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_StatusCode_Description" xml:space="preserve">
+    <value>The status code of the  API call</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Threshold_Description" xml:space="preserve">
+    <value>The minimum score a class must have to be displayed in the response as a floating value</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Threshold_FriendlyName" xml:space="preserve">
+    <value>Threshold</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_VersionDate_Description" xml:space="preserve">
+    <value>The release date of the API to use</value>
+  </data>
+  <data name="IBM_VisualRecognition_ClassifyImageIBM_VersionDate_FriendlyName" xml:space="preserve">
+    <value>Version date</value>
+  </data>
+  <data name="ImageClassificationServiceLocation_Europe_FriendlyName" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="ImageClassificationServiceLocation_Korea_FriendlyName" xml:space="preserve">
+    <value>Korea</value>
+  </data>
+  <data name="ImageClassificationServiceLocation_UsSouth_FriendlyName" xml:space="preserve">
+    <value>US South</value>
+  </data>
+  <data name="ImagePropertiesDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Image Properties Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="ImagePropertiesDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect general attributes of the image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ImagePropertiesDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Image Properties Detection' with data loaded from GCS</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="ImagePropertiesDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect general attributes of the image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="LabelDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Label Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="LabelDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect broad sets of categories of the image residing on &lt;IMAGEFILE&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="LabelDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Label Detection' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="LabelDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect broad sets of categories of the image residing on &lt;IMAGEURL&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="LandmarkDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Landmark Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="LandmarkDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect popular natural and man-made structures in the image residing on &lt;IMAGEFILE&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="LandmarkDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Landmark Detection' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="LandmarkDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect popular natural and man-made structures in the image residing on &lt;IMAGEURL&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_Australia_FriendlyName" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_Europe_FriendlyName" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_Japan_FriendlyName" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_Korea_FriendlyName" xml:space="preserve">
+    <value>Korea</value>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_Uk_FriendlyName" xml:space="preserve">
+    <value>UK</value>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_UsEast_FriendlyName" xml:space="preserve">
+    <value>US East</value>
+  </data>
+  <data name="LanguageTranslatorServiceLocation_UsSouth_FriendlyName" xml:space="preserve">
+    <value>US South</value>
+  </data>
+  <data name="LogoDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Logo Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="LogoDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect logos in the image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="LogoDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Logo Detection' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="LogoDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect logos in the image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Bing Spell Check'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_FriendlyName" xml:space="preserve">
+    <value>Spell check</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Mkt_Description" xml:space="preserve">
+    <value>For proof mode, the only supported language codes are: en-us, es-es, pt-br. For spell mode, all language codes are supported</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Mkt_FriendlyName" xml:space="preserve">
+    <value>Mkt</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Mode_Description" xml:space="preserve">
+    <value>Specify the spell-check mode</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Mode_FriendlyName" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Summary" xml:space="preserve">
+    <value>Perform spell check of the text &lt;TEXT&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Text_Description" xml:space="preserve">
+    <value>The text or the list of texts to send</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_BingSpellCheck_SpellCheck_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Analyze Image'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Details_Description" xml:space="preserve">
+    <value>A text value indicating which domain-specific details to return. You should separate multiple values with commas.</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Details_FriendlyName" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_FriendlyName" xml:space="preserve">
+    <value>Analyze image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ImageUrl_Description" xml:space="preserve">
+    <value>The URL address of an image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Language_Description" xml:space="preserve">
+    <value>A text value indicating which language to return. The service will return recognition results in the specified language</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a URL address</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_StatusCode_Description" xml:space="preserve">
+    <value>Τhe status code returned</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_VisualFeatures_Description" xml:space="preserve">
+    <value>A text value indicating what visual feature types to return. You should separate multiple values with commas. For example: categories, tags, description</value>
+  </data>
+  <data name="Microsoft_ComputerVision_AnalyzeImageMicrosoft_VisualFeatures_FriendlyName" xml:space="preserve">
+    <value>Visual features</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Describe Image'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_FriendlyName" xml:space="preserve">
+    <value>Describe image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ImageUrl_Description" xml:space="preserve">
+    <value>The URL address of an image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_MaxCandidates_Description" xml:space="preserve">
+    <value>The maximum number of candidate descriptions to return. The default is 1</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_MaxCandidates_FriendlyName" xml:space="preserve">
+    <value>Max candidates</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a URL address</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_ComputerVision_DescribeImageMicrosoft_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'OCR'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_DetectOrientation_Description" xml:space="preserve">
+    <value>Specify whether to detect the text orientation in the image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_DetectOrientation_FriendlyName" xml:space="preserve">
+    <value>Detect orientation</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_FriendlyName" xml:space="preserve">
+    <value>OCR</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ImageUrl_Description" xml:space="preserve">
+    <value>The URL address of an image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Language_Description" xml:space="preserve">
+    <value>The BCP-47 language code of the text to detect in the image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a URL address</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_ComputerVision_OCRMicrosoft_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Tag Image'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_FriendlyName" xml:space="preserve">
+    <value>Tag image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ImageUrl_Description" xml:space="preserve">
+    <value>The URL address of an image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a URL address</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_ComputerVision_TagImageMicrosoft_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Face - Detect'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_FriendlyName" xml:space="preserve">
+    <value>Detect face</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ImageFile_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) of the image file to transmit</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ImageFile_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ImageUrl_Description" xml:space="preserve">
+    <value>The URL address of an image</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ImageUrl_FriendlyName" xml:space="preserve">
+    <value>Image URL</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ProvideImage_Description" xml:space="preserve">
+    <value>Specify whether you will provide the image by a full path or a URL address</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ProvideImage_FriendlyName" xml:space="preserve">
+    <value>Provide image</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ReturnFaceAttributes_Description" xml:space="preserve">
+    <value>The face attributes to return. For multiple attributes, use a comma-separated string</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ReturnFaceAttributes_FriendlyName" xml:space="preserve">
+    <value>Return face attributes</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ReturnFaceId_Description" xml:space="preserve">
+    <value>Specify whether to return face IDs of the detected faces or not. The default value is true</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ReturnFaceId_FriendlyName" xml:space="preserve">
+    <value>Return face ID</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ReturnFaceLandmarks_Description" xml:space="preserve">
+    <value>Specify whether to return face landmarks of the detected faces or not. The default value is false</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ReturnFaceLandmarks_FriendlyName" xml:space="preserve">
+    <value>Return face landmarks</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_Face_DetectFaceMicrosoft_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Face - Find Similar'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FaceId_Description" xml:space="preserve">
+    <value>The face ID of the query face to use</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FaceId_FriendlyName" xml:space="preserve">
+    <value>Face ID</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FaceIds_Description" xml:space="preserve">
+    <value>A candidate face ID or an array of candidate face IDs</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FaceIds_FriendlyName" xml:space="preserve">
+    <value>Face IDs</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FaceListId_Description" xml:space="preserve">
+    <value>An existing user-specified unique candidate face-list</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FaceListId_FriendlyName" xml:space="preserve">
+    <value>Face list ID</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_FriendlyName" xml:space="preserve">
+    <value>Find similar face</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_MaxNumOfCandidatesReturned_Description" xml:space="preserve">
+    <value>The number of the max similar faces that will be returned</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_MaxNumOfCandidatesReturned_FriendlyName" xml:space="preserve">
+    <value>Max number of candidates returned</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Mode_Description" xml:space="preserve">
+    <value>The similar face searching mode</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Mode_FriendlyName" xml:space="preserve">
+    <value>Mode</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_ProvideFaceIds_Description" xml:space="preserve">
+    <value>Specify whether you will provide the face IDs as the ID of a face-list or the IDs of the faces</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_ProvideFaceIds_FriendlyName" xml:space="preserve">
+    <value>Provide face IDs</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_Face_FindSimilarFaceMicrosoft_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Text Analytics - Detect Language'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_FriendlyName" xml:space="preserve">
+    <value>Detect language</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Summary" xml:space="preserve">
+    <value>Return the detected language of the text &lt;TEXT&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Text_Description" xml:space="preserve">
+    <value>The text to analyze</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_DetectLanguage_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Text Analytics - Key Phrases'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_FriendlyName" xml:space="preserve">
+    <value>Key phrases</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Language_Description" xml:space="preserve">
+    <value>The language of the text(s)</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Summary" xml:space="preserve">
+    <value>Denote the key talking points in the input text &lt;TEXT&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Text_Description" xml:space="preserve">
+    <value>The text or the list of texts to analyze</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_KeyPhrases_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Text Analytics - Sentiment'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_FriendlyName" xml:space="preserve">
+    <value>Sentiment</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Language_Description" xml:space="preserve">
+    <value>The 2 letter ISO 639-1 representation of the language of the text(s)</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Language_FriendlyName" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Response_Description" xml:space="preserve">
+    <value>The API response results</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Response_FriendlyName" xml:space="preserve">
+    <value>Response</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_ServerLocation_Description" xml:space="preserve">
+    <value>The server location to use for this API call</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_ServerLocation_FriendlyName" xml:space="preserve">
+    <value>Server location</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_SubscriptionKey_Description" xml:space="preserve">
+    <value>The subscription key to use for this API call</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_SubscriptionKey_FriendlyName" xml:space="preserve">
+    <value>Subscription key</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Summary" xml:space="preserve">
+    <value>Return a numeric score between 0 and 1 and store the results into &lt;RESPONSE&gt;. Scores close to 1 indicate 
+positive sentiment, while scores close to 0 indicate a negative sentiment of the text &lt;TEXT&gt; </value>
+    <comment>{Locked="&lt;RESPONSE&gt;"}{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Text_Description" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Timeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server, before it fails</value>
+  </data>
+  <data name="Microsoft_TextAnalytics_Sentiment_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="MicrosoftServerLocation_AustraliaEast_FriendlyName" xml:space="preserve">
+    <value>Australia East</value>
+  </data>
+  <data name="MicrosoftServerLocation_BrazilSouth_FriendlyName" xml:space="preserve">
+    <value>Brazil South</value>
+  </data>
+  <data name="MicrosoftServerLocation_CanadaCentral_FriendlyName" xml:space="preserve">
+    <value>Canada Central</value>
+  </data>
+  <data name="MicrosoftServerLocation_CentralIndia_FriendlyName" xml:space="preserve">
+    <value>Central India</value>
+  </data>
+  <data name="MicrosoftServerLocation_EastAsia_FriendlyName" xml:space="preserve">
+    <value>East Asia</value>
+  </data>
+  <data name="MicrosoftServerLocation_EastUS_FriendlyName" xml:space="preserve">
+    <value>East US</value>
+  </data>
+  <data name="MicrosoftServerLocation_EastUS2_FriendlyName" xml:space="preserve">
+    <value>East US 2</value>
+  </data>
+  <data name="MicrosoftServerLocation_JapanEast_FriendlyName" xml:space="preserve">
+    <value>Japan East</value>
+  </data>
+  <data name="MicrosoftServerLocation_NorthEurope_FriendlyName" xml:space="preserve">
+    <value>North Europe</value>
+  </data>
+  <data name="MicrosoftServerLocation_SouthCentralUS_FriendlyName" xml:space="preserve">
+    <value>South Central US</value>
+  </data>
+  <data name="MicrosoftServerLocation_SoutheastAsia_FriendlyName" xml:space="preserve">
+    <value>Southeast Asia</value>
+  </data>
+  <data name="MicrosoftServerLocation_UKSouth_FriendlyName" xml:space="preserve">
+    <value>UK South</value>
+  </data>
+  <data name="MicrosoftServerLocation_WestCentralUS_FriendlyName" xml:space="preserve">
+    <value>West Central US</value>
+  </data>
+  <data name="MicrosoftServerLocation_WestEurope_FriendlyName" xml:space="preserve">
+    <value>West Europe</value>
+  </data>
+  <data name="MicrosoftServerLocation_WestUS_FriendlyName" xml:space="preserve">
+    <value>West US</value>
+  </data>
+  <data name="MicrosoftServerLocation_WestUS2_FriendlyName" xml:space="preserve">
+    <value>West US 2</value>
+  </data>
+  <data name="MimeType_ApplicationMsWord_FriendlyName" xml:space="preserve">
+    <value>application/msword</value>
+  </data>
+  <data name="MimeType_ApplicationPdf_FriendlyName" xml:space="preserve">
+    <value>application/pdf</value>
+  </data>
+  <data name="MimeType_ApplicationVndOpenXmlFormatsOfficeDocumentWordProcessingmlDocument_FriendlyName" xml:space="preserve">
+    <value>application/vnd.openxmlformats-officedocument.wordprocessingml.document</value>
+  </data>
+  <data name="MimeType_TextHtml_FriendlyName" xml:space="preserve">
+    <value>text/html</value>
+    <comment>{Locked="html"}{Locked="text/html"}</comment>
+  </data>
+  <data name="MimeType_TextXhtmlXml_FriendlyName" xml:space="preserve">
+    <value>text/xhtml+xml</value>
+  </data>
+  <data name="OCRFromFile_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'OCR' with data loaded from file</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="OCRFromFile_Summary" xml:space="preserve">
+    <value>Get OCR text of the image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="OCRFromURL_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'OCR' with data loaded from URL</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="OCRFromURL_Summary" xml:space="preserve">
+    <value>Get OCR text of the image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ProvideFaceIdsType_FaceIds_FriendlyName" xml:space="preserve">
+    <value>By face IDs</value>
+  </data>
+  <data name="ProvideFaceIdsType_FaceListId_FriendlyName" xml:space="preserve">
+    <value>By face list ID</value>
+  </data>
+  <data name="ProvideFileType_FilePath_FriendlyName" xml:space="preserve">
+    <value>From file</value>
+  </data>
+  <data name="ProvideFileType_Url_FriendlyName" xml:space="preserve">
+    <value>From GCS</value>
+  </data>
+  <data name="ProvideTextType_File_FriendlyName" xml:space="preserve">
+    <value>From file</value>
+  </data>
+  <data name="ProvideTextType_Text_FriendlyName" xml:space="preserve">
+    <value>From text</value>
+  </data>
+  <data name="SafeSearchDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Safe Search Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="SafeSearchDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect explicit content such as adult content or violent content in the image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="SafeSearchDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Safe Search Detection' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="SafeSearchDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect explicit content such as adult content or violent content in the image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="TagImageFromFile_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Tag Image'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="TagImageFromFile_Summary" xml:space="preserve">
+    <value>Generate tags that are relevant to the content of the image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="TagImageFromURL_Description" xml:space="preserve">
+    <value>Invokes the Microsoft Cognitive service named 'Tag Image'</value>
+    <comment>{Locked="Microsoft"}</comment>
+  </data>
+  <data name="TagImageFromURL_Summary" xml:space="preserve">
+    <value>Generate tags that are relevant to the content of the image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="TextDetectionFromFile_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Text Detection' with data loaded from file</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="TextDetectionFromFile_Summary" xml:space="preserve">
+    <value>Detect text in the image residing on &lt;IMAGEFILE&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEFILE&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="TextDetectionFromGCS_Description" xml:space="preserve">
+    <value>Invokes the Google Cloud Vision service named 'Text Detection' with data loaded from GCS content URI</value>
+    <comment>{Locked="Google"}</comment>
+  </data>
+  <data name="TextDetectionFromGCS_Summary" xml:space="preserve">
+    <value>Detect text in the image residing on &lt;IMAGEURL&gt; and store the results into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;IMAGEURL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_Australia_FriendlyName" xml:space="preserve">
+    <value>Australia</value>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_Europe_FriendlyName" xml:space="preserve">
+    <value>Europe</value>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_Japan_FriendlyName" xml:space="preserve">
+    <value>Japan</value>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_Korea_FriendlyName" xml:space="preserve">
+    <value>Korea</value>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_Uk_FriendlyName" xml:space="preserve">
+    <value>UK</value>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_UsEast_FriendlyName" xml:space="preserve">
+    <value>US East</value>
+  </data>
+  <data name="ToneAnalyzerServiceLocation_UsSouth_FriendlyName" xml:space="preserve">
+    <value>US South</value>
+  </data>
+  <data name="TranslateModeType_ModelId_FriendlyName" xml:space="preserve">
+    <value>Model ID</value>
+  </data>
+  <data name="TranslateModeType_SourceTarget_FriendlyName" xml:space="preserve">
+    <value>Source and target</value>
+  </data>
+  <data name="TranslateWithModelId_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Translate' and uses a model ID</value>
+  </data>
+  <data name="TranslateWithModelId_Summary" xml:space="preserve">
+    <value>Translate text &lt;TEXT&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="TranslateWithSourceAndTarget_Description" xml:space="preserve">
+    <value>Invokes the IBM service named 'Translate' and uses a source and target language pair</value>
+  </data>
+  <data name="TranslateWithSourceAndTarget_Summary" xml:space="preserve">
+    <value>Translate text &lt;TEXT&gt; and store it into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutInvalid" xml:space="preserve">
+    <value>Timeout should be equal to or greater than 1.</value>
+  </data>
+  <data name="ErrorMessage_FailedToInvokeCognitiveAction" xml:space="preserve">
+    <value>Failed to invoke cognitive action: {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RequestTimeoutExpired" xml:space="preserve">
+    <value>Request timeout expired.</value>
+  </data>
+</root>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Eol>
+  <Project name="JhkimProjectName">
+    <!-- 
+      NOTE: work dir is relative path
+    -->
+
+    <!--
+      PublishEolFiles - Copy Binary
+        Copy resx in DEV to stage repo (Master)
+          copy Binary.source Binary.work
+          PublishEolFiles.Option(TemplateAttribute = published)
+          copy Binary.work PublishEolFiles.Option(TemplateAttribute)
+
+      Lsbuild Parse
+        Run Lsbuild Parse with the Master file to create BASE(LCG)
+          copy Binary.source Binary.work
+          LsBuild Parse /o [Generated]\work [Binary]\work
+
+      PublishEolFiles - Publish Generated
+        Copy generated LCG files to repo
+          PublishEolFiles.Option(TemplateAttribute = published)
+          copy Generated.work PublishEolFiles.Option(TemplateAttribute)
+
+      LsBuild MakeTarget
+        For each target language(or culture), copy LCG file to LCL on the target language directory
+          copy Generated.work Target.work
+
+      PublishEolFiles - Publish Target
+        Copy Target files to repo
+          PublishEolFiles.Option(TemplateAttribute = published)
+          copy Target.work PublishEolFiles.Option(TemplateAttribute)
+
+      Lsbuild Merge
+        Merge generated file to Master
+    -->
+
+    <PathTemplate type="Binary" copy="yes" 
+      common="C:\gitroot\TestLoc\studyLocStudio\dev\src"
+      source="[common]\[file]"
+      work="master\src\[file]"
+      published="C:\gitroot\TestLoc\studyLocStudio\master\src\[file]"
+    />
+
+    <PathTemplate type="Generated" copy="yes"
+      common="bogus"
+      source="bogus"
+      work="Localize\base\src\[file].lcg"
+      published="C:\gitroot\TestLoc\studyLocStudio\Localize\base\src\[file].lcg"
+    />
+
+    <PathTemplate type="Target" copy="yes"
+      common="bogus"
+      source="bogus"
+      work="Localize\[targetculture]\[file].lcl"
+      published="C:\gitroot\TestLoc\studyLocStudio\Localize\[targetculture]\[file].lcl"
+    />
+
+    <PathTemplate type="Master" copy="yes" 
+      common="C:\gitroot\TestLoc\studyLocStudio\Localize\base"
+      source="[common]\[file].lcg"
+      work="merged\[file].lcg"
+      published="C:\gitroot\TestLoc\studyLocStudio\Localize\base\[file].lcg"
+    />
+
+    <!-- <PathTemplate type="Master" copy="yes" 
+      common="C:\gitroot\TestLoc\studyLocStudio\Localize\base"
+      source="[common]\[file].lcg"
+      work="temp\[file].lcg"
+      published="[published.Master]"
+    /> -->
+
+    <PathTemplate type="JhkimPathType" copy="yes" 
+      common="C:\gitroot\TestLoc\studyLocStudio\master\src"
+      source="[common]\[file]"
+      work="temp\[file]"
+    />
+    <PathTemplate type="JhkimPathType_Repo" copy="yes" 
+      common="C:\gitroot\TestLoc\studyLocStudio\master\src"
+      source="[common]\[file]"
+      work="temp\[file]"
+      published="[WorkFolder]\published\[file]"
+    />
+
+    <Var name="lg.41">bg-BG,ca-ES,cs-CZ,da-DK,de-DE,el-GR,es-ES,et-EE,eu-ES,fi-FI,fr-FR,gl-ES,hi-IN,hr-HR,hu-HU,id-ID,it-IT,ja-JP,kk-KZ,ko-KR,lt-LT,lv-LV,ms-MY,nb-NO,nl-NL,pl-PL,pt-BR,pt-PT,ro-RO,ru-RU,sk-SK,sl-SI,sr-Cyrl-CS,sr-Latn-CS,sv-SE,th-TH,tr-TR,uk-UA,vi-VN,zh-CN,zh-TW</Var >
+    <Component name="JhkimComponentName" sourceCulture="en-US" contentType="UI" parser="211">
+
+      <Var name="published.Master">C:\gitroot\TestLoc\studyLocStudio\Localize\base\src\[file].lcg</Var >
+
+      <Area name="JhkimAreaName">
+        <LocExtent derivation="Translate">[lg.41]</LocExtent>
+        <ItemGroup name="C:\gitroot\TestLoc\studyLocStudio\master\src">
+          <File name="resources.resx" />
+        </ItemGroup>
+        <ItemGroup name="C:\gitroot\TestLoc\studyLocStudio\master\src">
+          <File name="test.resx" />
+        </ItemGroup> 
+      </Area>
+    </Component>
+  </Project>
+</Eol>

@@ -1,0 +1,1676 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CloseSession_Description" xml:space="preserve">
+    <value>Close an open terminal session</value>
+  </data>
+  <data name="CloseSession_FriendlyName" xml:space="preserve">
+    <value>Close terminal session</value>
+  </data>
+  <data name="CloseSession_Session_Description" xml:space="preserve">
+    <value>The previously opened terminal session</value>
+  </data>
+  <data name="CloseSession_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session to close</value>
+  </data>
+  <data name="CloseSession_Summary" xml:space="preserve">
+    <value>Close terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="Configuration_ExistingProfile_FriendlyName" xml:space="preserve">
+    <value>Existing profile</value>
+  </data>
+  <data name="Configuration_SpecifyConnection_FriendlyName" xml:space="preserve">
+    <value>Specify connection</value>
+  </data>
+  <data name="ControlKey_AltCursor_FriendlyName" xml:space="preserve">
+    <value>Alt cursor</value>
+  </data>
+  <data name="ControlKey_Attention_FriendlyName" xml:space="preserve">
+    <value>Attention</value>
+  </data>
+  <data name="ControlKey_BackSpace_FriendlyName" xml:space="preserve">
+    <value>Backspace</value>
+  </data>
+  <data name="ControlKey_BackTab_FriendlyName" xml:space="preserve">
+    <value>Back tab</value>
+  </data>
+  <data name="ControlKey_BlockToggle_FriendlyName" xml:space="preserve">
+    <value>Block toggle</value>
+  </data>
+  <data name="ControlKey_Break_FriendlyName" xml:space="preserve">
+    <value>Break</value>
+  </data>
+  <data name="ControlKey_Cancel_FriendlyName" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="ControlKey_Center_FriendlyName" xml:space="preserve">
+    <value>Center</value>
+  </data>
+  <data name="ControlKey_Clear_FriendlyName" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="ControlKey_ClearComm_FriendlyName" xml:space="preserve">
+    <value>Clear comm</value>
+  </data>
+  <data name="ControlKey_ClearDisplay_FriendlyName" xml:space="preserve">
+    <value>Clear display</value>
+  </data>
+  <data name="ControlKey_ClearLine_FriendlyName" xml:space="preserve">
+    <value>Clear line</value>
+  </data>
+  <data name="ControlKey_ClearPage_FriendlyName" xml:space="preserve">
+    <value>Clear page</value>
+  </data>
+  <data name="ControlKey_ClearPartition_FriendlyName" xml:space="preserve">
+    <value>Clear partition</value>
+  </data>
+  <data name="ControlKey_Comma_FriendlyName" xml:space="preserve">
+    <value>Comma</value>
+  </data>
+  <data name="ControlKey_CommandLine_FriendlyName" xml:space="preserve">
+    <value>Command line</value>
+  </data>
+  <data name="ControlKey_CommandWindow_FriendlyName" xml:space="preserve">
+    <value>Command window</value>
+  </data>
+  <data name="ControlKey_Compose_FriendlyName" xml:space="preserve">
+    <value>Compose</value>
+  </data>
+  <data name="ControlKey_CtrlF1_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F1</value>
+  </data>
+  <data name="ControlKey_CtrlF10_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F10</value>
+  </data>
+  <data name="ControlKey_CtrlF11_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F11</value>
+  </data>
+  <data name="ControlKey_CtrlF12_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F12</value>
+  </data>
+  <data name="ControlKey_CtrlF2_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F2</value>
+  </data>
+  <data name="ControlKey_CtrlF3_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F3</value>
+  </data>
+  <data name="ControlKey_CtrlF4_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F4</value>
+  </data>
+  <data name="ControlKey_CtrlF5_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F5</value>
+  </data>
+  <data name="ControlKey_CtrlF6_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F6</value>
+  </data>
+  <data name="ControlKey_CtrlF7_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F7</value>
+  </data>
+  <data name="ControlKey_CtrlF8_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F8</value>
+  </data>
+  <data name="ControlKey_CtrlF9_FriendlyName" xml:space="preserve">
+    <value>Ctrl+F9</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF1_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F1</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF10_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F10</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF11_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F11</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF12_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F12</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF2_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F2</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF3_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F3</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF4_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F4</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF5_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F5</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF6_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F6</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF7_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F7</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF8_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F8</value>
+  </data>
+  <data name="ControlKey_CtrlShiftF9_FriendlyName" xml:space="preserve">
+    <value>Ctrl+Shift+F9</value>
+  </data>
+  <data name="ControlKey_CursorBlink_FriendlyName" xml:space="preserve">
+    <value>Cursor blink</value>
+  </data>
+  <data name="ControlKey_CursorSelect_FriendlyName" xml:space="preserve">
+    <value>Cursor select</value>
+  </data>
+  <data name="ControlKey_Decimal_FriendlyName" xml:space="preserve">
+    <value>Decimal</value>
+  </data>
+  <data name="ControlKey_Delete_FriendlyName" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="ControlKey_DeleteChar_FriendlyName" xml:space="preserve">
+    <value>Delete char</value>
+  </data>
+  <data name="ControlKey_DeleteLine_FriendlyName" xml:space="preserve">
+    <value>Delete line</value>
+  </data>
+  <data name="ControlKey_DeleteWord_FriendlyName" xml:space="preserve">
+    <value>Delete word</value>
+  </data>
+  <data name="ControlKey_DestructiveBackSpace_FriendlyName" xml:space="preserve">
+    <value>Destructive back space</value>
+  </data>
+  <data name="ControlKey_Disconnect_FriendlyName" xml:space="preserve">
+    <value>Disconnect</value>
+  </data>
+  <data name="ControlKey_DoKey_FriendlyName" xml:space="preserve">
+    <value>Do</value>
+  </data>
+  <data name="ControlKey_Down_FriendlyName" xml:space="preserve">
+    <value>Down</value>
+  </data>
+  <data name="ControlKey_DownDouble_FriendlyName" xml:space="preserve">
+    <value>Down double</value>
+  </data>
+  <data name="ControlKey_Dup_FriendlyName" xml:space="preserve">
+    <value>Dup</value>
+  </data>
+  <data name="ControlKey_Duplicate_FriendlyName" xml:space="preserve">
+    <value>Duplicate</value>
+  </data>
+  <data name="ControlKey_EditScript_FriendlyName" xml:space="preserve">
+    <value>Edit script</value>
+  </data>
+  <data name="ControlKey_EndOfField_FriendlyName" xml:space="preserve">
+    <value>End of field</value>
+  </data>
+  <data name="ControlKey_Erase_Eof_FriendlyName" xml:space="preserve">
+    <value>Erase EOF</value>
+  </data>
+  <data name="ControlKey_EraseEOL_FriendlyName" xml:space="preserve">
+    <value>Erase EOL</value>
+  </data>
+  <data name="ControlKey_EraseEOP_FriendlyName" xml:space="preserve">
+    <value>Erase EOP</value>
+  </data>
+  <data name="ControlKey_EraseInput_FriendlyName" xml:space="preserve">
+    <value>Erase input</value>
+  </data>
+  <data name="ControlKey_Escape_FriendlyName" xml:space="preserve">
+    <value>Escape</value>
+  </data>
+  <data name="ControlKey_ExtGr_FriendlyName" xml:space="preserve">
+    <value>ExtGr</value>
+  </data>
+  <data name="ControlKey_F1_FriendlyName" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="ControlKey_F10_FriendlyName" xml:space="preserve">
+    <value>F10</value>
+  </data>
+  <data name="ControlKey_F11_FriendlyName" xml:space="preserve">
+    <value>F11</value>
+  </data>
+  <data name="ControlKey_F12_FriendlyName" xml:space="preserve">
+    <value>F12</value>
+  </data>
+  <data name="ControlKey_F13_FriendlyName" xml:space="preserve">
+    <value>F13</value>
+  </data>
+  <data name="ControlKey_F14_FriendlyName" xml:space="preserve">
+    <value>F14</value>
+  </data>
+  <data name="ControlKey_F15_FriendlyName" xml:space="preserve">
+    <value>F15</value>
+  </data>
+  <data name="ControlKey_F16_FriendlyName" xml:space="preserve">
+    <value>F16</value>
+  </data>
+  <data name="ControlKey_F17_FriendlyName" xml:space="preserve">
+    <value>F17</value>
+  </data>
+  <data name="ControlKey_F18_FriendlyName" xml:space="preserve">
+    <value>F18</value>
+  </data>
+  <data name="ControlKey_F19_FriendlyName" xml:space="preserve">
+    <value>F19</value>
+  </data>
+  <data name="ControlKey_F2_FriendlyName" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="ControlKey_F20_FriendlyName" xml:space="preserve">
+    <value>F20</value>
+  </data>
+  <data name="ControlKey_F21_FriendlyName" xml:space="preserve">
+    <value>F21</value>
+  </data>
+  <data name="ControlKey_F22_FriendlyName" xml:space="preserve">
+    <value>F22</value>
+  </data>
+  <data name="ControlKey_F23_FriendlyName" xml:space="preserve">
+    <value>F23</value>
+  </data>
+  <data name="ControlKey_F24_FriendlyName" xml:space="preserve">
+    <value>F24</value>
+  </data>
+  <data name="ControlKey_F25_FriendlyName" xml:space="preserve">
+    <value>F25</value>
+  </data>
+  <data name="ControlKey_F26_FriendlyName" xml:space="preserve">
+    <value>F26</value>
+  </data>
+  <data name="ControlKey_F27_FriendlyName" xml:space="preserve">
+    <value>F27</value>
+  </data>
+  <data name="ControlKey_F28_FriendlyName" xml:space="preserve">
+    <value>F28</value>
+  </data>
+  <data name="ControlKey_F29_FriendlyName" xml:space="preserve">
+    <value>F29</value>
+  </data>
+  <data name="ControlKey_F3_FriendlyName" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="ControlKey_F30_FriendlyName" xml:space="preserve">
+    <value>F30</value>
+  </data>
+  <data name="ControlKey_F31_FriendlyName" xml:space="preserve">
+    <value>F31</value>
+  </data>
+  <data name="ControlKey_F32_FriendlyName" xml:space="preserve">
+    <value>F32</value>
+  </data>
+  <data name="ControlKey_F33_FriendlyName" xml:space="preserve">
+    <value>F33</value>
+  </data>
+  <data name="ControlKey_F34_FriendlyName" xml:space="preserve">
+    <value>F34</value>
+  </data>
+  <data name="ControlKey_F35_FriendlyName" xml:space="preserve">
+    <value>F35</value>
+  </data>
+  <data name="ControlKey_F36_FriendlyName" xml:space="preserve">
+    <value>F36</value>
+  </data>
+  <data name="ControlKey_F37_FriendlyName" xml:space="preserve">
+    <value>F37</value>
+  </data>
+  <data name="ControlKey_F38_FriendlyName" xml:space="preserve">
+    <value>F38</value>
+  </data>
+  <data name="ControlKey_F39_FriendlyName" xml:space="preserve">
+    <value>F39</value>
+  </data>
+  <data name="ControlKey_F4_FriendlyName" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="ControlKey_F40_FriendlyName" xml:space="preserve">
+    <value>F40</value>
+  </data>
+  <data name="ControlKey_F41_FriendlyName" xml:space="preserve">
+    <value>F41</value>
+  </data>
+  <data name="ControlKey_F42_FriendlyName" xml:space="preserve">
+    <value>F42</value>
+  </data>
+  <data name="ControlKey_F43_FriendlyName" xml:space="preserve">
+    <value>F43</value>
+  </data>
+  <data name="ControlKey_F44_FriendlyName" xml:space="preserve">
+    <value>F44</value>
+  </data>
+  <data name="ControlKey_F45_FriendlyName" xml:space="preserve">
+    <value>F45</value>
+  </data>
+  <data name="ControlKey_F46_FriendlyName" xml:space="preserve">
+    <value>F46</value>
+  </data>
+  <data name="ControlKey_F47_FriendlyName" xml:space="preserve">
+    <value>F47</value>
+  </data>
+  <data name="ControlKey_F48_FriendlyName" xml:space="preserve">
+    <value>F48</value>
+  </data>
+  <data name="ControlKey_F5_FriendlyName" xml:space="preserve">
+    <value>F5</value>
+  </data>
+  <data name="ControlKey_F6_FriendlyName" xml:space="preserve">
+    <value>F6</value>
+  </data>
+  <data name="ControlKey_F7_FriendlyName" xml:space="preserve">
+    <value>F7</value>
+  </data>
+  <data name="ControlKey_F8_FriendlyName" xml:space="preserve">
+    <value>F8</value>
+  </data>
+  <data name="ControlKey_F9_FriendlyName" xml:space="preserve">
+    <value>F9</value>
+  </data>
+  <data name="ControlKey_FieldDelimiter_FriendlyName" xml:space="preserve">
+    <value>Field delimiter</value>
+  </data>
+  <data name="ControlKey_FieldExit_FriendlyName" xml:space="preserve">
+    <value>Field exit</value>
+  </data>
+  <data name="ControlKey_FieldMark_FriendlyName" xml:space="preserve">
+    <value>Field mark</value>
+  </data>
+  <data name="ControlKey_FieldMinus_FriendlyName" xml:space="preserve">
+    <value>Field minus</value>
+  </data>
+  <data name="ControlKey_FieldPlus_FriendlyName" xml:space="preserve">
+    <value>Field plus</value>
+  </data>
+  <data name="ControlKey_Find_FriendlyName" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="ControlKey_HardReset_FriendlyName" xml:space="preserve">
+    <value>Hard reset</value>
+  </data>
+  <data name="ControlKey_Help_FriendlyName" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="ControlKey_Hex_FriendlyName" xml:space="preserve">
+    <value>Hex</value>
+  </data>
+  <data name="ControlKey_Hex00_FriendlyName" xml:space="preserve">
+    <value>Hex 00</value>
+  </data>
+  <data name="ControlKey_Hex01_FriendlyName" xml:space="preserve">
+    <value>Hex 01</value>
+  </data>
+  <data name="ControlKey_Hex02_FriendlyName" xml:space="preserve">
+    <value>Hex 02</value>
+  </data>
+  <data name="ControlKey_Hex03_FriendlyName" xml:space="preserve">
+    <value>Hex 03</value>
+  </data>
+  <data name="ControlKey_Hex04_FriendlyName" xml:space="preserve">
+    <value>Hex 04</value>
+  </data>
+  <data name="ControlKey_Hex05_FriendlyName" xml:space="preserve">
+    <value>Hex 05</value>
+  </data>
+  <data name="ControlKey_Hex06_FriendlyName" xml:space="preserve">
+    <value>Hex 06</value>
+  </data>
+  <data name="ControlKey_Hex07_FriendlyName" xml:space="preserve">
+    <value>Hex 07</value>
+  </data>
+  <data name="ControlKey_Hex08_FriendlyName" xml:space="preserve">
+    <value>Hex 08</value>
+  </data>
+  <data name="ControlKey_Hex09_FriendlyName" xml:space="preserve">
+    <value>Hex 09</value>
+  </data>
+  <data name="ControlKey_Hex0A_FriendlyName" xml:space="preserve">
+    <value>Hex 0A</value>
+  </data>
+  <data name="ControlKey_Hex0B_FriendlyName" xml:space="preserve">
+    <value>Hex 0B</value>
+  </data>
+  <data name="ControlKey_Hex0C_FriendlyName" xml:space="preserve">
+    <value>Hex 0C</value>
+  </data>
+  <data name="ControlKey_Hex0D_FriendlyName" xml:space="preserve">
+    <value>Hex 0D</value>
+  </data>
+  <data name="ControlKey_Hex0E_FriendlyName" xml:space="preserve">
+    <value>Hex 0E</value>
+  </data>
+  <data name="ControlKey_Hex0F_FriendlyName" xml:space="preserve">
+    <value>Hex 0F</value>
+  </data>
+  <data name="ControlKey_Hex10_FriendlyName" xml:space="preserve">
+    <value>Hex 10</value>
+  </data>
+  <data name="ControlKey_Hex11_FriendlyName" xml:space="preserve">
+    <value>Hex 11</value>
+  </data>
+  <data name="ControlKey_Hex12_FriendlyName" xml:space="preserve">
+    <value>Hex 12</value>
+  </data>
+  <data name="ControlKey_Hex13_FriendlyName" xml:space="preserve">
+    <value>Hex 13</value>
+  </data>
+  <data name="ControlKey_Hex14_FriendlyName" xml:space="preserve">
+    <value>Hex 14</value>
+  </data>
+  <data name="ControlKey_Hex15_FriendlyName" xml:space="preserve">
+    <value>Hex 15</value>
+  </data>
+  <data name="ControlKey_Hex16_FriendlyName" xml:space="preserve">
+    <value>Hex 16</value>
+  </data>
+  <data name="ControlKey_Hex17_FriendlyName" xml:space="preserve">
+    <value>Hex 17</value>
+  </data>
+  <data name="ControlKey_Hex18_FriendlyName" xml:space="preserve">
+    <value>Hex 18</value>
+  </data>
+  <data name="ControlKey_Hex19_FriendlyName" xml:space="preserve">
+    <value>Hex 19</value>
+  </data>
+  <data name="ControlKey_Hex1A_FriendlyName" xml:space="preserve">
+    <value>Hex 1A</value>
+  </data>
+  <data name="ControlKey_Hex1B_FriendlyName" xml:space="preserve">
+    <value>Hex 1B</value>
+  </data>
+  <data name="ControlKey_Hex1C_FriendlyName" xml:space="preserve">
+    <value>Hex 1C</value>
+  </data>
+  <data name="ControlKey_Hex1D_FriendlyName" xml:space="preserve">
+    <value>Hex 1D</value>
+  </data>
+  <data name="ControlKey_Hex1E_FriendlyName" xml:space="preserve">
+    <value>Hex 1E</value>
+  </data>
+  <data name="ControlKey_Hex1F_FriendlyName" xml:space="preserve">
+    <value>Hex 1F</value>
+  </data>
+  <data name="ControlKey_Hex7F_FriendlyName" xml:space="preserve">
+    <value>Hex 7F</value>
+  </data>
+  <data name="ControlKey_Hold_FriendlyName" xml:space="preserve">
+    <value>Hold</value>
+  </data>
+  <data name="ControlKey_HoldClear_FriendlyName" xml:space="preserve">
+    <value>Hold clear</value>
+  </data>
+  <data name="ControlKey_HoldSet_FriendlyName" xml:space="preserve">
+    <value>Hold set</value>
+  </data>
+  <data name="ControlKey_Home_FriendlyName" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="ControlKey_HomeDown_FriendlyName" xml:space="preserve">
+    <value>Home down</value>
+  </data>
+  <data name="ControlKey_HomeUp_FriendlyName" xml:space="preserve">
+    <value>Home up</value>
+  </data>
+  <data name="ControlKey_Insert_FriendlyName" xml:space="preserve">
+    <value>Insert</value>
+  </data>
+  <data name="ControlKey_InsertChar_FriendlyName" xml:space="preserve">
+    <value>Insert char</value>
+  </data>
+  <data name="ControlKey_InsertHere_FriendlyName" xml:space="preserve">
+    <value>Insert here</value>
+  </data>
+  <data name="ControlKey_InsertLine_FriendlyName" xml:space="preserve">
+    <value>Insert line</value>
+  </data>
+  <data name="ControlKey_InsertMode_FriendlyName" xml:space="preserve">
+    <value>Insert mode</value>
+  </data>
+  <data name="ControlKey_InvalidKey_FriendlyName" xml:space="preserve">
+    <value>Invalid key</value>
+  </data>
+  <data name="ControlKey_KeyEnd_FriendlyName" xml:space="preserve">
+    <value>Key end</value>
+  </data>
+  <data name="ControlKey_KeyPad0_FriendlyName" xml:space="preserve">
+    <value>KeyPad0</value>
+  </data>
+  <data name="ControlKey_KeyPad1_FriendlyName" xml:space="preserve">
+    <value>KeyPad1</value>
+  </data>
+  <data name="ControlKey_KeyPad2_FriendlyName" xml:space="preserve">
+    <value>KeyPad2</value>
+  </data>
+  <data name="ControlKey_KeyPad3_FriendlyName" xml:space="preserve">
+    <value>KeyPad3</value>
+  </data>
+  <data name="ControlKey_KeyPad4_FriendlyName" xml:space="preserve">
+    <value>KeyPad4</value>
+  </data>
+  <data name="ControlKey_KeyPad5_FriendlyName" xml:space="preserve">
+    <value>KeyPad5</value>
+  </data>
+  <data name="ControlKey_KeyPad6_FriendlyName" xml:space="preserve">
+    <value>KeyPad6</value>
+  </data>
+  <data name="ControlKey_KeyPad7_FriendlyName" xml:space="preserve">
+    <value>KeyPad7</value>
+  </data>
+  <data name="ControlKey_KeyPad8_FriendlyName" xml:space="preserve">
+    <value>KeyPad8</value>
+  </data>
+  <data name="ControlKey_KeyPad9_FriendlyName" xml:space="preserve">
+    <value>KeyPad9</value>
+  </data>
+  <data name="ControlKey_Left_FriendlyName" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ControlKey_LeftDouble_FriendlyName" xml:space="preserve">
+    <value>Left double</value>
+  </data>
+  <data name="ControlKey_LineFeed_FriendlyName" xml:space="preserve">
+    <value>Line feed</value>
+  </data>
+  <data name="ControlKey_Minus_FriendlyName" xml:space="preserve">
+    <value>Minus</value>
+  </data>
+  <data name="ControlKey_MonitorToggle_FriendlyName" xml:space="preserve">
+    <value>Monitor toggle</value>
+  </data>
+  <data name="ControlKey_NewLine_FriendlyName" xml:space="preserve">
+    <value>New line</value>
+  </data>
+  <data name="ControlKey_NextPage_FriendlyName" xml:space="preserve">
+    <value>Next page</value>
+  </data>
+  <data name="ControlKey_NextScreen_FriendlyName" xml:space="preserve">
+    <value>Next screen</value>
+  </data>
+  <data name="ControlKey_NextWord_FriendlyName" xml:space="preserve">
+    <value>Next word</value>
+  </data>
+  <data name="ControlKey_Nul_FriendlyName" xml:space="preserve">
+    <value>Nul</value>
+  </data>
+  <data name="ControlKey_NumLock_FriendlyName" xml:space="preserve">
+    <value>NumLock</value>
+  </data>
+  <data name="ControlKey_PA1_FriendlyName" xml:space="preserve">
+    <value>PA1</value>
+  </data>
+  <data name="ControlKey_PA2_FriendlyName" xml:space="preserve">
+    <value>PA2</value>
+  </data>
+  <data name="ControlKey_PA3_FriendlyName" xml:space="preserve">
+    <value>PA3</value>
+  </data>
+  <data name="ControlKey_Page_FriendlyName" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="ControlKey_PageDown_FriendlyName" xml:space="preserve">
+    <value>Page down</value>
+  </data>
+  <data name="ControlKey_PageUp_FriendlyName" xml:space="preserve">
+    <value>Page up</value>
+  </data>
+  <data name="ControlKey_PanLeft_FriendlyName" xml:space="preserve">
+    <value>Pan left</value>
+  </data>
+  <data name="ControlKey_PanRight_FriendlyName" xml:space="preserve">
+    <value>Pan right</value>
+  </data>
+  <data name="ControlKey_PartitionJump_FriendlyName" xml:space="preserve">
+    <value>Partition jump</value>
+  </data>
+  <data name="ControlKey_PF1_FriendlyName" xml:space="preserve">
+    <value>PF1</value>
+  </data>
+  <data name="ControlKey_PF2_FriendlyName" xml:space="preserve">
+    <value>PF2</value>
+  </data>
+  <data name="ControlKey_PF3_FriendlyName" xml:space="preserve">
+    <value>PF3</value>
+  </data>
+  <data name="ControlKey_PF4_FriendlyName" xml:space="preserve">
+    <value>PF4</value>
+  </data>
+  <data name="ControlKey_PlusCr_FriendlyName" xml:space="preserve">
+    <value>Plus Cr</value>
+  </data>
+  <data name="ControlKey_PreviousWord_FriendlyName" xml:space="preserve">
+    <value>Previous word</value>
+  </data>
+  <data name="ControlKey_PrevPage_FriendlyName" xml:space="preserve">
+    <value>PrevPage</value>
+  </data>
+  <data name="ControlKey_PrevScreen_FriendlyName" xml:space="preserve">
+    <value>PrevScreen</value>
+  </data>
+  <data name="ControlKey_Print_FriendlyName" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="ControlKey_PrintLine_FriendlyName" xml:space="preserve">
+    <value>Print line</value>
+  </data>
+  <data name="ControlKey_PrintMsg_FriendlyName" xml:space="preserve">
+    <value>Print Msg</value>
+  </data>
+  <data name="ControlKey_PrintScreen_FriendlyName" xml:space="preserve">
+    <value>Prent screen</value>
+  </data>
+  <data name="ControlKey_Remove_FriendlyName" xml:space="preserve">
+    <value>Remove</value>
+  </data>
+  <data name="ControlKey_Replace_FriendlyName" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+  <data name="ControlKey_Reset_FriendlyName" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="ControlKey_Return_FriendlyName" xml:space="preserve">
+    <value>Return</value>
+  </data>
+  <data name="ControlKey_ReverseField_FriendlyName" xml:space="preserve">
+    <value>Reserve field</value>
+  </data>
+  <data name="ControlKey_Right_FriendlyName" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="ControlKey_RightDouble_FriendlyName" xml:space="preserve">
+    <value>Right double</value>
+  </data>
+  <data name="ControlKey_RollDown_FriendlyName" xml:space="preserve">
+    <value>Roll down</value>
+  </data>
+  <data name="ControlKey_RollUp_FriendlyName" xml:space="preserve">
+    <value>Roll up</value>
+  </data>
+  <data name="ControlKey_RuleLine_FriendlyName" xml:space="preserve">
+    <value>Rile line</value>
+  </data>
+  <data name="ControlKey_RunScript_FriendlyName" xml:space="preserve">
+    <value>Run script</value>
+  </data>
+  <data name="ControlKey_ScrollDown_FriendlyName" xml:space="preserve">
+    <value>Scroll down</value>
+  </data>
+  <data name="ControlKey_ScrollLeft_FriendlyName" xml:space="preserve">
+    <value>Scroll left</value>
+  </data>
+  <data name="ControlKey_ScrollRight_FriendlyName" xml:space="preserve">
+    <value>Scroll right</value>
+  </data>
+  <data name="ControlKey_ScrollUp_FriendlyName" xml:space="preserve">
+    <value>Scroll up</value>
+  </data>
+  <data name="ControlKey_Select_FriendlyName" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="ControlKey_Send_FriendlyName" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="ControlKey_SendAnswerBack_FriendlyName" xml:space="preserve">
+    <value>Send answer back</value>
+  </data>
+  <data name="ControlKey_SendDelete_FriendlyName" xml:space="preserve">
+    <value>Send delete</value>
+  </data>
+  <data name="ControlKey_SendLine_FriendlyName" xml:space="preserve">
+    <value>Send line</value>
+  </data>
+  <data name="ControlKey_SendMsg_FriendlyName" xml:space="preserve">
+    <value>Send Msg</value>
+  </data>
+  <data name="ControlKey_ShiftBackspace_FriendlyName" xml:space="preserve">
+    <value>Shift+Backspace</value>
+  </data>
+  <data name="ControlKey_ShiftDelete_FriendlyName" xml:space="preserve">
+    <value>Shift+Delete</value>
+  </data>
+  <data name="ControlKey_ShiftDown_FriendlyName" xml:space="preserve">
+    <value>Shift+Down</value>
+  </data>
+  <data name="ControlKey_ShiftF1_FriendlyName" xml:space="preserve">
+    <value>Shift+F1</value>
+  </data>
+  <data name="ControlKey_ShiftF10_FriendlyName" xml:space="preserve">
+    <value>Shift+F10</value>
+  </data>
+  <data name="ControlKey_ShiftF11_FriendlyName" xml:space="preserve">
+    <value>Shift+F11</value>
+  </data>
+  <data name="ControlKey_ShiftF12_FriendlyName" xml:space="preserve">
+    <value>Shift+F12</value>
+  </data>
+  <data name="ControlKey_ShiftF13_FriendlyName" xml:space="preserve">
+    <value>Shift+F13</value>
+  </data>
+  <data name="ControlKey_ShiftF14_FriendlyName" xml:space="preserve">
+    <value>Shift+F14</value>
+  </data>
+  <data name="ControlKey_ShiftF15_FriendlyName" xml:space="preserve">
+    <value>Shift+F15</value>
+  </data>
+  <data name="ControlKey_ShiftF16_FriendlyName" xml:space="preserve">
+    <value>Shift F16</value>
+  </data>
+  <data name="ControlKey_ShiftF17_FriendlyName" xml:space="preserve">
+    <value>Shift+F17</value>
+  </data>
+  <data name="ControlKey_ShiftF18_FriendlyName" xml:space="preserve">
+    <value>Shift+F18</value>
+  </data>
+  <data name="ControlKey_ShiftF19_FriendlyName" xml:space="preserve">
+    <value>Shift+F19</value>
+  </data>
+  <data name="ControlKey_ShiftF2_FriendlyName" xml:space="preserve">
+    <value>Shift+F2</value>
+  </data>
+  <data name="ControlKey_ShiftF20_FriendlyName" xml:space="preserve">
+    <value>Shift+F20</value>
+  </data>
+  <data name="ControlKey_ShiftF3_FriendlyName" xml:space="preserve">
+    <value>Shift+F3</value>
+  </data>
+  <data name="ControlKey_ShiftF4_FriendlyName" xml:space="preserve">
+    <value>Shift+F4</value>
+  </data>
+  <data name="ControlKey_ShiftF5_FriendlyName" xml:space="preserve">
+    <value>Shift+F5</value>
+  </data>
+  <data name="ControlKey_ShiftF6_FriendlyName" xml:space="preserve">
+    <value>Shift+F6</value>
+  </data>
+  <data name="ControlKey_ShiftF7_FriendlyName" xml:space="preserve">
+    <value>Shift+F7</value>
+  </data>
+  <data name="ControlKey_ShiftF8_FriendlyName" xml:space="preserve">
+    <value>Shift+F8</value>
+  </data>
+  <data name="ControlKey_ShiftF9_FriendlyName" xml:space="preserve">
+    <value>Shift+F9</value>
+  </data>
+  <data name="ControlKey_ShiftHome_FriendlyName" xml:space="preserve">
+    <value>Shift+Home</value>
+  </data>
+  <data name="ControlKey_ShiftInsert_FriendlyName" xml:space="preserve">
+    <value>Shift+Insert</value>
+  </data>
+  <data name="ControlKey_ShiftLeft_FriendlyName" xml:space="preserve">
+    <value>Shift+Left</value>
+  </data>
+  <data name="ControlKey_ShiftPrintScreen_FriendlyName" xml:space="preserve">
+    <value>Shift+Print screen</value>
+  </data>
+  <data name="ControlKey_ShiftRight_FriendlyName" xml:space="preserve">
+    <value>Shift+Right</value>
+  </data>
+  <data name="ControlKey_ShiftUp_FriendlyName" xml:space="preserve">
+    <value>Shift+Up</value>
+  </data>
+  <data name="ControlKey_SoftReset_FriendlyName" xml:space="preserve">
+    <value>Soft reset</value>
+  </data>
+  <data name="ControlKey_SystemRequest_FriendlyName" xml:space="preserve">
+    <value>System request</value>
+  </data>
+  <data name="ControlKey_Tab_FriendlyName" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="ControlKey_TekZoom_FriendlyName" xml:space="preserve">
+    <value>Tek zoom</value>
+  </data>
+  <data name="ControlKey_TermNextPage_FriendlyName" xml:space="preserve">
+    <value>Term next page</value>
+  </data>
+  <data name="ControlKey_TermPrevPage_FriendlyName" xml:space="preserve">
+    <value>Term prev page</value>
+  </data>
+  <data name="ControlKey_Test_FriendlyName" xml:space="preserve">
+    <value>Test</value>
+  </data>
+  <data name="ControlKey_TextAssistBeginBold_FriendlyName" xml:space="preserve">
+    <value>Text assist begin bold</value>
+  </data>
+  <data name="ControlKey_TextAssistBeginOfLine_FriendlyName" xml:space="preserve">
+    <value>Text assist begin of line</value>
+  </data>
+  <data name="ControlKey_TextAssistBeginUnderline_FriendlyName" xml:space="preserve">
+    <value>Text assist begin underline</value>
+  </data>
+  <data name="ControlKey_TextAssistBottomOfPage_FriendlyName" xml:space="preserve">
+    <value>Text assist bottom of page</value>
+  </data>
+  <data name="ControlKey_TextAssistCarrierReturn_FriendlyName" xml:space="preserve">
+    <value>Text assist carrier return</value>
+  </data>
+  <data name="ControlKey_TextAssistCenter_FriendlyName" xml:space="preserve">
+    <value>Text assist center</value>
+  </data>
+  <data name="ControlKey_TextAssistEndBold_FriendlyName" xml:space="preserve">
+    <value>Text assist end bold</value>
+  </data>
+  <data name="ControlKey_TextAssistEndOfLine_FriendlyName" xml:space="preserve">
+    <value>Text assist end of line</value>
+  </data>
+  <data name="ControlKey_TextAssistHalfIndexDown_FriendlyName" xml:space="preserve">
+    <value>Text assist half index down</value>
+  </data>
+  <data name="ControlKey_TextAssistHalfIndexUp_FriendlyName" xml:space="preserve">
+    <value>Text assist half index up</value>
+  </data>
+  <data name="ControlKey_TextAssistInsertSymbols_FriendlyName" xml:space="preserve">
+    <value>Text assist insert symbols</value>
+  </data>
+  <data name="ControlKey_TextAssistNextStop_FriendlyName" xml:space="preserve">
+    <value>Text assist next stop</value>
+  </data>
+  <data name="ControlKey_TextAssistNextTextColumn_FriendlyName" xml:space="preserve">
+    <value>Text assist next text column</value>
+  </data>
+  <data name="ControlKey_TextAssistPageEnd_FriendlyName" xml:space="preserve">
+    <value>Text assist page end</value>
+  </data>
+  <data name="ControlKey_TextAssistRequiredSpace_FriendlyName" xml:space="preserve">
+    <value>Text assist required space</value>
+  </data>
+  <data name="ControlKey_TextAssistRequiredTab_FriendlyName" xml:space="preserve">
+    <value>Text assist required tab</value>
+  </data>
+  <data name="ControlKey_TextAssistStop_FriendlyName" xml:space="preserve">
+    <value>Text assist stop</value>
+  </data>
+  <data name="ControlKey_TextAssistTextTabAdvance_FriendlyName" xml:space="preserve">
+    <value>Text assist text tab advance</value>
+  </data>
+  <data name="ControlKey_TextAssistTopOfPage_FriendlyName" xml:space="preserve">
+    <value>Text assist top of page</value>
+  </data>
+  <data name="ControlKey_TextAssistWordUnderline_FriendlyName" xml:space="preserve">
+    <value>Text assist word underline</value>
+  </data>
+  <data name="ControlKey_TraceToggle_FriendlyName" xml:space="preserve">
+    <value>Trace Toggle</value>
+  </data>
+  <data name="ControlKey_Transmit_FriendlyName" xml:space="preserve">
+    <value>Transmit</value>
+  </data>
+  <data name="ControlKey_Udk10_FriendlyName" xml:space="preserve">
+    <value>Udk 10</value>
+  </data>
+  <data name="ControlKey_Udk11_FriendlyName" xml:space="preserve">
+    <value>Udk 11</value>
+  </data>
+  <data name="ControlKey_Udk12_FriendlyName" xml:space="preserve">
+    <value>Udk 12</value>
+  </data>
+  <data name="ControlKey_Udk13_FriendlyName" xml:space="preserve">
+    <value>Udk 13</value>
+  </data>
+  <data name="ControlKey_Udk14_FriendlyName" xml:space="preserve">
+    <value>Udk 14</value>
+  </data>
+  <data name="ControlKey_Udk15_FriendlyName" xml:space="preserve">
+    <value>Udk 15</value>
+  </data>
+  <data name="ControlKey_Udk16_FriendlyName" xml:space="preserve">
+    <value>Udk 16</value>
+  </data>
+  <data name="ControlKey_Udk17_FriendlyName" xml:space="preserve">
+    <value>Udk 17</value>
+  </data>
+  <data name="ControlKey_Udk18_FriendlyName" xml:space="preserve">
+    <value>Udk 18</value>
+  </data>
+  <data name="ControlKey_Udk19_FriendlyName" xml:space="preserve">
+    <value>Udk 19</value>
+  </data>
+  <data name="ControlKey_Udk20_FriendlyName" xml:space="preserve">
+    <value>Udk 20</value>
+  </data>
+  <data name="ControlKey_Udk6_FriendlyName" xml:space="preserve">
+    <value>Udk 6</value>
+  </data>
+  <data name="ControlKey_Udk7_FriendlyName" xml:space="preserve">
+    <value>Udk 7</value>
+  </data>
+  <data name="ControlKey_Udk8_FriendlyName" xml:space="preserve">
+    <value>Udk 8</value>
+  </data>
+  <data name="ControlKey_Udk9_FriendlyName" xml:space="preserve">
+    <value>Udk 9</value>
+  </data>
+  <data name="ControlKey_Up_FriendlyName" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="ControlKey_UpDouble_FriendlyName" xml:space="preserve">
+    <value>Up double</value>
+  </data>
+  <data name="Error_EmulatorCommunicationError_Description" xml:space="preserve">
+    <value>Indicates a problem connecting to the emulator</value>
+  </data>
+  <data name="Error_EmulatorCommunicationError_FriendlyName" xml:space="preserve">
+    <value>Error communicating with the emulator</value>
+  </data>
+  <data name="Error_FieldIndexOutOfBoundsError_Description" xml:space="preserve">
+    <value>Indicates that the field index is out of bounds</value>
+  </data>
+  <data name="Error_FieldIndexOutOfBoundsError_FriendlyName" xml:space="preserve">
+    <value>Field index out of bounds</value>
+  </data>
+  <data name="Error_FieldLabelNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the field label doesn't exist</value>
+  </data>
+  <data name="Error_FieldLabelNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Field label not found</value>
+  </data>
+  <data name="Error_InputTextRejectedError_Description" xml:space="preserve">
+    <value>Indicates that the input text was rejected</value>
+  </data>
+  <data name="Error_InputTextRejectedError_FriendlyName" xml:space="preserve">
+    <value>Input text was rejected</value>
+  </data>
+  <data name="Error_KeyNotSupportedError_Description" xml:space="preserve">
+    <value>Indicates that the key isn't supported</value>
+  </data>
+  <data name="Error_KeyNotSupportedError_FriendlyName" xml:space="preserve">
+    <value>Key not supported</value>
+  </data>
+  <data name="Error_NoFieldFoundAtGivenPositionError_Description" xml:space="preserve">
+    <value>Indicates that no field exists at the given position</value>
+  </data>
+  <data name="Error_NoFieldFoundAtGivenPositionError_FriendlyName" xml:space="preserve">
+    <value>No field found at the given position</value>
+  </data>
+  <data name="Error_OperationUnavailableForSessionTypeError_Description" xml:space="preserve">
+    <value>Indicates that the operation is unavailable for this session type</value>
+  </data>
+  <data name="Error_OperationUnavailableForSessionTypeError_FriendlyName" xml:space="preserve">
+    <value>Operation is unavailable for this session type</value>
+  </data>
+  <data name="Error_PositionCommandsNotSupportedByEmulatorError_Description" xml:space="preserve">
+    <value>Indicates that position commands aren't supported by the emulator</value>
+  </data>
+  <data name="Error_PositionCommandsNotSupportedByEmulatorError_FriendlyName" xml:space="preserve">
+    <value>Position commands aren't supported by the emulator</value>
+  </data>
+  <data name="Error_ProfileError_Description" xml:space="preserve">
+    <value>Profile error</value>
+  </data>
+  <data name="Error_ProfileError_FriendlyName" xml:space="preserve">
+    <value>Profile error</value>
+  </data>
+  <data name="Error_ScreenPositionOutOfBoundsError_Description" xml:space="preserve">
+    <value>Indicates that the screen position is out of bounds</value>
+  </data>
+  <data name="Error_ScreenPositionOutOfBoundsError_FriendlyName" xml:space="preserve">
+    <value>Screen position out of bounds</value>
+  </data>
+  <data name="Error_UnformattedTerminalScreenError_Description" xml:space="preserve">
+    <value>Indicates that the terminal screen is unformatted</value>
+  </data>
+  <data name="Error_UnformattedTerminalScreenError_FriendlyName" xml:space="preserve">
+    <value>Terminal screen is unformatted</value>
+  </data>
+  <data name="GetFieldBy_FieldLabel_FriendlyName" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="GetFieldBy_Index_FriendlyName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="GetFieldBy_Position_FriendlyName" xml:space="preserve">
+    <value>Position</value>
+  </data>
+  <data name="GetTextFromCursorPosition_Description" xml:space="preserve">
+    <value>Get the text from a specific cursor position on a terminal session</value>
+  </data>
+  <data name="GetTextFromCursorPosition_Summary" xml:space="preserve">
+    <value>Get text from the &lt;GETTEXTFROM&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;GETTEXTFROM&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="GetTextFromFieldAtPosition_Description" xml:space="preserve">
+    <value>Get the text from the field specified by a given position on a terminal session</value>
+  </data>
+  <data name="GetTextFromFieldAtPosition_Summary" xml:space="preserve">
+    <value>Get text from &lt;GETTEXTFROM&gt; at row &lt;ROW&gt; and column &lt;COLUMN&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;GETTEXTFROM&gt;"}{Locked="&lt;ROW&gt;"}{Locked="&lt;COLUMN&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="GetTextFromFieldWithIndex_Description" xml:space="preserve">
+    <value>Get the text from the field specified by a given index on a terminal session</value>
+  </data>
+  <data name="GetTextFromFieldWithIndex_Summary" xml:space="preserve">
+    <value>Get text from &lt;GETTEXTFROM&gt; with index  &lt;INDEX&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;GETTEXTFROM&gt;"}{Locked="&lt;INDEX&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="GetTextFromFieldWithLabel_Description" xml:space="preserve">
+    <value>Get the text from the field specified by a given label on a terminal session</value>
+  </data>
+  <data name="GetTextFromFieldWithLabel_Summary" xml:space="preserve">
+    <value>Get text from &lt;GETTEXTFROM&gt; with label &lt;FIELDLABEL&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;GETTEXTFROM&gt;"}{Locked="&lt;FIELDLABEL&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="GetTextFromPosition_Description" xml:space="preserve">
+    <value>Get the text from a specific position of a terminal session</value>
+  </data>
+  <data name="GetTextFromPosition_Summary" xml:space="preserve">
+    <value>Get text from &lt;GETTEXTFROM&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;GETTEXTFROM&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="GetTextFromScreen_Description" xml:space="preserve">
+    <value>Get the text from the entire screen of a terminal session</value>
+  </data>
+  <data name="GetTextFromScreen_Summary" xml:space="preserve">
+    <value>Get text from the &lt;GETTEXTFROM&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;GETTEXTFROM&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="GetTextFromTerminalSession_Column_Description" xml:space="preserve">
+    <value>The horizontal position of the field on the screen</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Description" xml:space="preserve">
+    <value>Get text from a terminal session</value>
+  </data>
+  <data name="GetTextFromTerminalSession_FieldLabel_Description" xml:space="preserve">
+    <value>The label of the field to look for</value>
+  </data>
+  <data name="GetTextFromTerminalSession_FieldLabel_FriendlyName" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="GetTextFromTerminalSession_FriendlyName" xml:space="preserve">
+    <value>Get text from terminal session</value>
+  </data>
+  <data name="GetTextFromTerminalSession_GetFieldBy_Description" xml:space="preserve">
+    <value>Specifies how to look for the field</value>
+  </data>
+  <data name="GetTextFromTerminalSession_GetFieldBy_FriendlyName" xml:space="preserve">
+    <value>Get field by</value>
+  </data>
+  <data name="GetTextFromTerminalSession_GetTextFrom_Description" xml:space="preserve">
+    <value>The location to get the text from</value>
+  </data>
+  <data name="GetTextFromTerminalSession_GetTextFrom_FriendlyName" xml:space="preserve">
+    <value>Get text from</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Index_Description" xml:space="preserve">
+    <value>The index of the field to look for</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Index_FriendlyName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Row_Description" xml:space="preserve">
+    <value>The vertical position of the field on the screen</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Session_Description" xml:space="preserve">
+    <value>The terminal session to work with</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Text_Description" xml:space="preserve">
+    <value>The text retrieved from the terminal session</value>
+  </data>
+  <data name="GetTextFromTerminalSession_Text_FriendlyName" xml:space="preserve">
+    <value>Terminal text</value>
+  </data>
+  <data name="GetTextFromTerminalSession_TextLength_Description" xml:space="preserve">
+    <value>The length of the text to receive</value>
+  </data>
+  <data name="GetTextFromTerminalSession_TextLength_FriendlyName" xml:space="preserve">
+    <value>Text length</value>
+  </data>
+  <data name="GetTextSource_CursorPosition_FriendlyName" xml:space="preserve">
+    <value>Cursor position</value>
+  </data>
+  <data name="GetTextSource_EntireScreen_FriendlyName" xml:space="preserve">
+    <value>Entire screen</value>
+  </data>
+  <data name="GetTextSource_Field_FriendlyName" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="GetTextSource_SpecificPosition_FriendlyName" xml:space="preserve">
+    <value>Specific position</value>
+  </data>
+  <data name="HostType_IBM3270_FriendlyName" xml:space="preserve">
+    <value>IBM 3270</value>
+  </data>
+  <data name="HostType_IBM5250_FriendlyName" xml:space="preserve">
+    <value>IBM 5250</value>
+  </data>
+  <data name="MoveCursor_Column_Description" xml:space="preserve">
+    <value>The horizontal position of the cursor on the screen</value>
+  </data>
+  <data name="MoveCursor_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="MoveCursor_Description" xml:space="preserve">
+    <value>Move the terminal's cursor on the specified position</value>
+  </data>
+  <data name="MoveCursor_FriendlyName" xml:space="preserve">
+    <value>Move cursor on terminal session</value>
+  </data>
+  <data name="MoveCursor_Row_Description" xml:space="preserve">
+    <value>The vertical position of the cursor on the screen</value>
+  </data>
+  <data name="MoveCursor_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="MoveCursor_Session_Description" xml:space="preserve">
+    <value>The terminal session to work with</value>
+  </data>
+  <data name="MoveCursor_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="MoveCursor_Summary" xml:space="preserve">
+    <value>Move cursor to row &lt;ROW&gt; and column &lt;COLUMN&gt; on terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;ROW&gt;"}{Locked="&lt;COLUMN&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="OpenSession_Description" xml:space="preserve">
+    <value>Open a new terminal session using HLLAPI</value>
+  </data>
+  <data name="OpenSession_Summary" xml:space="preserve">
+    <value>Open a &lt;PROVIDER&gt; terminal session with session name &lt;SESSIONNAME&gt; and store it into &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;PROVIDER&gt;"}{Locked="&lt;SESSIONNAME&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="OpenSessionUsingReflection_Description" xml:space="preserve">
+    <value>Open a new terminal session using Reflection</value>
+  </data>
+  <data name="OpenSessionUsingReflection_Summary" xml:space="preserve">
+    <value>Open a &lt;PROVIDER&gt; terminal session and store it into &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;PROVIDER&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="OpenSessionUsingReflectionProfile_Description" xml:space="preserve">
+    <value>Open a new terminal session using Reflection with an existing configuration</value>
+  </data>
+  <data name="OpenSessionUsingReflectionProfile_Summary" xml:space="preserve">
+    <value>Open a &lt;PROVIDER&gt; terminal session and store it into &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;PROVIDER&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="OpenTerminalSession_Attach_Description" xml:space="preserve">
+    <value>Specifies whether to attach to a currently open/running terminal session</value>
+  </data>
+  <data name="OpenTerminalSession_Attach_FriendlyName" xml:space="preserve">
+    <value>Attach to running session</value>
+  </data>
+  <data name="OpenTerminalSession_Configuration_Description" xml:space="preserve">
+    <value>Choose 'Existing profile' to select a file containing a preconfigured terminal emulation connection. Choose 'Specify connection' to specify the type of the connection, the host address and the port.</value>
+  </data>
+  <data name="OpenTerminalSession_Configuration_FriendlyName" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="OpenTerminalSession_Description" xml:space="preserve">
+    <value>Open a new terminal session</value>
+  </data>
+  <data name="OpenTerminalSession_FriendlyName" xml:space="preserve">
+    <value>Open terminal session</value>
+  </data>
+  <data name="OpenTerminalSession_HllapiPath_Description" xml:space="preserve">
+    <value>The HLLAPI DLL of the provider. RocketSoftware BlueZone default name: 'ehlapi64.dll'. IBM Personal Communications default name: 'EHLAPI32.dll'. MicroFocus Rumba default path: 'System/ehlapi32.Dll'. Cybelesoft zScope default name: 'zHllap32.dll' or any other provider that offers an HLLAPI DLL in it's installation folder.</value>
+    <comment>{Locked="RocketSoftware"}{Locked="BlueZone"}</comment>
+  </data>
+  <data name="OpenTerminalSession_HllapiPath_FriendlyName" xml:space="preserve">
+    <value>HLLAPI DLL path</value>
+  </data>
+  <data name="OpenTerminalSession_Host_Description" xml:space="preserve">
+    <value>The host's address to connect to</value>
+  </data>
+  <data name="OpenTerminalSession_Host_FriendlyName" xml:space="preserve">
+    <value>Host address</value>
+  </data>
+  <data name="OpenTerminalSession_HostType_Description" xml:space="preserve">
+    <value>The host type of the connection</value>
+  </data>
+  <data name="OpenTerminalSession_HostType_FriendlyName" xml:space="preserve">
+    <value>Host type</value>
+  </data>
+  <data name="OpenTerminalSession_InstallationPath_Description" xml:space="preserve">
+    <value>The installation path of the provider's application on the user's file system</value>
+  </data>
+  <data name="OpenTerminalSession_InstallationPath_FriendlyName" xml:space="preserve">
+    <value>Installation path</value>
+  </data>
+  <data name="OpenTerminalSession_Port_Description" xml:space="preserve">
+    <value>The port to use for this connection</value>
+  </data>
+  <data name="OpenTerminalSession_Port_FriendlyName" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="OpenTerminalSession_Profile_Description" xml:space="preserve">
+    <value>The file that contains the preconfigured connection</value>
+  </data>
+  <data name="OpenTerminalSession_Profile_FriendlyName" xml:space="preserve">
+    <value>Profile</value>
+  </data>
+  <data name="OpenTerminalSession_Provider_Description" xml:space="preserve">
+    <value>The terminal emulation to use</value>
+  </data>
+  <data name="OpenTerminalSession_Provider_FriendlyName" xml:space="preserve">
+    <value>Provider</value>
+  </data>
+  <data name="OpenTerminalSession_Session_Description" xml:space="preserve">
+    <value>The specific terminal session for use with later terminal emulation commands</value>
+  </data>
+  <data name="OpenTerminalSession_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="OpenTerminalSession_SessionName_Description" xml:space="preserve">
+    <value>The session name to connect to. This is the HLLAPI short name and it's a unique identifier for the host session. It can be found in the terminal emulator's configuration settings.</value>
+  </data>
+  <data name="OpenTerminalSession_SessionName_FriendlyName" xml:space="preserve">
+    <value>Session name</value>
+  </data>
+  <data name="Provider_HLLAPI_FriendlyName" xml:space="preserve">
+    <value>HLLAPI</value>
+  </data>
+  <data name="Provider_Reflection_FriendlyName" xml:space="preserve">
+    <value>Micro Focus Reflection</value>
+  </data>
+  <data name="SendKey_ControlKey_Description" xml:space="preserve">
+    <value>The key to submit to the session</value>
+  </data>
+  <data name="SendKey_ControlKey_FriendlyName" xml:space="preserve">
+    <value>Control key</value>
+  </data>
+  <data name="SendKey_Description" xml:space="preserve">
+    <value>Send a control key to a terminal session</value>
+  </data>
+  <data name="SendKey_FriendlyName" xml:space="preserve">
+    <value>Send key to terminal session</value>
+  </data>
+  <data name="SendKey_Session_Description" xml:space="preserve">
+    <value>The terminal session to work with</value>
+  </data>
+  <data name="SendKey_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="SendKey_Summary" xml:space="preserve">
+    <value>Send key &lt;CONTROLKEY&gt; to terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;CONTROLKEY&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="SetTextOnCursorPosition_Description" xml:space="preserve">
+    <value>Set text on the terminal session's cursor position</value>
+  </data>
+  <data name="SetTextOnCursorPosition_Summary" xml:space="preserve">
+    <value>Set text &lt;TEXT&gt; on &lt;SETTEXTON&gt; on terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;SETTEXTON&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="SetTextOnFieldAtPosition_Description" xml:space="preserve">
+    <value>Set text on the terminal session's field specified by a given position</value>
+  </data>
+  <data name="SetTextOnFieldAtPosition_Summary" xml:space="preserve">
+    <value>Set text &lt;TEXT&gt; on &lt;SETTEXTON&gt; at row &lt;ROW&gt; and column &lt;COLUMN&gt; on terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;SETTEXTON&gt;"}{Locked="&lt;ROW&gt;"}{Locked="&lt;COLUMN&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="SetTextOnFieldWithIndex_Description" xml:space="preserve">
+    <value>Set text on the terminal session's field specified by a given index</value>
+  </data>
+  <data name="SetTextOnFieldWithIndex_Summary" xml:space="preserve">
+    <value>Set text &lt;TEXT&gt; on &lt;SETTEXTON&gt; with index &lt;INDEX&gt; on terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;SETTEXTON&gt;"}{Locked="&lt;INDEX&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="SetTextOnFieldWithLabel_Description" xml:space="preserve">
+    <value>Set text on the terminal session's field specified by a given label</value>
+  </data>
+  <data name="SetTextOnFieldWithLabel_Summary" xml:space="preserve">
+    <value>Set text &lt;TEXT&gt; on &lt;SETTEXTON&gt; with label &lt;FIELDLABEL&gt; on terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;SETTEXTON&gt;"}{Locked="&lt;FIELDLABEL&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="SetTextOnTerminalSession_Column_Description" xml:space="preserve">
+    <value>The horizontal position of the field on the screen</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Description" xml:space="preserve">
+    <value>Set text on a terminal session</value>
+  </data>
+  <data name="SetTextOnTerminalSession_FieldLabel_Description" xml:space="preserve">
+    <value>The label of the field to look for</value>
+  </data>
+  <data name="SetTextOnTerminalSession_FieldLabel_FriendlyName" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="SetTextOnTerminalSession_FriendlyName" xml:space="preserve">
+    <value>Set text on terminal session</value>
+  </data>
+  <data name="SetTextOnTerminalSession_GetFieldBy_Description" xml:space="preserve">
+    <value>Specifies the way by which to look for the field</value>
+  </data>
+  <data name="SetTextOnTerminalSession_GetFieldBy_FriendlyName" xml:space="preserve">
+    <value>Get field by</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Index_Description" xml:space="preserve">
+    <value>The index of the field on the screen</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Index_FriendlyName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Row_Description" xml:space="preserve">
+    <value>The vertical position of the field on the screen</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Session_Description" xml:space="preserve">
+    <value>The terminal session to work with</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="SetTextOnTerminalSession_SetTextOn_Description" xml:space="preserve">
+    <value>The location to set the text to</value>
+  </data>
+  <data name="SetTextOnTerminalSession_SetTextOn_FriendlyName" xml:space="preserve">
+    <value>Set text</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Text_Description" xml:space="preserve">
+    <value>The text to set on the specified location</value>
+  </data>
+  <data name="SetTextOnTerminalSession_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="SetTextOnTerminalSession_TreatAtCharacterAsLiteral_Description" xml:space="preserve">
+    <value>Check this box to sent the '@' character literally. Leave this option disabled to sent it as a special character</value>
+  </data>
+  <data name="SetTextOnTerminalSession_TreatAtCharacterAsLiteral_FriendlyName" xml:space="preserve">
+    <value>Treat '@' character as literal</value>
+  </data>
+  <data name="SetTextSource_CursorPosition_FriendlyName" xml:space="preserve">
+    <value>Cursor position</value>
+  </data>
+  <data name="SetTextSource_Field_FriendlyName" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="TerminalEmulation_Description" xml:space="preserve">
+    <value>Take control of terminal emulators for automating mainframes and legacy systems</value>
+  </data>
+  <data name="TerminalEmulation_FriendlyName" xml:space="preserve">
+    <value>Terminal emulation</value>
+  </data>
+  <data name="TerminalSessionHandle_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="TerminalSessionHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>Terminal sessions</value>
+  </data>
+  <data name="WaitForTextOnFieldAtPosition_Description" xml:space="preserve">
+    <value>Wait for text on the terminal session's field specified by a given position</value>
+  </data>
+  <data name="WaitForTextOnFieldAtPosition_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; on &lt;WAITFORTEXTON&gt; at row &lt;ROW&gt; and column &lt;COLUMN&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WAITFORTEXTON&gt;"}{Locked="&lt;ROW&gt;"}{Locked="&lt;COLUMN&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="WaitForTextOnFieldWithIndex_Description" xml:space="preserve">
+    <value>Wait for text on the terminal session's field specified by a given index</value>
+  </data>
+  <data name="WaitForTextOnFieldWithIndex_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; on &lt;WAITFORTEXTON&gt; with index &lt;INDEX&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WAITFORTEXTON&gt;"}{Locked="&lt;INDEX&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="WaitForTextOnFieldWithLabel_Description" xml:space="preserve">
+    <value>Waits for text on the terminal session's field specified by a given label</value>
+  </data>
+  <data name="WaitForTextOnFieldWithLabel_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; on &lt;WAITFORTEXTON&gt; with label &lt;FIELDLABEL&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WAITFORTEXTON&gt;"}{Locked="&lt;FIELDLABEL&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="WaitForTextOnScreen_Description" xml:space="preserve">
+    <value>Wait for text on the terminal session's screen</value>
+  </data>
+  <data name="WaitForTextOnScreen_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; on &lt;WAITFORTEXTON&gt; of terminal session &lt;SESSION&gt;</value>
+    <comment>{Locked="&lt;TEXT&gt;"}{Locked="&lt;WAITFORTEXTON&gt;"}{Locked="&lt;SESSION&gt;"}</comment>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Column_Description" xml:space="preserve">
+    <value>The horizontal position of the field on the screen</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Description" xml:space="preserve">
+    <value>Wait for a specific text to appear on a terminal session</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_FieldLabel_Description" xml:space="preserve">
+    <value>The label of the field to look for</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_FieldLabel_FriendlyName" xml:space="preserve">
+    <value>Label</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_FriendlyName" xml:space="preserve">
+    <value>Wait for text on terminal session</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_GetFieldBy_Description" xml:space="preserve">
+    <value>Specifies the way by which to look for the field</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_GetFieldBy_FriendlyName" xml:space="preserve">
+    <value>Get field by</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Index_Description" xml:space="preserve">
+    <value>The index of the field to look for</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Index_FriendlyName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_IsRegEx_Description" xml:space="preserve">
+    <value>Specifies whether to wait for a regular expression instead of plain text</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_IsRegEx_FriendlyName" xml:space="preserve">
+    <value>Regular expression</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Row_Description" xml:space="preserve">
+    <value>The vertical position of the field on the screen</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Session_Description" xml:space="preserve">
+    <value>The previously opened terminal session</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Session_FriendlyName" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Text_Description" xml:space="preserve">
+    <value>The text or regular expression to wait to appear on the terminal screen or on a specified field</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Text_FriendlyName" xml:space="preserve">
+    <value>Text to wait for</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Timeout_Description" xml:space="preserve">
+    <value>The maximum amount of time to wait</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_WaitForTextOn_Description" xml:space="preserve">
+    <value>The location to wait for the text to appear on</value>
+  </data>
+  <data name="WaitForTextOnTerminalSession_WaitForTextOn_FriendlyName" xml:space="preserve">
+    <value>Wait for text location</value>
+  </data>
+  <data name="WaitForTextSource_Field_FriendlyName" xml:space="preserve">
+    <value>Field</value>
+  </data>
+  <data name="WaitForTextSource_Screen_FriendlyName" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="ErrorMessage_EmulatorCommunicationError" xml:space="preserve">
+    <value>Error communicating with the emulator</value>
+  </data>
+  <data name="ErrorMessage_FieldLabelNotFoundError" xml:space="preserve">
+    <value>Field label not found</value>
+  </data>
+  <data name="ErrorMessage_FieldIndexOutOfBoundsError" xml:space="preserve">
+    <value>Field index out of bounds</value>
+  </data>
+  <data name="ErrorMessage_ScreenPositionOutOfBoundsError" xml:space="preserve">
+    <value>Screen position out of bounds</value>
+  </data>
+  <data name="ErrorMessage_NoFieldFoundAtGivenPositionError" xml:space="preserve">
+    <value>No field exists at the given position</value>
+  </data>
+  <data name="ErrorMessage_UnformattedTerminalScreenError" xml:space="preserve">
+    <value>The terminal screen is unformatted</value>
+  </data>
+  <data name="ErrorMessage_PositionCommandsNotSupportedByEmulatorError" xml:space="preserve">
+    <value>Position commands aren't supported by the emulator</value>
+  </data>
+  <data name="ErrorMessage_OperationUnavailableForSessionTypeError" xml:space="preserve">
+    <value>The operation is unavailable for this session type</value>
+  </data>
+  <data name="ErrorMessage_NoSessionError" xml:space="preserve">
+    <value>No session was found open with the specified connection</value>
+  </data>
+  <data name="ErrorMessage_ProfileNotFoundError" xml:space="preserve">
+    <value>No session was found open with this profile</value>
+  </data>
+  <data name="ErrorMessage_ProfileError" xml:space="preserve">
+    <value>Error with profile {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_KeyNotSupportedError" xml:space="preserve">
+    <value>Key not supported</value>
+  </data>
+  <data name="ErrorMessage_InputTextRejectedError" xml:space="preserve">
+    <value>Input text was rejected</value>
+  </data>
+  <data name="ErrorMessage_TimeOutExpiredError" xml:space="preserve">
+    <value>Timeout occurred while waiting for text {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Error_TimeOutExpiredError_Description" xml:space="preserve">
+    <value>Indicates that the timeout has been expired</value>
+  </data>
+  <data name="Error_TimeOutExpiredError_FriendlyName" xml:space="preserve">
+    <value>Timeout expired</value>
+  </data>
+  <data name="TerminalSessionHandle_ToString" xml:space="preserve">
+    <value>Terminal session</value>
+  </data>
+  <data name="ErrorMessage_InvalidTimeoutValue" xml:space="preserve">
+    <value>Timeout should be greater than zero (0)</value>
+  </data>
+  <data name="ErrorMessage_FailedToRunTerminalEmulationFileOrAppNotFound" xml:space="preserve">
+    <value>Failed to run terminal emulation actions (file or application {0} not found)</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRunTerminalEmulationAccessDenied" xml:space="preserve">
+    <value>Failed to run terminal emulation actions (access denied for application/file {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Resources.ErrorMessage_FailedToRunTerminalEmulationCannotExecute" xml:space="preserve">
+    <value>Failed to run terminal emulation actions (can't execute application/open file {0})</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+</root>

@@ -1,0 +1,17 @@
+! FileList.txt
+! cd F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\Makelang
+! .\Makelang.cmd ko-KR /handoff
+! copy F:\Automation\BAGIE\power-platform-loc\Settings\default.lss F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\Localize\Extern\Base\HelloWorld\LSS\lss.lss
+src\angularJs.json
+src\common.json
+src\connectorsPage.json
+src\consentService.json
+src\controlCenter.json
+src\desktopFlows.json
+src\errorHandlingResources.json
+src\flow.json
+src\flowDesigner.json
+src\flowServiceClientResources.json
+src\headerContainer.json
+src\leftNav.json
+src\templatesPage.json

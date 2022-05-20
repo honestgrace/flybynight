@@ -1,0 +1,19 @@
+{
+  "strings": {
+    "searchBox": {
+      "ariaLabel": "Search templates",
+      "placeholder": "Search templates"
+    },
+    "orderDropDown": {
+      "ariaLabel": "Order templates"
+    },
+    "templatesPageOrderBy": {
+      "name": "Sorted by name",
+      "popularity": "Sorted by popularity",
+      "publishedTime": "Sorted by published time"
+    },
+    "templatesPageCategory": {
+      "visio": "Visio"
+    }
+  }
+}

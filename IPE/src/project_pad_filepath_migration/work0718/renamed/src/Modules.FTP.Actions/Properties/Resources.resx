@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChangeWorkingDirectory_Connection_Description" xml:space="preserve">
+    <value>The FTP connection</value>
+  </data>
+  <data name="ChangeWorkingDirectory_Connection_FriendlyName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="ChangeWorkingDirectory_Description" xml:space="preserve">
+    <value>This action sets the current working directory for an FTP connection</value>
+  </data>
+  <data name="ChangeWorkingDirectory_FriendlyName" xml:space="preserve">
+    <value>Change working directory</value>
+  </data>
+  <data name="ChangeWorkingDirectory_SetWorkingDirectoryTo_Description" xml:space="preserve">
+    <value>Set the path to be set as the working directory</value>
+  </data>
+  <data name="ChangeWorkingDirectory_SetWorkingDirectoryTo_FriendlyName" xml:space="preserve">
+    <value>Set working directory to</value>
+  </data>
+  <data name="ChangeWorkingDirectory_Summary" xml:space="preserve">
+    <value>Set working directory to &lt;SETWORKINGDIRECTORYTO&gt;</value>
+    <comment>{Locked="&lt;SETWORKINGDIRECTORYTO&gt;"}</comment>
+  </data>
+  <data name="CloseConnection_Connection_Description" xml:space="preserve">
+    <value>The FTP connection</value>
+  </data>
+  <data name="CloseConnection_Connection_FriendlyName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="CloseConnection_Description" xml:space="preserve">
+    <value>This action closes an open FTP connection</value>
+  </data>
+  <data name="CloseConnection_FriendlyName" xml:space="preserve">
+    <value>Close connection</value>
+  </data>
+  <data name="CloseConnection_Summary" xml:space="preserve">
+    <value>Close FTP connection</value>
+  </data>
+  <data name="ConnectWithFtpsExplicit_Description" xml:space="preserve">
+    <value>Establishes a specific secure connection to a remote FTP server with FTPS explicit</value>
+  </data>
+  <data name="ConnectWithFtpsExplicit_Summary" xml:space="preserve">
+    <value>Connect to FTP server using account &lt;USERNAME&gt; and protocol FTPS explicit</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="ConnectWithFtpsImplicit_Description" xml:space="preserve">
+    <value>Establishes a specific secure connection to a remote FTP server with FTPS implicit</value>
+  </data>
+  <data name="ConnectWithFtpsImplicit_Summary" xml:space="preserve">
+    <value>Connect to FTP server using account &lt;USERNAME&gt; and protocol FTPS implicit</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="ConnectWithSftpPrivateKeyAndPassPhrase_Description" xml:space="preserve">
+    <value>Establishes a specific secure connection to a remote FTP server with SFTP and authenticates using a private key and a passphrase</value>
+  </data>
+  <data name="ConnectWithSftpPrivateKeyAndPassPhrase_Summary" xml:space="preserve">
+    <value>Connect to FTP server using account &lt;USERNAME&gt; and protocol SFTP</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="ConnectWithSftpPrivateKey_Description" xml:space="preserve">
+    <value>Establishes a specific secure connection to a remote FTP server with SFTP and authenticates using a private key</value>
+  </data>
+  <data name="ConnectWithSftpPrivateKey_Summary" xml:space="preserve">
+    <value>Connect to FTP server using account &lt;USERNAME&gt; and protocol SFTP</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="ConnectWithSftpUsernameAndPassword_Description" xml:space="preserve">
+    <value>Establishes a specific secure connection to a remote FTP server with SFTP and authenticates using username and password</value>
+  </data>
+  <data name="ConnectWithSftpUsernameAndPassword_Summary" xml:space="preserve">
+    <value>Connect to FTP server using account &lt;USERNAME&gt; and protocol SFTP</value>
+    <comment>{Locked="&lt;USERNAME&gt;"}</comment>
+  </data>
+  <data name="CreateDirectory_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="CreateDirectory_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="CreateDirectory_Description" xml:space="preserve">
+    <value>Creates a directory on an FTP server</value>
+  </data>
+  <data name="CreateDirectory_Directory_Description" xml:space="preserve">
+    <value>The new directory. If a path is specified, all of the new folders leading to the new directory will be created</value>
+  </data>
+  <data name="CreateDirectory_Directory_FriendlyName" xml:space="preserve">
+    <value>New directory</value>
+  </data>
+  <data name="CreateDirectory_FriendlyName" xml:space="preserve">
+    <value>Create FTP directory</value>
+  </data>
+  <data name="CreateDirectory_Summary" xml:space="preserve">
+    <value>Create directory &lt;DIRECTORY&gt; on the FTP server</value>
+    <comment>{Locked="&lt;DIRECTORY&gt;"}</comment>
+  </data>
+  <data name="DeleteDirectory_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="DeleteDirectory_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="DeleteDirectory_Description" xml:space="preserve">
+    <value>Deletes a directory from an FTP server</value>
+  </data>
+  <data name="DeleteDirectory_Directory_Description" xml:space="preserve">
+    <value>The folder to delete. Everything in the folder will be deleted as well</value>
+  </data>
+  <data name="DeleteDirectory_Directory_FriendlyName" xml:space="preserve">
+    <value>Directory to delete</value>
+  </data>
+  <data name="DeleteDirectory_FriendlyName" xml:space="preserve">
+    <value>Delete FTP directory</value>
+  </data>
+  <data name="DeleteDirectory_Summary" xml:space="preserve">
+    <value>Delete directory &lt;DIRECTORY&gt;</value>
+    <comment>{Locked="&lt;DIRECTORY&gt;"}</comment>
+  </data>
+  <data name="DeleteFiles_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="DeleteFiles_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="DeleteFiles_Description" xml:space="preserve">
+    <value>Deletes one or more files from an FTP server</value>
+  </data>
+  <data name="DeleteFiles_Files_Description" xml:space="preserve">
+    <value>The files to delete</value>
+  </data>
+  <data name="DeleteFiles_Files_FriendlyName" xml:space="preserve">
+    <value>Files to delete</value>
+  </data>
+  <data name="DeleteFiles_FriendlyName" xml:space="preserve">
+    <value>Delete FTP file</value>
+  </data>
+  <data name="DeleteFiles_Summary" xml:space="preserve">
+    <value>Delete the FTP file(s) &lt;FILES&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}</comment>
+  </data>
+  <data name="DownloadFiles_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="DownloadFiles_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="DownloadFiles_Description" xml:space="preserve">
+    <value>Downloads one or more files from an FTP server</value>
+  </data>
+  <data name="DownloadFiles_DownloadInto_Description" xml:space="preserve">
+    <value>The folder to be the destination of the file(s) that will be downloaded</value>
+  </data>
+  <data name="DownloadFiles_DownloadInto_FriendlyName" xml:space="preserve">
+    <value>Download into folder</value>
+  </data>
+  <data name="DownloadFiles_FriendlyName" xml:space="preserve">
+    <value>Download file(s) from FTP</value>
+  </data>
+  <data name="DownloadFiles_IfFileExists_Description" xml:space="preserve">
+    <value>Specify what to do if the file already exists. Overwrite the original file or download with unique name to add an underscore and a sequential number to the end</value>
+  </data>
+  <data name="DownloadFiles_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="DownloadFiles_RemoteFilePaths_Description" xml:space="preserve">
+    <value>The file(s) to download</value>
+  </data>
+  <data name="DownloadFiles_RemoteFilePaths_FriendlyName" xml:space="preserve">
+    <value>File(s) to download</value>
+  </data>
+  <data name="DownloadFiles_Summary" xml:space="preserve">
+    <value>Download the file(s) &lt;REMOTEFILEPATHS&gt; into &lt;DOWNLOADINTO&gt;</value>
+    <comment>{Locked="&lt;REMOTEFILEPATHS&gt;"}{Locked="&lt;DOWNLOADINTO&gt;"}</comment>
+  </data>
+  <data name="DownloadFiles_TransferType_Description" xml:space="preserve">
+    <value>Enter ASCII or binary to specify the method for downloading a single file. If the file type is uncertain, or more than one is downloaded, choose Auto to follow the transfer rules specified in options</value>
+  </data>
+  <data name="DownloadFiles_TransferType_FriendlyName" xml:space="preserve">
+    <value>Transfer type</value>
+  </data>
+  <data name="DownloadFolders_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="DownloadFolders_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="DownloadFolders_Description" xml:space="preserve">
+    <value>Downloads one or more folders from an FTP server</value>
+  </data>
+  <data name="DownloadFolders_DownloadInto_Description" xml:space="preserve">
+    <value>The full path of the destination of the FTP folder(s) you are downloading</value>
+  </data>
+  <data name="DownloadFolders_DownloadInto_FriendlyName" xml:space="preserve">
+    <value>Download into local folder</value>
+  </data>
+  <data name="DownloadFolders_FriendlyName" xml:space="preserve">
+    <value>Download folder(s) from FTP</value>
+  </data>
+  <data name="DownloadFolders_RemotePath_Description" xml:space="preserve">
+    <value>The name of the folder path(s), or FTP folder(s) to download</value>
+  </data>
+  <data name="DownloadFolders_RemotePath_FriendlyName" xml:space="preserve">
+    <value>Folder(s) to download</value>
+  </data>
+  <data name="DownloadFolders_Summary" xml:space="preserve">
+    <value>Download the folder(s) &lt;REMOTEPATH&gt; into &lt;DOWNLOADINTO&gt;</value>
+    <comment>{Locked="&lt;REMOTEPATH&gt;"}{Locked="&lt;DOWNLOADINTO&gt;"}</comment>
+  </data>
+  <data name="ErrorMessageHelper_AccessDenied" xml:space="preserve">
+    <value>Access is denied</value>
+  </data>
+  <data name="ErrorMessageHelper_local" xml:space="preserve">
+    <value>local</value>
+  </data>
+  <data name="ErrorMessageHelper_Remote" xml:space="preserve">
+    <value>remote</value>
+  </data>
+  <data name="ErrorMessage_AccessDenied" xml:space="preserve">
+    <value>Access is denied.</value>
+  </data>
+  <data name="ErrorMessage_CannotChangeDirectory" xml:space="preserve">
+    <value>Can't change the working directory.</value>
+  </data>
+  <data name="ErrorMessage_CannotChangeWorkingDirectory" xml:space="preserve">
+    <value>Can't change the working directory to {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotDeleteDirectory" xml:space="preserve">
+    <value>Can't delete directory: {0}. Make sure that the directory exists and that you have sufficient permissions to delete it.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotDeleteFile" xml:space="preserve">
+    <value>Can't delete file.</value>
+  </data>
+  <data name="ErrorMessage_CannotDownload" xml:space="preserve">
+    <value>Can't download file.</value>
+  </data>
+  <data name="ErrorMessage_CannotDownloadDirectory" xml:space="preserve">
+    <value>Can't download directory.</value>
+  </data>
+  <data name="ErrorMessage_CannotDownloadFile" xml:space="preserve">
+    <value>Can't download file: {0}. Error while deducing the file paths to use for the local copies.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotRenameFile" xml:space="preserve">
+    <value>Can't rename file.</value>
+  </data>
+  <data name="ErrorMessage_CannotUploadFile" xml:space="preserve">
+    <value>Can't upload file {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotUploadFileRemotePathError" xml:space="preserve">
+    <value>Can't upload file: {0}. Error while deducing the path to use for the remote copy.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotUploadFolder" xml:space="preserve">
+    <value>Can't upload folder: {0}. An unexplained error occurred. See the logs for details.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_CannotUploadFolderSimple" xml:space="preserve">
+    <value>Can't upload folder.</value>
+  </data>
+  <data name="ErrorMessage_ConnectionAbortedDownload" xml:space="preserve">
+    <value>FTP connection aborted while downloading.</value>
+  </data>
+  <data name="ErrorMessage_ConnectionError" xml:space="preserve">
+    <value>Can't connect to {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ConnectionToFTPLost" xml:space="preserve">
+    <value>Connection to FTP server lost.</value>
+  </data>
+  <data name="ErrorMessage_ConnectionToSFTPLost" xml:space="preserve">
+    <value>Connection to SFTP server lost.</value>
+  </data>
+  <data name="ErrorMessage_DirectoryDoesNotExist" xml:space="preserve">
+    <value>The specified directory doesn't exist.</value>
+  </data>
+  <data name="ErrorMessage_ErrorWhileListing" xml:space="preserve">
+    <value>Can't retrieve directory listing.</value>
+  </data>
+  <data name="ErrorMessage_FailedToCreateDirectory" xml:space="preserve">
+    <value>Can't create directory {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FileExists" xml:space="preserve">
+    <value>The path specified refers to an already existing file.</value>
+  </data>
+  <data name="ErrorMessage_FileNotFound" xml:space="preserve">
+    <value>The system can't find the file specified.</value>
+  </data>
+  <data name="ErrorMessage_FileNotFoundLocally" xml:space="preserve">
+    <value>File: {0} couldn't be found locally.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_GeneralError" xml:space="preserve">
+    <value>General connection error.</value>
+  </data>
+  <data name="ErrorMessage_InvalidSynchronizationMethod" xml:space="preserve">
+    <value>Invalid Synchronization Method.</value>
+  </data>
+  <data name="ErrorMessage_InvocationError" xml:space="preserve">
+    <value>Error while invoking command.</value>
+  </data>
+  <data name="ErrorMessage_ListingError" xml:space="preserve">
+    <value>Error occurred while listing or creating the {0} directory: {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_LocalDirectoryDoesNotExist" xml:space="preserve">
+    <value>The local directory: {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LocalFolderDoesNotExists" xml:space="preserve">
+    <value>Local folder: {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LoginError" xml:space="preserve">
+    <value>Can't login to {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RemoteDirectoryDoesNotExist" xml:space="preserve">
+    <value>Remote directory {0} couldn't be found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RemoteDirectoryNotFound" xml:space="preserve">
+    <value>Remote directory: {0} doesn't exist.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_RemoteFileNotFound" xml:space="preserve">
+    <value>Remote file: {0} couldn't be found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SynchorizationFailed" xml:space="preserve">
+    <value>Synchronize failed due to an unexpected error. Make sure there are no corrupted files in either the source or target.</value>
+  </data>
+  <data name="ErrorMessage_SystemCannotFindFile" xml:space="preserve">
+    <value>The system can't find the file specified.</value>
+  </data>
+  <data name="Error_AccessDeniedError_Description" xml:space="preserve">
+    <value>Indicates that this account doesn't have access for an operation</value>
+  </data>
+  <data name="Error_AccessDeniedError_FriendlyName" xml:space="preserve">
+    <value>Access denied error</value>
+  </data>
+  <data name="Error_CannotChangeWorkingDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that it isn't possible to change the working directory</value>
+  </data>
+  <data name="Error_CannotChangeWorkingDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Can't change working directory error</value>
+  </data>
+  <data name="Error_CannotDeleteFileError_Description" xml:space="preserve">
+    <value>Indicates that the deletion of the file wasn't possible</value>
+  </data>
+  <data name="Error_CannotDeleteFileError_FriendlyName" xml:space="preserve">
+    <value>Can't delete file error</value>
+  </data>
+  <data name="Error_CannotDownloadDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that it wasn't possible to download the directory</value>
+  </data>
+  <data name="Error_CannotDownloadDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Can't download directory error</value>
+  </data>
+  <data name="Error_CannotDownloadFileError_Description" xml:space="preserve">
+    <value>Indicates that it wasn't possible to download the file</value>
+  </data>
+  <data name="Error_CannotDownloadFileError_FriendlyName" xml:space="preserve">
+    <value>Can't download file error</value>
+  </data>
+  <data name="Error_CannotRenameFileError_Description" xml:space="preserve">
+    <value>Indicates that it wasn't possible to rename the file</value>
+  </data>
+  <data name="Error_CannotRenameFileError_FriendlyName" xml:space="preserve">
+    <value>Can't rename file error</value>
+  </data>
+  <data name="Error_ConnectionError_Description" xml:space="preserve">
+    <value>Indicates that there is a problem with the connection</value>
+  </data>
+  <data name="Error_ConnectionError_FriendlyName" xml:space="preserve">
+    <value>Connection error</value>
+  </data>
+  <data name="Error_CreateDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that it wasn't possible creating the directory</value>
+  </data>
+  <data name="Error_CreateDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Create directory error</value>
+  </data>
+  <data name="Error_DeleteDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that it wasn't possible to delete the directory</value>
+  </data>
+  <data name="Error_DeleteDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Delete directory error</value>
+  </data>
+  <data name="Error_DirectoryDoesNotExistError_Description" xml:space="preserve">
+    <value>Indicates that the directory couldn't be found</value>
+  </data>
+  <data name="Error_DirectoryDoesNotExistError_FriendlyName" xml:space="preserve">
+    <value>Directory doesn't exist error</value>
+  </data>
+  <data name="Error_FileExistsError_Description" xml:space="preserve">
+    <value>Indicates that the file already exists</value>
+  </data>
+  <data name="Error_FileExistsError_FriendlyName" xml:space="preserve">
+    <value>File exists error</value>
+  </data>
+  <data name="Error_FileNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the file wasn't found</value>
+  </data>
+  <data name="Error_FileNotFoundError_FriendlyName" xml:space="preserve">
+    <value>File not found error</value>
+  </data>
+  <data name="Error_FTPConnectionAbortedError_Description" xml:space="preserve">
+    <value>Indicates that the FTP connection was aborted</value>
+  </data>
+  <data name="Error_FTPConnectionAbortedError_FriendlyName" xml:space="preserve">
+    <value>FTP connection aborted error</value>
+  </data>
+  <data name="Error_InvokeCommandError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while invoking an FTP command</value>
+  </data>
+  <data name="Error_InvokeCommandError_FriendlyName" xml:space="preserve">
+    <value>Invoke command error</value>
+  </data>
+  <data name="Error_ListingError_Description" xml:space="preserve">
+    <value>Indicates that the listing of the folder couldn't be performed</value>
+  </data>
+  <data name="Error_ListingError_FriendlyName" xml:space="preserve">
+    <value>Listing error</value>
+  </data>
+  <data name="Error_LoginFailureError_Description" xml:space="preserve">
+    <value>Indicated that the login failed</value>
+  </data>
+  <data name="Error_LoginFailureError_FriendlyName" xml:space="preserve">
+    <value>Login failure error</value>
+  </data>
+  <data name="Error_NotConnectedError_Description" xml:space="preserve">
+    <value>Indicates that there is no open connection with the FTP server</value>
+  </data>
+  <data name="Error_NotConnectedError_FriendlyName" xml:space="preserve">
+    <value>Not connected error</value>
+  </data>
+  <data name="Error_RemoteDirectoryDoesNotExistError_Description" xml:space="preserve">
+    <value>Indicates that the directory doesn't exist on the FTP server</value>
+  </data>
+  <data name="Error_RemoteDirectoryDoesNotExistError_FriendlyName" xml:space="preserve">
+    <value>Remote directory doesn't exist error</value>
+  </data>
+  <data name="Error_RemoteFileDoesNotExistError_Description" xml:space="preserve">
+    <value>Indicates that the file doesn't exist on the FTP server</value>
+  </data>
+  <data name="Error_RemoteFileDoesNotExistError_FriendlyName" xml:space="preserve">
+    <value>Remote file doesn't exist error</value>
+  </data>
+  <data name="Error_SynchronizationFailedError_Description" xml:space="preserve">
+    <value>Indicates that the synchronization process failed due to an unexpected error.</value>
+  </data>
+  <data name="Error_SynchronizationFailedError_FriendlyName" xml:space="preserve">
+    <value>Synchronization failed error</value>
+  </data>
+  <data name="Error_UploadDirectoryError_Description" xml:space="preserve">
+    <value>Indicates that the directory couldn't be uploaded</value>
+  </data>
+  <data name="Error_UploadDirectoryError_FriendlyName" xml:space="preserve">
+    <value>Upload directory error</value>
+  </data>
+  <data name="Error_UploadFileError_Description" xml:space="preserve">
+    <value>Indicates that the file couldn't be uploaded</value>
+  </data>
+  <data name="Error_UploadFileError_FriendlyName" xml:space="preserve">
+    <value>Upload file error</value>
+  </data>
+  <data name="Error_WorkingDirectoryChangeError_Description" xml:space="preserve">
+    <value>Indicates that the working directory couldn't be changed</value>
+  </data>
+  <data name="Error_WorkingDirectoryChangeError_FriendlyName" xml:space="preserve">
+    <value>Working directory change error</value>
+  </data>
+  <data name="FtpAuthenticationMode_PrivateKeyAndPassphrase_FriendlyName" xml:space="preserve">
+    <value>Private key and passphrase</value>
+  </data>
+  <data name="FtpAuthenticationMode_PrivateKey_FriendlyName" xml:space="preserve">
+    <value>Private key</value>
+  </data>
+  <data name="FtpAuthenticationMode_UsernameAndPassword_FriendlyName" xml:space="preserve">
+    <value>Username and password</value>
+  </data>
+  <data name="FtpConnectionBase_Connections" xml:space="preserve">
+    <value>FTP connections</value>
+  </data>
+  <data name="FtpConnectionBase_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="FtpConnectionBase_FriendlyNamePlural" xml:space="preserve">
+    <value>FTP connections</value>
+  </data>
+  <data name="FtpFileObject_FriendlyName" xml:space="preserve">
+    <value>FTP file</value>
+  </data>
+  <data name="FtpFileObject_FriendlyNamePlural" xml:space="preserve">
+    <value>FTP files</value>
+  </data>
+  <data name="FtpFilesToSync_All_FriendlyName" xml:space="preserve">
+    <value>All files</value>
+  </data>
+  <data name="FtpFilesToSync_ExcludeFilter_FriendlyName" xml:space="preserve">
+    <value>Only files not matching the file filter</value>
+  </data>
+  <data name="FtpFilesToSync_IncludeFilter_FriendlyName" xml:space="preserve">
+    <value>Only files matching the file filter</value>
+  </data>
+  <data name="FtpFolderObject_FriendlyName" xml:space="preserve">
+    <value>FTP directory</value>
+  </data>
+  <data name="FtpFolderObject_FriendlyNamePlural" xml:space="preserve">
+    <value>FTP directories</value>
+  </data>
+  <data name="FtpTransferType_Ascii_FriendlyName" xml:space="preserve">
+    <value>ASCII</value>
+  </data>
+  <data name="FtpTransferType_Auto_FriendlyName" xml:space="preserve">
+    <value>Auto</value>
+  </data>
+  <data name="FtpTransferType_Binary_FriendlyName" xml:space="preserve">
+    <value>Binary</value>
+  </data>
+  <data name="FTP_Description" xml:space="preserve">
+    <value>Manage files and folders on an FTP server</value>
+  </data>
+  <data name="FTP_FriendlyName" xml:space="preserve">
+    <value>FTP</value>
+  </data>
+  <data name="IfFtpFileExists_Overwrite_FriendlyName" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="IfFtpFileExists_Skip_FriendlyName" xml:space="preserve">
+    <value>Don't download</value>
+  </data>
+  <data name="IfFtpFileExists_TransferWithUniqueName_FriendlyName" xml:space="preserve">
+    <value>Download with unique name</value>
+  </data>
+  <data name="InvokeCommand_Command_Description" xml:space="preserve">
+    <value>The command to run along with any arguments. For example, you could run FEAT, or CHMOD here</value>
+  </data>
+  <data name="InvokeCommand_Command_FriendlyName" xml:space="preserve">
+    <value>FTP command</value>
+  </data>
+  <data name="InvokeCommand_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an open FTP connection action</value>
+  </data>
+  <data name="InvokeCommand_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="InvokeCommand_Description" xml:space="preserve">
+    <value>Invokes the given literal FTP command on the server</value>
+  </data>
+  <data name="InvokeCommand_FriendlyName" xml:space="preserve">
+    <value>Invoke FTP command</value>
+  </data>
+  <data name="InvokeCommand_ReplyCode_Description" xml:space="preserve">
+    <value>The actual code that was returned. Only applies over simple FTP or FTPS connections</value>
+  </data>
+  <data name="InvokeCommand_ReplyCode_FriendlyName" xml:space="preserve">
+    <value>Store reply code into</value>
+  </data>
+  <data name="InvokeCommand_ReplyText_Description" xml:space="preserve">
+    <value>The text returned by the FTP server</value>
+  </data>
+  <data name="InvokeCommand_ReplyText_FriendlyName" xml:space="preserve">
+    <value>Store reply text into</value>
+  </data>
+  <data name="InvokeCommand_Summary" xml:space="preserve">
+    <value>Invoke the command &lt;COMMAND&gt; on the FTP server</value>
+    <comment>{Locked="&lt;COMMAND&gt;"}</comment>
+  </data>
+  <data name="InvokeCommand_ValidReplyCodes_Description" xml:space="preserve">
+    <value>The code(s) that could be returned by the command, separated by semi-colon. If the FTP command returns a code that wasn't entered here, this action will throw an exception. Only applies over simple FTP or FTPS connections</value>
+  </data>
+  <data name="InvokeCommand_ValidReplyCodes_FriendlyName" xml:space="preserve">
+    <value>Valid reply code(s)</value>
+  </data>
+  <data name="ListDirectory_Connection_Description" xml:space="preserve">
+    <value>The FTP connection</value>
+  </data>
+  <data name="ListDirectory_Connection_FriendlyName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="ListDirectory_Description" xml:space="preserve">
+    <value>This action returns the subdirectories and files contained in the current directory of an FTP connection</value>
+  </data>
+  <data name="ListDirectory_Directories_Description" xml:space="preserve">
+    <value>The listed directories</value>
+  </data>
+  <data name="ListDirectory_Directories_FriendlyName" xml:space="preserve">
+    <value>Directories</value>
+  </data>
+  <data name="ListDirectory_Files_Description" xml:space="preserve">
+    <value>The listed files</value>
+  </data>
+  <data name="ListDirectory_Files_FriendlyName" xml:space="preserve">
+    <value>Files</value>
+  </data>
+  <data name="ListDirectory_FriendlyName" xml:space="preserve">
+    <value>List FTP directory</value>
+  </data>
+  <data name="ListDirectory_Path_Description" xml:space="preserve">
+    <value>The path that you want to list.</value>
+  </data>
+  <data name="ListDirectory_Path_FriendlyName" xml:space="preserve">
+    <value>Path</value>
+  </data>
+  <data name="ListDirectory_Summary" xml:space="preserve">
+    <value>List directories in &lt;PATH&gt;</value>
+    <comment>{Locked="&lt;PATH&gt;"}</comment>
+  </data>
+  <data name="OpenConnection_ActiveMode_Description" xml:space="preserve">
+    <value>Specify the mode of the connection</value>
+  </data>
+  <data name="OpenConnection_ActiveMode_FriendlyName" xml:space="preserve">
+    <value>Active mode</value>
+  </data>
+  <data name="OpenConnection_Connection_Description" xml:space="preserve">
+    <value>The FTP connection</value>
+  </data>
+  <data name="OpenConnection_Connection_FriendlyName" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="OpenConnection_Description" xml:space="preserve">
+    <value>This action establishes a specific connection to a remote FTP server, and stores that connection as a variable for later use.</value>
+  </data>
+  <data name="OpenConnection_FriendlyName" xml:space="preserve">
+    <value>Open FTP connection</value>
+  </data>
+  <data name="OpenConnection_Host_Description" xml:space="preserve">
+    <value>Enter the FTP server address here.</value>
+  </data>
+  <data name="OpenConnection_Host_FriendlyName" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="OpenConnection_Password_Description" xml:space="preserve">
+    <value>Specify the password of the FTP account to use</value>
+  </data>
+  <data name="OpenConnection_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="OpenConnection_Port_Description" xml:space="preserve">
+    <value>Enter the FTP server port here.</value>
+  </data>
+  <data name="OpenConnection_Port_FriendlyName" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="OpenConnection_Summary" xml:space="preserve">
+    <value>Open FTP connection on: &lt;HOST&gt;:&lt;PORT&gt;</value>
+    <comment>{Locked="&lt;HOST&gt;"}{Locked="&lt;PORT&gt;"}</comment>
+  </data>
+  <data name="OpenConnection_Timeout_Description" xml:space="preserve">
+    <value>Set the time in seconds that you want to wait for the connection to be established before the action fails</value>
+  </data>
+  <data name="OpenConnection_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="OpenConnection_Username_Description" xml:space="preserve">
+    <value>Specify the username of the FTP account to use</value>
+  </data>
+  <data name="OpenConnection_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="OpenSecureConnection_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="OpenSecureConnection_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept Untrusted Certificates</value>
+  </data>
+  <data name="OpenSecureConnection_ActiveMode_Description" xml:space="preserve">
+    <value>Specify the mode of the connection</value>
+  </data>
+  <data name="OpenSecureConnection_ActiveMode_FriendlyName" xml:space="preserve">
+    <value>Active mode</value>
+  </data>
+  <data name="OpenSecureConnection_AuthenticationMethod_Description" xml:space="preserve">
+    <value>Choose the method you wish to use to authenticate yourself on the FTP server</value>
+  </data>
+  <data name="OpenSecureConnection_AuthenticationMethod_FriendlyName" xml:space="preserve">
+    <value>Authentication method</value>
+  </data>
+  <data name="OpenSecureConnection_Description" xml:space="preserve">
+    <value>This action establishes a specific secure connection to a remote FTP server, and stores that connection as a variable for later use</value>
+  </data>
+  <data name="OpenSecureConnection_FriendlyName" xml:space="preserve">
+    <value>Open secure FTP connection</value>
+  </data>
+  <data name="OpenSecureConnection_Host_Description" xml:space="preserve">
+    <value>Enter the FTP server address here.</value>
+  </data>
+  <data name="OpenSecureConnection_Host_FriendlyName" xml:space="preserve">
+    <value>Host</value>
+  </data>
+  <data name="OpenSecureConnection_Password_Description" xml:space="preserve">
+    <value>Specify the password of the FTP account you wish to use</value>
+  </data>
+  <data name="OpenSecureConnection_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="OpenSecureConnection_PathToPrivateKey_Description" xml:space="preserve">
+    <value>Enter the file path to the private-key to be used for authentication</value>
+  </data>
+  <data name="OpenSecureConnection_PathToPrivateKey_FriendlyName" xml:space="preserve">
+    <value>Path to private key</value>
+  </data>
+  <data name="OpenSecureConnection_Port_Description" xml:space="preserve">
+    <value>Enter the FTP server port here.</value>
+  </data>
+  <data name="OpenSecureConnection_Port_FriendlyName" xml:space="preserve">
+    <value>Port</value>
+  </data>
+  <data name="OpenSecureConnection_PrivateKeyPassPhrase_Description" xml:space="preserve">
+    <value>Enter a variable containing the private-key pass phrase here</value>
+  </data>
+  <data name="OpenSecureConnection_PrivateKeyPassPhrase_FriendlyName" xml:space="preserve">
+    <value>Private key pass phrase</value>
+  </data>
+  <data name="OpenSecureConnection_SecureFtpProtocol_Description" xml:space="preserve">
+    <value>Choose the FTP protocol you wish to use to encrypt your connection</value>
+  </data>
+  <data name="OpenSecureConnection_SecureFtpProtocol_FriendlyName" xml:space="preserve">
+    <value>Secure FTP Protocol</value>
+  </data>
+  <data name="OpenSecureConnection_SftpConnection_Description" xml:space="preserve">
+    <value>SFTP connection</value>
+  </data>
+  <data name="OpenSecureConnection_SftpConnection_FriendlyName" xml:space="preserve">
+    <value>SFTP connection</value>
+  </data>
+  <data name="OpenSecureConnection_Summary" xml:space="preserve">
+    <value>Open an SFTP connection on: &lt;HOST&gt;:&lt;PORT&gt;</value>
+    <comment>{Locked="&lt;HOST&gt;"}{Locked="&lt;PORT&gt;"}</comment>
+  </data>
+  <data name="OpenSecureConnection_Timeout_Description" xml:space="preserve">
+    <value>Set the time in seconds to wait for the connection to be established before the action fails</value>
+  </data>
+  <data name="OpenSecureConnection_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="OpenSecureConnection_Username_Description" xml:space="preserve">
+    <value>Specify the username of the FTP account to use</value>
+  </data>
+  <data name="OpenSecureConnection_Username_FriendlyName" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="RenameFile_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="RenameFile_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="RenameFile_Description" xml:space="preserve">
+    <value>Renames a file that resides on an FTP server</value>
+  </data>
+  <data name="RenameFile_FileToRename_Description" xml:space="preserve">
+    <value>The file to rename</value>
+  </data>
+  <data name="RenameFile_FileToRename_FriendlyName" xml:space="preserve">
+    <value>File to rename</value>
+  </data>
+  <data name="RenameFile_FriendlyName" xml:space="preserve">
+    <value>Rename FTP File</value>
+  </data>
+  <data name="RenameFile_NewFileName_Description" xml:space="preserve">
+    <value>The new name for the file. Enter a name with a path to move the file to that location. If the location doesn't exist, the action will throw an exception</value>
+  </data>
+  <data name="RenameFile_NewFileName_FriendlyName" xml:space="preserve">
+    <value>New file name</value>
+  </data>
+  <data name="RenameFile_Summary" xml:space="preserve">
+    <value>Change the name of the FTP file &lt;FILETORENAME&gt; to &lt;NEWFILENAME&gt;</value>
+    <comment>{Locked="&lt;FILETORENAME&gt;"}{Locked="&lt;NEWFILENAME&gt;"}</comment>
+  </data>
+  <data name="SecureFtpProtocol_FTPSExplicit_FriendlyName" xml:space="preserve">
+    <value>FTPS explicit</value>
+  </data>
+  <data name="SecureFtpProtocol_FTPSImplicit_FriendlyName" xml:space="preserve">
+    <value>FTPS implicit</value>
+  </data>
+  <data name="SecureFtpProtocol_SFTP_FriendlyName" xml:space="preserve">
+    <value>SFTP</value>
+  </data>
+  <data name="SynchronizationDirection_Download_FriendlyName" xml:space="preserve">
+    <value>Remote -&gt; local (Download)</value>
+  </data>
+  <data name="SynchronizationDirection_Upload_FriendlyName" xml:space="preserve">
+    <value>Local -&gt; remote (Upload)</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_DeleteIfSourceAbsent_Description" xml:space="preserve">
+    <value>This option will delete a file or folder which exists in the target directory and not the source.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_DeleteIfSourceAbsent_FriendlyName" xml:space="preserve">
+    <value>Delete if source is absent</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_Description" xml:space="preserve">
+    <value>Synchronize the files and subdirectories of a given Folder with a given remote FTP directory</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FileFilter_Description" xml:space="preserve">
+    <value>Filename pattern that controls which files will be included or excluded. This option allows wildcards such as "*.txt" , "document?.doc". The option also allows for multiple filters by using coma as a separator, "*.txt,*.pdf,document?"</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FileFilter_FriendlyName" xml:space="preserve">
+    <value>File filter</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesAdded_Description" xml:space="preserve">
+    <value>List of files that initially existed in the source and after the synchronization process were added to the target.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesAdded_FriendlyName" xml:space="preserve">
+    <value>Files added</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesDeleted_Description" xml:space="preserve">
+    <value>List of files that initially existed in the target directory and after the synchronization process were deleted.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesDeleted_FriendlyName" xml:space="preserve">
+    <value>Files deleted</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesModified_Description" xml:space="preserve">
+    <value>List of files that initially existed in both the source and the target and after the synchronization process were added to the target.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesModified_FriendlyName" xml:space="preserve">
+    <value>Files modified</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesToSync_Description" xml:space="preserve">
+    <value>Choose whether you want to synchronize all files, or you want to use a file filter to include or exclude a specific set of files</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FilesToSync_FriendlyName" xml:space="preserve">
+    <value>Files to sync</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FriendlyName" xml:space="preserve">
+    <value>Synchronize directories</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpDirectory_Description" xml:space="preserve">
+    <value>Name of the FTP directory to be synchronized</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpDirectory_FriendlyName" xml:space="preserve">
+    <value>FTP directory</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpFilesAdded_Description" xml:space="preserve">
+    <value>List of FTP files that initially existed in the source and after the synchronization process were added to the target.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpFilesAdded_FriendlyName" xml:space="preserve">
+    <value>FTP files added</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpFilesDeleted_Description" xml:space="preserve">
+    <value>List of FTP files that initially existed in the target directory and after the synchronization process were deleted.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpFilesDeleted_FriendlyName" xml:space="preserve">
+    <value>FTP files deleted</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpFilesModified_Description" xml:space="preserve">
+    <value>List of FTP files that initially existed in both the source and the target and after the synchronization process were added to the target.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_FtpFilesModified_FriendlyName" xml:space="preserve">
+    <value>FTP files modified</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_IncludeSubdirectories_Description" xml:space="preserve">
+    <value>This option will include subdirectories in the synchronization process.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_IncludeSubdirectories_FriendlyName" xml:space="preserve">
+    <value>Include subdirectories</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_LocalFolder_Description" xml:space="preserve">
+    <value>Name of the local folder to be synchronized</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_LocalFolder_FriendlyName" xml:space="preserve">
+    <value>Local folder</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_Summary" xml:space="preserve">
+    <value>Synchronize Target directory &lt;LOCALFOLDER&gt; with source &lt;REMOTEDIRECTORY&gt; or source &lt;LOCALFOLDER&gt; with target &lt;REMOTEDIRECTORY&gt;</value>
+    <comment>{Locked="&lt;LOCALFOLDER&gt;"}{Locked="&lt;REMOTEDIRECTORY&gt;"}</comment>
+  </data>
+  <data name="SynchronizeDirectoryAction_SynchronizationDirection_Description" xml:space="preserve">
+    <value>Direction of the Synchronization method. Whether the local folder will be synchronized to the remote directory (DOWNLOAD) or the remote directory will be synchronized to the local folder (UPLOAD)</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_SynchronizationDirection_FriendlyName" xml:space="preserve">
+    <value>Synchronization direction</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_TimeDifferenceAhead_Description" xml:space="preserve">
+    <value>Specify whether the server's time zone is ahead or not.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_TimeDifferenceAhead_FriendlyName" xml:space="preserve">
+    <value>Time difference ahead</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_TimeDifferenceHours_Description" xml:space="preserve">
+    <value>Time difference in hours of the remote server in case it operates on a different Time Zone.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_TimeDifferenceHours_FriendlyName" xml:space="preserve">
+    <value>Time difference in hours</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_TimeDifferenceMinutes_Description" xml:space="preserve">
+    <value>Time difference in minutes of the remote server in case it operates on a different Time Zone.</value>
+  </data>
+  <data name="SynchronizeDirectoryAction_TimeDifferenceMinutes_FriendlyName" xml:space="preserve">
+    <value>Time difference in minutes</value>
+  </data>
+  <data name="SynchronizeDownload_Description" xml:space="preserve">
+    <value>Synchronize download</value>
+  </data>
+  <data name="SynchronizeDownload_Summary" xml:space="preserve">
+    <value>The local folder will be synchronized to the remote directory.</value>
+  </data>
+  <data name="SynchronizeUpload_Description" xml:space="preserve">
+    <value>Synchronize upload</value>
+  </data>
+  <data name="SynchronizeUpload_Summary" xml:space="preserve">
+    <value>The remote directory will be synchronized to the local folder.</value>
+  </data>
+  <data name="UploadFiles_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="UploadFiles_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="UploadFiles_Description" xml:space="preserve">
+    <value>Uploads one or more files to an FTP server</value>
+  </data>
+  <data name="UploadFiles_Files_Description" xml:space="preserve">
+    <value>The file(s) to upload</value>
+  </data>
+  <data name="UploadFiles_Files_FriendlyName" xml:space="preserve">
+    <value>File(s) to upload</value>
+  </data>
+  <data name="UploadFiles_FriendlyName" xml:space="preserve">
+    <value>Upload File(s) to FTP</value>
+  </data>
+  <data name="UploadFiles_IfFileExists_Description" xml:space="preserve">
+    <value>Specify what to do if the file already exists. Overwrite the original file or download with unique name to add an underscore and a sequential number to the end</value>
+  </data>
+  <data name="UploadFiles_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="UploadFiles_RemoteLocation_Description" xml:space="preserve">
+    <value>The location where the files should be uploaded</value>
+  </data>
+  <data name="UploadFiles_RemoteLocation_FriendlyName" xml:space="preserve">
+    <value>Remote location</value>
+  </data>
+  <data name="UploadFiles_Summary" xml:space="preserve">
+    <value>Upload the file(s) &lt;FILES&gt;</value>
+    <comment>{Locked="&lt;FILES&gt;"}</comment>
+  </data>
+  <data name="UploadFiles_TransferType_Description" xml:space="preserve">
+    <value>Enter ASCII or binary to specify the method for downloading a single file. If you're not sure what type the file will be, or if you are downloading more than one, choose Auto to follow the transfer rules specified in Options</value>
+  </data>
+  <data name="UploadFiles_TransferType_FriendlyName" xml:space="preserve">
+    <value>Transfer type</value>
+  </data>
+  <data name="UploadFolders_Connection_Description" xml:space="preserve">
+    <value>The FTP connection to work with. This variable must have been previously specified in an Open FTP connection action</value>
+  </data>
+  <data name="UploadFolders_Connection_FriendlyName" xml:space="preserve">
+    <value>FTP connection</value>
+  </data>
+  <data name="UploadFolders_Description" xml:space="preserve">
+    <value>Uploads one or more folders to an FTP server</value>
+  </data>
+  <data name="UploadFolders_Folders_Description" xml:space="preserve">
+    <value>The folder(s) to upload. The folders being uploaded should not already exist within the active directory of the FTP server</value>
+  </data>
+  <data name="UploadFolders_Folders_FriendlyName" xml:space="preserve">
+    <value>Folder(s) to upload</value>
+  </data>
+  <data name="UploadFolders_FriendlyName" xml:space="preserve">
+    <value>Upload folder(s) to FTP</value>
+  </data>
+  <data name="UploadFolders_RemoteLocation_Description" xml:space="preserve">
+    <value>The location where the folders should be uploaded</value>
+  </data>
+  <data name="UploadFolders_RemoteLocation_FriendlyName" xml:space="preserve">
+    <value>Remote location</value>
+  </data>
+  <data name="UploadFolders_Summary" xml:space="preserve">
+    <value>Upload the folder(s) &lt;FOLDERS&gt;</value>
+    <comment>{Locked="&lt;FOLDERS&gt;"}</comment>
+  </data>
+</root>

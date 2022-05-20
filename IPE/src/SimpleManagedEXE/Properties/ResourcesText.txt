@@ -1,0 +1,7 @@
+# GreetingResources.txt
+# A resource file in text format for a "Hello World" application.
+#
+# Initial prompt to the user.
+prompt=Enter your name:
+# Format string to display the result.
+greeting=Hello, {0}!

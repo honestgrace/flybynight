@@ -1,0 +1,640 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Download_Description" xml:space="preserve">
+    <value>Downloads text from the web and stores it</value>
+  </data>
+  <data name="Download_Summary" xml:space="preserve">
+    <value>Download text from &lt;URL&gt; and store it into &lt;WEBPAGETEXT&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;WEBPAGETEXT&gt;"}</comment>
+  </data>
+  <data name="DownloadFromWeb_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="DownloadFromWeb_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept untrusted certificates</value>
+  </data>
+  <data name="DownloadFromWeb_ClearCookies_Description" xml:space="preserve">
+    <value>Specify whether to clear all cookies created by similar actions during this flow</value>
+  </data>
+  <data name="DownloadFromWeb_ClearCookies_FriendlyName" xml:space="preserve">
+    <value>Clear cookies</value>
+  </data>
+  <data name="DownloadFromWeb_ConnectionTimeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server</value>
+  </data>
+  <data name="DownloadFromWeb_ConnectionTimeout_FriendlyName" xml:space="preserve">
+    <value>Connection timeout</value>
+  </data>
+  <data name="DownloadFromWeb_Description" xml:space="preserve">
+    <value>Downloads text or a file from the web and stores it</value>
+  </data>
+  <data name="DownloadFromWeb_DestinationFolder_Description" xml:space="preserve">
+    <value>The folder where the file returned from the web server will be saved</value>
+  </data>
+  <data name="DownloadFromWeb_DestinationFolder_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="DownloadFromWeb_DownloadedFile_Description" xml:space="preserve">
+    <value>The downloaded file</value>
+  </data>
+  <data name="DownloadFromWeb_DownloadedFile_FriendlyName" xml:space="preserve">
+    <value>Downloaded file</value>
+  </data>
+  <data name="DownloadFromWeb_Encoding_Description" xml:space="preserve">
+    <value>The encoding used for the web page. If the Auto-detect option is chosen, the encoding will be specified by the web server</value>
+  </data>
+  <data name="DownloadFromWeb_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="DownloadFromWeb_FileName_Description" xml:space="preserve">
+    <value>Specify whether to keep the original file name of the downloaded file or specify a new name</value>
+  </data>
+  <data name="DownloadFromWeb_FileName_FriendlyName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="DownloadFromWeb_FilePath_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) where the file returned by the web server will be stored</value>
+  </data>
+  <data name="DownloadFromWeb_FilePath_FriendlyName" xml:space="preserve">
+    <value>Destination file path</value>
+  </data>
+  <data name="DownloadFromWeb_FollowRedirection_Description" xml:space="preserve">
+    <value>Specify whether to allow the web server to redirect you to another web page or website</value>
+  </data>
+  <data name="DownloadFromWeb_FollowRedirection_FriendlyName" xml:space="preserve">
+    <value>Follow redirection</value>
+  </data>
+  <data name="DownloadFromWeb_FriendlyName" xml:space="preserve">
+    <value>Download from web</value>
+  </data>
+  <data name="DownloadFromWeb_Method_Description" xml:space="preserve">
+    <value>Specify how to retrieve a website's information. GET should be used when all the necessary information is in the URL, and POST to enter more information (passwords, etc)</value>
+  </data>
+  <data name="DownloadFromWeb_Method_FriendlyName" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="DownloadFromWeb_Parameters_Description" xml:space="preserve">
+    <value>The POST parameters in the form of a datatable with two columns</value>
+  </data>
+  <data name="DownloadFromWeb_Parameters_FriendlyName" xml:space="preserve">
+    <value>Post parameters</value>
+  </data>
+  <data name="DownloadFromWeb_Password_Description" xml:space="preserve">
+    <value>The password for the web server</value>
+  </data>
+  <data name="DownloadFromWeb_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="DownloadFromWeb_SaveResponse_Description" xml:space="preserve">
+    <value>Specify how the returned data will be saved</value>
+  </data>
+  <data name="DownloadFromWeb_SaveResponse_FriendlyName" xml:space="preserve">
+    <value>Save response</value>
+  </data>
+  <data name="DownloadFromWeb_Url_Description" xml:space="preserve">
+    <value>The web page or file's URL</value>
+  </data>
+  <data name="DownloadFromWeb_Url_FriendlyName" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="DownloadFromWeb_UseCredentials_Description" xml:space="preserve">
+    <value>Specify whether the web server requires HTTP authentication (that is, when the browser displays a popup window asking for a username and password)</value>
+  </data>
+  <data name="DownloadFromWeb_UseCredentials_FriendlyName" xml:space="preserve">
+    <value>Use credentials</value>
+  </data>
+  <data name="DownloadFromWeb_UserAgent_Description" xml:space="preserve">
+    <value>Specify which browser identity to be seen as. Some web servers will not allow access unless a certain browser identity is chosen</value>
+  </data>
+  <data name="DownloadFromWeb_UserAgent_FriendlyName" xml:space="preserve">
+    <value>User agent</value>
+  </data>
+  <data name="DownloadFromWeb_UserName_Description" xml:space="preserve">
+    <value>The user name for the web server</value>
+  </data>
+  <data name="DownloadFromWeb_UserName_FriendlyName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="DownloadFromWeb_UseSSL_Description" xml:space="preserve">
+    <value>Use SSL</value>
+  </data>
+  <data name="DownloadFromWeb_UseSSL_FriendlyName" xml:space="preserve">
+    <value>Use SSL</value>
+  </data>
+  <data name="DownloadFromWeb_WebPageText_Description" xml:space="preserve">
+    <value>The web page text</value>
+  </data>
+  <data name="DownloadFromWeb_WebPageText_FriendlyName" xml:space="preserve">
+    <value>Web page text</value>
+  </data>
+  <data name="DownloadMethod_Get_FriendlyName" xml:space="preserve">
+    <value>GET</value>
+  </data>
+  <data name="DownloadMethod_Post_FriendlyName" xml:space="preserve">
+    <value>POST</value>
+  </data>
+  <data name="DownloadToFile_Description" xml:space="preserve">
+    <value>Downloads a file from the web and stores it</value>
+  </data>
+  <data name="DownloadToFile_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;FILEPATH&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;FILEPATH&gt;"}</comment>
+  </data>
+  <data name="DownloadToFileUseAuth_Description" xml:space="preserve">
+    <value>Downloads a file from the web using authentication and stores it</value>
+  </data>
+  <data name="DownloadToFileUseAuth_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;FILEPATH&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;FILEPATH&gt;"}</comment>
+  </data>
+  <data name="DownloadToFileUsePost_Description" xml:space="preserve">
+    <value>Downloads a file from the web using a POST web request and stores it</value>
+  </data>
+  <data name="DownloadToFileUsePost_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;FILEPATH&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;FILEPATH&gt;"}</comment>
+  </data>
+  <data name="DownloadToFileUsePostAndAuth_Description" xml:space="preserve">
+    <value>Downloads a file from the web using a POST web request and authentication, and stores it</value>
+  </data>
+  <data name="DownloadToFileUsePostAndAuth_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;FILEPATH&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;FILEPATH&gt;"}</comment>
+  </data>
+  <data name="DownloadToFolder_Description" xml:space="preserve">
+    <value>Downloads a file from the web and stores it using its original file name</value>
+  </data>
+  <data name="DownloadToFolder_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="DownloadToFolderUseAuth_Description" xml:space="preserve">
+    <value>Downloads a file from the web using authentication and stores it using its original file name</value>
+  </data>
+  <data name="DownloadToFolderUseAuth_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="DownloadToFolderUsePost_Description" xml:space="preserve">
+    <value>Downloads a file from the web using a POST web request and stores it using its original file name</value>
+  </data>
+  <data name="DownloadToFolderUsePost_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="DownloadToFolderUsePostAndAuth_Description" xml:space="preserve">
+    <value>Downloads a file from the web using a POST web request and authentication, and stores it using its original file name</value>
+  </data>
+  <data name="DownloadToFolderUsePostAndAuth_Summary" xml:space="preserve">
+    <value>Download file from &lt;URL&gt; and save it into &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="DownloadUseAuth_Description" xml:space="preserve">
+    <value>Downloads text from the web using authentication and stores it</value>
+  </data>
+  <data name="DownloadUseAuth_Summary" xml:space="preserve">
+    <value>Download text from &lt;URL&gt; and store it into &lt;WEBPAGETEXT&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;WEBPAGETEXT&gt;"}</comment>
+  </data>
+  <data name="DownloadUsePost_Description" xml:space="preserve">
+    <value>Downloads text from the web using a POST web request and stores it</value>
+  </data>
+  <data name="DownloadUsePost_Summary" xml:space="preserve">
+    <value>Download text from &lt;URL&gt; and store it into &lt;WEBPAGETEXT&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;WEBPAGETEXT&gt;"}</comment>
+  </data>
+  <data name="DownloadUsePostAndAuth_Description" xml:space="preserve">
+    <value>Downloads text from the web using a POST web request and authentication, and stores it</value>
+  </data>
+  <data name="DownloadUsePostAndAuth_Summary" xml:space="preserve">
+    <value>Download text from &lt;URL&gt; and store it into &lt;WEBPAGETEXT&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;WEBPAGETEXT&gt;"}</comment>
+  </data>
+  <data name="Error_DirectoryDoesNotExistError_Description" xml:space="preserve">
+    <value>Indicates that a required directory doesn't exist</value>
+  </data>
+  <data name="Error_DirectoryDoesNotExistError_FriendlyName" xml:space="preserve">
+    <value>Directory doesn't exist</value>
+  </data>
+  <data name="Error_DownloadFromWebError_Description" xml:space="preserve">
+    <value>Indicates a problem downloading from web</value>
+  </data>
+  <data name="Error_DownloadFromWebError_FriendlyName" xml:space="preserve">
+    <value>Download from web error</value>
+  </data>
+  <data name="Error_InvalidCustomHeaderError_Description" xml:space="preserve">
+    <value>Indicates that some custom headers were invalid</value>
+  </data>
+  <data name="Error_InvalidCustomHeaderError_FriendlyName" xml:space="preserve">
+    <value>Invalid header in custom headers</value>
+  </data>
+  <data name="Error_InvokeWebServiceError_Description" xml:space="preserve">
+    <value>Indicates a problem invoking the web service</value>
+  </data>
+  <data name="Error_InvokeWebServiceError_FriendlyName" xml:space="preserve">
+    <value>Invoke web service error</value>
+  </data>
+  <data name="FileName_KeepOriginal_FriendlyName" xml:space="preserve">
+    <value>Keep original file name (specify only destination folder)</value>
+  </data>
+  <data name="FileName_SpecifyFullPath_FriendlyName" xml:space="preserve">
+    <value>Specify full path (destination folder + custom file name)</value>
+  </data>
+  <data name="InvokeWebService_Description" xml:space="preserve">
+    <value>Invokes a web service and stores the response text</value>
+  </data>
+  <data name="InvokeWebService_Summary" xml:space="preserve">
+    <value>Invoke web service in page &lt;URL&gt; and store the response into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="InvokeWebServiceBase_Accept_Description" xml:space="preserve">
+    <value>The acceptable content type for the response of the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_Accept_FriendlyName" xml:space="preserve">
+    <value>Accept</value>
+  </data>
+  <data name="InvokeWebServiceBase_AcceptUntrustedCertificates_Description" xml:space="preserve">
+    <value>Specify whether untrusted certificates will be accepted</value>
+  </data>
+  <data name="InvokeWebServiceBase_AcceptUntrustedCertificates_FriendlyName" xml:space="preserve">
+    <value>Accept untrusted certificates</value>
+  </data>
+  <data name="InvokeWebServiceBase_ClearCookies_Description" xml:space="preserve">
+    <value>Specify whether to clear all cookies previously created by similar actions during this flow</value>
+  </data>
+  <data name="InvokeWebServiceBase_ClearCookies_FriendlyName" xml:space="preserve">
+    <value>Clear cookies</value>
+  </data>
+  <data name="InvokeWebServiceBase_ConnectionTimeout_Description" xml:space="preserve">
+    <value>The time (in seconds) that the agent should wait for a connection to be established with the server</value>
+  </data>
+  <data name="InvokeWebServiceBase_ConnectionTimeout_FriendlyName" xml:space="preserve">
+    <value>Connection timeout</value>
+  </data>
+  <data name="InvokeWebServiceBase_ContentType_Description" xml:space="preserve">
+    <value>The content type of the request that will be sent to the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_ContentType_FriendlyName" xml:space="preserve">
+    <value>Content type</value>
+  </data>
+  <data name="InvokeWebServiceBase_CustomHeaders_Description" xml:space="preserve">
+    <value>The custom headers to be included in the request that will be sent to the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_CustomHeaders_FriendlyName" xml:space="preserve">
+    <value>Custom headers</value>
+  </data>
+  <data name="InvokeWebServiceBase_Description" xml:space="preserve">
+    <value>Invokes a web service by sending data and retrieves the response from the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_DestinationFolder_Description" xml:space="preserve">
+    <value>The folder where the file returned by the web service will be saved</value>
+  </data>
+  <data name="InvokeWebServiceBase_DestinationFolder_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="InvokeWebServiceBase_DownloadedFile_Description" xml:space="preserve">
+    <value>The downloaded file</value>
+  </data>
+  <data name="InvokeWebServiceBase_DownloadedFile_FriendlyName" xml:space="preserve">
+    <value>Downloaded file</value>
+  </data>
+  <data name="InvokeWebServiceBase_EncodeRequestBody_Description" xml:space="preserve">
+    <value>Specify whether the body of request should be URL-encoded before invoking</value>
+  </data>
+  <data name="InvokeWebServiceBase_EncodeRequestBody_FriendlyName" xml:space="preserve">
+    <value>Encode request body</value>
+  </data>
+  <data name="InvokeWebServiceBase_Encoding_Description" xml:space="preserve">
+    <value>The encoding used for the web service response. If the auto-detect option is chosen, the encoding will be specified by the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_Encoding_FriendlyName" xml:space="preserve">
+    <value>Encoding</value>
+  </data>
+  <data name="Encoding_AutoDetect_FriendlyName" xml:space="preserve">
+    <value>Auto - detect</value>
+  </data>
+  <data name="InvokeWebServiceBase_FailOnErrorStatus_Description" xml:space="preserve">
+    <value>Specify whether the responses of the invoked web service that denote errors will be processed as if they were normal responses (suppressing all exceptions), or will result in the related exceptions</value>
+  </data>
+  <data name="InvokeWebServiceBase_FailOnErrorStatus_FriendlyName" xml:space="preserve">
+    <value>Fail on error status</value>
+  </data>
+  <data name="InvokeWebServiceBase_FileName_Description" xml:space="preserve">
+    <value>Specify whether to keep the original file name of the downloaded file or specify a new name</value>
+  </data>
+  <data name="InvokeWebServiceBase_FileName_FriendlyName" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="InvokeWebServiceBase_FilePath_Description" xml:space="preserve">
+    <value>The full path (folder plus filename) where the file returned by the web service will be stored</value>
+  </data>
+  <data name="InvokeWebServiceBase_FilePath_FriendlyName" xml:space="preserve">
+    <value>Destination file path</value>
+  </data>
+  <data name="InvokeWebServiceBase_FollowRedirection_Description" xml:space="preserve">
+    <value>Specify whether to allow the web server to redirect you to another web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_FollowRedirection_FriendlyName" xml:space="preserve">
+    <value>Follow redirection</value>
+  </data>
+  <data name="InvokeWebServiceBase_FriendlyName" xml:space="preserve">
+    <value>Invoke web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_Method_Description" xml:space="preserve">
+    <value>The HTTP method to be used to invoke the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_Method_FriendlyName" xml:space="preserve">
+    <value>Method</value>
+  </data>
+  <data name="InvokeWebServiceBase_Password_Description" xml:space="preserve">
+    <value>The password for the web server</value>
+  </data>
+  <data name="InvokeWebServiceBase_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="InvokeWebServiceBase_RequestBody_Description" xml:space="preserve">
+    <value>The body of the request that will be sent to the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_RequestBody_FriendlyName" xml:space="preserve">
+    <value>Request body</value>
+  </data>
+  <data name="InvokeWebServiceBase_Response_Description" xml:space="preserve">
+    <value>The web service response text</value>
+  </data>
+  <data name="InvokeWebServiceBase_Response_FriendlyName" xml:space="preserve">
+    <value>Web service response</value>
+  </data>
+  <data name="InvokeWebServiceBase_ResponseHeaders_Description" xml:space="preserve">
+    <value>The HTTP headers of the response</value>
+  </data>
+  <data name="InvokeWebServiceBase_ResponseHeaders_FriendlyName" xml:space="preserve">
+    <value>Headers</value>
+  </data>
+  <data name="InvokeWebServiceBase_SaveResponse_Description" xml:space="preserve">
+    <value>Specify how the returned data will be saved</value>
+  </data>
+  <data name="InvokeWebServiceBase_SaveResponse_FriendlyName" xml:space="preserve">
+    <value>Save response</value>
+  </data>
+  <data name="InvokeWebServiceBase_StatusCode_Description" xml:space="preserve">
+    <value>The status code returned</value>
+  </data>
+  <data name="InvokeWebServiceBase_StatusCode_FriendlyName" xml:space="preserve">
+    <value>Status code</value>
+  </data>
+  <data name="InvokeWebServiceBase_Url_Description" xml:space="preserve">
+    <value>The URL of the web service</value>
+  </data>
+  <data name="InvokeWebServiceBase_Url_FriendlyName" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="InvokeWebServiceBase_UseAuthentication_Description" xml:space="preserve">
+    <value>Specify whether the web server requires HTTP authentication (that is, when the browser displays a popup window asking for a username and password)</value>
+  </data>
+  <data name="InvokeWebServiceBase_UseAuthentication_FriendlyName" xml:space="preserve">
+    <value>HTTP Authentication</value>
+  </data>
+  <data name="InvokeWebServiceBase_UserAgent_Description" xml:space="preserve">
+    <value>Specify which browser identity to be seen as. Some web servers will not allow access unless a browser identity is chosen</value>
+  </data>
+  <data name="InvokeWebServiceBase_UserAgent_FriendlyName" xml:space="preserve">
+    <value>User agent</value>
+  </data>
+  <data name="InvokeWebServiceBase_UserName_Description" xml:space="preserve">
+    <value>The user name for the web server</value>
+  </data>
+  <data name="InvokeWebServiceBase_UserName_FriendlyName" xml:space="preserve">
+    <value>User name</value>
+  </data>
+  <data name="InvokeWebServiceBase_UseSSL_Description" xml:space="preserve">
+    <value>Use SSL</value>
+  </data>
+  <data name="InvokeWebServiceBase_UseSSL_FriendlyName" xml:space="preserve">
+    <value>Use SSL</value>
+  </data>
+  <data name="InvokeWebServiceSaveToFile_Description" xml:space="preserve">
+    <value>Invokes a web service and stores the response in a file</value>
+  </data>
+  <data name="InvokeWebServiceSaveToFile_Summary" xml:space="preserve">
+    <value>Invoke web service on page &lt;URL&gt; store the response in file &lt;FILEPATH&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;FILEPATH&gt;"}</comment>
+  </data>
+  <data name="InvokeWebServiceSaveToFolder_Description" xml:space="preserve">
+    <value>Invokes a web service and stores the response in a file using the original file name</value>
+  </data>
+  <data name="InvokeWebServiceSaveToFolder_Summary" xml:space="preserve">
+    <value>Invoke web service in page &lt;URL&gt; and store the response in a file in &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="InvokeWebServiceUseAuth_Description" xml:space="preserve">
+    <value>Invokes a web service using authentication and stores the response text</value>
+  </data>
+  <data name="InvokeWebServiceUseAuth_Summary" xml:space="preserve">
+    <value>Invoke web service in page &lt;URL&gt; and store the response into &lt;RESPONSE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;RESPONSE&gt;"}</comment>
+  </data>
+  <data name="InvokeWebServiceUseAuthSaveToFile_Description" xml:space="preserve">
+    <value>Invokes a web service using authentication and stores the response in a file</value>
+  </data>
+  <data name="InvokeWebServiceUseAuthSaveToFile_Summary" xml:space="preserve">
+    <value>Invoke web service in page &lt;URL&gt; and store the response in file &lt;FILEPATH&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;FILEPATH&gt;"}</comment>
+  </data>
+  <data name="InvokeWebServiceUseAuthSaveToFolder_Description" xml:space="preserve">
+    <value>Invokes a web service using authentication and stores the response in a file using the original file name</value>
+  </data>
+  <data name="InvokeWebServiceUseAuthSaveToFolder_Summary" xml:space="preserve">
+    <value>Invoke web service in page &lt;URL&gt; and store the response in a file in &lt;DESTINATIONFOLDER&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;DESTINATIONFOLDER&gt;"}</comment>
+  </data>
+  <data name="Method_Connect_FriendlyName" xml:space="preserve">
+    <value>CONNECT</value>
+  </data>
+  <data name="Method_Delete_FriendlyName" xml:space="preserve">
+    <value>DELETE</value>
+  </data>
+  <data name="Method_Get_FriendlyName" xml:space="preserve">
+    <value>GET</value>
+  </data>
+  <data name="Method_Head_FriendlyName" xml:space="preserve">
+    <value>HEAD</value>
+  </data>
+  <data name="Method_Options_FriendlyName" xml:space="preserve">
+    <value>OPTIONS</value>
+  </data>
+  <data name="Method_Patch_FriendlyName" xml:space="preserve">
+    <value>PATCH</value>
+  </data>
+  <data name="Method_Post_FriendlyName" xml:space="preserve">
+    <value>POST</value>
+  </data>
+  <data name="Method_Put_FriendlyName" xml:space="preserve">
+    <value>PUT</value>
+  </data>
+  <data name="Method_Trace_FriendlyName" xml:space="preserve">
+    <value>TRACE</value>
+  </data>
+  <data name="SaveResponse_ToFile_FriendlyName" xml:space="preserve">
+    <value>Save to disk (for files)</value>
+  </data>
+  <data name="SaveResponse_ToVariable_FriendlyName" xml:space="preserve">
+    <value>Get text into variable (for web pages)</value>
+  </data>
+  <data name="Web_Description" xml:space="preserve">
+    <value>Communicate with web applications and services directly</value>
+  </data>
+  <data name="Web_FriendlyName" xml:space="preserve">
+    <value>Web</value>
+  </data>
+  <data name="ErrorMessage_PostParamsError" xml:space="preserve">
+    <value>Failed to download from web: parameters datatable is invalid, expected 2 columns.</value>
+  </data>
+  <data name="ErrorMessage_DirectoryDoesNotExistError" xml:space="preserve">
+    <value>Directory to save file into doesn't exist.</value>
+  </data>
+  <data name="ErrorMessage_DownloadFromWebError" xml:space="preserve">
+    <value>Failed to download from web: {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvokeWebServiceError" xml:space="preserve">
+    <value>Failed to invoke web service: {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidCustomHeaderError" xml:space="preserve">
+    <value>Invalid content-length in line '{0}' of custom headers.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidCookieError" xml:space="preserve">
+    <value>Invalid cookie '{0}' in line '{1}' of custom headers '{2}'.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="{2}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidifModifiedSinceError" xml:space="preserve">
+    <value>Invalid if-modified-since in line '{0}' of custom headers.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidLineError" xml:space="preserve">
+    <value>Invalid line '{0}' in custom headers.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidlineRangeError" xml:space="preserve">
+    <value>Invalid range in line '{0}' of custom headers.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+</root>

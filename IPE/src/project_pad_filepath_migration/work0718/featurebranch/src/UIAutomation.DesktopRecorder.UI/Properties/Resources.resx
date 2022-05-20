@@ -1,0 +1,908 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!--
+    Microsoft ResX Schema
+
+    Version 2.0
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
+    associated with the data types.
+
+    Example:
+
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+
+    There are any number of "resheader" rows that contain simple
+    name/value pairs.
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
+    mimetype set.
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
+    extensible. For a given mimetype the value must be set accordingly:
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
+    read any of the formats listed below.
+
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Title_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Title_Click_element_in_window" xml:space="preserve">
+    <value>Click element in window</value>
+  </data>
+  <data name="Title_Close_window" xml:space="preserve">
+    <value>Close window</value>
+  </data>
+  <data name="Title_Drag_and_drop_element_in_window" xml:space="preserve">
+    <value>Drag and drop element in window</value>
+  </data>
+  <data name="Title_Expand_collapse_tree_node" xml:space="preserve">
+    <value>Expand/collapse tree node</value>
+  </data>
+  <data name="Title_Focus_text_field_in_window" xml:space="preserve">
+    <value>Focus text field in window</value>
+  </data>
+  <data name="Title_Get_Details_of_Element_in_Window" xml:space="preserve">
+    <value>Get details of element in window</value>
+  </data>
+  <data name="Title_Move_Window" xml:space="preserve">
+    <value>Move window</value>
+  </data>
+  <data name="Title_Populate_Text_Field_in_Window" xml:space="preserve">
+    <value>Populate text field in window</value>
+  </data>
+  <data name="Title_Press_button_in_window" xml:space="preserve">
+    <value>Press button in window</value>
+  </data>
+  <data name="Title_Resize_Window" xml:space="preserve">
+    <value>Resize window</value>
+  </data>
+  <data name="Title_Select_menu_item_in_window" xml:space="preserve">
+    <value>Select menu item in window</value>
+  </data>
+  <data name="Title_Select_Radion_Button_in_Window" xml:space="preserve">
+    <value>Select radio button in window</value>
+  </data>
+  <data name="Title_Select_tab_in_window" xml:space="preserve">
+    <value>Select tab in window</value>
+  </data>
+  <data name="Title_Send_Keys_in_Window" xml:space="preserve">
+    <value>Send keys in window</value>
+  </data>
+  <data name="Title_Set_Checkbox_State_in_Window" xml:space="preserve">
+    <value>Set checkbox state in window</value>
+  </data>
+  <data name="Title_Set_Drop_Down_List_Value_in_Window" xml:space="preserve">
+    <value>Set drop down list value in window</value>
+  </data>
+  <data name="Title_Set_Window_State" xml:space="preserve">
+    <value>Set window state</value>
+  </data>
+  <data name="Title_Wait_until_in_Window" xml:space="preserve">
+    <value>Wait until in window</value>
+  </data>
+  <data name="UpdateUi_Get_Text___0___" xml:space="preserve">
+    <value>Get text("{0}")</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Get_Text_Table" xml:space="preserve">
+    <value>table of text values</value>
+  </data>
+  <data name="UpdateUi_Get_Text_Row" xml:space="preserve">
+    <value>data row of text values</value>
+  </data>
+  <data name="UpdateUi_Get_Name___0___" xml:space="preserve">
+    <value>Get name("{0}")</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Contains_Text____0__" xml:space="preserve">
+    <value>Contains text: "{0}"</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Doesn_t_Contain_Text____0__" xml:space="preserve">
+    <value>Doesn't contain text: "{0}"</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Element___0___becomes_Enabled" xml:space="preserve">
+    <value>UI element "{0}" becomes enabled</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Element___0___becomes_Disabled" xml:space="preserve">
+    <value>UI element "{0}" becomes disabled</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Element___0___Appears" xml:space="preserve">
+    <value>UI element "{0}" appears</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="UpdateUi_Element___0___Disappears" xml:space="preserve">
+    <value>UI element "{0}" disappears</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="_entireHtmlTableItem_Extract_Entire_Html_Table" xml:space="preserve">
+    <value>Extract entire HTML table</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="CheckEvents_Error_during_event_checker___0_" xml:space="preserve">
+    <value>Error during event checker: {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="CustomValue_OnGotFocus_GOT_FOCUS" xml:space="preserve">
+    <value>Got focus</value>
+  </data>
+  <data name="CustomValue_OnKeyUp_KEY_UP" xml:space="preserve">
+    <value>Key up</value>
+  </data>
+  <data name="__0__Column_Data_Row" xml:space="preserve">
+    <value>{0}-column data row</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="__0__Column_Table" xml:space="preserve">
+    <value>{0}-column table</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Main_Window_Title_Desktop" xml:space="preserve">
+    <value>Desktop recorder</value>
+  </data>
+  <data name="On_Control" xml:space="preserve">
+    <value>on UI element</value>
+  </data>
+  <data name="On_Screen" xml:space="preserve">
+    <value>on screen</value>
+  </data>
+  <data name="Left_Click" xml:space="preserve">
+    <value>Left click</value>
+  </data>
+  <data name="Right_Click" xml:space="preserve">
+    <value>Right click</value>
+  </data>
+  <data name="Double_Click" xml:space="preserve">
+    <value>Double click</value>
+  </data>
+  <data name="Left_Button_Down" xml:space="preserve">
+    <value>Left button down</value>
+  </data>
+  <data name="Left_Button_Up" xml:space="preserve">
+    <value>Left button up</value>
+  </data>
+  <data name="Right_Button_Down" xml:space="preserve">
+    <value>Right button down</value>
+  </data>
+  <data name="Right_Button_Up" xml:space="preserve">
+    <value>Right button up</value>
+  </data>
+  <data name="Close_Window_On_Control" xml:space="preserve">
+    <value>Close window on UI element</value>
+  </data>
+  <data name="Drag_Control" xml:space="preserve">
+    <value>Drag UI element</value>
+  </data>
+  <data name="On_Screen_lower_case" xml:space="preserve">
+    <value>on screen</value>
+  </data>
+  <data name="And_Drop_It_To" xml:space="preserve">
+    <value>and drop it to</value>
+  </data>
+  <data name="And_Screen_lower_case" xml:space="preserve">
+    <value>and screen</value>
+  </data>
+  <data name="Using" xml:space="preserve">
+    <value>using</value>
+  </data>
+  <data name="Expand" xml:space="preserve">
+    <value>Expand</value>
+  </data>
+  <data name="Collapse" xml:space="preserve">
+    <value>Collapse</value>
+  </data>
+  <data name="Focus_On_Control" xml:space="preserve">
+    <value>Focus on control</value>
+  </data>
+  <data name="Get" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="Of_Element" xml:space="preserve">
+    <value>of UI element</value>
+  </data>
+  <data name="Move_Window" xml:space="preserve">
+    <value>Move window</value>
+  </data>
+  <data name="To_X" xml:space="preserve">
+    <value>to: {x:</value>
+  </data>
+  <data name="__comma__Y" xml:space="preserve">
+    <value>, y:</value>
+  </data>
+  <data name="Populate" xml:space="preserve">
+    <value>Populate</value>
+  </data>
+  <data name="Populate_text_type" xml:space="preserve">
+    <value>Populate text type</value>
+  </data>
+  <data name="With_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Press_On_Control" xml:space="preserve">
+    <value>Press on UI element</value>
+  </data>
+  <data name="Resize_Window_On_Control" xml:space="preserve">
+    <value>Resize window on control</value>
+  </data>
+  <data name="With_New_Size_W" xml:space="preserve">
+    <value>with new size: {w:</value>
+  </data>
+  <data name="__comma_H" xml:space="preserve">
+    <value>, h:</value>
+  </data>
+  <data name="Select_Option_On_Control" xml:space="preserve">
+    <value>Select option on UI element</value>
+  </data>
+  <data name="Select_On_Control" xml:space="preserve">
+    <value>Select on control</value>
+  </data>
+  <data name="Select_Tab_On_Control" xml:space="preserve">
+    <value>Select tab on UI element</value>
+  </data>
+  <data name="Send_Keys" xml:space="preserve">
+    <value>Send keys</value>
+  </data>
+  <data name="Clear_All_Options" xml:space="preserve">
+    <value>Clear all options</value>
+  </data>
+  <data name="Select_Option_By_Name" xml:space="preserve">
+    <value>Select option by name</value>
+  </data>
+  <data name="Select_Option_By_Index" xml:space="preserve">
+    <value>Select option by index</value>
+  </data>
+  <data name="Set_Window_State" xml:space="preserve">
+    <value>Set window state</value>
+  </data>
+  <data name="Focus" xml:space="preserve">
+    <value>Focus</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>Move</value>
+  </data>
+  <data name="Resize" xml:space="preserve">
+    <value>Resize</value>
+  </data>
+  <data name="Maximize" xml:space="preserve">
+    <value>Maximize</value>
+  </data>
+  <data name="Minimize" xml:space="preserve">
+    <value>Minimize</value>
+  </data>
+  <data name="Restore" xml:space="preserve">
+    <value>Restore</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="Wait_Until" xml:space="preserve">
+    <value>Wait until</value>
+  </data>
+  <data name="Screen" xml:space="preserve">
+    <value>Screen</value>
+  </data>
+  <data name="Control" xml:space="preserve">
+    <value>Control</value>
+  </data>
+  <data name="Exists" xml:space="preserve">
+    <value>Exists</value>
+  </data>
+  <data name="Doesnt_Exist" xml:space="preserve">
+    <value>Doesn't exist</value>
+  </data>
+  <data name="Contains_Text" xml:space="preserve">
+    <value>Contains text</value>
+  </data>
+  <data name="Doesnt_Contain_Text" xml:space="preserve">
+    <value>Doesn't contain text</value>
+  </data>
+  <data name="Becomes_Enabled" xml:space="preserve">
+    <value>becomes enabled</value>
+  </data>
+  <data name="Becomes_Disabled" xml:space="preserve">
+    <value>becomes disabled</value>
+  </data>
+  <data name="In_Screen" xml:space="preserve">
+    <value>in screen</value>
+  </data>
+  <data name="Type_Your_Comment_Here" xml:space="preserve">
+    <value>Type your comment here...</value>
+  </data>
+  <data name="Select_Parent_Element" xml:space="preserve">
+    <value>Select parent UI element</value>
+  </data>
+  <data name="Does_Not_Contain_Text" xml:space="preserve">
+    <value>Doesn't contain text</value>
+  </data>
+  <data name="Element_Becomes_Enabled" xml:space="preserve">
+    <value>UI element becomes enabled</value>
+  </data>
+  <data name="Element_Becomes_Disabled" xml:space="preserve">
+    <value>UI element becomes disabled</value>
+  </data>
+  <data name="Element_Appears" xml:space="preserve">
+    <value>UI element appears</value>
+  </data>
+  <data name="Element_Disappears" xml:space="preserve">
+    <value>UI element disappears</value>
+  </data>
+  <data name="Focus_This_TextField" xml:space="preserve">
+    <value>Focus this textfield</value>
+  </data>
+  <data name="Get_Text" xml:space="preserve">
+    <value>Get text</value>
+  </data>
+  <data name="Get_Name" xml:space="preserve">
+    <value>Get name</value>
+  </data>
+  <data name="Wait_Until_Pascal_Case" xml:space="preserve">
+    <value>Wait until</value>
+  </data>
+  <data name="Start_Recording" xml:space="preserve">
+    <value>Start recording</value>
+  </data>
+  <data name="Recorded_Actions" xml:space="preserve">
+    <value>Recorded actions</value>
+  </data>
+  <data name="Pause_Recording" xml:space="preserve">
+    <value>Pause recording</value>
+  </data>
+  <data name="Reset_Recording" xml:space="preserve">
+    <value>Reset recording</value>
+  </data>
+  <data name="Add_Comment" xml:space="preserve">
+    <value>Comment</value>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="Attribute" xml:space="preserve">
+    <value>Attribute</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Finish" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="Browser_plugin_warning" xml:space="preserve">
+    <value>For Power Automate Desktop to work in Edge, Chrome or Firefox you need to have the plugin installed.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Edge"}{Locked="Firefox"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="Variable_name_cannot_be_empty_format_str" xml:space="preserve">
+    <value>{0} can't be empty</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Variable_name_too_long_format_str" xml:space="preserve">
+    <value>{0} too long</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Variable_name_is_reserved_keyword" xml:space="preserve">
+    <value>Reserved keyword</value>
+  </data>
+  <data name="Variable_name_no_spaces_format_str" xml:space="preserve">
+    <value>{0} can't have white space</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Variable_name_invalid_identifier_format_str" xml:space="preserve">
+    <value>Invalid {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Variable_name_already_exists_format_str" xml:space="preserve">
+    <value>{0} already defined</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Automation_browser" xml:space="preserve">
+    <value>Automation browser</value>
+  </data>
+  <data name="MicrosoftEdge" xml:space="preserve">
+    <value>Microsoft Edge</value>
+    <comment>{Locked="Microsoft"}{Locked="Edge"}</comment>
+  </data>
+  <data name="Chrome" xml:space="preserve">
+    <value>Chrome</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="Firefox" xml:space="preserve">
+    <value>Firefox</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="Internet_explorer" xml:space="preserve">
+    <value>Internet Explorer</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="Web_browser_friendly_name" xml:space="preserve">
+    <value>Web browser instance name</value>
+  </data>
+  <data name="Select_browser_for_recording" xml:space="preserve">
+    <value>Select a browser to start recording</value>
+  </data>
+  <data name="New_tab_placeholder" xml:space="preserve">
+    <value>New tab</value>
+  </data>
+  <data name="Web_browser_instance_placeholder" xml:space="preserve">
+    <value>Open and create new Instance for recording</value>
+  </data>
+  <data name="In_this_recording_i_want_to_use" xml:space="preserve">
+    <value>In this recording session I want to use...</value>
+  </data>
+  <data name="More_info" xml:space="preserve">
+    <value>More info</value>
+  </data>
+  <data name="Advanced" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Web_browser_instance_pascal_case" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="Pick_a_browser_instance" xml:space="preserve">
+    <value>Pick a browser instance</value>
+  </data>
+  <data name="Pick_a_browser_instance_from_list" xml:space="preserve">
+    <value>Pick a browser instance from the list</value>
+  </data>
+  <data name="Browser_instance_name" xml:space="preserve">
+    <value>Browser instance name</value>
+  </data>
+  <data name="Specify_name_for_new_browser_instance" xml:space="preserve">
+    <value>Specify a name for the new browser instance</value>
+  </data>
+  <data name="Pick_a_tab" xml:space="preserve">
+    <value>Pick a tab</value>
+  </data>
+  <data name="Refresh_list_of_tabs" xml:space="preserve">
+    <value>Refresh the list of tabs</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Next</value>
+  </data>
+  <data name="Browser_reminder_run_internet_explorer" xml:space="preserve">
+    <value>In order to use Internet Explorer with web automation actions, you'll need to modify its settings first.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="Browser_reminder_run_chrome" xml:space="preserve">
+    <value>In order to use Chrome with web automation actions, you'll need to install the Power Automate Desktop extension first.</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="Browser_reminder_run_firefox" xml:space="preserve">
+    <value>In order to use Firefox with web automation actions, you'll need to install the Power Automate Desktop extension first.</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="Browser_reminder_run_edge" xml:space="preserve">
+    <value>In order to use Microsoft Edge with web automation actions, you'll need to install the Power Automate Desktop extension first.</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="Select_browser_instance" xml:space="preserve">
+    <value>Specify web browser instance to use</value>
+  </data>
+  <data name="Custom_Attribute" xml:space="preserve">
+    <value>Custom attribute</value>
+  </data>
+  <data name="Exists_True" xml:space="preserve">
+    <value>Exists (True)</value>
+  </data>
+  <data name="Focus_This_Webpage_Element" xml:space="preserve">
+    <value>Focus this web page element</value>
+  </data>
+  <data name="Href" xml:space="preserve">
+    <value>Href</value>
+  </data>
+  <data name="Screenshot_This_Web_Page_Element" xml:space="preserve">
+    <value>Screenshot this web page UI element</value>
+  </data>
+  <data name="Src" xml:space="preserve">
+    <value>Src</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>Title</value>
+  </data>
+  <data name="Web_Recorder_Menu" xml:space="preserve">
+    <value>Web recorder menu</value>
+  </data>
+  <data name="Title_Click_element_in_web_page" xml:space="preserve">
+    <value>Click element in web page</value>
+  </data>
+  <data name="Title_Focus_text_field_on_web_page" xml:space="preserve">
+    <value>Focus text field on web page</value>
+  </data>
+  <data name="Title_Get_details_of_element_in_web_page" xml:space="preserve">
+    <value>Get details of element in web page</value>
+  </data>
+  <data name="Title_Go_to_webpage" xml:space="preserve">
+    <value>Go to webpage</value>
+  </data>
+  <data name="Title_Launch_Web_Browser" xml:space="preserve">
+    <value>Launch web browser</value>
+  </data>
+  <data name="Title_Populate_text_field_in_web_page" xml:space="preserve">
+    <value>Populate text field in web page</value>
+  </data>
+  <data name="Title_Press_button_in_web_page" xml:space="preserve">
+    <value>Press button in web page</value>
+  </data>
+  <data name="Title_Screenshot_on_web_page" xml:space="preserve">
+    <value>Screenshot on web page</value>
+  </data>
+  <data name="Title_Select_radio_button_in_web_page" xml:space="preserve">
+    <value>Select radio button in web page</value>
+  </data>
+  <data name="Title_Set_checkbox_state_in_web_page" xml:space="preserve">
+    <value>Set checkbox state in web page</value>
+  </data>
+  <data name="Title_Set_Drop_Down_List_Value_in_Web_Page" xml:space="preserve">
+    <value>Set drop down list value in web page</value>
+  </data>
+  <data name="Title_Wait_until_in_web_page" xml:space="preserve">
+    <value>Wait until in web page</value>
+  </data>
+  <data name="RightClickWindow" xml:space="preserve">
+    <value>Right click menu</value>
+  </data>
+  <data name="Click" xml:space="preserve">
+    <value>Click</value>
+  </data>
+  <data name="Go_To" xml:space="preserve">
+    <value>Go to</value>
+  </data>
+  <data name="And_Navigate_To" xml:space="preserve">
+    <value>and navigate to</value>
+  </data>
+  <data name="Launch" xml:space="preserve">
+    <value>Launch</value>
+  </data>
+  <data name="None" xml:space="preserve">
+    <value>None</value>
+  </data>
+  <data name="Screenshot_Of" xml:space="preserve">
+    <value>Screenshot of</value>
+  </data>
+  <data name="Extension_Not_Found_Chrome" xml:space="preserve">
+    <value>Power Automate Desktop couldn't communicate with Google Chrome. To automate web workflows using Google Chrome, install the Power Automate Desktop extension first.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Google"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="Extension_Not_Found_Edge" xml:space="preserve">
+    <value>Power Automate Desktop couldn't communicate with Microsoft Edge. To automate web workflows using Microsoft Edge, install the Power Automate Desktop extension first.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Microsoft"}{Locked="Edge"}</comment>
+  </data>
+  <data name="Extension_Not_Found_IE" xml:space="preserve">
+    <value>Power Automate Desktop couldn't communicate with Internet Explorer. To automate web workflows using Internet Explorer, make sure all the required settings are in place.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="Extension_Not_Found_Firefox" xml:space="preserve">
+    <value>Power Automate Desktop couldn't communicate with Firefox. To automate web workflows using Firefox, install the Power Automate Desktop extension first.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="Extension_Not_Found_Caption" xml:space="preserve">
+    <value>You need the Power Automate Desktop extension.</value>
+    <comment>{Locked="Power Automate Desktop"}</comment>
+  </data>
+  <data name="Extension_Not_Found_Message" xml:space="preserve">
+    <value>1. To use web automation in your flows, select 'Get Extension' to download and install to the selected browser.{0}{0}2. After installing, be sure to enable the extension in the browser.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="Get_Extension" xml:space="preserve">
+    <value>Get Extension</value>
+  </data>
+  <data name="Browser_Not_Found_Chrome" xml:space="preserve">
+    <value>Power Automate Desktop could not launch Google Chrome. Please check that it is properly installed on your computer.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Google"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="Browser_Not_Found_Edge" xml:space="preserve">
+    <value>Power Automate Desktop could not launch Microsoft Edge. Please check that it is properly installed on your computer.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Microsoft"}{Locked="Edge"}</comment>
+  </data>
+  <data name="Browser_Not_Found_IE" xml:space="preserve">
+    <value>Power Automate Desktop could not launch Internet Explorer. To automate web workflows using Internet Explorer, make sure all the required settings are in place.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="Browser_Not_Found_Firefox" xml:space="preserve">
+    <value>Power Automate Desktop could not launch Firefox. Please check that it is properly installed on your computer.</value>
+    <comment>{Locked="Power Automate Desktop"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="Main_Window_Title_Web" xml:space="preserve">
+    <value>Web Recorder</value>
+  </data>
+  <data name="Extract_Element_Value" xml:space="preserve">
+    <value>Extract element value</value>
+  </data>
+  <data name="Wait_Until_Web_Page" xml:space="preserve">
+    <value>Wait until web page</value>
+  </data>
+  <data name="Extract_Data" xml:space="preserve">
+    <value>Extract data from page</value>
+  </data>
+  <data name="Title_Extract_Data" xml:space="preserve">
+    <value>Extract data</value>
+  </data>
+  <data name="Set_Element_As_Pager" xml:space="preserve">
+    <value>Set this element as pager</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Set" xml:space="preserve">
+    <value>Set</value>
+  </data>
+  <data name="Browser_Picker_Error" xml:space="preserve">
+    <value>The Web Browser Instance configuration is invalid. Please check.</value>
+  </data>
+  <data name="Error_Title" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="UI_Element_Name_Cant_Be_Empty" xml:space="preserve">
+    <value>UI element name can't be empty</value>
+  </data>
+  <data name="Name_Is_A_Reserved_Keyword" xml:space="preserve">
+    <value>Name is a reserved keyword</value>
+  </data>
+  <data name="UI_Element_Name_In_Use" xml:space="preserve">
+    <value>UI element name is already in use</value>
+  </data>
+  <data name="UI_Element_Name_In_Use_By_Screen" xml:space="preserve">
+    <value>UI element name is already in use by a screen</value>
+  </data>
+  <data name="Invalid_DropdownList_Index" xml:space="preserve">
+    <value>Invalid index</value>
+  </data>
+  <data name="Invalid_DropdownList_Name" xml:space="preserve">
+    <value>Invalid name</value>
+  </data>
+  <data name="Variable" xml:space="preserve">
+    <value>variable</value>
+  </data>
+  <data name="Populate_TextField_With_Variable" xml:space="preserve">
+    <value>Populate text field with variable</value>
+  </data>
+  <data name="To_Variable" xml:space="preserve">
+    <value>to variable</value>
+  </data>
+  <data name="Assign_New_Variable" xml:space="preserve">
+    <value>Assign new variable</value>
+  </data>
+  <data name="Assign_Output_Variable" xml:space="preserve">
+    <value>Assign to output variable</value>
+  </data>
+  <data name="With_Variable" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="And_Store_Value_In" xml:space="preserve">
+    <value>and store value in</value>
+  </data>
+  <data name="Enter_Recording_Value" xml:space="preserve">
+    <value>Enter a recording value and select the prefered UI element for variable</value>
+  </data>
+  <data name="Flow_Variables" xml:space="preserve">
+    <value>Flow variables</value>
+  </data>
+  <data name="Inputs" xml:space="preserve">
+    <value>inputs</value>
+  </data>
+  <data name="Variables" xml:space="preserve">
+    <value>Variables</value>
+  </data>
+  <data name="Input_Output_Variables" xml:space="preserve">
+    <value>Input / Output variables</value>
+  </data>
+  <data name="Outputs" xml:space="preserve">
+    <value>Outputs</value>
+  </data>
+  <data name="Press_Left_Click_To_Select" xml:space="preserve">
+    <value>Press left click to select it.</value>
+  </data>
+  <data name="Recording_Value" xml:space="preserve">
+    <value>Recording Value</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Set_Input" xml:space="preserve">
+    <value>Set Input</value>
+  </data>
+  <data name="Tooltip_Recording_Value" xml:space="preserve">
+    <value>The recording value is used only during the flow recording and will not be part of the recorded flow.</value>
+  </data>
+  <data name="Tooltip_UI_element" xml:space="preserve">
+    <value>The UI element that the variable will be populated into. To add a UI element mouse over until the frame appears around it and left click to select it.</value>
+  </data>
+  <data name="UI_Element" xml:space="preserve">
+    <value>UI Element</value>
+  </data>
+  <data name="Delete_activity_format_str" xml:space="preserve">
+    <value>'Delete activity {0} of {1}'</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="Recording_has_been_reset" xml:space="preserve">
+    <value>Recording has been reset.</value>
+  </data>
+  <data name="Variable_name_not_exists_format_str" xml:space="preserve">
+    <value>{0} not defined</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="With_Sensitive_Text" xml:space="preserve">
+    <value>Sensitive text</value>
+  </data>
+  <data name="With" xml:space="preserve">
+    <value>with</value>
+  </data>
+  <data name="Add_Text_With_IME" xml:space="preserve">
+    <value>Add text with IME</value>
+  </data>
+  <data name="Add_Text" xml:space="preserve">
+    <value>Add text</value>
+  </data>
+  <data name="Tooltip_IME" xml:space="preserve">
+    <value>The text value populated by the IME. This will be part of the recorded flow.</value>
+  </data>
+  <data name="Select_Variable" xml:space="preserve">
+    <value>Select Variable</value>
+  </data>
+  <data name="No_Flow_Variables" xml:space="preserve">
+    <value>There aren't flow variables</value>
+  </data>
+  <data name="No_IO_Variables" xml:space="preserve">
+    <value>There aren't any input or output variables</value>
+  </data>
+  <data name="No_IO_Recording_Variables" xml:space="preserve">
+    <value>In order to use input/output variables, other than that need to be set in the designer.</value>
+  </data>
+  <data name="No_Flow_Recording_Variables" xml:space="preserve">
+    <value>In order to use flow variables, other than that need to be set in the designer.</value>
+  </data>
+  <data name="No_Search_Results" xml:space="preserve">
+    <value>No Matches Found</value>
+  </data>
+  <data name="Search_Variables" xml:space="preserve">
+    <value>Search Variables</value>
+  </data>
+  <data name="On_Image" xml:space="preserve">
+    <value>on image</value>
+  </data>
+  <data name="Title_Move_mouse_to_image" xml:space="preserve">
+    <value>Move mouse to image</value>
+  </data>
+  <data name="Image_Name_In_Use" xml:space="preserve">
+    <value>Image name is already in use</value>
+  </data>
+  <data name="Image_Name_Cant_Be_Empty" xml:space="preserve">
+    <value>Image name can't be empty</value>
+  </data>
+  <data name="Extract_Text_From_Image" xml:space="preserve">
+    <value>Extract text from image</value>
+  </data>
+  <data name="Extract_Text_With_OCR" xml:space="preserve">
+    <value>Extract text with OCR</value>
+  </data>
+  <data name="Record" xml:space="preserve">
+    <value>Record</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>Reset</value>
+  </data>
+  <data name="Pause" xml:space="preserve">
+    <value>Pause</value>
+  </data>
+  <data name="Image_Recording" xml:space="preserve">
+    <value>Image recording</value>
+  </data>
+  <data name="Image_Recording_Description" xml:space="preserve">
+    <value>Capture the steps of your automation based on images of the objects that appear on the screen</value>
+  </data>
+  <data name="Preview_activity_image_format_str" xml:space="preserve">
+    <value>'Preview image {0} of {1}'</value>
+  </data>
+  <data name="Sample_Value" xml:space="preserve">
+    <value>Sample Value</value>
+  </data>
+  <data name="Remote_window_detected" xml:space="preserve">
+    <value>Remote computer window detected. Image recording enabled.</value>
+  </data>
+  <data name="Append" xml:space="preserve">
+    <value>Append</value>
+  </data>
+  <data name="Populate_text_mode" xml:space="preserve">
+    <value>Populate text mode</value>
+  </data>
+  <data name="Replace" xml:space="preserve">
+    <value>Replace</value>
+  </data>
+</root>

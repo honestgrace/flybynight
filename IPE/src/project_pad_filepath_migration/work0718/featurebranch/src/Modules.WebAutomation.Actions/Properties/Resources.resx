@@ -1,0 +1,3411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AttachMode_ByTitle_FriendlyName" xml:space="preserve">
+    <value>By title</value>
+  </data>
+  <data name="AttachMode_ByUrl_FriendlyName" xml:space="preserve">
+    <value>By URL</value>
+  </data>
+  <data name="AttachMode_ForegroundWindow_FriendlyName" xml:space="preserve">
+    <value>Use foreground window</value>
+  </data>
+  <data name="AttachToChromeByTitle_Description" xml:space="preserve">
+    <value>Attach to a running instance of Chrome by title for automating web sites and web applications</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="AttachToChromeByTitle_Summary" xml:space="preserve">
+    <value>Attach to Chrome tab with title &lt;TABTITLE&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABTITLE&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="AttachToChromeByUrl_Description" xml:space="preserve">
+    <value>Attach to a running instance of Chrome by URL for automating web sites and web applications</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="AttachToChromeByUrl_Summary" xml:space="preserve">
+    <value>Attach to Chrome tab with URL &lt;TABURL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABURL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="AttachToEdgeByTitle_Description" xml:space="preserve">
+    <value>Attach to a running instance of Microsoft Edge by title for automating web sites and web applications</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="AttachToEdgeByTitle_Summary" xml:space="preserve">
+    <value>Attach to Microsoft Edge tab with title &lt;TABTITLE&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABTITLE&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="AttachToEdgeByUrl_Description" xml:space="preserve">
+    <value>Attach to a running instance of Microsoft Edge by URL for automating web sites and web applications</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="AttachToEdgeByUrl_Summary" xml:space="preserve">
+    <value>Attach to Microsoft Edge tab with URL &lt;TABURL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABURL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="AttachToFirefoxByTitle_Description" xml:space="preserve">
+    <value>Attach to a running instance of Firefox by title for automating web sites and web applications</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="AttachToFirefoxByTitle_Summary" xml:space="preserve">
+    <value>Attach to Firefox tab with title &lt;TABTITLE&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABTITLE&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="AttachToFirefoxByUrl_Description" xml:space="preserve">
+    <value>Attach to a running instance of Firefox by URL for automating web sites and web applications</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="AttachToFirefoxByUrl_Summary" xml:space="preserve">
+    <value>Attach to Firefox tab with URL &lt;TABURL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABURL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="AttachToForegroundChrome_Description" xml:space="preserve">
+    <value>Attach to the foreground instance of Chrome for automating web sites and web applications</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="AttachToForegroundChrome_Summary" xml:space="preserve">
+    <value>Attach to the active tab of Chrome running as the foreground window and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="AttachToForegroundFirefox_Description" xml:space="preserve">
+    <value>Attach to the foreground instance of Firefox for automating web sites and web applications</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="AttachToForegroundFirefox_Summary" xml:space="preserve">
+    <value>Attach to the active tab of Firefox running as the foreground window and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="AttachToForegroundInternetExplorer_Description" xml:space="preserve">
+    <value>Attach to the foreground instance of Internet Explorer for automating web sites and web applications</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="AttachToForegroundInternetExplorer_Summary" xml:space="preserve">
+    <value>Attach to the active tab of Internet Explorer running as the foreground window and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="AttachToInternetExplorerByTitle_Description" xml:space="preserve">
+    <value>Attach to a running instance of Internet Explorer by title for automating web sites and web applications</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="AttachToInternetExplorerByTitle_Summary" xml:space="preserve">
+    <value>Attach to Internet Explorer tab with title &lt;TABTITLE&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABTITLE&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="AttachToInternetExplorerByUrl_Description" xml:space="preserve">
+    <value>Attach to a running instance of Internet Explorer by URL for automating web sites and web applications</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="AttachToInternetExplorerByUrl_Summary" xml:space="preserve">
+    <value>Attach to Internet Explorer tab with URL &lt;TABURL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;TABURL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="AttachToTheForegroundEdge_Description" xml:space="preserve">
+    <value>Attach to the foreground instance of Microsoft Edge for automating web sites and web applications</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="AttachToTheForegroundEdge_Summary" xml:space="preserve">
+    <value>Attach to the active tab of Microsoft Edge running as the foreground window and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="BrowserWindowState_Maximized_FriendlyName" xml:space="preserve">
+    <value>Maximized</value>
+  </data>
+  <data name="BrowserWindowState_Minimized_FriendlyName" xml:space="preserve">
+    <value>Minimized</value>
+  </data>
+  <data name="BrowserWindowState_Normal_FriendlyName" xml:space="preserve">
+    <value>Normal</value>
+  </data>
+  <data name="Category_DataExtraction_Description" xml:space="preserve">
+    <value>Extract data from web applications, from a single value up to tables or custom multiple pieces of data</value>
+  </data>
+  <data name="Category_DataExtraction_FriendlyName" xml:space="preserve">
+    <value>Web data extraction</value>
+  </data>
+  <data name="Category_FormFilling_Description" xml:space="preserve">
+    <value>Fill in forms on web applications</value>
+  </data>
+  <data name="Category_FormFilling_FriendlyName" xml:space="preserve">
+    <value>Web form filling</value>
+  </data>
+  <data name="CheckboxState_Checked_FriendlyName" xml:space="preserve">
+    <value>Checked</value>
+  </data>
+  <data name="CheckboxState_Unchecked_FriendlyName" xml:space="preserve">
+    <value>Unchecked</value>
+  </data>
+  <data name="ClearDropDownListValue_Description" xml:space="preserve">
+    <value>Clear the selected option for a drop-down list in a web form</value>
+  </data>
+  <data name="ClearDropDownListValue_Summary" xml:space="preserve">
+    <value>Clear all selected options in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClearDropDownListValueCloseDialog_Description" xml:space="preserve">
+    <value>Clear the selected option for a drop-down list in a web form. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="ClearDropDownListValueCloseDialog_Summary" xml:space="preserve">
+    <value>Clear all selected options in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClearDropDownListValueNoWait_Description" xml:space="preserve">
+    <value>Clear the selected option for a drop-down list in a web form and don't wait for the page to load</value>
+  </data>
+  <data name="ClearDropDownListValueNoWait_Summary" xml:space="preserve">
+    <value>Clear all selected options in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClearDropDownListValuePressDialogButton_Description" xml:space="preserve">
+    <value>Clear the selected option for a drop-down list in a web form and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="ClearDropDownListValuePressDialogButton_Summary" xml:space="preserve">
+    <value>Clear all selected options in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="Click_Description" xml:space="preserve">
+    <value>Click on a link or any other element of a web page</value>
+  </data>
+  <data name="Click_Summary" xml:space="preserve">
+    <value>Click on &lt;CONTROL&gt; of web page</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClickBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="ClickBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="ClickBase_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to click</value>
+  </data>
+  <data name="ClickBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="ClickBase_Description" xml:space="preserve">
+    <value>Click on a link or any other element of a web page</value>
+  </data>
+  <data name="ClickBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="ClickBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="ClickBase_FriendlyName" xml:space="preserve">
+    <value>Click link on web page</value>
+  </data>
+  <data name="ClickBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after clicking on the link</value>
+  </data>
+  <data name="ClickBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="ClickBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after clicking on the link</value>
+  </data>
+  <data name="ClickBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="ClickCloseDialog_Description" xml:space="preserve">
+    <value>Click on a link or any other element of a web page. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="ClickCloseDialog_Summary" xml:space="preserve">
+    <value>Click on &lt;CONTROL&gt; of web page</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClickDownloadLink_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="ClickDownloadLink_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="ClickDownloadLink_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to click</value>
+  </data>
+  <data name="ClickDownloadLink_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="ClickDownloadLink_Description" xml:space="preserve">
+    <value>Click on a link in a web page that results in downloading a file</value>
+  </data>
+  <data name="ClickDownloadLink_DestinationFolder_Description" xml:space="preserve">
+    <value>Enter or choose the full path of the folder, or a variable containing the folder, to save the downloaded file to</value>
+  </data>
+  <data name="ClickDownloadLink_DestinationFolder_FriendlyName" xml:space="preserve">
+    <value>Destination folder</value>
+  </data>
+  <data name="ClickDownloadLink_DownloadedFile_Description" xml:space="preserve">
+    <value>The file on the disk where the download is saved. This is a filepath that consists of the download folder as specified above plus the name of the file as provided by the web server.</value>
+  </data>
+  <data name="ClickDownloadLink_DownloadedFile_FriendlyName" xml:space="preserve">
+    <value>Downloaded file</value>
+  </data>
+  <data name="ClickDownloadLink_FriendlyName" xml:space="preserve">
+    <value>Click download link on web page</value>
+  </data>
+  <data name="ClickDownloadLink_Summary" xml:space="preserve">
+    <value>Download file into &lt;DESTINATIONFOLDER&gt; by clicking on &lt;CONTROL&gt; of web page</value>
+    <comment>{Locked="&lt;DESTINATIONFOLDER&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClickNoWait_Description" xml:space="preserve">
+    <value>Click on a link or any other element of a web page and don't wait for the web page to load</value>
+  </data>
+  <data name="ClickNoWait_Summary" xml:space="preserve">
+    <value>Click on &lt;CONTROL&gt; of web page</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ClickPressDialogButton_Description" xml:space="preserve">
+    <value>Click on a link or any other element of a web page and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="ClickPressDialogButton_Summary" xml:space="preserve">
+    <value>Click on &lt;CONTROL&gt; of web page</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="CloseWebBrowser_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to close</value>
+  </data>
+  <data name="CloseWebBrowser_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="CloseWebBrowser_Description" xml:space="preserve">
+    <value>Close a web browser window</value>
+  </data>
+  <data name="CloseWebBrowser_FriendlyName" xml:space="preserve">
+    <value>Close web browser</value>
+  </data>
+  <data name="CloseWebBrowser_Summary" xml:space="preserve">
+    <value>Close web browser &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;BROWSERINSTANCE&gt;"}</comment>
+  </data>
+  <data name="CreateNewTab_Description" xml:space="preserve">
+    <value>Create a new tab and navigate to the given URL (supported in Microsoft Edge, Chrome and Firefox)</value>
+    <comment>{Locked="Microsoft Edge"}{Locked="Firefox"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="CreateNewTab_Summary" xml:space="preserve">
+    <value>Create a new tab and navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="CreateNewTabBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="CreateNewTabBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="CreateNewTabBase_Description" xml:space="preserve">
+    <value>Create a new tab and navigate to the given URL (supported in Microsoft Edge, Chrome and Firefox)</value>
+    <comment>{Locked="Microsoft Edge"}{Locked="Firefox"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="CreateNewTabBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="CreateNewTabBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="CreateNewTabBase_FriendlyName" xml:space="preserve">
+    <value>Create new tab</value>
+  </data>
+  <data name="CreateNewTabBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears while loading the web page</value>
+  </data>
+  <data name="CreateNewTabBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="CreateNewTabBase_NewBrowserInstance_Description" xml:space="preserve">
+    <value>The new web browser instance to use with web automation actions</value>
+  </data>
+  <data name="CreateNewTabBase_NewBrowserInstance_FriendlyName" xml:space="preserve">
+    <value>New web browser instance</value>
+  </data>
+  <data name="CreateNewTabBase_Url_Description" xml:space="preserve">
+    <value>Enter the URL, or a variable containing the URL, to navigate to</value>
+  </data>
+  <data name="CreateNewTabBase_Url_FriendlyName" xml:space="preserve">
+    <value>URL to navigate to</value>
+  </data>
+  <data name="CreateNewTabBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="CreateNewTabBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="CreateNewTabCloseDialog_Description" xml:space="preserve">
+    <value>Create a new tab and navigate to the given URL. If a pop-up dialog appears, close it (supported in Microsoft Edge, Chrome and Firefox).</value>
+    <comment>{Locked="Microsoft Edge"}{Locked="Firefox"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="CreateNewTabCloseDialog_Summary" xml:space="preserve">
+    <value>Create a new tab and navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="CreateNewTabNoWait_Description" xml:space="preserve">
+    <value>Create a new tab and navigate to the given URL and don't wait for the web page to load (supported in Microsoft Edge, Chrome and Firefox)</value>
+    <comment>{Locked="Microsoft Edge"}{Locked="Firefox"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="CreateNewTabNoWait_Summary" xml:space="preserve">
+    <value>Create a new tab and navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="CreateNewTabPressDialogButton_Description" xml:space="preserve">
+    <value>Create a new tab and navigate to the given URL and press a specified button if a pop-up dialog appears (supported in Microsoft Edge, Chrome and Firefox)</value>
+    <comment>{Locked="Microsoft Edge"}{Locked="Firefox"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="CreateNewTabPressDialogButton_Summary" xml:space="preserve">
+    <value>Create a new tab and navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractData_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="DataExtraction_ExtractData_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="DataExtraction_ExtractData_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to extract data from</value>
+  </data>
+  <data name="DataExtraction_ExtractData_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="DataExtraction_ExtractData_Description" xml:space="preserve">
+    <value>Extract data from specific parts of a web page in the form of single values, lists, rows or tables</value>
+  </data>
+  <data name="DataExtraction_ExtractData_ExcelInstance_Description" xml:space="preserve">
+    <value>The Excel instance with the extracted data. Use this instance to manipulate the spreadsheet (or save and close it) by using the dedicated Excel actions.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractData_ExcelInstance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractData_ExtractedData_Description" xml:space="preserve">
+    <value>The extracted data in the form of a single value, list, datarow or datatable</value>
+  </data>
+  <data name="DataExtraction_ExtractData_ExtractedData_FriendlyName" xml:space="preserve">
+    <value>Extracted data</value>
+  </data>
+  <data name="DataExtraction_ExtractData_ExtractionMode_Description" xml:space="preserve">
+    <value>Specify what to extract from the web page</value>
+  </data>
+  <data name="DataExtraction_ExtractData_ExtractionMode_FriendlyName" xml:space="preserve">
+    <value>Extraction mode</value>
+  </data>
+  <data name="DataExtraction_ExtractData_ExtractionParameters_Description" xml:space="preserve">
+    <value>The parameters to use when extracting data. Depending on the extraction mode, this accepts different data.</value>
+  </data>
+  <data name="DataExtraction_ExtractData_ExtractionParameters_FriendlyName" xml:space="preserve">
+    <value>Extraction parameters</value>
+  </data>
+  <data name="DataExtraction_ExtractData_FriendlyName" xml:space="preserve">
+    <value>Extract data from web page</value>
+  </data>
+  <data name="DataExtraction_ExtractData_GetAllWebPages_Description" xml:space="preserve">
+    <value>Specify whether to get all web pages</value>
+  </data>
+  <data name="DataExtraction_ExtractData_GetAllWebPages_FriendlyName" xml:space="preserve">
+    <value>Get all web pages</value>
+  </data>
+  <data name="DataExtraction_ExtractData_MaxWebPagesToProcess_Description" xml:space="preserve">
+    <value>The maximum number of web pages to process</value>
+  </data>
+  <data name="DataExtraction_ExtractData_MaxWebPagesToProcess_FriendlyName" xml:space="preserve">
+    <value>Max web pages to process</value>
+  </data>
+  <data name="DataExtraction_ExtractData_PagerCssSelector_Description" xml:space="preserve">
+    <value>The pager CSS selector</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractData_PagerCssSelector_FriendlyName" xml:space="preserve">
+    <value>Pager CSS selector</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractData_StoreDataMode_Description" xml:space="preserve">
+    <value>Specify whether to store the extracted data in a variable or an Excel spreadsheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DataExtraction_ExtractData_StoreDataMode_FriendlyName" xml:space="preserve">
+    <value>Store data mode</value>
+  </data>
+  <data name="DataExtraction_ExtractData_Summary" xml:space="preserve">
+    <value>Extract data from specific parts of a web page in the form of single values, lists, rows or tables</value>
+  </data>
+  <data name="DataExtraction_ExtractData_UsePaging_Description" xml:space="preserve">
+    <value>Specify whether to use paging</value>
+  </data>
+  <data name="DataExtraction_ExtractData_UsePaging_FriendlyName" xml:space="preserve">
+    <value>Use paging</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_AttributeName_Description" xml:space="preserve">
+    <value>Enter or select the attribute whose value to retrieve</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_AttributeValue_Description" xml:space="preserve">
+    <value>The value of the web element's attribute</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_AttributeValue_FriendlyName" xml:space="preserve">
+    <value>Element attribute value</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to get details from</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_Description" xml:space="preserve">
+    <value>Get the value of an element's attribute on a web page</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_FriendlyName" xml:space="preserve">
+    <value>Get details of element on web page</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfElement_Summary" xml:space="preserve">
+    <value>Get attribute &lt;ATTRIBUTENAME&gt; of UI element &lt;CONTROL&gt; on web page</value>
+    <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_Description" xml:space="preserve">
+    <value>Get a property of a web page, such as its title or its source text</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_Details_Description" xml:space="preserve">
+    <value>The details retrieved from the web page</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_Details_FriendlyName" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_DetailsType_Description" xml:space="preserve">
+    <value>Select the information to retrieve from the web page</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_DetailsType_FriendlyName" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_FriendlyName" xml:space="preserve">
+    <value>Get details of web page</value>
+  </data>
+  <data name="DataExtraction_GetDetailsOfWebPage_Summary" xml:space="preserve">
+    <value>Get the &lt;DETAILSTYPE&gt; and store it into &lt;DETAILS&gt;</value>
+    <comment>{Locked="&lt;DETAILSTYPE&gt;"}{Locked="&lt;DETAILS&gt;"}</comment>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to capture</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_Description" xml:space="preserve">
+    <value>Take a screenshot of the web page (or an element of the web page) currently displayed in the browser and save the image into a file or to the clipboard</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_File_Description" xml:space="preserve">
+    <value>Set the full path for the file to save the image capture</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_File_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_FileFormat_Description" xml:space="preserve">
+    <value>Select the format of the image file</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_FileFormat_FriendlyName" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_FriendlyName" xml:space="preserve">
+    <value>Take screenshot of web page</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_Operation_Description" xml:space="preserve">
+    <value>Specify whether to capture the entire web page or only a specific element of it</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_Operation_FriendlyName" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_SaveMode_Description" xml:space="preserve">
+    <value>Specify whether to save the image into a file or store it into the clipboard</value>
+  </data>
+  <data name="DataExtraction_TakeScreenshotBase_SaveMode_FriendlyName" xml:space="preserve">
+    <value>Save mode</value>
+  </data>
+  <data name="DetailsType_Description_FriendlyName" xml:space="preserve">
+    <value>Web page description</value>
+  </data>
+  <data name="DetailsType_MetaKeywords_FriendlyName" xml:space="preserve">
+    <value>Web page meta keywords</value>
+  </data>
+  <data name="DetailsType_Source_FriendlyName" xml:space="preserve">
+    <value>Web page source</value>
+  </data>
+  <data name="DetailsType_Text_FriendlyName" xml:space="preserve">
+    <value>Web page text</value>
+  </data>
+  <data name="DetailsType_Title_FriendlyName" xml:space="preserve">
+    <value>Web page title</value>
+  </data>
+  <data name="DetailsType_URLAddress_FriendlyName" xml:space="preserve">
+    <value>Web browser's current URL address</value>
+  </data>
+  <data name="Error_ClickElementError_Description" xml:space="preserve">
+    <value>Indicates a problem clicking the specified element</value>
+  </data>
+  <data name="Error_ClickElementError_FriendlyName" xml:space="preserve">
+    <value>Failed to click UI element</value>
+  </data>
+  <data name="Error_CloseWebBrowserError_Description" xml:space="preserve">
+    <value>Indicates a problem closing the web browser</value>
+  </data>
+  <data name="Error_CloseWebBrowserError_FriendlyName" xml:space="preserve">
+    <value>Failed to close the web browser</value>
+  </data>
+  <data name="Error_CreateNewTabError_Description" xml:space="preserve">
+    <value>Indicates a problem creating a new tab</value>
+  </data>
+  <data name="Error_CreateNewTabError_FriendlyName" xml:space="preserve">
+    <value>Failed to create a new tab</value>
+  </data>
+  <data name="Error_DownloadFileError_Description" xml:space="preserve">
+    <value>Indicates a problem downloading the specified file</value>
+  </data>
+  <data name="Error_DownloadFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to download file</value>
+  </data>
+  <data name="Error_ElementNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that a web page element with the specified CSS selector was not found</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="Error_ElementNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Element with specified CSS selector not found</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="Error_ExtractDataError_Description" xml:space="preserve">
+    <value>Indicates a problem extracting data</value>
+  </data>
+  <data name="Error_ExtractDataError_FriendlyName" xml:space="preserve">
+    <value>Failed to extract data</value>
+  </data>
+  <data name="Error_FocusTextFieldError_Description" xml:space="preserve">
+    <value>Indicates a problem setting input focus on the specified web page text field</value>
+  </data>
+  <data name="Error_FocusTextFieldError_FriendlyName" xml:space="preserve">
+    <value>Failed to set input focus on web page text field</value>
+  </data>
+  <data name="Error_GetDetailsOfWebPageError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the details of the specified web page</value>
+  </data>
+  <data name="Error_GetDetailsOfWebPageError_FriendlyName" xml:space="preserve">
+    <value>Failed to get details of web page</value>
+  </data>
+  <data name="Error_HoverOverElementError_Description" xml:space="preserve">
+    <value>Indicates a problem hovering over the specified element</value>
+  </data>
+  <data name="Error_HoverOverElementError_FriendlyName" xml:space="preserve">
+    <value>Failed to hover over element</value>
+  </data>
+  <data name="Error_InvalidUrlError_Description" xml:space="preserve">
+    <value>Indicates that the provided URL was invalid</value>
+  </data>
+  <data name="Error_InvalidUrlError_FriendlyName" xml:space="preserve">
+    <value>Invalid URL</value>
+  </data>
+  <data name="Error_JavaScriptExecutionError_Description" xml:space="preserve">
+    <value>Indicates a problem running JavaScript</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="Error_JavaScriptExecutionError_FriendlyName" xml:space="preserve">
+    <value>Failed to run JavaScript</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="Error_LaunchChromeError_Description" xml:space="preserve">
+    <value>Indicates a problem launching Chrome</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="Error_LaunchChromeError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Chrome</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="Error_LaunchEdgeError_Description" xml:space="preserve">
+    <value>Indicates a problem launching Microsoft Edge</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="Error_LaunchEdgeError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Microsoft Edge</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="Error_LaunchExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem launching an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_LaunchExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_LaunchFirefoxError_Description" xml:space="preserve">
+    <value>Indicates a problem launching Firefox</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="Error_LaunchFirefoxError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Firefox</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="Error_LaunchInternetExplorerError_Description" xml:space="preserve">
+    <value>Indicates a problem launching Internet Explorer</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="Error_LaunchInternetExplorerError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Internet Explorer</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="Error_NavigateToWebPageError_Description" xml:space="preserve">
+    <value>Indicates a problem navigating to the specified web page</value>
+  </data>
+  <data name="Error_NavigateToWebPageError_FriendlyName" xml:space="preserve">
+    <value>Failed to navigate to web page</value>
+  </data>
+  <data name="Error_PopulateTextFieldError_Description" xml:space="preserve">
+    <value>Indicates a problem writing to the specified text field</value>
+  </data>
+  <data name="Error_PopulateTextFieldError_FriendlyName" xml:space="preserve">
+    <value>Failed to write on text field</value>
+  </data>
+  <data name="Error_PressButtonError_Description" xml:space="preserve">
+    <value>Indicates a problem clicking the specified web page button</value>
+  </data>
+  <data name="Error_PressButtonError_FriendlyName" xml:space="preserve">
+    <value>Failed to click on web page button</value>
+  </data>
+  <data name="Error_RetrieveAttributeError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving attribute of web page element</value>
+  </data>
+  <data name="Error_RetrieveAttributeError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve attribute of UI element on web page</value>
+  </data>
+  <data name="Error_SaveFileError_Description" xml:space="preserve">
+    <value>Indicates a problem saving the specified file</value>
+  </data>
+  <data name="Error_SaveFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to save file</value>
+  </data>
+  <data name="Error_SaveToClipboardError_Description" xml:space="preserve">
+    <value>Indicates a problem while saving to the clipboard</value>
+  </data>
+  <data name="Error_SaveToClipboardError_FriendlyName" xml:space="preserve">
+    <value>Failed to save in the clipboard</value>
+  </data>
+  <data name="Error_SelectRadioButtonError_Description" xml:space="preserve">
+    <value>Indicates a problem in selecting the specified radio button</value>
+  </data>
+  <data name="Error_SelectRadioButtonError_FriendlyName" xml:space="preserve">
+    <value>Failed to select radio button</value>
+  </data>
+  <data name="Error_SetCheckboxStateError_Description" xml:space="preserve">
+    <value>Indicates a problem in setting the state of the specified check box</value>
+  </data>
+  <data name="Error_SetCheckboxStateError_FriendlyName" xml:space="preserve">
+    <value>Failed to set the state of the checkbox</value>
+  </data>
+  <data name="Error_SetDropDownListValueError_Description" xml:space="preserve">
+    <value>Indicates a problem setting the selected drop-down list option</value>
+  </data>
+  <data name="Error_SetDropDownListValueError_FriendlyName" xml:space="preserve">
+    <value>Failed to set the selected option</value>
+  </data>
+  <data name="Error_TakeScreenshotError_Description" xml:space="preserve">
+    <value>Indicates a problem taking a screenshot</value>
+  </data>
+  <data name="Error_TakeScreenshotError_FriendlyName" xml:space="preserve">
+    <value>Failed to take screenshot</value>
+  </data>
+  <data name="Error_WriteToExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem writing the values to an Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_WriteToExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to write values to Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExecuteJavascript_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="ExecuteJavascript_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="ExecuteJavascript_Description" xml:space="preserve">
+    <value>Run a JavaScript function on the web page and get the returned result</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ExecuteJavascript_FriendlyName" xml:space="preserve">
+    <value>Run JavaScript function on web page</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ExecuteJavascript_Javascript_Description" xml:space="preserve">
+    <value>Enter the JavaScript function to run on the web page</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ExecuteJavascript_Javascript_FriendlyName" xml:space="preserve">
+    <value>JavaScript function</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ExecuteJavascript_Result_Description" xml:space="preserve">
+    <value>The result of the JavaScript function that run</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ExecuteJavascript_Result_FriendlyName" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ExecuteJavascript_Summary" xml:space="preserve">
+    <value>Run JavaScript function &lt;JAVASCRIPT&gt;</value>
+    <comment>{Locked="&lt;JAVASCRIPT&gt;"}{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ExtractData_Attributes_Description" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="ExtractData_Attributes_FriendlyName" xml:space="preserve">
+    <value>Attributes</value>
+  </data>
+  <data name="ExtractData_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="ExtractData_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="ExtractData_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to extract data from</value>
+  </data>
+  <data name="ExtractData_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="ExtractData_Description" xml:space="preserve">
+    <value>Extract data from specific parts of a web page in the form of single values, lists, rows or tables</value>
+  </data>
+  <data name="ExtractData_ExcelInstance_Description" xml:space="preserve">
+    <value>The Excel instance with the extracted data. Use this instance to manipulate the spreadsheet (or save and close it) by using the dedicated Excel actions.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractData_ExcelInstance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractData_ExtractedData_Description" xml:space="preserve">
+    <value>The extracted data in the form of a single value, list, datarow or datatable</value>
+  </data>
+  <data name="ExtractData_ExtractedData_FriendlyName" xml:space="preserve">
+    <value>Extracted data</value>
+  </data>
+  <data name="ExtractData_ExtractionMode_Description" xml:space="preserve">
+    <value>Specify what to extract from the web page</value>
+  </data>
+  <data name="ExtractData_ExtractionMode_FriendlyName" xml:space="preserve">
+    <value>Extraction mode</value>
+  </data>
+  <data name="ExtractData_ExtractionParameters_Description" xml:space="preserve">
+    <value>The parameters to use when extracting data. Depending on the extraction mode this accepts different data.</value>
+  </data>
+  <data name="ExtractData_ExtractionParameters_FriendlyName" xml:space="preserve">
+    <value>Extraction parameters</value>
+  </data>
+  <data name="ExtractData_FriendlyName" xml:space="preserve">
+    <value>Extract data from web page</value>
+  </data>
+  <data name="ExtractData_GetAllWebPages_Description" xml:space="preserve">
+    <value>Specify whether to get all web pages</value>
+  </data>
+  <data name="ExtractData_GetAllWebPages_FriendlyName" xml:space="preserve">
+    <value>Get all web pages</value>
+  </data>
+  <data name="ExtractData_MaxWebPagesToProcess_Description" xml:space="preserve">
+    <value>The maximum number of web pages to process</value>
+  </data>
+  <data name="ExtractData_MaxWebPagesToProcess_FriendlyName" xml:space="preserve">
+    <value>Max web pages to process</value>
+  </data>
+  <data name="ExtractData_PagerCssSelector_Description" xml:space="preserve">
+    <value>The pager CSS selector</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="ExtractData_PagerCssSelector_FriendlyName" xml:space="preserve">
+    <value>Pager CSS selector</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="ExtractData_StoreDataMode_Description" xml:space="preserve">
+    <value>Specify whether to store the extracted data in a variable or an Excel spreadsheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractData_StoreDataMode_FriendlyName" xml:space="preserve">
+    <value>Store data mode</value>
+  </data>
+  <data name="ExtractData_Summary" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractData_UsePaging_Description" xml:space="preserve">
+    <value>Specify whether to use paging</value>
+  </data>
+  <data name="ExtractData_UsePaging_FriendlyName" xml:space="preserve">
+    <value>Use paging</value>
+  </data>
+  <data name="ExtractDataInExcel_Description" xml:space="preserve">
+    <value>Extract data from web pages and store them in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractDataInExcel_Summary" xml:space="preserve">
+    <value>No data specified for extraction</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHandPickedValues_Description" xml:space="preserve">
+    <value>Extract data from specific fields in web page and store them in a variable</value>
+  </data>
+  <data name="ExtractHandPickedValues_Summary" xml:space="preserve">
+    <value>Extract data from specific fields in web page and store them in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesInExcel_Description" xml:space="preserve">
+    <value>Extract data from specific fields in web page and store them in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesInExcel_Summary" xml:space="preserve">
+    <value>Extract data from specific fields in web page and store them into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHtmlTable_Description" xml:space="preserve">
+    <value>Extract all data from an HTML table</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="ExtractHtmlTable_Summary" xml:space="preserve">
+    <value>Extract HTML table records and store the results in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}{Locked="HTML"}</comment>
+  </data>
+  <data name="ExtractHtmlTableInExcel_Description" xml:space="preserve">
+    <value>Extract all data from an HTML table in an Excel instance</value>
+    <comment>{Locked="HTML"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHtmlTableInExcel_Summary" xml:space="preserve">
+    <value>Extract HTML table records and store the results into an Excel Spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="HTML"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractionMode_EntireHtmlTable_FriendlyName" xml:space="preserve">
+    <value>Entire HTML table</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="ExtractionMode_HandpickedValues_FriendlyName" xml:space="preserve">
+    <value>Handpicked values</value>
+  </data>
+  <data name="ExtractionMode_List_FriendlyName" xml:space="preserve">
+    <value>List</value>
+  </data>
+  <data name="ExtractionMode_SingleValue_FriendlyName" xml:space="preserve">
+    <value>Single value</value>
+  </data>
+  <data name="ExtractionMode_Table_FriendlyName" xml:space="preserve">
+    <value>Table</value>
+  </data>
+  <data name="ExtractionMode_Undefined_FriendlyName" xml:space="preserve">
+    <value>Undefined</value>
+  </data>
+  <data name="ExtractList_Description" xml:space="preserve">
+    <value>Extract list from web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractList_Summary" xml:space="preserve">
+    <value>Extract list from web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractListInExcel_Description" xml:space="preserve">
+    <value>Extract list from web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractListInExcel_Summary" xml:space="preserve">
+    <value>Extract list from web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractSingleValue_Description" xml:space="preserve">
+    <value>Extract single value from web page and store it in a variable</value>
+  </data>
+  <data name="ExtractSingleValue_Summary" xml:space="preserve">
+    <value>Extract single value from web page and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractSingleValueInExcel_Description" xml:space="preserve">
+    <value>Extract single value from web page and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractSingleValueInExcel_Summary" xml:space="preserve">
+    <value>Extract single value from web page and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractTable_Description" xml:space="preserve">
+    <value>Extract data from specific fields in web pages, create a virtual table and store it in a variable</value>
+  </data>
+  <data name="ExtractTable_Summary" xml:space="preserve">
+    <value>Extract data from specific fields in web pages, create a virtual table and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractTableInExcel_Description" xml:space="preserve">
+    <value>Extract data from specific fields in web pages, create a virtual table and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractTableInExcel_Summary" xml:space="preserve">
+    <value>Extract data from specific fields in web pages, create a virtual table and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="FileFormat_Bmp_FriendlyName" xml:space="preserve">
+    <value>BMP</value>
+  </data>
+  <data name="FileFormat_Emf_FriendlyName" xml:space="preserve">
+    <value>EMF</value>
+  </data>
+  <data name="FileFormat_Exif_FriendlyName" xml:space="preserve">
+    <value>EXIF</value>
+  </data>
+  <data name="FileFormat_Gif_FriendlyName" xml:space="preserve">
+    <value>GIF</value>
+  </data>
+  <data name="FileFormat_Jpg_FriendlyName" xml:space="preserve">
+    <value>JPG</value>
+  </data>
+  <data name="FileFormat_Png_FriendlyName" xml:space="preserve">
+    <value>PNG</value>
+  </data>
+  <data name="FileFormat_Tiff_FriendlyName" xml:space="preserve">
+    <value>TIFF</value>
+  </data>
+  <data name="FileFormat_Wmf_FriendlyName" xml:space="preserve">
+    <value>WMF</value>
+  </data>
+  <data name="Focus_Description" xml:space="preserve">
+    <value>Set the focus on an input element of a web page and scroll it into view</value>
+  </data>
+  <data name="Focus_Summary" xml:space="preserve">
+    <value>Focus on &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="FocusBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FocusBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FocusBase_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to focus</value>
+  </data>
+  <data name="FocusBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FocusBase_Description" xml:space="preserve">
+    <value>Set the focus on an input element of a web page and scroll it into view</value>
+  </data>
+  <data name="FocusBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FocusBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FocusBase_FriendlyName" xml:space="preserve">
+    <value>Focus text field on web page</value>
+  </data>
+  <data name="FocusBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears</value>
+  </data>
+  <data name="FocusBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FocusBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="FocusBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="FocusCloseDialog_Description" xml:space="preserve">
+    <value>Set the focus on an input element of a web page and scroll it into view. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="FocusCloseDialog_Summary" xml:space="preserve">
+    <value>Focus on &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="FocusNoWait_Description" xml:space="preserve">
+    <value>Set the focus on an input element of a web page and scroll it into view without waiting for the web page to load</value>
+  </data>
+  <data name="FocusNoWait_Summary" xml:space="preserve">
+    <value>Focus on &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="FocusPressDialogButton_Description" xml:space="preserve">
+    <value>Set the focus on an input element of a web page and scroll it into view and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="FocusPressDialogButton_Summary" xml:space="preserve">
+    <value>Focus on &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="FormFilling_FocusBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FormFilling_FocusBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FormFilling_FocusBase_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to focus</value>
+  </data>
+  <data name="FormFilling_FocusBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_FocusBase_Description" xml:space="preserve">
+    <value>Set the focus on an input element of a web page and scroll it into view</value>
+  </data>
+  <data name="FormFilling_FocusBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_FocusBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FormFilling_FocusBase_FriendlyName" xml:space="preserve">
+    <value>Focus text field on web page</value>
+  </data>
+  <data name="FormFilling_FocusBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_FocusBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_FocusBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="FormFilling_FocusBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_Control_Description" xml:space="preserve">
+    <value>Select the text field to populate</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_Description" xml:space="preserve">
+    <value>Fill a text field in a web page with the specified text</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_EmulateTyping_Description" xml:space="preserve">
+    <value>Specify whether to fill the text field at once by simply setting the value of the text box, or emulate a user typing by sending characters one by one. The latter method is slower, but required in some complex web pages.</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_EmulateTyping_FriendlyName" xml:space="preserve">
+    <value>Emulate typing</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_FriendlyName" xml:space="preserve">
+    <value>Populate text field on web page</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after populating the text field</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_Text_Description" xml:space="preserve">
+    <value>Enter the text to fill in the text field</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_UnfocusAfterPopulate_Description" xml:space="preserve">
+    <value>Choose whether to unfocus the text box right after this action fills it with the specified text. In case of scraping autocompletion lists, this parameter should be set to "False".</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_UnfocusAfterPopulate_FriendlyName" xml:space="preserve">
+    <value>Unfocus text box after filling it</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after populating the text field</value>
+  </data>
+  <data name="FormFilling_PopulateTextFieldBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_Control_Description" xml:space="preserve">
+    <value>Select the button to press</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_Description" xml:space="preserve">
+    <value>Press a web page button</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_FriendlyName" xml:space="preserve">
+    <value>Press button on web page</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after pressing the button</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after pressing the button</value>
+  </data>
+  <data name="FormFilling_PressButtonBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_Control_Description" xml:space="preserve">
+    <value>The radio button to select</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_Description" xml:space="preserve">
+    <value>Select a radio button on the web page</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_DialogButton_Description" xml:space="preserve">
+    <value>The dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_FriendlyName" xml:space="preserve">
+    <value>Select radio button on web page</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after selecting the radio button</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after selecting the radio button</value>
+  </data>
+  <data name="FormFilling_SelectRadioButtonBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_Control_Description" xml:space="preserve">
+    <value>Select the check box to set the state of</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_Description" xml:space="preserve">
+    <value>Check or uncheck a check box in a web form</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_FriendlyName" xml:space="preserve">
+    <value>Set check box state on web page</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after setting the check box state</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_State_Description" xml:space="preserve">
+    <value>Select the check box state</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_State_FriendlyName" xml:space="preserve">
+    <value>Check box state</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after setting the check box state</value>
+  </data>
+  <data name="FormFilling_SetCheckboxStateBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_Control_Description" xml:space="preserve">
+    <value>Select the drop-down list to set its value</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_Description" xml:space="preserve">
+    <value>Set or clear the selected option for a drop-down list in a web form</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_FriendlyName" xml:space="preserve">
+    <value>Set drop-down list value on web page</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after setting the drop-down list value</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_Operation_Description" xml:space="preserve">
+    <value>Select whether to select a value or clear the selected value of the drop-down list</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_OptionNames_Description" xml:space="preserve">
+    <value>Enter one or more options (one per line if more than one) to be selected in the drop-down list. Multiple options make sense only when working with multi-select lists. If the list is single-selection, then only the first option specified will be used.</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_OptionNames_FriendlyName" xml:space="preserve">
+    <value>Option name(s)</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_OptionsIndeces_Description" xml:space="preserve">
+    <value>Type a space-separated list of 1-based indices (e.g. 1 3 4)</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_OptionsIndeces_FriendlyName" xml:space="preserve">
+    <value>Option indices</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after setting the drop-down list value</value>
+  </data>
+  <data name="FormFilling_SetDropDownListValueBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="GetDetailsOfElement_AttributeName_Description" xml:space="preserve">
+    <value>Enter or select the attribute whose value to retrieve</value>
+  </data>
+  <data name="GetDetailsOfElement_AttributeName_FriendlyName" xml:space="preserve">
+    <value>Attribute name</value>
+  </data>
+  <data name="GetDetailsOfElement_AttributeValue_Description" xml:space="preserve">
+    <value>The value of the web element's attribute</value>
+  </data>
+  <data name="GetDetailsOfElement_AttributeValue_FriendlyName" xml:space="preserve">
+    <value>Element attribute value</value>
+  </data>
+  <data name="GetDetailsOfElement_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="GetDetailsOfElement_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="GetDetailsOfElement_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to get details from</value>
+  </data>
+  <data name="GetDetailsOfElement_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="GetDetailsOfElement_Description" xml:space="preserve">
+    <value>Get the value of an element's attribute on a web page</value>
+  </data>
+  <data name="GetDetailsOfElement_FriendlyName" xml:space="preserve">
+    <value>Get details of element on web page</value>
+  </data>
+  <data name="GetDetailsOfElement_Summary" xml:space="preserve">
+    <value>Get attribute &lt;ATTRIBUTENAME&gt; of UI element &lt;CONTROL&gt; on web page</value>
+    <comment>{Locked="&lt;ATTRIBUTENAME&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="GetDetailsOfWebPage_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="GetDetailsOfWebPage_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="GetDetailsOfWebPage_Description" xml:space="preserve">
+    <value>Get a property of a web page, such as its title or its source text</value>
+  </data>
+  <data name="GetDetailsOfWebPage_Details_Description" xml:space="preserve">
+    <value>The details retrieved from the web page</value>
+  </data>
+  <data name="GetDetailsOfWebPage_Details_FriendlyName" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="GetDetailsOfWebPage_DetailsType_Description" xml:space="preserve">
+    <value>Select the information to retrieve from the web page</value>
+  </data>
+  <data name="GetDetailsOfWebPage_DetailsType_FriendlyName" xml:space="preserve">
+    <value>Get</value>
+  </data>
+  <data name="GetDetailsOfWebPage_FriendlyName" xml:space="preserve">
+    <value>Get details of web page</value>
+  </data>
+  <data name="GetDetailsOfWebPage_Summary" xml:space="preserve">
+    <value>Get the &lt;DETAILSTYPE&gt; and store it into &lt;DETAILS&gt;</value>
+    <comment>{Locked="&lt;DETAILSTYPE&gt;"}{Locked="&lt;DETAILS&gt;"}</comment>
+  </data>
+  <data name="GoToWebPage_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page</value>
+  </data>
+  <data name="GoToWebPage_Summary" xml:space="preserve">
+    <value>Navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="GoToWebPageBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="GoToWebPageBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="GoToWebPageBase_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page</value>
+  </data>
+  <data name="GoToWebPageBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="GoToWebPageBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="GoToWebPageBase_FriendlyName" xml:space="preserve">
+    <value>Go to web page</value>
+  </data>
+  <data name="GoToWebPageBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears while loading the web page</value>
+  </data>
+  <data name="GoToWebPageBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="GoToWebPageBase_NavigationType_Description" xml:space="preserve">
+    <value>Specify where to navigate to</value>
+  </data>
+  <data name="GoToWebPageBase_NavigationType_FriendlyName" xml:space="preserve">
+    <value>Navigate</value>
+  </data>
+  <data name="GoToWebPageBase_Url_Description" xml:space="preserve">
+    <value>Enter the URL to navigate to</value>
+  </data>
+  <data name="GoToWebPageBase_Url_FriendlyName" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="GoToWebPageBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the web page to load completely before proceeding</value>
+  </data>
+  <data name="GoToWebPageBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="GoToWebPageCloseDialog_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="GoToWebPageCloseDialog_Summary" xml:space="preserve">
+    <value>Navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="GoToWebPageNoWait_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page and don't wait for the web page to load</value>
+  </data>
+  <data name="GoToWebPageNoWait_Summary" xml:space="preserve">
+    <value>Navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="GoToWebPagePressDialogButton_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="GoToWebPagePressDialogButton_Summary" xml:space="preserve">
+    <value>Navigate to &lt;URL&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}</comment>
+  </data>
+  <data name="HandleDialogAction_CloseIt_FriendlyName" xml:space="preserve">
+    <value>Close it</value>
+  </data>
+  <data name="HandleDialogAction_DoNothing_FriendlyName" xml:space="preserve">
+    <value>Do nothing</value>
+  </data>
+  <data name="HandleDialogAction_PressButton_FriendlyName" xml:space="preserve">
+    <value>Press a button</value>
+  </data>
+  <data name="HoverOverElement_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="HoverOverElement_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="HoverOverElement_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to hover</value>
+  </data>
+  <data name="HoverOverElement_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="HoverOverElement_Description" xml:space="preserve">
+    <value>Hover the mouse over an element of a web page</value>
+  </data>
+  <data name="HoverOverElement_FriendlyName" xml:space="preserve">
+    <value>Hover mouse over element on web page</value>
+  </data>
+  <data name="HoverOverElement_Summary" xml:space="preserve">
+    <value>Hover mouse over &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="IfWebPage_ContainsElement_FriendlyName" xml:space="preserve">
+    <value>Contains element</value>
+  </data>
+  <data name="IfWebPage_ContainsText_FriendlyName" xml:space="preserve">
+    <value>Contains text</value>
+  </data>
+  <data name="IfWebPage_DoesNotContainElement_FriendlyName" xml:space="preserve">
+    <value>Doesn't contain element</value>
+  </data>
+  <data name="IfWebPage_DoesNotContainText_FriendlyName" xml:space="preserve">
+    <value>Doesn't contain text</value>
+  </data>
+  <data name="InternetExplorerLaunchMode_AttachToRunningInternetExplorer_FriendlyName" xml:space="preserve">
+    <value>Attach to running Internet Explorer</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="InternetExplorerLaunchMode_LaunchNewAutomationBrowser_FriendlyName" xml:space="preserve">
+    <value>Launch automation browser</value>
+  </data>
+  <data name="InternetExplorerLaunchMode_LaunchNewInternetExplorer_FriendlyName" xml:space="preserve">
+    <value>Launch new Internet Explorer</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchAutomationBrowser_Description" xml:space="preserve">
+    <value>Launch a new instance of automation browser for automating web sites and web applications</value>
+  </data>
+  <data name="LaunchAutomationBrowser_Summary" xml:space="preserve">
+    <value>Launch automation browser, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}</comment>
+  </data>
+  <data name="LaunchAutomationBrowserCloseDialog_Description" xml:space="preserve">
+    <value>Launch a new instance of automation browser for automating web sites and web applications. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="LaunchAutomationBrowserCloseDialog_Summary" xml:space="preserve">
+    <value>Launch automation browser, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}</comment>
+  </data>
+  <data name="LaunchAutomationBrowserNoWait_Description" xml:space="preserve">
+    <value>Launch a new instance of automation browser for automating web sites and web applications and don't wait for the web page to load</value>
+  </data>
+  <data name="LaunchAutomationBrowserNoWait_Summary" xml:space="preserve">
+    <value>Launch automation browser, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}</comment>
+  </data>
+  <data name="LaunchAutomationBrowserPressDialogButton_Description" xml:space="preserve">
+    <value>Launch a new instance of automation browser for automating web sites and web applications and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchAutomationBrowserPressDialogButton_Summary" xml:space="preserve">
+    <value>Launch automation browser, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}</comment>
+  </data>
+  <data name="LaunchChrome_Description" xml:space="preserve">
+    <value>Launch a new instance of Chrome for automating web sites and web applications</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChrome_Summary" xml:space="preserve">
+    <value>Launch Chrome, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_AttachMode_Description" xml:space="preserve">
+    <value>Specify whether to attach to a Chrome tab by its title, URL, or attach to the active tab of Chrome running as the foreground window</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_AttachMode_FriendlyName" xml:space="preserve">
+    <value>Attach to Chrome tab</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_BrowserInstance_Description" xml:space="preserve">
+    <value>The Chrome instance to use with web automation actions</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Chrome instance</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_ClearCache_Description" xml:space="preserve">
+    <value>Specify whether to clear the entire cache of the web browser right after launching it</value>
+  </data>
+  <data name="LaunchChromeBase_ClearCache_FriendlyName" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="LaunchChromeBase_ClearCookies_Description" xml:space="preserve">
+    <value>Specify whether to clear all stored cookies in the web browser right after launching it</value>
+  </data>
+  <data name="LaunchChromeBase_ClearCookies_FriendlyName" xml:space="preserve">
+    <value>Clear cookies</value>
+  </data>
+  <data name="LaunchChromeBase_Description" xml:space="preserve">
+    <value>Launch a new instance or attach to a running instance of Chrome for automating web sites and web applications</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchChromeBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="LaunchChromeBase_FriendlyName" xml:space="preserve">
+    <value>Launch new Chrome</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears while loading the initial web page</value>
+  </data>
+  <data name="LaunchChromeBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchChromeBase_LaunchMode_Description" xml:space="preserve">
+    <value>Specify whether to launch a new instance of Chrome or attach to an existing one</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_LaunchMode_FriendlyName" xml:space="preserve">
+    <value>Launch mode</value>
+  </data>
+  <data name="LaunchChromeBase_TabTitle_Description" xml:space="preserve">
+    <value>Enter the title (or part of it) of the Chrome tab to attach to</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_TabTitle_FriendlyName" xml:space="preserve">
+    <value>Tab title</value>
+  </data>
+  <data name="LaunchChromeBase_TabUrl_Description" xml:space="preserve">
+    <value>Enter the URL (or part of it) of the Chrome tab to attach to</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeBase_TabUrl_FriendlyName" xml:space="preserve">
+    <value>Tab URL</value>
+  </data>
+  <data name="LaunchChromeBase_Url_Description" xml:space="preserve">
+    <value>Enter the URL of the web site to visit when the web browser is launched</value>
+  </data>
+  <data name="LaunchChromeBase_Url_FriendlyName" xml:space="preserve">
+    <value>Initial URL</value>
+  </data>
+  <data name="LaunchChromeBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="LaunchChromeBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="LaunchChromeBase_WindowState_Description" xml:space="preserve">
+    <value>Specify whether to launch the browser window in normal, minimized of maximized state</value>
+  </data>
+  <data name="LaunchChromeBase_WindowState_FriendlyName" xml:space="preserve">
+    <value>Window state</value>
+  </data>
+  <data name="LaunchChromeCloseDialog_Description" xml:space="preserve">
+    <value>Launch a new instance of Chrome for automating web sites and web applications. If a pop-up dialog appears, close it.</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeCloseDialog_Summary" xml:space="preserve">
+    <value>Launch Chrome, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeNoWait_Description" xml:space="preserve">
+    <value>Launch a new instance of Chrome for automating web sites and web applications and don't wait for the web page to load</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromeNoWait_Summary" xml:space="preserve">
+    <value>Launch Chrome, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromePressDialogButton_Description" xml:space="preserve">
+    <value>Launch a new instance of Chrome for automating web sites and web applications and press a specified button if a pop-up dialog appears</value>
+    <comment>{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchChromePressDialogButton_Summary" xml:space="preserve">
+    <value>Launch Chrome, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Chrome"}</comment>
+  </data>
+  <data name="LaunchEdge_Description" xml:space="preserve">
+    <value>Launch a new instance of Microsoft Edge for automating web sites and web applications</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdge_Summary" xml:space="preserve">
+    <value>Launch Microsoft Edge, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_AttachMode_Description" xml:space="preserve">
+    <value>Specify whether to attach to an Microsoft Edge tab by its title, URL, or attach to the active tab of Microsoft Edge running as the foreground window</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_AttachMode_FriendlyName" xml:space="preserve">
+    <value>Attach to Microsoft Edge tab</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_BrowserInstance_Description" xml:space="preserve">
+    <value>The Microsoft Edge instance to use with web automation actions</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Microsoft Edge instance</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_ClearCache_Description" xml:space="preserve">
+    <value>Specify whether to clear the entire cache of the web browser right after launching it</value>
+  </data>
+  <data name="LaunchEdgeBase_ClearCache_FriendlyName" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="LaunchEdgeBase_ClearCookies_Description" xml:space="preserve">
+    <value>Specify whether to clear all stored cookies in the web browser right after launching it</value>
+  </data>
+  <data name="LaunchEdgeBase_ClearCookies_FriendlyName" xml:space="preserve">
+    <value>Clear cookies</value>
+  </data>
+  <data name="LaunchEdgeBase_Description" xml:space="preserve">
+    <value>Launch a new instance or attach to a running instance of Edge for automating web sites and web applications</value>
+    <comment>{Locked="Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchEdgeBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="LaunchEdgeBase_FriendlyName" xml:space="preserve">
+    <value>Launch new Microsoft Edge</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears while loading the initial web page</value>
+  </data>
+  <data name="LaunchEdgeBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchEdgeBase_LaunchMode_Description" xml:space="preserve">
+    <value>Specify whether to launch a new instance of Microsoft Edge or attach to an existing one</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_LaunchMode_FriendlyName" xml:space="preserve">
+    <value>Launch mode</value>
+  </data>
+  <data name="LaunchEdgeBase_TabTitle_Description" xml:space="preserve">
+    <value>Enter the title (or part of it) of the Microsoft Edge tab to attach to</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_TabTitle_FriendlyName" xml:space="preserve">
+    <value>Tab title</value>
+  </data>
+  <data name="LaunchEdgeBase_TabUrl_Description" xml:space="preserve">
+    <value>Enter the URL (or part of it) of the Microsoft Edge tab to attach to</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeBase_TabUrl_FriendlyName" xml:space="preserve">
+    <value>Tab URL</value>
+  </data>
+  <data name="LaunchEdgeBase_Url_Description" xml:space="preserve">
+    <value>Enter the URL of the web site to visit when the web browser is launched</value>
+  </data>
+  <data name="LaunchEdgeBase_Url_FriendlyName" xml:space="preserve">
+    <value>Initial URL</value>
+  </data>
+  <data name="LaunchEdgeBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="LaunchEdgeBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="LaunchEdgeBase_WindowState_Description" xml:space="preserve">
+    <value>Specify whether to launch the browser window in normal, minimized of maximized state</value>
+  </data>
+  <data name="LaunchEdgeBase_WindowState_FriendlyName" xml:space="preserve">
+    <value>Window state</value>
+  </data>
+  <data name="LaunchEdgeCloseDialog_Description" xml:space="preserve">
+    <value>Launch a new instance of Microsoft Edge for automating web sites and web applications. If a pop-up dialog appears, close it.</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeCloseDialog_Summary" xml:space="preserve">
+    <value>Launch Microsoft Edge, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeNoWait_Description" xml:space="preserve">
+    <value>Launch a new instance of Microsoft Edge for automating web sites and web applications and don't wait for the web page to load</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgeNoWait_Summary" xml:space="preserve">
+    <value>Launch Microsoft Edge, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgePressDialogButton_Description" xml:space="preserve">
+    <value>Launch a new instance of Microsoft Edge for automating web sites and web applications and press a specified button if a pop-up dialog appears</value>
+    <comment>{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchEdgePressDialogButton_Summary" xml:space="preserve">
+    <value>Launch Microsoft Edge, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="LaunchFirefox_Description" xml:space="preserve">
+    <value>Launch a new instance of Firefox for automating web sites and web applications</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefox_Summary" xml:space="preserve">
+    <value>Launch Firefox, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_AttachMode_Description" xml:space="preserve">
+    <value>Specify whether to attach to a Firefox tab by its title, URL, or attach to the active tab of Firefox running as the foreground window</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_AttachMode_FriendlyName" xml:space="preserve">
+    <value>Attach to Firefox tab</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_BrowserInstance_Description" xml:space="preserve">
+    <value>The Firefox instance to use with web automation actions</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Firefox instance</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_ClearCache_Description" xml:space="preserve">
+    <value>Specify whether to clear the entire cache of the web browser right after launching it</value>
+  </data>
+  <data name="LaunchFirefoxBase_ClearCache_FriendlyName" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="LaunchFirefoxBase_ClearCookies_Description" xml:space="preserve">
+    <value>Specify whether to clear all stored cookies in the web browser right after launching it</value>
+  </data>
+  <data name="LaunchFirefoxBase_ClearCookies_FriendlyName" xml:space="preserve">
+    <value>Clear cookies</value>
+  </data>
+  <data name="LaunchFirefoxBase_Description" xml:space="preserve">
+    <value>Launch a new instance or attach to a running instance of Firefox for automating web sites and web applications</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchFirefoxBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="LaunchFirefoxBase_FriendlyName" xml:space="preserve">
+    <value>Launch new Firefox</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears while loading the initial web page</value>
+  </data>
+  <data name="LaunchFirefoxBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchFirefoxBase_LaunchMode_Description" xml:space="preserve">
+    <value>Specify whether to launch a new instance of Firefox or attach to an existing one</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_LaunchMode_FriendlyName" xml:space="preserve">
+    <value>Launch mode</value>
+  </data>
+  <data name="LaunchFirefoxBase_TabTitle_Description" xml:space="preserve">
+    <value>Enter the title (or part of it) of the Firefox tab to attach to</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_TabTitle_FriendlyName" xml:space="preserve">
+    <value>Tab title</value>
+  </data>
+  <data name="LaunchFirefoxBase_TabUrl_Description" xml:space="preserve">
+    <value>Enter the URL (or part of it) of the Firefox tab to attach to</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxBase_TabUrl_FriendlyName" xml:space="preserve">
+    <value>Tab URL</value>
+  </data>
+  <data name="LaunchFirefoxBase_Url_Description" xml:space="preserve">
+    <value>Enter the URL of the web site to visit when the web browser is launched</value>
+  </data>
+  <data name="LaunchFirefoxBase_Url_FriendlyName" xml:space="preserve">
+    <value>Initial URL</value>
+  </data>
+  <data name="LaunchFirefoxBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="LaunchFirefoxBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="LaunchFirefoxBase_WindowState_Description" xml:space="preserve">
+    <value>Specify whether to launch the browser window in normal, minimized of maximized state</value>
+  </data>
+  <data name="LaunchFirefoxBase_WindowState_FriendlyName" xml:space="preserve">
+    <value>Window state</value>
+  </data>
+  <data name="LaunchFirefoxCloseDialog_Description" xml:space="preserve">
+    <value>Launch a new instance of Firefox for automating web sites and web applications. If a pop-up dialog appears, close it.</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxCloseDialog_Summary" xml:space="preserve">
+    <value>Launch Firefox, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxNoWait_Description" xml:space="preserve">
+    <value>Launch a new instance of Firefox for automating web sites and web applications and don't wait for the web page to load</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxNoWait_Summary" xml:space="preserve">
+    <value>Launch Firefox, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxPressDialogButton_Description" xml:space="preserve">
+    <value>Launch a new instance of Firefox for automating web sites and web applications and press a specified button if a pop-up dialog appears</value>
+    <comment>{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchFirefoxPressDialogButton_Summary" xml:space="preserve">
+    <value>Launch Firefox, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Firefox"}</comment>
+  </data>
+  <data name="LaunchInternetExplorer_Description" xml:space="preserve">
+    <value>Launch a new instance of Internet Explorer for automating web sites and web applications</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorer_Summary" xml:space="preserve">
+    <value>Launch Internet Explorer, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_AttachMode_Description" xml:space="preserve">
+    <value>Specify whether to attach to an Internet Explorer tab by its title, URL, or attach to the active tab of Internet Explorer running as the foreground window</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_AttachMode_FriendlyName" xml:space="preserve">
+    <value>Attach to Internet Explorer tab</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_BrowserInstance_Description" xml:space="preserve">
+    <value>The Internet Explorer instance to use with web automation actions</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Internet Explorer instance</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_ClearCache_Description" xml:space="preserve">
+    <value>Specify whether to clear the entire cache of the web browser right after launching it</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_ClearCache_FriendlyName" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_ClearCookies_Description" xml:space="preserve">
+    <value>Specify whether to clear all stored cookies in the web browser right after launching it</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_ClearCookies_FriendlyName" xml:space="preserve">
+    <value>Clear cookies</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_CustomUserAgentString_Description" xml:space="preserve">
+    <value>Specify the custom user agent string for the runtime web helper. If this field remains empty, the runtime web helper uses by default the user agent string of Internet Explorer installed on the machine.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_CustomUserAgentString_FriendlyName" xml:space="preserve">
+    <value>Custom user agent string</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_Description" xml:space="preserve">
+    <value>Launch a new instance or attach to a running instance of Internet Explorer for automating web sites and web applications</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_FriendlyName" xml:space="preserve">
+    <value>Launch new Internet Explorer</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears while loading the initial web page</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_LaunchMode_Description" xml:space="preserve">
+    <value>Specify whether to launch the automation browser or a new instance of Internet Explorer or attach to an existing one</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_LaunchMode_FriendlyName" xml:space="preserve">
+    <value>Launch mode</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_TabTitle_Description" xml:space="preserve">
+    <value>Enter the title (or part of it) of the Internet Explorer tab to attach to</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_TabTitle_FriendlyName" xml:space="preserve">
+    <value>Tab title</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_TabUrl_Description" xml:space="preserve">
+    <value>Enter the URL (or part of it) of the Internet Explorer tab to attach to</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerBase_TabUrl_FriendlyName" xml:space="preserve">
+    <value>Tab URL</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_Url_Description" xml:space="preserve">
+    <value>Enter the URL of the web site to visit when the web browser is launched</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_Url_FriendlyName" xml:space="preserve">
+    <value>Initial URL</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_WindowState_Description" xml:space="preserve">
+    <value>Specify whether to launch the browser window in normal, minimized of maximized state</value>
+  </data>
+  <data name="LaunchInternetExplorerBase_WindowState_FriendlyName" xml:space="preserve">
+    <value>Window state</value>
+  </data>
+  <data name="LaunchInternetExplorerCloseDialog_Description" xml:space="preserve">
+    <value>Launch a new instance of Internet Explorer for automating web sites and web applications. If a pop-up dialog appears, close it.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerCloseDialog_Summary" xml:space="preserve">
+    <value>Launch Internet Explorer, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerNoWait_Description" xml:space="preserve">
+    <value>Launch a new instance of Internet Explorer for automating web sites and web applications and don't wait for the web page to load</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerNoWait_Summary" xml:space="preserve">
+    <value>Launch Internet Explorer, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerPressDialogButton_Description" xml:space="preserve">
+    <value>Launch a new instance of Internet Explorer for automating web sites and press a specified button if a pop-up dialog appears</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchInternetExplorerPressDialogButton_Summary" xml:space="preserve">
+    <value>Launch Internet Explorer, navigate to &lt;URL&gt; and store the instance into &lt;BROWSERINSTANCE&gt;</value>
+    <comment>{Locked="&lt;URL&gt;"}{Locked="&lt;BROWSERINSTANCE&gt;"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="LaunchMode_Attach_FriendlyName" xml:space="preserve">
+    <value>Attach to running instance</value>
+  </data>
+  <data name="LaunchMode_LaunchNew_FriendlyName" xml:space="preserve">
+    <value>Launch new Instance</value>
+  </data>
+  <data name="NavigateBack_Description" xml:space="preserve">
+    <value>Navigate the web browser back</value>
+  </data>
+  <data name="NavigateBack_Summary" xml:space="preserve">
+    <value>Navigate back</value>
+  </data>
+  <data name="NavigateBackCloseDialog_Description" xml:space="preserve">
+    <value>Navigate the web browser back. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="NavigateBackCloseDialog_Summary" xml:space="preserve">
+    <value>Navigate back</value>
+  </data>
+  <data name="NavigateBackNoWait_Description" xml:space="preserve">
+    <value>Navigate the web browser back and don't wait for the web page to load</value>
+  </data>
+  <data name="NavigateBackNoWait_Summary" xml:space="preserve">
+    <value>Navigate back</value>
+  </data>
+  <data name="NavigateBackPressDialogButton_Description" xml:space="preserve">
+    <value>Navigate the web browser back and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="NavigateBackPressDialogButton_Summary" xml:space="preserve">
+    <value>Navigate back</value>
+  </data>
+  <data name="NavigateForward_Description" xml:space="preserve">
+    <value>Navigate the web browser forward</value>
+  </data>
+  <data name="NavigateForward_Summary" xml:space="preserve">
+    <value>Navigate forward</value>
+  </data>
+  <data name="NavigateForwardCloseDialog_Description" xml:space="preserve">
+    <value>Navigate the web browser forward. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="NavigateForwardCloseDialog_Summary" xml:space="preserve">
+    <value>Navigate forward</value>
+  </data>
+  <data name="NavigateForwardNoWait_Description" xml:space="preserve">
+    <value>Navigate the web browser forward and don't wait for the web page to load</value>
+  </data>
+  <data name="NavigateForwardNoWait_Summary" xml:space="preserve">
+    <value>Navigate forward</value>
+  </data>
+  <data name="NavigateForwardPressDialogButton_Description" xml:space="preserve">
+    <value>Navigate the web browser forward and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="NavigateForwardPressDialogButton_Summary" xml:space="preserve">
+    <value>Navigate forward</value>
+  </data>
+  <data name="NavigationType_NavigateBack_FriendlyName" xml:space="preserve">
+    <value>Back</value>
+  </data>
+  <data name="NavigationType_NavigateForward_FriendlyName" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="NavigationType_NavigateToUrl_FriendlyName" xml:space="preserve">
+    <value>To URL</value>
+  </data>
+  <data name="NavigationType_ReloadWebPage_FriendlyName" xml:space="preserve">
+    <value>Reload web page</value>
+  </data>
+  <data name="PopulateTextField_Description" xml:space="preserve">
+    <value>Fill a text field in a web page with the specified text</value>
+  </data>
+  <data name="PopulateTextField_Summary" xml:space="preserve">
+    <value>&lt;if(EMULATETYPING)&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; using emulated typing&lt;else&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; without using emulated typing&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(EMULATETYPING)&gt;"}{Locked="&lt;CONTROL&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="PopulateTextFieldBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="PopulateTextFieldBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="PopulateTextFieldBase_Control_Description" xml:space="preserve">
+    <value>Select the text field to populate</value>
+  </data>
+  <data name="PopulateTextFieldBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="PopulateTextFieldBase_Description" xml:space="preserve">
+    <value>Fill a text field in a web page with the specified text</value>
+  </data>
+  <data name="PopulateTextFieldBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="PopulateTextFieldBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="PopulateTextFieldBase_EmulateTyping_Description" xml:space="preserve">
+    <value>Specify whether to fill the text field at once by simply setting the value of the text box, or emulate a user typing by sending characters one by one. The latter method is slower, but required in some complex web pages.</value>
+  </data>
+  <data name="PopulateTextFieldBase_EmulateTyping_FriendlyName" xml:space="preserve">
+    <value>Emulate typing</value>
+  </data>
+  <data name="PopulateTextFieldBase_FriendlyName" xml:space="preserve">
+    <value>Populate text field on web page</value>
+  </data>
+  <data name="PopulateTextFieldBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after populating the text field</value>
+  </data>
+  <data name="PopulateTextFieldBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="PopulateTextFieldBase_Text_Description" xml:space="preserve">
+    <value>Enter the text to fill in the text field</value>
+  </data>
+  <data name="PopulateTextFieldBase_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="PopulateTextFieldBase_UnfocusAfterPopulate_Description" xml:space="preserve">
+    <value>Choose whether to unfocus the text box right after this action fills it with the specified text. In case of scraping autocompletion lists, this parameter should be set to "False".</value>
+  </data>
+  <data name="PopulateTextFieldBase_UnfocusAfterPopulate_FriendlyName" xml:space="preserve">
+    <value>Unfocus text box after filling it</value>
+  </data>
+  <data name="PopulateTextFieldBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after populating the text field</value>
+  </data>
+  <data name="PopulateTextFieldBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="PopulateTextFieldCloseDialog_Description" xml:space="preserve">
+    <value>Fill a text field in a web page with the specified text. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="PopulateTextFieldCloseDialog_Summary" xml:space="preserve">
+    <value>&lt;if(EMULATETYPING)&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; using emulated typing&lt;else&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; without using emulated typing&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(EMULATETYPING)&gt;"}{Locked="&lt;CONTROL&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="PopulateTextFieldNoWait_Description" xml:space="preserve">
+    <value>Fill a text field in a web page with the specified text and don't wait for the page to load</value>
+  </data>
+  <data name="PopulateTextFieldNoWait_Summary" xml:space="preserve">
+    <value>&lt;if(EMULATETYPING)&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; using emulated typing&lt;else&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; without using emulated typing&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(EMULATETYPING)&gt;"}{Locked="&lt;CONTROL&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="PopulateTextFieldPressDialogButton_Description" xml:space="preserve">
+    <value>Fill a text field in a web page with the specified text and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="PopulateTextFieldPressDialogButton_Summary" xml:space="preserve">
+    <value>&lt;if(EMULATETYPING)&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; using emulated typing&lt;else&gt;Populate text field &lt;CONTROL&gt; with &lt;TEXT&gt; without using emulated typing&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(EMULATETYPING)&gt;"}{Locked="&lt;CONTROL&gt;"}{Locked="&lt;TEXT&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="PressButton_Description" xml:space="preserve">
+    <value>Press a web page button</value>
+  </data>
+  <data name="PressButton_Summary" xml:space="preserve">
+    <value>Press web page button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="PressButtonBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="PressButtonBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="PressButtonBase_Control_Description" xml:space="preserve">
+    <value>Select the button to press</value>
+  </data>
+  <data name="PressButtonBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="PressButtonBase_Description" xml:space="preserve">
+    <value>Press a web page button</value>
+  </data>
+  <data name="PressButtonBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="PressButtonBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="PressButtonBase_FriendlyName" xml:space="preserve">
+    <value>Press button on web page</value>
+  </data>
+  <data name="PressButtonBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after pressing the button</value>
+  </data>
+  <data name="PressButtonBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="PressButtonBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely before proceeding</value>
+  </data>
+  <data name="PressButtonBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="PressButtonCloseDialog_Description" xml:space="preserve">
+    <value>Press a web page button. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="PressButtonCloseDialog_Summary" xml:space="preserve">
+    <value>Press web page button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="PressButtonNoWait_Description" xml:space="preserve">
+    <value>Press a web page button and don't wait for the page to load</value>
+  </data>
+  <data name="PressButtonNoWait_Summary" xml:space="preserve">
+    <value>Press web page button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="PressButtonPressDialogButton_Description" xml:space="preserve">
+    <value>Press a web page button and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="PressButtonPressDialogButton_Summary" xml:space="preserve">
+    <value>Press web page button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="ReloadWebPage_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page</value>
+  </data>
+  <data name="ReloadWebPage_Summary" xml:space="preserve">
+    <value>Reload the web page</value>
+  </data>
+  <data name="ReloadWebPageCloseDialog_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="ReloadWebPageCloseDialog_Summary" xml:space="preserve">
+    <value>Reload the web page</value>
+  </data>
+  <data name="ReloadWebPageNoWait_Description" xml:space="preserve">
+    <value>Reload the page and don't wait for the web page to load</value>
+  </data>
+  <data name="ReloadWebPageNoWait_Summary" xml:space="preserve">
+    <value>Reload the web page</value>
+  </data>
+  <data name="ReloadWebPagePressDialogButton_Description" xml:space="preserve">
+    <value>Navigate the web browser to a new page and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="ReloadWebPagePressDialogButton_Summary" xml:space="preserve">
+    <value>Reload the web page</value>
+  </data>
+  <data name="SelectRadioButton_Description" xml:space="preserve">
+    <value>Select a radio button on the web page</value>
+  </data>
+  <data name="SelectRadioButton_Summary" xml:space="preserve">
+    <value>Select radio button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SelectRadioButtonBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="SelectRadioButtonBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="SelectRadioButtonBase_Control_Description" xml:space="preserve">
+    <value>The radio button to select</value>
+  </data>
+  <data name="SelectRadioButtonBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="SelectRadioButtonBase_Description" xml:space="preserve">
+    <value>Select a radio button on the web page</value>
+  </data>
+  <data name="SelectRadioButtonBase_DialogButton_Description" xml:space="preserve">
+    <value>The dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="SelectRadioButtonBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="SelectRadioButtonBase_FriendlyName" xml:space="preserve">
+    <value>Select radio button on web page</value>
+  </data>
+  <data name="SelectRadioButtonBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after selecting the radio button</value>
+  </data>
+  <data name="SelectRadioButtonBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="SelectRadioButtonBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after selecting the radio button</value>
+  </data>
+  <data name="SelectRadioButtonBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="SelectRadioButtonCloseDialog_Description" xml:space="preserve">
+    <value>Select a radio button on the web page. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="SelectRadioButtonCloseDialog_Summary" xml:space="preserve">
+    <value>Select radio button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SelectRadioButtonNoWait_Description" xml:space="preserve">
+    <value>Select a radio button on the web page and don't wait for the page to load</value>
+  </data>
+  <data name="SelectRadioButtonNoWait_Summary" xml:space="preserve">
+    <value>Select radio button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SelectRadioButtonPressDialogButton_Description" xml:space="preserve">
+    <value>Select a radio button on the web page and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="SelectRadioButtonPressDialogButton_Summary" xml:space="preserve">
+    <value>Select radio button &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetCheckboxState_Description" xml:space="preserve">
+    <value>Check or uncheck a check box in a web form</value>
+  </data>
+  <data name="SetCheckboxState_Summary" xml:space="preserve">
+    <value>Set check box &lt;CONTROL&gt; state to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SetCheckboxStateBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="SetCheckboxStateBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="SetCheckboxStateBase_Control_Description" xml:space="preserve">
+    <value>Select the check box to set the state of</value>
+  </data>
+  <data name="SetCheckboxStateBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="SetCheckboxStateBase_Description" xml:space="preserve">
+    <value>Check or uncheck a check box in a web form</value>
+  </data>
+  <data name="SetCheckboxStateBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="SetCheckboxStateBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="SetCheckboxStateBase_FriendlyName" xml:space="preserve">
+    <value>Set check box state on web page</value>
+  </data>
+  <data name="SetCheckboxStateBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after setting the check box state</value>
+  </data>
+  <data name="SetCheckboxStateBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="SetCheckboxStateBase_State_Description" xml:space="preserve">
+    <value>Select the check box state</value>
+  </data>
+  <data name="SetCheckboxStateBase_State_FriendlyName" xml:space="preserve">
+    <value>Check box state</value>
+  </data>
+  <data name="SetCheckboxStateBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after setting the check box state</value>
+  </data>
+  <data name="SetCheckboxStateBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="SetCheckboxStateCloseDialog_Description" xml:space="preserve">
+    <value>Check or unchec a check box in a web form. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="SetCheckboxStateCloseDialog_Summary" xml:space="preserve">
+    <value>Set check box &lt;CONTROL&gt; state to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SetCheckboxStateNoWait_Description" xml:space="preserve">
+    <value>Check or uncheck a check box in a web form and don't wait for the page to load</value>
+  </data>
+  <data name="SetCheckboxStateNoWait_Summary" xml:space="preserve">
+    <value>Set check box &lt;CONTROL&gt; state to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SetCheckboxStatePressDialogButton_Description" xml:space="preserve">
+    <value>Check or uncheck a check box in a web form and press a specified button if a pop-up dialog appears</value>
+  </data>
+  <data name="SetCheckboxStatePressDialogButton_Summary" xml:space="preserve">
+    <value>Set checkbox &lt;CONTROL&gt; state to &lt;STATE&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="&lt;STATE&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="SetDropDownListValueBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="SetDropDownListValueBase_Control_Description" xml:space="preserve">
+    <value>Select the drop-down list to set its value</value>
+  </data>
+  <data name="SetDropDownListValueBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="SetDropDownListValueBase_Description" xml:space="preserve">
+    <value>Set or clear the selected option for a drop-down list in a web form</value>
+  </data>
+  <data name="SetDropDownListValueBase_DialogButton_Description" xml:space="preserve">
+    <value>Enter the dialog button to press if a pop-up dialog appears</value>
+  </data>
+  <data name="SetDropDownListValueBase_DialogButton_FriendlyName" xml:space="preserve">
+    <value>Dialog button to press</value>
+  </data>
+  <data name="SetDropDownListValueBase_FriendlyName" xml:space="preserve">
+    <value>Set drop-down list value on web page</value>
+  </data>
+  <data name="SetDropDownListValueBase_HandleDialogAction_Description" xml:space="preserve">
+    <value>Specify what to do if a pop-up dialog appears after setting the drop-down list value</value>
+  </data>
+  <data name="SetDropDownListValueBase_HandleDialogAction_FriendlyName" xml:space="preserve">
+    <value>If a pop-up dialog appears</value>
+  </data>
+  <data name="SetDropDownListValueBase_Operation_Description" xml:space="preserve">
+    <value>Select whether to select a value or clear the selected value of the drop-down list</value>
+  </data>
+  <data name="SetDropDownListValueBase_Operation_FriendlyName" xml:space="preserve">
+    <value>Operation</value>
+  </data>
+  <data name="SetDropDownListValueBase_OptionNames_Description" xml:space="preserve">
+    <value>Enter one or more options (one per line if more than one) to be selected in the drop-down list. Multiple options make sense only when working with multi-select lists. If the list is single-selection, then only the first option specified will be used.</value>
+  </data>
+  <data name="SetDropDownListValueBase_OptionNames_FriendlyName" xml:space="preserve">
+    <value>Option name(s)</value>
+  </data>
+  <data name="SetDropDownListValueBase_OptionsIndeces_Description" xml:space="preserve">
+    <value>Type a space-separated list of 1-based indices (e.g. 1 3 4)</value>
+  </data>
+  <data name="SetDropDownListValueBase_OptionsIndeces_FriendlyName" xml:space="preserve">
+    <value>Option indices</value>
+  </data>
+  <data name="SetDropDownListValueBase_WaitForPageToLoad_Description" xml:space="preserve">
+    <value>Specify whether to wait for the new web page to load completely after setting the drop-down list value</value>
+  </data>
+  <data name="SetDropDownListValueBase_WaitForPageToLoad_FriendlyName" xml:space="preserve">
+    <value>Wait for page to load</value>
+  </data>
+  <data name="SetDropDownListValueByIndex_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by index in a web form</value>
+  </data>
+  <data name="SetDropDownListValueByIndex_Summary" xml:space="preserve">
+    <value>Select options with indices &lt;OPTIONINDECES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONINDECES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByIndexCloseDialog_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by index in a web form. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="SetDropDownListValueByIndexCloseDialog_Summary" xml:space="preserve">
+    <value>Select options with indices &lt;OPTIONINDECES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONINDECES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByIndexNoWait_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by index in a web form and don't wait for the page to load</value>
+  </data>
+  <data name="SetDropDownListValueByIndexNoWait_Summary" xml:space="preserve">
+    <value>Select options with indices &lt;OPTIONINDECES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONINDECES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByIndexPressDialogButton_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by index in a web form and press a specified button if a pop up dialog appears</value>
+  </data>
+  <data name="SetDropDownListValueByIndexPressDialogButton_Summary" xml:space="preserve">
+    <value>Select options with indices &lt;OPTIONINDECES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONINDECES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByName_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by name in a web form</value>
+  </data>
+  <data name="SetDropDownListValueByName_Summary" xml:space="preserve">
+    <value>Select options &lt;OPTIONNAMES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONNAMES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByNameCloseDialog_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by name in a web form. If a pop-up dialog appears, close it.</value>
+  </data>
+  <data name="SetDropDownListValueByNameCloseDialog_Summary" xml:space="preserve">
+    <value>Select options &lt;OPTIONNAMES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONNAMES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByNameNoWait_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by name in a web form and don't wait for the page to load</value>
+  </data>
+  <data name="SetDropDownListValueByNameNoWait_Summary" xml:space="preserve">
+    <value>Select options &lt;OPTIONNAMES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONNAMES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="SetDropDownListValueByNamePressDialogButton_Description" xml:space="preserve">
+    <value>Set the selected option for a drop-down list by name in a web form and press a specified button if a pop up dialog appears</value>
+  </data>
+  <data name="SetDropDownListValueByNamePressDialogButton_Summary" xml:space="preserve">
+    <value>Select options &lt;OPTIONNAMES&gt; in &lt;CONTROL&gt;</value>
+    <comment>{Locked="&lt;OPTIONNAMES&gt;"}{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="StoreDataMode_ExcelSpreadsheet_FriendlyName" xml:space="preserve">
+    <value>Excel spreadsheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="StoreDataMode_Variable_FriendlyName" xml:space="preserve">
+    <value>Variable</value>
+  </data>
+  <data name="TakeScreenshot_Description" xml:space="preserve">
+    <value>Take a screenshot of the web page currently displayed in the browser and save the image to the clipboard</value>
+  </data>
+  <data name="TakeScreenshot_Summary" xml:space="preserve">
+    <value>Capture the entire web page and store the captured image to clipboard</value>
+  </data>
+  <data name="TakeScreenshotBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="TakeScreenshotBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="TakeScreenshotBase_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to capture</value>
+  </data>
+  <data name="TakeScreenshotBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="TakeScreenshotBase_Description" xml:space="preserve">
+    <value>Take a screenshot of the web page (or an element of the web page) currently displayed in the browser and save the image into a file or to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotBase_File_Description" xml:space="preserve">
+    <value>Set the full path for the file to save the image capture</value>
+  </data>
+  <data name="TakeScreenshotBase_File_FriendlyName" xml:space="preserve">
+    <value>Image file</value>
+  </data>
+  <data name="TakeScreenshotBase_FileFormat_Description" xml:space="preserve">
+    <value>Select the format of the image file</value>
+  </data>
+  <data name="TakeScreenshotBase_FileFormat_FriendlyName" xml:space="preserve">
+    <value>File format</value>
+  </data>
+  <data name="TakeScreenshotBase_FriendlyName" xml:space="preserve">
+    <value>Take screenshot of web page</value>
+  </data>
+  <data name="TakeScreenshotBase_Operation_Description" xml:space="preserve">
+    <value>Specify whether to capture the entire web page or only a specific element of it</value>
+  </data>
+  <data name="TakeScreenshotBase_Operation_FriendlyName" xml:space="preserve">
+    <value>Capture</value>
+  </data>
+  <data name="TakeScreenshotBase_SaveMode_Description" xml:space="preserve">
+    <value>Specify whether to save the image into a file or store it into the clipboard</value>
+  </data>
+  <data name="TakeScreenshotBase_SaveMode_FriendlyName" xml:space="preserve">
+    <value>Save mode</value>
+  </data>
+  <data name="TakeScreenshotOfElement_Description" xml:space="preserve">
+    <value>Take a screenshot of an element of the web page currently displayed in the browser and save the image to the clipboard</value>
+  </data>
+  <data name="TakeScreenshotOfElement_Summary" xml:space="preserve">
+    <value>Capture &lt;CONTROL&gt; and store the captured image to Clipboard</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="TakeScreenshotOfElementSaveToFile_Description" xml:space="preserve">
+    <value>Take a screenshot of an element of the web page currently displayed in the browser and save the image in a file</value>
+  </data>
+  <data name="TakeScreenshotOfElementSaveToFile_Summary" xml:space="preserve">
+    <value>Capture &lt;CONTROL&gt; and store the captured image in file &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="TakeScreenshotSaveToFile_Description" xml:space="preserve">
+    <value>Take a screenshot of the web page currently displayed in the browser and save the image in a file</value>
+  </data>
+  <data name="TakeScreenshotSaveToFile_Summary" xml:space="preserve">
+    <value>Capture the entire web page and store the captured image in file &lt;FILE&gt;</value>
+    <comment>{Locked="&lt;FILE&gt;"}</comment>
+  </data>
+  <data name="WaitForWebPage_ToContainElement_FriendlyName" xml:space="preserve">
+    <value>Contain element</value>
+  </data>
+  <data name="WaitForWebPage_ToContainText_FriendlyName" xml:space="preserve">
+    <value>Contain text</value>
+  </data>
+  <data name="WaitForWebPage_ToNotContainElement_FriendlyName" xml:space="preserve">
+    <value>Not contain element</value>
+  </data>
+  <data name="WaitForWebPage_ToNotContainText_FriendlyName" xml:space="preserve">
+    <value>Not contain text</value>
+  </data>
+  <data name="WebAutomation_Description" xml:space="preserve">
+    <value>Start and manage web applications on browsers</value>
+  </data>
+  <data name="WebAutomation_FriendlyName" xml:space="preserve">
+    <value>Web automation</value>
+  </data>
+  <data name="WebPageContainsActionBase_BrowserInstance_Description" xml:space="preserve">
+    <value>Enter or choose the variable that contains the web browser instance to work with</value>
+  </data>
+  <data name="WebPageContainsActionBase_BrowserInstance_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="IfWebPageContainsAction_ContainsMode_Description" xml:space="preserve">
+    <value>Check whether a specific text or web page element exists in a web page</value>
+  </data>
+  <data name="IfWebPageContainsAction_ContainsMode_FriendlyName" xml:space="preserve">
+    <value>Check if web page</value>
+  </data>
+  <data name="WebPageContainsActionBase_Control_Description" xml:space="preserve">
+    <value>Select the UI element on web page to check for</value>
+  </data>
+  <data name="WebPageContainsActionBase_Control_FriendlyName" xml:space="preserve">
+    <value>UI element</value>
+  </data>
+  <data name="WebPageContains_Description" xml:space="preserve">
+    <value>Check whether a specific text or element exists in a web page</value>
+  </data>
+  <data name="WebPageContainsActionBase_Text_Description" xml:space="preserve">
+    <value>Enter the text on web page to check for</value>
+  </data>
+  <data name="WebPageContainsActionBase_Text_FriendlyName" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="WebPageContainsElement_Description" xml:space="preserve">
+    <value>Check whether a specific element exists on a web page</value>
+  </data>
+  <data name="WebPageContainsText_Description" xml:space="preserve">
+    <value>Check whether a specific text exists on a web page</value>
+  </data>
+  <data name="WebPageDoesNotContainElement_Description" xml:space="preserve">
+    <value>Checks whether a specific element doesn't exist on a web page</value>
+  </data>
+  <data name="WebPageDoesNotContainText_Description" xml:space="preserve">
+    <value>Checks whether a specific text doesn't exist on a web page</value>
+  </data>
+  <data name="WebPageDropDownListOperation_ClearAllOptions_FriendlyName" xml:space="preserve">
+    <value>Clear all options</value>
+  </data>
+  <data name="WebPageDropDownListOperation_SelectOptionsByIndex_FriendlyName" xml:space="preserve">
+    <value>Select options by index</value>
+  </data>
+  <data name="WebPageDropDownListOperation_SelectOptionsByName_FriendlyName" xml:space="preserve">
+    <value>Select options by name</value>
+  </data>
+  <data name="WebPageScreenshotOperation_Element_FriendlyName" xml:space="preserve">
+    <value>Specific element</value>
+  </data>
+  <data name="WebPageScreenshotOperation_WebPage_FriendlyName" xml:space="preserve">
+    <value>Entire web page</value>
+  </data>
+  <data name="WebPageScreenshotSaveMode_Clipboard_FriendlyName" xml:space="preserve">
+    <value>Clipboard</value>
+  </data>
+  <data name="WebPageScreenshotSaveMode_File_FriendlyName" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="WebPageToContainElement_Description" xml:space="preserve">
+    <value>Check whether a specific element exists on a web page</value>
+  </data>
+  <data name="WebPageToContainText_Description" xml:space="preserve">
+    <value>Check whether a specific text exists on a web page</value>
+  </data>
+  <data name="WebPageToNotContainElement_Description" xml:space="preserve">
+    <value>Check whether a specific element doesn't exist on a web page</value>
+  </data>
+  <data name="WebPageToNotContainText_Description" xml:space="preserve">
+    <value>Check whether a specific text doesn't exist on a web page</value>
+  </data>
+  <data name="WaitForWebPageContentAction_ContainsMode_FriendlyName" xml:space="preserve">
+    <value>Wait for web page to</value>
+  </data>
+  <data name="WaitForWebPageContentAction_ContainsMode_Description" xml:space="preserve">
+    <value>Specify whether to wait for a specific text or web page element to (dis)appear in a web page</value>
+  </data>
+  <data name="Conditionals_IfWebPageContainsAction_Description" xml:space="preserve">
+    <value>Mark the beginning of a conditional block of actions, depending on whether a specific piece of text or element exists in a web page</value>
+  </data>
+  <data name="Conditionals_WebPageContainsElement_Summary" xml:space="preserve">
+    <value>If UI element &lt;CONTROL&gt; exists on web page</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WebPageDoesNotContainElement_Summary" xml:space="preserve">
+    <value>If UI element &lt;CONTROL&gt; doesn't exist on web page</value>
+    <comment>{Locked="&lt;CONTROL&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WebPageContainsText_Summary" xml:space="preserve">
+    <value>If text &lt;TEXT&gt; exists on web page</value>
+    <comment>{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="Conditionals_WebPageDoesNotContainText_Summary" xml:space="preserve">
+    <value>If text &lt;TEXT&gt; doesn't exist on web page</value>
+    <comment>{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="Wait_WaitForWebPageContentAction_Description" xml:space="preserve">
+    <value>Suspend the flow until a specific piece of text or web page element appears or disappears from a web page</value>
+  </data>
+  <data name="Wait_WebPageToContainElement_Summary" xml:space="preserve">
+    <value>Wait for UI element &lt;ELEMENT&gt; to appear on web page</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}</comment>
+  </data>
+  <data name="Wait_WebPageToContainText_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; to appear on web page</value>
+    <comment>{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="Wait_WebPageToNotContainElement_Summary" xml:space="preserve">
+    <value>Wait for UI element &lt;ELEMENT&gt; to disappear from web page</value>
+    <comment>{Locked="&lt;ELEMENT&gt;"}</comment>
+  </data>
+  <data name="Wait_WebPageToNotContainText_Summary" xml:space="preserve">
+    <value>Wait for text &lt;TEXT&gt; to disappear from web page</value>
+    <comment>{Locked="&lt;TEXT&gt;"}</comment>
+  </data>
+  <data name="WebBrowserInstanceHandle_FriendlyName" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="WebBrowserInstanceHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>Web browser instances</value>
+  </data>
+  <data name="Wait_WaitForWebPageContentAction_FriendlyName" xml:space="preserve">
+    <value>Wait for web page content</value>
+  </data>
+  <data name="Conditionals_IfWebPageContainsAction_FriendlyName" xml:space="preserve">
+    <value>If web page contains</value>
+  </data>
+  <data name="ErrorMessage_ExtractionChildSelectorError" xml:space="preserve">
+    <value>Extraction parameters must have one child selector for list extraction.</value>
+  </data>
+  <data name="ErrorMessage_ExtractionBaseSelectorError" xml:space="preserve">
+    <value>Control argument must be passed with valid base selector for list extraction.</value>
+  </data>
+  <data name="ErrorMessage_ExtractTableColumnsLimitError" xml:space="preserve">
+    <value>{0} for extraction of entire HTML must have at least one column.</value>
+    <comment>{Locked="{0}"}{Locked="HTML"}</comment>
+  </data>
+  <data name="ErrorMessage_ExtractTableRowsLimitError" xml:space="preserve">
+    <value>{0} for extraction of entire HTML must have the first row as a list of column names and the next row as a regex for the values found.</value>
+    <comment>{Locked="{0}"}{Locked="regex"}{Locked="HTML"}</comment>
+  </data>
+  <data name="ErrorMessage_ExtractDataError" xml:space="preserve">
+    <value>Failed to extract data (web page error while extracting data).</value>
+  </data>
+  <data name="ErrorMessage_ElementNotFoundError" xml:space="preserve">
+    <value>Element not found.</value>
+  </data>
+  <data name="ErrorMessage_ExtractionRunscriptError" xml:space="preserve">
+    <value>Data extraction runscript failed.</value>
+  </data>
+  <data name="ErrorMessage_RetrieveAttributeError" xml:space="preserve">
+    <value>Failed to retrieve attribute '{0}' of UI element on web page.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_GetDetailsOfWebPageError" xml:space="preserve">
+    <value>Failed to retrieve the details of the web page.</value>
+  </data>
+  <data name="ErrorMessage_UndefinedModeError" xml:space="preserve">
+    <value>Attempted extraction with undefined mode.</value>
+  </data>
+  <data name="Message_Result" xml:space="preserve">
+    <value>Result</value>
+  </data>
+  <data name="ErrorMessage_NotHtmlDocumentError" xml:space="preserve">
+    <value>{0} (the type of the current page is: '{1}').</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_DataTableRowLimitError" xml:space="preserve">
+    <value>Data table must have at least 1 row.</value>
+  </data>
+  <data name="ErrorMessage_DatatableColumnLimitError" xml:space="preserve">
+    <value>Data table must have at least 2 columns (CssSelector, Attribute, [Opt. Regex], [Opt. ColumnName]).</value>
+    <comment>{Locked="Regex"}</comment>
+  </data>
+  <data name="Message_Results" xml:space="preserve">
+    <value>Results</value>
+  </data>
+  <data name="ErrorMessage_BaseSelectorCannotBeNullError" xml:space="preserve">
+    <value>Base CSS selector cannot be null or empty.</value>
+    <comment>{Locked="CSS"}</comment>
+  </data>
+  <data name="ErrorMessage_TakeScreenshotNonInteractiveError" xml:space="preserve">
+    <value>Can't use the action take screenshot of web page in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_TakeScreenshotError" xml:space="preserve">
+    <value>Failed to capture image.</value>
+  </data>
+  <data name="ErrorMessage_ElementWithSelectorNotFoundError" xml:space="preserve">
+    <value>Element with selector '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TakeScreenShotCommunicationBrowserError" xml:space="preserve">
+    <value>Failed to capture image (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_TakeScreenShotSaveToClipboardError" xml:space="preserve">
+    <value>Failed to set screenshot to clipboard.</value>
+  </data>
+  <data name="ErrorMessage_TakeScreenshotSaveToFileError" xml:space="preserve">
+    <value>Failed to save screenshot to file.</value>
+  </data>
+  <data name="ErrorMessage_FocusTextFieldCommunicationBrowserError" xml:space="preserve">
+    <value>Failed to set input focus on UI element on web page (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_PageNotLoadingError" xml:space="preserve">
+    <value>Failed to wait for page to load. Page didn't load or lost communication with browser.</value>
+  </data>
+  <data name="ErrorMessage_FocusTextFieldError" xml:space="preserve">
+    <value>Failed to set input focus on web page text box.</value>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldError" xml:space="preserve">
+    <value>Failed to write text in form field.</value>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldElementNotFoundError" xml:space="preserve">
+    <value>Form field with selector '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to write text in form field (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_PopulateTextFieldBrowserRejectedCallError" xml:space="preserve">
+    <value>Form field not found (browser rejected the calls).</value>
+  </data>
+  <data name="ErrorMessage_PressButtonElementNotFoundError" xml:space="preserve">
+    <value>Button with selector '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_PressButtonBrowserCommunicationError" xml:space="preserve">
+    <value>Button-press failed (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_PressButtonError" xml:space="preserve">
+    <value>Button-press failed.</value>
+  </data>
+  <data name="ErrorMessage_SelectRadioButtonElementNotFoundError" xml:space="preserve">
+    <value>Radio button with selector '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SelectRadioButtonBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to select radio button (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_SelectRadioButtonError" xml:space="preserve">
+    <value>Failed to select radio button.</value>
+  </data>
+  <data name="ErrorMessage_SetCheckboxStateElementNotFoundError" xml:space="preserve">
+    <value>Check box with selector '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SetCheckboxStateBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to set check box state (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_SetCheckboxStateError" xml:space="preserve">
+    <value>Failed to set check box state.</value>
+  </data>
+  <data name="ErrorMessage_SetDropDownListOptionsError" xml:space="preserve">
+    <value>The variable should be either a text variant or a numeric variant or a list of such variants or a data row variant.</value>
+  </data>
+  <data name="ErrorMessage_SetDropDownListValueSelectError" xml:space="preserve">
+    <value>Failed to select option(s).</value>
+  </data>
+  <data name="ErrorMessage_SetDropDownListValueClearError" xml:space="preserve">
+    <value>Failed to clear option(s).</value>
+  </data>
+  <data name="ErrorMessage_ClickElementBrowserCommunicationError" xml:space="preserve">
+    <value>Click link on web page failed (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_ClickElementError" xml:space="preserve">
+    <value>Click link on web page failed.</value>
+  </data>
+  <data name="ErrorMessage_ClickDownloadLinkNonInteractiveError" xml:space="preserve">
+    <value>Can't use the action click download link on web page in non interactive mode.</value>
+  </data>
+  <data name="ErrorMessage_DownloadFileIeError" xml:space="preserve">
+    <value>Downloading files with Internet Explorer 9 and above is not supported. Consider using the automation browser.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_SaveFileError" xml:space="preserve">
+    <value>Failed to save file ({0}).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DownloadFileOtherError" xml:space="preserve">
+    <value>Downloading files with {0} is not supported. Consider using the Automation Browser.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_DownloadFileOtherThanIeError" xml:space="preserve">
+    <value>Downloading files with a browser other than Internet Explorer is not supported. Consider using the automation browser.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_ClickDownloadLinkError" xml:space="preserve">
+    <value>Clicking on download link failed.</value>
+  </data>
+  <data name="ErrorMessage_CloseWebBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to close web browser (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_CloseWebBrowserError" xml:space="preserve">
+    <value>Failed to close web browser.</value>
+  </data>
+  <data name="ErrorMessage_CreateNewTabInvalidBrowserError" xml:space="preserve">
+    <value>Internet Explorer/automation browser not supported. Consider using Microsoft Edge, Google Chrome or Mozilla Firefox.</value>
+    <comment>{Locked="Mozilla Firefox"}{Locked="Google Chrome"}{Locked="Internet Explorer"}{Locked="Microsoft Edge"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidUrlError" xml:space="preserve">
+    <value>The URL is not valid. Make sure you are using an absolute URL.</value>
+  </data>
+  <data name="ErrorMessage_CreateNewTabBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to create new tab (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_CreateNewTabError" xml:space="preserve">
+    <value>Failed to create new tab.</value>
+  </data>
+  <data name="ErrorMessage_CreateNewTabInvalidUrlError" xml:space="preserve">
+    <value>Failed to create new tab (URL {0} is invalid).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_JavaScriptExecutionError" xml:space="preserve">
+    <value>Failed to run JavaScript function on web page.</value>
+    <comment>{Locked="JavaScript"}</comment>
+  </data>
+  <data name="ErrorMessage_NavigateToWebPageBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to navigate (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_NavigateToWebPageInvalidUrlError" xml:space="preserve">
+    <value>Failed to navigate because URL '{0}' is invalid.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_NavigateToWebPageError" xml:space="preserve">
+    <value>Failed to navigate.</value>
+  </data>
+  <data name="ErrorMessage_HoverElementNotFoundError" xml:space="preserve">
+    <value>Failed to hover mouse over element (no element matching selector '{0}' found).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_HoverOverElementBrowserCommunicationError" xml:space="preserve">
+    <value>Failed to hover mouse over element (error in communication with browser).</value>
+  </data>
+  <data name="ErrorMessage_HoverOverElementError" xml:space="preserve">
+    <value>Failed to hover mouse over element (web page error error).</value>
+  </data>
+  <data name="ErrorMessage_BrowserContinuousErrors" xml:space="preserve">
+    <value>Too many errors reported by the browser while waiting for content to (dis)appear (has the browser been closed abruptly in some manner?).</value>
+  </data>
+  <data name="ErrorMessage_FailedToAssumeControlBrowserError" xml:space="preserve">
+    <value>Failed to assume control of {0} (communication with browser failed. Make sure add-on is installed).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserCommunicationFailed" xml:space="preserve">
+    <value>Failed to assume control of {0} (communication with browser failed. Make sure add-on is installed).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserInvalidUrl" xml:space="preserve">
+    <value>Failed to assume control of {0} (is the given URL '{1}' a valid URL?).</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserInvalidTitle" xml:space="preserve">
+    <value>Failed to assume control of {0} (is the given title '{1}' a valid title?).</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserNotInForeground" xml:space="preserve">
+    <value>Failed to assume control of {0} (is it in the foreground?).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserReloadExtensionError" xml:space="preserve">
+    <value>Failed to assume control of {0} (Communication with browser failed. Try reloading extension).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserClearCacheError" xml:space="preserve">
+    <value>Failed to assume control of {0} (clearing {0}'s cache failed).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserInternalError" xml:space="preserve">
+    <value>Failed to assume control of {0} (Internal error or communication failure).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowserClearCookiesError" xml:space="preserve">
+    <value>Failed to assume control of {0} (clearing {0}'s cookies failed).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchBrowser" xml:space="preserve">
+    <value>Failed to assume control of {0} (navigation to URL failed).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchIeNotInForegroundError" xml:space="preserve">
+    <value>Failed to assume control of Internet Explorer in the foreground window.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_InternalErrorContactSupport" xml:space="preserve">
+    <value>Internal error. Contact support.</value>
+  </data>
+  <data name="ErrorMessage_LaunchAutomationBrowserSecuritySettingsError" xml:space="preserve">
+    <value>Failed to assume control of Internet Explorer (certain security settings, when enabled, prevent web automation from functioning properly).</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchAutomationBrowserNotFoundError" xml:space="preserve">
+    <value>Failed to launch automated Internet Explorer (file or application: {0} not found).</value>
+    <comment>{Locked="{0}"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchAutomationBrowserAccessDeniedError" xml:space="preserve">
+    <value>Failed to launch automated Internet Explorer (access denied for application/file: {0}).</value>
+    <comment>{Locked="{0}"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchAutomationBrowserCannotOpenError" xml:space="preserve">
+    <value>Failed to launch automated Internet Explorer (Cannot run application/open file: {0}).</value>
+    <comment>{Locked="{0}"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchAutomationBrowserRuntimeHelper" xml:space="preserve">
+    <value>Failed to launch automated Internet Explorer (runtime helper output was: {0}).</value>
+    <comment>{Locked="{0}"}{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_LaunchAutomationBrowser" xml:space="preserve">
+    <value>Failed to launch automated Internet Explorer.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ErrorMessage_LegacyExtractorCannotBeEmptyError" xml:space="preserve">
+    <value>Mode for legacy extraction can't be null or empty.</value>
+  </data>
+  <data name="ErrorMessage_ExtractionValidatorSelectorCollectionLimitError" xml:space="preserve">
+    <value>Selector collection must have at least {0} selectors.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_ExtractionValidatorNullAttrError" xml:space="preserve">
+    <value>Attribute cannot be null or empty string.</value>
+  </data>
+  <data name="ErrorMessage_ExtractionValidatorNullCollectionError" xml:space="preserve">
+    <value>Extraction instance collection cannot be null.</value>
+  </data>
+  <data name="ErrorMessage_ExtractionValidatorEmptyCollectionError" xml:space="preserve">
+    <value>Extraction instance collection cannot be empty.</value>
+  </data>
+  <data name="ErrorMessage_ValidateColumnsEmptyNamesError" xml:space="preserve">
+    <value>Column names can't be empty.</value>
+  </data>
+  <data name="ErrorMessage_ValidateColumnsNullValuesError" xml:space="preserve">
+    <value>Column names can't contain null or empty strings.</value>
+  </data>
+  <data name="ErrorMessage_DataExtractionRunScriptFailed" xml:space="preserve">
+    <value>Data extraction runscript failed.</value>
+  </data>
+  <data name="ErrorMessage_DropDownLinstNotFound" xml:space="preserve">
+    <value>Drop-down list with selector '{0}' not found.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_OperationFailed" xml:space="preserve">
+    <value>Failed to {0} (error in communication with browser).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SelectOptionIndexError" xml:space="preserve">
+    <value>List doesn't have an option with index '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_SelectListOptionError" xml:space="preserve">
+    <value>List doesn't contain option '{0}'.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_TimeoutError" xml:space="preserve">
+    <value>Timeout occurred while waiting for {0} to {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToWriteTextInForm" xml:space="preserve">
+    <value>Failed to write text in form field due to the variable holding an empty CSS selector.</value>
+    <comment>Original value: 
+Failed to write text in form field. That is, the file upload dialog because we were handed an empty CSS selector via a variable.{Locked="CSS"}</comment>
+  </data>
+  <data name="ErrorMessage_FileDoensNotExist" xml:space="preserve">
+    <value>File doesn't exist.</value>
+  </data>
+  <data name="ErrorMessage_FailedToWriteTextInFormField" xml:space="preserve">
+    <value>Failed to write text in form field.</value>
+  </data>
+  <data name="ErrorMessage_FailedToManipulatePager" xml:space="preserve">
+    <value>Failed to manipulate pager (pager container element not found).</value>
+  </data>
+  <data name="ErrorMessage_FailedToExtractData" xml:space="preserve">
+    <value>Failed to extract data (failed to find element).</value>
+  </data>
+  <data name="ErrorMessage_FailedToExtractDataList" xml:space="preserve">
+    <value>Failed to extract data. Failed to find list.</value>
+  </data>
+  <data name="ErrorMessage_FailedToExtractDataTable" xml:space="preserve">
+    <value>Failed to extract data. Failed to find table.</value>
+  </data>
+  <data name="ErrorMessage_FailedToExtractDataHTMLTable" xml:space="preserve">
+    <value>Failed to extract data. HTML table not found.</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToExtractDataWebpageError" xml:space="preserve">
+    <value>Failed to extract data. Web page error while extracting data.</value>
+  </data>
+  <data name="ErrorMessage_PageTypeError" xml:space="preserve">
+    <value>{0} (the type of the current page is: '{1}').</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="WebBrowserInstanceHandle_ToString" xml:space="preserve">
+    <value>Web browser instance</value>
+  </data>
+  <data name="ErrorMessage_WebBrowserDoesNotContainAnHtmlDocument" xml:space="preserve">
+    <value>In order to perform this operation the Web Browser must be displaying an HTML page.</value>
+    <comment>{Locked="HTML"}</comment>
+  </data>
+  <data name="ErrorMessage_WebBrowserIsUniniatialized" xml:space="preserve">
+    <value>Web Browser is uninitialized. Please doublecheck that you've specified the correct Web Browser and that you are using it after Launch New Internet Explorer and not after it's been Closed.</value>
+    <comment>{Locked="Internet Explorer"}</comment>
+  </data>
+  <data name="ExtractListUsingPagingFromAllPagesInExcel_Description" xml:space="preserve">
+    <value>Extract list using paging from all available web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractListUsingPagingFromAllPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract list using paging from all available web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractListUsingPagingFromAllPages_Description" xml:space="preserve">
+    <value>Extract list using paging from all available web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractListUsingPagingFromAllPages_Summary" xml:space="preserve">
+    <value>Extract list using paging from all available web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_ErrorWhileWaitingForWebPageContent" xml:space="preserve">
+    <value>Error occured when trying to wait for web page content</value>
+  </data>
+  <data name="Error_WaitForWebPageContentError_Description" xml:space="preserve">
+    <value>Indicates that the wait operation failed</value>
+  </data>
+  <data name="Error_WaitForWebPageContentError_FriendlyName" xml:space="preserve">
+    <value>Wait for web page content failed</value>
+  </data>
+  <data name="Error_BrowserContinuousErrors_Description" xml:space="preserve">
+    <value>Indicates that an error with the browser occured</value>
+  </data>
+  <data name="Error_BrowserContinuousErrors_FriendlyName" xml:space="preserve">
+    <value>Failed to communicate with the browser</value>
+  </data>
+  <data name="ExtractListUsingPagingFromNumberOfPagesInExcel_Description" xml:space="preserve">
+    <value>Extract list using paging from multiple web pages, create a virtual table and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractListUsingPagingFromNumberOfPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract list using paging from multiple web page(s), create a virtual table and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractListUsingPagingFromNumberOfPages_Description" xml:space="preserve">
+    <value>Extract list using paging from multiple web pages, create a virtual table and store it in a variable</value>
+  </data>
+  <data name="ExtractListUsingPagingFromNumberOfPages_Summary" xml:space="preserve">
+    <value>Extract list using paging from multiple web pages, create a virtual table and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractTableUsingPagingFromAllPagesInExcel_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages, create a virtual table and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractTableUsingPagingFromAllPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages, create a virtual table and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractTableUsingPagingFromAllPages_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages, create a virtual table and store it in a variable</value>
+  </data>
+  <data name="ExtractTableUsingPagingFromAllPages_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages, create a virtual table and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractTableUsingPagingFromNumberOfPagesInExcel_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages, create a virtual table and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractTableUsingPagingFromNumberOfPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages, create a virtual table and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractTableUsingPagingFromNumberOfPages_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages, create a virtual table and store it in a variable</value>
+  </data>
+  <data name="ExtractTableUsingPagingFromNumberOfPages_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages, create a virtual table and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromAllPagesInExcel_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromAllPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromAllPages_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromAllPages_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from all available web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromNumberOfPagesInExcel_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromNumberOfPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromNumberOfPages_Description" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractHandPickedValuesUsingPagingFromNumberOfPages_Summary" xml:space="preserve">
+    <value>Extract data from specific fields using paging from multiple web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromAllPagesInExcel_Description" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from all available web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromAllPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from all available web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromAllPages_Description" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from all available web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromAllPages_Summary" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from all available web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromNumberOfPagesInExcel_Description" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from multiple web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromNumberOfPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from multiple web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromNumberOfPages_Description" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from multiple web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractHtmlTableUsingPagingFromNumberOfPages_Summary" xml:space="preserve">
+    <value>Extract all data from an HTML table using paging from multiple web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromAllPagesInExcel_Description" xml:space="preserve">
+    <value>Extract single value using paging from all available web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromAllPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract single value using paging from all available web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromAllPages_Description" xml:space="preserve">
+    <value>Extract single value using paging from all available web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromAllPages_Summary" xml:space="preserve">
+    <value>Extract single value using paging from all available web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromNumberOfPagesInExcel_Description" xml:space="preserve">
+    <value>Extract single value using paging from multiple web pages and store it in Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromNumberOfPagesInExcel_Summary" xml:space="preserve">
+    <value>Extract single value using paging from multiple web pages and store it into an Excel spreadsheet in &lt;EXCELINSTANCE&gt;</value>
+    <comment>{Locked="&lt;EXCELINSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromNumberOfPages_Description" xml:space="preserve">
+    <value>Extract single value using paging from multiple web pages and store it in a variable</value>
+  </data>
+  <data name="ExtractSingleValueUsingPagingFromNumberOfPages_Summary" xml:space="preserve">
+    <value>Extract single value using paging from multiple web pages and store it in &lt;EXTRACTEDDATA&gt;</value>
+    <comment>{Locked="&lt;EXTRACTEDDATA&gt;"}</comment>
+  </data>
+  <data name="ExtractDataUsingPagingFromAllPagesInExcel_Description" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromAllPagesInExcel_Summary" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromAllPages_Description" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromAllPages_Summary" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromNumberOfPagesInExcel_Description" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromNumberOfPagesInExcel_Summary" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromNumberOfPages_Description" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="ExtractDataUsingPagingFromNumberOfPages_Summary" xml:space="preserve">
+    <value>No data specified for extraction</value>
+  </data>
+  <data name="LaunchChromeBase_Timeout_Description" xml:space="preserve">
+    <value>Set the time in seconds that you want to wait for the browser to be launched before the action fails</value>
+  </data>
+  <data name="LaunchChromeBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="LaunchEdgeBase_Timeout_Description" xml:space="preserve">
+    <value>Set the time in seconds that you want to wait for the browser to be launched before the action fails</value>
+  </data>
+  <data name="LaunchEdgeBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="LaunchFirefoxBase_Timeout_Description" xml:space="preserve">
+    <value>Set the time in seconds that you want to wait for the browser to be launched before the action fails</value>
+  </data>
+  <data name="LaunchFirefoxBase_Timeout_FriendlyName" xml:space="preserve">
+    <value>Timeout</value>
+  </data>
+  <data name="PopulateTextFieldBase_Mode_Description" xml:space="preserve">
+    <value>Specify whether to replace the existing content, or to append.</value>
+  </data>
+  <data name="PopulateTextFieldBase_Mode_FriendlyName" xml:space="preserve">
+    <value>If field isn't empty</value>
+  </data>
+  <data name="PopulateTextMode_Append_FriendlyName" xml:space="preserve">
+    <value>Append text</value>
+  </data>
+  <data name="PopulateTextMode_Replace_FriendlyName" xml:space="preserve">
+    <value>Replace text</value>
+  </data>
+  <data name="ErrorMessage_LaunchIeDocumentModeError" xml:space="preserve">
+    <value>Failed to assume control of Internet Explorer (web page is rendered using document mode {0}, only document mode 9 or greater is supported)</value>
+  </data>
+</root>

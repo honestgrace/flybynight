@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\leftNav.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.leftNavItems.actionItems.approvalsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Approvals]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Approvals]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the approvals page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.actionItems.businessProcessFlowsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Business process flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Business process flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the business process flows page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.actionItemsNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Action items]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Action items]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the action items item group]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.aiBuilder.buildPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Explore]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Explore]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the build page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.aiBuilder.documentAutomationPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Document automation (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Document automation (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the document automation page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.aiBuilder.modelsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Models]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Models]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the models page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.aiBuilderNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[AI Builder]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[AI Builder]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the AI builder item group]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.connectorsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the connectors page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.createPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the create page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.data.connectionsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connections]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connections]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the connections page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.data.customConnectorsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Custom connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the custom connectors page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.data.gatewaysPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Gateways]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Gateways]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the gateways page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.data.tablesPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Tables]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Tables]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the tables page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.dataNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Data]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the data item group]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.homePageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Home]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Home]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the home page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.learnPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the learn page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.cloudFlowActivityPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cloud flow activity]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cloud flow activity]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the cloud flow activity page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.desktopFlowQueuesPageNavPreviewText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flow queues (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flow queues (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.desktopFlowQueuesPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flow queues]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flow queues]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the desktop flow queues page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.desktopFlowRunsPageNavPreviewText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flow runs (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flow runs (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.desktopFlowRunsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Desktop flow runs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Desktop flow runs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the desktop flow runs page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.machinesPageNavPreviewText" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Machines (preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Machines (preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitor.machinesPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Machines]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Machines]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the machines page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.monitorNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Monitor]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Monitor]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the monitor item group]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.myFlowsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[My flows]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[My flows]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the my flows page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.processAdvisorNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Process advisor]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Process advisor]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the process advisor item group]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.solutionsPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Solutions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Solutions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the solutions page item]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.leftNavItems.templatesPageNavText" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Templates]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Templates]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The text shown in the left navigation bar for the templates page item]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

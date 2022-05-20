@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Error_FailedToExtractImagesError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while extracting images from the given pages of the PDF file</value>
+  </data>
+  <data name="Error_FailedToExtractImagesError_FriendlyName" xml:space="preserve">
+    <value>Failed to extract images </value>
+  </data>
+  <data name="Error_FailedToExtractNewPDFFileError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while trying to extract a new PDF file</value>
+  </data>
+  <data name="Error_FailedToExtractNewPDFFileError_FriendlyName" xml:space="preserve">
+    <value>Failed to extract new PDF file</value>
+  </data>
+  <data name="Error_FailedToExtractTextError_Description" xml:space="preserve">
+    <value>Error while trying to extract text</value>
+  </data>
+  <data name="Error_FailedToExtractTextError_FriendlyName" xml:space="preserve">
+    <value>Failed to extract text</value>
+  </data>
+  <data name="Error_FailedToMergePDFFilesError_Description" xml:space="preserve">
+    <value>Indicates that an error occurred while merging the files</value>
+  </data>
+  <data name="Error_FailedToMergePDFFilesError_FriendlyName" xml:space="preserve">
+    <value>Failed to merge PDF files</value>
+  </data>
+  <data name="Error_FolderDoesNotExistError_Description" xml:space="preserve">
+    <value>Indicates that the folder doesn't exist</value>
+  </data>
+  <data name="Error_FolderDoesNotExistError_FriendlyName" xml:space="preserve">
+    <value>Folder doesn't exist</value>
+  </data>
+  <data name="Error_InvalidPageSelectionError_Description" xml:space="preserve">
+    <value>Indicates that the given pages aren't valid for the PDF file</value>
+  </data>
+  <data name="Error_InvalidPageSelectionError_FriendlyName" xml:space="preserve">
+    <value>Invalid page selection</value>
+  </data>
+  <data name="Error_InvalidPasswordError_Description" xml:space="preserve">
+    <value>The given password is invalid</value>
+  </data>
+  <data name="Error_InvalidPasswordError_FriendlyName" xml:space="preserve">
+    <value>Invalid password</value>
+  </data>
+  <data name="Error_PageOutOfBoundsError_Description" xml:space="preserve">
+    <value>Indicates that one or more pages of the PDF file are out of bounds</value>
+  </data>
+  <data name="Error_PageOutOfBoundsError_FriendlyName" xml:space="preserve">
+    <value>Page out of bounds</value>
+  </data>
+  <data name="Error_PDFFileDoesNotExistError_Description" xml:space="preserve">
+    <value>File doesn't exist on the given path</value>
+  </data>
+  <data name="Error_PDFFileDoesNotExistError_FriendlyName" xml:space="preserve">
+    <value>PDF file doesn't exist</value>
+  </data>
+  <data name="ExtractImages_Description" xml:space="preserve">
+    <value>Extract all images from a PDF file</value>
+  </data>
+  <data name="ExtractImages_Summary" xml:space="preserve">
+    <value>Extract images from PDF &lt;PDFFILE&gt; with starting name &lt;IMAGESNAME&gt; and save them into folder &lt;IMAGESFOLDER&gt;</value>
+    <comment>{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;IMAGESNAME&gt;"}{Locked="&lt;IMAGESFOLDER&gt;"}</comment>
+  </data>
+  <data name="ExtractImagesFromPage_Description" xml:space="preserve">
+    <value>Extract images from a single page of a PDF file</value>
+  </data>
+  <data name="ExtractImagesFromPage_Summary" xml:space="preserve">
+    <value>Extract images from PDF &lt;PDFFILE&gt; of page number &lt;PAGENUMBER&gt; with starting name &lt;IMAGESNAME&gt; and save them into folder &lt;IMAGESFOLDER&gt;</value>
+    <comment>{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;PAGENUMBER&gt;"}{Locked="&lt;IMAGESNAME&gt;"}{Locked="&lt;IMAGESFOLDER&gt;"}</comment>
+  </data>
+  <data name="ExtractImagesFromPageRange_Description" xml:space="preserve">
+    <value>Extract images from some pages of a PDF file</value>
+  </data>
+  <data name="ExtractImagesFromPageRange_Summary" xml:space="preserve">
+    <value>Extract images from PDF &lt;PDFFILE&gt; from page number &lt;FROMPAGENUMBER&gt; to page number &lt;TOPAGENUMBER&gt; with starting name &lt;IMAGESNAME&gt; and save them into folder &lt;IMAGESFOLDER&gt;</value>
+    <comment>{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;FROMPAGENUMBER&gt;"}{Locked="&lt;TOPAGENUMBER&gt;"}{Locked="&lt;IMAGESNAME&gt;"}{Locked="&lt;IMAGESFOLDER&gt;"}</comment>
+  </data>
+  <data name="ExtractImagesFromPDFAction_Description" xml:space="preserve">
+    <value>Extract images from a PDF file</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_FriendlyName" xml:space="preserve">
+    <value>Extract images from PDF</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_FromPageNumber_Description" xml:space="preserve">
+    <value>The first page number of the range of pages to extract images from</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_FromPageNumber_FriendlyName" xml:space="preserve">
+    <value>From page number</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_ImagesFolder_Description" xml:space="preserve">
+    <value>The folder to save the extracted images as .png files</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_ImagesFolder_FriendlyName" xml:space="preserve">
+    <value>Save image(s) to</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_ImagesName_Description" xml:space="preserve">
+    <value>How the image name(s) starts. Extracted image name(s) example: GivenName_1, GivenName_2</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_ImagesName_FriendlyName" xml:space="preserve">
+    <value>Image name(s)</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_PageNumber_Description" xml:space="preserve">
+    <value>The number of the single page to extract images from</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_PageNumber_FriendlyName" xml:space="preserve">
+    <value>Single page number</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_PagesToExtract_Description" xml:space="preserve">
+    <value>Specifies how many pages to extract: all pages, a single page or a range of pages</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_PagesToExtract_FriendlyName" xml:space="preserve">
+    <value>Page(s) to extract</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_Password_Description" xml:space="preserve">
+    <value>The password of the PDF file. Leave this blank if the PDF file isn't password protected</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_PDFFile_Description" xml:space="preserve">
+    <value>The PDF file to extract images from. Enter a file path, a variable containing a file or a text path</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_PDFFile_FriendlyName" xml:space="preserve">
+    <value>PDF file</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_ToPageNumber_Description" xml:space="preserve">
+    <value>The last page number of the range of pages to extract images from</value>
+  </data>
+  <data name="ExtractImagesFromPDFAction_ToPageNumber_FriendlyName" xml:space="preserve">
+    <value>To page number</value>
+  </data>
+  <data name="ExtractionMode_All_FriendlyName" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="ExtractionMode_Range_FriendlyName" xml:space="preserve">
+    <value>Range</value>
+  </data>
+  <data name="ExtractionMode_Single_FriendlyName" xml:space="preserve">
+    <value>Single</value>
+  </data>
+  <data name="ExtractPages_Description" xml:space="preserve">
+    <value>Extract pages from a PDF file to a new PDF file</value>
+  </data>
+  <data name="ExtractPages_ExtractedPDFFile_Description" xml:space="preserve">
+    <value>The new PDF file</value>
+  </data>
+  <data name="ExtractPages_ExtractedPDFFile_FriendlyName" xml:space="preserve">
+    <value>Extracted PDF file</value>
+  </data>
+  <data name="ExtractPages_ExtractedPDFPath_Description" xml:space="preserve">
+    <value>The path to store the extracted PDF file</value>
+  </data>
+  <data name="ExtractPages_ExtractedPDFPath_FriendlyName" xml:space="preserve">
+    <value>Extracted PDF file path</value>
+  </data>
+  <data name="ExtractPages_FriendlyName" xml:space="preserve">
+    <value>Extract PDF file pages to new PDF file</value>
+  </data>
+  <data name="ExtractPages_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies what to do in case the output PDF file already exists</value>
+  </data>
+  <data name="ExtractPages_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="ExtractPages_PageSelection_Description" xml:space="preserve">
+    <value>The index numbers of the pages to keep (e.g. 1,3,17-24 )</value>
+  </data>
+  <data name="ExtractPages_PageSelection_FriendlyName" xml:space="preserve">
+    <value>Page selection</value>
+  </data>
+  <data name="ExtractPages_Password_Description" xml:space="preserve">
+    <value>The password of the PDF file. Leave this blank if the PDF isn't password protected</value>
+  </data>
+  <data name="ExtractPages_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ExtractPages_PDFFile_Description" xml:space="preserve">
+    <value>The PDF file to extract pages from. Enter a file path, a variable containing a file or a text path</value>
+  </data>
+  <data name="ExtractPages_PDFFile_FriendlyName" xml:space="preserve">
+    <value>PDF file</value>
+  </data>
+  <data name="ExtractPages_Summary" xml:space="preserve">
+    <value>Extract pages &lt;PAGESELECTION&gt; from PDF document &lt;PDFFILE&gt; to PDF file &lt;EXTRACTEDPDFPATH&gt; and store the extracted PDF into &lt;EXTRACTEDPDFFILE&gt;</value>
+    <comment>{Locked="&lt;PAGESELECTION&gt;"}{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;EXTRACTEDPDFPATH&gt;"}{Locked="&lt;EXTRACTEDPDFFILE&gt;"}</comment>
+  </data>
+  <data name="ExtractText_Description" xml:space="preserve">
+    <value>Extract text from a PDF file</value>
+  </data>
+  <data name="ExtractText_Summary" xml:space="preserve">
+    <value>Extract text from PDF &lt;PDFFILE&gt; into &lt;EXTRACTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;EXTRACTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromPage_Description" xml:space="preserve">
+    <value>Extract text from a single page of a PDF file</value>
+  </data>
+  <data name="ExtractTextFromPage_Summary" xml:space="preserve">
+    <value>Extract text from PDF &lt;PDFFILE&gt; of page number &lt;PAGENUMBER&gt; into &lt;EXTRACTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;PAGENUMBER&gt;"}{Locked="&lt;EXTRACTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromPageRange_Description" xml:space="preserve">
+    <value>Extract text from some pages of a PDF file</value>
+  </data>
+  <data name="ExtractTextFromPageRange_Summary" xml:space="preserve">
+    <value>Extract text from PDF &lt;PDFFILE&gt; from page number &lt;FROMPAGENUMBER&gt; to page number &lt;TOPAGENUMBER&gt; into &lt;EXTRACTEDTEXT&gt;</value>
+    <comment>{Locked="&lt;PDFFILE&gt;"}{Locked="&lt;FROMPAGENUMBER&gt;"}{Locked="&lt;TOPAGENUMBER&gt;"}{Locked="&lt;EXTRACTEDTEXT&gt;"}</comment>
+  </data>
+  <data name="ExtractTextFromPDFAction_Description" xml:space="preserve">
+    <value>Extract text from a PDF file</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_ExtractedText_Description" xml:space="preserve">
+    <value>The extracted text</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_ExtractedText_FriendlyName" xml:space="preserve">
+    <value>Extracted PDF text</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_FriendlyName" xml:space="preserve">
+    <value>Extract text from PDF</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_FromPageNumber_Description" xml:space="preserve">
+    <value>The first page number from the range of pages to extract text from</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_FromPageNumber_FriendlyName" xml:space="preserve">
+    <value>From page number</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_PageNumber_Description" xml:space="preserve">
+    <value>The number of the single page to extract text from</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_PageNumber_FriendlyName" xml:space="preserve">
+    <value>Single page number</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_PagesToExtract_Description" xml:space="preserve">
+    <value>Specifies how many pages to extract: all pages, a single page or a range of pages</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_PagesToExtract_FriendlyName" xml:space="preserve">
+    <value>Page(s) to extract</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_Password_Description" xml:space="preserve">
+    <value>The password of the PDF file. Leave this blank if the PDF isn't password protected</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_PDFFile_Description" xml:space="preserve">
+    <value>The PDF file to extract text from. Enter a file path, a variable containing a file or a text path</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_PDFFile_FriendlyName" xml:space="preserve">
+    <value>PDF file</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_ToPageNumber_Description" xml:space="preserve">
+    <value>The last page number from the range of pages to extract text from</value>
+  </data>
+  <data name="ExtractTextFromPDFAction_ToPageNumber_FriendlyName" xml:space="preserve">
+    <value>To page number</value>
+  </data>
+  <data name="IfFileExists_AddSequentialSuffix_FriendlyName" xml:space="preserve">
+    <value>Add sequential suffix</value>
+  </data>
+  <data name="IfFileExists_DoNotModifyFiles_FriendlyName" xml:space="preserve">
+    <value>Don't overwrite</value>
+  </data>
+  <data name="IfFileExists_Overwrite_FriendlyName" xml:space="preserve">
+    <value>Overwrite</value>
+  </data>
+  <data name="MergeFiles_Description" xml:space="preserve">
+    <value>Merges multiple PDF files into a new one</value>
+  </data>
+  <data name="MergeFiles_FriendlyName" xml:space="preserve">
+    <value>Merge PDF files</value>
+  </data>
+  <data name="MergeFiles_IfFileExists_Description" xml:space="preserve">
+    <value>Specifies what to do in case the destination file already exists</value>
+  </data>
+  <data name="MergeFiles_IfFileExists_FriendlyName" xml:space="preserve">
+    <value>If file exists</value>
+  </data>
+  <data name="MergeFiles_MergedPDF_Description" xml:space="preserve">
+    <value>The merged PDF file</value>
+  </data>
+  <data name="MergeFiles_MergedPDF_FriendlyName" xml:space="preserve">
+    <value>Merged PDF file</value>
+  </data>
+  <data name="MergeFiles_MergedPDFPath_Description" xml:space="preserve">
+    <value>The path to store the merged PDF</value>
+  </data>
+  <data name="MergeFiles_MergedPDFPath_FriendlyName" xml:space="preserve">
+    <value>Merged PDF path</value>
+  </data>
+  <data name="MergeFiles_PasswordDelimiter_Description" xml:space="preserve">
+    <value>A custom password delimiter. This delimiter shouldn't be part of any of the passwords</value>
+  </data>
+  <data name="MergeFiles_PasswordDelimiter_FriendlyName" xml:space="preserve">
+    <value>Delimiter</value>
+  </data>
+  <data name="MergeFiles_Passwords_Description" xml:space="preserve">
+    <value>The delimited passwords. The order should be the same as the order of the input PDFs. Leave this blank if the PDFs aren't password protected</value>
+  </data>
+  <data name="MergeFiles_Passwords_FriendlyName" xml:space="preserve">
+    <value>Passwords</value>
+  </data>
+  <data name="MergeFiles_PDFFiles_Description" xml:space="preserve">
+    <value>The files to merge. Enclose multiple files in double quotes (") and separate them by a delimiter, or use a list of files</value>
+  </data>
+  <data name="MergeFiles_PDFFiles_FriendlyName" xml:space="preserve">
+    <value>PDF files</value>
+  </data>
+  <data name="MergeFiles_Summary" xml:space="preserve">
+    <value>&lt;if(MERGEDPDF)&gt;Merge PDF files &lt;PDFFILES&gt; into &lt;MERGEDPDFPATH&gt; and store the merged PDF into &lt;MERGEDPDF&gt;&lt;else&gt;Merge PDF files &lt;PDFFILES&gt; into &lt;MERGEDPDFPATH&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;PDFFILES&gt;"}{Locked="&lt;MERGEDPDFPATH&gt;"}{Locked="&lt;if(MERGEDPDF)&gt;"}{Locked="&lt;MERGEDPDF&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="Pdf_Description" xml:space="preserve">
+    <value>Automate PDF files and their content (text and images)</value>
+  </data>
+  <data name="Pdf_FriendlyName" xml:space="preserve">
+    <value>PDF</value>
+  </data>
+  <data name="ErrorMessage_InvalidSinglePageNumber" xml:space="preserve">
+    <value>Single page number should be greater than zero (0)</value>
+  </data>
+  <data name="ErrorMessage_InvalidFromPageNumber" xml:space="preserve">
+    <value>From page number should be greater than zero (0)</value>
+  </data>
+  <data name="ErrorMessage_InvalidToPageNumber" xml:space="preserve">
+    <value>To page number should be greater than zero (0)</value>
+  </data>
+  <data name="ErrorMessage_InvalidToFromValues" xml:space="preserve">
+    <value>To page number should be greater than From page number</value>
+  </data>
+  <data name="ErrorMessage_FileDoesNotExist" xml:space="preserve">
+    <value>File '{0}' doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FolderDoesNotExist" xml:space="preserve">
+    <value>Folder '{0}' doesn't exist</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToExtractImages" xml:space="preserve">
+    <value>Failed to extract images from '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_OutOfBounds" xml:space="preserve">
+    <value>Pages out of bounds. Page numbers '{0}' don't exist in PDF '{1}'</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToExtractNewPDF" xml:space="preserve">
+    <value>Failed to extract new PDF file from '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToExtractText" xml:space="preserve">
+    <value>Failed to extract text from '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToMerge" xml:space="preserve">
+    <value>Failed to merge PDF files: {0}</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidPageSelection" xml:space="preserve">
+    <value>Invalid page selection '{0}-{1}'. The first number must be smaller than the second into a range of pages</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidPageSelectionFormat" xml:space="preserve">
+    <value>Invalid page selection format at '{0}'</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FileError" xml:space="preserve">
+    <value>File not found or couldn't be opened</value>
+  </data>
+  <data name="ErrorMessage_FileFormatError" xml:space="preserve">
+    <value>File not in PDF format or corrupted</value>
+  </data>
+  <data name="ErrorMessage_PasswordError" xml:space="preserve">
+    <value>Password required or incorrect password</value>
+  </data>
+  <data name="ErrorMessage_SecurityError" xml:space="preserve">
+    <value>Unsupported security scheme</value>
+  </data>
+  <data name="ErrorMessage_PageOrContentError" xml:space="preserve">
+    <value>Page not found or content error</value>
+  </data>
+  <data name="ErrorMessage_UnknownError" xml:space="preserve">
+    <value>An unknown error occurred</value>
+  </data>
+</root>

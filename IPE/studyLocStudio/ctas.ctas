@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectWorkflow>
+  <Project>
+    <ID>JhkimProjectID</ID>
+    <Owner>jhkim@microsoft.com</Owner>
+    <ContentType>UI</ContentType>
+    <WorkFlow>JhkimWorkflow</WorkFlow>
+    <WorkflowContext>Jhkim Workflow Context</WorkflowContext>
+  </Project>
+
+  <Scenarios>
+    <Profile name="0:Test RunAnything" tasks="RunAnything" />
+    <Profile name="1:Test InspectEol and CopyRelatedFiles" tasks="InspectEol,CopyRelatedFiles JhkimPathType,CopyRelatedFiles JhkimPathType_Repo" />
+    <Profile name="2:PublishEolFiles Master" tasks="PublishEolFiles Master" />
+    <Profile name="3:LSBUILD" tasks="PublishEolFiles - Copy Binary,Lsbuild Parse,LsBuild MakeTarget,Lsbuild Merge,Lsbuild Update" />
+    <Profile name="LSBUILD" tasks="PublishEolFiles - Copy Binary" />
+  </Scenarios>
+
+  <!-- <Options id="optional-set-name">
+    <option name="option" value="value" />
+  </Options> -->
+
+  <Pass>
+    <task id="InspectEol" name="InspectEol" requirepass="true" enable="true">>
+      <option name="ReportFile" value="C:\gitroot\TestLoc\studyLocStudio\temp\eolReport.txt" />
+      <option name="AllFiles" value="true" />
+      <option name="AllTargets" value="false" />
+      <option name="AllTemplates" value="true"/>
+      <option name="ReportToConsole" value="false"/>
+      <option name="ShowWorkPath" value="true"/>
+      
+      <option name="UniqueEolPaths" value="warning"/>      
+      <option name="UniqueFilePaths" value="error"/>
+    </task>
+
+    
+    <task id="PublishEolFiles" name="PublishEolFiles - Copy Binary" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Binary" />
+      <option name="TemplateAttribute" value="published" />
+    </task>
+
+     <task id="Lsbuild" name="Lsbuild Parse" requirepass="true" enable="false">
+      <option name="Action">Parse</option>
+      <option name="WarningLevel">1</option>
+      <option name="WarningsAsErrors">false</option>
+      <option name="BreakOnException">false</option>
+      <option name="SerialParsers">227,239,238,345</option>
+      <option name="LSBuildPath">[LSBuildExePath]</option>
+      <option name="RelativePaths">true</option>
+    </task>
+
+    <task id="PublishEolFiles" name="PublishEolFiles - Publish Generated" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">Generated</option>
+      <option name="TemplateAttribute">published</option>
+    </task>
+
+    <task id="Lsbuild" name="Lsbuild MakeTarget" requirepass="true" enable="false">
+      <option name="Action">MakeTarget</option>
+      <option name="LSBuildPath">[LSBuildExePath]</option>
+    </task>
+
+    <task id="PublishEolFiles" name="PublishEolFiles - Publish Target" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes">Target</option>
+      <option name="TemplateAttribute">published</option>
+    </task>
+
+    <task id="Lsbuild" name="Lsbuild Merge" requirepass="true">
+      <option name="Action">merge</option>
+      <option name="WarningLevel">1</option>
+      <option name="WarningsAsErrors">false</option>
+      <option name="BreakOnException">false</option>
+      <option name="LSBuildPath">[LSBuildExePath]</option>
+    </task>
+
+    <task id="Lsbuild" name="Lsbuild Update" requirepass="true">
+      <option name="Action">update</option>
+      <option name="WarningLevel">1</option>
+      <option name="WarningsAsErrors">false</option>
+      <option name="BreakOnException">false</option>
+      <option name="LSBuildPath">[LSBuildExePath]</option>
+      <!-- <option name="UpdateFrom" value="Master"></option> -->
+    </task>
+
+    <task id="PublishEolFiles" name="PublishEolFiles Master" requirepass="true">
+      <option name="Verbose">true</option>
+      <option name="Debug">false</option>
+      <option name="FileTypes" value="Master" />
+      <option name="TemplateAttribute" value="source" />
+    </task>
+
+    <task id="RunAnything" name="RunAnything test" requirepass="true" enable="true">
+      <option name="Program">[JHKIMCMD]</option>
+      <option name="Arguments">/c echo [JHKIM_VARIABLES]</option>
+      <option name="Mode">PerArea</option>
+      <!-- <option name="Mode">Once | PerGroup </option> -->
+      <option name="ExitCode">zeroOk</option>
+      <option name="LogAllOutput">True</option>
+      <option name="ParseLog">True</option>
+      <option name="ParseOutput">True</option>
+    </task>
+
+    <task id="CopyRelatedFiles" name="CopyRelatedFiles JhkimPathType" requirepass="true" >
+      <option name="FileTypes">JhkimPathType</option>
+      <option name="Verbose">true</option>
+    </task>
+    
+    <task id="CopyRelatedFiles" name="CopyRelatedFiles JhkimPathType_Repo" requirepass="true" >
+      <option name="FileTypes">JhkimPathType_Repo</option>
+      <option name="Verbose">true</option>
+    </task>
+
+  </Pass>
+</ProjectWorkflow>

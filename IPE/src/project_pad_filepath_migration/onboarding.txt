@@ -1,0 +1,32 @@
+AAPT Connectors
+
+REM *************** 
+REM 1. install GIT
+REM 2. install VsCode
+REM 3. install Powershell 7
+REM ***************
+
+md c:\CTAS
+Robocopy \\mbsi-ctasbuild\CTAS_Stable\* c:\CTAS /MIR
+
+md c:\Repo
+cd c:\Repo
+git clone https://bagie@dev.azure.com/bagie/Production/_git/power-platform-loc
+git clone https://bagie@dev.azure.com/bagie/Production/_git/common
+git clone https://bagie@dev.azure.com/bagie/Production/_git/D365_Tools
+
+md C:\Temp3
+md C:\bin\script
+
+REM *************** 
+REM  Paste your personal token
+REM ***************
+notepad C:\bin\script\VSTSToken.txt
+
+
+
+REM *************** 
+REM 1. Run CTAS
+REM 2. Run "Clone dev git" Scenario
+REM *************** 
+

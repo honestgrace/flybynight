@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Eol>
+  <Project name="CRM Latest Platform" financialComponentName="DevRel - Power Automate - UI" financialComponentId="591" financialComponentOwner="kimw" financialComponentArea="Business App Platform">
+
+    <Var name="unit" value="PowerAutomate" />
+    <Var name="project" value="[D365_CERepoPath]\[Area]" />
+
+    <!-- Repo : Core Repo -->
+    <Var name="Repo">[Repo_Root]\[Repo_Name]</Var>
+    <Var name="RunMakelang4HB">false</Var >
+    <Var name="Path"></Var >
+    <Var name="DTPIEngineeringOneDrive" value="F:\Automation\OneDrive\Microsoft\DTP International Engineering - Wordcounts"></Var >
+
+    <PathTemplate type="Settings" copy="yes"
+                common="Settings\default.lss"
+                source="[D365_CERepoPath]\[common]"
+                  work="[Area]\[common]" />
+
+    <PathTemplate type="Target" copy="yes"
+                common="[TargetPath]\[file].lcl"
+                source="[project]\[Component]\[common]"
+                  work="[Area]\[Component]\[common]"
+             published="[Repo]\[Path]\[common]"
+         fabric-target="#DefaultCollection#Production#power-platform-loc#master#\[Area]\[Component]\[common]" />
+
+    <PathTemplate type="Target_Repo" copy="yes"
+                common="[TargetPath]\[file].lcl"
+             published="[project]\[Component]\[common]"
+                  work="[Area]\[Component]\[common]"
+                source="[Repo]\[common]" />
+
+    <PathTemplate type="GeneratedTarget" copy="yes"
+                common="[TargetPath]\[file].lcl"
+                source="[work]\Runs\[runId]\work\[Area]\[Component]\[common]"
+                  work="[Area]\[Component]\[common]"
+             published="[project]\[Component]\[common]" />
+
+    <PathTemplate type="Master" copy="yes"
+                common="[MasterPath]\[file].lcg"
+                source="[project]\[Component]\[common]"
+                  work="[Area]\Master\[Component]\[common]"
+             published="[project]\[Component]\[common]" />
+
+    <PathTemplate type="BuildMaster" copy="yes"
+                common="[MasterPath]\[file].lcg"
+                source="[MasterDrop]\[common]"
+                  work="[Area]\[Component]\[common]"
+             published="[project]\[Component]\[common]" />
+
+    <PathTemplate type="Generated" copy="yes"
+                common="[MasterPath]\[file].lcg"
+                source="[project]\[Component]\[common]"
+                  work="[Area]\[Component]\[common]"
+           fabric-name="#DefaultCollection#Production#power-platform-loc#master#\[Area]\[Component]\[common]"
+         fabric-source="#DefaultCollection#Production#power-platform-loc#master#\[Area]\[Component]\[common]" />
+
+    <PathTemplate type="LocPayload" copy="yes"
+                common="LocPayload.xml"
+                source="[MasterDrop]\[common]"
+                  work="[common]" />
+
+    <!-- jhkimdebug
+    <PathTemplate type="LSWordCountCSV" copy="yes"
+                common="wc_LSWordCount.csv"
+                source="[work]\Runs\[runId]\work\[common]"
+                  work="[common]"
+             published="[HORepo_Root]\temp\wc_LSWordCount_[Component].csv" /> -->
+
+    <PathTemplate type="LSWordCountCSV" copy="yes"
+                common="wc_LSWordCount.csv"
+                source="[work]\Runs\[runId]\work\[common]"
+                  work="[common]"
+             published="[DTPIEngineeringOneDrive]\wc_LSWordCount_[Component].csv" />
+
+    <PathTemplate type="XLZ" copy="yes"
+                common="[TargetPath]\[file].lcl.xlz"
+                  source="[project]\[Component]\[common]"
+                  work="[Area]\[Component]\[common]" />
+
+<!-- For direct pick up lcg from drop share:
+
+    <PathTemplate type="Generated" copy="yes"
+                common="[MasterPath]\[file].lcg"
+                source="[project]\[Component]\[common]"
+                  work="[Area]\[Component]\[common]"
+           fabric-name="[MasterDrop]\[MasterPath]\[file]"
+         fabric-source="[MasterDrop]\[common]" />
+
+Note: Need to use Manifest.xml instead of Manifest_all.xml -->
+
+    <PathTemplate type="CFG" copy="yes"
+                source="[work]\Runs\[runId]\work\power-platform-loc_ConcreteFileGroups.xml"
+                  work="power-platform-loc_ConcreteFileGroups.xml"
+             published="[project]\[Area]_ConcreteFileGroups.xml" />
+
+    <PathTemplate type="CFG_SandBox" copy="yes"
+                source="[work]\Runs\[runId]\work\power-platform-loc_ConcreteFileGroups.xml"
+                  work="power-platform-loc_ConcreteFileGroups.xml"
+             published="[project]\[Area]_ConcreteFileGroups_SandBox.xml" />
+
+    <PathTemplate type="BuildVerFile" copy="yes"
+                common="[Component].ver"
+                source="[work]\Runs\[runId]\[common]"
+                  work="[common]"
+             published="[project]\[common]" />
+
+    <PathTemplate type="BuildTXT" copy="yes"
+                common="Build.txt"
+                source="[work]\Runs\[runId]\work\[common]"
+                  work="[common]"
+             published="[project]\[common]" />
+
+    <PathTemplate type="BuildTXT_SandBox" copy="yes"
+                common="Build.txt"
+                source="[work]\Runs\[runId]\work\[common]"
+                  work="[common]"
+             published="[project]\Build_SandBox.txt" />
+
+    <PathTemplate type="Binary" copy="yes"
+                common="[BinaryPath]\[file]"
+                source="[MasterDrop]\[common]"
+                  work="[Area]\[Component]\[common]"
+             published="[project]\[Component]\Master\[Repo_Name]\[common]" />
+
+    <PathTemplate type="LocalizedBinary" copy="yes"
+                common="Target\[targetCulture]\[Component]\[group]\[file]"
+                source="[project]\[common]"
+                  work="[Area]\[Component]\[common]"
+             published="[Repo]\[localized.Binary]"/>
+
+    <!-- PathTemplate type="XLZ" copy="yes"
+                common="[targetCulture]\[Component]\[group]\[ExtraLcL]\[file].lcl.xlz"
+                source="[project]\[common]"
+                  work="[Release]\[Area]\[contentType]\[common]" / -->
+
+<!-- This variable is to denote the extra LCL folder name in the 
+    language LCLs for mainly legacy components-->
+
+<!-- Generic template for package naming convention -->
+<!-- Var name="package.componentstrings" value="Main\UI\[targetCulture]\main\HOPackage\CRM_R9_ComponentStrings_[targetCulture].lspkg" / -->
+<!-- Var name="package.importloc" value="Main\UI\[targetCulture]\main\HOPackage\CRM_R9_ImportLoc20_[targetCulture].lspkg" / -->
+<!-- Var name="package.toolsetup" value="Main\UI\[targetCulture]\main\HOPackage\CRM_R9_ToolSetup_[targetCulture].lspkg" / -->
+<!-- Var name="package.template" value="Main\UI\[targetCulture]\main\HOPackage\[component]_[targetCulture].lspkg" / -->
+
+<!-- define variables for friendly parser names -->
+    <Var name="parser.xml" value="210" />
+    <Var name="parser.managed" value="211" />
+    <Var name="parser.json" value="306" />
+
+    <Var name="parser.localbinding" value="227" />
+    <Var name="parser.ios" value="17" />
+    <Var name="parser.htm" value="22" />
+    <Var name="parser.win32" value="3" />
+
+    <Var name="lg.CAP17">cs-CZ,de-DE,es-ES,fr-FR,hu-HU,it-IT,ja-JP,ko-KR,nl-NL,pl-PL,pt-BR,pt-PT,ru-RU,sv-SE,tr-TR,zh-CN,zh-TW</Var >
+    <Var name="lg.CAP17_LL">cs,de,es,fr,hu,it,ja,ko,nl,pl,pt-BR,pt-PT,ru,sv,tr,zh-Hans,zh-Hant</Var >
+
+
+    <Var name="lg.CAP37">bg-BG,ca-ES,cs-CZ,da-DK,de-DE,el-GR,es-ES,et-EE,fi-FI,fr-FR,hi-IN,hr-HR,hu-HU,id-ID,it-IT,ja-JP,ko-KR,lt-LT,lv-LV,ms-MY,nb-NO,nl-NL,pl-PL,pt-BR,pt-PT,ro-RO,ru-RU,sk-SK,sl-SI,sr-Cyrl-RS,sv-SE,th-TH,tr-TR,uk-UA,vi-VN,zh-CN,zh-TW</Var >
+
+    <Var name="lg.CAP41">bg-BG,ca-ES,cs-CZ,da-DK,de-DE,el-GR,es-ES,et-EE,eu-ES,fi-FI,fr-FR,gl-ES,hi-IN,hr-HR,hu-HU,id-ID,it-IT,ja-JP,kk-KZ,ko-KR,lt-LT,lv-LV,ms-MY,nb-NO,nl-NL,pl-PL,pt-BR,pt-PT,ro-RO,ru-RU,sk-SK,sl-SI,sr-Cyrl-RS,sr-Latn-RS,sv-SE,th-TH,tr-TR,uk-UA,vi-VN,zh-CN,zh-TW</Var >
+
+    <Var name="lg.CAP43">ar-SA,bg-BG,ca-ES,cs-CZ,da-DK,de-DE,el-GR,es-ES,et-EE,eu-ES,fi-FI,fr-FR,gl-ES,he-IL,hi-IN,hr-HR,hu-HU,id-ID,it-IT,ja-JP,kk-KZ,ko-KR,lt-LT,lv-LV,ms-MY,nb-NO,nl-NL,pl-PL,pt-BR,pt-PT,ro-RO,ru-RU,sk-SK,sl-SI,sr-Cyrl-RS,sr-Latn-RS,sv-SE,th-TH,tr-TR,uk-UA,vi-VN,zh-CN,zh-TW</Var >
+
+    <!-- Var name="lg.CAP41_LL">bg,ca,cs,da,de,el,es,et,eu,fi,fr,gl,hi,hr,hu,id,it,ja,kk,ko,lt,lv,ms,nb-NO,nl,pl,pt-BR,pt-PT,ro,ru,sk,sl,sr-Cyrl-RS,sr-Latn-RS,sv,th,tr,uk,vi,zh-HANS,zh-HANT</Var -->
+
+    <Var name="lg.CAP41_LL">bg,ca,cs,da,de,el,es,et,eu,fi,fr,gl,hi,hr,hu,id,it,ja,kk,ko,lt,lv,ms,nb,nl,pl,pt-BR,pt-pt,ro,ru,sk,sl,sr-Cyrl-RS,sr-Latn-RS,sv,th,tr,uk,vi,zh-HANS,zh-HANT</Var >
+
+    <Var name="lg.CAP41_LL_2">bg,ca,pt-BR</Var >
+
+    <!-- da-DK,de-DE,es-ES,fi-FI,fr-FR,it-IT,ja-JP,nb-NO,nl-NL,pl-PL,pt-BR,sv-SE,tr-TR,zh-CN,zh-TW -->
+    <Var name="lg.PAD15_LL_2">da,de,es,fi,fr,it,ja,nl,no,pl,pt-BR,sv,tr,zh-Hans,zh-Hant</Var >
+
+    <Var name="lg.CAP41_LL_3">bg,ca,pt-BR</Var >
+
+    <!-- Language Mapping -->
+    <Var name="bg-mapping" value="bg-BG"/>
+    <Var name="ca-mapping" value="ca-ES"/>
+    <Var name="cs-mapping" value="cs-CZ"/>
+    <Var name="da-mapping" value="da-DK"/>
+    <Var name="de-mapping" value="de-DE"/>
+    <Var name="el-mapping" value="el-GR"/>
+    <Var name="es-mapping" value="es-ES"/>
+    <Var name="et-mapping" value="et-EE"/>
+    <Var name="eu-mapping" value="eu-ES"/>
+    <Var name="fi-mapping" value="fi-FI"/>
+    <Var name="fr-mapping" value="fr-FR"/>
+    <Var name="gl-mapping" value="gl-ES"/>
+    <Var name="hi-mapping" value="hi-IN"/>
+    <Var name="hr-mapping" value="hr-HR"/>
+    <Var name="hu-mapping" value="hu-HU"/>
+    <Var name="id-mapping" value="id-ID"/>
+    <Var name="it-mapping" value="it-IT"/>
+    <Var name="ja-mapping" value="ja-JP"/>
+    <Var name="kk-mapping" value="kk-KZ"/>
+    <Var name="ko-mapping" value="ko-KR"/>
+    <Var name="lt-mapping" value="lt-LT"/>
+    <Var name="lv-mapping" value="lv-LV"/>
+    <Var name="ms-mapping" value="ms-MY"/>
+    <Var name="no-mapping" value="nb-NO"/>
+    <Var name="nl-mapping" value="nl-NL"/>
+    <Var name="pl-mapping" value="pl-PL"/>
+    <Var name="pt-BR-mapping" value="pt-BR"/>
+    <Var name="pt-PT-mapping" value="pt-PT"/>
+    <Var name="ro-mapping" value="ro-RO"/>
+    <Var name="ru-mapping" value="ru-RU"/>
+    <Var name="sk-mapping" value="sk-SK"/>
+    <Var name="sl-mapping" value="sl-SI"/>
+    <Var name="sr-Cyrl-RS-mapping" value="sr-Cyrl-RS"/>
+    <Var name="sr-Latn-RS-mapping" value="sr-Latn-RS"/>
+    <Var name="sv-mapping" value="sv-SE"/>
+    <Var name="th-mapping" value="th-TH"/>
+    <Var name="tr-mapping" value="tr-TR"/>
+    <Var name="uk-mapping" value="uk-UA"/>
+    <Var name="vi-mapping" value="vi-VN"/>
+    <Var name="zh-Hans-mapping" value="zh-CN"/>
+    <Var name="zh-Hant-mapping" value="zh-TW"/>
+
+    <Var name="bg-mapping2" value="bg-BG"/>
+    <Var name="ca-mapping2" value="ca-ES"/>
+    <Var name="cs-mapping2" value="cs-CZ"/>
+    <Var name="da-mapping2" value="da-DK"/>
+    <Var name="de-mapping2" value="de-DE"/>
+    <Var name="el-mapping2" value="el-GR"/>
+    <Var name="es-mapping2" value="es-ES"/>
+    <Var name="et-mapping2" value="et-EE"/>
+    <Var name="eu-mapping2" value="eu-ES"/>
+    <Var name="fi-mapping2" value="fi-FI"/>
+    <Var name="fr-mapping2" value="fr-FR"/>
+    <Var name="gl-mapping2" value="gl-ES"/>
+    <Var name="hi-mapping2" value="hi-IN"/>
+    <Var name="hr-mapping2" value="hr-HR"/>
+    <Var name="hu-mapping2" value="hu-HU"/>
+    <Var name="id-mapping2" value="id-ID"/>
+    <Var name="it-mapping2" value="it-IT"/>
+    <Var name="ja-mapping2" value="ja-JP"/>
+    <Var name="kk-mapping2" value="kk-KZ"/>
+    <Var name="ko-mapping2" value="ko-KR"/>
+    <Var name="lt-mapping2" value="lt-LT"/>
+    <Var name="lv-mapping2" value="lv-LV"/>
+    <Var name="ms-mapping2" value="ms-MY"/>
+    <Var name="no-mapping2" value="nb-NO"/>
+    <Var name="nl-mapping2" value="nl-NL"/>
+    <Var name="pl-mapping2" value="pl-PL"/>
+    <Var name="pt-BR-mapping2" value="pt-BR"/>
+    <Var name="pt-PT-mapping2" value="pt-PT"/>
+    <Var name="ro-mapping2" value="ro-RO"/>
+    <Var name="ru-mapping2" value="ru-RU"/>
+    <Var name="sk-mapping2" value="sk-SK"/>
+    <Var name="sl-mapping2" value="sl-SI"/>
+    <Var name="sr-Cyrl-RS-mapping2" value="sr-Cyrl-CS"/>
+    <Var name="sr-Latn-RS-mapping2" value="sr-Latn-CS"/>
+    <Var name="sv-mapping2" value="sv-SE"/>
+    <Var name="th-mapping2" value="th-TH"/>
+    <Var name="tr-mapping2" value="tr-TR"/>
+    <Var name="uk-mapping2" value="uk-UA"/>
+    <Var name="vi-mapping2" value="vi-VN"/>
+    <Var name="zh-Hans-mapping2" value="zh-CN"/>
+    <Var name="zh-Hant-mapping2" value="zh-TW"/>
+
+<!-- Define variables for Pull Request auto creation -->
+<!-- Set default for https://msazure.visualstudio.com/One/ -->
+    <Var name="adoOrganization">msazure</Var >
+    <Var name="adoProjectName">One</Var >
+    <Var name="workitemId">0</Var >
+    <Var name="autocomplete">$false</Var >
+    <Var name="bypass">$false</Var >
+    <Var name="reviewerEmailAddress">[Owner]</Var>
+
+<!-- 
+  Component name: Fabric Project name (BAGIE Tenant)
+        BuildURL: URL of build job (set "0" if not applicable)
+    ArtifactName: Download Artifact Name (set "0" if not applicable)
+  BuildtopFolder: Top folder of lcg files in build drop (set "" if not applicable.  This is to speed up the file list generation process.)
+      MasterDrop: Master/Binary drop location
+      MasterPath: Relative path of LCG file in pick up location
+      BinaryPath: Relative path of Binary file in pick up location(not needed)
+      TargetPath: Relative path of LCL file in target dev repo
+            Area: Top folder name of staging repo
+-->
+    <!-- Set default for metadata -->
+    <Var name="ArtifactName">0</Var >
+    <Var name="BuildtopFolder"></Var >
+    <Var name="BuildURL">0</Var >
+
+    <Component name="TestLoc" contentType="UI" sourceCulture="en-US" parser="[parser.managed]" fabric-project="PAuFlowPeopleBot">
+      <Var name="adoOrganization">jhkim0502</Var >
+      <Var name="adoProjectName">TestLoc</Var >
+      <Var name="BuildURL">0</Var >
+      <Var name="Repo_Name">TestLoc</Var >
+      <Var name="Repo_URL">https://dev.azure.com/jhkim0502/TestLoc/_git/TestLoc</Var >
+      <Var name="branch">master</Var >
+      <!-- <Var name="Repo">[Repo_Root]\[FlowPeopleBot_branchfolder]\[Repo_Name]</Var > -->
+      <Var name="Repo">[Repo_Root]\[Repo_Name]</Var >
+      <Var name="MasterDrop">[Repo]</Var >
+      <Var name="BinaryPath">[group]</Var >
+      <Var name="MasterPath">Base\[Repo_Name]\[group]</Var >
+      <Var name="TargetPath">[targetCulture]\[Repo_Name]\[group]</Var >
+      <Var name="Path">Localize\Extern</Var >
+      <LocExtent derivation="Translate">[lg.CAP41_LL_2]</LocExtent>
+      <Area name="PowerAutomate">
+        <ItemGroup name="studyLocStudio\Dev\src">
+          <Var name="localized.Binary">Localize\[Repo_Name]\[targetCulture]\[File]</Var >
+          <File gen-validation="true" name="Resources.resx" />
+          <File name="test.resx" />
+        </ItemGroup>
+      </Area>
+    </Component>
+
+    <Component name="TestLoc_A" contentType="UI" sourceCulture="en-US" fabric-project="PAuFlowRPA">
+      <Var name="Repo_Name">Flow-RPA</Var >
+      <Var name="BuildURL">https://msazure.visualstudio.com/One/_build?definitionId=96791</Var >
+      <Var name="MasterDrop">[TempFolder]\SRC\[Component]\[ArtifactName]</Var >
+      <Var name="Repo_URL">https://msazure.visualstudio.com/One/_git/[Repo_Name]</Var >
+      <Var name="branch">[FlowRPA_branch]</Var >
+      <Var name="ArtifactName">localize</Var >
+      <Var name="Repo">[Repo_Root]\[FlowRPA_branchfolder]\[Repo_Name]</Var >
+
+      <PathTemplate type="Binary" copy="yes"
+                common="[BinaryPath]\en\[file]"
+                source="[Repo]\[common]"
+                  work="[Area]\[Component]\[common]"
+             published="[Repo]\[common]" />
+
+      <PathTemplate type="LocalizedBinary" copy="yes"
+                source="[Repo]\[BinaryPath]\[targetCulture]\[file]"
+                  work="[Area]\[Component]\[BinaryPath]\[targetCulture]\[file]"
+             published="[Repo]\[BinaryPath]\[targetCulture]\[file]" />
+
+      <Area name="PowerAutomate">
+        <LocExtent derivation="Translate">[lg.CAP41_LL_2]</LocExtent>
+        <ItemGroup>
+          <Var name="MasterPath">loc\en\src\InstallerUI\InstallerBootstrapUI\Properties</Var >
+          <Var name="TargetPath">src\Localize\loc\[targetCulture]\src\InstallerUI\InstallerBootstrapUI\Properties</Var >
+          <File name="Resources.resx" parser="[parser.managed]" />
+        </ItemGroup>
+      </Area>
+    </Component>
+
+<Component name="TestLoc_B1" contentType="UI" sourceCulture="en-US" fabric-project="PAuFlowMobile">
+      <Var name="Repo_Name">FlowMobile</Var >
+      <Var name="BuildURL">0</Var >
+      <Var name="MasterDrop">\\bis-storage\Users\Flow\locbuilds\[Version]</Var >
+      <Var name="Repo_URL">https://flowmobile.visualstudio.com/FlowMobile/_git/[Repo_Name]</Var >
+      <Var name="branch">master</Var >
+      <Var name="BuildtopFolder">LCG</Var >
+      <Var name="adoOrganization">flowmobile</Var >
+      <Var name="adoProjectName">FlowMobile</Var >
+      <Area name="PowerAutomate">
+        <LocExtent derivation="Translate">[lg.CAP37]</LocExtent>
+        <ItemGroup>
+          <Var name="TargetPath">loc\LCL\[targetCulture]</Var >
+          <Var name="MasterPath">LCG</Var >
+          <File name="en.json" parser="[parser.json]" />
+        </ItemGroup>
+      </Area>
+    </Component>
+
+
+<!-- Power Automate (Service) -->
+    <Component name="TestLoc_B2" contentType="UI" sourceCulture="en-US" fabric-project="PAuFlowService">
+      <Var name="Repo_Name">Flow-Service</Var >
+      <Var name="BuildURL">0</Var >
+      <Var name="MasterDrop">\\reddog\Builds\branches\git_flow_service_[FlowService_buildfolder]\[Version]\Localization</Var >
+      <Var name="Repo_URL">https://msazure.visualstudio.com/One/_git/[Repo_Name]</Var >
+      <!-- Var name="branch">master</Var -->
+      <Var name="branch">[FlowService_branch]</Var >
+      <Var name="Repo">[Repo_Root]\[FlowService_branchfolder]\[Repo_Name]</Var >
+      <Area name="PowerAutomate">
+        <LocExtent derivation="Translate">[lg.CAP41_LL_2]</LocExtent>
+        <ItemGroup>
+          <Var name="MasterPath">Microsoft.Flow.Portal.Web\LbaWorking\default\Microsoft.Flow.Portal.Web\lcg\Resources</Var >
+          <Var name="TargetPath">loc\Portal.Web.locbld\lba\[targetCulture]\Microsoft.Flow.Portal.Web\lcl\Resources</Var >
+          <File name="ClientResources.resx" parser="[parser.managed]" />
+        </ItemGroup>
+      </Area>
+    </Component>
+
+
+<!-- Power Automate RP (Flow) -->
+    <Component name="TestLoc_B3" contentType="UI" sourceCulture="en-US" fabric-project="PAuFlowRP">
+      <Var name="Repo_Name">Flow-RP</Var >
+      <Var name="BuildURL">0</Var >
+      <Var name="MasterDrop">\\reddog\Builds\branches\git_flow_rp_[FlowRP_buildfolder]\[Version]\localization</Var >
+      <Var name="Repo_URL">https://msazure.visualstudio.com/One/_git/[Repo_Name]</Var >
+      <!-- Var name="branch">master</Var -->
+      <Var name="branch">[FlowRP_branch]</Var >
+      <Var name="Repo">[Repo_Root]\[FlowRP_branchfolder]\[Repo_Name]</Var >
+      <Area name="PowerAutomate">
+        <LocExtent derivation="Translate">[lg.CAP41_LL_3]</LocExtent>
+        <ItemGroup>
+          <Var name="MasterPath">common\LbaWorking\default\common\lcg\EmailLoc\CommonComponents\FlowIssue</Var >
+          <Var name="TargetPath">loc\processsimple\Roles\ProcessSimple.Common.locbld\lba\[targetCulture]\common\lcl\EmailLoc\CommonComponents\FlowIssue</Var >
+          <File name="AlertHeading_daa32baa-86dc-4eef-a166-90c808e2cca8.xml" parser="[parser.xml]" />
+        </ItemGroup>
+      </Area>
+    </Component>
+
+  </Project>
+</Eol>

@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LCX SchemaVersion="6.0" Name="F:\Src\HelloWorld\master\TestLoc\src\AAPTConnector\Migrate-Flow-Service\src\angularJs.json" PsrId="306" FileType="1" SrcCul="en-US" TgtCul="ko-KR" xmlns="http://schemas.microsoft.com/locstudio/2006/6/lcx">
+  <OwnedComments>
+    <Cmt Name="Dev" />
+    <Cmt Name="LcxAdmin" />
+    <Cmt Name="Rccx" />
+  </OwnedComments>
+  <Item ItemId=";String Table" ItemType="0" PsrId="306" Leaf="false">
+    <Disp Icon="Expand" Expand="true" Disp="true" LocTbl="false" />
+    <Item ItemId=";Strings" ItemType="0" PsrId="306" Leaf="false">
+      <Disp Icon="Str" Disp="true" LocTbl="false" />
+      <Item ItemId=";strings.Alert.AlertCloseLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Close]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Close]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Actions.Approve" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Approve]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Approve]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Actions.CopyLink" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Copy link]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Copy link]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Actions.EmailApprovers" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email approvers]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Email approvers]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Actions.EmailRequester" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Email requester]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Email requester]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Actions.Reject" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reject]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Reject]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Actions.RespondForCustomResponseOptions" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Respond]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Respond]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Owner.For" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[for {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[for {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Owner.To" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[to {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[to {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Approvals.Reassign" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Reassign]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Reassign]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Dialogs.DeleteApi.Message" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This custom connector may be required for some flows or apps. Deleting it will delete all the connections that use it.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This custom connector may be required for some flows or apps. Deleting it will delete all the connections that use it.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[The terms 'custom connector' and 'connections' are significant.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Dialogs.DeleteApi.Title" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete Custom Connector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Delete Custom Connector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Error.TestConnectionFailed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Test connection failed.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Test connection failed.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.CreateConnectionToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create connection]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create connection]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.DeleteToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Delete]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Delete]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.DownloadToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Download]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Download]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.EditToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Edit]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Edit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.MoveDownToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Move down]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Move down]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.MoveUpToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Move up]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Move up]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.PropertiesConnectionToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[View properties]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[View properties]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.ShareConnectionToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invite another user]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invite another user]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.Update.Github" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Update from Github]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Update from Github]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.Update.OpenApiFile" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Update from OpenAPI file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Update from OpenAPI file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.Update.OpenApiUrl" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Update from OpenAPI URL]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Update from OpenAPI URL]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Apis.Update.Postman" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Update from Postman collection]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Update from Postman collection]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Connection.Header.Name" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Connections.CreateToolTip" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.Connections.Publisher.Microsoft" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Microsoft]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Microsoft]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.Dialog.Heading" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create a custom connector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create a custom connector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.AddName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Add a name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Add a name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.ApiDefHelpLink" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition#generate-the-openapi-definition]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://docs.microsoft.com/en-us/azure/azure-functions/functions-openapi-definition#generate-the-openapi-definition]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.ApiName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[API name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[API name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.AppName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[App name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[App name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.AzureDeepLink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://ms.portal.azure.com/#blade/WebsitesExtension/FunctionsIFrameBlade/id/{0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://ms.portal.azure.com/#blade/WebsitesExtension/FunctionsIFrameBlade/id/{0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} - id of the selected Azure service]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.AzureService.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Azure service]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Azure service]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.CorsError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Cross-Origin Resource Sharing (CORS) needs to be configured before importing.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Cross-Origin Resource Sharing (CORS) needs to be configured before importing.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.CorsHelpLink" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings#cors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://docs.microsoft.com/en-us/azure/azure-functions/functions-how-to-use-azure-function-app-settings#cors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.FixItInAzure" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Fix it in Azure]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Fix it in Azure]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.LearnMore" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.LogicAppSwaggerHelpLink" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://docs.microsoft.com/en-us/azure/logic-apps/quickstart-create-first-logic-app-workflow]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.MenuLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create from Azure Service (Preview)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create from Azure Service (Preview)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.NoApiDefinitionError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[An app runtime version of ~1 and the API definition are needed before importing.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[An app runtime version of ~1 and the API definition are needed before importing.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.NoApiError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This API Management service doesn't have any APIs.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This API Management service doesn't have any APIs.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.NoResourceError" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[This subscription doesn't have any {0} resources defined.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[This subscription doesn't have any {0} resources defined.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} - name of the selected Azure service]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.NoSubscriptionError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[You'll need an active Azure subscription to continue.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[You'll need an active Azure subscription to continue.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.NoSwaggerError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[The OpenAPI (Swagger) specification hasn't been defined for this logic app.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[The OpenAPI (Swagger) specification hasn't been defined for this logic app.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.Option.ApiManagement.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[API Management]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[API Management]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.Option.Functions.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Functions]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Functions]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.Option.LogicApps.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Logic Apps]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Logic Apps]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.SelectApiManagementServiceName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose a service]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose a service]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.SelectApiName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose an API]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose an API]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.SelectAppName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose an app]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose an app]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.SelectService.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose a service]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose a service]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.SelectSubscription.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose a subscription]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose a subscription]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.ServiceName.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Service name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Service name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromAzureService.Subscription.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Azure subscription]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Azure subscription]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromBlank.MenuLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create from blank]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create from blank]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromBlank.Name.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connector name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Dialog.Headericon.Alt" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Github icon]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Github icon]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Dialog.Subheader.Aria" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Click here to explore the open source repository]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Click here to explore the open source repository]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Dialog.Subheader.Href" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Click here]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Click here]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Dialog.Subheader.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[to explore the open source repository]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[to explore the open source repository]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.MenuLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import from Github]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import from Github]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.NoApiPropertiesError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No API properties for selected connector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No API properties for selected connector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.NoConnectorError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No connectors returned from Power Platform Connectors repo]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No connectors returned from Power Platform Connectors repo]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.NoSwaggerError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No swagger file in the connector directory]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No swagger file in the connector directory]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Options.Branches.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Branch]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Branch]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Options.Connectors.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.Options.Types.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector Type]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connector Type]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.SelectBranch.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose Branch]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose Branch]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.SelectConnector.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose Connector]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose Connector]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromGithub.SelectType.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Choose Type]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Choose Type]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromOpenAPIFile.MenuLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import an OpenAPI file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import an OpenAPI file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromOpenAPIFile.Name.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom connector title]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Custom connector title]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromOpenAPIFile.Upload.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import an OpenAPI file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import an OpenAPI file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromOpenAPIUrl.MenuLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import an OpenAPI from URL]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import an OpenAPI from URL]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromOpenAPIUrl.Upload.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Paste in the URL for the Open API]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Paste in the URL for the Open API]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromPostman.MenuLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import a Postman collection]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import a Postman collection]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromPostman.Name.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Custom connector title]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Custom connector title]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Create.FromPostman.Upload.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import a postman collection (V1, V2.0, or V2.1)]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import a postman collection (V1, V2.0, or V2.1)]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.General.Continue" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Continue]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Continue]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.NoSwaggerData.Error" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Invalid response, there is no swagger data]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Invalid response, there is no swagger data]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.OriginalSwagger.DownloadError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Failed to download original Swagger file of the custom connector.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Failed to download original Swagger file of the custom connector.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.PostmanCollectionFile.ButtonAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import from Postman collection]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import from Postman collection]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.PostmanCollectionFile.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Postman collection V1, V2.0, or V2.1]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Postman collection V1, V2.0, or V2.1]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.PostmanCollectionFile.PlaceHolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Postman collection V1, V2.0, or V2.1 file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Postman collection V1, V2.0, or V2.1 file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.PostmanCollectionFile.TextFieldAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Postman collection file name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Postman collection file name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerFile.ButtonAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import from OpenAPI file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import from OpenAPI file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerFile.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OpenAPI file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OpenAPI file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerFile.PlaceHolder" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OpenAPI file]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OpenAPI file]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerFile.TextFieldAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OpenAPI file name]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OpenAPI file name]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerUrl.Button" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerUrl.ButtonAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Import from OpenAPI URL]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Import from OpenAPI URL]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerUrl.Error.downloadFailed" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[We weren’t able to download the OpenAPI file from the provided URL. Please upload the file manually using the "Import from OpenAPI file" option.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[We weren’t able to download the OpenAPI file from the provided URL. Please upload the file manually using the "Import from OpenAPI file" option.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerUrl.Error.notHttps" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OpenAPI file needs to come from a secure endpoint. Please make sure your URL is an HTTPS connection.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OpenAPI file needs to come from a secure endpoint. Please make sure your URL is an HTTPS connection.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerUrl.Label" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OpenAPI URL]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OpenAPI URL]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.RightPane.ImportSwagger.SwaggerUrl.TextFieldAriaLabel" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[OpenAPI URL to import]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[OpenAPI URL to import]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Share.RoleEdit" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Can edit]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Can edit]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Share.RoleOwner" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Owner]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Owner]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Share.RoleView" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Can view]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Can view]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomApi.Share.RoleViewWithShare" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Can view + share]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Can view + share]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnections.ZeroCustomApis.Image.Alt" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[No custom connector image]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[No custom connector image]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnections.ZeroCustomApis.header" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Your custom connectors will live here]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Your custom connectors will live here]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnections.ZeroCustomApis.hyperlink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://aka.ms/CustomConnectorsDocs]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://aka.ms/CustomConnectorsDocs]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{Locked}]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnections.ZeroCustomApis.learnMore" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Learn more about custom connectors]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Learn more about custom connectors]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnections.ZeroCustomApis.text" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Create a custom connector to connect to any existing REST API as long as the API supports at least one of 10+ authentication mechanisms and uses JSON.]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Create a custom connector to connect to any existing REST API as long as the API supports at least one of 10+ authentication mechanisms and uses JSON.]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.DisplayName.Empty" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector name cannot be empty]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connector name cannot be empty]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.DisplayName.InvalidCharacters" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector name must be alphanumeric, '-', or '_']]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connector name must be alphanumeric, '-', or '_']]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.DisplayName.TooLong" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Connector name cannot be longer than {0} characters]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Connector name cannot be longer than {0} characters]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the max number of characters allowed in a display name]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.Icon.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Icon for {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Icon for {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the custom connector which the icon is used for.]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.Import.LearnMoreTarget" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://aka.ms/CustomConnectorOpenApi]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://aka.ms/CustomConnectorOpenApi]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.Import.UrlError" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Unable to download OpenAPI from specified URL]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Unable to download OpenAPI from specified URL]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.ImportPostman.LearnMoreTarget" ItemType="0" PsrId="306" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://aka.ms/CustomConnectorPostman]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://aka.ms/CustomConnectorPostman]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+      </Item>
+      <Item ItemId=";strings.Manage.CustomConnector.Publisher.AriaLabel" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[Published by {0}]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Published by {0}]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{0} is the name of the user who published this custom connector]]></Cmt>
+        </Cmts>
+      </Item>
+      <Item ItemId=";strings.Widget.Manage.CustomConnections.ZeroCustomApis.hyperlink" ItemType="0" PsrId="306" InstFlg="true" Leaf="true">
+        <Str Cat="Text">
+          <Val><![CDATA[https://go.microsoft.com/fwlink/?linkid=851511]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[https://go.microsoft.com/fwlink/?linkid=851511]]></Val>
+          </Tgt>
+        </Str>
+        <Disp Icon="Str" />
+        <Cmts>
+          <Cmt Name="Dev"><![CDATA[{Locked}]]></Cmt>
+        </Cmts>
+      </Item>
+    </Item>
+  </Item>
+</LCX>

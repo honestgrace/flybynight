@@ -1,0 +1,2117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActivateCell_Description" xml:space="preserve">
+    <value>Activate a cell in the active worksheet of an Excel instance, by providing column and row</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateCell_Summary" xml:space="preserve">
+    <value>Activate the cell that at column &lt;COLUMN&gt; and row &lt;ROW&gt;</value>
+    <comment>{Locked="&lt;COLUMN&gt;"}{Locked="&lt;ROW&gt;"}</comment>
+  </data>
+  <data name="ActivateCellInExcel_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="ActivateCellInExcel_Column_Description" xml:space="preserve">
+    <value>The numeric value or letter of the cell column</value>
+  </data>
+  <data name="ActivateCellInExcel_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="ActivateCellInExcel_Description" xml:space="preserve">
+    <value>Activate a cell in the active worksheet of an Excel instance, by providing column, row and offset</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateCellInExcel_Direction_Description" xml:space="preserve">
+    <value>Select offset direction. Select where to look for the cell to activate based on the position of the currently active cell</value>
+  </data>
+  <data name="ActivateCellInExcel_Direction_FriendlyName" xml:space="preserve">
+    <value>Direction</value>
+  </data>
+  <data name="ActivateCellInExcel_FriendlyName" xml:space="preserve">
+    <value>Activate cell in Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateCellInExcel_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateCellInExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateCellInExcel_OffsetFromActiveCell_Description" xml:space="preserve">
+    <value>The distance in cells between the currently active cell and the desired cell. The numbering starts from 0</value>
+  </data>
+  <data name="ActivateCellInExcel_OffsetFromActiveCell_FriendlyName" xml:space="preserve">
+    <value>Offset from active cell</value>
+  </data>
+  <data name="ActivateCellInExcel_Row_Description" xml:space="preserve">
+    <value>The numeric value of the cell row. The numbering starts from 1</value>
+  </data>
+  <data name="ActivateCellInExcel_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="ActivateCellInExcel_SpecifyCellsMode_Description" xml:space="preserve">
+    <value>Select whether to specify the cell absolutely or relatively. The latter option uses an offset distance defined as the number of cells between the currently active cell and the cell to activate.</value>
+  </data>
+  <data name="ActivateCellInExcel_SpecifyCellsMode_FriendlyName" xml:space="preserve">
+    <value>Activate</value>
+  </data>
+  <data name="ActivateCellRelativeTo_Description" xml:space="preserve">
+    <value>Activate a cell in the active worksheet of a previously launched Excel instance, given column, row and offset</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateCellRelativeTo_Summary" xml:space="preserve">
+    <value>Activate the cell that is placed at column &lt;OFFSETFROMACTIVECELL&gt; cells &lt;DIRECTION&gt; of activated cell</value>
+    <comment>{Locked="&lt;OFFSETFROMACTIVECELL&gt;"}{Locked="&lt;DIRECTION&gt;"}</comment>
+  </data>
+  <data name="ActivateWorksheetByIndex_Description" xml:space="preserve">
+    <value>Activates a specific worksheet of an Excel instance using its index</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateWorksheetByIndex_Summary" xml:space="preserve">
+    <value>Activate the worksheet with index &lt;INDEX&gt; of the Excel instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INDEX&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateWorksheetByName_Description" xml:space="preserve">
+    <value>Activates a specific worksheet of an Excel instance using its name</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ActivateWorksheetByName_Summary" xml:space="preserve">
+    <value>Activate the worksheet &lt;NAME&gt; of the Excel instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="AddWorksheet_Description" xml:space="preserve">
+    <value>Adds a new worksheet to the document of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="AddWorksheet_FriendlyName" xml:space="preserve">
+    <value>Add new worksheet</value>
+  </data>
+  <data name="AddWorksheet_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="AddWorksheet_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="AddWorksheet_Name_Description" xml:space="preserve">
+    <value>Specify the name of the new worksheet</value>
+  </data>
+  <data name="AddWorksheet_Name_FriendlyName" xml:space="preserve">
+    <value>New worksheet name</value>
+  </data>
+  <data name="AddWorksheet_Summary" xml:space="preserve">
+    <value>Add a new worksheet named &lt;NAME&gt; to the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="AddWorksheet_WorksheetPosition_Description" xml:space="preserve">
+    <value>Specify whether the new Excel worksheet will be added before or after the existing worksheets</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="AddWorksheet_WorksheetPosition_FriendlyName" xml:space="preserve">
+    <value>Add worksheet as</value>
+  </data>
+  <data name="Attach_Description" xml:space="preserve">
+    <value>Attaches to an Excel document that's already open</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Attach_DocumentName_Description" xml:space="preserve">
+    <value>The name or the path of the Excel document to attach to</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Attach_DocumentName_FriendlyName" xml:space="preserve">
+    <value>Document name</value>
+  </data>
+  <data name="Attach_FriendlyName" xml:space="preserve">
+    <value>Attach to running Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Attach_Instance_Description" xml:space="preserve">
+    <value>The Excel instance this action has attached to for use with later Excel actions</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Attach_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Attach_Summary" xml:space="preserve">
+    <value>Attach to Excel document with name &lt;DOCUMENTNAME&gt;</value>
+    <comment>{Locked="&lt;DOCUMENTNAME&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="Category_Advanced_Description" xml:space="preserve">
+    <value>Advanced Excel automation actions</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Category_Advanced_FriendlyName" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="Close_Description" xml:space="preserve">
+    <value>Closes an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Close_Summary" xml:space="preserve">
+    <value>Close the Excel instance stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseAndSave_Description" xml:space="preserve">
+    <value>Closes and saves an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseAndSave_Summary" xml:space="preserve">
+    <value>Save the Excel document and close the Excel instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseAndSaveAs_Description" xml:space="preserve">
+    <value>Closes and saves an Excel instance with a specified format</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseAndSaveAs_Summary" xml:space="preserve">
+    <value>Save the Excel document as &lt;DOCUMENTPATH&gt; and close the Excel instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;DOCUMENTPATH&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseExcel_CloseMode_Description" xml:space="preserve">
+    <value>Whether and how to save the document of this instance before closing that instance</value>
+  </data>
+  <data name="CloseExcel_CloseMode_FriendlyName" xml:space="preserve">
+    <value>Before closing Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseExcel_Description" xml:space="preserve">
+    <value>Closes an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseExcel_DocumentFormat_Description" xml:space="preserve">
+    <value>The format of the document</value>
+  </data>
+  <data name="CloseExcel_DocumentFormat_FriendlyName" xml:space="preserve">
+    <value>Document format</value>
+  </data>
+  <data name="CloseExcel_DocumentPath_Description" xml:space="preserve">
+    <value>The full path of the document</value>
+  </data>
+  <data name="CloseExcel_DocumentPath_FriendlyName" xml:space="preserve">
+    <value>Document path</value>
+  </data>
+  <data name="CloseExcel_FriendlyName" xml:space="preserve">
+    <value>Close Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseExcel_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to close. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CloseExcelMode_DoNotSave_FriendlyName" xml:space="preserve">
+    <value>Do not save document</value>
+  </data>
+  <data name="CloseExcelMode_Save_FriendlyName" xml:space="preserve">
+    <value>Save document</value>
+  </data>
+  <data name="CloseExcelMode_SaveAs_FriendlyName" xml:space="preserve">
+    <value>Save document as</value>
+  </data>
+  <data name="Copy_Description" xml:space="preserve">
+    <value>Copies the currently selected cells of the active worksheet</value>
+  </data>
+  <data name="Copy_Summary" xml:space="preserve">
+    <value>Copy the cells currently selected</value>
+  </data>
+  <data name="CopyCell_Description" xml:space="preserve">
+    <value>Copies a single cell from the active worksheet</value>
+  </data>
+  <data name="CopyCell_Summary" xml:space="preserve">
+    <value>Copy the cell in column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}</comment>
+  </data>
+  <data name="CopyCells_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="CopyCells_Description" xml:space="preserve">
+    <value>Copies a range of cells from the active worksheet</value>
+  </data>
+  <data name="CopyCells_EndColumn_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="CopyCells_StartColumn_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="CopyCells_Summary" xml:space="preserve">
+    <value>Copy the cells within a range from column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt; to column &lt;ENDCOLUMN&gt; row &lt;ENDROW&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}{Locked="&lt;ENDCOLUMN&gt;"}{Locked="&lt;ENDROW&gt;"}</comment>
+  </data>
+  <data name="CopyCellsFromExcel_CopyMode_Description" xml:space="preserve">
+    <value>Specify whether to copy a single cell, a range of cells or the current selection of cells</value>
+  </data>
+  <data name="CopyCellsFromExcel_CopyMode_FriendlyName" xml:space="preserve">
+    <value>Copy mode</value>
+  </data>
+  <data name="CopyCellsFromExcel_Description" xml:space="preserve">
+    <value>Copies a range of cells from the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CopyCellsFromExcel_EndColumn_Description" xml:space="preserve">
+    <value>The index or letter of the last column</value>
+  </data>
+  <data name="CopyCellsFromExcel_EndColumn_FriendlyName" xml:space="preserve">
+    <value>End column</value>
+  </data>
+  <data name="CopyCellsFromExcel_EndRow_Description" xml:space="preserve">
+    <value>The index of the last row</value>
+  </data>
+  <data name="CopyCellsFromExcel_EndRow_FriendlyName" xml:space="preserve">
+    <value>End row</value>
+  </data>
+  <data name="CopyCellsFromExcel_FriendlyName" xml:space="preserve">
+    <value>Copy cells from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CopyCellsFromExcel_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CopyCellsFromExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="CopyCellsFromExcel_StartColumn_Description" xml:space="preserve">
+    <value>The index or letter of the first column</value>
+  </data>
+  <data name="CopyCellsFromExcel_StartColumn_FriendlyName" xml:space="preserve">
+    <value>Start column</value>
+  </data>
+  <data name="CopyCellsFromExcel_StartRow_Description" xml:space="preserve">
+    <value>The index of the first row</value>
+  </data>
+  <data name="CopyCellsFromExcel_StartRow_FriendlyName" xml:space="preserve">
+    <value>Start row</value>
+  </data>
+  <data name="DeleteColumn_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="DeleteColumn_Column_Description" xml:space="preserve">
+    <value>The index number or letter of the column to delete</value>
+  </data>
+  <data name="DeleteColumn_Column_FriendlyName" xml:space="preserve">
+    <value>Delete column</value>
+  </data>
+  <data name="DeleteColumn_Description" xml:space="preserve">
+    <value>Deletes a selected column from an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteColumn_FriendlyName" xml:space="preserve">
+    <value>Delete column from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteColumn_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteColumn_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteColumn_Summary" xml:space="preserve">
+    <value>Delete column &lt;COLUMN&gt; from the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;COLUMN&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteRow_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="DeleteRow_Description" xml:space="preserve">
+    <value>Deletes a selected row from an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteRow_FriendlyName" xml:space="preserve">
+    <value>Delete row from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteRow_Index_Description" xml:space="preserve">
+    <value>The Index number of the row to delete. The numbering starts from 1</value>
+  </data>
+  <data name="DeleteRow_Index_FriendlyName" xml:space="preserve">
+    <value>Delete row</value>
+  </data>
+  <data name="DeleteRow_Instance_Description" xml:space="preserve">
+    <value>The Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteRow_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteRow_Summary" xml:space="preserve">
+    <value>Delete row No: &lt;INDEX&gt; from the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INDEX&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheet_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="DeleteWorksheet_Description" xml:space="preserve">
+    <value>Deletes a specific worksheet from an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheet_FindWorksheetBy_Description" xml:space="preserve">
+    <value>Whether to find the worksheet by name or index</value>
+  </data>
+  <data name="DeleteWorksheet_FindWorksheetBy_FriendlyName" xml:space="preserve">
+    <value>Delete worksheet with</value>
+  </data>
+  <data name="DeleteWorksheet_FriendlyName" xml:space="preserve">
+    <value>Delete Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheet_Index_Description" xml:space="preserve">
+    <value>The Index number of the worksheet to delete. The numbering starts from 1, meaning that the index of the first worksheet is 1, the second one is 2 etc.</value>
+  </data>
+  <data name="DeleteWorksheet_Index_FriendlyName" xml:space="preserve">
+    <value>Worksheet index</value>
+  </data>
+  <data name="DeleteWorksheet_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheet_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheet_Name_Description" xml:space="preserve">
+    <value>The name of the worksheet to delete</value>
+  </data>
+  <data name="DeleteWorksheet_Name_FriendlyName" xml:space="preserve">
+    <value>Worksheet name</value>
+  </data>
+  <data name="DeleteWorksheetByIndex_Description" xml:space="preserve">
+    <value>Deletes a specific worksheet from an Excel instance specified by its index</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheetByIndex_Summary" xml:space="preserve">
+    <value>Delete the worksheet with index &lt;INDEX&gt; from the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INDEX&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheetByName_Description" xml:space="preserve">
+    <value>Deletes a specific worksheet from an Excel instance specified by its name</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteWorksheetByName_Summary" xml:space="preserve">
+    <value>Delete the worksheet &lt;NAME&gt; from the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_ActivateExcelCellError_Description" xml:space="preserve">
+    <value>Indicates a problem activating an Excel cell</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_ActivateExcelCellError_FriendlyName" xml:space="preserve">
+    <value>Failed to activate cell</value>
+  </data>
+  <data name="Error_ActivateWorksheetError_Description" xml:space="preserve">
+    <value>Indicates a problem activating the specified worksheet</value>
+  </data>
+  <data name="Error_ActivateWorksheetError_FriendlyName" xml:space="preserve">
+    <value>Failed to activate worksheet</value>
+  </data>
+  <data name="Error_AddWorksheetError_Description" xml:space="preserve">
+    <value>Indicates a problem adding the worksheet</value>
+  </data>
+  <data name="Error_AddWorksheetError_FriendlyName" xml:space="preserve">
+    <value>Failed to add worksheet</value>
+  </data>
+  <data name="Error_AttachToExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem attaching to the Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_AttachToExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to attach to Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_CloseExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem closing the Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_CloseExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to close Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_ColumnNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that a column with the specified name couldn't be found</value>
+  </data>
+  <data name="Error_ColumnNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Can't find column</value>
+  </data>
+  <data name="Error_CopyCellsError_Description" xml:space="preserve">
+    <value>Indicates a problem copying the cells from the Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_CopyCellsError_FriendlyName" xml:space="preserve">
+    <value>Failed to copy cells</value>
+  </data>
+  <data name="Error_DeleteColumnError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the specified column</value>
+  </data>
+  <data name="Error_DeleteColumnError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete column</value>
+  </data>
+  <data name="Error_DeleteRowError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the specified row</value>
+  </data>
+  <data name="Error_DeleteRowError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete row</value>
+  </data>
+  <data name="Error_DeleteWorksheetError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the specified worksheet</value>
+  </data>
+  <data name="Error_DeleteWorksheetError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete worksheet</value>
+  </data>
+  <data name="Error_DocumentNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that the specified Excel document couldn't be found</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_DocumentNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Specified Excel document not found</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_InsertColumnError_Description" xml:space="preserve">
+    <value>Indicates a problem inserting a column at the specified Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_InsertColumnError_FriendlyName" xml:space="preserve">
+    <value>Failed to insert column</value>
+  </data>
+  <data name="Error_InsertRowError_Description" xml:space="preserve">
+    <value>Indicates a problem inserting a row at the specified Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_InsertRowError_FriendlyName" xml:space="preserve">
+    <value>Failed to insert row</value>
+  </data>
+  <data name="Error_LaunchExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem launching an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_LaunchExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to launch Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_OpenDocumentError_Description" xml:space="preserve">
+    <value>Indicates a problem opening the specified Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_OpenDocumentError_FriendlyName" xml:space="preserve">
+    <value>Failed to open Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_PasteCellsError_Description" xml:space="preserve">
+    <value>Indicates a problem pasting the specified cells</value>
+  </data>
+  <data name="Error_PasteCellsError_FriendlyName" xml:space="preserve">
+    <value>Failed to paste cells</value>
+  </data>
+  <data name="Error_ReadCellsError_Description" xml:space="preserve">
+    <value>Indicates a problem reading the value(s) of the specified Excel cell(s)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_ReadCellsError_FriendlyName" xml:space="preserve">
+    <value>Failed to read cell value(s)</value>
+  </data>
+  <data name="Error_RenameWorksheetError_Description" xml:space="preserve">
+    <value>Indicates a problem renaming the specified worksheet</value>
+  </data>
+  <data name="Error_RenameWorksheetError_FriendlyName" xml:space="preserve">
+    <value>Failed to rename worksheet</value>
+  </data>
+  <data name="Error_RetrieveActiveWorksheetError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the active worksheet</value>
+  </data>
+  <data name="Error_RetrieveActiveWorksheetError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve active worksheet</value>
+  </data>
+  <data name="Error_RetrieveAllWorksheetsError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the names of the Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_RetrieveAllWorksheetsError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve all worksheet names</value>
+  </data>
+  <data name="Error_RetrieveFirstFreeColumnRowError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the first free column/row of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_RetrieveFirstFreeColumnRowError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve first free column/row</value>
+  </data>
+  <data name="Error_RetrieveFirstFreeRowError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the first free row of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_RetrieveFirstFreeRowError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve first free row</value>
+  </data>
+  <data name="Error_RetrieveSelectedCellsRangeError_Description" xml:space="preserve">
+    <value>Indicates a problem retrieving the selected range of cells</value>
+  </data>
+  <data name="Error_RetrieveSelectedCellsRangeError_FriendlyName" xml:space="preserve">
+    <value>Failed to retrieve the selected range of cells</value>
+  </data>
+  <data name="Error_RowNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that a row with the specified index couldn't be found</value>
+  </data>
+  <data name="Error_RowNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Can't find row</value>
+  </data>
+  <data name="Error_RunMacroError_Description" xml:space="preserve">
+    <value>Indicates a problem running the specified macro</value>
+  </data>
+  <data name="Error_RunMacroError_FriendlyName" xml:space="preserve">
+    <value>Failed to run macro</value>
+  </data>
+  <data name="Error_SaveExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem saving the Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_SaveExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to save Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_SelectCellsError_Description" xml:space="preserve">
+    <value>Indicates a problem selecting the specified cells</value>
+  </data>
+  <data name="Error_SelectCellsError_FriendlyName" xml:space="preserve">
+    <value>Failed to select cells</value>
+  </data>
+  <data name="Error_WorksheetAlreadyExistsError_Description" xml:space="preserve">
+    <value>Indicates that the worksheet couldn't be added because a worksheet with the same name already exists</value>
+  </data>
+  <data name="Error_WorksheetAlreadyExistsError_FriendlyName" xml:space="preserve">
+    <value>A worksheet with the same name already exists</value>
+  </data>
+  <data name="Error_WorksheetNotFoundError_Description" xml:space="preserve">
+    <value>Indicates that a worksheet with the specified name couldn't be found</value>
+  </data>
+  <data name="Error_WorksheetNotFoundError_FriendlyName" xml:space="preserve">
+    <value>Can't find worksheet</value>
+  </data>
+  <data name="Error_WriteToExcelError_Description" xml:space="preserve">
+    <value>Indicates a problem writing the specified value to the Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_WriteToExcelError_FriendlyName" xml:space="preserve">
+    <value>Failed to write value to Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Excel_Description" xml:space="preserve">
+    <value>Automate any Excel related activity</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Excel_FriendlyName" xml:space="preserve">
+    <value>Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_CSV_FriendlyName" xml:space="preserve">
+    <value>CSV (.csv)</value>
+  </data>
+  <data name="ExcelFormat_DIF_FriendlyName" xml:space="preserve">
+    <value>DIF (.dif)</value>
+  </data>
+  <data name="ExcelFormat_Excel595_FriendlyName" xml:space="preserve">
+    <value>Excel 95 (.xls)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_Excel8_FriendlyName" xml:space="preserve">
+    <value>Excel 97-2003 Workbook (.xls)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_Excel972003AddIn_FriendlyName" xml:space="preserve">
+    <value>Excel 97-2003 Add-In (.xla)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_ExcelAddIn_FriendlyName" xml:space="preserve">
+    <value>Excel Add-In (.xlam)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_FromExtension_FriendlyName" xml:space="preserve">
+    <value>Default (From Extension)</value>
+  </data>
+  <data name="ExcelFormat_OpenDocumentSpreadsheet_FriendlyName" xml:space="preserve">
+    <value>OpenDocument Spreadsheet (.ods)</value>
+    <comment>{Locked="OpenDocument"}</comment>
+  </data>
+  <data name="ExcelFormat_OpenXmlWorkbook_FriendlyName" xml:space="preserve">
+    <value>Excel Workbook (.xlsx)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_OpenXmlWorkbookMacroEnabled_FriendlyName" xml:space="preserve">
+    <value>Excel Workbook Macro Enabled (.xlsm)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_StrictOpenXmlWorkbook_FriendlyName" xml:space="preserve">
+    <value>Strict Open XML Workbook (.xlsx)</value>
+  </data>
+  <data name="ExcelFormat_SYLK_FriendlyName" xml:space="preserve">
+    <value>SYLK (.slk)</value>
+  </data>
+  <data name="ExcelFormat_Template_FriendlyName" xml:space="preserve">
+    <value>Excel Template (.xltx)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_Template8_FriendlyName" xml:space="preserve">
+    <value>Excel 97-2003 Template (.xlt)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_TemplateMacroEnabled_FriendlyName" xml:space="preserve">
+    <value>Excel Template Macro Enabled (.xltm)</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelFormat_Text_FriendlyName" xml:space="preserve">
+    <value>Text (.txt)</value>
+  </data>
+  <data name="ExcelFormat_TextDOS_FriendlyName" xml:space="preserve">
+    <value>Text DOS (.txt)</value>
+  </data>
+  <data name="ExcelFormat_TextMacintosh_FriendlyName" xml:space="preserve">
+    <value>Text Macintosh (.txt)</value>
+    <comment>{Locked="Macintosh"}</comment>
+  </data>
+  <data name="ExcelFormat_UnicodeText_FriendlyName" xml:space="preserve">
+    <value>Unicode Text (.txt)</value>
+    <comment>{Locked="Unicode"}</comment>
+  </data>
+  <data name="ExcelFormat_WebPage_FriendlyName" xml:space="preserve">
+    <value>Web Page (.htm, .html)</value>
+    <comment>{Locked="html"}</comment>
+  </data>
+  <data name="ExcelFormat_XMLSpreadsheet_FriendlyName" xml:space="preserve">
+    <value>XML Spreadsheet (.xml)</value>
+  </data>
+  <data name="ExcelInstanceHandle_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ExcelInstanceHandle_FriendlyNamePlural" xml:space="preserve">
+    <value>Excel instances</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="FindWorksheetBy_Index_FriendlyName" xml:space="preserve">
+    <value>Index</value>
+  </data>
+  <data name="FindWorksheetBy_Name_FriendlyName" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="GetActiveWorksheet_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="GetActiveWorksheet_Description" xml:space="preserve">
+    <value>Retrieves an Excel document's active worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveWorksheet_FriendlyName" xml:space="preserve">
+    <value>Get active Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveWorksheet_Index_Description" xml:space="preserve">
+    <value>The index of the active worksheet</value>
+  </data>
+  <data name="GetActiveWorksheet_Index_FriendlyName" xml:space="preserve">
+    <value>Active worksheet index</value>
+  </data>
+  <data name="GetActiveWorksheet_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveWorksheet_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveWorksheet_Name_Description" xml:space="preserve">
+    <value>The name of the active worksheet</value>
+  </data>
+  <data name="GetActiveWorksheet_Name_FriendlyName" xml:space="preserve">
+    <value>Active worksheet name</value>
+  </data>
+  <data name="GetActiveWorksheet_Summary" xml:space="preserve">
+    <value>Get the name and index of the active worksheet of the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="GetAllWorksheets_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="GetAllWorksheets_Description" xml:space="preserve">
+    <value>Retrieves all worksheet names of an Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetAllWorksheets_FriendlyName" xml:space="preserve">
+    <value>Get all Excel worksheets</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetAllWorksheets_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetAllWorksheets_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetAllWorksheets_Summary" xml:space="preserve">
+    <value>Get all worksheet names of the Excel document whose instance is stored into instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="GetAllWorksheets_Worksheets_Description" xml:space="preserve">
+    <value>The names of all worksheets</value>
+  </data>
+  <data name="GetAllWorksheets_Worksheets_FriendlyName" xml:space="preserve">
+    <value>Worksheet names</value>
+  </data>
+  <data name="GetFirstFreeColumnRow_Description" xml:space="preserve">
+    <value>Retrieves the first free column and/or row of the active worksheet. This is useful for adding new data into a worksheet that already has data in it</value>
+  </data>
+  <data name="GetFirstFreeColumnRow_FirstFreeColumn_Description" xml:space="preserve">
+    <value>The numeric value of the first fully empty column. For example, if column F is the first empty column, it will be stored as '6'</value>
+  </data>
+  <data name="GetFirstFreeColumnRow_FirstFreeColumn_FriendlyName" xml:space="preserve">
+    <value>First free column</value>
+  </data>
+  <data name="GetFirstFreeColumnRow_FirstFreeRow_Description" xml:space="preserve">
+    <value>The numeric value of the first fully empty column. For example, if column F is the first empty column, it will be stored as '6'</value>
+  </data>
+  <data name="GetFirstFreeColumnRow_FirstFreeRow_FriendlyName" xml:space="preserve">
+    <value>First free row</value>
+  </data>
+  <data name="GetFirstFreeColumnRow_FriendlyName" xml:space="preserve">
+    <value>Get first free column/row from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeColumnRow_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeColumnRow_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeColumnRow_Summary" xml:space="preserve">
+    <value>Get the first free column/row in the active worksheet of the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Column_Description" xml:space="preserve">
+    <value>The index or letter that identifies the column. Column numbering starts from index 1</value>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Description" xml:space="preserve">
+    <value>Retrieve the first free row, given the column of the active worksheet</value>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_FirstFreeRowOnColumn_Description" xml:space="preserve">
+    <value>The numeric value of the given column's first fully empty row</value>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_FirstFreeRowOnColumn_FriendlyName" xml:space="preserve">
+    <value>The first free row in the column</value>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_FriendlyName" xml:space="preserve">
+    <value>Get first free row on column from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetFirstFreeRowOnColumn_Summary" xml:space="preserve">
+    <value>Get the first free row on column &lt;COLUMN&gt; in the active worksheet of the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;COLUMN&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="GetSelectedCellRange_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="GetSelectedCellRange_Description" xml:space="preserve">
+    <value>Retrieve the selected range of cells in a structure consisting of first column, first row, last column and last row</value>
+  </data>
+  <data name="GetSelectedCellRange_FirstColumnIndex_Description" xml:space="preserve">
+    <value>The numeric value of the range's first column</value>
+  </data>
+  <data name="GetSelectedCellRange_FirstColumnIndex_FriendlyName" xml:space="preserve">
+    <value>First column index</value>
+  </data>
+  <data name="GetSelectedCellRange_FirstRowIndex_Description" xml:space="preserve">
+    <value>The numeric value of the range's first row</value>
+  </data>
+  <data name="GetSelectedCellRange_FirstRowIndex_FriendlyName" xml:space="preserve">
+    <value>First row index</value>
+  </data>
+  <data name="GetSelectedCellRange_FriendlyName" xml:space="preserve">
+    <value>Get selected cell range from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetSelectedCellRange_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetSelectedCellRange_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetSelectedCellRange_LastColumnIndex_Description" xml:space="preserve">
+    <value>The numeric value of the range's last column</value>
+  </data>
+  <data name="GetSelectedCellRange_LastColumnIndex_FriendlyName" xml:space="preserve">
+    <value>Last column index</value>
+  </data>
+  <data name="GetSelectedCellRange_LastRowIndex_Description" xml:space="preserve">
+    <value>The numeric value of the range's last row</value>
+  </data>
+  <data name="GetSelectedCellRange_LastRowIndex_FriendlyName" xml:space="preserve">
+    <value>Last row index</value>
+  </data>
+  <data name="GetSelectedCellRange_Summary" xml:space="preserve">
+    <value>Get the selected range of cells in the active worksheet of the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="HorizontalDirection_Left_FriendlyName" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="HorizontalDirection_Right_FriendlyName" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="InsertColumn_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="InsertColumn_Column_Description" xml:space="preserve">
+    <value>The column's index number or letter. A new column will appear on the left side of the column indicated</value>
+  </data>
+  <data name="InsertColumn_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="InsertColumn_Description" xml:space="preserve">
+    <value>Inserts a column to the left of a selected column of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertColumn_FriendlyName" xml:space="preserve">
+    <value>Insert column to Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertColumn_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertColumn_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertColumn_Summary" xml:space="preserve">
+    <value>Insert a column to the left of column &lt;COLUMN&gt; of the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;COLUMN&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertRow_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="InsertRow_Description" xml:space="preserve">
+    <value>Inserts a row above a selected row of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertRow_FriendlyName" xml:space="preserve">
+    <value>Insert row to Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertRow_Index_Description" xml:space="preserve">
+    <value>The index of the row to add a new row above. The numbering starts from 1</value>
+  </data>
+  <data name="InsertRow_Index_FriendlyName" xml:space="preserve">
+    <value>Row index</value>
+  </data>
+  <data name="InsertRow_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertRow_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="InsertRow_Summary" xml:space="preserve">
+    <value>Insert a row above row with index &lt;INDEX&gt; of the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INDEX&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="Launch_Description" xml:space="preserve">
+    <value>Launches Excel with a blank document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Launch_Summary" xml:space="preserve">
+    <value>Launch Excel with a blank document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchAndOpen_Description" xml:space="preserve">
+    <value>Launches Excel and opens a document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchAndOpen_Summary" xml:space="preserve">
+    <value>Launch Excel and open document &lt;PATH&gt;</value>
+    <comment>{Locked="&lt;PATH&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_Description" xml:space="preserve">
+    <value>Launches a new Excel instance or opens an Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_FriendlyName" xml:space="preserve">
+    <value>Launch Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_Instance_Description" xml:space="preserve">
+    <value>The specific Excel instance for use with later Excel actions. This allows the user to specify which Excel spreadsheet to access</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Store Excel instance into</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_LaunchExcelMode_Description" xml:space="preserve">
+    <value>Specify whether to open a New Excel document, or an existing one</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_LaunchExcelMode_FriendlyName" xml:space="preserve">
+    <value>Launch Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_LoadAddInsAndMacros_Description" xml:space="preserve">
+    <value>Specify whether to load add-ins and macros into the new Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_LoadAddInsAndMacros_FriendlyName" xml:space="preserve">
+    <value>Load add-ins and macros</value>
+  </data>
+  <data name="LaunchExcel_Password_Description" xml:space="preserve">
+    <value>The password on the Excel document, if it's password protected</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_Password_FriendlyName" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="LaunchExcel_Path_Description" xml:space="preserve">
+    <value>The full path of the existing Excel document to open</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_Path_FriendlyName" xml:space="preserve">
+    <value>Document path</value>
+  </data>
+  <data name="LaunchExcel_ReadOnly_Description" xml:space="preserve">
+    <value>Specify whether to open the stored document in read-only mode or not</value>
+  </data>
+  <data name="LaunchExcel_ReadOnly_FriendlyName" xml:space="preserve">
+    <value>Open as ReadOnly</value>
+  </data>
+  <data name="LaunchExcel_Visible_Description" xml:space="preserve">
+    <value>Specify whether to make the Excel window visible or hide it</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="LaunchExcel_Visible_FriendlyName" xml:space="preserve">
+    <value>Make instance visible</value>
+  </data>
+  <data name="LaunchExcelMode_NewDocument_FriendlyName" xml:space="preserve">
+    <value>with a blank document</value>
+  </data>
+  <data name="LaunchExcelMode_StoredDocument_FriendlyName" xml:space="preserve">
+    <value>and open the following document</value>
+  </data>
+  <data name="Paste_Description" xml:space="preserve">
+    <value>Pastes a range of cells to the currently active cell of the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Paste_Summary" xml:space="preserve">
+    <value>Paste copied cells on currently active cell</value>
+  </data>
+  <data name="PasteAt_Description" xml:space="preserve">
+    <value>Pastes a range of cells to the specified position of the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="PasteAt_Summary" xml:space="preserve">
+    <value>Paste copied cells in cell in column &lt;COLUMN&gt; and row &lt;ROW&gt;</value>
+    <comment>{Locked="&lt;COLUMN&gt;"}{Locked="&lt;ROW&gt;"}</comment>
+  </data>
+  <data name="PasteCells_Description" xml:space="preserve">
+    <value>Paste a range of cells at the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="PasteCellsToExcel_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="PasteCellsToExcel_Column_Description" xml:space="preserve">
+    <value>The index or letter of the cell column</value>
+  </data>
+  <data name="PasteCellsToExcel_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="PasteCellsToExcel_Description" xml:space="preserve">
+    <value>Pastes a range of cells to the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="PasteCellsToExcel_FriendlyName" xml:space="preserve">
+    <value>Paste cells to Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="PasteCellsToExcel_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="PasteCellsToExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="PasteCellsToExcel_PasteMode_Description" xml:space="preserve">
+    <value>Specify whether to paste on a specified cell or the currently active cell</value>
+  </data>
+  <data name="PasteCellsToExcel_PasteMode_FriendlyName" xml:space="preserve">
+    <value>Paste mode</value>
+  </data>
+  <data name="PasteCellsToExcel_Row_Description" xml:space="preserve">
+    <value>The row number</value>
+  </data>
+  <data name="PasteCellsToExcel_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="Read_Description" xml:space="preserve">
+    <value>Reads the values of the currently selected cells of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Read_Summary" xml:space="preserve">
+    <value>&lt;if(RANGEVALUE)&gt;
+Read the values of the currently selected cells and store it into &lt;RANGEVALUE&gt;&lt;else&gt;
+Read the values of the currently selected cells&lt;endif&gt;</value>
+    <comment>{Locked="&lt;if(RANGEVALUE)&gt;"}{Locked="&lt;RANGEVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ReadCell_Description" xml:space="preserve">
+    <value>Reads the value of a single cell of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadCell_Summary" xml:space="preserve">
+    <value>&lt;if(CELLVALUE)&gt;
+Read the value of the cell in column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt; and store it into &lt;CELLVALUE&gt;&lt;else&gt;
+Read the value of the cell in column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}{Locked="&lt;if(CELLVALUE)&gt;"}{Locked="&lt;CELLVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ReadCells_Description" xml:space="preserve">
+    <value>Reads the values of a range of cells of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadCells_Summary" xml:space="preserve">
+    <value>&lt;if(RANGEVALUE)&gt;
+Read the values of the cells ranging from column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt; to column &lt;ENDCOLUMN&gt; row &lt;ENDROW&gt; and store it into &lt;RANGEVALUE&gt;&lt;else&gt;
+Read the values of the cells ranging from column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt; to column &lt;ENDCOLUMN&gt; row &lt;ENDROW&gt;&lt;endif&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}{Locked="&lt;ENDCOLUMN&gt;"}{Locked="&lt;ENDROW&gt;"}{Locked="&lt;if(RANGEVALUE)&gt;"}{Locked="&lt;RANGEVALUE&gt;"}{Locked="&lt;else&gt;"}{Locked="&lt;endif&gt;"}</comment>
+  </data>
+  <data name="ReadExcelCellsMode_RangeOfCells_FriendlyName" xml:space="preserve">
+    <value>Values from a range of cells</value>
+  </data>
+  <data name="ReadExcelCellsMode_Selection_FriendlyName" xml:space="preserve">
+    <value>Values from selection</value>
+  </data>
+  <data name="ReadExcelCellsMode_SingleCell_FriendlyName" xml:space="preserve">
+    <value>The value of a single cell</value>
+  </data>
+  <data name="ReadFromExcel_Description" xml:space="preserve">
+    <value>Reads the value of a cell or a range of cells from the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadFromExcel_EndColumn_Description" xml:space="preserve">
+    <value>The last column as a numeric value or a letter</value>
+  </data>
+  <data name="ReadFromExcel_EndColumn_FriendlyName" xml:space="preserve">
+    <value>End column</value>
+  </data>
+  <data name="ReadFromExcel_EndRow_Description" xml:space="preserve">
+    <value>The last row number</value>
+  </data>
+  <data name="ReadFromExcel_EndRow_FriendlyName" xml:space="preserve">
+    <value>End row</value>
+  </data>
+  <data name="ReadFromExcel_FirstLineIsHeader_Description" xml:space="preserve">
+    <value>Specify whether to consider the first row as column names. In this case, the names won't be read as data into the table and later actions can search the data by column names</value>
+  </data>
+  <data name="ReadFromExcel_FirstLineIsHeader_FriendlyName" xml:space="preserve">
+    <value>First line of range contains column names</value>
+  </data>
+  <data name="ReadFromExcel_FriendlyName" xml:space="preserve">
+    <value>Read from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadFromExcel_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadFromExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadFromExcel_ReadAsText_Description" xml:space="preserve">
+    <value>Specify whether to retrieve the content of the cell(s) purely as text or as the closest matching type such as Date Time for dates, Numeric for numbers and so on</value>
+  </data>
+  <data name="ReadFromExcel_ReadAsText_FriendlyName" xml:space="preserve">
+    <value>Get cell contents as text</value>
+  </data>
+  <data name="ReadFromExcel_ReadMode_Description" xml:space="preserve">
+    <value>Whether to retrieve the value of a single cell, a table from a range of cells or the entire worksheet</value>
+  </data>
+  <data name="ReadFromExcel_ReadMode_FriendlyName" xml:space="preserve">
+    <value>Retrieve</value>
+  </data>
+  <data name="ReadFromExcel_StartColumn_Description" xml:space="preserve">
+    <value>The cell column (single cell's value) or first column as a numeric value or a letter</value>
+  </data>
+  <data name="ReadFromExcel_StartColumn_FriendlyName" xml:space="preserve">
+    <value>Start column</value>
+  </data>
+  <data name="ReadFromExcel_StartRow_Description" xml:space="preserve">
+    <value>The cell row (single cell's value) or first row number</value>
+  </data>
+  <data name="ReadFromExcel_StartRow_FriendlyName" xml:space="preserve">
+    <value>Start row</value>
+  </data>
+  <data name="RenameWorksheet_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="RenameWorksheet_Description" xml:space="preserve">
+    <value>Renames a specific worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheet_FindWorksheetBy_Description" xml:space="preserve">
+    <value>Specify whether to find the worksheet by name or index</value>
+  </data>
+  <data name="RenameWorksheet_FindWorksheetBy_FriendlyName" xml:space="preserve">
+    <value>Rename worksheet with</value>
+  </data>
+  <data name="RenameWorksheet_FriendlyName" xml:space="preserve">
+    <value>Rename Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheet_Index_Description" xml:space="preserve">
+    <value>The index of the worksheet to rename. The numbering starts from 1, meaning that the index of the first worksheet is 1, of the second is 2 etc.</value>
+  </data>
+  <data name="RenameWorksheet_Index_FriendlyName" xml:space="preserve">
+    <value>Worksheet index</value>
+  </data>
+  <data name="RenameWorksheet_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheet_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheet_Name_Description" xml:space="preserve">
+    <value>The name of the worksheet to rename</value>
+  </data>
+  <data name="RenameWorksheet_Name_FriendlyName" xml:space="preserve">
+    <value>Worksheet name</value>
+  </data>
+  <data name="RenameWorksheet_NewName_Description" xml:space="preserve">
+    <value>The new name of the worksheet</value>
+  </data>
+  <data name="RenameWorksheet_NewName_FriendlyName" xml:space="preserve">
+    <value>Worksheet new name</value>
+  </data>
+  <data name="RenameWorksheetWithIndex_Description" xml:space="preserve">
+    <value>Renames a specific worksheet of an Excel instance specified by its index</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheetWithIndex_Summary" xml:space="preserve">
+    <value>Rename the worksheet with index&lt;INDEX&gt; from the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INDEX&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheetWithName_Description" xml:space="preserve">
+    <value>Renames a specific worksheet of an Excel instance specified by its name</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RenameWorksheetWithName_Summary" xml:space="preserve">
+    <value>Rename the worksheet &lt;NAME&gt; from the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;NAME&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="RunMacro_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="RunMacro_Description" xml:space="preserve">
+    <value>Runs a specified macro on the document of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RunMacro_FriendlyName" xml:space="preserve">
+    <value>Run Excel macro</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RunMacro_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RunMacro_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="RunMacro_Macro_Description" xml:space="preserve">
+    <value>The macro to run. The text should consist of the name of the macro, followed by any arguments (optional), all separated by semicolons</value>
+  </data>
+  <data name="RunMacro_Macro_FriendlyName" xml:space="preserve">
+    <value>Macro</value>
+  </data>
+  <data name="RunMacro_Summary" xml:space="preserve">
+    <value>Run macro &lt;MACRO&gt; on the Excel document whose instance is stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;MACRO&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="Save_Description" xml:space="preserve">
+    <value>Saves an Excel document</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Save_Summary" xml:space="preserve">
+    <value>Save the Excel document stored into &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveAs_Description" xml:space="preserve">
+    <value>Saves an Excel document specifying its name and format</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveAs_Summary" xml:space="preserve">
+    <value>Save the Excel document stored into &lt;INSTANCE&gt; as &lt;DOCUMENTPATH&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="&lt;DOCUMENTPATH&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveExcel_Description" xml:space="preserve">
+    <value>Saves a previously launched Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveExcel_DocumentFormat_Description" xml:space="preserve">
+    <value>The format to save the document as</value>
+  </data>
+  <data name="SaveExcel_DocumentFormat_FriendlyName" xml:space="preserve">
+    <value>Document format</value>
+  </data>
+  <data name="SaveExcel_DocumentPath_Description" xml:space="preserve">
+    <value>The full path to save the document as</value>
+  </data>
+  <data name="SaveExcel_DocumentPath_FriendlyName" xml:space="preserve">
+    <value>Document path</value>
+  </data>
+  <data name="SaveExcel_FriendlyName" xml:space="preserve">
+    <value>Save Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveExcel_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to save. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SaveExcel_SaveMode_Description" xml:space="preserve">
+    <value>How to save the document of this instance</value>
+  </data>
+  <data name="SaveExcel_SaveMode_FriendlyName" xml:space="preserve">
+    <value>Save mode</value>
+  </data>
+  <data name="SaveExcelMode_Save_FriendlyName" xml:space="preserve">
+    <value>Save document</value>
+  </data>
+  <data name="SaveExcelMode_SaveAs_FriendlyName" xml:space="preserve">
+    <value>Save document as</value>
+  </data>
+  <data name="SelectCells_Description" xml:space="preserve">
+    <value>Selects a range of cells in the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SelectCells_Summary" xml:space="preserve">
+    <value>Select the cells within a range from column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt; to column &lt;ENDCOLUMN&gt; row &lt;ENDROW&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}{Locked="&lt;ENDCOLUMN&gt;"}{Locked="&lt;ENDROW&gt;"}</comment>
+  </data>
+  <data name="SelectCellsFromExcel_Category" xml:space="preserve">
+    <value>Advanced</value>
+  </data>
+  <data name="SelectCellsFromExcel_Description" xml:space="preserve">
+    <value>Selects a range of cells in the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SelectCellsFromExcel_EndColumn_Description" xml:space="preserve">
+    <value>The index or letter of the last column</value>
+  </data>
+  <data name="SelectCellsFromExcel_EndColumn_FriendlyName" xml:space="preserve">
+    <value>End column</value>
+  </data>
+  <data name="SelectCellsFromExcel_EndRow_Description" xml:space="preserve">
+    <value>The last row number. The numbering starts from 1</value>
+  </data>
+  <data name="SelectCellsFromExcel_EndRow_FriendlyName" xml:space="preserve">
+    <value>End row</value>
+  </data>
+  <data name="SelectCellsFromExcel_FriendlyName" xml:space="preserve">
+    <value>Select cells in Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SelectCellsFromExcel_HorizontalDirection_Description" xml:space="preserve">
+    <value>The X-axis offset direction. Where to look along the horizontal axis, based on currently activated cell's position</value>
+  </data>
+  <data name="SelectCellsFromExcel_HorizontalDirection_FriendlyName" xml:space="preserve">
+    <value>X-axis direction</value>
+  </data>
+  <data name="SelectCellsFromExcel_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SelectCellsFromExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SelectCellsFromExcel_OffsetX_Description" xml:space="preserve">
+    <value>The X-axis offset</value>
+  </data>
+  <data name="SelectCellsFromExcel_OffsetX_FriendlyName" xml:space="preserve">
+    <value>X Offset</value>
+  </data>
+  <data name="SelectCellsFromExcel_OffsetY_Description" xml:space="preserve">
+    <value>The Y-axis offset</value>
+  </data>
+  <data name="SelectCellsFromExcel_OffsetY_FriendlyName" xml:space="preserve">
+    <value>Y Offset</value>
+  </data>
+  <data name="SelectCellsFromExcel_SpecifyCellsMode_Description" xml:space="preserve">
+    <value>Specify whether to select an explicitly specified range of cells or a range of cells relatively to the currently active cell</value>
+  </data>
+  <data name="SelectCellsFromExcel_SpecifyCellsMode_FriendlyName" xml:space="preserve">
+    <value>Select</value>
+  </data>
+  <data name="SelectCellsFromExcel_StartColumn_Description" xml:space="preserve">
+    <value>The index or letter of the first column</value>
+  </data>
+  <data name="SelectCellsFromExcel_StartColumn_FriendlyName" xml:space="preserve">
+    <value>Start column</value>
+  </data>
+  <data name="SelectCellsFromExcel_StartRow_Description" xml:space="preserve">
+    <value>The first row number. The numbering starts from 1</value>
+  </data>
+  <data name="SelectCellsFromExcel_StartRow_FriendlyName" xml:space="preserve">
+    <value>Start row</value>
+  </data>
+  <data name="SelectCellsFromExcel_VerticalDirection_Description" xml:space="preserve">
+    <value>The Y-axis offset direction. Where to look along the vertical axis, based on the position of the currently active cell</value>
+  </data>
+  <data name="SelectCellsFromExcel_VerticalDirection_FriendlyName" xml:space="preserve">
+    <value>Y-axis direction</value>
+  </data>
+  <data name="SelectCellsRelativeTo_Description" xml:space="preserve">
+    <value>Selects a range of cells in the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SelectCellsRelativeTo_Summary" xml:space="preserve">
+    <value>Select the cells within a range of the active cell point to the row at &lt;OFFSETY&gt; cell(s) &lt;VERTICALDIRECTION&gt; and column at &lt;OFFSETX&gt; cell(s) to the &lt;HORIZONTALDIRECTION&gt;</value>
+    <comment>{Locked="&lt;OFFSETY&gt;"}{Locked="&lt;VERTICALDIRECTION&gt;"}{Locked="&lt;OFFSETX&gt;"}{Locked="&lt;HORIZONTALDIRECTION&gt;"}</comment>
+  </data>
+  <data name="SetActiveWorksheet_Description" xml:space="preserve">
+    <value>Activates a specific worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SetActiveWorksheet_FindWorksheetBy_Description" xml:space="preserve">
+    <value>Specify whether to find the worksheet by name or index</value>
+  </data>
+  <data name="SetActiveWorksheet_FindWorksheetBy_FriendlyName" xml:space="preserve">
+    <value>Activate worksheet with</value>
+  </data>
+  <data name="SetActiveWorksheet_FriendlyName" xml:space="preserve">
+    <value>Set active Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SetActiveWorksheet_Index_Description" xml:space="preserve">
+    <value>The index number of the worksheet to activate. The numbering starts from 1, meaning that the index of the first worksheet is 1, of the second is 2, etc.</value>
+  </data>
+  <data name="SetActiveWorksheet_Index_FriendlyName" xml:space="preserve">
+    <value>Worksheet index</value>
+  </data>
+  <data name="SetActiveWorksheet_Instance_Description" xml:space="preserve">
+    <value>Specify the Excel instance. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SetActiveWorksheet_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="SetActiveWorksheet_Name_Description" xml:space="preserve">
+    <value>The name of the worksheet to activate</value>
+  </data>
+  <data name="SetActiveWorksheet_Name_FriendlyName" xml:space="preserve">
+    <value>Worksheet name</value>
+  </data>
+  <data name="SpecifyCellsMode_Absolute_FriendlyName" xml:space="preserve">
+    <value>Absolutely specified cell</value>
+  </data>
+  <data name="SpecifyCellsMode_Relative_FriendlyName" xml:space="preserve">
+    <value>Relatively specified cell</value>
+  </data>
+  <data name="TwoDimensionalDirection_Above_FriendlyName" xml:space="preserve">
+    <value>Above</value>
+  </data>
+  <data name="TwoDimensionalDirection_Below_FriendlyName" xml:space="preserve">
+    <value>Below</value>
+  </data>
+  <data name="TwoDimensionalDirection_Left_FriendlyName" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="TwoDimensionalDirection_Right_FriendlyName" xml:space="preserve">
+    <value>Right</value>
+  </data>
+  <data name="VerticalDirection_Above_FriendlyName" xml:space="preserve">
+    <value>Above</value>
+  </data>
+  <data name="VerticalDirection_Below_FriendlyName" xml:space="preserve">
+    <value>Below</value>
+  </data>
+  <data name="WorksheetPosition_First_FriendlyName" xml:space="preserve">
+    <value>First worksheet</value>
+  </data>
+  <data name="WorksheetPosition_Last_FriendlyName" xml:space="preserve">
+    <value>Last worksheet</value>
+  </data>
+  <data name="Write_Description" xml:space="preserve">
+    <value>Writes some value at the currently active cell of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Write_Summary" xml:space="preserve">
+    <value>Write the value &lt;VALUE&gt; into currently active cell of the Excel instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;VALUE&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteCell_Description" xml:space="preserve">
+    <value>Writes some value at the specified cell of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteCell_Summary" xml:space="preserve">
+    <value>Write the value &lt;VALUE&gt; into cell in column &lt;COLUMN&gt; and row &lt;ROW&gt; of the Excel instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;VALUE&gt;"}{Locked="&lt;COLUMN&gt;"}{Locked="&lt;ROW&gt;"}{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteExcelMode_ActiveCell_FriendlyName" xml:space="preserve">
+    <value>On currently active cell</value>
+  </data>
+  <data name="WriteExcelMode_SpecifiedCell_FriendlyName" xml:space="preserve">
+    <value>On specified cell</value>
+  </data>
+  <data name="WriteToExcel_Column_Description" xml:space="preserve">
+    <value>The column number or letter for the cell to write to</value>
+  </data>
+  <data name="WriteToExcel_Column_FriendlyName" xml:space="preserve">
+    <value>Column</value>
+  </data>
+  <data name="WriteToExcel_Description" xml:space="preserve">
+    <value>Writes a value into a cell or a range of cells of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteToExcel_FriendlyName" xml:space="preserve">
+    <value>Write to Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteToExcel_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteToExcel_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="WriteToExcel_Row_Description" xml:space="preserve">
+    <value>The row of the cell to write to. The numbering starts from 1, meaning that the index of the first worksheet is 1, of the second is 2 etc.</value>
+  </data>
+  <data name="WriteToExcel_Row_FriendlyName" xml:space="preserve">
+    <value>Row</value>
+  </data>
+  <data name="WriteToExcel_Value_Description" xml:space="preserve">
+    <value>Enter the text, number or variable to insert. If the variable contains a table, it will fill in cells to the right and below overwriting existing data, and a list will fill in cells below</value>
+  </data>
+  <data name="WriteToExcel_Value_FriendlyName" xml:space="preserve">
+    <value>Value to write</value>
+  </data>
+  <data name="WriteToExcel_WriteMode_Description" xml:space="preserve">
+    <value>Whether to write into a specified cell or the currently active cell</value>
+  </data>
+  <data name="WriteToExcel_WriteMode_FriendlyName" xml:space="preserve">
+    <value>Write mode</value>
+  </data>
+  <data name="ReadFromExcel_RangeValue_Description" xml:space="preserve">
+    <value>The value of the range of cells as a DataTable</value>
+  </data>
+  <data name="ReadFromExcel_RangeValue_FriendlyName" xml:space="preserve">
+    <value>Cell values</value>
+  </data>
+  <data name="ReadFromExcel_CellValue_Description" xml:space="preserve">
+    <value>The value of a single cell</value>
+  </data>
+  <data name="ReadFromExcel_CellValue_FriendlyName" xml:space="preserve">
+    <value>Cell value</value>
+  </data>
+  <data name="ErrorMessage_ActiveWorkbookRetrievalError" xml:space="preserve">
+    <value>Active workbook retrieval error.</value>
+  </data>
+  <data name="ErrorMessage_CanNotAttachToDocument" xml:space="preserve">
+    <value>Failed to attach to Excel document named {0}.</value>
+    <comment>{Locked="{0}"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_DocumentNotFound" xml:space="preserve">
+    <value>No Excel document found named {0}.</value>
+    <comment>{Locked="{0}"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_ExcelInstanceIsUninitialized" xml:space="preserve">
+    <value>Excel instance is un-initialized. Please doublecheck that the correct Excel instance has been specified and that it's used after a Launch Excel / Attach to running Excel action and not after the Excel instance has been closed.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_ExcelLaunchingError" xml:space="preserve">
+    <value>Excel launching error.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToActivateWorksheet" xml:space="preserve">
+    <value>Failed to activate worksheet.</value>
+  </data>
+  <data name="ErrorMessage_FailedToCloseExcel" xml:space="preserve">
+    <value>Failed to close Excel instance.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToLaunchExcel" xml:space="preserve">
+    <value>Failed to open Excel document '{0}' {1}.</value>
+    <comment>{Locked="{0}"}{Locked="{1}"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToRenameWorksheet" xml:space="preserve">
+    <value>Failed to rename worksheet.</value>
+  </data>
+  <data name="ErrorMessage_FailedToSaveExcel" xml:space="preserve">
+    <value>Failed to save Excel document '{0}'.</value>
+    <comment>{Locked="{0}"}{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_FileRelatedError" xml:space="preserve">
+    <value>File related error.</value>
+  </data>
+  <data name="ErrorMessage_InternalError" xml:space="preserve">
+    <value>Internal error.</value>
+  </data>
+  <data name="ErrorMessage_WorkbookAdditionError" xml:space="preserve">
+    <value>Workbook addition error.</value>
+  </data>
+  <data name="ErrorMessage_WorkbooksRetrievalError" xml:space="preserve">
+    <value>Workbooks retrieval error.</value>
+  </data>
+  <data name="ErrorMessage_WorksheetIndexError" xml:space="preserve">
+    <value>&lt;Worksheet Index&gt; must be greater than 0.</value>
+  </data>
+  <data name="ErrorMessage_WorksheetNotFound" xml:space="preserve">
+    <value>Can't find worksheet no {0}.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_WorksheetExists" xml:space="preserve">
+    <value>A worksheet named '{0}' already exists.</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToAddWorksheet" xml:space="preserve">
+    <value>Failed to add worksheet.</value>
+  </data>
+  <data name="XAxis" xml:space="preserve">
+    <value>X-axis</value>
+  </data>
+  <data name="ErrorMessage_CellSelectionFailed" xml:space="preserve">
+    <value>Failed to select cells.</value>
+  </data>
+  <data name="ErrorMessage_ColumnNotFound" xml:space="preserve">
+    <value>Can't find column.</value>
+  </data>
+  <data name="ErrorMessage_CopyFailed" xml:space="preserve">
+    <value>Failed to copy cells.</value>
+  </data>
+  <data name="ErrorMessage_EndColGreaterThanStartCol" xml:space="preserve">
+    <value>The start cell column can't be preceded by the end cell column.</value>
+  </data>
+  <data name="ErrorMessage_EndRowGreaterThanStartRow" xml:space="preserve">
+    <value>The start cell row can't be preceded by the end cell row.</value>
+  </data>
+  <data name="ErrorMessage_FailedToActivateCell" xml:space="preserve">
+    <value>Failed to activate cell.</value>
+  </data>
+  <data name="ErrorMessage_FailedToDeleteColumn" xml:space="preserve">
+    <value>Failed to delete column.</value>
+  </data>
+  <data name="ErrorMessage_FailedToDeleteRow" xml:space="preserve">
+    <value>Failed to delete row.</value>
+  </data>
+  <data name="ErrorMessage_FailedToDeleteWorksheet" xml:space="preserve">
+    <value>Failed to delete worksheet.</value>
+  </data>
+  <data name="ErrorMessage_FailedToGetActiveWorksheet" xml:space="preserve">
+    <value>Failed to get active worksheet.</value>
+  </data>
+  <data name="ErrorMessage_FailedToGetWorksheetNames" xml:space="preserve">
+    <value>Failed to retrieve all worksheet names.</value>
+  </data>
+  <data name="ErrorMessage_FailedToInsertColumn" xml:space="preserve">
+    <value>Failed to insert column.</value>
+  </data>
+  <data name="ErrorMessage_FailedToInsertRow" xml:space="preserve">
+    <value>Failed to insert row.</value>
+  </data>
+  <data name="ErrorMessage_FailedToReadCellValue" xml:space="preserve">
+    <value>Failed to read cell value(s).</value>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveFreeCell" xml:space="preserve">
+    <value>Failed to retrieve first free column/row.</value>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveRange" xml:space="preserve">
+    <value>Failed to retrieve the selected range of cells.</value>
+  </data>
+  <data name="ErrorMessage_FailedToRetrieveRowOrColumn" xml:space="preserve">
+    <value>Failed to retrieve first free row on given column.</value>
+  </data>
+  <data name="ErrorMessage_FailedToRunMacro" xml:space="preserve">
+    <value>Failed to run macro (make sure the macro containing file isn't included in the disabled items list).</value>
+  </data>
+  <data name="ErrorMessage_FailedToWrite" xml:space="preserve">
+    <value>Failed to write into Excel.</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidNumberOfCellsNum" xml:space="preserve">
+    <value>&lt;Number of cells {0}&gt; must be an integer greater than -1 (0,1,2,3 ..... etc.).</value>
+    <comment>{Locked="{0}"}</comment>
+  </data>
+  <data name="ErrorMessage_InvalidRowIndex" xml:space="preserve">
+    <value>&lt;Row&gt; must be an integer greater than 0.</value>
+    <comment>{Locked="&lt;Row&gt;"}</comment>
+  </data>
+  <data name="ErrorMessage_MacroSyntaxError" xml:space="preserve">
+    <value>Failed to run macro (invalid syntax).</value>
+  </data>
+  <data name="ErrorMessage_MissingDoubleQuotes" xml:space="preserve">
+    <value>Missing double quotes.</value>
+  </data>
+  <data name="ErrorMessage_PasteFailed" xml:space="preserve">
+    <value>Failed to paste cells.</value>
+  </data>
+  <data name="ErrorMessage_RowNotFound" xml:space="preserve">
+    <value>Can't find row.</value>
+  </data>
+  <data name="YAxis" xml:space="preserve">
+    <value>Y-axis</value>
+  </data>
+  <data name="ExcelInstanceAsString" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveCell_Description" xml:space="preserve">
+    <value>Get the active cell in the active worksheet of the Excel document</value>
+  </data>
+  <data name="GetActiveCell_FriendlyName" xml:space="preserve">
+    <value>Get active cell on Excel worksheet</value>
+  </data>
+  <data name="GetActiveCell_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveCell_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="GetActiveCell_Summary" xml:space="preserve">
+    <value>Get the active cell in the active worksheet of the Excel document in instance &lt;INSTANCE&gt;</value>
+    <comment>{Locked="&lt;INSTANCE&gt;"}{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_GetActiveCellError_Description" xml:space="preserve">
+    <value>Indicates a problem getting the active Excel cell</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="Error_GetActiveCellError_FriendlyName" xml:space="preserve">
+    <value>Failed to get active cell</value>
+  </data>
+  <data name="GetActiveCell_ActiveCellColumnIndex_Description" xml:space="preserve">
+    <value>The numeric value of the active cell's column</value>
+  </data>
+  <data name="GetActiveCell_ActiveCellColumnIndex_FriendlyName" xml:space="preserve">
+    <value>The active cell's column</value>
+  </data>
+  <data name="GetActiveCell_ActiveCellRowIndex_Description" xml:space="preserve">
+    <value>The numeric value of the active cell's row</value>
+  </data>
+  <data name="GetActiveCell_ActiveCellRowIndex_FriendlyName" xml:space="preserve">
+    <value>The active cell's row</value>
+  </data>
+  <data name="ErrorMessage_FailedToGetActiveCell" xml:space="preserve">
+    <value>Failed to get active cell.</value>
+  </data>
+  <data name="DeleteCellsAction_DeleteCellsMode_Description" xml:space="preserve">
+    <value>Whether to delete a single cell or a table from a range of cells</value>
+  </data>
+  <data name="DeleteCellsAction_DeleteCellsMode_FriendlyName" xml:space="preserve">
+    <value>Retrieve</value>
+  </data>
+  <data name="DeleteCellsAction_Description" xml:space="preserve">
+    <value>Deletes a cell or a range of cells from the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteCellsAction_EndColumn_Description" xml:space="preserve">
+    <value>The last column as a numeric value or a letter</value>
+  </data>
+  <data name="DeleteCellsAction_EndColumn_FriendlyName" xml:space="preserve">
+    <value>End column</value>
+  </data>
+  <data name="DeleteCellsAction_EndRow_Description" xml:space="preserve">
+    <value>The last row number</value>
+  </data>
+  <data name="DeleteCellsAction_EndRow_FriendlyName" xml:space="preserve">
+    <value>End row</value>
+  </data>
+  <data name="DeleteCellsAction_FriendlyName" xml:space="preserve">
+    <value>Delete from Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteCellsAction_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteCellsAction_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteCellsAction_ShiftCellsDirection_Description" xml:space="preserve">
+    <value>The shift direction</value>
+  </data>
+  <data name="DeleteCellsAction_ShiftCellsDirection_FriendlyName" xml:space="preserve">
+    <value>Shift direction</value>
+  </data>
+  <data name="DeleteCellsAction_StartColumn_Description" xml:space="preserve">
+    <value>The cell column (single cell's value) or first column as a numeric value or a letter</value>
+  </data>
+  <data name="DeleteCellsAction_StartColumn_FriendlyName" xml:space="preserve">
+    <value>Start column</value>
+  </data>
+  <data name="DeleteCellsAction_StartRow_Description" xml:space="preserve">
+    <value>The cell row (single cell's value) or first row number</value>
+  </data>
+  <data name="DeleteCellsAction_StartRow_FriendlyName" xml:space="preserve">
+    <value>Start row</value>
+  </data>
+  <data name="DeleteCellsMode_RangeOfCells_FriendlyName" xml:space="preserve">
+    <value>Values from a range of cells</value>
+  </data>
+  <data name="DeleteCellsMode_SingleCell_FriendlyName" xml:space="preserve">
+    <value>The value of a single cell</value>
+  </data>
+  <data name="ShiftCellsDirection_Left_FriendlyName" xml:space="preserve">
+    <value>Left</value>
+  </data>
+  <data name="ShiftCellsDirection_Up_FriendlyName" xml:space="preserve">
+    <value>Up</value>
+  </data>
+  <data name="ErrorMessage_FailedToDeleteCells" xml:space="preserve">
+    <value>Failed to delete cell(s)</value>
+  </data>
+  <data name="Error_DeleteCellsError_Description" xml:space="preserve">
+    <value>Indicates a problem deleting the specified cell(s)</value>
+  </data>
+  <data name="Error_DeleteCellsError_FriendlyName" xml:space="preserve">
+    <value>Failed to delete cell(s)</value>
+  </data>
+  <data name="DeleteCells_Description" xml:space="preserve">
+    <value>Deletes a range of cells from Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteCells_Summary" xml:space="preserve">
+    <value>Delete the cells ranging from column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt; to column &lt;ENDCOLUMN&gt; row &lt;ENDROW&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}{Locked="&lt;ENDCOLUMN&gt;"}{Locked="&lt;ENDROW&gt;"}</comment>
+  </data>
+  <data name="DeleteCell_Description" xml:space="preserve">
+    <value>Deletes a single cell from Excel</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="DeleteCell_Summary" xml:space="preserve">
+    <value>Delete the cell in column &lt;STARTCOLUMN&gt; row &lt;STARTROW&gt;</value>
+    <comment>{Locked="&lt;STARTCOLUMN&gt;"}{Locked="&lt;STARTROW&gt;"}</comment>
+  </data>
+  <data name="GetColumnName_Description" xml:space="preserve">
+    <value>Gets the name of the column</value>
+  </data>
+  <data name="GetColumnName_FriendlyName" xml:space="preserve">
+    <value>Get column name on Excel worksheet</value>
+  </data>
+  <data name="ErrorMessage_ColumnNumberLessThanOne" xml:space="preserve">
+    <value>The column number must be greater than 1 or less than 16384.</value>
+  </data>
+  <data name="GetColumnName_CellColumnIndex_Description" xml:space="preserve">
+    <value>The column number</value>
+  </data>
+  <data name="GetColumnName_CellColumnIndex_FriendlyName" xml:space="preserve">
+    <value>Column number</value>
+  </data>
+  <data name="GetColumnName_Summary" xml:space="preserve">
+    <value>Get the column name for column number &lt;CELLCOLUMNINDEX&gt;</value>
+    <comment>{Locked="&lt;CELLCOLUMNINDEX&gt;"}</comment>
+  </data>
+  <data name="ReadExcelCellsMode_AllCells_FriendlyName" xml:space="preserve">
+    <value>All available values from worksheet</value>
+  </data>
+  <data name="ReadAllCells_Description" xml:space="preserve">
+    <value>Reads the values of all data from an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ReadAllCells_Summary" xml:space="preserve">
+    <value>Read the values of all cells in worksheet and store it into &lt;RANGEVALUE&gt;</value>
+    <comment>{Locked="&lt;RANGEVALUE&gt;"}</comment>
+  </data>
+  <data name="FindAndReplaceAction_Description" xml:space="preserve">
+    <value>Finds text and replaces it with another in the active worksheet of an Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="FindAndReplaceAction_FriendlyName" xml:space="preserve">
+    <value>Find and replace cells in Excel worksheet</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="ErrorMessage_FailedToFindAndReplace" xml:space="preserve">
+    <value>Failed to find and/or replace text.</value>
+  </data>
+  <data name="Error_FindAndReplaceError_Description" xml:space="preserve">
+    <value>Indicates a problem finding and/or replacing text</value>
+  </data>
+  <data name="Error_FindAndReplaceError_FriendlyName" xml:space="preserve">
+    <value>Failed to find and/or replace text</value>
+  </data>
+  <data name="FindAndReplaceAction_Instance_Description" xml:space="preserve">
+    <value>The Excel instance to work with. This variable must have been previously specified in a Launch Excel action</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="FindAndReplaceAction_Instance_FriendlyName" xml:space="preserve">
+    <value>Excel instance</value>
+    <comment>{Locked="Excel"}</comment>
+  </data>
+  <data name="FindAndReplaceAction_Mode_Description" xml:space="preserve">
+    <value>The mode to search with</value>
+  </data>
+  <data name="FindAndReplaceAction_Mode_FriendlyName" xml:space="preserve">
+    <value>Search mode</value>
+  </data>
+  <data name="FindAndReplaceAction_TextToFind_Description" xml:space="preserve">
+    <value>The text to find in the worksheet</value>
+  </data>
+  <data name="FindAndReplaceAction_TextToFind_FriendlyName" xml:space="preserve">
+    <value>Text to find</value>
+  </data>
+  <data name="FindAndReplaceAction_TextToReplaceWith_Description" xml:space="preserve">
+    <value>The text used to replace the matching cells</value>
+  </data>
+  <data name="FindAndReplaceAction_TextToReplaceWith_FriendlyName" xml:space="preserve">
+    <value>Text to replace with</value>
+  </data>
+  <data name="FindAndReplaceAction_MatchCase_Description" xml:space="preserve">
+    <value>Whether to search for case-sensitive data</value>
+  </data>
+  <data name="FindAndReplaceAction_MatchCase_FriendlyName" xml:space="preserve">
+    <value>Match case</value>
+  </data>
+  <data name="FindAndReplaceAction_MatchEntireCellContents_Description" xml:space="preserve">
+    <value>Whether to search for cells that contain just the specified text</value>
+  </data>
+  <data name="FindAndReplaceAction_MatchEntireCellContents_FriendlyName" xml:space="preserve">
+    <value>Match entire cell contents</value>
+  </data>
+  <data name="FindAndReplaceAction_SearchBy_Description" xml:space="preserve">
+    <value>The order in which to search for the text</value>
+  </data>
+  <data name="FindAndReplaceAction_SearchBy_FriendlyName" xml:space="preserve">
+    <value>Search by</value>
+  </data>
+  <data name="FindSingle_Description" xml:space="preserve">
+    <value>Finds the first occurring cell containing the specified text</value>
+  </data>
+  <data name="FindSingle_FriendlyName" xml:space="preserve">
+    <value>Find the first occurrence</value>
+  </data>
+  <data name="FindSingle_Summary" xml:space="preserve">
+    <value>Find the first occurring cell with text &lt;TEXTTOFIND&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}</comment>
+  </data>
+  <data name="FindAll_Description" xml:space="preserve">
+    <value>Finds all cells containing the specified text</value>
+  </data>
+  <data name="FindAll_FriendlyName" xml:space="preserve">
+    <value>Find all</value>
+  </data>
+  <data name="FindAll_Summary" xml:space="preserve">
+    <value>Find all cells with text &lt;TEXTTOFIND&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}</comment>
+  </data>
+  <data name="FindAndReplaceSingle_Description" xml:space="preserve">
+    <value>Finds and replaces the first occurring cell containing the specified text</value>
+  </data>
+  <data name="FindAndReplaceSingle_FriendlyName" xml:space="preserve">
+    <value>Find and replace the first occurrence</value>
+  </data>
+  <data name="FindAndReplaceSingle_Summary" xml:space="preserve">
+    <value>Find the first occurring cell with text &lt;TEXTTOFIND&gt; and replace it with &lt;TEXTTOREPLACEWITH&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;TEXTTOREPLACEWITH&gt;"}</comment>
+  </data>
+  <data name="FindAndReplaceAll_Description" xml:space="preserve">
+    <value>Finds and replaces all cells containing the specified text</value>
+  </data>
+  <data name="FindAndReplaceAll_FriendlyName" xml:space="preserve">
+    <value>Find and replace all</value>
+  </data>
+  <data name="FindAndReplaceAll_Summary" xml:space="preserve">
+    <value>Find all cells with text &lt;TEXTTOFIND&gt; and replace them with &lt;TEXTTOREPLACEWITH&gt;</value>
+    <comment>{Locked="&lt;TEXTTOFIND&gt;"}{Locked="&lt;TEXTTOREPLACEWITH&gt;"}</comment>
+  </data>
+  <data name="SearchOrder_Rows_FriendlyName" xml:space="preserve">
+    <value>Rows</value>
+  </data>
+  <data name="SearchOrder_Columns_FriendlyName" xml:space="preserve">
+    <value>Columns</value>
+  </data>
+  <data name="FindAndReplaceMode_Find_FriendlyName" xml:space="preserve">
+    <value>Find</value>
+  </data>
+  <data name="FindAndReplaceMode_FindAndReplace_FriendlyName" xml:space="preserve">
+    <value>Find and replace</value>
+  </data>
+  <data name="FindAndReplaceAction_Cells_Description" xml:space="preserve">
+    <value>The list of cells matching the criteria</value>
+  </data>
+  <data name="FindAndReplaceAction_Cells_FriendlyName" xml:space="preserve">
+    <value>Cells</value>
+  </data>
+  <data name="FindAndReplaceAction_AllMatches_Description" xml:space="preserve">
+    <value>Whether to find/replace text in all the matching cells found or in the first matching cell only</value>
+  </data>
+  <data name="FindAndReplaceAction_AllMatches_FriendlyName" xml:space="preserve">
+    <value>All matches</value>
+  </data>
+  <data name="FindAndReplaceAction_FoundColumnIndex_Description" xml:space="preserve">
+    <value>The index of the column found</value>
+  </data>
+  <data name="FindAndReplaceAction_FoundColumnIndex_FriendlyName" xml:space="preserve">
+    <value>Column index</value>
+  </data>
+  <data name="FindAndReplaceAction_FoundRowIndex_Description" xml:space="preserve">
+    <value>The index of the row found</value>
+  </data>
+  <data name="FindAndReplaceAction_FoundRowIndex_FriendlyName" xml:space="preserve">
+    <value>Row index</value>
+  </data>
+  <data name="GetColumnName_ColumnName_Description" xml:space="preserve">
+    <value>The name of the column</value>
+  </data>
+  <data name="GetColumnName_ColumnName_FriendlyName" xml:space="preserve">
+    <value>Column name</value>
+  </data>
+</root>

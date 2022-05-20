@@ -1,0 +1,84 @@
+{
+  "strings": {
+    "header": {
+      "settingsMenu": {
+        "adminCenter": "Admin Center",
+        "_adminCenter.comment": "Admin center link text",
+        "viewMyLicenses": "View My Licenses",
+        "_viewMyLicenses.comment": "View My Licenses link text",
+        "powerAutomateSettings": "View all Power Automate Settings",
+        "_powerAutomateSettings.comment": "Power automate settings link text"
+      },
+      "helpMenu": {
+        "documentation": "Documentation",
+        "_documentation.comment": "Documentation link text",
+        "learn": "Learn",
+        "_learn.comment": "Learn link text",
+        "support": "Support",
+        "_support.comment": "Support link text",
+        "roadmap": "Roadmap",
+        "_roadmap.comment": "Roadmap link text",
+        "community": "Community",
+        "_community.comment": "Community link text",
+        "giveFeedback": "Give Feedback",
+        "_giveFeedback.comment": "Give Feedback link text",
+        "blog": "Blog",
+        "_blog.comment": "Blog link text",
+        "desktopFlows": "Desktop flows",
+        "_desktopFlows.comment": "Desktop flows link text",
+        "pricing": "Pricing",
+        "_pricing.comment": "Pricing link text",
+        "PADesktop": "Power Automate Desktop",
+        "_PADesktop.comment": "Power Automate Desktop link text",
+        "PAForMobile": "Power Automate for Mobile",
+        "_PAForMobile.comment": "Power Automate for Mobile link text",
+        "dataGateway": "Data Gateway",
+        "_dataGateway.comment": "Data Gateway link text"
+      },
+      "signoutMenu": {
+        "signoutButtonLabel": "Sign out",
+        "_signoutButtonLabel.comment": "Sign out button label"
+      },
+      "environmentPicker": {
+        "environmentPickerButtonLabel": "Environments",
+        "_environmentPickerButtonLabel.comment": "Environment picker button label"
+      }
+    },
+    "viewMyLicensesPanel": {
+      "title": "Licenses",
+      "_title.comment": "This is the title of the view my license panel",
+      "userPlans": {
+        "aiBuilderTrial": "AI Builder Trial",
+        "_aiBuilderTrial.comment": "This is the display name for AI Builder Trial plan"
+      },
+      "environmentPlans": {
+        "perFlowPlan": "Per-flow plan",
+        "_perFlowPlan.comment": "This is the display name for per flow plan",
+        "unattended": "Robotic process automation (RPA) - unattended add-on",
+        "_unattended.comment": "This is the display name for unattended add-on",
+        "aibuilder": "AI Builder add-on",
+        "_aibuilder.comment": "This is the display name for AI Builder add-on"
+      },
+      "capabilities": {
+        "standardConnector": "Standard connectors",
+        "_standardConnector.comment": "Display name for Standard connectors capability",
+        "premiumConnector": "Premium connectors",
+        "_premiumConnector.comment": "Display name for Premium connectors capability",
+        "customConnector": "Custom connectors",
+        "_customConnector.comment": "Display name for Custom connectors capability",
+        "onPremiseConnector": "On-premise connectors",
+        "_onPremiseConnector.comment": "Display name for On-premise connectors capability",
+        "rpaAttended": "Robotic process automation (RPA) - attended",
+        "_rpaAttended.comment": "Display name for Robotic process automation (RPA) - attended capability",
+        "rpaUnattended": "Robotic process automation (RPA) - unattended",
+        "_rpaUnattended.comment": "Display name for Robotic process automation (RPA) - unattended capability",
+        "processFlows": "Business process flows",
+        "_processFlows.comment": "Display name for Business process flows capability",
+        "aibuilder": "AI Builder",
+        "_aibuilder.comment": "Display name for AI Builder capability",
+        "processAdvisor": "Process advisor",
+        "_processAdvisor.comment": "Display name for Process advisor"
+      }
+    }
+  }
+}

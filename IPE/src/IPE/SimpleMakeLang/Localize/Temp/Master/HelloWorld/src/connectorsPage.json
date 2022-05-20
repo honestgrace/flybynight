@@ -1,0 +1,30 @@
+{
+  "strings": {
+    "IndependentPublishersSection": "Independent Publisher connectors",
+    "RecentlyAddedSection": "Recently added connectors",
+    "PopularSection": "Popular connectors",
+    "CategoryDropdown_AriaLabel": "Filter connectors",
+    "SearchBox": {
+      "Placeholder": "Search connnector",
+      "AriaLabel": "Filter connectors"
+    },
+    "PremiumConnectors": "Premium connectors",
+    "AllConnectors": "All connectors",
+    "StandardConnectors": "Standard connectors",
+    "NoConnectorsFound": "We couldn't find any connectors that matched your search.",
+    "CreateYourOwnConnectors": "Want to create your own connectors?",
+    "FailedToLoadConnectors": "We couldn't load connectors. Please try again.",
+    "Premium": "Premium",
+    "_Premium.comment": "A single label behind a picture indicating a connector is premium",
+    "SeeDocumentation": "See documentation",
+    "Operations": {
+      "Header": "Triggers - A trigger is an event that starts a flow",
+      "Empty": "There are currently no triggers for this connector. Help us decide which services and triggers to add.",
+      "Error": "Failed to load triggers. Please try again."
+    },
+    "UserVoice": "UserVoice",
+    "_UserVoice.comment": "UserVoice suggestion link text",
+    "DetailsPageGeneralError": "Failed to load connector. Please try again.",
+    "NoRecommendedTemplate": "No related templates found."
+  }
+}
